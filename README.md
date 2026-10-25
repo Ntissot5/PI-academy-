@@ -102,6 +102,12 @@ Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au dém
 - **Lecture** : chacun voit ses données ; un prof voit les élèves de ses classes seulement ; l’admin voit tout.
 - **Protection des mineurs** : pas d’e-mail ni de nom complet pour les élèves, pas d’analytics ni de traceur tiers, polices servies par l’appli.
 
+## Plan d’études romand (PER)
+
+Chaque type d’exercices est rattaché aux objectifs du PER, cycle 3, dans `lib/per.ts`. Les codes sont affichés sur la page de chaque unité (« Hors PER · secondaire II » pour les contenus de la prépa EPFL au-delà de la 11e). Le tableau de relecture pour les enseignant·es est `docs/PER-correspondance.md`, généré par `node --experimental-strip-types scripts/per-table.ts`.
+
+Les codes ont été établis sans accès au site officiel (plandetudes.ch) : ils doivent être validés par un·e enseignant·e. Les exercices sont créés par la plateforme et ne reprennent pas ceux des moyens d’enseignement romands, protégés par le droit d’auteur.
+
 ## Contenu des nouvelles matières
 
 Les parcours de français, allemand, anglais, sciences, géographie, histoire et citoyenneté sont marqués **Bêta** (`statut = a_valider`) : le contenu est écrit à partir de faits vérifiables (conjugaisons, institutions, dates), mais il doit être relu par des enseignant·es avant d’être présenté comme conforme au plan d’études. L’admin passe un parcours en « Publié » une fois relu.

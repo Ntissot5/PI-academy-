@@ -10,6 +10,7 @@ import { DEFAULT_ICON } from "@/lib/generators";
 import { isFinal, unlocked, useEtat } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { LVL, mastery } from "@/lib/mastery";
+import { OBJECTIFS_PER, perPourUnite } from "@/lib/per";
 
 /** Page d'unité : openUnit() du prototype. */
 export default function UnitPage() {
@@ -51,6 +52,7 @@ export default function UnitPage() {
     <section>
       <div className="crumb"><Link href={`/parcours/${slug}`} id="bk">Cours</Link><span>›</span><span>{f ? "Examen final" : `Unité ${i + 1}`}</span></div>
       <div className="uhead"><img className="ico" src={img(c.icone || DEFAULT_ICON[c.id_generateur] || "star")} alt="" /><div><h1>{c.titre}</h1><p>{c.sous_titre} · {LVL[lv]}</p></div></div>
+      <PerLine id={c.id_generateur} units={etat.unites} />
       <div className="ugrid">
         <article className="article">
           <div><h4>La règle</h4><p>{c.regle}</p></div>
@@ -74,5 +76,20 @@ export default function UnitPage() {
         </div>
       </div>
     </section>
+  );
+}
+
+/** Objectifs du Plan d'études romand visés par l'unité (ou mention « hors PER » pour le secondaire II). */
+function PerLine({ id, units }: { id: string; units: { id_generateur: string }[] }) {
+  const per = perPourUnite(id, units);
+  if (per.horsPer) return <p className="per-line"><span className="pill-s mute" title={per.note}>Hors PER · secondaire II</span></p>;
+  if (!per.objectifs.length) return null;
+  return (
+    <p className="per-line">
+      <span className="small">Plan d’études romand{per.annees ? ` · ${per.annees}` : ""} :</span>
+      {per.objectifs.map((code) => (
+        <span key={code} className="pill-s" title={OBJECTIFS_PER[code]?.titre}>{code} · {OBJECTIFS_PER[code]?.axe}</span>
+      ))}
+    </p>
   );
 }

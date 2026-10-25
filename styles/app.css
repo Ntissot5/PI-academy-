@@ -156,3 +156,7 @@ a.unit{text-decoration:none;color:inherit}
 .mat-tile b{font-family:var(--f-display);font-size:1.05rem;font-weight:600;line-height:1.2}
 .mat-tile .small{font-size:.8rem}
 @media (max-width:620px){.mat-grid{grid-template-columns:repeat(2,1fr);gap:10px}.mat-tile .ic{width:60px;height:60px}.mat-tile .ic img{width:48px;height:48px}}
+
+/* objectifs du Plan d'études romand sur la page d'unité */
+.per-line{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:-10px 0 18px}
+.per-line .pill-s{cursor:help}
