@@ -1,5 +1,5 @@
 import { pick } from "../math";
-import { melange, qcm, qcmFixe, saisie, tirer } from "./f-outils";
+import { qcm, qcmFixe, saisie, tirer } from "./f-outils";
 import type { Question } from "./types";
 
 /* Graphies fondamentales : [son, graphies possibles, [mot, graphie utilisée]]. */
@@ -69,15 +69,15 @@ function mbp(): Question {
 
 /* Lettre muette finale : [mot, lettre muette, mot de la même famille qui la fait entendre]. */
 const MUETTES: readonly (readonly [string, string, string])[] = [
-  ["chat", "t", "chaton"], ["lit", "t", "literie"], ["loup", "p", "louve"], ["dos", "s", "dossier"], ["lait", "t", "laitier"],
-  ["sirop", "p", "siroter"], ["tapis", "s", "tapisser"], ["canard", "d", "canarder"].slice(0, 2) as unknown as [string, string, string],
-  ["grand", "d", "grande"], ["petit", "t", "petite"], ["gros", "s", "grosse"], ["bavard", "d", "bavarde"], ["chaud", "d", "chaude"],
-  ["blanc", "c", "blanche"], ["galop", "p", "galoper"], ["bond", "d", "bondir"], ["rang", "g", "ranger"], ["camp", "p", "camper"],
-  ["sport", "t", "sportif"], ["haricot", "t", "haricots"].slice(0, 2) as unknown as [string, string, string], ["bois", "s", "boiserie"],
+  ["chat", "t", "chaton"], ["lit", "t", "literie"], ["dos", "s", "dossier"], ["lait", "t", "laitier"], ["sirop", "p", "siroter"],
+  ["tapis", "s", "tapisser"], ["grand", "d", "grande"], ["petit", "t", "petite"], ["gros", "s", "grosse"], ["bavard", "d", "bavarde"],
+  ["chaud", "d", "chaude"], ["galop", "p", "galoper"], ["bond", "d", "bondir"], ["camp", "p", "camper"], ["sport", "t", "sportif"],
+  ["bois", "s", "boiserie"], ["toit", "t", "toiture"], ["tricot", "t", "tricoter"], ["regard", "d", "regarder"], ["riz", "z", "rizière"],
+  ["bord", "d", "border"], ["gris", "s", "grise"], ["long", "g", "longue"], ["rond", "d", "ronde"],
 ];
 
 function muette(): Question {
-  const [mot, l, famille] = pick(MUETTES.filter((x) => x.length === 3));
+  const [mot, l, famille] = pick(MUETTES);
   return saisie(
     `Quelle lettre ne se prononce pas à la fin du mot <b>${mot}</b> ?`,
     l,
@@ -92,11 +92,11 @@ const FUSION: readonly (readonly [string, string, string, readonly string[]])[] 
   ["ch", "a", "cha", ["ca", "sa"]], ["m", "ou", "mou", ["mo", "nou"]], ["p", "i", "pi", ["bi", "qi"]], ["l", "u", "lu", ["lo", "lou"]],
   ["r", "o", "ro", ["ra", "or"]], ["v", "é", "vé", ["fé", "ve"]], ["t", "on", "ton", ["tan", "don"]], ["f", "in", "fin", ["fan", "vin"]],
   ["b", "an", "ban", ["dan", "bon"]], ["s", "oi", "soi", ["so", "si"]], ["j", "ou", "jou", ["chou", "jo"]], ["n", "a", "na", ["ma", "an"]],
-  ["g", "a", "ga", ["ja", "ca"]], ["d", "é", "dé", ["bé", "té"]], ["qu", "i", "qui", ["ki", "gui"]].slice(0, 0) as unknown as [string, string, string, string[]],
+  ["g", "a", "ga", ["ja", "ca"]], ["d", "é", "dé", ["bé", "té"]],
 ];
 
 function fusion(): Question {
-  const [c, v, syl, autres] = pick(FUSION.filter((x) => x.length === 4));
+  const [c, v, syl, autres] = pick(FUSION);
   return qcm(
     `Assemble les lettres <b>${c}</b> et <b>${v}</b> : quelle syllabe lis-tu ?`,
     syl,
@@ -111,5 +111,3 @@ function fusion(): Question {
 export function gen(): Question {
   return tirer([graphie, graphie, entendre, entendre, mbp, muette, fusion]);
 }
-
-export const _test = { melange };

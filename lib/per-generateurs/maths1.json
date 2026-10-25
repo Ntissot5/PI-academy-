@@ -1,1 +1,594 @@
-{ "generateurs": {}, "en_classe": [] }
+{
+  "generateurs": {
+    "m1-compter": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 12",
+          "notion": "",
+          "plage": "1re-2e",
+          "cherche": "nombres familiers: jusqu'à 12"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Dénombrement d'une petite collection d'objets"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Estimation du nombre d'objets d'une collection par perception globale"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Comparaison de deux collections"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Utilisation des nombres (nombres familiers) comme outil pour dénombrer"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Expérimentation des premiers nombres"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes numériques, notamment"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-avant-apres": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 12",
+          "notion": "",
+          "plage": "1re-2e",
+          "cherche": "nombres fréquentés: jusqu'à environ 30"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Mémorisation de la suite numérique"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Augmentation et diminution du nombre d'objets"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "1re-2e",
+          "cherche": "Expérimentation des premiers nombres"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-add10": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 13",
+          "notion": "",
+          "plage": "1re-2e",
+          "cherche": "nombres naturels de 0 à 10"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "1re-2e",
+          "cherche": "Utilisation du recomptage"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-2e",
+          "cherche": "Résolution de problèmes additifs et soustractifs (EEE, ETE)"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes numériques en lien avec les opérations étudiées"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-position": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 11",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "plage": "1re-2e",
+          "cherche": "Détermination de sa position ou de celle d'un objet (devant, derrière, à côté, sur, sous, entre"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "plage": "1re-2e",
+          "cherche": "orientation en variant les points de référence"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-formes": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "1re-2e",
+          "cherche": "Manipulation, observation et reconnaissance de formes géométriques simples"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "1re-2e",
+          "cherche": "Classement d'objets selon un critère"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "1re-4e",
+          "cherche": "Reproduction et réalisation de formes planes (frises, pavages"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes géométriques"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-grandeurs": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "1re-2e",
+          "cherche": "Comparaison directe de deux ou plusieurs objets selon une grandeur"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "1re-2e",
+          "cherche": "Approche perceptive de quelques grandeurs"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes de mesurage"
+        }
+      ],
+      "annees": [
+        1,
+        2
+      ]
+    },
+    "m1-trajet": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 11",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "plage": "3e-4e",
+          "cherche": "à l'intérieur, à l'extérieur, à gauche, à droite"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "plage": "3e-4e",
+          "cherche": "Utilisation d'un code personnel pour mémoriser et communiquer des itinéraires"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "plage": "3e-4e",
+          "cherche": "Description d'un trajet dans son espace familier"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "déduction d’une information nouvelle à partir de celles qui sont connues"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-formes2": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "3e-4e",
+          "cherche": "Manipulation, observation, reconnaissance, description et dénomination des formes géométriques simples"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "3e-4e",
+          "cherche": "Classement d'objets selon deux critères"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "3e-4e",
+          "cherche": "Composition d'une surface élémentaire à partir d'autres surfaces élémentaires"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "3e-4e",
+          "cherche": "ce qui ne change pas"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Figures et transformations géométriques",
+          "plage": "1re-4e",
+          "cherche": "Reproduction et réalisation de formes planes (frises, pavages"
+        },
+        {
+          "code": "MSN 11",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes géométriques"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-nombres": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 12",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "nombres naturels de 0 à 200"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "par comptage organisé, par groupements de 10"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée, et inversement"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Passage du mot-nombre (oral ou écrit) à sa décomposition en unités et dizaines"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Production d'un nombre plus grand ou plus petit d'une unité"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes numériques, notamment"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-compter-par": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Comptage et décomptage de 1 en 1, de 10 en 10"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Comptage de 2 en 2, de 5 en 5 à partir de 0"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Reconnaissance de quelques suites numériques (pair, impair"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-comparer": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Comparaison, classement, encadrement, intercalation de nombres"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "par correspondance terme à terme, par dénombrement, par estimation"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "plage": "3e-4e",
+          "cherche": "Estimation du nombre d'objets d'une collection par perception globale"
+        },
+        {
+          "code": "MSN 12",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "nombres naturels de 0 à 200"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-calc20": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 13",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "nombres naturels de 0 à 20 en 3e"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Utilisation du surcomptage"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Utilisation des propriétés du système de numération et de l'addition"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Mémorisation du répertoire additif de 0+0 à 9+9"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Mémorisation du répertoire soustractif de 0-0 à 10-10"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Anticipation du résultat d'un calcul"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-calc200": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 13",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "de 0 à 200 en 4e"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "calcul réfléchi avec possibilité d'utiliser un support"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Utilisation des propriétés du système de numération et de l'addition"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Calculs",
+          "plage": "3e-4e",
+          "cherche": "Anticipation du résultat d'un calcul"
+        }
+      ],
+      "annees": [
+        4,
+        4
+      ]
+    },
+    "m1-prob20": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 13",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "nombres naturels de 0 à 20 en 3e"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "Résolution de problèmes additifs et soustractifs (EEE, ETE, ECE)"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "traduction des données d’un problème en opérations arithmétiques"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "Approche de la multiplication"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes numériques en lien avec les opérations étudiées"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "ajustement d’essais successifs"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    },
+    "m1-prob200": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 13",
+          "notion": "",
+          "plage": "3e-4e",
+          "cherche": "de 0 à 200 en 4e"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "Résolution de problèmes additifs et soustractifs (EEE, ETE, ECE)"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "traduction des données d’un problème en opérations arithmétiques"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "3e-4e",
+          "cherche": "Approche de la multiplication"
+        },
+        {
+          "code": "MSN 13",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "ajustement d’essais successifs"
+        }
+      ],
+      "annees": [
+        4,
+        4
+      ]
+    },
+    "m1-mesures": {
+      "discipline": "Mathématiques",
+      "liens": [
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "3e-4e",
+          "cherche": "Organisation d'un mesurage, choix d'une unité"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "3e-4e",
+          "cherche": "soit en reportant une unité de mesure donnée, soit en recouvrant"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "3e-4e",
+          "cherche": "Mise en relation de grandeurs perçues et de grandeurs mesurées"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Mesure de grandeurs",
+          "plage": "3e-4e",
+          "cherche": "Comparaison directe ou indirecte et classement"
+        },
+        {
+          "code": "MSN 14",
+          "notion": "Éléments pour la résolution de problèmes",
+          "plage": "1re-4e",
+          "cherche": "Résolution de problèmes de mesurage"
+        }
+      ],
+      "annees": [
+        3,
+        4
+      ]
+    }
+  },
+  "en_classe": [
+    {
+      "discipline": "Mathématiques",
+      "code": "MSN 15",
+      "notion": "",
+      "raison": "Le PER précise que cet objectif n’est pas travaillé pour lui-même : il s’active dans les autres axes, déjà exercés."
+    }
+  ]
+}

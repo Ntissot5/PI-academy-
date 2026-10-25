@@ -27,7 +27,7 @@ const ITEMS: [string, string, string[], string][] = [
   ["Quel muscle se contracte (gonfle) quand tu plies le bras ?", "Le biceps (devant le bras)", ["Le triceps (derrière le bras)", "Le mollet", "Le cœur"], "Le biceps se raccourcit et tire l’avant-bras vers le haut."],
   ["Quel muscle se contracte quand tu tends le bras ?", "Le triceps (derrière le bras)", ["Le biceps", "Le mollet", "Le diaphragme"], "Les muscles marchent par paires : biceps pour plier, triceps pour tendre."],
   ["Qu’est-ce qui attache un muscle à un os ?", "Un tendon", ["Un ongle", "Un nerf", "Une veine"], "Le tendon relie le muscle à l’os, comme une corde."],
-  ["Le genou peut-il plier la jambe vers l’avant (comme vers le ventre, à l’envers) ?", "Non, il ne plie que dans un seul sens", ["Oui, dans tous les sens", "Oui, mais seulement le soir", "Oui, comme l’épaule"], "Le genou bouge dans un seul axe ; l’épaule bouge dans plusieurs directions."],
+  ["Le genou bouge-t-il dans toutes les directions, comme l’épaule ?", "Non, il plie et se tend surtout dans un seul axe", ["Oui, exactement comme l’épaule", "Non, il ne bouge pas du tout", "Oui, il tourne sur lui-même"], "Le genou bouge surtout dans un seul axe ; l’épaule bouge dans plusieurs directions."],
   ["Comme l’Homme, le chat, l’oiseau et le poisson ont…", "un squelette intérieur avec une colonne vertébrale", ["une coquille", "six pattes", "un squelette extérieur"], "Ce sont des vertébrés : ils ont des vertèbres."],
 ];
 
