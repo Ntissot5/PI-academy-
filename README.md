@@ -84,7 +84,7 @@ Deux applications Dokploy depuis ce repo :
 4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting* (en plus du blocage PIN, il freine les essais de codes de classe).
 5. Te donner le rôle admin : dashboard PocketBase → `users` → ton compte → `role = admin`.
 
-Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage.
+Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage, contenu de départ compris (`1761600000_contenu.js`, généré depuis `pocketbase/seed/parcours.json` par `node scripts/build-content-migration.mjs`) : un PocketBase neuf a directement ses matières, parcours et unités. Le seed reste utile pour les comptes démo (`--demo`).
 
 ## Données et règles
 
