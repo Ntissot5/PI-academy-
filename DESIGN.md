@@ -59,7 +59,7 @@ Toujours avec `filter: drop-shadow(0 6px 10px rgba(35,86,232,.18))`, posées sur
 Ne jamais utiliser d'emoji ni d'icônes vectorielles génériques à la place.
 
 ## 6. Pi, la mascotte
-- Corps : `icons/blob.webp` (320×219). Visage : SVG superposé, `viewBox="0 0 320 219"`, groupe `transform="translate(160 88) scale(1.45) translate(-160 -88)"`.
+- Corps : `icons/blob.webp` (960×657, proportions 320×219), détouré depuis `design/pi-source.jpg` avec `scripts/cut_pi.py`. Visage : SVG superposé, `viewBox="0 0 320 219"`, groupe `transform="translate(160 88) scale(1.45) translate(-160 -88)"`.
 - 4 expressions (code SVG exact dans `reference/route-epfl.html`, objet `FACES`) :
   - `idle` : yeux ovales blancs + pupilles, petit sourire, joues roses, clignement.
   - `happy` : yeux en ^ ^, bouche ouverte, joues marquées. Animation `jump`.
