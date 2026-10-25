@@ -112,7 +112,7 @@ export default function Dashboard() {
           </div>
           <p className="foot">
             Ta progression est gardée sur ton compte : tu la retrouves sur tous tes appareils.{" "}
-            <Link className="link" href="/parcours">Autres parcours</Link> · <button className="link" onClick={logout}>Se déconnecter</button>
+            <Link className="link" href={etat.matiere ? `/matiere/${etat.matiere.slug}` : "/parcours"}>{etat.matiere ? `Autres programmes en ${etat.matiere.nom.toLowerCase()}` : "Autres parcours"}</Link> · <button className="link" onClick={logout}>Se déconnecter</button>
           </p>
         </div>
       </div>

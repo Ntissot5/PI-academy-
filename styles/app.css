@@ -146,3 +146,13 @@ a.unit{text-decoration:none;color:inherit}
 /* Pi sans ombre portée : le rendu haute définition (design/pi-source.jpg) a déjà son volume,
    l'ombre du prototype faisait un halo gris autour de lui. */
 .pi img{filter:none}
+
+/* ---------- grille des matières (carrés) ---------- */
+.mat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.mat-tile{aspect-ratio:1;max-width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.mat-tile:hover{transform:translateY(-2px);border-color:var(--brand)}
+.mat-tile .ic{width:72px;height:72px;display:grid;place-items:center;background:var(--ice-2);border-radius:18px}
+.mat-tile .ic img{width:58px;height:58px;filter:drop-shadow(0 6px 10px rgba(35,86,232,.18))}
+.mat-tile b{font-family:var(--f-display);font-size:1.05rem;font-weight:600;line-height:1.2}
+.mat-tile .small{font-size:.8rem}
+@media (max-width:620px){.mat-grid{grid-template-columns:repeat(2,1fr);gap:10px}.mat-tile .ic{width:60px;height:60px}.mat-tile .ic img{width:48px;height:48px}}

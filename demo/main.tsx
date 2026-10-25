@@ -24,6 +24,7 @@ import Accueil from "@/app/page";
 import Connexion from "@/app/connexion/page";
 import Eleve from "@/app/eleve/page";
 import Catalogue from "@/app/parcours/page";
+import MatierePage from "@/app/matiere/[slug]/page";
 import Dashboard from "@/app/parcours/[slug]/page";
 import UnitPage from "@/app/parcours/[slug]/unite/[n]/page";
 import Quiz from "@/app/parcours/[slug]/unite/[n]/quiz/page";
@@ -41,6 +42,7 @@ const ROUTES: [RegExp, string[], ComponentType][] = [
   [/^\/connexion$/, [], Connexion],
   [/^\/eleve$/, [], Eleve],
   [/^\/parcours$/, [], Catalogue],
+  [/^\/matiere\/([^/]+)$/, ["slug"], MatierePage],
   [/^\/parcours\/([^/]+)$/, ["slug"], Dashboard],
   [/^\/parcours\/([^/]+)\/unite\/([^/]+)$/, ["slug", "n"], UnitPage],
   [/^\/parcours\/([^/]+)\/unite\/([^/]+)\/quiz$/, ["slug", "n"], Quiz],

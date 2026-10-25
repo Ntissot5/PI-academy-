@@ -31,6 +31,7 @@ test("admin : éditer une règle et l'ordre des parcours", async ({ page, browse
   await adult.fill("#pw", "demo-adulte-2026");
   await adult.getByRole("button", { name: "Me connecter" }).click();
   await adult.waitForURL("**/parcours");
+  await adult.goto("/matiere/mathematiques");
   await expect(adult.locator(".units .unit h3").first()).toHaveText("9e Harmos · Bases");
   await adult.goto("/parcours/prepa-epfl/unite/1");
   await expect(adult.locator(".article")).toContainText(regle);
