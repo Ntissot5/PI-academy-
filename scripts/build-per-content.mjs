@@ -10,12 +10,13 @@
 // Échoue si un lien de lib/per-generateurs.json ne retrouve aucune progression officielle.
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import { lireLecons, lireRattachements, resoudreLien, verifierEnClasse } from "./lib/per-resolve.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const read = (p) => JSON.parse(fs.readFileSync(root + p, "utf8"));
 const notions = read("data/per/per_notions.json");
 const programme = read("data/per/programme_par_annee.json");
-const mapping = read("lib/per-generateurs.json").generateurs;
+const { generateurs: mapping, enClasse } = lireRattachements(root);
 const seedPath = "pocketbase/seed/parcours.json";
 const seed = read(seedPath);
 
@@ -35,9 +36,7 @@ const erreurs = [];
 const liens = {};
 for (const [id, m] of Object.entries(mapping)) {
   const ls = m.liens.map((l) => {
-    const cles = notions
-      .filter((n) => n.code === l.code && n.notion === l.notion && n.plage === l.plage && n.contenu.some((c) => c.includes(l.cherche)))
-      .map((n) => n.cle);
+    const cles = resoudreLien(notions, l);
     if (!cles.length) erreurs.push(`${id} : aucune progression pour ${l.code} « ${l.notion} » ${l.plage} « ${l.cherche} »`);
     return { code: l.code, notion: l.notion, plage: l.plage, cles };
   });
@@ -54,6 +53,8 @@ for (const [id, m] of Object.entries(mapping)) {
     liens: ls,
   };
 }
+erreurs.push(...verifierEnClasse(notions, enClasse));
+const estEnClasse = (discipline, code, notion) => enClasse.some((e) => e.code === code && e.notion === notion && (!e.discipline || e.discipline === discipline));
 if (erreurs.length) {
   console.error(erreurs.join("\n"));
   process.exit(1);
@@ -104,7 +105,14 @@ const matIcone = Object.fromEntries(seed.matieres.map((m) => [m.slug, m.icone]))
 // Texte de leçon d'un exercice : celui de sa première unité dans parcours.json.
 const lecon = {};
 for (const p of seed.parcours) for (const u of p.unites) lecon[u.id_generateur] ??= u;
-for (const [id, l] of Object.entries(read("pocketbase/seed/lecons.json").lecons)) lecon[id] ??= l;
+for (const [id, l] of Object.entries(lireLecons(root))) lecon[id] ??= l;
+
+for (const [id, l] of Object.entries(liens)) {
+  if (!l.secondaire_II && !lecon[id]?.regle) {
+    console.error(`${id} : pas de leçon (règle, exemple, image, piège) dans pocketbase/seed/lecons/*.json`);
+    process.exit(1);
+  }
+}
 
 /** Libellé court d'une notion pour l'élève : dernier niveau, sans les renvois « ( 1 , 5 ) ». */
 const libelle = (notion, o) => {
@@ -140,7 +148,9 @@ for (const a of programme.annees) {
         // Notion travaillée par un exercice placé sous une autre notion de l'année : pas de leçon « Bientôt » en double.
         if (!gens.length && couvert.has(`${o.code}|${g.notion}`)) continue;
         if (!gens.length) {
-          unites.push({ id_generateur: "", statut: "bientot", titre, sous_titre: sous, icone: "lock", per_codes: [o.code], per_notions: uniq(g.cles), annee: lab(n), tag: "" });
+          // « en_classe » : notion travaillée en classe (rédaction, oral, expérience…), pas d'exercice automatique prévu.
+          const tag = estEnClasse(d.discipline, o.code, g.notion) ? "en_classe" : "";
+          unites.push({ id_generateur: "", statut: "bientot", titre, sous_titre: sous, icone: "lock", per_codes: [o.code], per_notions: uniq(g.cles), annee: lab(n), tag });
           continue;
         }
         for (const [id, l] of gens) {
@@ -167,7 +177,7 @@ for (const a of programme.annees) {
       slug: `${slugMat}-${lab(n)}`,
       titre: `${COURT[d.discipline] ?? d.discipline} ${lab(n)}`,
       accroche: `Le programme officiel de ${lab(n)} année`,
-      description: `${nbNotions} notions du Plan d’études romand. ${actives.filter((u) => u.id_generateur !== "final").length} ont déjà leurs exercices, les autres arrivent bientôt.`,
+      description: `${nbNotions} notions du Plan d’études romand. ${actives.filter((u) => u.id_generateur !== "final").length} ont déjà leurs exercices${unites.some((u) => u.tag === "en_classe") ? ", d’autres se travaillent en classe" : ""}${unites.some((u) => u.statut === "bientot" && u.tag !== "en_classe") ? ", les autres arrivent bientôt" : ""}.`,
       public: "ecole", niveau: `${lab(n)} Harmos`, icone: matIcone[slugMat] ?? "star", ordre: 100 + n, payant: false,
       matiere: slugMat, plan: "per", annee_min: n, annee_max: n, cantons: [], statut: "a_valider", auto: true,
       unites,
@@ -248,7 +258,7 @@ migrate((app) => {
         vus[k] = true;
         let ur = deja[k];
         if (!ur) { ur = new Record(uCol); for (const f of Object.keys(u)) ur.set(f, u[f]); ur.set("parcours", exist.id); }
-        else { ur.set("ordre", u.ordre); ur.set("per_codes", u.per_codes); ur.set("per_notions", u.per_notions); ur.set("annee", u.annee); }
+        else { ur.set("ordre", u.ordre); ur.set("per_codes", u.per_codes); ur.set("per_notions", u.per_notions); ur.set("annee", u.annee); if (!u.id_generateur) ur.set("tag", u.tag); }
         app.save(ur);
       }
       for (const k of Object.keys(deja)) if (!vus[k] && k.indexOf("bientot:") === 0) app.delete(deja[k]);

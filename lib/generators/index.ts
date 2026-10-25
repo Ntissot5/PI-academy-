@@ -35,6 +35,7 @@ import { gen as littValeur } from "./litt-valeur";
 import { gen as littReduire } from "./litt-reduire";
 import { createFinal } from "./final";
 import { perExercice } from "../per";
+import { LOTS } from "./lots";
 import type { Generator } from "./types";
 
 export type { Generator, Question } from "./types";
@@ -86,6 +87,16 @@ export const DEFAULT_ICON: Record<string, string> = {
   "sci-unites": "folder", "sci-masse-volumique": "molecule", "sci-electricite": "laptop", "chi-symboles": "molecule",
   "geo-cantons": "pin", "geo-suisse": "eye", "hist-suisse": "cal31", "hist-monde": "plane", "cit-federal": "report", "cit-canton": "folder",
 };
+
+// Lots ajoutés pour couvrir le PER (lib/generators/lots/).
+for (const lot of Object.values(LOTS)) {
+  for (const [id, x] of Object.entries(lot)) {
+    if (GENERATORS[id]) throw new Error(`Identifiant d'exercice en double : ${id}`);
+    GENERATORS[id] = x.gen;
+    GENERATOR_LABEL[id] = x.label;
+    DEFAULT_ICON[id] = x.icon;
+  }
+}
 
 /** Résout le générateur d'une unité ; pour l'examen final, mélange les autres unités du parcours. */
 export function resolveGenerator(

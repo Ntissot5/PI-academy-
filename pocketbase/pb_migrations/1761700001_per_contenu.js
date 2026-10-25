@@ -68,7 +68,7 @@ migrate((app) => {
         vus[k] = true;
         let ur = deja[k];
         if (!ur) { ur = new Record(uCol); for (const f of Object.keys(u)) ur.set(f, u[f]); ur.set("parcours", exist.id); }
-        else { ur.set("ordre", u.ordre); ur.set("per_codes", u.per_codes); ur.set("per_notions", u.per_notions); ur.set("annee", u.annee); }
+        else { ur.set("ordre", u.ordre); ur.set("per_codes", u.per_codes); ur.set("per_notions", u.per_notions); ur.set("annee", u.annee); if (!u.id_generateur) ur.set("tag", u.tag); }
         app.save(ur);
       }
       for (const k of Object.keys(deja)) if (!vus[k] && k.indexOf("bientot:") === 0) app.delete(deja[k]);

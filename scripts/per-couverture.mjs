@@ -5,10 +5,13 @@
 // Elle est couverte si au moins un type d'exercices (hors secondaire II) y est rattaché pour cette année.
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import { lireRattachements } from "./lib/per-resolve.mjs";
 
 const root = fileURLToPath(new URL("..", import.meta.url));
 const programme = JSON.parse(fs.readFileSync(root + "data/per/programme_par_annee.json", "utf8"));
 const liens = JSON.parse(fs.readFileSync(root + "lib/per-liens.json", "utf8"));
+const { enClasse } = lireRattachements(root);
+const estEnClasse = (discipline, code, notion) => enClasse.some((e) => e.code === code && e.notion === notion && (!e.discipline || e.discipline === discipline));
 const ORDRE = ["Mathématiques", "Sciences de la nature", "Français", "Allemand", "Anglais", "Géographie", "Histoire", "Citoyenneté"];
 const lab = (n) => (n === 1 ? "1re" : `${n}e`);
 const anneesDe = (p) => { const m = p.match(/\d+/g)?.map(Number) ?? []; if (!m.length) return []; const [a, b = a] = m; return Array.from({ length: b - a + 1 }, (_, i) => a + i); };
@@ -16,7 +19,7 @@ const anneesDe = (p) => { const m = p.match(/\d+/g)?.map(Number) ?? []; if (!m.l
 // (code|notion|année) → types d'exercices
 const couvre = new Map();
 for (const [id, l] of Object.entries(liens)) {
-  if (l.secondaire_II && !l.codes.length) continue;
+  if (l.secondaire_II) continue; // réservé à la Prépa EPFL, absent des parcours par année
   for (const y of l.liens) for (const n of anneesDe(y.plage)) {
     if (l.annees.length && !l.annees.includes(n)) continue;
     const k = `${y.code}|${y.notion}|${n}`;
@@ -33,9 +36,10 @@ for (const a of programme.annees) {
       const groupes = new Map();
       for (const x of o.notions) groupes.set(x.notion, (groupes.get(x.notion) ?? 0) + 1);
       for (const [notion, nb] of groupes) {
-        const t = ((tableau[d.discipline] ??= {})[n] ??= { total: 0, couvert: 0 });
+        const t = ((tableau[d.discipline] ??= {})[n] ??= { total: 0, couvert: 0, classe: 0 });
         t.total++;
         if (couvre.has(`${o.code}|${notion}|${n}`)) { t.couvert++; continue; }
+        if (estEnClasse(d.discipline, o.code, notion)) { t.classe++; continue; }
         const k = `${d.discipline}|${o.code}|${notion}`;
         const m = manque.get(k) ?? { code: o.code, notion, discipline: d.discipline, axe: o.axe, annees: [], progressions: 0 };
         m.annees.push(n);
@@ -58,7 +62,9 @@ const top = [...manque.values()]
   .sort((a, b) => prio(a) - prio(b) || b.progressions - a.progressions || a.code.localeCompare(b.code, "fr", { numeric: true }))
   .slice(0, 20);
 
-const pct = (t) => (t.total ? Math.round((100 * t.couvert) / t.total) : 0);
+// Pourcentage sur les notions exerçables (hors notions travaillées en classe).
+const pct = (t) => (t.total - t.classe ? Math.round((100 * t.couvert) / (t.total - t.classe)) : 100);
+const cell = (t) => `${t.couvert} / ${t.total - t.classe} (${pct(t)} %)${t.classe ? ` · ${t.classe} en classe` : ""}`;
 const fmtAns = (ans) => { const s = [...new Set(ans)].sort((a, b) => a - b); return s.length > 1 && s[s.length - 1] - s[0] === s.length - 1 ? `${lab(s[0])}-${lab(s[s.length - 1])}` : s.map(lab).join(", "); };
 const libelle = (notion, m) => (notion && notion !== "INTROUVABLE" ? notion : m.axe);
 
@@ -72,27 +78,27 @@ Source : Plan d’études romand, © CIIP.
 
 ## Par année et par discipline
 
-Notions couvertes / notions du PER (pourcentage).
+Notions couvertes / notions exerçables (pourcentage) · notions travaillées en classe (rédaction, oral, expérience, débat : pas d’exercice corrigé automatiquement, voir la liste en bas).
 
 | Année | ${ORDRE.join(" | ")} | Total |
 |---|${ORDRE.map(() => "---:").join("|")}|---:|
 `;
-const tot = { total: 0, couvert: 0 };
+const tot = { total: 0, couvert: 0, classe: 0 };
 for (let n = 1; n <= 11; n++) {
-  const ligne = { total: 0, couvert: 0 };
+  const ligne = { total: 0, couvert: 0, classe: 0 };
   const cells = ORDRE.map((d) => {
     const t = tableau[d]?.[n];
     if (!t) return "—";
-    ligne.total += t.total; ligne.couvert += t.couvert;
-    return `${t.couvert} / ${t.total} (${pct(t)} %)`;
+    ligne.total += t.total; ligne.couvert += t.couvert; ligne.classe += t.classe;
+    return cell(t);
   });
-  tot.total += ligne.total; tot.couvert += ligne.couvert;
-  md += `| ${lab(n)} | ${cells.join(" | ")} | ${ligne.couvert} / ${ligne.total} (${pct(ligne)} %) |\n`;
+  tot.total += ligne.total; tot.couvert += ligne.couvert; tot.classe += ligne.classe;
+  md += `| ${lab(n)} | ${cells.join(" | ")} | ${cell(ligne)} |\n`;
 }
 md += `| **Total** | ${ORDRE.map((d) => {
-  const t = Object.values(tableau[d] ?? {}).reduce((s, x) => ({ total: s.total + x.total, couvert: s.couvert + x.couvert }), { total: 0, couvert: 0 });
-  return `${t.couvert} / ${t.total} (${pct(t)} %)`;
-}).join(" | ")} | **${tot.couvert} / ${tot.total} (${pct(tot)} %)** |
+  const t = Object.values(tableau[d] ?? {}).reduce((s, x) => ({ total: s.total + x.total, couvert: s.couvert + x.couvert, classe: s.classe + x.classe }), { total: 0, couvert: 0, classe: 0 });
+  return cell(t);
+}).join(" | ")} | **${cell(tot)}** |
 
 L’allemand commence en 5e, l’anglais en 7e et la citoyenneté en 5e : les cases « — » sont normales.
 
@@ -112,6 +118,10 @@ Les maths reprennent \`data/per-kit/mapping_generateurs_PER.json\` ; les autres 
 |---|---|---|---|---|
 ${Object.entries(liens).flatMap(([id, l]) => l.liens.map((y, i) => `| ${i ? "" : `\`${id}\``} | ${y.code} | ${(y.notion || "—").replace(/\|/g, "/")} | ${y.plage} | ${i ? "" : l.annee} |`)).join("\n")}
 
+## Notions travaillées en classe
+
+${enClasse.length ? enClasse.map((e) => `- ${e.code} · ${e.notion || "(objectif entier)"} — ${e.raison}`).join("\n") : "Aucune pour l’instant."}
+
 ## Exercices hors PER
 
 ${Object.entries(liens).filter(([, l]) => l.secondaire_II).map(([id, l]) => `- \`${id}\` : ${l.secondaire_II}`).join("\n")}
@@ -119,4 +129,4 @@ ${Object.entries(liens).filter(([, l]) => l.secondaire_II).map(([id, l]) => `- \
 Ces exercices portent le tag \`secondaire_II\` et n’apparaissent que dans le parcours Prépa EPFL.
 `;
 fs.writeFileSync(root + "docs/COUVERTURE-PER.md", md);
-console.log(`Couverture : ${tot.couvert} / ${tot.total} notions (${pct(tot)} %). Écrit docs/COUVERTURE-PER.md`);
+console.log(`Couverture : ${tot.couvert} / ${tot.total - tot.classe} notions exerçables (${pct(tot)} %), ${tot.classe} en classe, ${tot.total} au total. Écrit docs/COUVERTURE-PER.md`);

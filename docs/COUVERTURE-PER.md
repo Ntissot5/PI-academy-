@@ -8,7 +8,7 @@ Source : Plan d’études romand, © CIIP.
 
 ## Par année et par discipline
 
-Notions couvertes / notions du PER (pourcentage).
+Notions couvertes / notions exerçables (pourcentage) · notions travaillées en classe (rédaction, oral, expérience, débat : pas d’exercice corrigé automatiquement, voir la liste en bas).
 
 | Année | Mathématiques | Sciences de la nature | Français | Allemand | Anglais | Géographie | Histoire | Citoyenneté | Total |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -129,6 +129,10 @@ Les maths reprennent `data/per-kit/mapping_generateurs_PER.json` ; les autres di
 |  | SHS 34 | La Suisse, État fédéral | 9e-11e |  |
 | `cit-canton` | SHS 24 | Découvrir une société locale, habiter une commune | 7e-8e | 7e-11e |
 |  | SHS 34 | La Suisse, État fédéral | 9e-11e |  |
+
+## Notions travaillées en classe
+
+Aucune pour l’instant.
 
 ## Exercices hors PER
 
