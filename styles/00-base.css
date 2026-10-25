@@ -1,0 +1,33 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+:root{
+  --bg:#F5F7FC; --surface:#FFFFFF; --ink:#0D1B3E; --muted:#5A6684; --line:#E2E8F3;
+  --brand:#2356E8; --brand-2:#3AA8F4; --ice:#EAF1FF; --ice-2:#F4F8FF;
+  --ok:#14966A; --ok-soft:#E2F5EC; --bad:#D2433F; --bad-soft:#FCEBEA;
+  --m0:#E2E8F3; --m1:#C3D4FF; --m2:#7EA2FF; --m3:#2356E8;
+  --shadow:0 1px 2px rgba(13,27,62,.06),0 6px 24px rgba(35,86,232,.07);
+  --f-display:"Lexend", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Figtree", system-ui, -apple-system, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0A1022; --surface:#111A33; --ink:#E9EEFB; --muted:#97A4C6; --line:#22305A;
+  --brand:#6E97FF; --brand-2:#5CC4FF; --ice:#14224B; --ice-2:#0F1A3A;
+  --ok:#4CD496; --ok-soft:#12352A; --bad:#FF7B76; --bad-soft:#3A1C24;
+  --m0:#22305A; --m1:#2E4690; --m2:#4E74E0; --m3:#7FA3FF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A1022; --surface:#111A33; --ink:#E9EEFB; --muted:#97A4C6; --line:#22305A;
+  --brand:#6E97FF; --brand-2:#5CC4FF; --ice:#14224B; --ice-2:#0F1A3A;
+  --ok:#4CD496; --ok-soft:#12352A; --bad:#FF7B76; --bad-soft:#3A1C24;
+  --m0:#22305A; --m1:#2E4690; --m2:#4E74E0; --m3:#7FA3FF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+h1,h2,h3,h4{font-family:var(--f-display);margin:0;letter-spacing:-.015em;text-wrap:balance;font-weight:600}
+p{margin:0}
+button{font:inherit;cursor:pointer;color:inherit}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.ico{display:block;object-fit:contain;filter:drop-shadow(0 6px 10px rgba(35,86,232,.18))}
+.pad{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}

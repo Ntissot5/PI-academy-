@@ -1,0 +1,20 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* daily */
+.daily{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.daily .left{display:flex;align-items:center;gap:14px}
+.daily .left img{width:52px;height:52px}
+.daily h3{font-size:1.05rem}
+.daily .small{color:var(--muted);font-size:.88rem}
+.days{display:grid;grid-template-columns:repeat(28,1fr);gap:3px;min-width:0}
+.days i{aspect-ratio:1;border-radius:3px;background:var(--m0);max-width:100%}
+.days i.p{background:var(--m1)} .days i.f{background:var(--m3)} .days i.t{outline:2px solid var(--ink);outline-offset:1px}
+.ring{position:relative;width:64px;height:64px;flex:none}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-mono);font-size:.95rem}
+
+.sec-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:10px;margin-top:6px}
+.sec-h h2{font-size:1.3rem}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:5px}
+.sq i,.legend i{width:12px;height:12px;border-radius:3px;display:inline-block;background:var(--m0)}
+.lv1{background:var(--m1)!important}.lv2{background:var(--m2)!important}.lv3{background:var(--m3)!important}

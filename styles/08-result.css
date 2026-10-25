@@ -1,0 +1,21 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* result */
+.res{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px;align-items:stretch}
+.res .top2{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.res .score{font-family:var(--f-display);font-size:3rem;font-weight:700;line-height:1}
+.res .pi-big{width:200px;height:137px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:460px}
+.kpi{background:var(--ice-2);border-radius:12px;padding:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.kpi img{width:28px;height:28px}
+.kpi b{font-family:var(--f-mono)}
+.kpi span{font-size:.75rem;color:var(--muted)}
+.miss{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.miss>div{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:4px;font-size:.92rem}
+.miss>div:first-of-type{border-top:0;padding-top:0}
+.miss .q2{font-family:var(--f-mono)}
+.miss .why{color:var(--muted);font-size:.86rem}
+.confetti{position:absolute;inset:0;pointer-events:none}
+.confetti i{position:absolute;top:-12px;width:8px;height:14px;border-radius:2px;animation:fall 1.8s ease-in forwards}
+@keyframes fall{to{transform:translateY(420px) rotate(540deg);opacity:0}}
+.foot{font-size:.8rem;color:var(--muted);text-align:center;margin-top:10px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--surface);padding:10px 16px;border-radius:99px;font-weight:700;z-index:20}

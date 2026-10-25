@@ -1,0 +1,11 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* layout */
+.cols{display:grid;grid-template-columns:260px 1fr;gap:24px;margin-top:24px;align-items:start}
+.side{position:sticky;top:84px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:2px}
+.side h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:8px 10px}
+.side button{display:flex;align-items:center;gap:10px;border:0;background:none;padding:8px 10px;border-radius:10px;text-align:left;font-weight:600;font-size:.92rem}
+.side button:hover{background:var(--ice-2)}
+.side button img{width:26px;height:26px}
+.side button.lk{opacity:.45}
+.side .sq{margin-left:auto;display:flex;gap:2px}
+.content{display:flex;flex-direction:column;gap:18px;min-width:0}

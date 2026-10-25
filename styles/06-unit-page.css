@@ -1,0 +1,26 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* unit page */
+.crumb{font-size:.88rem;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.crumb button{border:0;background:none;padding:0;color:var(--brand);font-weight:600}
+.uhead{display:flex;gap:18px;align-items:center;margin:14px 0 22px}
+.uhead img{width:92px;height:92px}
+.uhead h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:700}
+.uhead p{color:var(--muted)}
+.ugrid{display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:start}
+.article{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:20px;box-shadow:var(--shadow);min-width:0}
+.article h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);margin-bottom:6px}
+.article p{max-width:65ch}
+.ex{font-family:var(--f-mono);background:var(--ice-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+.trap{display:flex;gap:12px;background:var(--bad-soft);border-radius:12px;padding:14px}
+.trap b{color:var(--bad)}
+.tip{display:flex;gap:12px;align-items:flex-start;background:var(--ice-2);border-radius:12px;padding:14px}
+.tip .pi{width:56px;height:38px;flex:none}
+.acts{display:flex;flex-direction:column;gap:12px}
+.act{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow)}
+.act .h{display:flex;align-items:center;gap:12px}
+.act .h img{width:44px;height:44px}
+.act h3{font-size:1.02rem}
+.act p{font-size:.88rem;color:var(--muted)}
+.act.boss{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 75%,var(--brand)));color:var(--surface);border-color:transparent}
+.act.boss p{color:color-mix(in srgb,var(--surface) 75%,transparent)}
+.act.boss .cta{background:var(--surface);color:var(--ink)}

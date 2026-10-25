@@ -1,0 +1,37 @@
+/* Styles ajoutés pour les écrans qui n'existent pas dans le prototype.
+   Uniquement des tokens et les formes de DESIGN.md (cartes 16 px, boutons 12 px, chips 99 px). */
+
+body{margin:0}
+a{color:inherit}
+.logo{text-decoration:none;color:inherit}
+a.cta{display:inline-block;text-decoration:none;text-align:center}
+a.unit{text-decoration:none;color:inherit}
+
+/* bouton clair/sombre : même forme que les chips */
+.chip.theme{padding:5px 7px;color:var(--ink)}
+.chip.theme i{display:block;width:18px;height:18px;margin:3px;border-radius:50%;border:2px solid var(--ink);background:linear-gradient(90deg,var(--ink) 50%,transparent 50%)}
+
+/* lien texte (dans le pied de page) */
+.link{text-decoration:none;border:0;background:none;padding:0;color:var(--brand);font-weight:600;font-size:inherit}
+
+/* formulaires (connexion, inscription) */
+.form{display:flex;flex-direction:column;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.field input{font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink);min-width:0}
+.field input:focus{border-color:var(--brand);outline:none}
+.field input.pin{font-family:var(--f-mono);letter-spacing:.3em;font-size:1.3rem}
+.form .err{background:var(--bad-soft);color:var(--bad);border-radius:12px;padding:10px 14px;font-weight:600;font-size:.92rem}
+.tabs{display:flex;gap:6px;background:var(--ice-2);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tabs button{flex:1;border:0;background:none;border-radius:9px;padding:9px 10px;font-weight:700;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.narrow{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+
+/* accueil public */
+.intro{display:flex;flex-direction:column;gap:18px}
+.chips-line{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.chips-line span{display:flex;align-items:center;gap:6px;padding:5px 12px 5px 6px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:.88rem}
+.chips-line img{width:24px;height:24px}
+
+.loading{display:grid;place-items:center;padding:60px 0}
+.crumb a{color:var(--brand);font-weight:600;text-decoration:none}
