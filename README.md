@@ -11,6 +11,10 @@ Matières : mathématiques, sciences de la nature, français, allemand, anglais,
 
 ## Lancer en local
 
+**En une commande** (Mac ou Linux, avec Node.js installé) : `npm run demo`. Tout démarre (PocketBase, contenu, comptes démo, site) et le navigateur s’ouvre sur http://localhost:3000.
+
+Étape par étape :
+
 Prérequis : Node 22, `curl` et `unzip` (le script télécharge PocketBase tout seul).
 
 ```bash
