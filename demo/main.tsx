@@ -18,6 +18,10 @@ import { createRoot } from "react-dom/client";
 import { AppProvider } from "@/components/AppProvider";
 import { TopBar } from "@/components/TopBar";
 import { THEME_KEY, applyTheme } from "@/lib/theme";
+import cantonsPer from "../public/data/cantons.json";
+
+// Précisions cantonales embarquées : la démo ne charge aucun fichier.
+(globalThis as { __PI_CANTONS__?: unknown }).__PI_CANTONS__ = cantonsPer;
 import { ParamsProvider, navigate, useLocation } from "./shims/router";
 import { demoLogin, resetDemo } from "./shims/pocketbase";
 import Accueil from "@/app/page";
@@ -90,6 +94,7 @@ function App() {
       <TopBar />
       <DemoBar />
       <main className="pad"><Page /></main>
+      <footer className="site-foot">Programmes : Plan d’études romand, © CIIP. Exercices créés par Pi Academy.</footer>
     </AppProvider>
   );
 }

@@ -1,0 +1,1116 @@
+{
+ "rel": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 32"
+  ],
+  "cles": [
+   "1304f122deb3",
+   "7e4a746539b4",
+   "07f76faf1644"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "MSN 32",
+    "notion": "Calculs",
+    "plage": "9e-10e",
+    "cles": [
+     "1304f122deb3"
+    ]
+   },
+   {
+    "code": "MSN 32",
+    "notion": "Calculs",
+    "plage": "10e",
+    "cles": [
+     "7e4a746539b4"
+    ]
+   },
+   {
+    "code": "MSN 32",
+    "notion": "Calculs",
+    "plage": "11e",
+    "cles": [
+     "07f76faf1644"
+    ]
+   }
+  ]
+ },
+ "frac": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 32",
+   "MSN 33"
+  ],
+  "cles": [
+   "647eebde6d4b",
+   "9fdc03503794",
+   "fe3e1d1079b4"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "MSN 32",
+    "notion": "Nombres",
+    "plage": "9e-10e",
+    "cles": [
+     "647eebde6d4b"
+    ]
+   },
+   {
+    "code": "MSN 32",
+    "notion": "Calculs",
+    "plage": "9e",
+    "cles": [
+     "9fdc03503794"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Éléments pour la résolution de problèmes",
+    "plage": "10e-11e",
+    "cles": [
+     "fe3e1d1079b4"
+    ]
+   }
+  ]
+ },
+ "pow": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 32"
+  ],
+  "cles": [
+   "58ae91bb30a7",
+   "40d3ccd41053"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 32",
+    "notion": "Calculs",
+    "plage": "10e",
+    "cles": [
+     "58ae91bb30a7"
+    ]
+   },
+   {
+    "code": "MSN 32",
+    "notion": "Nombres",
+    "plage": "10e-11e",
+    "cles": [
+     "40d3ccd41053"
+    ]
+   }
+  ]
+ },
+ "eq1": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33"
+  ],
+  "cles": [
+   "5901ae5ba923",
+   "ba7566ab6ced"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Équations",
+    "plage": "10e-11e",
+    "cles": [
+     "5901ae5ba923"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Équations",
+    "plage": "10e",
+    "cles": [
+     "ba7566ab6ced"
+    ]
+   }
+  ]
+ },
+ "geo": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 34"
+  ],
+  "cles": [
+   "f5d58ea3ed1d",
+   "fc954257a954"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "MSN 34",
+    "notion": "Calcul de grandeurs",
+    "plage": "9e-11e",
+    "cles": [
+     "f5d58ea3ed1d"
+    ]
+   },
+   {
+    "code": "MSN 34",
+    "notion": "Mesure de grandeurs et conversion d'unités",
+    "plage": "9e-11e",
+    "cles": [
+     "fc954257a954"
+    ]
+   }
+  ]
+ },
+ "iso": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33",
+   "MSN 34"
+  ],
+  "cles": [
+   "121734bc77a6",
+   "60fce191375f"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Équations",
+    "plage": "11e",
+    "cles": [
+     "121734bc77a6"
+    ]
+   },
+   {
+    "code": "MSN 34",
+    "notion": "Calcul de grandeurs",
+    "plage": "10e-11e",
+    "cles": [
+     "60fce191375f"
+    ]
+   }
+  ]
+ },
+ "lin": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33"
+  ],
+  "cles": [
+   "7a81b3e46bc4",
+   "48196133f765",
+   "0507ff90601e",
+   "956b1a2613cf"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Fonctions",
+    "plage": "10e",
+    "cles": [
+     "7a81b3e46bc4"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Fonctions",
+    "plage": "11e",
+    "cles": [
+     "48196133f765",
+     "0507ff90601e",
+     "956b1a2613cf"
+    ]
+   }
+  ]
+ },
+ "eq2": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33"
+  ],
+  "cles": [
+   "bf71d14a8bff"
+  ],
+  "annees": [
+   11
+  ],
+  "annee": "11e",
+  "secondaire_II": "Discriminant Δ et sommet de la parabole : secondaire II. Seule la résolution par factorisation ou par la formule de Viète figure au PER (11e, Niv 3).",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Équations",
+    "plage": "11e",
+    "cles": [
+     "bf71d14a8bff"
+    ]
+   }
+  ]
+ },
+ "trig": {
+  "discipline": "Mathématiques",
+  "codes": [],
+  "cles": [],
+  "annees": [],
+  "annee": "secondaire II",
+  "secondaire_II": "Trigonométrie : secondaire II (non présent au PER).",
+  "liens": []
+ },
+ "log": {
+  "discipline": "Mathématiques",
+  "codes": [],
+  "cles": [],
+  "annees": [],
+  "annee": "secondaire II",
+  "secondaire_II": "Exponentielles et logarithmes : secondaire II (non présent au PER).",
+  "liens": []
+ },
+ "der": {
+  "discipline": "Mathématiques",
+  "codes": [],
+  "cles": [],
+  "annees": [],
+  "annee": "secondaire II",
+  "secondaire_II": "Dérivées : secondaire II (non présent au PER).",
+  "liens": []
+ },
+ "fr-present": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "d614381a664c",
+   "8880c85c993e",
+   "df288ffa0390"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "annee": "5e-10e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "5e-6e",
+    "cles": [
+     "d614381a664c"
+    ]
+   },
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "7e-8e",
+    "cles": [
+     "8880c85c993e"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Conjugaison",
+    "plage": "9e-10e",
+    "cles": [
+     "df288ffa0390"
+    ]
+   }
+  ]
+ },
+ "fr-imparfait": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "d614381a664c",
+   "8880c85c993e",
+   "df288ffa0390"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "annee": "5e-10e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "5e-6e",
+    "cles": [
+     "d614381a664c"
+    ]
+   },
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "7e-8e",
+    "cles": [
+     "8880c85c993e"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Conjugaison",
+    "plage": "9e-10e",
+    "cles": [
+     "df288ffa0390"
+    ]
+   }
+  ]
+ },
+ "fr-futur": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "8c855d7ad2d4",
+   "8880c85c993e",
+   "df288ffa0390"
+  ],
+  "annees": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "annee": "6e-10e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "5e-6e",
+    "cles": [
+     "8c855d7ad2d4"
+    ]
+   },
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "7e-8e",
+    "cles": [
+     "8880c85c993e"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Conjugaison",
+    "plage": "9e-10e",
+    "cles": [
+     "df288ffa0390"
+    ]
+   }
+  ]
+ },
+ "fr-pc": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "8c855d7ad2d4",
+   "e644b9d90875",
+   "16dc85260f39"
+  ],
+  "annees": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "6e-11e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+    "plage": "5e-6e",
+    "cles": [
+     "8c855d7ad2d4"
+    ]
+   },
+   {
+    "code": "L1 26",
+    "notion": "Orthographe grammaticale › Accord du participe passé",
+    "plage": "5e-8e",
+    "cles": [
+     "e644b9d90875"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Orthographe grammaticale › Accord du participe passé",
+    "plage": "9e-11e",
+    "cles": [
+     "16dc85260f39"
+    ]
+   }
+  ]
+ },
+ "fr-homophones": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "ae0bb9e2e237",
+   "8b5e68d7f33a",
+   "80ec0540134d"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Orthographe grammaticale › Accord du participe passé",
+    "plage": "5e-6e",
+    "cles": [
+     "ae0bb9e2e237"
+    ]
+   },
+   {
+    "code": "L1 26",
+    "notion": "Orthographe grammaticale › Accord du participe passé",
+    "plage": "7e-8e",
+    "cles": [
+     "8b5e68d7f33a"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Orthographe grammaticale › Homophones grammaticaux",
+    "plage": "9e-11e",
+    "cles": [
+     "80ec0540134d"
+    ]
+   }
+  ]
+ },
+ "fr-nature": {
+  "discipline": "Français",
+  "codes": [
+   "L1 26",
+   "L1 36"
+  ],
+  "cles": [
+   "3a0412b3fd65",
+   "b621e6b50d78"
+  ],
+  "annees": [
+   7,
+   8,
+   9
+  ],
+  "annee": "7e-9e",
+  "liens": [
+   {
+    "code": "L1 26",
+    "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+    "plage": "7e-8e",
+    "cles": [
+     "3a0412b3fd65"
+    ]
+   },
+   {
+    "code": "L1 36",
+    "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+    "plage": "9e",
+    "cles": [
+     "b621e6b50d78"
+    ]
+   }
+  ]
+ },
+ "de-praesens": {
+  "discipline": "Allemand",
+  "codes": [
+   "L2 26",
+   "L2 36"
+  ],
+  "cles": [
+   "2bb8eec1751c",
+   "0886573500e1"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "L2 26",
+    "notion": "Conjugaison",
+    "plage": "5e-8e",
+    "cles": [
+     "2bb8eec1751c"
+    ]
+   },
+   {
+    "code": "L2 36",
+    "notion": "Conjugaison",
+    "plage": "9e-11e",
+    "cles": [
+     "0886573500e1"
+    ]
+   }
+  ]
+ },
+ "de-artikel": {
+  "discipline": "Allemand",
+  "codes": [
+   "L2 26",
+   "L2 36"
+  ],
+  "cles": [
+   "fa645b8accca",
+   "d797036f964e"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "L2 26",
+    "notion": "Vocabulaire et orthographe",
+    "plage": "5e-8e",
+    "cles": [
+     "fa645b8accca"
+    ]
+   },
+   {
+    "code": "L2 36",
+    "notion": "Vocabulaire et orthographe",
+    "plage": "9e-11e",
+    "cles": [
+     "d797036f964e"
+    ]
+   }
+  ]
+ },
+ "de-zahlen": {
+  "discipline": "Allemand",
+  "codes": [
+   "L2 24"
+  ],
+  "cles": [
+   "a2272814d132",
+   "b2fc9fdb4277"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "annee": "5e-8e",
+  "liens": [
+   {
+    "code": "L2 24",
+    "notion": "S'exprimer oralement en continu",
+    "plage": "5e-6e",
+    "cles": [
+     "a2272814d132"
+    ]
+   },
+   {
+    "code": "L2 24",
+    "notion": "S'exprimer oralement en continu",
+    "plage": "7e-8e",
+    "cles": [
+     "b2fc9fdb4277"
+    ]
+   }
+  ]
+ },
+ "de-perfekt": {
+  "discipline": "Allemand",
+  "codes": [
+   "L2 36"
+  ],
+  "cles": [
+   "0886573500e1"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "L2 36",
+    "notion": "Conjugaison",
+    "plage": "9e-11e",
+    "cles": [
+     "0886573500e1"
+    ]
+   },
+   {
+    "code": "L2 36",
+    "notion": "Conjugaison",
+    "plage": "9e-11e",
+    "cles": [
+     "0886573500e1"
+    ]
+   }
+  ]
+ },
+ "en-present": {
+  "discipline": "Anglais",
+  "codes": [
+   "L3 26",
+   "L3 36"
+  ],
+  "cles": [
+   "843457fcfcb1",
+   "df9aa64d5811"
+  ],
+  "annees": [
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "7e-11e",
+  "liens": [
+   {
+    "code": "L3 26",
+    "notion": "Conjugaison",
+    "plage": "7e-8e",
+    "cles": [
+     "843457fcfcb1"
+    ]
+   },
+   {
+    "code": "L3 36",
+    "notion": "Conjugaison",
+    "plage": "9e-11e",
+    "cles": [
+     "df9aa64d5811"
+    ]
+   }
+  ]
+ },
+ "en-irregular": {
+  "discipline": "Anglais",
+  "codes": [
+   "L3 36"
+  ],
+  "cles": [
+   "df9aa64d5811"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "L3 36",
+    "notion": "Conjugaison",
+    "plage": "9e-11e",
+    "cles": [
+     "df9aa64d5811"
+    ]
+   }
+  ]
+ },
+ "sci-unites": {
+  "discipline": "Sciences de la nature",
+  "codes": [
+   "MSN 36"
+  ],
+  "cles": [
+   "224a6e05ae6b"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "MSN 36",
+    "notion": "Utilisation de la démarche scientifique",
+    "plage": "9e-11e",
+    "cles": [
+     "224a6e05ae6b"
+    ]
+   }
+  ]
+ },
+ "sci-masse-volumique": {
+  "discipline": "Sciences de la nature",
+  "codes": [
+   "MSN 36"
+  ],
+  "cles": [
+   "87385b7641cf"
+  ],
+  "annees": [
+   9,
+   10
+  ],
+  "annee": "9e-10e",
+  "liens": [
+   {
+    "code": "MSN 36",
+    "notion": "Matière",
+    "plage": "9e-10e",
+    "cles": [
+     "87385b7641cf"
+    ]
+   }
+  ]
+ },
+ "sci-electricite": {
+  "discipline": "Sciences de la nature",
+  "codes": [
+   "MSN 36"
+  ],
+  "cles": [
+   "7a55ab2ebbdb"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 36",
+    "notion": "Électricité",
+    "plage": "10e-11e",
+    "cles": [
+     "7a55ab2ebbdb"
+    ]
+   }
+  ]
+ },
+ "chi-symboles": {
+  "discipline": "Sciences de la nature",
+  "codes": [
+   "MSN 36"
+  ],
+  "cles": [
+   "87385b7641cf"
+  ],
+  "annees": [
+   9,
+   10
+  ],
+  "annee": "9e-10e",
+  "liens": [
+   {
+    "code": "MSN 36",
+    "notion": "Matière",
+    "plage": "9e-10e",
+    "cles": [
+     "87385b7641cf"
+    ]
+   }
+  ]
+ },
+ "geo-cantons": {
+  "discipline": "Géographie",
+  "codes": [
+   "SHS 21",
+   "SHS 31"
+  ],
+  "cles": [
+   "cc1040ff3f6f",
+   "da4923bba6d5",
+   "ec852d9ff344"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "SHS 21",
+    "notion": "(S') informer",
+    "plage": "5e-8e",
+    "cles": [
+     "cc1040ff3f6f"
+    ]
+   },
+   {
+    "code": "SHS 21",
+    "notion": "(Se) repérer",
+    "plage": "5e-8e",
+    "cles": [
+     "da4923bba6d5"
+    ]
+   },
+   {
+    "code": "SHS 31",
+    "notion": "Appropriation d'outils et de repères spatiaux",
+    "plage": "9e-11e",
+    "cles": [
+     "ec852d9ff344"
+    ]
+   }
+  ]
+ },
+ "geo-suisse": {
+  "discipline": "Géographie",
+  "codes": [
+   "SHS 21",
+   "SHS 31"
+  ],
+  "cles": [
+   "0dad79d78638",
+   "ec852d9ff344"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "SHS 21",
+    "notion": "(Se) repérer",
+    "plage": "5e-8e",
+    "cles": [
+     "0dad79d78638"
+    ]
+   },
+   {
+    "code": "SHS 31",
+    "notion": "Appropriation d'outils et de repères spatiaux",
+    "plage": "9e-11e",
+    "cles": [
+     "ec852d9ff344"
+    ]
+   }
+  ]
+ },
+ "hist-suisse": {
+  "discipline": "Histoire",
+  "codes": [
+   "SHS 22",
+   "SHS 32"
+  ],
+  "cles": [
+   "5683c5e4f0ad",
+   "86a9bb3bbfa9"
+  ],
+  "annees": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "5e-11e",
+  "liens": [
+   {
+    "code": "SHS 22",
+    "notion": "Se repérer",
+    "plage": "5e-8e",
+    "cles": [
+     "5683c5e4f0ad"
+    ]
+   },
+   {
+    "code": "SHS 32",
+    "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+    "plage": "9e-11e",
+    "cles": [
+     "86a9bb3bbfa9"
+    ]
+   }
+  ]
+ },
+ "hist-monde": {
+  "discipline": "Histoire",
+  "codes": [
+   "SHS 32"
+  ],
+  "cles": [
+   "86a9bb3bbfa9",
+   "4029c3076249"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "SHS 32",
+    "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+    "plage": "9e-11e",
+    "cles": [
+     "86a9bb3bbfa9"
+    ]
+   },
+   {
+    "code": "SHS 32",
+    "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+    "plage": "11e",
+    "cles": [
+     "4029c3076249"
+    ]
+   }
+  ]
+ },
+ "cit-federal": {
+  "discipline": "Citoyenneté",
+  "codes": [
+   "SHS 34"
+  ],
+  "cles": [
+   "b0a8e15cb460"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "SHS 34",
+    "notion": "La Suisse, État fédéral",
+    "plage": "9e-11e",
+    "cles": [
+     "b0a8e15cb460"
+    ]
+   },
+   {
+    "code": "SHS 34",
+    "notion": "La Suisse, État fédéral",
+    "plage": "9e-11e",
+    "cles": [
+     "b0a8e15cb460"
+    ]
+   }
+  ]
+ },
+ "cit-canton": {
+  "discipline": "Citoyenneté",
+  "codes": [
+   "SHS 24",
+   "SHS 34"
+  ],
+  "cles": [
+   "a9d8e02383bd",
+   "b0a8e15cb460"
+  ],
+  "annees": [
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "annee": "7e-11e",
+  "liens": [
+   {
+    "code": "SHS 24",
+    "notion": "Découvrir une société locale, habiter une commune",
+    "plage": "7e-8e",
+    "cles": [
+     "a9d8e02383bd"
+    ]
+   },
+   {
+    "code": "SHS 34",
+    "notion": "La Suisse, État fédéral",
+    "plage": "9e-11e",
+    "cles": [
+     "b0a8e15cb460"
+    ]
+   }
+  ]
+ }
+}

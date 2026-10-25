@@ -5,11 +5,13 @@
  * élèves, tableau du prof). Rien ne part sur internet.
  */
 import seed from "../../pocketbase/seed/parcours.json";
+import seedPer from "../../pocketbase/seed/parcours-per.json";
+import perNotions from "../../data/per/per_notions.json";
 
 type Rec = Record<string, any> & { id: string; collectionName: string; created: string; updated: string };
 interface Store { db: Record<string, Rec[]>; pw: Record<string, string> }
 
-const DB_KEY = "pi-academy-demo-db-v1";
+const DB_KEY = "pi-academy-demo-db-v2";
 const AUTH_KEY = "pi-academy-demo-auth-v1";
 const COLS = ["users", "parcours", "unites", "matieres", "classes", "progressions", "sessions", "erreurs"];
 
@@ -94,7 +96,7 @@ function seedStore(): Store {
   const matId: Record<string, string> = {};
   for (const m of (seed as any).matieres ?? []) matId[m.slug] = insert("matieres", m).id;
   const bySlug: Record<string, Rec> = {};
-  for (const { unites, ...p } of (seed as any).parcours) {
+  for (const { unites, ...p } of [...(seed as any).parcours, ...(seedPer as any).parcours]) {
     const rec = insert("parcours", { cantons: [], ...p, matiere: matId[p.matiere] ?? "" });
     bySlug[p.slug] = rec;
     for (const u of unites) insert("unites", { ...u, parcours: rec.id });
@@ -132,8 +134,9 @@ store = load();
 
 /* ---------- filtres et tri (sous-ensemble de la syntaxe PocketBase) ---------- */
 
-function matches(r: Rec, filter?: string) {
+function matches(r: Rec, filter?: string): boolean {
   if (!filter) return true;
+  if (filter.includes("||")) return filter.split("||").some((f) => matches(r, f));
   return filter.split("&&").every((part) => {
     const m = part.trim().match(/^([\w.]+)\s*(=|!=)\s*(?:"((?:[^"\\]|\\.)*)"|'([^']*)'|(\S+))$/);
     if (!m) return true;
@@ -211,7 +214,8 @@ export function demoLogin(kind: "adulte" | "prof" | "admin" | "eleve") {
 
 class Collection {
   constructor(private name: string) {}
-  private rows() { return T(this.name); }
+  // Texte officiel du PER : en lecture seule, hors du localStorage (trop gros).
+  private rows() { return this.name === "per_notion" ? (perNotions as unknown as Rec[]) : T(this.name); }
   private find(id: string) {
     const r = this.rows().find((x) => x.id === id);
     if (!r) fail(404, "The requested resource wasn't found.");
@@ -348,6 +352,7 @@ function etat(slug?: string) {
   if (!canOpen(u, p!)) fail(403, "Ce parcours n'est pas ouvert pour toi.");
   let canton = u.canton || "";
   if (!canton && u.classe) canton = T("classes").find((c) => c.id === u.classe)?.canton ?? "";
+  if (!canton && u.role === "prof") canton = sorted(T("classes").filter((c) => c.prof === u.id && c.canton), "-created")[0]?.canton ?? "";
   const m = T("matieres").find((x) => x.id === p!.matiere);
   return {
     stats, canton, matiere: m ? { slug: m.slug, nom: m.nom } : null, parcours: pub(p!),
@@ -369,6 +374,7 @@ function serie(body: any) {
   if (!unite) fail(404, "Unité introuvable.");
   const p = T("parcours").find((x) => x.id === unite!.parcours)!;
   if (!canOpen(u, p)) fail(403, "Ce parcours n'est pas ouvert pour toi.");
+  if (unite!.statut === "bientot") fail(400, "Cette leçon arrive bientôt.");
   const out: any = { xp: 0, bonus: 0, valide: false, nouveau: false };
 
   let s = T("sessions").find((x) => x.utilisateur === u.id && x.serie === serieId);
@@ -469,8 +475,8 @@ function board(id: string) {
   const today = zurichDate(), limit = addDays(today, -7);
   const unitTitle: Record<string, string> = {};
   const parcours = (classe!.parcours_assignes as string[]).map((pid) => T("parcours").find((p) => p.id === pid)).filter(Boolean).map((p) => ({
-    id: p!.id, slug: p!.slug, titre: p!.titre, ordre: p!.ordre,
-    unites: sorted(T("unites").filter((x) => x.parcours === p!.id), "ordre").map((x) => { unitTitle[x.id] = x.titre; return { id: x.id, ordre: x.ordre, titre: x.titre, id_generateur: x.id_generateur, icone: x.icone }; }),
+    id: p!.id, slug: p!.slug, titre: p!.titre, ordre: p!.ordre, matiere: p!.matiere, annee_min: p!.annee_min, annee_max: p!.annee_max,
+    unites: sorted(T("unites").filter((x) => x.parcours === p!.id), "ordre").map((x) => { unitTitle[x.id] = x.titre; return { id: x.id, ordre: x.ordre, titre: x.titre, id_generateur: x.id_generateur, icone: x.icone, statut: x.statut || "actif", per_codes: x.per_codes ?? [], annee: x.annee ?? "" }; }),
   })).sort((a, b) => a.ordre - b.ordre);
   const eleves = sorted(T("users").filter((x) => x.role === "eleve" && x.classe === classe!.id), "pseudo").map((e) => {
     const progression: Record<string, any> = {};

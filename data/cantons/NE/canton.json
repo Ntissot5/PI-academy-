@@ -1,0 +1,833 @@
+{
+  "canton": "NE",
+  "documents": [
+    {
+      "titre": "Arrêté définissant les grilles horaires de la scolarité obligatoire (17 février 2025) – Annexe 1 : Grille horaire des périodes attribuées aux élèves",
+      "fichier": "pdf/grilles_horaires_EO_2025-2026.pdf",
+      "url": "https://www.ne.ch/legislation-jurisprudence/pubfo/ArrRegCE/Documents/2025/FO08_04_2025_02_17_DFFD_102_ACE_Grilles_horaires_EO_2025-2026.pdf",
+      "annee_scolaire": "2025-2026"
+    },
+    {
+      "titre": "RSN 410.313.1 – Arrêté définissant les grilles horaires de la scolarité obligatoire (État en août 2025)",
+      "fichier": "pdf/RSN_410.313.1.pdf",
+      "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/410.313.1.pdf",
+      "annee_scolaire": "2025-2026"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "1re",
+      "discipline": "Apprentissages transversaux et interdisciplinaires (ATI)",
+      "periodes": 16,
+      "filiere": "toutes",
+      "note": "Total 1 = Total 2 = 16"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Apprentissages transversaux et interdisciplinaires (ATI)",
+      "periodes": 20,
+      "filiere": "toutes",
+      "note": "Total 1 = Total 2 = 20"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Allemand L2"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Allemand L2"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Allemand L2"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "intitulé : Allemand L2"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "intitulé : Allemand L2"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux ; intitulé : Allemand L2"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux ; intitulé : Allemand L2"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Anglais L3"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Anglais L3"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "intitulé : Anglais L3"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "intitulé : Anglais L3"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "intitulé : Anglais L3 ; 2) Discipline à choix à niveaux (voir « Disciplines à choix » : Anglais N1 2 / N2 3)"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Mathématiques",
+      "periodes": 4,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Mathématiques",
+      "periodes": 4,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "1) Discipline à niveaux"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Histoire",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Géographie",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Monde contemporain et citoyenneté",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "3) MCC comprend 1 période d’Histoire, 1 période de Géographie et 1 période de Civisme"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Médias, science informatique et usages",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Éducation numérique (EDN)"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Médias, science informatique et usages",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Éducation numérique (EDN)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Médias, science informatique et usages",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Éducation numérique (EDN)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Médias, science informatique et usages",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Éducation numérique (EDN)"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Renforcement/Extension",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "REX ; compté dans le Total 2"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Français",
+      "periodes": 11,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Français",
+      "periodes": 11,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1 ; 1) Discipline à niveaux"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "N1",
+      "note": "intitulé : Français L1 ; 1) Discipline à niveaux"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "N2",
+      "note": "intitulé : Français L1 ; 1) Discipline à niveaux"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "intitulé : Français L1 ; 1) Discipline à niveaux"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Langues et cultures de l’Antiquité",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Langues et cultures de l’Antiquité",
+      "periodes": 1,
+      "filiere": "N2"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OP Portfolio",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OP Activités créatrices manuelles",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total ; 5) Les options professionnelles sont données sur un semestre ; l’élève suit donc deux options sur l’année"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OP Dessin technique et artistique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total ; 5) Les options professionnelles sont données sur un semestre ; l’élève suit donc deux options sur l’année"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OP Expression orale et corporelle",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total ; 5) Les options professionnelles sont données sur un semestre ; l’élève suit donc deux options sur l’année"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OP Informatique appliquée et gestion",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total ; 5) Les options professionnelles sont données sur un semestre ; l’élève suit donc deux options sur l’année"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OA Langues anciennes",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OA Langues modernes",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total ; 6) Options langues modernes : italien ou espagnol"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OA Sciences expérimentales",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "OA Sciences humaines",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "Options professionnelles (OP) et académiques (OA) ; 4) Pour les options professionnelles, compter la ligne POR en plus d’une option pour le total pour les options académiques, ne considérer qu’une ligne pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "N1",
+      "note": "Disciplines à choix ; 7) Ne considérer qu’une ligne des disciplines à choix pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "N2",
+      "note": "Disciplines à choix ; 7) Ne considérer qu’une ligne des disciplines à choix pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français renforcement",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Disciplines à choix ; 7) Ne considérer qu’une ligne des disciplines à choix pour le total"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques renforcement",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Disciplines à choix ; 7) Ne considérer qu’une ligne des disciplines à choix pour le total"
+    }
+  ],
+  "niveaux_filieres": [],
+  "repartition_par_annee": [],
+  "evaluations": [],
+  "filieres": [
+    {
+      "code": "N1",
+      "nom": "N1",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "N2",
+      "nom": "N2",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    }
+  ]
+}

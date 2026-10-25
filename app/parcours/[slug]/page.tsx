@@ -5,7 +5,7 @@ import { useApp } from "@/components/AppProvider";
 import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
 import { DEFAULT_ICON } from "@/lib/generators";
-import { isFinal, unlocked, useEtat } from "@/lib/hooks";
+import { isBientot, isFinal, unlocked, useEtat } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { LVL, courseMastery, mastery } from "@/lib/mastery";
 import { DAILY_GOAL } from "@/lib/config";
@@ -24,17 +24,21 @@ export default function Dashboard() {
   if (!etat) return <Loading />;
 
   const { unites, stats } = etat;
-  const cur = unites.findIndex((u) => !u.progression?.valide);
-  const c = unites[cur < 0 ? unites.length - 1 : cur];
+  const cur = unites.findIndex((u) => !isBientot(u) && !u.progression?.valide);
+  const actives = unites.filter((u) => !isBientot(u));
+  const c = unites[cur < 0 ? unites.indexOf(actives[actives.length - 1] ?? unites[unites.length - 1]) : cur];
   const m = Math.round(stats.minutesToday);
-  const cm = courseMastery(unites.map((u) => u.progression));
-  const msg = cur < 0
+  const cm = courseMastery(actives.map((u) => u.progression));
+  const nBientot = unites.length - actives.length;
+  const msg = !actives.length
+    ? "Les exercices de ce programme arrivent bientôt. Tu peux déjà voir ce que tu vas apprendre cette année."
+    : cur < 0
     ? "Parcours terminé. Garde la forme avec quelques séries."
     : m >= DAILY_GOAL ? `Objectif du jour rempli. Bravo ! Une série bonus sur « ${c.titre} » ?`
     : m > 0 ? `Encore ${DAILY_GOAL - m} min aujourd’hui. On continue « ${c.titre} » ?`
     : `Salut, moi c’est Pi. ${DAILY_GOAL} min aujourd’hui : on attaque « ${c.titre} » ?`;
   const href = (i: number) => `/parcours/${slug}/unite/${unites[i].ordre}`;
-  const open = (i: number) => (unlocked(etat, i) ? router.push(href(i)) : toast("Bats d’abord le boss de l’unité précédente"));
+  const open = (i: number) => (unlocked(etat, i) ? router.push(href(i)) : toast(isBientot(unites[i]) ? "Cette leçon arrive bientôt" : "Bats d’abord le boss de l’unité précédente"));
   const sq = (u: Unite) => {
     const lv = mastery(u.progression);
     return <span className="sq">{[1, 2, 3].map((k) => <i key={k} className={lv >= k ? `lv${k}` : ""} />)}</span>;
@@ -64,7 +68,7 @@ export default function Dashboard() {
           {unites.map((u, i) => (
             <button key={u.id} className={unlocked(etat, i) ? "" : "lk"} onClick={() => open(i)}>
               <img src={img(unlocked(etat, i) ? icon(u) : "lock")} alt="" />
-              {isFinal(u) ? "Boss final" : `${i + 1}. ${u.titre}`}{sq(u)}
+              {isFinal(u) ? "Boss final" : `${i + 1}. ${u.titre}`}{isBientot(u) ? <span className="small soon">Bientôt</span> : sq(u)}
             </button>
           ))}
         </nav>
@@ -89,12 +93,21 @@ export default function Dashboard() {
               <div className="small" style={{ display: "flex", justifyContent: "space-between" }}><span>il y a 4 semaines</span><span>aujourd’hui</span></div>
             </div>
           </div>
-          <div className="sec-h"><h2>Unités</h2>
+          <div className="sec-h"><h2>Unités{nBientot ? <span className="small"> · {actives.length} avec exercices, {nBientot} bientôt</span> : null}</h2>
             <div className="legend">{[0, 1, 2, 3].map((k) => <span key={k}><i className={k ? `lv${k}` : ""} />{LVL[k]}</span>)}</div>
           </div>
           <div className="units">
             {unites.map((u, i) => {
-              const lk = !unlocked(etat, i), lv = mastery(u.progression), f = isFinal(u);
+              const lk = !unlocked(etat, i), lv = mastery(u.progression), f = isFinal(u), bt = isBientot(u);
+              if (bt) {
+                return (
+                  <button key={u.id} className="unit lk soon" onClick={() => open(i)} aria-disabled>
+                    <span className="ic"><img src={img("lock")} alt="" /></span>
+                    <span className="meta"><span className="num">Notion {i + 1}</span><h3>{u.titre}</h3><p>{u.sous_titre}</p></span>
+                    <span className="go">Bientôt</span>
+                  </button>
+                );
+              }
               return (
                 <button key={u.id} className={`unit ${lk ? "lk" : ""} ${f ? "final" : ""}`} onClick={() => open(i)} aria-disabled={lk || undefined}>
                   <span className="ic"><img src={img(icon(u))} alt="" />{lk && <img className="lock" src={img("lock")} alt="Verrouillé" />}</span>

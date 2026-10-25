@@ -6,7 +6,7 @@ import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
 import {
   createClasse, getBoard, lastErrors, listClasses, listMatieres, listParcours, removeEleve, resetPin, setParcoursAssignes,
-  type Board, type BoardEleve, type Classe, type Erreur, type Matiere, type Parcours,
+  type Board, type BoardEleve, type BoardUnite, type Classe, type Erreur, type Matiere, type Parcours,
 } from "@/lib/api";
 import { DEFAULT_ICON } from "@/lib/generators";
 import { useRequireAuth } from "@/lib/hooks";
@@ -15,8 +15,38 @@ import { LVL, mastery } from "@/lib/mastery";
 import { CANTONS, cantonByCode } from "@/lib/cantons";
 import { anneesLabel, fitsCanton, groupByMatiere, planLabel } from "@/lib/catalogue";
 import { pb } from "@/lib/pb";
+import { pastille } from "@/lib/per";
 
 const frDate = (d: string) => (d ? d.split("-").reverse().join(".") : "—");
+
+/** Filtres de l'espace prof : année Harmos, discipline (matière), code PER. 0 / "" = tous. */
+interface Filtre { annee: number; matiere: string; code: string }
+const garde = (p: { matiere?: string; annee_min?: number; annee_max?: number }, f: Filtre) =>
+  (!f.matiere || p.matiere === f.matiere) &&
+  (!f.annee || !p.annee_min || ((p.annee_min ?? 0) <= f.annee && f.annee <= (p.annee_max || p.annee_min || 0)));
+const codeOk = (u: BoardUnite, f: Filtre) => !f.code || (u.per_codes ?? []).includes(f.code);
+const lab = (n: number) => (n === 1 ? "1re" : `${n}e`);
+
+function Filtres({ filtre, setFiltre, matieres, board }: { filtre: Filtre; setFiltre: (f: Filtre) => void; matieres: Matiere[]; board: Board | null }) {
+  const codes = [...new Set((board?.parcours ?? []).flatMap((p) => p.unites.flatMap((u) => u.per_codes ?? [])))]
+    .sort((a, b) => a.localeCompare(b, "fr", { numeric: true }));
+  return (
+    <div className="prof-filtres" role="group" aria-label="Filtres">
+      <select aria-label="Année" value={filtre.annee} onChange={(e) => setFiltre({ ...filtre, annee: Number(e.target.value) })}>
+        <option value={0}>Toutes les années</option>
+        {Array.from({ length: 11 }, (_, i) => i + 1).map((n) => <option key={n} value={n}>{lab(n)}</option>)}
+      </select>
+      <select aria-label="Discipline" value={filtre.matiere} onChange={(e) => setFiltre({ ...filtre, matiere: e.target.value })}>
+        <option value="">Toutes les disciplines</option>
+        {matieres.map((m) => <option key={m.id} value={m.id}>{m.nom}</option>)}
+      </select>
+      <select aria-label="Code PER" value={filtre.code} onChange={(e) => setFiltre({ ...filtre, code: e.target.value })}>
+        <option value="">Tous les codes PER</option>
+        {codes.map((c) => <option key={c} value={c}>{pastille(c)}</option>)}
+      </select>
+    </div>
+  );
+}
 
 /** Espace prof : classes, codes, parcours assignés, maîtrise élèves × unités, erreurs, élèves bloqués. */
 export default function Prof() {
@@ -29,6 +59,7 @@ export default function Prof() {
   const [matieres, setMatieres] = useState<Matiere[]>([]);
   const [board, setBoard] = useState<Board | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
+  const [filtre, setFiltre] = useState<Filtre>({ annee: 0, matiere: "", code: "" });
 
   useEffect(() => {
     if (ok && user && user.role !== "prof" && user.role !== "admin") router.replace("/parcours");
@@ -106,7 +137,8 @@ export default function Prof() {
       {classe && (
         <>
           <ClassHead classe={classe} count={board?.eleves.length} />
-          <Assign classe={classe} catalog={catalog} matieres={matieres} onChange={async (ids) => {
+          <Filtres filtre={filtre} setFiltre={setFiltre} matieres={matieres} board={board} />
+          <Assign classe={classe} catalog={catalog.filter((p) => garde(p, filtre))} matieres={matieres} onChange={async (ids) => {
             await setParcoursAssignes(classe.id, ids);
             await loadClasses();
             reload();
@@ -121,7 +153,7 @@ export default function Prof() {
               ))}
             </div>
           )}
-          {!board ? <Loading /> : <Grid board={board} selected={selected} onSelect={setSelected} />}
+          {!board ? <Loading /> : <Grid board={board} filtre={filtre} selected={selected} onSelect={setSelected} />}
           {board && selected && board.eleves.find((e) => e.id === selected) && (
             <Detail key={selected} eleve={board.eleves.find((e) => e.id === selected)!} board={board} tick={tick}
               onClose={() => setSelected(null)} onRemoved={() => { setSelected(null); reload(); }} />
@@ -217,12 +249,18 @@ function Assign({ classe, catalog, matieres, onChange }: { classe: Classe; catal
   );
 }
 
-function Grid({ board, selected, onSelect }: { board: Board; selected: string | null; onSelect: (id: string) => void }) {
+function Grid({ board, filtre, selected, onSelect }: { board: Board; filtre: Filtre; selected: string | null; onSelect: (id: string) => void }) {
   if (!board.parcours.length) return <div className="card"><p className="small">Assigne au moins un parcours pour voir la maîtrise de tes élèves.</p></div>;
   if (!board.eleves.length) return <div className="card"><p className="small">Pas encore d’élève. Donne-leur le code <b className="mono">{board.classe.code}</b>.</p></div>;
+  // Les notions « Bientôt » n'ont pas encore d'exercices : pas de colonne.
+  const vus = board.parcours
+    .filter((p) => garde(p, filtre))
+    .map((p) => ({ ...p, unites: p.unites.filter((u) => u.statut !== "bientot" && codeOk(u, filtre)) }))
+    .filter((p) => p.unites.length);
+  if (!vus.length) return <div className="card"><p className="small">Aucune unité ne correspond à ces filtres.</p></div>;
   return (
     <>
-      {board.parcours.map((p) => (
+      {vus.map((p) => (
         <div className="card" key={p.id}>
           <div className="sec-h"><h2>{p.titre}</h2>
             <div className="legend">{[0, 1, 2, 3].map((k) => <span key={k}><i className={k ? `lv${k}` : ""} />{LVL[k]}</span>)}</div></div>
@@ -231,10 +269,11 @@ function Grid({ board, selected, onSelect }: { board: Board; selected: string | 
               <thead>
                 <tr>
                   <th scope="col" className="who">Élève</th>
-                  {p.unites.map((u, i) => (
-                    <th scope="col" key={u.id} title={u.titre}>
+                  {p.unites.map((u) => (
+                    <th scope="col" key={u.id} title={`${u.titre}${u.per_codes?.length ? ` · ${u.per_codes.join(", ")}` : ""}${u.annee ? ` · ${u.annee}` : ""}`}>
                       <img src={img(u.icone || DEFAULT_ICON[u.id_generateur] || "star")} alt="" />
-                      <span className="mono">{u.id_generateur === "final" ? "Final" : i + 1}</span>
+                      <span className="mono">{u.id_generateur === "final" ? "Final" : u.ordre}</span>
+                      {u.per_codes?.length ? <span className="per-code">{u.id_generateur === "final" ? "mixte" : u.per_codes.join(" ")}</span> : null}
                     </th>
                   ))}
                   <th scope="col" className="last">Dernière session</th>

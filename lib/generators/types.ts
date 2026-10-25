@@ -16,6 +16,10 @@ export interface Question {
   why: string;
   /** Unité d'origine, pour l'examen final. */
   tag?: string;
+  /** Objectif du Plan d'études romand (ex. « MSN 32 ») ; null seulement pour le secondaire II. */
+  per_code?: string | null;
+  /** Année Harmos du contenu (« 9e », « 10e-11e ») ou « secondaire II ». */
+  annee?: string;
 }
 
 /** Contexte facultatif : le canton de l'élève, pour les questions cantonales. */

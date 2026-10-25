@@ -104,9 +104,18 @@ Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au dém
 
 ## Plan d’études romand (PER)
 
-Chaque type d’exercices est rattaché aux objectifs du PER, cycle 3, dans `lib/per.ts`. Les codes sont affichés sur la page de chaque unité (« Hors PER · secondaire II » pour les contenus de la prépa EPFL au-delà de la 11e). Le tableau de relecture pour les enseignant·es est `docs/PER-correspondance.md`, généré par `node --experimental-strip-types scripts/per-table.ts`.
+Source : Plan d’études romand, © CIIP. Le texte officiel est repris tel quel ; il n’est jamais modifié. Avant une mise en production publique, l’accord de la CIIP (ciip@ne.ch) est attendu.
 
-Les codes ont été établis sans accès au site officiel (plandetudes.ch) : ils doivent être validés par un·e enseignant·e. Les exercices sont créés par la plateforme et ne reprennent pas ceux des moyens d’enseignement romands, protégés par le droit d’auteur.
+- **Texte officiel** : `data/per/` (24 fichiers par discipline et par cycle), extrait de l’API publique du PER par `data/per-kit/tool/extract.mjs` (voir `data/per-kit/PROMPT-PER.md`). Contrôle : les fichiers sont identiques à ceux de `data/per-kit/reference/`.
+- **Programme par année** : `node scripts/per-programme.mjs` → `data/per/programme_par_annee.json` (1re à 11e) et `data/per/per_notions.json` (une progression officielle par ligne, avec une clé stable).
+- **Rattachement des exercices** : `lib/per-generateurs.json` (code + notion + plage + extrait du texte officiel). `node scripts/build-per-content.mjs` vérifie chaque lien contre le texte officiel et produit `lib/per-liens.json`, les champs PER de `pocketbase/seed/parcours.json`, `pocketbase/seed/parcours-per.json` (un parcours par année et par discipline) et la migration `1761700001_per_contenu.js`.
+- **Règle** : pas d’exercice sans code PER ni année. Chaque question générée porte `per_code` et `annee` ; une unité sans code PER ou sans année est refusée par le serveur. Trigonométrie, logarithmes, dérivées et le Δ du 2e degré sont `secondaire_II` (hors PER) et n’existent que dans la Prépa EPFL.
+- **Parcours par année** : « Maths 9e », « Français 7e »… une leçon par notion du PER ; une notion sans exercice est affichée « Bientôt », visible mais verrouillée. Ces parcours sont marqués Bêta tant que les rattachements ne sont pas relus.
+- **Pour les profs** : chaque unité montre le texte officiel visé, avec le lien vers la source, et la répartition du canton de la classe quand il en publie une (`data/cantons/cantons.json`, copié dans `public/data/`). Les élèves ne voient que les titres et les explications de l’app.
+- **Cantons** (GE, VD, FR, VS, NE, JU, BE francophone) : documents officiels dans `data/cantons/<canton>/pdf/` (téléchargés via le navigateur, avec URL et SHA-256 dans `sources.json`), extraits dans `data/cantons/<canton>/canton.json` (grilles horaires, niveaux et filières, répartition par année, évaluations ; texte recopié, « INTROUVABLE » sinon). `node scripts/build-cantons.mjs` contrôle et rassemble tout dans `data/cantons/cantons.json` et `public/data/cantons.json`. Seul Genève publie une répartition notion par année pour toutes les disciplines ; Vaud, pour l’option Mathématiques et physique (codes cantonaux MEP 31-34).
+- **Couverture** : `node scripts/per-couverture.mjs` → `docs/COUVERTURE-PER.md` (tableau année × discipline, 20 notions prioritaires sans exercice, rattachements à relire).
+
+Les exercices sont créés par la plateforme et ne reprennent pas ceux des moyens d’enseignement romands, protégés par le droit d’auteur.
 
 ## Contenu des nouvelles matières
 

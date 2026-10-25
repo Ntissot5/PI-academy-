@@ -47,4 +47,11 @@ export function useEtat(slug: string) {
 export const forgetEtat = (slug: string) => cache.delete(slug);
 
 export const isFinal = (u: { id_generateur: string }) => u.id_generateur === "final";
-export const unlocked = (etat: Etat, i: number) => i === 0 || !!etat.unites[i - 1]?.progression?.valide;
+export const isBientot = (u: { statut?: string }) => u.statut === "bientot";
+/** Une unité s'ouvre quand le boss de l'unité précédente (avec exercices) est battu ; « Bientôt » reste fermée. */
+export const unlocked = (etat: Etat, i: number) => {
+  const u = etat.unites[i];
+  if (!u || isBientot(u)) return false;
+  for (let j = i - 1; j >= 0; j--) if (!isBientot(etat.unites[j])) return !!etat.unites[j].progression?.valide;
+  return true;
+};

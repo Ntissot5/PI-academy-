@@ -32,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AppProvider>
           <TopBar />
           <main className="pad">{children}</main>
+          <footer className="site-foot">Programmes : Plan d’études romand, © CIIP. Exercices créés par Pi Academy.</footer>
         </AppProvider>
       </body>
     </html>

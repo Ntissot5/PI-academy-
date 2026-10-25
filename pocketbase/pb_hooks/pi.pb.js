@@ -46,6 +46,20 @@ onRecordCreateRequest((e) => {
   e.next();
 }, "classes");
 
+/* ---------- unités : pas d'exercice sans code PER ni année ---------- */
+
+onRecordCreateRequest((e) => {
+  const { checkUnitePer } = require(`${__hooks}/lib/per.js`);
+  checkUnitePer($app, e.record);
+  e.next();
+}, "unites");
+
+onRecordUpdateRequest((e) => {
+  const { checkUnitePer } = require(`${__hooks}/lib/per.js`);
+  checkUnitePer($app, e.record);
+  e.next();
+}, "unites");
+
 /* ---------- état d'un parcours : unités + progression + stats ---------- */
 
 routerAdd("GET", "/api/pi/etat", (e) => {
@@ -74,6 +88,10 @@ routerAdd("GET", "/api/pi/etat", (e) => {
   if (!canton && e.auth.getString("classe")) {
     try { canton = $app.findRecordById("classes", e.auth.getString("classe")).getString("canton"); } catch (_) { canton = ""; }
   }
+  // Prof sans canton dans son profil : celui de sa dernière classe qui en a un.
+  if (!canton && e.auth.getString("role") === "prof") {
+    try { canton = $app.findRecordsByFilter("classes", "prof = {:p} && canton != ''", "-created", 1, 0, { p: e.auth.id })[0].getString("canton"); } catch (_) { canton = ""; }
+  }
   let matiere = null;
   if (parcours.getString("matiere")) {
     try { const m = $app.findRecordById("matieres", parcours.getString("matiere")); matiere = { slug: m.getString("slug"), nom: m.getString("nom") }; } catch (_) { matiere = null; }
@@ -97,6 +115,11 @@ routerAdd("GET", "/api/pi/etat", (e) => {
         image: u.getString("image"),
         piege: u.getString("piege"),
         icone: u.getString("icone"),
+        statut: u.getString("statut") || "actif",
+        per_codes: u.get("per_codes") || [],
+        per_notions: u.get("per_notions") || [],
+        annee: u.getString("annee"),
+        tag: u.getString("tag"),
         progression: p ? {
           meilleur_entrainement: p.getInt("meilleur_entrainement"),
           meilleur_boss: p.getInt("meilleur_boss"),
@@ -158,6 +181,7 @@ routerAdd("POST", "/api/pi/serie", (e) => {
   try { unite = $app.findRecordById("unites", String(body.unite || "")); } catch (_) { throw new NotFoundError("Unité introuvable."); }
   const parcours = $app.findRecordById("parcours", unite.getString("parcours"));
   if (!canOpenParcours($app, e.auth, parcours)) throw new ForbiddenError("Ce parcours n'est pas ouvert pour toi.");
+  if (unite.getString("statut") === "bientot") throw new BadRequestError("Cette leçon arrive bientôt.");
 
   const out = { xp: 0, bonus: 0, valide: false, nouveau: false };
 

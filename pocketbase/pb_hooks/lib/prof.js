@@ -17,9 +17,13 @@ function classeBoard(app, classe) {
     const us = app.findRecordsByFilter("unites", "parcours = {:p}", "ordre", 0, 0, { p: pid });
     parcours.push({
       id: p.id, slug: p.getString("slug"), titre: p.getString("titre"), ordre: p.getInt("ordre"),
+      matiere: p.getString("matiere"), annee_min: p.getInt("annee_min"), annee_max: p.getInt("annee_max"),
       unites: us.map((u) => {
         unitTitle[u.id] = u.getString("titre");
-        return { id: u.id, ordre: u.getInt("ordre"), titre: u.getString("titre"), id_generateur: u.getString("id_generateur"), icone: u.getString("icone") };
+        return {
+          id: u.id, ordre: u.getInt("ordre"), titre: u.getString("titre"), id_generateur: u.getString("id_generateur"), icone: u.getString("icone"),
+          statut: u.getString("statut") || "actif", per_codes: u.get("per_codes") || [], annee: u.getString("annee"),
+        };
       }),
     });
   }

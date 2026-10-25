@@ -160,3 +160,17 @@ a.unit{text-decoration:none;color:inherit}
 /* objectifs du Plan d'études romand sur la page d'unité */
 .per-line{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:-10px 0 18px}
 .per-line .pill-s{cursor:help}
+
+/* Leçons « Bientôt » (notion PER sans exercice) et texte officiel pour les profs */
+.unit.soon{opacity:.62}
+.side .soon{margin-left:auto;font-size:.68rem}
+.per-off{margin:24px 0 0;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.per-off summary{cursor:pointer;font-weight:700}
+.per-off h4{margin:14px 0 6px}
+.per-off ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.per-off .per-txt{white-space:pre-line;font-size:.86rem;color:var(--muted);margin-top:2px}
+.prof-filtres{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.prof-filtres select,.prof-filtres input{font:inherit;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.board th .per-code{display:block;font-size:.62rem;font-weight:600;color:var(--muted);white-space:nowrap}
+.site-foot{max-width:1120px;margin:8px auto 28px;padding:0 16px;font-size:.75rem;color:var(--muted);text-align:center}
+.per-off .per-canton{display:block;margin-top:10px}.per-off .per-canton select{font:inherit;padding:2px 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}

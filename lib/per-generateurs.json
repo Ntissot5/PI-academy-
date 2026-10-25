@@ -1,0 +1,107 @@
+{
+  "_note": "Rattachement de chaque type d'exercices aux progressions officielles du PER (data/per/). Un lien = code + notion + plage, exactement comme dans les fichiers PER, et un extrait (« cherche ») du contenu officiel pour retrouver la progression. Les maths reprennent data/per-kit/mapping_generateurs_PER.json. « annees » restreint le placement dans les parcours par année ; sinon on prend les plages des liens. secondaire_II = hors PER, réservé au parcours Prépa EPFL.",
+  "generateurs": {
+    "rel": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 32", "notion": "Calculs", "plage": "9e-10e", "cherche": "nombres entiers relatifs de -100 à +100 (+, −, ∙, :) (Niv 2-3)" },
+      { "code": "MSN 32", "notion": "Calculs", "plage": "10e", "cherche": "nombres entiers relatifs de -100 à +100 (+) (Niv 1)" },
+      { "code": "MSN 32", "notion": "Calculs", "plage": "11e", "cherche": "nombres entiers relatifs de -100 à +100 (+, −, ∙, :) (Niv 1)" } ] },
+    "frac": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 32", "notion": "Nombres", "plage": "9e-10e", "cherche": "fractionnaire (y compris simplification et amplification), de pourcentage" },
+      { "code": "MSN 32", "notion": "Calculs", "plage": "9e", "cherche": "nombres rationnels positifs sous forme fractionnaire (+, −) (Niv 3)" },
+      { "code": "MSN 33", "notion": "Éléments pour la résolution de problèmes", "plage": "10e-11e", "cherche": "échelle, pourcentage, pente" } ] },
+    "pow": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 32", "notion": "Calculs", "plage": "10e", "cherche": "puissances (a, b, m et n dans ℕ)" },
+      { "code": "MSN 32", "notion": "Nombres", "plage": "10e-11e", "cherche": "de la notation scientifique" } ] },
+    "eq1": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "plage": "10e-11e", "cherche": "Résolution d'équations du premier degré à une inconnue" },
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "plage": "10e", "cherche": "une équation du premier degré à une inconnue (Niv 3)" } ] },
+    "geo": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 34", "notion": "Calcul de grandeurs", "plage": "9e-11e", "cherche": "Mesure des dimensions adéquates et calcul" },
+      { "code": "MSN 34", "notion": "Mesure de grandeurs et conversion d'unités", "plage": "9e-11e", "cherche": "expression d'une grandeur dans diverses unités" } ] },
+    "iso": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "plage": "11e", "cherche": "Expression de chacune des variables d'une formule connue en fonction des autres" },
+      { "code": "MSN 34", "notion": "Calcul de grandeurs", "plage": "10e-11e", "cherche": "Calcul d'une grandeur manquante" } ] },
+    "lin": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 33", "notion": "Fonctions", "plage": "10e", "cherche": "x→ax+b" },
+      { "code": "MSN 33", "notion": "Fonctions", "plage": "11e", "cherche": "x→ax+b" } ] },
+    "eq2": { "discipline": "Mathématiques", "secondaire_II": "Discriminant Δ et sommet de la parabole : secondaire II. Seule la résolution par factorisation ou par la formule de Viète figure au PER (11e, Niv 3).", "liens": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "plage": "11e", "cherche": "formule de Viète" } ] },
+    "trig": { "discipline": "Mathématiques", "secondaire_II": "Trigonométrie : secondaire II (non présent au PER).", "liens": [] },
+    "log": { "discipline": "Mathématiques", "secondaire_II": "Exponentielles et logarithmes : secondaire II (non présent au PER).", "liens": [] },
+    "der": { "discipline": "Mathématiques", "secondaire_II": "Dérivées : secondaire II (non présent au PER).", "liens": [] },
+
+    "fr-present": { "discipline": "Français", "annees": [5, 10], "liens": [
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "5e-6e", "cherche": "5e année" },
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "7e-8e", "cherche": "7e année" },
+      { "code": "L1 36", "notion": "Conjugaison", "plage": "9e-10e", "cherche": "Identification et construction des formes verbales simples" } ] },
+    "fr-imparfait": { "discipline": "Français", "annees": [5, 10], "liens": [
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "5e-6e", "cherche": "5e année" },
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "7e-8e", "cherche": "7e année" },
+      { "code": "L1 36", "notion": "Conjugaison", "plage": "9e-10e", "cherche": "Identification et construction des formes verbales simples" } ] },
+    "fr-futur": { "discipline": "Français", "annees": [6, 10], "liens": [
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "5e-6e", "cherche": "6e année" },
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "7e-8e", "cherche": "7e année" },
+      { "code": "L1 36", "notion": "Conjugaison", "plage": "9e-10e", "cherche": "Identification et construction des formes verbales simples" } ] },
+    "fr-pc": { "discipline": "Français", "annees": [6, 11], "liens": [
+      { "code": "L1 26", "notion": "Conjugaison › Observation et prise en compte de l’écrit", "plage": "5e-6e", "cherche": "6e année" },
+      { "code": "L1 26", "notion": "Orthographe grammaticale › Accord du participe passé", "plage": "5e-8e", "cherche": "Accord du participe passé employé avec être" },
+      { "code": "L1 36", "notion": "Orthographe grammaticale › Accord du participe passé", "plage": "9e-11e", "cherche": "Application de l'accord du participe passé employé seul; avec être" } ] },
+    "fr-homophones": { "discipline": "Français", "liens": [
+      { "code": "L1 26", "notion": "Orthographe grammaticale › Accord du participe passé", "plage": "5e-6e", "cherche": "Identification et utilisation des homophones grammaticaux" },
+      { "code": "L1 26", "notion": "Orthographe grammaticale › Accord du participe passé", "plage": "7e-8e", "cherche": "Identification et utilisation des homophones grammaticaux" },
+      { "code": "L1 36", "notion": "Orthographe grammaticale › Homophones grammaticaux", "plage": "9e-11e", "cherche": "Vérification systématique de l'orthographe des homophones usuels" } ] },
+    "fr-nature": { "discipline": "Français", "annees": [7, 9], "liens": [
+      { "code": "L1 26", "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales", "plage": "7e-8e", "cherche": "Adverbe" },
+      { "code": "L1 36", "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales", "plage": "9e", "cherche": "Identification des classes grammaticales" } ] },
+
+    "de-praesens": { "discipline": "Allemand", "liens": [
+      { "code": "L2 26", "notion": "Conjugaison", "plage": "5e-8e", "cherche": "Présent des verbes réguliers et de quelques verbes irréguliers fréquents" },
+      { "code": "L2 36", "notion": "Conjugaison", "plage": "9e-11e", "cherche": "Temps de l’indicatif (présent, passé, futur)" } ] },
+    "de-artikel": { "discipline": "Allemand", "liens": [
+      { "code": "L2 26", "notion": "Vocabulaire et orthographe", "plage": "5e-8e", "cherche": "Distinction grammaticale entre les mots (genres, nombres)" },
+      { "code": "L2 36", "notion": "Vocabulaire et orthographe", "plage": "9e-11e", "cherche": "Distinction grammaticale entre les mots (genres, nombres)" } ] },
+    "de-zahlen": { "discipline": "Allemand", "liens": [
+      { "code": "L2 24", "notion": "S'exprimer oralement en continu", "plage": "5e-6e", "cherche": "Transmission d'informations à l'aide de nombres" },
+      { "code": "L2 24", "notion": "S'exprimer oralement en continu", "plage": "7e-8e", "cherche": "nombres de 1 à 100" } ] },
+    "de-perfekt": { "discipline": "Allemand", "liens": [
+      { "code": "L2 36", "notion": "Conjugaison", "plage": "9e-11e", "cherche": "Temps de l’indicatif (présent, passé, futur)" },
+      { "code": "L2 36", "notion": "Conjugaison", "plage": "9e-11e", "cherche": "Verbes faibles, forts, mixtes" } ] },
+
+    "en-present": { "discipline": "Anglais", "liens": [
+      { "code": "L3 26", "notion": "Conjugaison", "plage": "7e-8e", "cherche": "simple present" },
+      { "code": "L3 36", "notion": "Conjugaison", "plage": "9e-11e", "cherche": "simple present" } ] },
+    "en-irregular": { "discipline": "Anglais", "liens": [
+      { "code": "L3 36", "notion": "Conjugaison", "plage": "9e-11e", "cherche": "past simple" } ] },
+
+    "sci-unites": { "discipline": "Sciences de la nature", "liens": [
+      { "code": "MSN 36", "notion": "Utilisation de la démarche scientifique", "plage": "9e-11e", "cherche": "arrondis et unités adéquats" } ] },
+    "sci-masse-volumique": { "discipline": "Sciences de la nature", "liens": [
+      { "code": "MSN 36", "notion": "Matière", "plage": "9e-10e", "cherche": "Caractérisation des substances par leur masse volumique" } ] },
+    "sci-electricite": { "discipline": "Sciences de la nature", "liens": [
+      { "code": "MSN 36", "notion": "Électricité", "plage": "10e-11e", "cherche": "fonctionnement d'un circuit électrique" } ] },
+    "chi-symboles": { "discipline": "Sciences de la nature", "liens": [
+      { "code": "MSN 36", "notion": "Matière", "plage": "9e-10e", "cherche": "molécules et d'atomes (éléments, espèces chimiques)" } ] },
+
+    "geo-cantons": { "discipline": "Géographie", "liens": [
+      { "code": "SHS 21", "notion": "(S') informer", "plage": "5e-8e", "cherche": "Commune, canton, région, pays" },
+      { "code": "SHS 21", "notion": "(Se) repérer", "plage": "5e-8e", "cherche": "Dénomination des points de repère significatifs" },
+      { "code": "SHS 31", "notion": "Appropriation d'outils et de repères spatiaux", "plage": "9e-11e", "cherche": "Appropriation d'un vocabulaire et d'un lexique" } ] },
+    "geo-suisse": { "discipline": "Géographie", "liens": [
+      { "code": "SHS 21", "notion": "(Se) repérer", "plage": "5e-8e", "cherche": "Localisation de lieux étudiés" },
+      { "code": "SHS 31", "notion": "Appropriation d'outils et de repères spatiaux", "plage": "9e-11e", "cherche": "Appropriation d'un vocabulaire et d'un lexique" } ] },
+
+    "hist-suisse": { "discipline": "Histoire", "liens": [
+      { "code": "SHS 22", "notion": "Se repérer", "plage": "5e-8e", "cherche": "Mise en évidence de la durée des périodes" },
+      { "code": "SHS 32", "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )", "plage": "9e-11e", "cherche": "Construction de frises chronologiques" } ] },
+    "hist-monde": { "discipline": "Histoire", "annees": [9, 11], "liens": [
+      { "code": "SHS 32", "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )", "plage": "9e-11e", "cherche": "Construction de frises chronologiques" },
+      { "code": "SHS 32", "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )", "plage": "11e", "cherche": "guerres mondiales" } ] },
+
+    "cit-federal": { "discipline": "Citoyenneté", "liens": [
+      { "code": "SHS 34", "notion": "La Suisse, État fédéral", "plage": "9e-11e", "cherche": "Description et analyse de l’organisation de l’État fédéral" },
+      { "code": "SHS 34", "notion": "La Suisse, État fédéral", "plage": "9e-11e", "cherche": "démocratie directe et semi-directe" } ] },
+    "cit-canton": { "discipline": "Citoyenneté", "liens": [
+      { "code": "SHS 24", "notion": "Découvrir une société locale, habiter une commune", "plage": "7e-8e", "cherche": "Initiation à l’organisation politique communale" },
+      { "code": "SHS 34", "notion": "La Suisse, État fédéral", "plage": "9e-11e", "cherche": "paysage politique national et cantonal" } ] }
+  }
+}

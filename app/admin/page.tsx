@@ -11,17 +11,34 @@ import { DEFAULT_ICON, FINAL_ID, GENERATORS, GENERATOR_LABEL } from "@/lib/gener
 import { forgetEtat, useRequireAuth } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { pb } from "@/lib/pb";
+import { PER_PAR_GENERATEUR, TAG_SECONDAIRE_II, perPourUnite } from "@/lib/per";
+
+/** Champs PER d'une unité d'après son type d'exercices (l'examen final reprend ceux du parcours). */
+function perAuto(id: string, freres: UniteRec[]): Pick<UniteRec, "per_codes" | "per_notions" | "annee" | "tag" | "statut"> {
+  if (!id) return { statut: "bientot" };
+  const l = PER_PAR_GENERATEUR[id];
+  if (id === FINAL_ID) {
+    const ls = freres.filter((u) => u.id_generateur && u.id_generateur !== FINAL_ID).map((u) => PER_PAR_GENERATEUR[u.id_generateur]).filter(Boolean);
+    const per = perPourUnite({ id_generateur: id }, freres);
+    const ans = ls.flatMap((x) => x.annees).sort((a, b) => a - b);
+    const lab = (n: number) => (n === 1 ? "1re" : `${n}e`);
+    return { statut: "actif", per_codes: per.codes, per_notions: [...new Set(ls.flatMap((x) => x.cles))], tag: "",
+      annee: !ans.length ? "secondaire II" : ans[0] === ans[ans.length - 1] ? lab(ans[0]) : `${lab(ans[0])}-${lab(ans[ans.length - 1])}` };
+  }
+  return { statut: "actif", per_codes: l?.codes ?? [], per_notions: l?.cles ?? [], annee: l?.annee ?? "", tag: l?.secondaire_II ? TAG_SECONDAIRE_II : "" };
+}
 
 interface UniteRec {
   id: string; parcours: string; ordre: number; id_generateur: string; titre: string; sous_titre: string;
   regle: string; exemple: string; image: string; piege: string; icone: string;
+  statut?: string; per_codes?: string[] | null; per_notions?: string[] | null; annee?: string; tag?: string;
 }
 type Sel = { kind: "parcours"; id: string } | { kind: "unite"; id: string } | null;
 
 const ICONS = ["flower", "report", "molecule", "pin", "folder", "mail", "plane", "note", "eye", "cal31", "laptop", "star"];
 const GEN_IDS = [...Object.keys(GENERATORS), FINAL_ID];
-const UNIT_FIELDS = ["ordre", "id_generateur", "titre", "sous_titre", "regle", "exemple", "image", "piege", "icone"] as const;
-const PARCOURS_FIELDS = ["slug", "titre", "accroche", "description", "public", "niveau", "icone", "ordre", "payant", "plan", "annee_min", "annee_max", "cantons", "statut"] as const;
+const UNIT_FIELDS = ["ordre", "id_generateur", "titre", "sous_titre", "regle", "exemple", "image", "piege", "icone", "statut", "per_codes", "per_notions", "annee", "tag"] as const;
+const PARCOURS_FIELDS = ["slug", "titre", "accroche", "description", "public", "niveau", "icone", "ordre", "payant", "plan", "annee_min", "annee_max", "cantons", "statut", "auto"] as const;
 
 /** Admin : éditer les textes des unités et l'ordre des parcours, importer/exporter en JSON. */
 export default function Admin() {
@@ -99,7 +116,7 @@ export default function Admin() {
           ))}
         </nav>
         <div className="content">
-          {selU && <UnitForm key={selU.id} u={selU} slug={parcours.find((p) => p.id === selU.parcours)?.slug ?? ""} onSaved={load} />}
+          {selU && <UnitForm key={selU.id} u={selU} slug={parcours.find((p) => p.id === selU.parcours)?.slug ?? ""} freres={unites.filter((x) => x.parcours === selU.parcours)} onSaved={load} />}
           {selP && <ParcoursForm key={selP.id} p={selP} matieres={matieres} onSaved={load} />}
           {!sel && <div className="card"><p className="small">Choisis un parcours ou une unité dans la liste.</p></div>}
           <JsonTools parcours={parcours} unites={unites} matieres={matieres} onImported={load} />
@@ -118,14 +135,24 @@ function useSave(onSaved: () => Promise<void>) {
   return { state, run };
 }
 
-function UnitForm({ u, slug, onSaved }: { u: UniteRec; slug: string; onSaved: () => Promise<void> }) {
+function UnitForm({ u, slug, freres, onSaved }: { u: UniteRec; slug: string; freres: UniteRec[]; onSaved: () => Promise<void> }) {
   const [v, setV] = useState(u);
+  const [codes, setCodes] = useState((u.per_codes ?? []).join(", "));
+  const setGen = (e: ChangeEvent<HTMLSelectElement>) => {
+    const auto = perAuto(e.target.value, freres.filter((x) => x.id !== u.id));
+    setV({ ...v, id_generateur: e.target.value, ...auto });
+    setCodes((auto.per_codes ?? v.per_codes ?? []).join(", "));
+  };
   const { state, run } = useSave(onSaved);
   const set = (k: keyof UniteRec) => (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => setV({ ...v, [k]: e.target.value });
   const submit = (e: FormEvent) => {
     e.preventDefault();
     run(async () => {
-      await pb().collection("unites").update(u.id, { titre: v.titre, sous_titre: v.sous_titre, regle: v.regle, exemple: v.exemple, image: v.image, piege: v.piege, icone: v.icone, id_generateur: v.id_generateur });
+      const per_codes = codes.split(",").map((c) => c.trim()).filter(Boolean);
+      await pb().collection("unites").update(u.id, {
+        titre: v.titre, sous_titre: v.sous_titre, regle: v.regle, exemple: v.exemple, image: v.image, piege: v.piege, icone: v.icone,
+        id_generateur: v.id_generateur, statut: v.id_generateur ? "actif" : "bientot", per_codes, per_notions: v.per_notions ?? [], annee: v.annee ?? "", tag: v.tag ?? "",
+      });
       forgetEtat(slug);
     });
   };
@@ -143,10 +170,19 @@ function UnitForm({ u, slug, onSaved }: { u: UniteRec; slug: string; onSaved: ()
       <div className="field"><label htmlFor="u-piege">Le piège classique</label><textarea id="u-piege" maxLength={1000} value={v.piege} onChange={set("piege")} /></div>
       <div className="row2">
         <div className="field"><label htmlFor="u-gen">Type d’exercices</label>
-          <select id="u-gen" className="select" value={v.id_generateur} onChange={set("id_generateur")}>{GEN_IDS.map((g) => <option key={g} value={g}>{GENERATOR_LABEL[g] ?? g}</option>)}</select></div>
+          <select id="u-gen" className="select" value={v.id_generateur} onChange={setGen}>
+            <option value="">Bientôt (pas encore d’exercices)</option>
+            {GEN_IDS.map((g) => <option key={g} value={g}>{GENERATOR_LABEL[g] ?? g}</option>)}</select></div>
         <div className="field"><label htmlFor="u-icone">Icône</label>
           <select id="u-icone" className="select" value={v.icone} onChange={set("icone")}>{ICONS.map((g) => <option key={g} value={g}>{g}</option>)}</select></div>
       </div>
+      <div className="row2">
+        <div className="field"><label htmlFor="u-per">Codes PER</label>
+          <input id="u-per" placeholder="MSN 32, MSN 33" disabled={v.tag === TAG_SECONDAIRE_II && !codes} value={codes} onChange={(e) => setCodes(e.target.value)} /></div>
+        <div className="field"><label htmlFor="u-annee">Année</label>
+          <input id="u-annee" maxLength={20} placeholder="9e ou 10e-11e" value={v.annee ?? ""} onChange={set("annee")} /></div>
+      </div>
+      {v.tag === TAG_SECONDAIRE_II && <p className="small">Hors PER (secondaire II) : seulement dans la Prépa EPFL.</p>}
       {state === "ok" && <div className="ok-msg" role="status">Enregistré.</div>}
       {state !== "ok" && state !== "idle" && state !== "busy" && <div className="err" role="alert">{state}</div>}
       <button className="cta" type="submit" disabled={state === "busy"}>Enregistrer l’unité</button>
@@ -242,7 +278,12 @@ function JsonTools({ parcours, unites, matieres, onImported }: { parcours: Parco
       if (!Array.isArray(data.parcours)) throw new Error("Le fichier doit contenir une liste « parcours ».");
       const lines: string[] = [];
       for (const { unites: us = [], ...p } of data.parcours) {
-        for (const u of us) if (!GEN_IDS.includes(String(u.id_generateur))) throw new Error(`Type d’exercices inconnu : « ${u.id_generateur} » (unité « ${u.titre} »).`);
+        for (const u of us) {
+          if (!u.id_generateur && u.statut === "bientot") continue;
+          if (!GEN_IDS.includes(String(u.id_generateur))) throw new Error(`Type d’exercices inconnu : « ${u.id_generateur} » (unité « ${u.titre} »).`);
+          // Champs PER absents du fichier : on les déduit du type d'exercices.
+          if (!Array.isArray(u.per_codes) || !u.per_codes.length) Object.assign(u, perAuto(String(u.id_generateur), us as unknown as UniteRec[]));
+        }
         const fields: Record<string, unknown> = Object.fromEntries(PARCOURS_FIELDS.filter((k) => k in p).map((k) => [k, p[k]]));
         if (typeof p.matiere === "string") {
           const m = matieres.find((x) => x.slug === p.matiere);

@@ -32,6 +32,7 @@ import { gen as histMonde } from "./hist-monde";
 import { gen as citFederal } from "./cit-federal";
 import { gen as citCanton } from "./cit-canton";
 import { createFinal } from "./final";
+import { perExercice } from "../per";
 import type { Generator } from "./types";
 
 export type { Generator, Question } from "./types";
@@ -90,10 +91,16 @@ export function resolveGenerator(
     return createFinal(
       parcoursUnits
         .filter((u) => u.id_generateur !== FINAL_ID && GENERATORS[u.id_generateur])
-        .map((u) => ({ titre: u.titre, gen: GENERATORS[u.id_generateur] })),
+        .map((u) => ({ titre: u.titre, gen: withPer(u.id_generateur) })),
     );
   }
+  if (!GENERATORS[id]) throw new Error(`Générateur inconnu : ${id}`);
+  return withPer(id);
+}
+
+/** Chaque question porte le code PER et l'année de son type d'exercices. */
+function withPer(id: string): Generator {
   const g = GENERATORS[id];
-  if (!g) throw new Error(`Générateur inconnu : ${id}`);
-  return g;
+  const per = perExercice(id);
+  return (ctx) => ({ ...g(ctx), ...per });
 }

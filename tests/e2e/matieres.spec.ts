@@ -66,8 +66,10 @@ test("matières : canton, français (texte), histoire (QCM), citoyenneté du can
   await expect(other.locator(".sec-h")).toContainText("un autre plan que celui de Zurich");
   await other.locator(".crumb a").click();
   await other.locator(".mat-tile", { hasText: "Citoyenneté" }).click();
-  await expect(other.locator(".units .unit")).toHaveCount(1);
-  await expect(other.locator(".sec-h h2")).toHaveCount(0);
+  // la citoyenneté fédérale vaut pour toute la Suisse ; les programmes PER par année sont « d'un autre plan »
+  await expect(other.locator(".sec-h h2").first()).toHaveText("Pour ton canton");
+  await expect(other.locator(".units").first().locator(".unit")).toHaveCount(1);
+  await expect(other.locator(".sec-h h2").nth(1)).toHaveText("Autres plans d’études");
 
   expect(errors).toEqual([]);
 });

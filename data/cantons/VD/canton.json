@@ -1,0 +1,1682 @@
+{
+  "canton": "VD",
+  "documents": [
+    {
+      "titre": "Grille horaire du premier cycle primaire (années 1P à 4P)",
+      "fichier": "pdf/grille_horaire_cycle1.pdf",
+      "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Cycle1.pdf",
+      "annee_scolaire": "Version août 2026"
+    },
+    {
+      "titre": "Grille horaire du deuxième cycle primaire (années 5P à 8P)",
+      "fichier": "pdf/grille_horaire_cycle2.pdf",
+      "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Cycle2.pdf",
+      "annee_scolaire": "Version août 2026"
+    },
+    {
+      "titre": "Grille horaire du degré secondaire (années 9S à 11S)",
+      "fichier": "pdf/grille_horaire_cycle3.pdf",
+      "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Degresec.pdf",
+      "annee_scolaire": "Version août 2026"
+    },
+    {
+      "titre": "Mathématiques et Physique – Option spécifique (Plan d’études romand – Spécificité VAUD)",
+      "fichier": "pdf/PER-Math-Physique_VD.pdf",
+      "url": "https://www.vd.ch/fileadmin/user_upload/themes/formation/scolarite_obligatoire/fichiers_pdf/PER-Math-Physique_VD.pdf",
+      "annee_scolaire": "INTROUVABLE"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "1re",
+      "discipline": "Français",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "20 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Français",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "30 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Mathématiques",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "10 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Mathématiques",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "20 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "5% (temps exprimé en pourcentage ; CE regroupe Géographie, Histoire – Éthique et cultures religieuses et Sciences de la nature)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "10 % (temps exprimé en pourcentage ; CE regroupe Géographie, Histoire – Éthique et cultures religieuses et Sciences de la nature)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Arts visuels / Musique / Activités créatrices et manuelles",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "13 % (temps exprimé en pourcentage ; dotation commune aux trois disciplines)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Arts visuels / Musique / Activités créatrices et manuelles",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "13 % (temps exprimé en pourcentage ; dotation commune aux trois disciplines)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Éducation physique",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "17 % (temps exprimé en pourcentage ; une période de Rythmique est comprise dans le temps dévolu à l’Éducation physique)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Éducation physique",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "12 % (temps exprimé en pourcentage ; une période de Rythmique est comprise dans le temps dévolu à l’Éducation physique)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Apprentissages fondamentaux",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "35 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Apprentissages fondamentaux",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "15 % (temps exprimé en pourcentage)"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Français",
+      "periodes": 10,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "colonne 3-4P ; dotation commune Sciences de la nature, Histoire – Éthique et cultures religieuses, Géographie"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Français",
+      "periodes": 10,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "colonne 3-4P ; dotation commune Sciences de la nature, Histoire – Éthique et cultures religieuses, Géographie"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; dotation commune Sciences de la nature, Histoire – Éthique et cultures religieuses, Géographie – Citoyenneté"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Arts visuels / Musique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; dotation globale, soit en moyenne 1,5 période par discipline"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Connaissance de l’environnement (CE)",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; dotation commune Sciences de la nature, Histoire – Éthique et cultures religieuses, Géographie – Citoyenneté"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Arts visuels / Musique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; dotation globale, soit en moyenne 1,5 période par discipline"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 7-8P"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire – Éthique et cultures religieuses",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie – Citoyenneté",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "VP",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "VP",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles / Éducation nutritionnelle",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles / Éducation nutritionnelle",
+      "periodes": 1,
+      "filiere": "VP",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles / Éducation nutritionnelle",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Activités créatrices et manuelles / Éducation nutritionnelle",
+      "periodes": 1,
+      "filiere": "VG",
+      "note": "1-2 : une période hebdomadaire sur l’année scolaire ou deux périodes hebdomadaires sur un semestre"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VG",
+      "note": "(4) : selon son projet de formation et à certaines conditions, l’élève de VG a la possibilité de remplacer les OCOM par une OS"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VP"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VG",
+      "note": "(4) : selon son projet de formation et à certaines conditions, l’élève de VG a la possibilité de remplacer les OCOM par une OS"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VP"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VG",
+      "note": "(4) : selon son projet de formation et à certaines conditions, l’élève de VG a la possibilité de remplacer les OCOM par une OS"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Options spécifiques (OS)",
+      "periodes": 4,
+      "filiere": "VP"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe Formation générale",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe Formation générale",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe Formation générale",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe AACT",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe AACT",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Options de compétences orientées métiers (OCOM) – Groupe AACT",
+      "periodes": 2,
+      "filiere": "VG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Italien",
+      "periodes": 3,
+      "filiere": "VG",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Italien",
+      "periodes": 3,
+      "filiere": "VP",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Grec",
+      "periodes": 3,
+      "filiere": "VG",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Grec",
+      "periodes": 3,
+      "filiere": "VP",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Grec",
+      "periodes": 3,
+      "filiere": "VG",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Grec",
+      "periodes": 3,
+      "filiere": "VP",
+      "note": "(3) : cours facultatif (hors grille horaire)"
+    }
+  ],
+  "niveaux_filieres": [
+    {
+      "niveau_per": "Niv 1",
+      "filieres": [
+        "INTROUVABLE"
+      ],
+      "texte": "les éléments de progression, ne portant aucune mention spécifique, décrivent les apprentissages communs à tous les élèves ; La désignation des Niveaux 1, 2, 3 correspond à une gradation des apprentissages allant du plus facile, simple (Niveau 1) au plus difficile, complexe (Niveau 3)."
+    },
+    {
+      "niveau_per": "Niv 2",
+      "filieres": [
+        "INTROUVABLE"
+      ],
+      "texte": "les éléments de progression qui sont accompagnés d’une précision de niveau décrivent des apprentissages complémentaires de niveaux de difficulté spécifiques : des éléments de progression désignés par l’indication Niv. 2 ou Niv. 3, correspondant à des apprentissages graduellement plus difficiles et plus complexes ; lorsque des éléments de progression sont désignés par Niv. 1 | 2 ou Niv. 2 | 3, cela signifie que les éléments décrits sont communs et ne nécessitent pas de différenciation."
+    },
+    {
+      "niveau_per": "Niv 3",
+      "filieres": [
+        "INTROUVABLE"
+      ],
+      "texte": "La désignation des Niveaux 1, 2, 3 correspond à une gradation des apprentissages allant du plus facile, simple (Niveau 1) au plus difficile, complexe (Niveau 3)."
+    }
+  ],
+  "repartition_par_annee": [
+    {
+      "code": "MEP 31",
+      "annee": "9e",
+      "notion": "RECHERCHE, EXPÉRIMENTATION ET RÉDACTION",
+      "contenu": [
+        "Résolution de problèmes numérique, notamment par :",
+        "– tri et organisations des informations (liste, tableau, schéma, croquis…)",
+        "– ajustement d’essais successifs",
+        "– pose de conjectures, puis validation ou réfutation",
+        "– déduction d’informations nouvelles à partir de celles connues",
+        "– réduction temporaire de la complexité d’un problème",
+        "– utilisation des propriétés des nombres et des opérations afin d’établir des preuves",
+        "– traitement de situations aléatoires à l'aide de notions de probabilités",
+        "– acceptation ou refus d’un résultat par estimation de l’ordre de grandeur ou par confrontation au réel",
+        "– vérification, puis communication d’une démarche et d’un résultat en utilisant un vocabulaire, une syntaxe et des symboles adéquats",
+        "– collaboration et organisation afin de mener efficacement une activité de recherche",
+        "Représentation schématique d’une situation, notamment par des organigrammes et des diagrammes",
+        "Rédaction du compte-rendu d’une recherche comprenant des démarches mathématiques en mettant en évidence les trois parties :",
+        "– Introductive : partie dans laquelle l’élève reformule la question, présente le problème et effectue si nécessaire une figure d’étude",
+        "– Expérimentale : partie contenant des calculs structurés ou une phase d’aller-retour entre question, hypothèse et expérience",
+        "– Analytique : partie permettant de mener une réflexion sur la démarche, d’émettre des conjectures ou de justifier un résultat obtenu",
+        "Expérimentation et rédaction d’un rapport d’expérience en mettant en évidence des parties introductive, expérimentale et d’analyse, notamment :",
+        "– En identifiant le but de l’expérience",
+        "– En schématisant le montage de manière à pouvoir le faire construire",
+        "– En décrivant la démarche permettant d’obtenir les mesures à partir du montage",
+        "– En utilisant les instruments de mesure à disposition au laboratoire",
+        "– En organisant les résultats obtenus dans un tableau",
+        "– En reportant des valeurs numériques dans un système d’axe",
+        "– En interprétant les mesures, les résultats",
+        "– En confrontant le modèle à une ou plusieurs situations réelles"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 31",
+      "annee": "10e",
+      "notion": "RECHERCHE, EXPÉRIMENTATION ET RÉDACTION",
+      "contenu": [
+        "Résolution de problèmes numérique, notamment par :",
+        "– tri et organisations des informations (liste, tableau, schéma, croquis…)",
+        "– ajustement d’essais successifs",
+        "– pose de conjectures, puis validation ou réfutation",
+        "– déduction d’informations nouvelles à partir de celles connues",
+        "– réduction temporaire de la complexité d’un problème",
+        "– utilisation des propriétés des nombres et des opérations afin d’établir des preuves",
+        "– traitement de situations aléatoires à l'aide de notions de probabilités",
+        "– acceptation ou refus d’un résultat par estimation de l’ordre de grandeur ou par confrontation au réel",
+        "– vérification, puis communication d’une démarche et d’un résultat en utilisant un vocabulaire, une syntaxe et des symboles adéquats",
+        "– collaboration et organisation afin de mener efficacement une activité de recherche",
+        "Représentation schématique d’une situation, notamment par des organigrammes et des diagrammes",
+        "Rédaction du compte-rendu d’une recherche comprenant des démarches mathématiques en mettant en évidence les trois parties :",
+        "– Introductive : partie dans laquelle l’élève reformule la question, présente le problème et effectue si nécessaire une figure d’étude",
+        "– Expérimentale : partie contenant des calculs structurés ou une phase d’aller-retour entre question, hypothèse et expérience",
+        "– Analytique : partie permettant de mener une réflexion sur la démarche, d’émettre des conjectures ou de justifier un résultat obtenu",
+        "Expérimentation et rédaction d’un rapport d’expérience en mettant en évidence des parties introductive, expérimentale et d’analyse, notamment :",
+        "– En identifiant le but de l’expérience",
+        "– En schématisant le montage de manière à pouvoir le faire construire",
+        "– En décrivant la démarche permettant d’obtenir les mesures à partir du montage",
+        "– En utilisant les instruments de mesure à disposition au laboratoire",
+        "– En reportant des valeurs numériques (et leurs incertitudes) dans un système d’axe afin d’effectuer une comparaison avec le graphique d’une loi étudiée",
+        "– En faisant la différence entre valeurs expérimentales mesurées et valeurs théoriques calculées",
+        "– En vérifiant par l’expérience une loi proposée",
+        "– En analysant de manière critique les mesures, les résultats et en discutant les incertitudes",
+        "– En confrontant le modèle à une ou plusieurs situations réelles",
+        "– En confrontant ses idées à celles de ses pairs",
+        "– En menant une réflexion sur le modèle proposé et sur sa propre démarche"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 31",
+      "annee": "11e",
+      "notion": "RECHERCHE, EXPÉRIMENTATION ET RÉDACTION",
+      "contenu": [
+        "Résolution de problèmes numérique, notamment par :",
+        "– tri et organisations des informations (liste, tableau, schéma, croquis…)",
+        "– ajustement d’essais successifs",
+        "– pose de conjectures, puis validation ou réfutation",
+        "– déduction d’informations nouvelles à partir de celles connues",
+        "– réduction temporaire de la complexité d’un problème",
+        "– utilisation des propriétés des nombres et des opérations afin d’établir des preuves",
+        "– traitement de situations aléatoires à l'aide de notions de probabilités",
+        "– acceptation ou refus d’un résultat par estimation de l’ordre de grandeur ou par confrontation au réel",
+        "– vérification, puis communication d’une démarche et d’un résultat en utilisant un vocabulaire, une syntaxe et des symboles adéquats",
+        "– collaboration et organisation afin de mener efficacement une activité de recherche",
+        "Représentation schématique d’une situation, notamment par des organigrammes et des diagrammes",
+        "Rédaction du compte-rendu d’une recherche comprenant des démarches mathématiques en mettant en évidence les trois parties :",
+        "– Introductive : partie dans laquelle l’élève reformule la question, présente le problème et effectue si nécessaire une figure d’étude",
+        "– Expérimentale : partie contenant des calculs structurés ou une phase d’aller-retour entre question, hypothèse et expérience",
+        "– Analytique : partie permettant de mener une réflexion sur la démarche, d’émettre des conjectures ou de justifier un résultat obtenu",
+        "Expérimentation et rédaction d’un rapport d’expérience en mettant en évidence des parties introductive, expérimentale et d’analyse, notamment :",
+        "– En identifiant le but de l’expérience",
+        "– En schématisant le montage de manière à pouvoir le faire construire",
+        "– En décrivant la démarche permettant d’obtenir les mesures à partir du montage",
+        "– En utilisant les instruments de mesure à disposition au laboratoire",
+        "– En reportant des valeurs numériques (et leurs incertitudes) dans un système d’axe afin d’effectuer une comparaison avec le graphique d’une loi étudiée",
+        "– En faisant la différence entre valeurs expérimentales mesurées et valeurs théoriques calculées",
+        "– En vérifiant par l’expérience une loi proposée",
+        "– En reportant des valeurs numériques (et leurs incertitudes) dans un système d’axe afin de découvrir une loi",
+        "– En analysant de manière critique les mesures, les résultats et en discutant les incertitudes",
+        "– En confrontant le modèle à une ou plusieurs situations réelles",
+        "– En confrontant ses idées à celles de ses pairs",
+        "– En menant une réflexion sur le modèle proposé et sur sa propre démarche"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "9e",
+      "notion": "Nombres",
+      "contenu": [
+        "Définition de ℙ, de ℕ et de ℤ",
+        "Reconnaissance et utilisation des propriétés des nombres naturels",
+        "– Écriture des nombres pairs, des nombres impairs, des multiples de n",
+        "– Connaissance et utilisation de l’écriture de position d’un nombre",
+        "– Décomposition en produit de facteurs premiers, en somme de puissances de 2",
+        "Résolution de problèmes numériques, notament en :",
+        "– Utilisant la factorisation en produit de nombres premiers ;",
+        "– Utilisant les critères de divisibilité ;",
+        "– Utilisant les notions de ppmc et de pgdc",
+        "Reconnaissance de problèmes qui se transcrivent par des congruences et leur résolution par analyse du reste de la division euclidienne",
+        "Utilisation de la somme des n premiers entiers consécutifs",
+        "Dénombrement (arbre, tableau, tri, organisation, etc.)"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "10e",
+      "notion": "Nombres",
+      "contenu": [
+        "Définition de ℙ, de ℕ et de ℤ",
+        "Reconnaissance et utilisation des propriétés des nombres naturels",
+        "– Écriture des nombres pairs, des nombres impairs, des multiples de n",
+        "– Connaissance et utilisation de l’écriture de position d’un nombre",
+        "– Décomposition en produit de facteurs premiers, en somme de puissances de 2",
+        "Définition de ℚ, définition de ℝ comme extention de ℚ par les nombres dont le développement décimal est infini non périodique",
+        "Transformation de nombres à code décimal périodique en fraction et calcul de fractions continuées",
+        "Connaissance et utilisation des 6 opérations (addition, soustraction, multiplication, division, puissance et racine)",
+        "Reconnaissance de problèmes qui se transcrivent par des congruences et leur résolution par analyse du reste de la division euclidienne",
+        "Analyse des nombres polygonaux, pyramidaux…",
+        "Identification d’une suite de nombres de rangs consécutifs",
+        "Utilisation de procédures pour exprimer la loi de formation",
+        "Dénombrement (arbre, tableau, tri, organisation, etc.)"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "11e",
+      "notion": "Nombres",
+      "contenu": [
+        "Définition de ℚ, définition de ℝ comme extention de ℚ par les nombres dont le développement décimal est infini non périodique",
+        "Transformation de nombres à code décimal périodique en fraction et calcul de fractions continuées",
+        "Connaissance et utilisation des 6 opérations (addition, soustraction, multiplication, division, puissance et racine)",
+        "Analyse des nombres polygonaux, pyramidaux…",
+        "Identification d’une suite de nombres de rangs consécutifs",
+        "Utilisation de procédures pour exprimer la loi de formation",
+        "Introduction aux probabilités : dénombrement des cas favorables et des cas possibles"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "9e",
+      "notion": "Plan et espace",
+      "contenu": [
+        "Reconnaissance et utilisation des isométries : translation, symétrie axiale, rotation et symétrie centrale",
+        "Compositions de symétries et de translations et étude de certaines de leurs propriétés",
+        "Création de pavages à l’aide d’isométries à partir de polygones qui pavent le plan et de transformations de leurs côtés (par exemple méthode de l’enveloppe)",
+        "Recherche de motifs minimaux d’un pavage et des isométries qui permettent ensuite de paver le plan",
+        "Représentation d’un polygone, notamment par :",
+        "– Description de polygones réguliers selon leurs propriétés (somme des angles, nombre d’axes de symétrie et de diagonales…)",
+        "– Construction des différents polygones réguliers à l’aide de leurs propriétés (angle inscrit ou angle au centre) ou à la règle et au compas",
+        "Recherche de l’ensemble des polygones réguliers qui pavent le plan et justification",
+        "Recherche des carrelages d’Archimède (pavages semi-réguliers) et justification",
+        "Utilisation de l’outil informatique à bon escient, notamment par :",
+        "– construction de l’image d’une figure plane par une isométrie"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "10e",
+      "notion": "Plan et espace",
+      "contenu": [
+        "Reconnaissance et utilisation des isométries : translation, symétrie axiale, rotation et symétrie centrale",
+        "Compositions de symétries et de translations et étude de certaines de leurs propriétés",
+        "Création de pavages à l’aide d’isométries à partir de polygones qui pavent le plan et de transformations de leurs côtés (par exemple méthode de l’enveloppe)",
+        "Recherche de motifs minimaux d’un pavage et des isométries qui permettent ensuite de paver le plan",
+        "Représentation d’un polygone, notamment par :",
+        "– Description de polygones réguliers selon leurs propriétés (somme des angles, nombre d’axes de symétrie et de diagonales…)",
+        "– Construction des différents polygones réguliers à l’aide de leurs propriétés (angle inscrit ou angle au centre) ou à la règle et au compas",
+        "Recherche de l’ensemble des polygones réguliers qui pavent le plan et justification",
+        "Recherche des carrelages d’Archimède (pavages semi-réguliers) et justification",
+        "Représentation d’un polyèdre :",
+        "– en perspective cavalière ou isométrique",
+        "Dénombrement des déltaèdres, des polyèdres réguliers (de Platon) ou des polyèdres semi-réguliers (d’Archimède) avec justification",
+        "Réalisation de développement et construction de polyèdres réguliers ou semiréguliers.",
+        "Description de polyèdres selon leurs propriétés (faces, sommets, arêtes, relation d’Euler, dual)",
+        "Détermination du volume, de la surface ou d’une grandeur manquante d’un polyèdre en utilisant la formule de Pythagore ou le calcul algébrique",
+        "Découverte et utilisation des formules trigonométriques dans les triangles rectangles",
+        "Utilisation de l’outil informatique à bon escient, notamment par :",
+        "– construction d’un polyèdre en perspective"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "11e",
+      "notion": "Plan et espace",
+      "contenu": [
+        "Représentation d’un polyèdre :",
+        "– à l’aide de ses projections",
+        "Dénombrement des déltaèdres, des polyèdres réguliers (de Platon) ou des polyèdres semi-réguliers (d’Archimède) avec justification",
+        "Réalisation de développement et construction de polyèdres réguliers ou semiréguliers.",
+        "Description de polyèdres selon leurs propriétés (faces, sommets, arêtes, relation d’Euler, dual)",
+        "Détermination du volume, de la surface ou d’une grandeur manquante d’un polyèdre en utilisant la formule de Pythagore ou le calcul algébrique",
+        "Découverte et utilisation des formules trigonométriques dans les triangles rectangles",
+        "Présentation de certains lieux géométriques (bissectrice, médiatrice, cercle, arc capable, ellipse, parabole et hyperbole)",
+        "Construction de lieux géométriques",
+        "Description et justification de quelques lieux",
+        "Utilisation de l’outil informatique à bon escient, notamment par :",
+        "– construction d’un lieu géométrique"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "9e",
+      "notion": "Fonctions et équations",
+      "contenu": [
+        "Traduction et résolution d’un problème à l’aide de fonctions",
+        "Utilisation de l’outil informatique à bon escient, notamment par",
+        "– utilisation d’un tableur afin de saisir des mesures et esquisser des graphiques (linéaire, affine)"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "10e",
+      "notion": "Fonctions et équations",
+      "contenu": [
+        "Traduction et résolution d’un problème à l’aide de fonctions arithmétiques (suites) et de nombres polygonaux",
+        "Traduction et résolution d’un problème à l’aide de fonctions",
+        "Représentation de diverses fonctions polynomiales, rationnelles simples, exponentielles…",
+        "Dans le cas des fonctions quadratiques :",
+        "Détermination et démonstration des coordonnées du sommet, de l’ordonnée à l’origine et des abscisses à l’origine",
+        "Utilisation de l’outil informatique à bon escient, notamment par",
+        "– utilisation d’un tableur afin de saisir des mesures et esquisser des graphiques (linéaire, affine)",
+        "– utilisation d’un grapheur afin d’étudier différentes formes de graphiques continus",
+        "Traduction d’une situation et résolution de problème, notamment par :"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 32",
+      "annee": "11e",
+      "notion": "Fonctions et équations",
+      "contenu": [
+        "Traduction et résolution d’un problème à l’aide de fonctions",
+        "Représentation de diverses fonctions polynomiales, rationnelles simples, exponentielles…",
+        "Dans le cas des fonctions quadratiques :",
+        "Détermination et démonstration des coordonnées du sommet, de l’ordonnée à l’origine et des abscisses à l’origine",
+        "Représentation des fonctions paramétriques",
+        "Utilisation de l’outil informatique à bon escient, notamment par",
+        "– utilisation d’un tableur afin de saisir des mesures et esquisser des graphiques (linéaire, affine)",
+        "– utilisation d’un grapheur afin d’étudier différentes formes de graphiques continus",
+        "– utilisation d’un grapheur afin de visualiser les solutions et les graphiques de familles d’équations ou de fonctions paramétriques",
+        "Appronfondissement du calcul littéral",
+        "Traduction d’une situation et résolution de problème, notamment par :",
+        "– une équation du second degré à une inconnue par la méthode du discriminant.",
+        "– un système d’équations",
+        "Résolution d’équations paramétriques de degré 1 et 2 et discussion des signes de ∆, ∑, ∏ pour le degré 2",
+        "Approche des notions d’inégalités, d’intervalles et de tableaux de signe"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "9e",
+      "notion": "Mesures et incertitudes",
+      "contenu": [
+        "Présentation du Système International d’Unités",
+        "Présentation des différentes sources d’incertitudes (erreur aléatoire, grossière, systématique, de l’observateur, de l’appareil de mesure)",
+        "Estimation de l’incertitude d’une mesure (incertitude absolue)",
+        "Calcul de l’incertitude relative d’une mesure (précision)",
+        "Prise de mesures et mise en correspondance dans un tableau de valeurs ou dans un système d’axes",
+        "Recherche d'informations dans les formulaires et tables",
+        "Comparaison de grandeurs expérimentales avec les valeurs tabulées",
+        "Utilisation de la calculatrice en tenant compte de la cohérence entre les mesures prises (ou données d’un problème) et les chiffres significatifs retenus"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "10e",
+      "notion": "Mesures et incertitudes",
+      "contenu": [
+        "Présentation du Système International d’Unités",
+        "Présentation des différentes sources d’incertitudes (erreur aléatoire, grossière, systématique, de l’observateur, de l’appareil de mesure)",
+        "Estimation de l’incertitude d’une mesure (incertitude absolue)",
+        "Calcul de l’incertitude relative d’une mesure (précision)",
+        "Calcul de l’incertitude sur un résultat en utilisant la valeur centrale entre valeur minimale et maximale",
+        "Prise de mesures et mise en correspondance dans un tableau de valeurs ou dans un système d’axes",
+        "Recherche de la fonction associée à des mesures",
+        "Recherche d'informations dans les formulaires et tables",
+        "Comparaison de grandeurs expérimentales avec les valeurs tabulées",
+        "Utilisation de la calculatrice en tenant compte de la cohérence entre les mesures prises (ou données d’un problème) et les chiffres significatifs retenus"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "11e",
+      "notion": "Mesures et incertitudes",
+      "contenu": [
+        "Présentation du Système International d’Unités",
+        "Calcul de l’incertitude sur un résultat en utilisant la valeur centrale entre valeur minimale et maximale",
+        "Prise de mesures et mise en correspondance dans un tableau de valeurs ou dans un système d’axes",
+        "Recherche de la fonction associée à des mesures",
+        "Recherche d'informations dans les formulaires et tables",
+        "Comparaison de grandeurs expérimentales avec les valeurs tabulées",
+        "Utilisation de la calculatrice en tenant compte de la cohérence entre les mesures prises (ou données d’un problème) et les chiffres significatifs retenus"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "9e",
+      "notion": "Astronomie",
+      "contenu": [
+        "Compréhension de la notion de mesure du temps notamment par :",
+        "– l’expérimentation du fonctionnement de systèmes de mesure",
+        "– la relation entre la mesure du temps et les phénomènes astronomiques qui y sont liés",
+        "Représentation de modèles en 2 ou 3 dimensions des corps principaux de notre système solaire en appréhendant les notions de tailles et de distances",
+        "Calcul sur les grands nombres et les échelles",
+        "Transformations d’unités entre km, al, UA",
+        "Approfondissement des phénomènes liés à la Terre, la Lune et le Soleil : saisons, éclipses solaire et lunaire, phases de la Lune, face cachée de la Lune",
+        "Calcul des vitesses de rotation et de révolution des astres",
+        "Compréhension et expérimentation de méthodes historiques pour mesurer des distances terrestres, astronomiques"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "10e",
+      "notion": "Astronomie",
+      "contenu": [
+        "Compréhension de la notion de mesure du temps notamment par :",
+        "– l’expérimentation du fonctionnement de systèmes de mesure",
+        "– la relation entre la mesure du temps et les phénomènes astronomiques qui y sont liés",
+        "Représentation de modèles en 2 ou 3 dimensions des corps principaux de notre système solaire en appréhendant les notions de tailles et de distances",
+        "Calcul sur les grands nombres et les échelles",
+        "Transformations d’unités entre km, al, UA",
+        "Approfondissement des phénomènes liés à la Terre, la Lune et le Soleil : saisons, éclipses solaire et lunaire, phases de la Lune, face cachée de la Lune",
+        "Calcul des vitesses de rotation et de révolution des astres",
+        "Mesure d’une distance à partir de lignes de visée"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "11e",
+      "notion": "Astronomie",
+      "contenu": [
+        "Mesure d’une distance à partir de lignes de visée"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "9e",
+      "notion": "Optique",
+      "contenu": [
+        "Différentiation entre sources primaires et secondaires de lumière",
+        "Détermination des zones d’ombre, de pénombre et de lumière en présence d’une (ou plusieurs) source(s) lumineuse(s)",
+        "Définition de la diffusion et de la dispersion de la lumière",
+        "Détermination de la position de l’image produite par un miroir plan",
+        "Définition des rayons incident et réfléchi ainsi que celle des angles d’incidence et de réflexion à partir de la normale",
+        "Détermination graphique par le construction de Maxwell et expérimentale du trajet d’un rayon lumineux réfracté",
+        "Définition de la réfraction (rayons incident, réfléchi et réfracté, angles d’incidence, de reflexion et de réfraction à partir de la normale), de l’indice de réfraction et de la réflexion totale",
+        "Analyse d’illusions d’optique dues à la réfraction"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "10e",
+      "notion": "Optique",
+      "contenu": [
+        "Différentiation entre sources primaires et secondaires de lumière",
+        "Détermination des zones d’ombre, de pénombre et de lumière en présence d’une (ou plusieurs) source(s) lumineuse(s)",
+        "Définition de la diffusion et de la dispersion de la lumière",
+        "Détermination de la position de l’image produite par un miroir plan",
+        "Définition des rayons incident et réfléchi ainsi que celle des angles d’incidence et de réflexion à partir de la normale",
+        "Détermination graphique par le construction de Maxwell et expérimentale du trajet d’un rayon lumineux réfracté",
+        "Définition de la réfraction (rayons incident, réfléchi et réfracté, angles d’incidence, de reflexion et de réfraction à partir de la normale), de l’indice de réfraction et de la réflexion totale",
+        "Analyse d’illusions d’optique dues à la réfraction",
+        "Etude des lentilles épaisses en utilisant la réfraction de la lumière",
+        "Etude des lentilles minces (convergente et divergente)",
+        "Détermination graphique de la position et de la taille d’une image réelle ou virtuelle produite par une lentille convergente ou divergente",
+        "Utilisation des lois des lentilles",
+        "Calcul du grandissement d’une image",
+        "Etude d’un système de deux lentilles",
+        "Détermination graphique de la position et de la taille d’une image produite par un système de deux lentilles",
+        "Réalisation de montages optiques qui permettent de vérifier des résultats théoriques ou de déterminer la distance focale d’une lentille",
+        "Etude des défauts de l’œil (myopie, hypermétropie) et de l’accommodation"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "11e",
+      "notion": "Optique",
+      "contenu": [
+        "Etude des lentilles épaisses en utilisant la réfraction de la lumière",
+        "Etude des lentilles minces (convergente et divergente)",
+        "Détermination graphique de la position et de la taille d’une image réelle ou virtuelle produite par une lentille convergente ou divergente",
+        "Utilisation des lois des lentilles",
+        "Calcul du grandissement d’une image",
+        "Etude d’un système de deux lentilles",
+        "Détermination graphique de la position et de la taille d’une image produite par un système de deux lentilles",
+        "Réalisation de montages optiques qui permettent de vérifier des résultats théoriques ou de déterminer la distance focale d’une lentille",
+        "Etude des défauts de l’œil (myopie, hypermétropie) et de l’accommodation"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "10e",
+      "notion": "Chaleur et énergies",
+      "contenu": [
+        "Définition des concepts de chaleur et température",
+        "Utilisation de différentes unités de mesure de température : celsius, kelvin, fahrenheit et fonctions de correspondance",
+        "Utilisation de différentes unités de mesure d’énergie : joule, kWh, cal et calculs de correspondance",
+        "Détermination de l’énergie chimique liée à une combustion telle que E = m H",
+        "Détermination expérimentale d’un rendement, d’une puissance",
+        "Expérimentation pour déterminer :",
+        "– la capacité calorifique d’un calorimètre",
+        "– la chaleur massique de l’eau",
+        "– la chaleur massique d’un métal",
+        "Détermination de l’énergie thermique liée à un changement d’état E = m L",
+        "Utilisation d’un calorimètre",
+        "Expérimentation pour déterminer la chaleur latente de fusion de la glace",
+        "Détermination de la température d’équilibre lors du mélange",
+        "Décomposition de l’énergie mécanique en énergies potentielle de pesanteur et cinétique",
+        "Utilisation du principe de conservation de l’énergie mécanique",
+        "Utilisation du principe de conservation de l’énergie",
+        "Calcul de rendements énergétiques"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "11e",
+      "notion": "Chaleur et énergies",
+      "contenu": [
+        "Définition des concepts de chaleur et température",
+        "Utilisation de différentes unités de mesure de température : celsius, kelvin, fahrenheit et fonctions de correspondance",
+        "Utilisation de différentes unités de mesure d’énergie : joule, kWh, cal et calculs de correspondance",
+        "Détermination de l’énergie chimique liée à une combustion telle que E = m H",
+        "Détermination expérimentale d’un rendement, d’une puissance",
+        "Expérimentation pour déterminer :",
+        "– la capacité calorifique d’un calorimètre",
+        "– la chaleur massique de l’eau",
+        "– la chaleur massique d’un métal",
+        "Détermination de l’énergie thermique liée à un changement d’état E = m L",
+        "Utilisation d’un calorimètre",
+        "Expérimentation pour déterminer la chaleur latente de fusion de la glace",
+        "Détermination de la température d’équilibre lors du mélange",
+        "Décomposition de l’énergie mécanique en énergies potentielle de pesanteur et cinétique",
+        "Utilisation du principe de conservation de l’énergie mécanique",
+        "Utilisation du principe de conservation de l’énergie",
+        "Calcul de rendements énergétiques"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "10e",
+      "notion": "Mécanique",
+      "contenu": [
+        "Définition d’un vecteur par sa direction, son sens et sa norme",
+        "Addition de vecteurs",
+        "Calcul de la force gravifique entre deux corps",
+        "Rappel de la notion de masse et de force de pesanteur",
+        "Compréhension de la provenance de g=9,81 N kg-1",
+        "Etude des caractéristiques de la force de pesanteur et calcul de son intensité",
+        "Approfondissement de l’étude de la force d’Archimède",
+        "Décomposition des forces et détermination des intensités :",
+        "– A l’aide de schémas à l’échelle (forces non perpendiculaires)",
+        "– A l’aide de la trigonométrie (forces perpendiculaires)",
+        "Calcul d’un moment de force lié à la rotation d’un solide autour d’un axe",
+        "Reconnaissance et prévision de la notion d’équilibre :",
+        "– Sur un point soumis à des forces concourantes",
+        "– Sur un système possédant un axe de rotation",
+        "Détermination du travail d’une force",
+        "Identification de l’énergie potentielle de pesanteur comme travail de la force de pesanteur",
+        "Puissance mécanique",
+        "Calcul du travail des forces mises en jeu dans des machines simples",
+        "Différentiation entre les unités de mesures qui définissent le moment et le travail d’une force"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 33",
+      "annee": "11e",
+      "notion": "Mécanique",
+      "contenu": [
+        "Définition d’un vecteur par sa direction, son sens et sa norme",
+        "Addition de vecteurs",
+        "Calcul de la force gravifique entre deux corps",
+        "Rappel de la notion de masse et de force de pesanteur",
+        "Compréhension de la provenance de g=9,81 N kg-1",
+        "Etude des caractéristiques de la force de pesanteur et calcul de son intensité",
+        "Approfondissement de l’étude de la force d’Archimède",
+        "Décomposition des forces et détermination des intensités :",
+        "– A l’aide de schémas à l’échelle (forces non perpendiculaires)",
+        "– A l’aide de la trigonométrie (forces perpendiculaires)",
+        "Calcul d’un moment de force lié à la rotation d’un solide autour d’un axe",
+        "Reconnaissance et prévision de la notion d’équilibre :",
+        "– Sur un point soumis à des forces concourantes",
+        "– Sur un système possédant un axe de rotation",
+        "Détermination du travail d’une force",
+        "Identification de l’énergie potentielle de pesanteur comme travail de la force de pesanteur",
+        "Puissance mécanique",
+        "Calcul du travail des forces mises en jeu dans des machines simples",
+        "Différentiation entre les unités de mesures qui définissent le moment et le travail d’une force"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 34",
+      "annee": "9e",
+      "notion": "PROJETS, DÉVELOPPEMENTS ET DÉCOUVERTES",
+      "contenu": [
+        "Analyse de différents systèmes de numération",
+        "Utilisation de différentes bases de numération (60, binaire, hexadécimale…)",
+        "Exploration historique de l’invention du zéro, numération de position",
+        "Reconnaissance et utilisation des codes Jules César, Vigenère, Polybe",
+        "Familiarisation avec des façons de faire et de raisonner propres à la logique robotique, notamment en :",
+        "– identifiant les objectifs d’une activité ainsi que les notions théoriques et pratiques qui en résultent",
+        "– planifiant, construisant et programmant le robot en fonction des observations et des mesures effectuées",
+        "– testant le robot afin d’identifier d’éventuelles erreurs de conception et en mettant en place des stratégies de remédiation",
+        "Initiation à l'utilisation d'outils et de procédés simples afin de faire fonctionner un robot de manière autonome"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 34",
+      "annee": "10e",
+      "notion": "PROJETS, DÉVELOPPEMENTS ET DÉCOUVERTES",
+      "contenu": [
+        "Analyse de différents systèmes de numération",
+        "Utilisation de différentes bases de numération (60, binaire, hexadécimale…)",
+        "Exploration historique de l’invention du zéro, numération de position",
+        "Reconnaissance et utilisation des codes Jules César, Vigenère, Polybe",
+        "Familiarisation avec des façons de faire et de raisonner propres à la logique robotique, notamment en :",
+        "– identifiant les objectifs d’une activité ainsi que les notions théoriques et pratiques qui en résultent",
+        "– planifiant, construisant et programmant le robot en fonction des observations et des mesures effectuées",
+        "– testant le robot afin d’identifier d’éventuelles erreurs de conception et en mettant en place des stratégies de remédiation",
+        "Initiation à l'utilisation d'outils et de procédés simples afin de faire fonctionner un robot de manière autonome"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    },
+    {
+      "code": "MEP 34",
+      "annee": "11e",
+      "notion": "PROJETS, DÉVELOPPEMENTS ET DÉCOUVERTES",
+      "contenu": [
+        "Compléments historiques et expérimetaux autour de nombres remarquables : Pi, nombre d’or, racine de 2",
+        "Reconnaissance et utilisation de la fréquence des lettres dans la langue française",
+        "Utilisation de clés et de fonctions pour coder et décoder un message"
+      ],
+      "filieres": [
+        "VP"
+      ],
+      "document": "pdf/PER-Math-Physique_VD.pdf"
+    }
+  ],
+  "evaluations": [],
+  "filieres": [
+    {
+      "code": "VG",
+      "nom": "Voie générale",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "VP",
+      "nom": "Voie prégymnasiale",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    }
+  ]
+}
