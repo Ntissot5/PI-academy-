@@ -1,0 +1,600 @@
+<title>Route EPFL</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@500;600;700&family=Figtree:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap">
+<style>
+/* Layout: plateforme de cours claire façon Khan/Coursera — barre du haut, bandeau du cours avec la mascotte Pi, puis colonne de cartes d'unités (sidebar d'unités sur grand écran). Les icônes en verre bleu portent toute la couleur ; l'interface reste blanche et calme autour. */
+:root{
+  --bg:#F5F7FC; --surface:#FFFFFF; --ink:#0D1B3E; --muted:#5A6684; --line:#E2E8F3;
+  --brand:#2356E8; --brand-2:#3AA8F4; --ice:#EAF1FF; --ice-2:#F4F8FF;
+  --ok:#14966A; --ok-soft:#E2F5EC; --bad:#D2433F; --bad-soft:#FCEBEA;
+  --m0:#E2E8F3; --m1:#C3D4FF; --m2:#7EA2FF; --m3:#2356E8;
+  --shadow:0 1px 2px rgba(13,27,62,.06),0 6px 24px rgba(35,86,232,.07);
+  --f-display:"Lexend", "Segoe UI", system-ui, sans-serif;
+  --f-body:"Figtree", system-ui, -apple-system, sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0A1022; --surface:#111A33; --ink:#E9EEFB; --muted:#97A4C6; --line:#22305A;
+  --brand:#6E97FF; --brand-2:#5CC4FF; --ice:#14224B; --ice-2:#0F1A3A;
+  --ok:#4CD496; --ok-soft:#12352A; --bad:#FF7B76; --bad-soft:#3A1C24;
+  --m0:#22305A; --m1:#2E4690; --m2:#4E74E0; --m3:#7FA3FF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0A1022; --surface:#111A33; --ink:#E9EEFB; --muted:#97A4C6; --line:#22305A;
+  --brand:#6E97FF; --brand-2:#5CC4FF; --ice:#14224B; --ice-2:#0F1A3A;
+  --ok:#4CD496; --ok-soft:#12352A; --bad:#FF7B76; --bad-soft:#3A1C24;
+  --m0:#22305A; --m1:#2E4690; --m2:#4E74E0; --m3:#7FA3FF;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 28px rgba(0,0,0,.25); color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+h1,h2,h3,h4{font-family:var(--f-display);margin:0;letter-spacing:-.015em;text-wrap:balance;font-weight:600}
+p{margin:0}
+button{font:inherit;cursor:pointer;color:inherit}
+button:focus-visible,input:focus-visible,a:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.ico{display:block;object-fit:contain;filter:drop-shadow(0 6px 10px rgba(35,86,232,.18))}
+.pad{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+/* top bar */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .in{max-width:1180px;margin:0 auto;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{display:flex;align-items:center;gap:8px;background:none;border:0;padding:0;font-family:var(--f-display);font-weight:700;font-size:1.1rem}
+.logo .pi{width:44px;height:30px}
+.chips{display:flex;gap:8px}
+.chip{display:flex;align-items:center;gap:6px;padding:5px 12px 5px 6px;border-radius:99px;background:var(--ice-2);border:1px solid var(--line);font-weight:700;font-family:var(--f-mono);font-size:.92rem}
+.chip img{width:24px;height:24px}
+
+main{max-width:1180px;margin:0 auto;padding-block:24px 80px}
+
+/* hero */
+.hero{position:relative;overflow:hidden;border-radius:20px;background:linear-gradient(135deg,var(--ice) 0%,var(--ice-2) 70%);border:1px solid var(--line);padding:28px;display:grid;grid-template-columns:1fr auto;gap:20px;align-items:center}
+.hero .kick{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand)}
+.hero h1{font-size:clamp(1.55rem,4vw,2.3rem);line-height:1.15;margin:6px 0 10px;font-weight:700}
+.hero p.sub{color:var(--muted);max-width:52ch}
+.prog{display:flex;flex-direction:column;gap:6px;margin-top:18px;max-width:440px}
+.prog .row{display:flex;justify-content:space-between;font-size:.88rem;font-weight:600}
+.bar{height:10px;border-radius:99px;background:var(--m0);overflow:hidden}
+.bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--brand),var(--brand-2));transition:width .6s}
+.guide{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:220px}
+.bubble{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px 14px;font-weight:600;font-size:.95rem;max-width:250px;box-shadow:var(--shadow)}
+.bubble::after{content:"";position:absolute;left:50%;bottom:-8px;width:14px;height:14px;background:var(--surface);border-right:1px solid var(--line);border-bottom:1px solid var(--line);transform:translateX(-50%) rotate(45deg)}
+.pi-big{width:190px;height:130px}
+.cta{border:0;border-radius:12px;padding:12px 20px;font-weight:700;background:var(--brand);color:#fff;box-shadow:0 6px 16px rgba(35,86,232,.28)}
+.cta:hover{filter:brightness(1.07)}
+.cta.ghost{background:var(--surface);color:var(--brand);border:1.5px solid var(--line);box-shadow:none}
+.cta.dark{background:var(--ink);color:var(--surface);box-shadow:none}
+.cta[disabled]{opacity:.5;cursor:not-allowed}
+
+/* layout */
+.cols{display:grid;grid-template-columns:260px 1fr;gap:24px;margin-top:24px;align-items:start}
+.side{position:sticky;top:84px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:10px;display:flex;flex-direction:column;gap:2px}
+.side h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:8px 10px}
+.side button{display:flex;align-items:center;gap:10px;border:0;background:none;padding:8px 10px;border-radius:10px;text-align:left;font-weight:600;font-size:.92rem}
+.side button:hover{background:var(--ice-2)}
+.side button img{width:26px;height:26px}
+.side button.lk{opacity:.45}
+.side .sq{margin-left:auto;display:flex;gap:2px}
+.content{display:flex;flex-direction:column;gap:18px;min-width:0}
+
+/* daily */
+.daily{display:grid;grid-template-columns:auto 1fr;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.daily .left{display:flex;align-items:center;gap:14px}
+.daily .left img{width:52px;height:52px}
+.daily h3{font-size:1.05rem}
+.daily .small{color:var(--muted);font-size:.88rem}
+.days{display:grid;grid-template-columns:repeat(28,1fr);gap:3px;min-width:0}
+.days i{aspect-ratio:1;border-radius:3px;background:var(--m0);max-width:100%}
+.days i.p{background:var(--m1)} .days i.f{background:var(--m3)} .days i.t{outline:2px solid var(--ink);outline-offset:1px}
+.ring{position:relative;width:64px;height:64px;flex:none}
+.ring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.ring b{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--f-mono);font-size:.95rem}
+
+.sec-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:10px;margin-top:6px}
+.sec-h h2{font-size:1.3rem}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font-size:.78rem;color:var(--muted)}
+.legend span{display:flex;align-items:center;gap:5px}
+.sq i,.legend i{width:12px;height:12px;border-radius:3px;display:inline-block;background:var(--m0)}
+.lv1{background:var(--m1)!important}.lv2{background:var(--m2)!important}.lv3{background:var(--m3)!important}
+
+/* unit cards */
+.units{display:grid;grid-template-columns:1fr;gap:12px}
+.unit{display:grid;grid-template-columns:72px 1fr auto;gap:16px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.unit:hover:not(.lk){transform:translateY(-2px);border-color:var(--brand)}
+.unit .ic{position:relative;width:72px;height:72px;display:grid;place-items:center;background:var(--ice-2);border-radius:18px}
+.unit .ic img{width:58px;height:58px}
+.unit .lock{position:absolute;right:-6px;bottom:-6px;width:28px;height:28px}
+.unit.lk .ic>img:first-child{filter:grayscale(.9) opacity(.45)}
+.unit.lk{cursor:not-allowed}
+.unit.lk h3,.unit.lk p{opacity:.55}
+.unit .meta{min-width:0;display:flex;flex-direction:column;gap:4px}
+.unit .num{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.unit h3{font-size:1.08rem}
+.unit p{font-size:.88rem;color:var(--muted)}
+.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px;font-size:.78rem;color:var(--muted)}
+.skills span{display:flex;align-items:center;gap:5px}
+.skills i{width:14px;height:14px;border-radius:4px;background:var(--m0)}
+.go{font-weight:700;color:var(--brand);font-size:.9rem;white-space:nowrap}
+.unit.final{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 75%,var(--brand)));color:var(--surface);border-color:transparent}
+.unit.final p,.unit.final .skills{color:color-mix(in srgb,var(--surface) 75%,transparent)}
+.unit.final .num{color:var(--brand-2)}
+.unit.final .ic{background:color-mix(in srgb,var(--surface) 12%,transparent)}
+.unit.final .go{color:var(--brand-2)}
+
+/* unit page */
+.crumb{font-size:.88rem;color:var(--muted);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.crumb button{border:0;background:none;padding:0;color:var(--brand);font-weight:600}
+.uhead{display:flex;gap:18px;align-items:center;margin:14px 0 22px}
+.uhead img{width:92px;height:92px}
+.uhead h1{font-size:clamp(1.5rem,4vw,2rem);font-weight:700}
+.uhead p{color:var(--muted)}
+.ugrid{display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:start}
+.article{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:24px;display:flex;flex-direction:column;gap:20px;box-shadow:var(--shadow);min-width:0}
+.article h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;color:var(--brand);margin-bottom:6px}
+.article p{max-width:65ch}
+.ex{font-family:var(--f-mono);background:var(--ice-2);border:1px solid var(--line);border-radius:10px;padding:12px 14px;overflow-x:auto}
+.trap{display:flex;gap:12px;background:var(--bad-soft);border-radius:12px;padding:14px}
+.trap b{color:var(--bad)}
+.tip{display:flex;gap:12px;align-items:flex-start;background:var(--ice-2);border-radius:12px;padding:14px}
+.tip .pi{width:56px;height:38px;flex:none}
+.acts{display:flex;flex-direction:column;gap:12px}
+.act{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:10px;box-shadow:var(--shadow)}
+.act .h{display:flex;align-items:center;gap:12px}
+.act .h img{width:44px;height:44px}
+.act h3{font-size:1.02rem}
+.act p{font-size:.88rem;color:var(--muted)}
+.act.boss{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 75%,var(--brand)));color:var(--surface);border-color:transparent}
+.act.boss p{color:color-mix(in srgb,var(--surface) 75%,transparent)}
+.act.boss .cta{background:var(--surface);color:var(--ink)}
+
+/* quiz */
+.qwrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.qbar{display:flex;align-items:center;gap:12px}
+.qbar .x{border:0;background:var(--surface);border:1px solid var(--line);width:40px;height:40px;border-radius:12px;font-size:1.1rem}
+.qbar .bar{flex:1;height:14px}
+.qbar .bar i{background:linear-gradient(90deg,var(--ok),#3fd39a)}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:16px}
+.qkick{display:flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.qkick img{width:26px;height:26px}
+.q{font-family:var(--f-mono);font-size:1.5rem;line-height:1.5;overflow-x:auto}
+.q.text{font-family:var(--f-body);font-size:1.15rem;font-weight:500}
+.q sup{font-size:.6em}
+.hint{font-size:.85rem;color:var(--muted)}
+.ans{display:flex;gap:8px;flex-wrap:wrap}
+.ans input{flex:1 1 180px;min-width:0;font:inherit;font-family:var(--f-mono);font-size:1.3rem;padding:14px 16px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink)}
+.ans input:focus{border-color:var(--brand);outline:none}
+.keys{display:flex;gap:6px}
+.keys button{width:50px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);font-family:var(--f-mono);font-size:1.15rem}
+.check{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--line);margin-top:8px;padding-block:14px calc(14px + env(safe-area-inset-bottom,0px));z-index:5}
+.check .in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:14px;justify-content:space-between}
+.check.ok{background:var(--ok-soft);border-color:transparent}
+.check.ko{background:var(--bad-soft);border-color:transparent}
+.fbx{display:flex;align-items:center;gap:12px;min-width:0}
+.fbx .pi{width:64px;height:44px;flex:none}
+.fbx b{display:block;font-family:var(--f-display);font-size:1.05rem}
+.check.ok .fbx b{color:var(--ok)} .check.ko .fbx b{color:var(--bad)}
+.fbx span{font-size:.9rem}
+.check.ok .cta{background:var(--ok);box-shadow:none} .check.ko .cta{background:var(--bad);box-shadow:none}
+
+/* result */
+.res{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px;align-items:stretch}
+.res .top2{text-align:center;display:flex;flex-direction:column;align-items:center;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.res .score{font-family:var(--f-display);font-size:3rem;font-weight:700;line-height:1}
+.res .pi-big{width:200px;height:137px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;width:100%;max-width:460px}
+.kpi{background:var(--ice-2);border-radius:12px;padding:10px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.kpi img{width:28px;height:28px}
+.kpi b{font-family:var(--f-mono)}
+.kpi span{font-size:.75rem;color:var(--muted)}
+.miss{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;gap:12px}
+.miss>div{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:4px;font-size:.92rem}
+.miss>div:first-of-type{border-top:0;padding-top:0}
+.miss .q2{font-family:var(--f-mono)}
+.miss .why{color:var(--muted);font-size:.86rem}
+.confetti{position:absolute;inset:0;pointer-events:none}
+.confetti i{position:absolute;top:-12px;width:8px;height:14px;border-radius:2px;animation:fall 1.8s ease-in forwards}
+@keyframes fall{to{transform:translateY(420px) rotate(540deg);opacity:0}}
+.foot{font-size:.8rem;color:var(--muted);text-align:center;margin-top:10px}
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--surface);padding:10px 16px;border-radius:99px;font-weight:700;z-index:20}
+
+/* mascot Pi */
+.pi{position:relative;display:inline-block}
+.pi img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(35,86,232,.25))}
+.pi svg{position:absolute;inset:0;width:100%;height:100%}
+.pi.bob{animation:bob 3.2s ease-in-out infinite}
+.pi.jump{animation:jump .6s ease-out 2}
+.pi.shake{animation:shake .45s ease-in-out 1}
+.lid{animation:blink 4.5s infinite;transform-origin:center;transform-box:fill-box}
+@keyframes bob{50%{transform:translateY(-6px)}}
+@keyframes jump{40%{transform:translateY(-14px) scale(1.04)}}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+
+@media (max-width:960px){
+  .cols{grid-template-columns:1fr}.side{display:none}
+  .ugrid{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .hero{grid-template-columns:1fr;padding:22px}
+  .guide{display:grid;grid-template-columns:104px 1fr;align-items:center;gap:12px;min-width:0}
+  .guide .pi-big{width:104px;height:72px;grid-column:1;grid-row:1}
+  .guide .bubble{grid-column:2;grid-row:1;max-width:none;font-size:.9rem}
+  .guide .cta{grid-column:1/-1;width:100%}
+  .bubble::after{left:-8px;bottom:auto;top:50%;transform:translateY(-50%) rotate(135deg)}
+  .daily{grid-template-columns:1fr}
+  .unit{grid-template-columns:60px 1fr;padding:14px}
+  .unit .ic{width:60px;height:60px;border-radius:16px}.unit .ic img{width:48px;height:48px}
+  .unit .go{grid-column:2}
+  .uhead img{width:68px;height:68px}
+  .chip{padding:4px 10px 4px 4px;font-size:.85rem}
+  .logo span.t{display:none}
+  .qcard{padding:20px}
+  .q{font-size:1.3rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="top"><div class="in pad">
+  <button class="logo" id="logo" aria-label="Accueil"><span class="pi" data-pi="idle" style="width:44px;height:30px"></span><span class="t">Route EPFL</span></button>
+  <div class="chips">
+    <span class="chip" title="Jours de suite"><img src="icons/fire.webp" alt=""><span id="cStreak">0</span></span>
+    <span class="chip" title="XP"><img src="icons/star.webp" alt=""><span id="cXp">0</span></span>
+  </div>
+</div></div>
+
+<main class="pad">
+  <section id="home"></section>
+  <section id="unit" hidden></section>
+  <section id="quiz" hidden></section>
+  <section id="result" hidden></section>
+</main>
+<div class="toast" id="toast" hidden></div>
+
+<script>
+
+/* ---------- helpers ---------- */
+const R=(a,b)=>Math.floor(Math.random()*(b-a+1))+a;
+const NZ=(a,b)=>{let v;do{v=R(a,b)}while(v===0);return v};
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+const P=n=>n<0?`(−${-n})`:`${n}`;           // parenthèses autour des négatifs
+const S=n=>n<0?`−${-n}`:`${n}`;             // signe typographique
+const fr=n=>{ if(!isFinite(n))return '—'; let v=Number.isInteger(n)?n:+n.toFixed(2); if(Math.abs(v)>=1e6&&Number.isInteger(v)) return S(v).replace(/\B(?=(\d{3})+(?!\d))/g,' '); return S(v).replace('.',','); };
+const sup=n=>`<sup>${S(n)}</sup>`;
+const deg=Math.PI/180;
+function lin(a,b,v='x'){ // a·x + b joliment
+  let s = a===1?v:a===-1?`−${v}`:`${S(a)}${v}`;
+  if(b>0)s+=` + ${b}`; else if(b<0)s+=` − ${-b}`;
+  return s;
+}
+function quad(a,b,c){
+  let s=a===1?'x²':a===-1?'−x²':`${S(a)}x²`;
+  if(b) s+= (b>0?' + ':' − ')+(Math.abs(b)===1?'':Math.abs(b))+'x';
+  if(c) s+= (c>0?' + ':' − ')+Math.abs(c);
+  return s;
+}
+const tolAbs=(a,r=0.01,min=0.05)=>Math.max(Math.abs(a)*r,min);
+
+/* ---------- les 12 étapes ---------- */
+const CH=[
+ {id:'rel',t:'Nombres négatifs',s:'Les signes, enfin propres',
+  rule:'Moins un négatif devient plus : 5 − (−3) = 5 + 3 = 8. Pour × et ÷, deux signes pareils donnent +, deux signes différents donnent −.',
+  golf:'Comme le score au golf : −3 puis on t’enlève une pénalité de −2, tu reviens à −1, pas à −5.',
+  trap:'12 + (−18) = −6, pas 6. Cherche d’abord qui « gagne » (le plus grand en valeur absolue), le signe suit.',
+  ex:'−3 − (−4) = −3 + 4 = 1',
+  gen(){const t=R(0,4);let a,b;
+   if(t===0){a=NZ(-20,20);b=NZ(-20,20);return{q:`${S(a)} + ${P(b)}`,a:a+b,why:`${S(a)} + ${P(b)} = ${S(a+b)}.`}}
+   if(t===1){a=NZ(-20,20);b=NZ(-20,20);return{q:`${S(a)} − ${P(b)}`,a:a-b,why:b<0?`Moins un négatif = plus : ${S(a)} + ${-b} = ${S(a-b)}.`:`${S(a)} − ${b} = ${S(a-b)}.`}}
+   if(t===2){a=NZ(-12,12);b=NZ(-12,12);return{q:`${S(a)} × ${P(b)}`,a:a*b,why:`${(a<0)===(b<0)?'Signes pareils → +':'Signes différents → −'} : ${S(a*b)}.`}}
+   if(t===3){b=NZ(-9,9);const k=NZ(-9,9);a=b*k;return{q:`${S(a)} ÷ ${P(b)}`,a:k,why:`${(a<0)===(b<0)?'Signes pareils → +':'Signes différents → −'} : ${S(k)}.`}}
+   a=NZ(-15,15);b=NZ(-15,15);const c=NZ(-15,15);return{q:`${S(a)} − ${P(b)} + ${P(c)}`,a:a-b+c,why:`De gauche à droite : ${S(a)} − ${P(b)} = ${S(a-b)}, puis + ${P(c)} = ${S(a-b+c)}.`}}},
+ {id:'frac',t:'Fractions et pourcentages',s:'Le langage de l’argent',
+  rule:'p % de N = N × p ÷ 100. Augmenter de p % = multiplier par (1 + p/100). Fractions : même dénominateur avant d’additionner.',
+  golf:'Ton budget voyage : 30 % de 2 000 CHF pour l’hôtel = 600 CHF. Le reste (70 %) = 1 400 CHF.',
+  trap:'« 71 % c’est de l’eau, quelle aire pour la terre ? » → on prend 29 % (100 − 71), on ne divise pas par 71.',
+  ex:'1/4 + 1/3 = 3/12 + 4/12 = 7/12',
+  gen(){const t=R(0,5);
+   if(t===0){const p=pick([5,10,12,15,20,25,30,40,60,75]),N=R(2,100)*20;return{q:`${p} % de ${fr(N)}`,a:N*p/100,why:`${fr(N)} × ${p} ÷ 100 = ${fr(N*p/100)}.`}}
+   if(t===1){const p=pick([5,10,20,25,50]),N=R(2,50)*20;return{q:`Un prix de ${fr(N)} CHF augmente de ${p} %. Nouveau prix ?`,txt:1,a:N*(1+p/100),why:`${fr(N)} × ${fr(1+p/100)} = ${fr(N*(1+p/100))}.`}}
+   if(t===2){const p=pick([10,20,25,40,50,75]),N=R(2,40)*20,M=N*p/100;return{q:`${fr(M)} représente combien de % de ${fr(N)} ?`,txt:1,a:p,why:`${fr(M)} ÷ ${fr(N)} × 100 = ${p} %.`}}
+   if(t===3){const b=R(2,9),d=R(2,9),a=R(1,b-1||1),c=R(1,d-1||1);return{q:`${a}/${b} + ${c}/${d}`,a:a/b+c/d,tol:0.01,hint:'Réponse en fraction (ex. 7/12) ou en décimal arrondi à 0,01.',why:`Même dénominateur ${b*d} : ${a*d}/${b*d} + ${c*b}/${b*d} = ${a*d+c*b}/${b*d} ≈ ${fr(a/b+c/d)}.`}}
+   if(t===4){const b=R(2,9),d=R(2,9),a=R(1,9),c=R(1,9);return{q:`${a}/${b} × ${c}/${d}`,a:a*c/(b*d),tol:0.01,hint:'Fraction ou décimal arrondi à 0,01.',why:`Haut × haut, bas × bas : ${a*c}/${b*d} ≈ ${fr(a*c/(b*d))}.`}}
+   const p=R(55,85),A=R(2,90)*10;return{q:`Une surface de ${fr(A)} km² est couverte à ${p} % d’eau. Quelle aire en km² est de la terre ferme ?`,txt:1,a:A*(100-p)/100,tol:0.01,why:`Terre = ${100-p} % : ${fr(A)} × ${100-p} ÷ 100 = ${fr(A*(100-p)/100)}.`}}},
+ {id:'pow',t:'Puissances et notation scientifique',s:'Les très grands et très petits nombres',
+  rule:'10ᵃ · 10ᵇ = 10ᵃ⁺ᵇ ; 10ᵃ ÷ 10ᵇ = 10ᵃ⁻ᵇ. Notation scientifique : un seul chiffre avant la virgule, puis × 10ⁿ.',
+  golf:'Comme compter les décimales sur un ticket : 0,007 306 → on déplace la virgule de 3 rangs → 7,306 · 10⁻³.',
+  trap:'10⁻³ ÷ 10⁻⁴ = 10⁻³⁻⁽⁻⁴⁾ = 10¹. La soustraction d’un négatif, encore elle.',
+  ex:'0,000 504 3 = 5,043 · 10⁻⁴',
+  gen(){const t=R(0,4);
+   if(t===0){const a=R(-15,15),b=R(-15,15);return{q:`10${sup(a)} · 10${sup(b)} = 10<sup>?</sup>`,a:a+b,hint:'Donne l’exposant.',why:`On additionne : ${S(a)} + ${P(b)} = ${S(a+b)}.`}}
+   if(t===1){const a=R(-12,12),b=R(-12,12);return{q:`10${sup(a)} ÷ 10${sup(b)} = 10<sup>?</sup>`,a:a-b,hint:'Donne l’exposant.',why:`On soustrait : ${S(a)} − ${P(b)} = ${S(a-b)}.`}}
+   if(t===2){const a=NZ(-6,6),b=NZ(-4,4);return{q:`(10${sup(a)})${sup(b)} = 10<sup>?</sup>`,a:a*b,hint:'Donne l’exposant.',why:`On multiplie : ${S(a)} × ${P(b)} = ${S(a*b)}.`}}
+   if(t===3){const dg=String(R(101,999));const n=pick([R(-8,-1),R(2,9)]);let dec;
+     if(n<0)dec='0,'+'0'.repeat(-n-1)+dg; else dec=(dg+'0'.repeat(n-2)).replace(/\B(?=(\d{3})+(?!\d))/g,' ');
+     const m=dg[0]+','+dg.slice(1);return{q:`${dec} = ${m} · 10<sup>?</sup>`,a:n,hint:'Donne l’exposant.',why:`La virgule bouge de ${Math.abs(n)} rang${Math.abs(n)>1?'s':''} ${n<0?'vers la droite → exposant négatif':'vers la gauche → exposant positif'} : ${S(n)}.`}}
+   const a=R(2,9),b=R(2,9),x=R(-9,9),y=R(-9,9),pr=a*b,n=x+y+(pr>=10?1:0);
+   return{q:`(${a} · 10${sup(x)}) · (${b} · 10${sup(y)}) = ? · 10<sup>?</sup>`,a:n,hint:'En notation scientifique propre : donne l’exposant.',why:`${a}×${b} = ${pr}${pr>=10?` = ${fr(pr/10)} · 10¹`:''} ; exposant ${S(x)} + ${P(y)}${pr>=10?' + 1':''} = ${S(n)}.`}}},
+ {id:'eq1',t:'Équations du 1er degré',s:'Trouver x proprement',
+  rule:'Ce que tu fais d’un côté, tu le fais de l’autre. Regroupe les x à gauche, les nombres à droite, puis divise.',
+  golf:'Une balance de practice : enlève 3 balles à gauche, enlève-en 3 à droite, elle reste à l’équilibre.',
+  trap:'Simplifier −6/12 donne −1/2 = −0,5. Divise haut ET bas par le même nombre.',
+  ex:'3x = −6 + x → 2x = −6 → x = −3',
+  gen(){const t=R(0,2),s=R(-9,9);
+   if(t===0){let a,c;do{a=NZ(-9,9);c=NZ(-9,9)}while(a===c);const b=R(-15,15),d=a*s+b-c*s;return{q:`${lin(a,b)} = ${lin(c,d)}`,a:s,hint:'x = ?',why:`${S(a)}x − ${P(c)}x = ${S(d)} − ${P(b)} → ${S(a-c)}x = ${S(d-b)} → x = ${S(s)}.`}}
+   if(t===1){const k=R(2,6),b=R(-10,10),x=k*s,c=s+b;return{q:`x/${k} ${b<0?'− '+(-b):'+ '+b} = ${S(c)}`,a:x,hint:'x = ?',why:`x/${k} = ${S(c)} − ${P(b)} = ${S(s)} → x = ${S(s)} × ${k} = ${S(x)}.`}}
+   const a=NZ(-6,6),b=R(-8,8),c=a*(s+b);return{q:`${S(a)}(x ${b<0?'− '+(-b):'+ '+b}) = ${S(c)}`,a:s,hint:'x = ?',why:`x ${b<0?'−':'+'} ${Math.abs(b)} = ${S(c)} ÷ ${P(a)} = ${S(s+b)} → x = ${S(s)}.`}}},
+ {id:'geo',t:'Aires, volumes, unités',s:'Calculatrice autorisée',
+  rule:'Périmètre = le tour (m). Aire = la surface (m²). Volume = l’espace (m³). Cône et pyramide = (base × hauteur) ÷ 3.',
+  golf:'Le périmètre, c’est la clôture du green. L’aire, c’est le gazon à tondre. Le volume, c’est le sable du bunker.',
+  trap:'Base d’une pyramide de côté 210 m : 210² = 44 100 m², pas 4 × 210. Et 1 dl = 100 cm³, 1 L = 1 000 cm³.',
+  ex:'Cône r = 4, h = 20 : π·4²·20 ÷ 3 ≈ 335,1 cm³ ≈ 3,35 dl',
+  gen(){const t=R(0,6);
+   if(t===0){const c=R(3,40),ar=R(0,1);return ar?{q:`Carré de côté ${c} m. Aire en m² ?`,txt:1,a:c*c,why:`Aire = côté² = ${c}² = ${c*c} m².`}:{q:`Carré de côté ${c} m. Périmètre en m ?`,txt:1,a:4*c,why:`Périmètre = 4 × côté = ${4*c} m.`}}
+   if(t===1){const b=R(3,30),h=R(2,25);return{q:`Triangle de base ${b} cm et hauteur ${h} cm. Aire en cm² ?`,txt:1,a:b*h/2,why:`(base × hauteur) ÷ 2 = ${fr(b*h/2)} cm².`}}
+   if(t===2){const r=R(2,15);return{q:`Disque de rayon ${r} cm. Aire en cm² (arrondi 0,1) ?`,txt:1,a:Math.PI*r*r,tol:tolAbs(Math.PI*r*r),why:`π·r² = π·${r}² ≈ ${fr(Math.PI*r*r)} cm².`}}
+   if(t===3){const r=R(2,6),h=R(8,25),v=Math.PI*r*r*h/3;return{q:`Verre conique : r = ${r} cm, h = ${h} cm. Capacité en dl ?`,txt:1,a:v/100,tol:tolAbs(v/100),why:`π·${r}²·${h} ÷ 3 ≈ ${fr(v)} cm³, et 1 dl = 100 cm³ → ≈ ${fr(v/100)} dl.`}}
+   if(t===4){const r=R(3,12),h=R(5,30),v=Math.PI*r*r*h;return{q:`Cylindre : r = ${r} cm, h = ${h} cm. Volume en litres ?`,txt:1,a:v/1000,tol:tolAbs(v/1000),why:`π·${r}²·${h} ≈ ${fr(v)} cm³ = ${fr(v/1000)} L (÷ 1 000).`}}
+   if(t===5){const r=R(2,12),v=4/3*Math.PI*r**3;return{q:`Sphère de rayon ${r} cm. Volume en cm³ ?`,txt:1,a:v,tol:tolAbs(v),why:`4/3·π·r³ = 4/3·π·${r}³ ≈ ${fr(v)} cm³.`}}
+   const c=R(4,30),h=R(3,30),v=c*c*h/3;return{q:`Pyramide à base carrée : côté ${c} m, hauteur ${h} m. Volume en m³ ?`,txt:1,a:v,tol:tolAbs(v),why:`Base = ${c}² = ${c*c} m² (pas 4×${c}) ; ${c*c} × ${h} ÷ 3 = ${fr(v)} m³.`}}},
+ {id:'iso',t:'Isoler une inconnue',s:'Retourner une formule',
+  rule:'Défais les opérations dans l’ordre inverse. Si V = π·r²·h, alors h = V ÷ (π·r²) et r = √(V ÷ (π·h)).',
+  golf:'Comme retrouver la vitesse de club à partir de la distance : tu pars du résultat et tu remontes la formule.',
+  trap:'Ne remplace pas l’inconnue par une valeur au hasard (le rayon n’est pas « la moitié de la base »). Écris la formule, isole, calcule.',
+  ex:'Cylindre V = 785,4 cm³, r = 5 cm → h = 785,4 ÷ (π·25) ≈ 10 cm',
+  gen(){const t=R(0,5);
+   if(t===0){const r=R(2,9),h=R(3,30),V=+(Math.PI*r*r*h).toFixed(1);return{q:`Cylindre de volume ${fr(V)} cm³ et rayon ${r} cm. Hauteur en cm ?`,txt:1,a:V/(Math.PI*r*r),tol:tolAbs(h),why:`h = V ÷ (π·r²) = ${fr(V)} ÷ (π·${r*r}) ≈ ${fr(V/(Math.PI*r*r))} cm.`}}
+   if(t===1){const r=R(2,20),A=+(Math.PI*r*r).toFixed(1);return{q:`Un disque a une aire de ${fr(A)} cm². Rayon en cm ?`,txt:1,a:Math.sqrt(A/Math.PI),tol:tolAbs(r),why:`r = √(A ÷ π) = √(${fr(A)} ÷ π) ≈ ${fr(Math.sqrt(A/Math.PI))} cm.`}}
+   if(t===2){const c=R(3,20),h=R(3,30),V=c*c*h/3;return{q:`Pyramide à base carrée de côté ${c} m, volume ${fr(V)} m³. Hauteur ?`,txt:1,a:h,tol:tolAbs(h),why:`h = 3V ÷ c² = 3 × ${fr(V)} ÷ ${c*c} = ${h} m.`}}
+   if(t===3){const r=R(2,15),V=+(4/3*Math.PI*r**3).toFixed(1);return{q:`Sphère de volume ${fr(V)} cm³. Rayon en cm ?`,txt:1,a:Math.cbrt(3*V/(4*Math.PI)),tol:tolAbs(r),why:`r = ∛(3V ÷ 4π) ≈ ${fr(Math.cbrt(3*V/(4*Math.PI)))} cm.`}}
+   if(t===4){const v=pick([40,60,80,90,100,120]),tm=R(1,8)/2,d=v*tm;return{q:`Tu roules ${fr(d)} km à ${v} km/h. Durée en heures ?`,txt:1,a:tm,why:`t = d ÷ v = ${fr(d)} ÷ ${v} = ${fr(tm)} h.`}}
+   const r=R(2,12),h=R(5,30),V=+(Math.PI*r*r*h/3).toFixed(1);return{q:`Cône de hauteur ${h} cm et de volume ${fr(V)} cm³. Rayon en cm ?`,txt:1,a:Math.sqrt(3*V/(Math.PI*h)),tol:tolAbs(r),why:`r = √(3V ÷ (π·h)) ≈ ${fr(Math.sqrt(3*V/(Math.PI*h)))} cm.`}}},
+ {id:'lin',t:'Fonctions et droites',s:'y = mx + b',
+  rule:'m = pente = (y₂ − y₁) ÷ (x₂ − x₁). b = là où la droite coupe l’axe y. Zéro de la fonction : on résout mx + b = 0.',
+  golf:'La pente, c’est le dénivelé du green : de combien la balle descend pour chaque mètre parcouru.',
+  trap:'Pente : on fait y sur x (vertical ÷ horizontal), et dans le même ordre en haut et en bas.',
+  ex:'Points (1 ; 3) et (4 ; 9) → m = (9 − 3) ÷ (4 − 1) = 2',
+  gen(){const t=R(0,3);
+   if(t===0){const m=NZ(-5,5),b=R(-8,8),x1=R(-5,3),x2=x1+R(1,5);return{q:`Pente de la droite passant par (${S(x1)} ; ${S(m*x1+b)}) et (${S(x2)} ; ${S(m*x2+b)}) ?`,txt:1,a:m,why:`(${S(m*x2+b)} − ${P(m*x1+b)}) ÷ (${S(x2)} − ${P(x1)}) = ${S(m*(x2-x1))} ÷ ${x2-x1} = ${S(m)}.`}}
+   if(t===1){const m=NZ(-6,6),b=R(-10,10),x=R(-6,6);return{q:`f(x) = ${lin(m,b)}. Calcule f(${S(x)}).`,a:m*x+b,why:`${S(m)} × ${P(x)} ${b<0?'−':'+'} ${Math.abs(b)} = ${S(m*x+b)}.`}}
+   if(t===2){const m=NZ(-5,5),r=R(-8,8),b=-m*r;return{q:`Où la droite y = ${lin(m,b)} coupe-t-elle l’axe x ?`,txt:1,hint:'x = ?',a:r,why:`${lin(m,b)} = 0 → x = ${S(-b)} ÷ ${P(m)} = ${S(r)}.`}}
+   let m1,m2;do{m1=NZ(-5,5);m2=NZ(-5,5)}while(m1===m2);const x0=R(-6,6),b1=R(-8,8),b2=(m1-m2)*x0+b1;return{q:`y = ${lin(m1,b1)} et y = ${lin(m2,b2)}. En quel x se croisent-elles ?`,txt:1,a:x0,why:`${lin(m1,b1)} = ${lin(m2,b2)} → ${S(m1-m2)}x = ${S(b2-b1)} → x = ${S(x0)}.`}}},
+ {id:'eq2',t:'Équations du 2e degré',s:'Paraboles et Δ',
+  rule:'ax² + bx + c = 0 : Δ = b² − 4ac. Si Δ ≥ 0 : x = (−b ± √Δ) ÷ 2a. Le sommet de la parabole est en x = −b ÷ 2a.',
+  golf:'La trajectoire d’une balle est une parabole : le sommet, c’est le point le plus haut du vol.',
+  trap:'Dans Δ = b² − 4ac, b² est toujours positif : (−5)² = 25, pas −25.',
+  ex:'x² − 5x + 6 = 0 → Δ = 25 − 24 = 1 → x = 2 ou x = 3',
+  gen(){const t=R(0,3);
+   if(t===0){let r1=R(-8,8),r2=R(-8,8);if(r1===r2)r2++;const b=-(r1+r2),c=r1*r2;return{q:`${quad(1,b,c)} = 0. Donne la plus grande solution.`,txt:1,a:Math.max(r1,r2),why:`Somme ${S(r1+r2)}, produit ${S(c)} → x = ${S(Math.min(r1,r2))} ou x = ${S(Math.max(r1,r2))}.`}}
+   if(t===1){const a=NZ(-4,4),b=R(-9,9),c=R(-9,9);return{q:`Calcule Δ pour ${quad(a,b,c)} = 0.`,txt:1,a:b*b-4*a*c,why:`Δ = ${P(b)}² − 4 × ${P(a)} × ${P(c)} = ${b*b} − ${P(4*a*c)} = ${S(b*b-4*a*c)}.`}}
+   if(t===2){const a=R(2,3);let r1=R(-6,6),r2=R(-6,6);if(r1===r2)r2++;const b=-a*(r1+r2),c=a*r1*r2;return{q:`${quad(a,b,c)} = 0. Donne la plus petite solution.`,txt:1,a:Math.min(r1,r2),why:`Divise par ${a} : ${quad(1,-(r1+r2),r1*r2)} = 0 → x = ${S(Math.min(r1,r2))} ou ${S(Math.max(r1,r2))}.`}}
+   const a=NZ(-3,3),b=2*a*R(-6,6),c=R(-9,9);return{q:`Abscisse x du sommet de y = ${quad(a,b,c)} ?`,txt:1,a:-b/(2*a),why:`x = −b ÷ 2a = ${S(-b)} ÷ ${S(2*a)} = ${S(-b/(2*a))}.`}}},
+ {id:'trig',t:'Trigonométrie',s:'Angles en degrés, calculatrice OK',
+  rule:'Triangle rectangle : sin = opposé ÷ hypoténuse, cos = adjacent ÷ hypoténuse, tan = opposé ÷ adjacent. Radians : π rad = 180°.',
+  golf:'Le loft d’un club : l’angle décide combien la balle monte (opposé) pour combien elle avance (adjacent).',
+  trap:'Vérifie que ta calculatrice est en DEG et pas en RAD. sin(30) en radians donne −0,99 au lieu de 0,5.',
+  ex:'Hypoténuse 10, angle 30° → opposé = 10 · sin 30° = 5',
+  gen(){const t=R(0,4);
+   if(t===0){const H=R(5,40),a=pick([15,20,25,30,35,40,45,50,60,70]);return{q:`Hypoténuse ${H} m, angle ${a}°. Côté opposé ?`,txt:1,a:H*Math.sin(a*deg),tol:tolAbs(H*Math.sin(a*deg)),why:`opposé = H · sin α = ${H} · sin ${a}° ≈ ${fr(H*Math.sin(a*deg))} m.`}}
+   if(t===1){const A=R(5,40),a=pick([20,30,40,45,50,60]);return{q:`Côté adjacent ${A} m, angle ${a}°. Hypoténuse ?`,txt:1,a:A/Math.cos(a*deg),tol:tolAbs(A/Math.cos(a*deg)),why:`H = adjacent ÷ cos α = ${A} ÷ cos ${a}° ≈ ${fr(A/Math.cos(a*deg))} m.`}}
+   if(t===2){const O=R(2,30),A=R(2,30),ang=Math.atan(O/A)/deg;return{q:`Opposé ${O} m, adjacent ${A} m. Angle en degrés ?`,txt:1,a:ang,tol:tolAbs(ang,0.01,0.3),why:`α = arctan(${O} ÷ ${A}) ≈ ${fr(ang)}°.`}}
+   if(t===3){const d=15*R(1,24);return{q:`${d}° en radians (décimal) ?`,txt:1,a:d*deg,tol:0.02,why:`${d} × π ÷ 180 ≈ ${fr(d*deg)} rad.`}}
+   const [f,a,v]=pick([['sin',30,.5],['cos',60,.5],['sin',90,1],['cos',0,1],['cos',180,-1],['sin',0,0],['cos',90,0],['tan',45,1],['sin',270,-1]]);return{q:`${f}(${a}°) = ?`,a:v,why:`Valeur à connaître par cœur : ${f}(${a}°) = ${fr(v)}.`}}},
+ {id:'log',t:'Exponentielles et logarithmes',s:'Croissance, intérêts, échelles',
+  rule:'log₁₀(10ᵏ) = k. Résoudre 2ˣ = 32 revient à chercher l’exposant : x = 5. Capital : C · (1 + r)ⁿ.',
+  golf:'Ton handicap qui baisse de 10 % par an : c’est une exponentielle, pas une soustraction fixe.',
+  trap:'Un taux de 3 % s’écrit 0,03 dans (1 + r)ⁿ, pas 3.',
+  ex:'1 000 CHF à 5 % pendant 2 ans → 1 000 · 1,05² = 1 102,50',
+  gen(){const t=R(0,4);
+   if(t===0){const b=pick([2,3,5]),k=R(2,b===2?10:5);return{q:`${b}<sup>x</sup> = ${fr(b**k)}`,a:k,hint:'x = ?',why:`${b}^${k} = ${fr(b**k)} → x = ${k}.`}}
+   if(t===1){const k=R(-4,7);return{q:`log₁₀(${k<0?'0,'+'0'.repeat(-k-1)+'1':fr(10**k)})`,a:k,why:`C’est 10${k<0?'^'+S(k):'^'+k} → ${S(k)}.`}}
+   if(t===2){const b=pick([2,3,4,5]),k=R(1,5);return{q:`log<sub>${b}</sub>(${fr(b**k)})`,a:k,why:`${b}^${k} = ${fr(b**k)} → ${k}.`}}
+   if(t===3){const C=R(1,20)*500,r=pick([2,3,4,5,6]),n=R(2,10),v=C*(1+r/100)**n;return{q:`${fr(C)} CHF placés à ${r} % par an pendant ${n} ans. Capital final ?`,txt:1,a:v,tol:tolAbs(v,0.005,1),why:`${fr(C)} · ${fr(1+r/100)}^${n} ≈ ${fr(v)} CHF.`}}
+   const a=R(2,5),k=R(1,6);return{q:`${a} · 2<sup>x</sup> = ${fr(a*2**k)}`,a:k,hint:'x = ?',why:`2^x = ${fr(a*2**k)} ÷ ${a} = ${2**k} → x = ${k}.`}}},
+ {id:'der',t:'Dérivées',s:'La pente instantanée',
+  rule:'(xⁿ)′ = n·xⁿ⁻¹. (a·f)′ = a·f′. Une constante a une dérivée nulle. f′(x₀) = pente de la tangente en x₀.',
+  golf:'La vitesse de la tête de club à l’impact : c’est la dérivée de sa position à cet instant précis.',
+  trap:'(x³)′ = 3x², pas 3x³ : on baisse l’exposant de 1.',
+  ex:'f(x) = 2x³ → f′(x) = 6x² → f′(2) = 24',
+  gen(){const t=R(0,2);
+   if(t===0){const a=NZ(-5,5),n=R(2,4),x=R(-3,3);return{q:`f(x) = ${a===1?'':a===-1?'−':S(a)}x${sup(n)}. Calcule f′(${S(x)}).`,a:a*n*x**(n-1),why:`f′(x) = ${S(a*n)}x${n-1>1?'^'+(n-1):''} → f′(${S(x)}) = ${S(a*n*x**(n-1))}.`}}
+   if(t===1){const a=NZ(-5,5),b=R(-9,9),c=R(-9,9),x=R(-4,4);return{q:`f(x) = ${quad(a,b,c)}. Pente de la tangente en x = ${S(x)} ?`,txt:1,a:2*a*x+b,why:`f′(x) = ${S(2*a)}x ${b<0?'−':'+'} ${Math.abs(b)} → f′(${S(x)}) = ${S(2*a*x+b)}.`}}
+   const a=NZ(-3,3),b=2*a*R(-5,5),c=R(-9,9);return{q:`f(x) = ${quad(a,b,c)}. Pour quel x a-t-on f′(x) = 0 ?`,txt:1,a:-b/(2*a),why:`f′(x) = ${S(2*a)}x ${b<0?'−':'+'} ${Math.abs(b)} = 0 → x = ${S(-b/(2*a))}.`}}},
+ {id:'final',t:'Boss final : niveau EPFL',s:'Tout le programme mélangé',final:1,
+  rule:'Questions tirées des 11 étapes. Réussis 8 sur 10 sans aide pour valider le niveau d’entrée.',
+  golf:'Le dernier tour d’un tournoi : rien de nouveau, juste tout ce que tu as entraîné, sous pression.',
+  trap:'Ralentis sur les signes et les unités. C’est là que tu perdais tes points en 11e.',
+  ex:'Mélange : signes, %, puissances, équations, volumes, droites, Δ, trigo, logs, dérivées',
+  gen(){const c=CH[R(0,10)];const q=c.gen();q.tag=c.t;return q}}
+];
+
+
+
+/* ---------- icônes ---------- */
+const ICON={rel:'flower',frac:'report',pow:'molecule',eq1:'pin',geo:'folder',iso:'mail',lin:'plane',eq2:'note',trig:'eye',log:'cal31',der:'laptop',final:'star'};
+const img=n=>`icons/${n}.webp`;
+
+/* ---------- mascotte Pi : un blob en verre avec un visage SVG ---------- */
+const FACES={
+ idle:`<g class="lid"><ellipse cx="140" cy="78" rx="9" ry="11" fill="#fff"/><ellipse cx="180" cy="78" rx="9" ry="11" fill="#fff"/><circle cx="142" cy="80" r="5" fill="#0D1B3E"/><circle cx="182" cy="80" r="5" fill="#0D1B3E"/><circle cx="144" cy="77" r="1.6" fill="#fff"/><circle cx="184" cy="77" r="1.6" fill="#fff"/></g>
+   <path d="M150 100 Q160 109 170 100" stroke="#0D1B3E" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+   <ellipse cx="127" cy="96" rx="7" ry="4" fill="#FF8FB1" opacity=".55"/><ellipse cx="193" cy="96" rx="7" ry="4" fill="#FF8FB1" opacity=".55"/>`,
+ happy:`<path d="M131 82 Q140 70 149 82" stroke="#0D1B3E" stroke-width="4" fill="none" stroke-linecap="round"/><path d="M171 82 Q180 70 189 82" stroke="#0D1B3E" stroke-width="4" fill="none" stroke-linecap="round"/>
+   <path d="M146 96 Q160 118 174 96 Z" fill="#0D1B3E"/><path d="M152 104 Q160 112 168 104" fill="#FF7A9C"/>
+   <ellipse cx="125" cy="94" rx="8" ry="4.5" fill="#FF8FB1" opacity=".7"/><ellipse cx="195" cy="94" rx="8" ry="4.5" fill="#FF8FB1" opacity=".7"/>`,
+ sad:`<path d="M130 66 L148 72" stroke="#0D1B3E" stroke-width="3" stroke-linecap="round"/><path d="M190 66 L172 72" stroke="#0D1B3E" stroke-width="3" stroke-linecap="round"/>
+   <ellipse cx="140" cy="82" rx="8" ry="9" fill="#fff"/><ellipse cx="180" cy="82" rx="8" ry="9" fill="#fff"/><circle cx="140" cy="86" r="4.5" fill="#0D1B3E"/><circle cx="180" cy="86" r="4.5" fill="#0D1B3E"/>
+   <path d="M150 108 Q160 100 170 108" stroke="#0D1B3E" stroke-width="3.5" fill="none" stroke-linecap="round"/>`,
+ think:`<ellipse cx="140" cy="78" rx="9" ry="11" fill="#fff"/><ellipse cx="180" cy="78" rx="9" ry="11" fill="#fff"/><circle cx="144" cy="74" r="5" fill="#0D1B3E"/><circle cx="184" cy="74" r="5" fill="#0D1B3E"/>
+   <path d="M152 103 L170 101" stroke="#0D1B3E" stroke-width="3.5" stroke-linecap="round"/>`
+};
+function pi(mood='idle',cls='',size=''){return `<span class="pi ${cls}" data-pi="${mood}" ${size?`style="${size}"`:''}></span>`}
+function paintPi(root=document){root.querySelectorAll('.pi[data-pi]').forEach(el=>{if(el.dataset.done===el.dataset.pi)return;el.dataset.done=el.dataset.pi;
+  el.innerHTML=`<img src="${img('blob')}" alt="Pi, la mascotte"><svg viewBox="0 0 320 219" aria-hidden="true"><g transform="translate(160 88) scale(1.45) translate(-160 -88)">${FACES[el.dataset.pi]||FACES.idle}</g></svg>`})}
+
+/* ---------- état ---------- */
+const KEY='route-epfl-v1';
+let st={xp:0,pass:{},best:{},train:{},read:{},days:{},answered:0};
+try{const s=JSON.parse(localStorage.getItem(KEY));if(s)st=Object.assign(st,s)}catch(e){}
+['train','read','pass','best','days'].forEach(k=>st[k]=st[k]||{});
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(st))}catch(e){}};
+const dkey=d=>`${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const today=()=>dkey(new Date());
+const unlocked=i=>i===0||!!st.pass[CH[i-1].id];
+const passedCount=()=>CH.filter(c=>st.pass[c.id]).length;
+function streak(){let n=0;const d=new Date();if(!(st.days[dkey(d)]>0))d.setDate(d.getDate()-1);while(st.days[dkey(d)]>0){n++;d.setDate(d.getDate()-1)}return n}
+// maîtrise : 0 rien · 1 tenté · 2 familier (entraînement ≥ 8) · 3 maîtrisé (boss)
+function mastery(c){if(st.pass[c.id])return 3;if((st.train[c.id]||0)>=8)return 2;if(st.read[c.id]||st.train[c.id]!=null||st.best[c.id]!=null)return 1;return 0}
+function courseMastery(){let s=0;CH.forEach(c=>s+=mastery(c));return Math.round(s/(CH.length*3)*100)}
+const LVL=['Pas commencé','Tenté','Familier','Maîtrisé'];
+const $=id=>document.getElementById(id);
+function show(id){['home','unit','quiz','result'].forEach(x=>$(x).hidden=x!==id);$('quiz').parentElement.style.paddingBottom=id==='quiz'?'0':'';window.scrollTo(0,0);paintPi()}
+function chips(){$('cStreak').textContent=streak();$('cXp').textContent=st.xp}
+
+/* ---------- accueil ---------- */
+function renderHome(){chips();
+  const cur=CH.findIndex(c=>!st.pass[c.id]),c=CH[cur<0?CH.length-1:cur];
+  const m=Math.round(st.days[today()]||0),cm=courseMastery();
+  const msg=cur<0?'Niveau EPFL atteint. Garde la forme avec quelques séries.':m>=20?`Objectif du jour rempli. Bravo ! Une série bonus sur « ${c.t} » ?`:m>0?`Encore ${20-m} min aujourd’hui. On continue « ${c.t} » ?`:`Salut, moi c’est Pi. 20 min aujourd’hui : on attaque « ${c.t} » ?`;
+  let days='';for(let i=27;i>=0;i--){const d=new Date();d.setDate(d.getDate()-i);const v=st.days[dkey(d)]||0;days+=`<i class="${v>=20?'f':v>0?'p':''} ${i===0?'t':''}" title="${dkey(d)} : ${Math.round(v)} min"></i>`}
+  const sq=c2=>{const lv=mastery(c2);return `<span class="sq">${[1,2,3].map(k=>`<i class="${lv>=k?'lv'+k:''}"></i>`).join('')}</span>`};
+  $('home').innerHTML=`
+  <div class="hero">
+    <div>
+      <div class="kick">Cours · Mathématiques</div>
+      <h1>De la 11e au niveau d’entrée EPFL</h1>
+      <p class="sub">12 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.</p>
+      <div class="prog"><div class="row"><span>Maîtrise du cours</span><span class="mono">${cm} %</span></div><div class="bar"><i style="width:${cm}%"></i></div></div>
+    </div>
+    <div class="guide">
+      <div class="bubble">${msg}</div>
+      ${pi(m>=20?'happy':'idle','bob pi-big')}
+      ${cur>=0?`<button class="cta" id="cont">Continuer · Unité ${cur+1}</button>`:''}
+    </div>
+  </div>
+  <div class="cols">
+    <nav class="side" aria-label="Unités"><h4>Unités du cours</h4>
+      ${CH.map((u,i)=>`<button data-i="${i}" class="${unlocked(i)?'':'lk'}"><img src="${img(unlocked(i)?ICON[u.id]:'lock')}" alt="">${u.final?'Boss final':(i+1)+'. '+u.t}${sq(u)}</button>`).join('')}
+    </nav>
+    <div class="content">
+      <div class="daily">
+        <div class="left">
+          <div class="ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="var(--m0)" stroke-width="11"/><circle cx="50" cy="50" r="42" fill="none" stroke="${m>=20?'var(--ok)':'var(--brand)'}" stroke-width="11" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="${264-264*Math.min(m,20)/20}"/></svg><b>${m}′</b></div>
+          <div><h3>Objectif du jour : 20 min</h3><p class="small">${streak()} jour${streak()>1?'s':''} de suite · ${st.answered} questions faites</p></div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:6px;min-width:0"><div class="days">${days}</div><div class="small" style="display:flex;justify-content:space-between"><span>il y a 4 semaines</span><span>aujourd’hui</span></div></div>
+      </div>
+      <div class="sec-h"><h2>Unités</h2>
+        <div class="legend">${[0,1,2,3].map(k=>`<span><i class="${k?'lv'+k:''}"></i>${LVL[k]}</span>`).join('')}</div></div>
+      <div class="units">${CH.map((u,i)=>{const lk=!unlocked(i),lv=mastery(u);
+        return `<button class="unit ${lk?'lk':''} ${u.final?'final':''}" data-i="${i}" ${lk?'aria-disabled="true"':''}>
+          <span class="ic"><img src="${img(ICON[u.id])}" alt="">${lk?`<img class="lock" src="${img('lock')}" alt="Verrouillé">`:''}</span>
+          <span class="meta"><span class="num">${u.final?'Examen final':'Unité '+(i+1)}</span><h3>${u.t}</h3><p>${u.s}</p>
+            <span class="skills"><span><i class="${lv>=1?'lv1':''}"></i>Leçon</span><span><i class="${lv>=2?'lv2':''}"></i>Entraînement ${st.train[u.id]!=null?st.train[u.id]+'/10':''}</span><span><i class="${lv>=3?'lv3':''}"></i>Boss ${st.best[u.id]!=null?st.best[u.id]+'/10':''}</span></span></span>
+          <span class="go">${lk?'Verrouillé':lv===3?'Revoir →':lv>0?'Continuer →':'Commencer →'}</span></button>`}).join('')}</div>
+      <p class="foot">Ta progression est gardée dans ce navigateur : utilise toujours le même appareil.</p>
+    </div>
+  </div>`;
+  if($('cont'))$('cont').onclick=()=>openUnit(cur);
+  $('home').querySelectorAll('[data-i]').forEach(b=>b.onclick=()=>{const i=+b.dataset.i;if(!unlocked(i))return toast('Bats d’abord le boss de l’unité précédente');openUnit(i)});
+  show('home');
+}
+
+/* ---------- unité ---------- */
+function openUnit(i){const c=CH[i];st.read[c.id]=true;save();
+  $('unit').innerHTML=`
+  <div class="crumb"><button id="bk">Cours</button><span>›</span><span>${c.final?'Examen final':'Unité '+(i+1)}</span></div>
+  <div class="uhead"><img class="ico" src="${img(ICON[c.id])}" alt=""><div><h1>${c.t}</h1><p>${c.s} · ${LVL[mastery(c)]}</p></div></div>
+  <div class="ugrid">
+    <article class="article">
+      <div><h4>La règle</h4><p>${c.rule}</p></div>
+      <div><h4>Exemple</h4><div class="ex">${c.ex}</div></div>
+      <div class="tip">${pi('think','','width:56px;height:38px')}<p>${c.golf}</p></div>
+      <div class="trap"><div><b>Le piège classique.</b> ${c.trap}</div></div>
+    </article>
+    <div class="acts">
+      ${c.final?'':`<div class="act"><div class="h"><img class="ico" src="${img('plane')}" alt=""><div><h3>Entraînement</h3><p>10 questions · correction après chaque réponse</p></div></div>
+        <button class="cta" id="go">${st.train[c.id]!=null?'Nouvelle série':'Commencer'}</button>${st.train[c.id]!=null?`<p>Meilleur score : ${st.train[c.id]}/10</p>`:''}</div>`}
+      <div class="act boss"><div class="h"><img class="ico" src="${img('star')}" alt=""><div><h3>${c.final?'Examen final EPFL':'Boss de l’unité'}</h3><p>${c.final?'10 questions tirées de tout le cours':'8/10 sans aide pour débloquer la suite'} · +100 XP</p></div></div>
+        <button class="cta" id="boss">${st.pass[c.id]?'Rejouer':'Affronter le boss'}</button>${st.best[c.id]!=null?`<p>Meilleur score : ${st.best[c.id]}/10</p>`:''}</div>
+    </div>
+  </div>`;
+  $('bk').onclick=renderHome;
+  if($('go'))$('go').onclick=()=>startQuiz(i,'train');
+  $('boss').onclick=()=>startQuiz(i,'boss');
+  show('unit');
+}
+
+/* ---------- quiz ---------- */
+let Q=null;
+function startQuiz(i,mode){Q={i,mode,n:0,res:[],miss:[],t0:Date.now(),cur:CH[i].gen(),answered:false};renderQ();show('quiz')}
+function renderQ(){const c=CH[Q.i],q=Q.cur;
+  $('quiz').innerHTML=`<div class="qwrap">
+    <div class="qbar"><button class="x" id="qx" aria-label="Arrêter">✕</button><div class="bar"><i style="width:${Q.n*10}%"></i></div><span class="mono">${Q.n+1}/10</span></div>
+    <div class="qcard">
+      <div class="qkick"><img src="${img(Q.mode==='boss'?'star':ICON[c.id])}" alt="">${Q.mode==='boss'?'Boss · ':''}${q.tag||c.t}</div>
+      <div class="q ${q.txt?'text':''}">${q.q}</div>${q.hint?`<div class="hint">${q.hint}</div>`:''}
+      <form class="ans" id="af" autocomplete="off">
+        <input id="ain" inputmode="text" enterkeyhint="done" placeholder="Ta réponse" aria-label="Ta réponse">
+        <div class="keys"><button type="button" data-k="−">−</button><button type="button" data-k="/">/</button><button type="button" data-k=",">,</button></div>
+        <button type="submit" hidden></button>
+      </form>
+    </div></div>
+    <div class="check" id="chk"><div class="in"><div class="fbx" id="fbx">${pi('think','','width:64px;height:44px')}<span class="hint">Écris ta réponse puis vérifie.</span></div><button class="cta" id="ok">Vérifier</button></div></div>`;
+  paintPi($('quiz'));
+  const inp=$('ain');setTimeout(()=>inp.focus(),30);
+  $('quiz').querySelectorAll('.keys button').forEach(b=>b.onclick=()=>{inp.value+=b.dataset.k;inp.focus()});
+  $('qx').onclick=()=>{logTime();openUnit(Q.i)};
+  const act=()=>Q.answered?next():check();
+  $('af').onsubmit=e=>{e.preventDefault();act()};$('ok').onclick=act;
+}
+function parse(s){s=s.trim().replace(/\s/g,'').replace(/[−–]/g,'-').replace(/,/g,'.');if(!s)return NaN;
+  if(/^-?\d*\.?\d+\/-?\d*\.?\d+$/.test(s)){const [a,b]=s.split('/').map(Number);return b?a/b:NaN}return Number(s)}
+function check(){const q=Q.cur,v=parse($('ain').value);
+  if(isNaN(v)){$('fbx').innerHTML=`${pi('think','','width:64px;height:44px')}<div><b>Je ne lis pas ce nombre</b><span>Écris par exemple −3, 4,5 ou 7/12.</span></div>`;paintPi($('fbx'));return}
+  const ok=Math.abs(v-q.a)<=(q.tol??1e-9);
+  Q.res.push(ok);Q.answered=true;st.answered++;if(ok)st.xp+=10;else Q.miss.push({q:q.q,you:$('ain').value,a:q.a,why:q.why});save();chips();
+  $('ain').disabled=true;$('quiz').querySelectorAll('.keys button').forEach(b=>b.disabled=true);
+  const why=Q.mode==='train'?q.why:(ok?'':'Correction à la fin.');
+  $('chk').className='check '+(ok?'ok':'ko');
+  $('fbx').innerHTML=`${pi(ok?'happy':'sad',ok?'jump':'shake','width:64px;height:44px')}<div><b>${ok?'Juste ! +10 XP':'Réponse : '+fr(q.a)}</b><span>${why}</span></div>`;
+  paintPi($('fbx'));
+  $('quiz').querySelector('.qbar .bar i').style.width=(Q.n+1)*10+'%';
+  $('ok').textContent=Q.n===9?'Voir le résultat':'Continuer';$('ok').focus();
+}
+function next(){Q.n++;if(Q.n>=10)return finish();Q.cur=CH[Q.i].gen();Q.answered=false;renderQ()}
+function logTime(){if(!Q)return;const m=Math.min((Date.now()-Q.t0)/60000,30);const k=today();st.days[k]=(st.days[k]||0)+m;Q.t0=Date.now();save()}
+function finish(){logTime();const c=CH[Q.i],score=Q.res.filter(Boolean).length;let win=false,unlock='',bonus=0;
+  if(Q.mode==='boss'){st.best[c.id]=Math.max(st.best[c.id]||0,score);
+    if(score>=8){win=true;if(!st.pass[c.id]){st.pass[c.id]=true;st.xp+=100;bonus=100;unlock=c.final?'Niveau EPFL atteint.':`Unité ${Q.i+2} débloquée : ${CH[Q.i+1].t}.`}}}
+  else st.train[c.id]=Math.max(st.train[c.id]||0,score);
+  save();chips();
+  const good=Q.mode==='boss'?win:score>=8;
+  const title=Q.mode==='boss'?(win?'Boss battu !':'Le boss résiste'):(good?'Série réussie':'Bien joué, on continue');
+  const sub=Q.mode==='boss'?(win?(unlock||'Unité déjà validée. Bon entretien.'):'Il faut 8/10. Refais un entraînement sur tes erreurs, puis retente.'):(good?'Tu es prêt à affronter le boss.':'Encore une série et tu y es.');
+  const m=Math.round(st.days[today()]||0);
+  const conf=good?`<div class="confetti">${Array.from({length:26},(_,k)=>`<i style="left:${k*3.9}%;background:${['#2356E8','#3AA8F4','#7EA2FF','#14966A','#FFC94A'][k%5]};animation-delay:${(k%7)*.08}s"></i>`).join('')}</div>`:'';
+  $('result').innerHTML=`<div class="res">
+    <div class="top2">${conf}${pi(good?'happy':'sad',good?'jump pi-big':'pi-big')}
+      <div class="score">${score}/10</div><h2>${title}</h2><p style="color:var(--muted)">${sub}</p>
+      <div class="kpis">
+        <div class="kpi"><img src="${img('star')}" alt=""><b>+${score*10+bonus}</b><span>XP</span></div>
+        <div class="kpi"><img src="${img('fire')}" alt=""><b>${streak()}</b><span>jours de suite</span></div>
+        <div class="kpi"><img src="${img('calendar')}" alt=""><b>${m}/20</b><span>min aujourd’hui</span></div>
+      </div></div>
+    ${Q.miss.length?`<div class="miss"><h3>Corrections</h3>${Q.miss.map(x=>`<div><div class="q2">${x.q}</div><div>Toi : <span class="mono" style="color:var(--bad)">${x.you||'—'}</span> · juste : <span class="mono" style="color:var(--ok)">${fr(x.a)}</span></div><div class="why">${x.why}</div></div>`).join('')}</div>`:''}
+    <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+      <button class="cta" id="again">${Q.mode==='boss'&&!win&&!c.final?'Entraînement':'Encore une série'}</button>
+      ${win&&!c.final?`<button class="cta dark" id="nextU">Unité suivante →</button>`:''}
+      <button class="cta ghost" id="home2">Retour au cours</button></div></div>`;
+  const i=Q.i,mode=Q.mode;
+  $('again').onclick=()=>startQuiz(i,mode==='boss'&&!win&&!CH[i].final?'train':mode);
+  if($('nextU'))$('nextU').onclick=()=>openUnit(i+1);
+  $('home2').onclick=renderHome;
+  show('result');
+}
+function toast(t){const e=$('toast');e.textContent=t;e.hidden=false;clearTimeout(toast.h);toast.h=setTimeout(()=>e.hidden=true,1800)}
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&Q&&!$('quiz').hidden)logTime()});
+$('logo').onclick=renderHome;
+renderHome();
+</script>
