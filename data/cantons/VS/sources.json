@@ -1,0 +1,27 @@
+{
+ "canton": "VS",
+ "telecharge_le": "2026-10-25",
+ "documents": [
+  {
+   "titre": "Grille horaire CO dès 2014-2015",
+   "fichier": "pdf/Grille_horaire_CO_dès_2014-2015.pdf",
+   "url": "https://www.vs.ch/documents/33324396/34772210/Grille%20horaire%20CO%20d%C3%A8s%202014-2015.pdf/e9a2a208-ef3c-2ae7-9e29-5da2fb1c02d5",
+   "octets": 133546,
+   "sha256": "d95ae5c3354f5babe4edf13b4206dbcdf0895493a1e5ed50c7d3ccb6b562ad85"
+  },
+  {
+   "titre": "DCE grille horaire EP 2024",
+   "fichier": "pdf/DCE_grille_horaire_EP_2024.pdf",
+   "url": "https://www.vs.ch/documents/33324396/34772189/DCE%20grille%20horaire%20EP%202024.pdf/fad5ebd3-c0b3-87a3-d33c-5ca7e2a1811d",
+   "octets": 795060,
+   "sha256": "ee65af143c08ef095b8f988d07b4640882e962055fd4ef3cf78bdd5a8de25cf4"
+  },
+  {
+   "titre": "Grille horaire des classes d%27observation du CO",
+   "fichier": "pdf/Grille_horaire_des_classes_d%27observation_du_CO.pdf",
+   "url": "https://www.vs.ch/documents/33324396/34772269/Grille%20horaire%20des%20classes%20d%2527observation%20du%20CO.pdf/edcf81c5-f00e-5bad-906f-ce21693c5e24",
+   "octets": 627949,
+   "sha256": "a078bcfc1518650cf258aa0f8c2bc4664d37ceb2e3ca032c101dc7012ec07ace"
+  }
+ ]
+}

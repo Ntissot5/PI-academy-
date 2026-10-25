@@ -1,0 +1,13 @@
+{
+ "canton": "BE",
+ "telecharge_le": "2026-10-25",
+ "documents": [
+  {
+   "titre": "Dispositions générales complétant le Plan d'études romand (PER), 31 mai 2019, modifiées le 28 avril 2023",
+   "fichier": "pdf/dispositions_generales_PER_2023.pdf",
+   "url": "https://www.akvb-unterricht.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/fr/comeo/per/20230428-Dispositions-générales-complétant-le-PER-définitif.pdf",
+   "octets": 5845475,
+   "sha256": "15a4b83ad914a655c68b7d620c0081b045e953ad6abcf25798c4cc22b745f445"
+  }
+ ]
+}

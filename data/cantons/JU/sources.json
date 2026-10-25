@@ -1,0 +1,13 @@
+{
+ "canton": "JU",
+ "telecharge_le": "2026-10-25",
+ "documents": [
+  {
+   "titre": "Arrêté grilles horaires des écoles primaires et secondaires (01.08.2026)",
+   "fichier": "pdf/AR_grilles_horaires_EP_ES_260801.pdf",
+   "url": "https://www.jura.ch/Htdocs/Files/v/abbd4b6f6df1fa8c00f5ca88e18c9c5e0f3c87d292a31bbe22848963ab00a2ac.pdf/AR_grilles-horaires-des-EP-et-ES_260801.pdf?download=1",
+   "octets": 155929,
+   "sha256": "b563675b7d416a98322aa8f1d1b791a26ee4d70eca2915b116ba77115bbe64c8"
+  }
+ ]
+}
