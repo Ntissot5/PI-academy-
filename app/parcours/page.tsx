@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useApp } from "@/components/AppProvider";
@@ -24,9 +25,11 @@ export default function Catalogue() {
         const cl = await pb().collection("classes").getOne<{ parcours_assignes: string[] }>(user.classe);
         all = all.filter((p) => cl.parcours_assignes.includes(p.id));
       }
+      // Une seule porte d'entrée pour l'élève : on l'ouvre directement.
+      if (user?.role === "eleve" && all.length === 1) return router.replace(`/parcours/${all[0].slug}`);
       setList(all);
     }).catch(() => setList([]));
-  }, [ok, user]);
+  }, [ok, user, router]);
 
   if (!list) return <Loading />;
   return (
@@ -52,9 +55,13 @@ export default function Catalogue() {
             <span className="go">Ouvrir →</span>
           </button>
         ))}
-        {list.length === 0 && <p className="foot">Aucun parcours ouvert pour l’instant.</p>}
+        {list.length === 0 && <p className="foot">{user?.role === "eleve" ? "Ton prof n’a pas encore ouvert de parcours pour ta classe. Reviens un peu plus tard !" : "Aucun parcours ouvert pour l’instant."}</p>}
       </div>
-      <p className="foot"><button className="link" onClick={logout}>Se déconnecter</button></p>
+      <p className="foot">
+        {user?.role === "admin" && <><Link className="link" href="/admin">Admin : contenu des parcours</Link> · </>}
+        {user?.role === "prof" && <><Link className="link" href="/prof">Espace prof</Link> · </>}
+        <button className="link" onClick={logout}>Se déconnecter</button>
+      </p>
     </section>
   );
 }

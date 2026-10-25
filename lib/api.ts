@@ -101,3 +101,47 @@ export async function flushPending(): Promise<void> {
 
 export const newSerieId = () =>
   Array.from(crypto.getRandomValues(new Uint8Array(12)), (b) => (b % 36).toString(36)).join("");
+
+/* ---------- élèves ---------- */
+
+export interface EleveAuth { code: string; pseudo: string; pin: string }
+
+async function eleveAuth(path: string, body: EleveAuth) {
+  const r = await pb().send<{ token: string; record: Record<string, unknown> }>(path, { method: "POST", body });
+  pb().authStore.save(r.token, r.record as never);
+  return r.record;
+}
+export const eleveRejoindre = (b: EleveAuth) => eleveAuth("/api/pi/eleve/rejoindre", b);
+export const eleveConnexion = (b: EleveAuth) => eleveAuth("/api/pi/eleve/connexion", b);
+
+/* ---------- prof ---------- */
+
+export interface Classe { id: string; nom: string; code: string; parcours_assignes: string[]; prof: string }
+export interface BoardUnite { id: string; ordre: number; titre: string; id_generateur: string; icone: string }
+export interface BoardParcours { id: string; slug: string; titre: string; ordre: number; unites: BoardUnite[] }
+export interface BoardEleve {
+  id: string;
+  pseudo: string;
+  xp: number;
+  derniere_session: string;
+  nouveau: boolean;
+  bloque: boolean;
+  raisons: string[];
+  erreurs: number;
+  progression: Record<string, Progression & { boss_rates: number }>;
+}
+export interface Board { today: string; classe: Classe; parcours: BoardParcours[]; eleves: BoardEleve[] }
+export interface Erreur { id: string; unite: string; enonce: string; reponse_donnee: string; bonne_reponse: string; date: string; created: string }
+
+export const listClasses = (prof: string) =>
+  pb().collection("classes").getFullList<Classe>({ filter: pb().filter("prof = {:p}", { p: prof }), sort: "created" });
+export const createClasse = (prof: string, nom: string) =>
+  pb().collection("classes").create<Classe>({ prof, nom, parcours_assignes: [] });
+export const setParcoursAssignes = (id: string, ids: string[]) =>
+  pb().collection("classes").update<Classe>(id, { parcours_assignes: ids });
+export const getBoard = (id: string) => pb().send<Board>(`/api/pi/prof/classe/${id}`, {});
+export const lastErrors = (eleve: string) =>
+  pb().collection("erreurs").getList<Erreur>(1, 10, { filter: pb().filter("utilisateur = {:u}", { u: eleve }), sort: "-created" }).then((r) => r.items);
+export const resetPin = (eleve: string, pin: string) =>
+  pb().send(`/api/pi/prof/eleve/${eleve}/pin`, { method: "POST", body: { pin } });
+export const removeEleve = (eleve: string) => pb().collection("users").delete(eleve);
