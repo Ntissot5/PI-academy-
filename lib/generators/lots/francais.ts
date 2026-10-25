@@ -69,6 +69,7 @@ import { gen as fRecit } from "../f-recit";
 import { gen as fArgumenter } from "../f-argumenter";
 import { gen1 as fPoesie1, gen2 as fPoesie2 } from "../f-poesie";
 import { gen as fTheatre } from "../f-theatre";
+import { gen as fDocumentaire } from "../f-documentaire";
 
 /** Lot « francais » : tout le français du PER, cycles 1 à 3 (voir docs/COMPLETER-LE-PER.md). */
 export const LOT: Lot = {
@@ -157,4 +158,5 @@ export const LOT: Lot = {
   "f-poesie1": { gen: fPoesie1, label: "Français · poésie (vers, rimes)", icon: "star" },
   "f-poesie2": { gen: fPoesie2, label: "Français · poésie (sonorités)", icon: "star" },
   "f-theatre": { gen: fTheatre, label: "Français · théâtre", icon: "star" },
+  "f-documentaire": { gen: fDocumentaire, label: "Français · texte documentaire", icon: "report" },
 };
