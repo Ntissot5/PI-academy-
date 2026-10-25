@@ -11,7 +11,7 @@ const P: [string, "in" | "on" | "at", string][] = [
   ["The book is … the table.", "on", "sur une surface → on"], ["There's a picture … the wall.", "on", "sur une surface → on"],
   ["I'm … home.", "at", "at home (expression)"], ["Wait for me … the bus stop.", "at", "à un point précis → at"],
   ["Lausanne is … Switzerland.", "in", "pays, ville → in"], ["We are … the bus.", "on", "dans un bus, un train → on"],
-  ["The cat is … the box.", "in", "à l’intérieur → in"], ["See you … the weekend!", "at", "at the weekend (UK) ; on the weekend (US)"],
+  ["The cat is hiding … the box: I can't see it.", "in", "à l’intérieur → in"],
 ];
 
 /** Prépositions de temps et de lieu : in, on, at. */
@@ -21,8 +21,7 @@ export function gen(): Question {
     q: `in, on ou at ? <b>${phrase}</b>`,
     txt: 1,
     a,
-    accept: phrase.startsWith("See you") ? ["on"] : [],
-    choices: phrase.startsWith("See you") ? undefined : ["in", "on", "at"],
+    choices: ["in", "on", "at"],
     why: `${phrase.replace("…", a)} — ${raison}.`,
   };
 }

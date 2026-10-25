@@ -24,7 +24,7 @@ export function gen(): Question {
     q: `Traduis avec le génitif (’s) : <b>${fr}</b>`,
     txt: 1,
     a,
-    accept: alt,
+    accept: [...alt, ...[a, ...alt].filter((x) => x.startsWith("the ")).map((x) => x.slice(4))],
     hint: "possesseur + 's (ou ' après un pluriel en -s) + objet",
     why: `${fr} = ${a} — ${regle}.`,
   };
