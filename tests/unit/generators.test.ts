@@ -40,6 +40,7 @@ describe("générateurs", () => {
           expect(q.choices, ctx).toContain(q.a);
           expect(new Set(q.choices).size, `${ctx} · propositions en double`).toBe(q.choices.length);
           expect(q.choices.length, ctx).toBeGreaterThanOrEqual(2);
+          for (const c of q.choices) expect(grade(c, q), `${ctx} · proposition « ${c} »`).toBe(c === q.a ? "ok" : "ko");
         }
         // ce que l'élève verrait comme « Réponse : … » doit être accepté
         expect(grade(answerText(q), q), `${ctx} · saisie « ${answerText(q)} »`).toBe("ok");

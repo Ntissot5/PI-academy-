@@ -34,7 +34,8 @@ for (const a of programme.annees) {
   for (const d of a.disciplines) {
     for (const o of d.objectifs) {
       const groupes = new Map();
-      for (const x of o.notions) groupes.set(x.notion, (groupes.get(x.notion) ?? 0) + 1);
+      // Objectif sans intitulé de notion dans le tableau officiel : "" (comme dans les rattachements).
+      for (const x of o.notions) { const nn = x.notion === "INTROUVABLE" ? "" : x.notion; groupes.set(nn, (groupes.get(nn) ?? 0) + 1); }
       for (const [notion, nb] of groupes) {
         const t = ((tableau[d.discipline] ??= {})[n] ??= { total: 0, couvert: 0, classe: 0 });
         t.total++;

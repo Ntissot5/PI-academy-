@@ -19,8 +19,8 @@ function infinitif(): Question {
 
 /* Sujets : [sujet, personne]. */
 const SUJETS: readonly (readonly [string, 2 | 5])[] = [
-  ["Le chat", 2], ["Ma sœur", 2], ["Noé", 2], ["La maîtresse", 2], ["Mon copain", 2],
-  ["Les enfants", 5], ["Mes parents", 5], ["Les oiseaux", 5], ["Les filles", 5], ["Tes amis", 5],
+  ["Le clown", 2], ["Ma sœur", 2], ["Noé", 2], ["La maîtresse", 2], ["Mon copain", 2],
+  ["Les enfants", 5], ["Mes parents", 5], ["Les jumeaux", 5], ["Les filles", 5], ["Tes amis", 5],
 ];
 const SUITE: Record<string, string> = {
   chanter: "une chanson", jouer: "dans la cour", danser: "le samedi", parler: "fort", marcher: "vite", regarder: "les nuages",

@@ -29,12 +29,12 @@ function type(): Question {
 function ponctuation(): Question {
   const k = pick([0, 0, 1, 1, 2]);
   const p = pick([DECL, INTER, EXCL][k]);
-  const signe = [".", "?", "!"][k];
+  const SIGNES = ["le point (.)", "le point d’interrogation (?)", "le point d’exclamation (!)"];
   const sans = p.replace(/\s?[.?!]$/, "");
   return qcmFixe(
     `Quel signe faut-il mettre à la fin de cette phrase ? <b>${sans} …</b>`,
-    signe,
-    [".", "?", "!"],
+    SIGNES[k],
+    SIGNES,
     [
       "La phrase donne une information : elle se termine par un point.",
       "La phrase pose une question : elle se termine par un point d’interrogation.",

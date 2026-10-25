@@ -2,11 +2,28 @@
 
 Pi Academy est prévu pour se compléter petit à petit. La liste des notions à faire en priorité est dans `docs/COUVERTURE-PER.md` ; chaque notion sans exercice apparaît dans l’app comme leçon « Bientôt ».
 
+## Où sont les exercices
+
+Les exercices sont rangés par lot, un fichier par lot (on peut travailler sur plusieurs lots en même temps sans conflit) :
+
+| Lot | Générateurs | Rattachements PER | Leçons |
+|---|---|---|---|
+| maths1 (1re-4e), maths2 (5e-8e), maths3 (9e-11e) | `lib/generators/m1-*`, `m2-*`, `m3-*` | `lib/per-generateurs/<lot>.json` | `pocketbase/seed/lecons/<lot>.json` |
+| francais | `lib/generators/f-*` | idem | idem |
+| sciences-shs | `lib/generators/sn-*`, `shs-*` | idem | idem |
+| langues | `lib/generators/l2-*`, `l3-*` | idem | idem |
+
+Chaque lot est déclaré dans `lib/generators/lots/<lot>.ts`. Les premiers exercices (maths du prototype, fr-*, de-*, en-*…) restent dans `lib/generators/index.ts`, `lib/per-generateurs.json` et `pocketbase/seed/lecons.json`.
+
+Les notions qu’on ne peut pas corriger automatiquement (rédaction, oral, lecture de livres, expériences, objectifs « qui ne sont pas travaillés pour eux-mêmes ») sont listées dans `en_classe` avec une raison : l’app les affiche « En classe ».
+
+Pour voir l’état d’un périmètre : `node scripts/per-scope.mjs --discipline Français --annees 9-11 --afaire`. Pour tester un lot : `LOT=francais npx vitest run tests/unit/lots.test.ts`.
+
 ## Ajouter des exercices pour une notion « Bientôt »
 
-1. **Le générateur** : un fichier `lib/generators/<id>.ts` qui renvoie une question (voir les autres, par ex. `litt-valeur.ts`). L’ajouter dans `lib/generators/index.ts` (`GENERATORS`, `GENERATOR_LABEL`, `DEFAULT_ICON`).
-2. **Le rattachement PER** : une entrée dans `lib/per-generateurs.json`, avec pour chaque lien le code, la notion et la plage **exactement** comme dans `data/per/PER_<discipline>_cycle<n>.json`, et un extrait du texte officiel (`cherche`).
-3. **La leçon** (règle, exemple, image, piège) : dans `pocketbase/seed/lecons.json`.
+1. **Le générateur** : un fichier `lib/generators/<id>.ts` qui renvoie une question (voir les autres, par ex. `litt-valeur.ts`). L’ajouter dans le lot qui convient, `lib/generators/lots/<lot>.ts`.
+2. **Le rattachement PER** : une entrée dans `lib/per-generateurs/<lot>.json`, avec pour chaque lien le code, la notion et la plage **exactement** comme dans `data/per/PER_<discipline>_cycle<n>.json`, et un extrait du texte officiel (`cherche`).
+3. **La leçon** (règle, exemple, image, piège) : dans `pocketbase/seed/lecons/<lot>.json`.
 4. Lancer :
    ```bash
    node scripts/build-per-content.mjs     # vérifie le rattachement, place l'exercice dans les parcours par année

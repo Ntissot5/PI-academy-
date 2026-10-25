@@ -132,8 +132,10 @@ for (const a of programme.annees) {
     for (const o of d.objectifs) {
       const groupes = [];
       for (const x of o.notions) {
-        let g = groupes.find((y) => y.notion === x.notion);
-        if (!g) groupes.push((g = { notion: x.notion, cles: [] }));
+        // Objectif sans intitulé de notion dans le tableau officiel : "" (comme dans les rattachements).
+        const nn = x.notion === "INTROUVABLE" ? "" : x.notion;
+        let g = groupes.find((y) => y.notion === nn);
+        if (!g) groupes.push((g = { notion: nn, cles: [] }));
         g.cles.push(x.cle);
       }
       for (const g of groupes) {

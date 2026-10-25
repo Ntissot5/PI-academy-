@@ -5,7 +5,7 @@ import { qcm, tirer } from "./f-outils";
 import type { Question } from "./types";
 
 const SUJETS: readonly (readonly [string, Personne])[] = [
-  ["Ma sœur", 2], ["Le voisin", 2], ["Lina", 2], ["Mon équipe", 2], ["Mes cousins", 5], ["Les élèves", 5], ["Les enfants", 5],
+  ["Ma sœur", 2], ["Le voisin", 2], ["Lina", 2], ["Mon cousin", 2], ["Mes cousins", 5], ["Les élèves", 5], ["Les enfants", 5],
   ["Tu", 1], ["Nous", 3], ["Vous", 4], ["Mes amies", 5], ["Le facteur", 2],
 ];
 const COMP: Record<string, string> = {

@@ -30,17 +30,23 @@ test("PER : parcours par année, Bientôt, texte officiel, filtres prof", async 
   // le tableau de maîtrise montre les codes PER ; les notions « Bientôt » n'ont pas de colonne
   await expect(page.locator(".board th .per-code").first()).toContainText("MSN");
   await page.getByLabel("Code PER").selectOption("MSN 34");
-  await expect(page.locator(".board thead th[title]")).toHaveCount(3); // geo, iso, examen final
+  // seules les unités MSN 34 (et l'examen final, mixte) gardent une colonne
+  const cols = page.locator(".board thead th[title] .per-code");
+  await expect(cols.first()).toBeVisible();
+  for (const t of await cols.allTextContents()) expect(t === "mixte" || t.includes("MSN 34"), t).toBe(true);
   await page.getByLabel("Code PER").selectOption("");
 
-  // parcours Maths 10e : notions du PER, celles sans exercice sont « Bientôt »
+  // Français 10e : les notions de rédaction et d'oral sont « En classe », visibles mais fermées
+  await page.goto("/parcours/francais-10e");
+  await expect(page.locator(".unit.soon").first()).toContainText("En classe");
+  await page.locator(".unit.soon").first().click({ force: true });
+  await expect(page.locator(".toast")).toContainText("en classe");
+  // Maths 10e : toutes les notions ont leurs exercices
   await page.goto("/parcours/mathematiques-10e");
   await expect(page.locator(".hero h1")).toContainText("programme officiel de 10e");
-  await expect(page.locator(".unit.soon").first()).toContainText("Bientôt");
-  await page.locator(".unit.soon").first().click({ force: true });
-  await expect(page.locator(".toast")).toContainText("arrive bientôt");
+  await expect(page.locator(".unit.soon")).toHaveCount(0);
   await page.click("#cont");
-  await expect(page.locator(".per-line")).toContainText("MSN 32");
+  await expect(page.locator(".per-line")).toContainText(/MSN 3\d/);
   // texte officiel pour le prof, et répartition genevoise
   await page.locator(".per-off summary").click();
   await expect(page.locator(".per-off")).toContainText("Répartition du canton : Genève");

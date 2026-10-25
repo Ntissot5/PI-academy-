@@ -1,5 +1,5 @@
 import { pick } from "../math";
-import { gras, melange, qcm, qcmFixe, tirer, vise } from "./f-outils";
+import { gras, qcm, qcmFixe, tirer, vise } from "./f-outils";
 import type { Question } from "./types";
 
 /* [phrase avec *nom*, propre ?]. */
@@ -23,44 +23,44 @@ function propreCommun(): Question {
   );
 }
 
-/* [phrase correcte, phrases fausses, règle]. */
-const BIEN: readonly (readonly [string, readonly string[], string])[] = [
-  ["Mon chat s’appelle Filou.", ["mon chat s’appelle Filou.", "Mon chat s’appelle filou.", "Mon Chat s’appelle Filou."], "Majuscule au début de la phrase et au nom propre « Filou »."],
-  ["Léa habite à Morges.", ["léa habite à Morges.", "Léa habite à morges.", "Léa Habite à Morges."], "Majuscule aux noms propres « Léa » et « Morges », pas au verbe."],
-  ["Nous partons lundi pour Lugano.", ["Nous partons Lundi pour Lugano.", "Nous partons lundi pour lugano.", "nous partons lundi pour Lugano."], "Les jours de la semaine s’écrivent sans majuscule ; « Lugano » est un nom propre."],
-  ["En juillet, Sami visite Berne.", ["En Juillet, Sami visite Berne.", "En juillet, sami visite Berne.", "en juillet, Sami visite Berne."], "Les mois s’écrivent sans majuscule ; « Sami » et « Berne » sont des noms propres."],
-  ["Mon amie Inès parle allemand.", ["Mon amie Inès parle Allemand.", "Mon amie inès parle allemand.", "mon amie Inès parle allemand."], "Le nom d’une langue s’écrit sans majuscule."],
-  ["Un Italien parle italien.", ["Un italien parle italien.", "Un Italien parle Italien.", "un Italien parle italien."], "L’habitant (un Italien) prend une majuscule ; la langue (l’italien) n’en prend pas."],
-  ["Les Valaisans aiment la raclette.", ["Les valaisans aiment la raclette.", "les Valaisans aiment la raclette.", "Les Valaisans aiment la Raclette."], "Les habitants d’un lieu prennent une majuscule : les Valaisans."],
-  ["Le Rhône se jette dans le lac Léman.", ["Le rhône se jette dans le lac Léman.", "Le Rhône se jette dans le Lac léman.", "le Rhône se jette dans le lac Léman."], "Dans « le lac Léman », seul le nom propre « Léman » prend une majuscule."],
-  ["Les Genevois fêtent l’Escalade en décembre.", ["Les genevois fêtent l’Escalade en décembre.", "Les Genevois fêtent l’escalade en Décembre.", "les Genevois fêtent l’Escalade en décembre."], "Habitants et nom de fête : majuscule ; mois : minuscule."],
+/* Phrase où un seul mot doit prendre une majuscule (hors début de phrase) : [phrase, mot, pièges, règle].
+   La correction ne tient pas compte des majuscules : on fait donc choisir le mot, pas une écriture. */
+const QUEL: readonly (readonly [string, string, readonly string[], string])[] = [
+  ["Nous partons lundi pour lugano.", "lugano", ["lundi", "partons"], "« Lugano » est un nom de ville : nom propre, majuscule. Les jours de la semaine s’écrivent sans majuscule."],
+  ["En juillet, sami visite le musée.", "sami", ["juillet", "musée"], "« Sami » est un prénom : majuscule. Les mois s’écrivent sans majuscule."],
+  ["Mon amie inès parle allemand.", "inès", ["allemand", "amie"], "« Inès » est un prénom. Le nom d’une langue (l’allemand) s’écrit sans majuscule."],
+  ["Les valaisans aiment la raclette.", "valaisans", ["raclette", "aiment"], "Les habitants d’un lieu prennent une majuscule : les Valaisans."],
+  ["Le bateau traverse le lac léman.", "léman", ["lac", "bateau"], "Dans « le lac Léman », seul le nom propre « Léman » prend une majuscule."],
+  ["Mon chat s’appelle filou.", "filou", ["chat", "appelle"], "Le nom d’un animal précis est un nom propre : Filou."],
+  ["Mes cousins habitent à delémont.", "delémont", ["cousins", "habitent"], "« Delémont » est un nom de ville : majuscule."],
+  ["Le matin, les genevois prennent le tram.", "genevois", ["matin", "tram"], "Les habitants d’une ville prennent une majuscule : les Genevois."],
+  ["Chaque été, nous montons au sommet du moléson.", "moléson", ["été", "sommet"], "« Moléson » est le nom d’une montagne : nom propre."],
+  ["Ma grand-mère parle italien avec les italiens du quartier.", "italiens", ["italien", "quartier"], "Les habitants (les Italiens) prennent une majuscule ; la langue (l’italien) n’en prend pas."],
 ];
 
-function bienEcrite(): Question {
-  const [a, faux, regle] = pick(BIEN);
-  return qcm("Quelle phrase est bien écrite ?", a, faux, regle);
+function quelMot(): Question {
+  const [p, a, faux, regle] = pick(QUEL);
+  return qcm(`Dans cette phrase, quel mot doit commencer par une majuscule ? <b>${p}</b>`, a, faux, regle, undefined, 3);
 }
 
-/* Majuscule ou minuscule après un signe de ponctuation : [avant, mot, maj ?, explication]. */
-const APRES: readonly (readonly [string, string, boolean, string])[] = [
-  ["Il pleuvait.", "nous", true, "Après un point, une nouvelle phrase commence : majuscule."],
-  ["Il pleuvait,", "nous", false, "Après une virgule, la phrase continue : minuscule."],
-  ["Où vas-tu ?", "je", true, "Après un point d’interrogation qui termine la phrase, majuscule."],
-  ["Quelle surprise !", "tu", true, "Après un point d’exclamation qui termine la phrase, majuscule."],
-  ["J’ai acheté trois fruits :", "une", false, "Après les deux-points, la phrase continue : minuscule."],
-  ["Le soleil brillait ;", "les", false, "Après un point-virgule, la phrase continue : minuscule."],
-  ["Il a dit : «", "je", true, "Les paroles rapportées entre guillemets commencent par une majuscule."],
-  ["Il est tard,", "dit", false, "Après une virgule, minuscule."],
-  ["Le bus est parti.", "tant", true, "Après un point, majuscule."],
+/* Majuscule ou minuscule après un signe de ponctuation : [avant, majuscule ?, explication]. */
+const APRES: readonly (readonly [string, boolean, string])[] = [
+  ["Il pleuvait.", true, "Après un point, une nouvelle phrase commence : majuscule."],
+  ["Il pleuvait,", false, "Après une virgule, la phrase continue : minuscule."],
+  ["Où vas-tu ?", true, "Après un point d’interrogation qui termine la phrase, majuscule."],
+  ["Quelle surprise !", true, "Après un point d’exclamation qui termine la phrase, majuscule."],
+  ["J’ai acheté trois fruits :", false, "Après les deux-points, la phrase continue : minuscule."],
+  ["Le soleil brillait ;", false, "Après un point-virgule, la phrase continue : minuscule."],
+  ["Il a dit : «", true, "Les paroles rapportées entre guillemets commencent par une majuscule."],
+  ["Il est tard, dit Paul,", false, "Après une virgule, minuscule."],
 ];
 
 function apresPonctuation(): Question {
-  const [avant, mot, m, why] = pick(APRES);
-  const Maj = mot[0].toUpperCase() + mot.slice(1);
-  return qcmFixe(`Quel mot faut-il écrire après le signe ? <b>${avant} …</b>`, m ? Maj : mot, melange([mot, Maj]), why);
+  const [avant, m, why] = pick(APRES);
+  return qcmFixe(`Après ce signe, le mot suivant commence-t-il par une majuscule ou une minuscule ? <b>${avant} …</b>`, m ? "par une majuscule" : "par une minuscule", ["par une majuscule", "par une minuscule"], why);
 }
 
 /** Majuscules : noms propres et noms communs, début de phrase, après la ponctuation. */
 export function gen(): Question {
-  return tirer([propreCommun, propreCommun, bienEcrite, bienEcrite, apresPonctuation]);
+  return tirer([propreCommun, propreCommun, quelMot, quelMot, apresPonctuation]);
 }
