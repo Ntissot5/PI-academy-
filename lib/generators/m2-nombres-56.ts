@@ -1,5 +1,5 @@
 import { R, pick } from "../math";
-import { Rsans8, enLettres, nb, qcm, romain, sansHuitante } from "./m2-outils";
+import { Rsans8, enLettres, nb, qcm, romain, romainDetail, sansHuitante } from "./m2-outils";
 import type { Question } from "./types";
 
 const RANGS = ["unités", "dizaines", "centaines", "milliers"];
@@ -68,7 +68,7 @@ export function gen(): Question {
     const n = R(1001, 9899), i = R(1, 3), k = R(0, 1);
     if (n % VAL[i] === 0) return { q: `Quel nombre vient juste après ${nb(n)} ?`, txt: 1, a: n + 1, why: `${nb(n)} + 1 = ${nb(n + 1)}.` };
     const bas = Math.floor(n / VAL[i]) * VAL[i], r = k ? bas + VAL[i] : bas; 
-    return { q: `Quel est ${i === 3 ? "le millier" : i === 2 ? "la centaine" : "la dizaine"} juste ${k ? "après" : "avant"} ${nb(n)} ?`, txt: 1, a: r, hint: `Un nombre « rond » : ${nb(VAL[i])}, ${nb(2 * VAL[i])}, …`, why: `${nb(bas)} < ${nb(n)} < ${nb(bas + VAL[i])} : la réponse est ${nb(r)}.` };
+    return { q: `${i === 3 ? "Quel est le millier" : i === 2 ? "Quelle est la centaine" : "Quelle est la dizaine"} juste ${k ? "après" : "avant"} ${nb(n)} ?`, txt: 1, a: r, hint: `Un nombre « rond » : ${nb(VAL[i])}, ${nb(2 * VAL[i])}, …`, why: `${nb(bas)} < ${nb(n)} < ${nb(bas + VAL[i])} : la réponse est ${nb(r)}.` };
   }
   if (t === 9) {
     const i = R(0, 3), plus = Math.random() < 0.5;
@@ -82,6 +82,6 @@ export function gen(): Question {
   }
   // chiffres romains
   const n = R(1, 100), lire = Math.random() < 0.6, rm = romain(n);
-  if (lire) return { q: `Les Romains écrivaient les nombres avec des lettres : I = 1, V = 5, X = 10, L = 50, C = 100. Que vaut <b>${rm}</b> ?`, txt: 1, a: n, hint: "Une lettre placée avant une plus grande se soustrait (IV = 4)", why: `${rm} = ${n}.` };
-  return { q: `Écris ${n} en chiffres romains (I = 1, V = 5, X = 10, L = 50, C = 100).`, txt: 1, a: rm, keys: ["I", "V", "X", "L", "C"], hint: "On ne met jamais plus de 3 fois la même lettre de suite", why: `${n} = ${rm}.` };
+  if (lire) return { q: `Les Romains écrivaient les nombres avec des lettres : I = 1, V = 5, X = 10, L = 50, C = 100. Que vaut <b>${rm}</b> ?`, txt: 1, a: n, hint: "Une lettre placée avant une plus grande se soustrait (IV = 4)", why: `${rm} = ${romainDetail(n)} = ${n}.` };
+  return { q: `Écris ${n} en chiffres romains (I = 1, V = 5, X = 10, L = 50, C = 100).`, txt: 1, a: rm, keys: ["I", "V", "X", "L", "C"], hint: "On ne met jamais plus de 3 fois la même lettre de suite", why: `${n} = ${romainDetail(n)}, donc ${rm}.` };
 }

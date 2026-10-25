@@ -1,5 +1,5 @@
 import { R, pick } from "../math";
-import { Rsans8, VILLES, sansHuitante, arr, enLettres, nb, qcm, repDec, romain } from "./m2-outils";
+import { Rsans8, VILLES, sansHuitante, arr, enLettres, nb, qcm, repDec, romain, romainDetail } from "./m2-outils";
 import type { Question } from "./types";
 
 const DEC = ["dixièmes", "centièmes", "millièmes"];
@@ -113,5 +113,5 @@ export function gen(): Question {
     return { q: `Écris ${nb(b ** e)} comme une puissance de ${b} : ${b}<sup>?</sup>. Quel est l’exposant ?`, txt: 1, a: e, why: `${nb(b ** e)} = ${Array(e).fill(b).join(" × ")} = ${b}<sup>${e}</sup>.` };
   }
   const n = R(100, 2100), rm = romain(n);
-  return { q: `En chiffres romains, I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000. Que vaut <b>${rm}</b> ?`, txt: 1, a: n, hint: "Une lettre placée avant une plus grande se soustrait (CM = 900)", why: `${rm} = ${n}.` };
+  return { q: `En chiffres romains, I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000. Que vaut <b>${rm}</b> ?`, txt: 1, a: n, hint: "Une lettre placée avant une plus grande se soustrait (CM = 900)", why: `${rm} = ${romainDetail(n)} = ${n}.` };
 }

@@ -28,7 +28,7 @@ export function gen(): Question {
       const a = R(102, 999), b = R(2, 9);
       return { q: `Calcule en colonnes : ${a} × ${b}`, a: a * b, hint: "Commence par les unités", why: `${a} × ${b} = ${nb(a * b)}.` };
     }
-    const a = R(12, 99), b = R(11, 99);
+    const a = R(12, 99), b = R(1, 9) * 10 + R(1, 9);
     return { q: `Calcule en colonnes : ${a} × ${b}`, a: a * b, hint: `${a} × ${b % 10} puis ${a} × ${b - (b % 10)}`, why: `${a} × ${b % 10} = ${a * (b % 10)} et ${a} × ${b - (b % 10)} = ${a * (b - (b % 10))} ; ${a * (b % 10)} + ${a * (b - (b % 10))} = ${nb(a * b)}.` };
   }
   if (t === 5) {
@@ -61,7 +61,9 @@ export function gen(): Question {
     const ch = [r, r * 10, r / 10, r + (k ? 10 * b : 100)].map(nb);
     return { q: `Sans calculer exactement : quel nombre est le plus proche de <b>${a} ${op} ${b}</b> ?`, txt: 1, a: nb(r), choices: qcm(nb(r), ch), hint: "Arrondis d’abord", why: `${a} ≈ ${Math.round(a / (k ? 10 : 100)) * (k ? 10 : 100)}${k ? `, et ${Math.round(a / 10) * 10} × ${b} = ${nb(r)}` : ` et ${b} ≈ ${Math.round(b / 100) * 100}`} : environ ${nb(r)} (exactement ${nb(k ? a * b : a + b)}).` };
   }
-  const a = R(3, 9), b = R(3, 9);
+  const a = R(3, 9);
+  let b: number;
+  do b = R(3, 9); while (b === a);
   const it = pick([
     [`Quel calcul donne le même résultat que ${a} × ${b} ?`, `${b} × ${a}`, [`${a} + ${b}`, `${a} × ${b + 1}`, `${a}${b}`], "On peut échanger les facteurs d’une multiplication : c’est la commutativité."],
     [`Quel calcul donne le même résultat que ${a * 10} + ${b} ?`, `${b} + ${a * 10}`, [`${a * 10} − ${b}`, `${b} × ${a * 10}`, `${b} − ${a * 10}`], "On peut échanger les termes d’une addition, pas ceux d’une soustraction."],

@@ -1,5 +1,5 @@
 import { R, pick } from "../math";
-import { PRENOMS, VILLES, arr, nb, nbFixe, qcm } from "./m2-outils";
+import { PRENOMS, VILLES, arr, autresValeurs, nb, nbFixe, qcm } from "./m2-outils";
 import type { Question } from "./types";
 
 /** Problèmes (7e-8e) : plusieurs étapes, division et reste, transformations successives, proportionnalité, tableaux et graphiques. */
@@ -51,7 +51,7 @@ export function gen(): Question {
       [`Tu as ${a * 10} CHF. Tu achètes un livre à ${b} CHF et un jeu à ${c + 10} CHF. Quel calcul donne ce qu’il te reste ?`, `${a * 10} − (${b} + ${c + 10})`, [`${a * 10} − ${b} + ${c + 10}`, `(${a * 10} − ${b}) + ${c + 10}`, `${a * 10} + ${b} − ${c + 10}`], `On enlève la dépense totale : ${a * 10} − (${b} + ${c + 10}).`],
       [`${a * b} bonbons sont partagés entre ${a} enfants, puis chaque enfant en mange ${Math.min(c, b)}. Quel calcul donne ce qui reste à chaque enfant ?`, `${a * b} : ${a} − ${Math.min(c, b)}`, [`${a * b} : (${a} − ${Math.min(c, b)})`, `${a * b} − ${a} : ${Math.min(c, b)}`, `(${a * b} − ${a}) : ${Math.min(c, b)}`], `D’abord le partage ${a * b} : ${a} = ${b}, puis ${b} − ${Math.min(c, b)} = ${b - Math.min(c, b)} (la division se fait avant la soustraction).`],
     ] as [string, string, string[], string][]);
-    return { q: it[0], txt: 1, a: it[1], choices: qcm(it[1], it[2]), why: it[3] };
+    return { q: it[0], txt: 1, a: it[1], choices: qcm(it[1], autresValeurs(it[1], it[2])), why: it[3] };
   }
   const v = Array.from({ length: 4 }, () => R(3, 12) * 10), mois = ["mars", "avril", "mai", "juin"];
   const k = R(0, 1), tab = mois.map((m, i) => `${m} : ${v[i]} mm`).join(" · ");

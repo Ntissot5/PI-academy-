@@ -41,7 +41,7 @@ export function gen(): Question {
       () => { const m = R(2, 8), k = pick([2, 3]); return [`Le ${k === 2 ? "double" : "triple"} de ${m},5 m, en cm`, k * (m * 100 + 50), `${m},5 m = ${m * 100 + 50} cm ; × ${k} = ${k * (m * 100 + 50)} cm.`] as const; },
     ]);
     const [q, a, w] = it();
-    return { q: `Calcule : ${q}.`, txt: 1, a, why: w };
+    return { q: `Calcule ${q[0].toLowerCase() + q.slice(1)}.`, txt: 1, a, why: w };
   }
   if (t === 4) {
     const it = pick([
@@ -54,7 +54,7 @@ export function gen(): Question {
     return { q: `Calcule ${q}.`, txt: 1, a, why: w };
   }
   if (t === 5) {
-    const g = [R(1, 1) * 1000 + R(1, 30) * 10, R(900, 999), 1000 + R(31, 60) * 10, R(1, 9) * 100 + 1000];
+    const g = [1000 + R(1, 30) * 10, R(850, 1150), 1000 + R(31, 60) * 10, R(1, 9) * 100 + 1000];
     const u = [...new Set(g)];
     const lab = u.map((v, i) => (i === 0 ? `${nb(v / 1000)} kg` : i === 1 ? `${v} g` : i === 2 ? `1 kg ${v - 1000} g` : `${nb(v)} g`));
     const grand = Math.random() < 0.5, ix = u.indexOf(grand ? Math.max(...u) : Math.min(...u));
@@ -72,7 +72,7 @@ export function gen(): Question {
   }
   const it = pick([
     () => { const v = R(2, 9); return [`Un aquarium contient ${v} dm<sup>3</sup> d’eau. Combien de litres ?`, v, `1 dm<sup>3</sup> = 1 litre : ${v} litres.`] as const; },
-    () => { const v = R(2, 20) * 250; return [`Une bouteille contient ${nb(v)} cm<sup>3</sup>. Combien de litres ?`, arr(v / 1000), `1 litre = 1 dm<sup>3</sup> = 1000 cm<sup>3</sup> : ${nb(v)} : 1000 = ${nb(arr(v / 1000))} litre(s).`] as const; },
+    () => { const v = R(2, 20) * 250; return [`Une bouteille contient ${nb(v)} cm<sup>3</sup>. Combien de litres ?`, arr(v / 1000), `1 litre = 1 dm<sup>3</sup> = 1000 cm<sup>3</sup> : ${nb(v)} : 1000 = ${nb(arr(v / 1000))} litre${v >= 2000 ? "s" : ""}.`] as const; },
     () => { const v = R(2, 9) * 10; return [`Le train part à 8 h 47 et le trajet dure ${v} min. Combien de minutes après 9 h arrive-t-il ?`, 47 + v - 60, `8 h 47 + 13 min = 9 h 00 ; il reste ${v - 13} min : ${v - 13}.`] as const; },
   ]);
   const [q, a, w] = it();

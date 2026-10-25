@@ -22,7 +22,7 @@ export function gen(): Question {
   }
   if (t === 3) {
     const L = R(4, 12) * 10, l = R(2, 8) * 5, n = R(2, 5), p = pick(PRENOMS);
-    return { q: `${p} fait ${n} fois le tour d’un terrain rectangulaire de ${L} m sur ${l} m. Quelle distance parcourt-il ou elle, en m ?`, txt: 1, a: n * 2 * (L + l), hint: "Un tour = le périmètre", why: `Un tour : 2 × (${L} + ${l}) = ${2 * (L + l)} m ; ${n} tours : ${nb(n * 2 * (L + l))} m.` };
+    return { q: `${p} fait ${n} fois le tour d’un terrain rectangulaire de ${L} m sur ${l} m. Quelle distance parcourt ${p} en tout, en m ?`, txt: 1, a: n * 2 * (L + l), hint: "Un tour = le périmètre", why: `Un tour : 2 × (${L} + ${l}) = ${2 * (L + l)} m ; ${n} tours : ${nb(n * 2 * (L + l))} m.` };
   }
   if (t === 4) {
     const L = R(3, 15), l = R(2, 12);

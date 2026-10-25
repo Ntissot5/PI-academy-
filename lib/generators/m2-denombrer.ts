@@ -20,7 +20,7 @@ export function gen(): Question {
     const n = R(1100, 9999), k = R(0, 1);
     if (k === 0) return { q: `Tu dois préparer ${nb(n)} feuilles avec des paquets de 100 et des feuilles seules. Combien de paquets de 100 au maximum peux-tu utiliser ?`, txt: 1, a: Math.floor(n / 100), hint: "Combien de centaines dans ce nombre ?", why: `${nb(n)} contient ${Math.floor(n / 100)} centaines entières ; il reste ${n % 100} feuilles seules.` };
     const c = Math.floor(n / 100);
-    return { q: `${pick(PRENOMS)} veut une collection de ${nb(n)} timbres. Elle ou il a déjà ${c} carnets de 100 timbres. Combien de timbres manque-t-il ?`, txt: 1, a: n - c * 100, why: `${c} carnets = ${nb(c * 100)} timbres ; ${nb(n)} − ${nb(c * 100)} = ${n - c * 100}.` };
+    return { q: `${pick(PRENOMS)} veut une collection de ${nb(n)} timbres et possède déjà ${c} carnets de 100 timbres. Combien de timbres lui manque-t-il ?`, txt: 1, a: n - c * 100, why: `${c} carnets = ${nb(c * 100)} timbres ; ${nb(n)} − ${nb(c * 100)} = ${n - c * 100}.` };
   }
   if (t === 2) {
     const pas = pick([1, 10, 100, 1000]), rec = Math.random() < 0.4, k = R(3, 6);

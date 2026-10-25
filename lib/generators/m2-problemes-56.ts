@@ -1,5 +1,5 @@
 import { R, pick } from "../math";
-import { PRENOMS, VILLES, arr, nb, nbFixe, qcm } from "./m2-outils";
+import { PRENOMS, VILLES, arr, autresValeurs, nb, nbFixe, qcm } from "./m2-outils";
 import type { Question } from "./types";
 
 const deux = (): [string, string] => {
@@ -20,21 +20,21 @@ export function gen(): Question {
   }
   if (t === 1) {
     const ini = R(20, 90), tr = R(8, 60), k = R(0, 3);
-    if (k === 0) return { q: `${p1} avait ${ini + tr} CHF dans sa tirelire. Elle ou il dépense ${tr} CHF. Combien lui reste-t-il ?`, txt: 1, a: ini, why: `L’état final : ${ini + tr} − ${tr} = ${ini} CHF.` };
-    if (k === 1) return { q: `${p1} avait ${ini} billes. Après la récréation, elle ou il en a ${ini + tr}. Combien en a-t-il ou elle gagné ?`, txt: 1, a: tr, hint: "On cherche ce qui a changé", why: `La transformation : ${ini + tr} − ${ini} = ${tr} billes gagnées.` };
-    if (k === 2) return { q: `${p1} a gagné ${tr} billes à la récréation. Maintenant, elle ou il en a ${ini + tr}. Combien en avait-il ou elle avant ?`, txt: 1, a: ini, hint: "Remonte le temps : il faut enlever ce qui a été gagné", why: `On fait l’inverse : ${ini + tr} − ${tr} = ${ini}. Vérification : ${ini} + ${tr} = ${ini + tr}.` };
+    if (k === 0) return { q: `${p1} avait ${ini + tr} CHF dans sa tirelire et dépense ${tr} CHF. Combien lui reste-t-il ?`, txt: 1, a: ini, why: `L’état final : ${ini + tr} − ${tr} = ${ini} CHF.` };
+    if (k === 1) return { q: `Le sac de ${p1} contenait ${ini} billes avant la récréation et en contient ${ini + tr} après. Combien de billes ont été gagnées ?`, txt: 1, a: tr, hint: "On cherche ce qui a changé", why: `La transformation : ${ini + tr} − ${ini} = ${tr} billes gagnées.` };
+    if (k === 2) return { q: `À la récréation, ${p1} gagne ${tr} billes. Son sac en contient maintenant ${ini + tr}. Combien de billes contenait-il avant ?`, txt: 1, a: ini, hint: "Remonte le temps : il faut enlever ce qui a été gagné", why: `On fait l’inverse : ${ini + tr} − ${tr} = ${ini}. Vérification : ${ini} + ${tr} = ${ini + tr}.` };
     return { q: `Un bus part de ${pick(VILLES)} avec ${ini + tr} passagers. À un arrêt, ${tr} personnes descendent et ${Math.min(tr, 9)} montent. Combien y a-t-il de passagers maintenant ?`, txt: 1, a: ini + Math.min(tr, 9), why: `${ini + tr} − ${tr} + ${Math.min(tr, 9)} = ${ini + Math.min(tr, 9)}.` };
   }
   if (t === 2) {
     const a = R(15, 80), d = R(5, 40), k = R(0, 2);
-    if (k === 0) return { q: `${p1} a ${a} cartes. ${p2} en a ${d} de plus. Combien ${p2} a-t-il ou elle de cartes ?`, txt: 1, a: a + d, why: `« ${d} de plus » : ${a} + ${d} = ${a + d}.` };
-    if (k === 1) return { q: `${p1} a ${a + d} cartes. ${p2} en a ${d} de moins. Combien ${p2} a-t-il ou elle de cartes ?`, txt: 1, a, why: `« ${d} de moins » : ${a + d} − ${d} = ${a}.` };
-    return { q: `${p1} a ${a + d} cartes et ${p2} en a ${a}. Combien ${p1} en a-t-il ou elle de plus que ${p2} ?`, txt: 1, a: d, hint: "On compare : on cherche l’écart", why: `L’écart : ${a + d} − ${a} = ${d}.` };
+    if (k === 0) return { q: `${p1} a ${a} cartes. ${p2} en a ${d} de plus. Combien de cartes a ${p2} ?`, txt: 1, a: a + d, why: `« ${d} de plus » : ${a} + ${d} = ${a + d}.` };
+    if (k === 1) return { q: `${p1} a ${a + d} cartes. ${p2} en a ${d} de moins. Combien de cartes a ${p2} ?`, txt: 1, a, why: `« ${d} de moins » : ${a + d} − ${d} = ${a}.` };
+    return { q: `${p1} a ${a + d} cartes et ${p2} en a ${a}. Combien de cartes de plus que ${p2} a ${p1} ?`, txt: 1, a: d, hint: "On compare : on cherche l’écart", why: `L’écart : ${a + d} − ${a} = ${d}.` };
   }
   if (t === 3) {
     const k = R(0, 2), a = R(3, 9), b = R(4, 12);
     if (k === 0) return { q: `Un carton contient ${a} boîtes de ${b} œufs. Combien d’œufs en tout ?`, txt: 1, a: a * b, why: `${a} fois ${b} œufs : ${a} × ${b} = ${a * b}.` };
-    if (k === 1) { const c = R(2, 5); return { q: `${p1} a ${a} t-shirts et ${c} pantalons. Combien de tenues différentes (un t-shirt + un pantalon) peut-elle ou il composer ?`, txt: 1, a: a * c, hint: "Pour chaque t-shirt, combien de pantalons ?", why: `Chaque t-shirt va avec ${c} pantalons : ${a} × ${c} = ${a * c} tenues.` }; }
+    if (k === 1) { const c = R(2, 5); return { q: `${p1} a ${a} t-shirts et ${c} pantalons. Combien de tenues différentes (un t-shirt + un pantalon) sont possibles ?`, txt: 1, a: a * c, hint: "Pour chaque t-shirt, combien de pantalons ?", why: `Chaque t-shirt va avec ${c} pantalons : ${a} × ${c} = ${a * c} tenues.` }; }
     return { q: `Dans la salle de gym, on place ${a} rangées de ${b} chaises. Combien de chaises en tout ?`, txt: 1, a: a * b, why: `${a} rangées × ${b} chaises = ${a * b}.` };
   }
   if (t === 4) {
@@ -64,7 +64,7 @@ export function gen(): Question {
       [`Un train a ${b} wagons de ${a * 2} places. Combien de places en tout ?`, `${b} × ${a * 2}`, [`${b} + ${a * 2}`, `${a * 2} − ${b}`, `${a * 2} : ${b}`]],
       [`Tu as ${a} CHF et ta grand-mère t’en donne ${b * 2}. Combien as-tu maintenant ?`, `${a} + ${b * 2}`, [`${a} × ${b * 2}`, `${b * 2} − ${a}`, `${a} − ${b * 2}`]],
     ] as [string, string, string[]][]);
-    return { q: `Quel calcul permet de répondre ? ${it[0]}`, txt: 1, a: it[1], choices: qcm(it[1], it[2]), why: `Le bon calcul est ${it[1]}.` };
+    return { q: `Quel calcul permet de répondre ? ${it[0]}`, txt: 1, a: it[1], choices: qcm(it[1], autresValeurs(it[1], it[2])), why: `Le bon calcul est ${it[1]}.` };
   }
   if (t === 7) {
     const c = (R(22, 198) * 5) / 100, billet = c < 5 ? 5 : 10, r = arr(billet - c);
@@ -73,5 +73,5 @@ export function gen(): Question {
   const n2 = R(0, 4), n1 = R(0, 5), c50 = R(0, 5), c20 = R(0, 5), c10 = R(1, 5);
   const tot = arr(n2 * 2 + n1 + c50 * 0.5 + c20 * 0.2 + c10 * 0.1);
   const parts = [[n2, "pièce de 2 CHF", "pièces de 2 CHF"], [n1, "pièce de 1 CHF", "pièces de 1 CHF"], [c50, "pièce de 50 centimes", "pièces de 50 centimes"], [c20, "pièce de 20 centimes", "pièces de 20 centimes"], [c10, "pièce de 10 centimes", "pièces de 10 centimes"]].filter(([n]) => n) as [number, string, string][];
-  return { q: `Dans son porte-monnaie, ${p1} a ${parts.map(([n, s, p]) => `${n} ${n > 1 ? p : s}`).join(", ")}. Combien a-t-il ou elle en tout, en CHF ?`, txt: 1, a: tot, hint: "100 centimes = 1 CHF", why: `Total : ${nb(tot)} CHF (${Math.round(tot * 100)} centimes).` };
+  return { q: `Dans son porte-monnaie, ${p1} a ${parts.map(([n, s, p]) => `${n} ${n > 1 ? p : s}`).join(", ")}. Combien d’argent y a-t-il en tout, en CHF ?`, txt: 1, a: tot, hint: "100 centimes = 1 CHF", why: `${parts.map(([n, s]) => `${n} × ${s.replace("pièce de ", "")}`).join(" + ")} = ${nbFixe(tot, 2)} CHF (${Math.round(tot * 100)} centimes).` };
 }

@@ -1,5 +1,5 @@
 import { R, pick } from "../math";
-import { arr, nb } from "./m2-outils";
+import { arr, nb, nbFixe } from "./m2-outils";
 import type { Question } from "./types";
 
 /** Calculs (7e-8e) : livret jusqu'à 12 × 12, distributivité, opérations en colonnes avec des décimaux, division euclidienne et décimale. */
@@ -55,7 +55,7 @@ export function gen(): Question {
   if (t === 6) {
     const p = R(12, 98) / 10, n = R(2, 9);
     const it = pick([
-      [`Une baguette coûte ${nb(p)} CHF. Combien coûtent ${n} baguettes, en CHF ?`, arr(p * n), `${nb(p)} × ${n} = ${nb(arr(p * n))} CHF.`],
+      [`Une baguette coûte ${nbFixe(p, 2)} CHF. Combien coûtent ${n} baguettes, en CHF ?`, arr(p * n), `${nbFixe(p, 2)} × ${n} = ${nbFixe(arr(p * n), 2)} CHF.`],
       [`${n} amis se partagent équitablement une addition de ${nb(arr(p * n * 10))} CHF. Combien paie chacun, en CHF ?`, arr(p * 10), `${nb(arr(p * n * 10))} : ${n} = ${nb(arr(p * 10))} CHF.`],
     ] as [string, number, string][]);
     return { q: it[0], txt: 1, a: it[1], why: it[2] };

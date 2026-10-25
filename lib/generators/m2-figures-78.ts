@@ -83,7 +83,7 @@ export function gen(): Question {
       const dx = R(1, 5), dy = R(1, 5), bas = Math.random() < 0.5 && y - dy >= 0;
       const X = x + dx, Y = bas ? y - dy : y + dy;
       const a = pt(X, Y);
-      return { q: `Sur un quadrillage, A est en ${pt(x, y)} (colonne ; ligne). On fait une translation de ${dx} cases vers la droite et ${dy} vers ${bas ? "le bas" : "le haut"}. Où arrive A ?`, txt: 1, a, choices: qcm(a, [pt(x - dx, Y), pt(X, bas ? y + dy : y - dy), pt(Y, X), pt(x + dy, bas ? y - dx : y + dx)]), why: `Colonne ${x} + ${dx} = ${X}, ligne ${y} ${bas ? "−" : "+"} ${dy} = ${Y}.` };
+      return { q: `Sur un quadrillage, A est en ${pt(x, y)} (colonne ; ligne). On fait une translation de ${dx} case${dx > 1 ? "s" : ""} vers la droite et ${dy} vers ${bas ? "le bas" : "le haut"}. Où arrive A ?`, txt: 1, a, choices: qcm(a, [pt(x - dx, Y), pt(X, bas ? y + dy : y - dy), pt(Y, X), pt(x + dy, bas ? y - dx : y + dx)]), why: `Colonne ${x} + ${dx} = ${X}, ligne ${y} ${bas ? "−" : "+"} ${dy} = ${Y}.` };
     }
     if (k === 1) {
       let c: number; do c = R(1, 10); while (c === x || 2 * c - x < 0 || 2 * c - x > 12);

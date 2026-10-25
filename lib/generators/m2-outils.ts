@@ -86,11 +86,54 @@ export function romain(n: number): string {
   return s;
 }
 
+/** Lecture d'un nombre romain morceau par morceau, ex. « XC (90) + IV (4) ». */
+export function romainDetail(n: number): string {
+  const t: [number, string][] = [[1000, "M"], [900, "CM"], [500, "D"], [400, "CD"], [100, "C"], [90, "XC"], [50, "L"], [40, "XL"], [10, "X"], [9, "IX"], [5, "V"], [4, "IV"], [1, "I"]];
+  const p: string[] = [];
+  for (const [v, l] of t) {
+    let k = 0;
+    while (n >= v) { n -= v; k++; }
+    if (k) p.push(`${l.repeat(k)} (${v * k})`);
+  }
+  return p.join(" + ");
+}
+
 /** Réponse décimale à 3 décimales : en texte (la correction numérique arrondit à 2 décimales). */
 export function repDec(x: number): { a: string; accept: string[] } {
   const s = nb(x);
   return { a: s, accept: [s.replace(",", "."), s.replace(" ", "")] };
 }
+
+/** Valeur d'une expression écrite pour l'élève (×, :, −, parenthèses) ; sert à écarter un distracteur qui donnerait le bon résultat. */
+export function valeur(expr: string): number {
+  const t = expr.replace(/\s+/g, "");
+  let i = 0;
+  const nombre = (): number => {
+    const m = /^\d+(?:[.,]\d+)?/.exec(t.slice(i));
+    if (!m) return NaN;
+    i += m[0].length;
+    return Number(m[0].replace(",", "."));
+  };
+  const facteur = (): number => {
+    if (t[i] === "(") { i++; const v = somme(); if (t[i] !== ")") return NaN; i++; return v; }
+    return nombre();
+  };
+  const produit = (): number => {
+    let v = facteur();
+    while (t[i] === "×" || t[i] === ":") { const op = t[i++]; const w = facteur(); v = op === "×" ? v * w : v / w; }
+    return v;
+  };
+  const somme = (): number => {
+    let v = produit();
+    while (t[i] === "+" || t[i] === "−") { const op = t[i++]; const w = produit(); v = op === "+" ? v + w : v - w; }
+    return v;
+  };
+  const v = somme();
+  return i === t.length ? v : NaN;
+}
+
+/** Distracteurs dont la valeur diffère de celle de la bonne expression. */
+export const autresValeurs = (a: string, d: readonly string[]): string[] => d.filter((x) => Math.abs(valeur(x) - valeur(a)) > 1e-9);
 
 /** PGCD. */
 export const pgcd = (a: number, b: number): number => (b ? pgcd(b, a % b) : a);

@@ -62,7 +62,7 @@ export function gen(): Question {
     return { q: `Combien d’angles droits a ${it[0]} ?`, txt: 1, a: it[1], why: it[2] };
   }
   if (t === 5) {
-    const c = R(3, 12), p = pick(PRENOMS), mv = pick(["le fais glisser sur la feuille (translation)", "le retournes comme dans un miroir (symétrie axiale)"]);
+    const c = R(3, 12), p = pick(PRENOMS), mv = pick(["fait glisser sur la feuille (translation)", "retourne comme dans un miroir (symétrie axiale)"]);
     const it = pick([
       [`un carré de ${c} cm de côté`, `Combien mesure le côté de l’image, en cm ?`, c, `Une isométrie garde les longueurs : le côté mesure toujours ${c} cm.`],
       [`un rectangle qui a 4 angles droits`, `Combien d’angles droits a l’image ?`, 4, "Une isométrie garde les angles : l’image a aussi 4 angles droits."],

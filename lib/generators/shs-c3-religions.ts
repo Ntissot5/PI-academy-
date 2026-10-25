@@ -9,7 +9,7 @@ const ITEMS: [string, string, string[], string][] = [
   ["Lequel n’est PAS une religion monothéiste ?", "La religion des Grecs anciens", ["Le judaïsme", "Le christianisme", "L’islam"], "Les Grecs anciens adoraient de nombreux dieux."],
   ["Quel est le plus ancien des trois grands monothéismes ?", "Le judaïsme", ["Le christianisme", "L’islam", "Ils sont apparus en même temps"], "Le christianisme naît dans le judaïsme ; l’islam apparaît au VIIe siècle."],
   ["L’islam apparaît au VIIe siècle dans la péninsule…", "arabique (La Mecque, Médine)", ["italienne", "ibérique", "scandinave"], "L’Hégire (622) marque le début du calendrier musulman."],
-  ["Qui affiche ses 95 thèses en 1517 et lance la Réforme ?", "Martin Luther", ["Jean Calvin", "Napoléon", "Charlemagne"], "Luther critique notamment la vente des indulgences."],
+  ["Qui publie ses 95 thèses en 1517 et lance la Réforme ?", "Martin Luther", ["Jean Calvin", "Napoléon", "Charlemagne"], "Luther critique notamment la vente des indulgences."],
   ["Quel réformateur a fortement marqué Genève au XVIe siècle ?", "Jean Calvin", ["Martin Luther", "Ulrich Zwingli", "Henri Dunant"], "Genève est surnommée la « Rome protestante »."],
   ["Quel réformateur a lancé la Réforme à Zurich ?", "Ulrich Zwingli", ["Jean Calvin", "Martin Luther", "Guillaume Farel"], "Zwingli prêche à Zurich à partir de 1519."],
   ["La séparation entre catholiques et protestants est un…", "schisme", ["traité", "concile œcuménique", "monopole"], "Un schisme est une division au sein d’une religion."],

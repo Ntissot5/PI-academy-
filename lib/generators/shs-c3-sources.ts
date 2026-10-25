@@ -26,7 +26,7 @@ const ITEMS: [string, string, string[], string][] = [
   ["Quelle est la différence entre histoire et mémoire ?", "L’histoire analyse le passé avec méthode ; la mémoire est le souvenir vécu ou transmis par un groupe", ["C’est exactement la même chose", "La mémoire est toujours plus exacte", "L’histoire ne s’occupe que des rois"], "La mémoire peut idéaliser ou oublier ; l’historien croise les sources."],
   ["Le récit de la fondation de Rome par Romulus et Remus, élevés par une louve, est…", "un mythe fondateur", ["un fait prouvé par des photos", "une source archéologique", "un traité"], "Les mythes fondateurs donnent une identité à un peuple, sans être des faits établis."],
   ["Le serment du Grütli et Guillaume Tell sont surtout…", "des légendes liées aux origines de la Confédération", ["des faits prouvés par des documents de 1291", "des inventions du XXe siècle", "des récits romains"], "Le Pacte de 1291 est un document réel ; Tell et le Grütli relèvent de la tradition et de la légende."],
-  ["Le 1er août est devenu la fête nationale suisse officielle…", "à la fin du XIXe siècle (1891, 600 ans du Pacte)", ["en 1291", "en 1515", "en 2002"], "La commémoration a été choisie plus tard : la mémoire se construit."],
+  ["La fête nationale du 1er août a été célébrée pour la première fois…", "en 1891, pour les 600 ans du Pacte fédéral", ["en 1291", "en 1515", "en 2002"], "La commémoration a été choisie six siècles plus tard : la mémoire se construit."],
   ["Le rapport Bergier (2002) a étudié…", "le rôle de la Suisse pendant la Seconde Guerre mondiale", ["la fondation de Rome", "la Réforme à Genève", "la construction du Gothard"], "Il a nuancé la mémoire collective sur cette période."],
 ];
 

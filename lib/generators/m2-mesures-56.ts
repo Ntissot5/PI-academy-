@@ -50,9 +50,12 @@ export function gen(): Question {
     return { q: it[0], txt: 1, a: it[1], why: it[2] };
   }
   if (t === 5) {
-    const p1 = pick(PRENOMS), a = R(6, 10), b = R(3, a - 1);
-    const rep = "le père";
-    return { q: `${p1} mesure la table avec son empan (main ouverte) : ${a} empans. Son père trouve ${b} empans pour la même table. Qui a le plus grand empan ?`, txt: 1, a: rep, choices: [p1, rep, "ils ont le même"], why: "Moins on reporte l’unité, plus elle est grande : le père en a besoin de moins, son empan est plus grand." };
+    const p1 = pick(PRENOMS), a = R(7, 10), b = R(5, a - 1);
+    let p2: string;
+    do p2 = pick(PRENOMS); while (p2 === p1);
+    const [x, y] = Math.random() < 0.5 ? [[p1, a], [p2, b]] as const : [[p1, b], [p2, a]] as const;
+    const rep = x[1] < y[1] ? x[0] : y[0];
+    return { q: `${x[0]} mesure la longueur d’une table avec son empan (main ouverte) et trouve ${x[1]} empans. ${y[0]} mesure la même table et trouve ${y[1]} empans. Qui a le plus grand empan ?`, txt: 1, a: rep, choices: [x[0], y[0], "ils ont le même"], why: `Moins on reporte l’unité, plus elle est grande : ${rep} en a besoin de moins (${Math.min(a, b)}), son empan est donc plus grand.` };
   }
   if (t === 6) {
     const L = [[1, R(10, 30)], [1, R(1, 9)], [0, R(100, 130)], [0, R(85, 99)]].map(([m, c]) => m * 100 + c);

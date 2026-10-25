@@ -48,7 +48,7 @@ export function gen(): Question {
   }
   if (t === 4) {
     const x = R(2, 20), m = R(2, 6), b = R(1, 20), v = x * m + b, p = pick(PRENOMS);
-    return { q: `${p} pense à un nombre. Elle ou il le multiplie par ${m}, puis ajoute ${b}, et obtient ${v}. À quel nombre pensait-il ou elle ?`, txt: 1, a: x, hint: "Fais les opérations à l’envers", why: `À l’envers : ${v} − ${b} = ${v - b}, puis ${v - b} : ${m} = ${x}.` };
+    return { q: `${p} pense à un nombre, le multiplie par ${m}, puis ajoute ${b}, et obtient ${v}. Quel était ce nombre ?`, txt: 1, a: x, hint: "Fais les opérations à l’envers", why: `À l’envers : ${v} − ${b} = ${v - b}, puis ${v - b} : ${m} = ${x}.` };
   }
   if (t === 5) {
     const N = R(12, 150);
