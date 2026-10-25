@@ -142,3 +142,7 @@ a.unit{text-decoration:none;color:inherit}
 /* touches d'accents : plus nombreuses que − / , → elles passent à la ligne */
 .keys.many{flex-wrap:wrap;flex-basis:100%}
 .keys.many button{width:44px;height:44px}
+
+/* Pi sans ombre portée : le rendu haute définition (design/pi-source.jpg) a déjà son volume,
+   l'ombre du prototype faisait un halo gris autour de lui. */
+.pi img{filter:none}
