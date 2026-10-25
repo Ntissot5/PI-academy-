@@ -16,7 +16,7 @@ export const S = (n: number): string => (n < 0 ? `−${-n}` : `${n}`);
 export const fr = (n: number): string => {
   if (!isFinite(n)) return "—";
   const v = Number.isInteger(n) ? n : +n.toFixed(2);
-  if (Math.abs(v) >= 1e6 && Number.isInteger(v)) return S(v).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+  if (Math.abs(v) >= 1e6 && Number.isInteger(v)) return S(v).replace(/\B(?=(\d{3})+(?!\d))/g, "\u2009");
   return S(v).replace(".", ",");
 };
 export const sup = (n: number): string => `<sup>${S(n)}</sup>`;

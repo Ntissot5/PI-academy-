@@ -12,7 +12,7 @@ export function gen(): Question {
     const n = pick([R(-8, -1), R(2, 9)]);
     let dec: string;
     if (n < 0) dec = "0," + "0".repeat(-n - 1) + dg;
-    else dec = (dg + "0".repeat(n - 2)).replace(/\B(?=(\d{3})+(?!\d))/g, " ");
+    else dec = (dg + "0".repeat(n - 2)).replace(/\B(?=(\d{3})+(?!\d))/g, "\u2009");
     const m = dg[0] + "," + dg.slice(1);
     return { q: `${dec} = ${m} · 10<sup>?</sup>`, a: n, hint: "Donne l’exposant.", why: `La virgule bouge de ${Math.abs(n)} rang${Math.abs(n) > 1 ? "s" : ""} ${n < 0 ? "vers la droite → exposant négatif" : "vers la gauche → exposant positif"} : ${S(n)}.` };
   }
