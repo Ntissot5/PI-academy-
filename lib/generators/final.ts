@@ -1,5 +1,5 @@
 import { pick } from "../math";
-import type { Generator, Question } from "./types";
+import type { GenContext, Generator, Question } from "./types";
 
 export interface PoolEntry {
   /** Titre de l'unité dans le parcours, affiché au-dessus de la question. */
@@ -13,9 +13,9 @@ export interface PoolEntry {
  */
 export function createFinal(pool: readonly PoolEntry[]): Generator {
   if (pool.length === 0) throw new Error("Examen final sans unité à mélanger");
-  return (): Question => {
+  return (ctx?: GenContext): Question => {
     const u = pick(pool);
-    const q = u.gen();
+    const q = u.gen(ctx);
     return { ...q, tag: u.titre };
   };
 }

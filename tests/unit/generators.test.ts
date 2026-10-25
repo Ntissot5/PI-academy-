@@ -1,34 +1,48 @@
 import { describe, expect, it } from "vitest";
-import { GENERATORS, resolveGenerator, createFinal } from "@/lib/generators";
-import { fr } from "@/lib/math";
-import { grade } from "@/lib/grade";
+import { GENERATORS, GENERATOR_LABEL, DEFAULT_ICON, resolveGenerator, createFinal } from "@/lib/generators";
+import { CANTONS } from "@/lib/cantons";
+import { answerText, grade } from "@/lib/grade";
 
 const DRAWS = 1000;
+const MATHS = ["rel", "frac", "pow", "eq1", "geo", "iso", "lin", "eq2", "trig", "log", "der"];
 const ALL_IDS = [...Object.keys(GENERATORS), "final"];
+const ALL_UNITS = Object.keys(GENERATORS).map((id) => ({ id_generateur: id, titre: id })).concat({ id_generateur: "final", titre: "Examen final" });
+const PREPA = MATHS.map((id) => ({ id_generateur: id, titre: id })).concat({ id_generateur: "final", titre: "Examen final" });
 
-const PREPA = Object.keys(GENERATORS).map((id) => ({ id_generateur: id, titre: id })).concat({ id_generateur: "final", titre: "Examen final" });
+describe("générateurs", () => {
+  it("les 12 du prototype sont là (11 unités + examen final)", () => {
+    for (const id of MATHS) expect(GENERATORS[id], id).toBeTypeOf("function");
+  });
 
-describe("12 générateurs", () => {
-  it("il y en a bien 12 (11 unités + examen final)", () => {
-    expect(ALL_IDS).toHaveLength(12);
+  it("chaque générateur a un libellé et une icône", () => {
+    for (const id of ALL_IDS) {
+      expect(GENERATOR_LABEL[id], id).toBeTruthy();
+      expect(DEFAULT_ICON[id], id).toBeTruthy();
+    }
   });
 
   for (const id of ALL_IDS) {
     it(`${id} : ${DRAWS} tirages propres, réponse attendue acceptée`, () => {
-      const g = resolveGenerator(id, PREPA);
+      const g = resolveGenerator(id, id === "final" ? PREPA : ALL_UNITS);
       for (let i = 0; i < DRAWS; i++) {
-        const q = g();
+        const canton = CANTONS[i % CANTONS.length].code;
+        const q = g({ canton });
         const ctx = `${id} → ${q.q} (a = ${q.a})`;
-        expect(typeof q.q, ctx).toBe("string");
         expect(q.q.trim().length, ctx).toBeGreaterThan(0);
         expect(q.why.trim().length, ctx).toBeGreaterThan(0);
-        expect(Number.isFinite(q.a), ctx).toBe(true);
-        for (const s of [q.q, q.why, q.hint ?? ""]) {
-          expect(s, ctx).not.toMatch(/NaN|Infinity|undefined/);
+        if (typeof q.a === "number") expect(Number.isFinite(q.a), ctx).toBe(true);
+        else expect(q.a.trim().length, ctx).toBeGreaterThan(0);
+        for (const s of [q.q, q.why, q.hint ?? "", ...(q.choices ?? []), ...(q.accept ?? [])]) {
+          expect(s, ctx).not.toMatch(/NaN|Infinity|undefined|null(?!$)/);
         }
         if (q.tol !== undefined) expect(Number.isFinite(q.tol) && q.tol > 0, ctx).toBe(true);
+        if (q.choices) {
+          expect(q.choices, ctx).toContain(q.a);
+          expect(new Set(q.choices).size, `${ctx} · propositions en double`).toBe(q.choices.length);
+          expect(q.choices.length, ctx).toBeGreaterThanOrEqual(2);
+        }
         // ce que l'élève verrait comme « Réponse : … » doit être accepté
-        expect(grade(fr(q.a), q), `${ctx} · saisie « ${fr(q.a)} »`).toBe("ok");
+        expect(grade(answerText(q), q), `${ctx} · saisie « ${answerText(q)} »`).toBe("ok");
       }
     });
   }
