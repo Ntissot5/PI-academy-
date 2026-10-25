@@ -111,3 +111,34 @@ a.unit{text-decoration:none;color:inherit}
 .admin-list.side{position:static}
 .field select{font:inherit;font-size:1rem;padding:11px 12px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink)}
 .field select:focus{border-color:var(--brand);outline:none}
+
+/* ---------- QCM (nouvelles matières) ---------- */
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.choices button{border:2px solid var(--line);background:var(--ice-2);border-radius:12px;padding:14px 16px;font-size:1.08rem;font-weight:600;text-align:left;color:var(--ink);min-height:54px}
+.choices button:hover:not(:disabled){border-color:var(--brand)}
+.choices button.good{border-color:var(--ok);background:var(--ok-soft);color:var(--ok)}
+.choices button.bad{border-color:var(--bad);background:var(--bad-soft);color:var(--bad)}
+.choices button:disabled{cursor:default}
+.q b{font-weight:700;color:var(--brand)}
+
+/* ---------- canton et catalogue par matière ---------- */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.daily.canton .left img{width:52px;height:52px}
+.daily.canton .field{justify-self:end;min-width:220px}
+.daily.canton select{width:100%}
+.mat-h{display:flex;align-items:center;gap:12px;margin-top:10px}
+.mat-h img{width:40px;height:40px}
+.mat-h h2{font-size:1.3rem}
+.mat-h .small{display:block}
+.pill-s{display:inline-flex;align-items:center;font-size:.72rem;font-weight:700;letter-spacing:.03em;padding:2px 8px;border-radius:99px;background:var(--ice);color:var(--brand)}
+.pill-s.warn{background:var(--bad-soft);color:var(--bad)}
+.pill-s.mute{background:var(--m0);color:var(--muted)}
+.unit.other{opacity:.72}
+@media (max-width:620px){.daily.canton .field{justify-self:stretch;min-width:0}}
+.assign-group{display:flex;flex-direction:column;gap:8px}
+.assign-group h3{text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;font-weight:700}
+.assign-row.other{opacity:.7}
+.new-class .field select{min-width:160px}
+/* touches d'accents : plus nombreuses que − / , → elles passent à la ligne */
+.keys.many{flex-wrap:wrap;flex-basis:100%}
+.keys.many button{width:44px;height:44px}

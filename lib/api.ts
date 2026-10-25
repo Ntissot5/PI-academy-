@@ -24,7 +24,16 @@ export interface Parcours {
   icone: string;
   ordre: number;
   payant: boolean;
+  matiere: string;
+  plan: "libre" | "per" | "lp21" | "pds" | "";
+  annee_min: number;
+  annee_max: number;
+  cantons: string[] | null;
+  statut: "publie" | "a_valider" | "";
 }
+
+export interface Matiere { id: string; slug: string; nom: string; domaine: string; icone: string; ordre: number }
+export const listMatieres = () => pb().collection("matieres").getFullList<Matiere>({ sort: "ordre" });
 
 export interface Unite {
   id: string;
@@ -40,7 +49,7 @@ export interface Unite {
   progression: Progression | null;
 }
 
-export interface Etat { stats: Stats; parcours: Parcours; unites: Unite[] }
+export interface Etat { stats: Stats; parcours: Parcours; unites: Unite[]; canton: string; matiere: { slug: string; nom: string } | null }
 
 export interface Reponse { ok: boolean; enonce: string; reponse: string; bonne: string }
 export interface SeriePayload {
@@ -116,7 +125,7 @@ export const eleveConnexion = (b: EleveAuth) => eleveAuth("/api/pi/eleve/connexi
 
 /* ---------- prof ---------- */
 
-export interface Classe { id: string; nom: string; code: string; parcours_assignes: string[]; prof: string }
+export interface Classe { id: string; nom: string; code: string; parcours_assignes: string[]; prof: string; canton: string }
 export interface BoardUnite { id: string; ordre: number; titre: string; id_generateur: string; icone: string }
 export interface BoardParcours { id: string; slug: string; titre: string; ordre: number; unites: BoardUnite[] }
 export interface BoardEleve {
@@ -135,8 +144,8 @@ export interface Erreur { id: string; unite: string; enonce: string; reponse_don
 
 export const listClasses = (prof: string) =>
   pb().collection("classes").getFullList<Classe>({ filter: pb().filter("prof = {:p}", { p: prof }), sort: "created" });
-export const createClasse = (prof: string, nom: string) =>
-  pb().collection("classes").create<Classe>({ prof, nom, parcours_assignes: [] });
+export const createClasse = (prof: string, nom: string, canton: string) =>
+  pb().collection("classes").create<Classe>({ prof, nom, canton, parcours_assignes: [] });
 export const setParcoursAssignes = (id: string, ids: string[]) =>
   pb().collection("classes").update<Classe>(id, { parcours_assignes: ids });
 export const getBoard = (id: string) => pb().send<Board>(`/api/pi/prof/classe/${id}`, {});

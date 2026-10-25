@@ -45,7 +45,7 @@ export default function Dashboard() {
     <section>
       <div className="hero">
         <div>
-          <div className="kick">Cours · Mathématiques</div>
+          <div className="kick">Cours · {etat.matiere?.nom ?? "Mathématiques"}</div>
           <h1>{etat.parcours.accroche || etat.parcours.titre}</h1>
           <p className="sub">{etat.parcours.description}</p>
           <div className="prog">

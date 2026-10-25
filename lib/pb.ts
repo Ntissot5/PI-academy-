@@ -24,4 +24,5 @@ export interface User {
   theme?: "" | "clair" | "sombre";
   xp: number;
   classe?: string;
+  canton?: string;
 }

@@ -7,13 +7,13 @@ import { Pi } from "@/components/Pi";
 import { newSerieId, sendSerie, type Reponse, type SerieResult, type Unite } from "@/lib/api";
 import { BOSS_PASS, DAILY_GOAL, SERIES_LENGTH } from "@/lib/config";
 import { DEFAULT_ICON, resolveGenerator, type Question } from "@/lib/generators";
-import { grade } from "@/lib/grade";
+import { answerText, grade } from "@/lib/grade";
 import { forgetEtat, isFinal, unlocked, useEtat } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { fr } from "@/lib/math";
 
 type Mode = "train" | "boss";
-interface Miss { q: string; you: string; a: number; why: string }
+interface Miss { q: string; you: string; a: string; why: string }
 interface Fb { kind: "idle" | "unreadable" | "ok" | "ko"; text?: string }
 interface Done { score: number; win: boolean; bonus: number; unlock: string; res: SerieResult | null }
 
@@ -39,10 +39,10 @@ function QuizPage() {
 
   if (error) return <Loading text={error} />;
   if (!etat || !c || !ok) return <Loading />;
-  return <Quiz key={`${run}-${mode}`} slug={slug} units={etat.unites} index={i} mode={mode} onAgain={(m) => { reload(); if (m === mode) setRun((r) => r + 1); else router.replace(`/parcours/${slug}/unite/${c.ordre}/quiz${m === "boss" ? "?mode=boss" : ""}`); }} />;
+  return <Quiz key={`${run}-${mode}`} slug={slug} units={etat.unites} index={i} mode={mode} canton={etat.canton} onAgain={(m) => { reload(); if (m === mode) setRun((r) => r + 1); else router.replace(`/parcours/${slug}/unite/${c.ordre}/quiz${m === "boss" ? "?mode=boss" : ""}`); }} />;
 }
 
-function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unite[]; index: number; mode: Mode; onAgain: (m: Mode) => void }) {
+function Quiz({ slug, units, index, mode, canton, onAgain }: { slug: string; units: Unite[]; index: number; mode: Mode; canton?: string; onAgain: (m: Mode) => void }) {
   const { setStats, toast } = useApp();
   const router = useRouter();
   const c = units[index];
@@ -50,7 +50,7 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
   const wasValid = !!c.progression?.valide;
 
   const [qn, setQn] = useState(0);
-  const [cur, setCur] = useState<Question>(() => gen());
+  const [cur, setCur] = useState<Question>(() => gen({ canton }));
   const [answered, setAnswered] = useState(false);
   const [value, setValue] = useState("");
   const [fb, setFb] = useState<Fb>({ kind: "idle" });
@@ -108,7 +108,7 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
 
   // Accroche pour les tests de bout en bout uniquement (jamais en production).
   useEffect(() => {
-    if (process.env.NEXT_PUBLIC_E2E === "1") (window as unknown as { __piAnswer?: string }).__piAnswer = fr(cur.a);
+    if (process.env.NEXT_PUBLIC_E2E === "1") (window as unknown as { __piAnswer?: string }).__piAnswer = answerText(cur);
   }, [cur]);
 
   const quit = () => {
@@ -121,12 +121,12 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
     router.push(`/parcours/${slug}/unite/${c.ordre}`);
   };
 
-  const check = () => {
-    const g = grade(value, cur);
+  const check = (v: string = value) => {
+    const g = grade(v, cur);
     if (g === "unreadable") { setFb({ kind: "unreadable" }); return; }
     const good = g === "ok";
-    answers.current.push({ ok: good, enonce: cur.q, reponse: value, bonne: fr(cur.a) });
-    if (!good) miss.current.push({ q: cur.q, you: value, a: cur.a, why: cur.why });
+    answers.current.push({ ok: good, enonce: cur.q, reponse: v, bonne: answerText(cur) });
+    if (!good) miss.current.push({ q: cur.q, you: v, a: answerText(cur), why: cur.why });
     if (good) setStats((s) => (s ? { ...s, xp: s.xp + 10, answered: s.answered + 1 } : s));
     else setStats((s) => (s ? { ...s, answered: s.answered + 1 } : s));
     setAnswered(true);
@@ -151,7 +151,7 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
   const next = () => {
     if (qn + 1 >= SERIES_LENGTH) { finish(); return; }
     setQn(qn + 1);
-    setCur(gen());
+    setCur(gen({ canton }));
     setAnswered(false);
     setValue("");
     setFb({ kind: "idle" });
@@ -161,6 +161,8 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
 
   if (done) return <Result slug={slug} c={c} units={units} index={index} mode={mode} done={done} miss={miss.current} onAgain={onAgain} />;
 
+  // Nombres : − / , comme le prototype. Texte : les accents utiles. QCM : pas de clavier.
+  const keys = cur.keys ?? (typeof cur.a === "number" ? ["−", "/", ","] : []);
   const kick = mode === "boss" ? "star" : c.icone || DEFAULT_ICON[c.id_generateur] || "star";
   const width = (answered ? qn + 1 : qn) * 10;
   return (
@@ -171,24 +173,38 @@ function Quiz({ slug, units, index, mode, onAgain }: { slug: string; units: Unit
           <div className="qkick"><img src={img(kick)} alt="" />{mode === "boss" ? "Boss · " : ""}{cur.tag || c.titre}</div>
           <div className={`q ${cur.txt ? "text" : ""}`} dangerouslySetInnerHTML={{ __html: cur.q }} />
           {cur.hint && <div className="hint">{cur.hint}</div>}
-          <form className="ans" id="af" autoComplete="off" onSubmit={act}>
-            <input id="ain" ref={input} inputMode="text" enterKeyHint="done" placeholder="Ta réponse" aria-label="Ta réponse" value={value} disabled={answered} onChange={(e) => setValue(e.target.value)} />
-            <div className="keys">{["−", "/", ","].map((k) => <button key={k} type="button" disabled={answered} onClick={() => { setValue((v) => v + k); input.current?.focus(); }}>{k}</button>)}</div>
-            <button type="submit" hidden />
-          </form>
+          {cur.choices ? (
+            <div className="choices" role="group" aria-label="Propositions">
+              {cur.choices.map((c) => (
+                <button key={c} type="button" disabled={answered}
+                  className={answered ? (c === answerText(cur) ? "good" : c === value ? "bad" : "") : ""}
+                  onClick={() => { setValue(c); check(c); }}>{c}</button>
+              ))}
+            </div>
+          ) : (
+            <form className="ans" id="af" autoComplete="off" onSubmit={act}>
+              <input id="ain" ref={input} inputMode="text" enterKeyHint="done" placeholder="Ta réponse" aria-label="Ta réponse"
+                autoCapitalize="off" autoCorrect="off" spellCheck={false}
+                value={value} disabled={answered} onChange={(e) => setValue(e.target.value)} />
+              {keys.length > 0 && <div className={`keys ${keys.length > 3 ? "many" : ""}`}>{keys.map((k) => <button key={k} type="button" disabled={answered} onClick={() => { setValue((v) => v + k); input.current?.focus(); }}>{k}</button>)}</div>}
+              <button type="submit" hidden />
+            </form>
+          )}
         </div>
       </div>
       <div className={`check ${fb.kind === "ok" ? "ok" : fb.kind === "ko" ? "ko" : ""}`} id="chk">
         <div className="in">
           <div className="fbx" id="fbx">
-            {fb.kind === "idle" && <><Pi mood="think" w={64} h={44} /><span className="hint">Écris ta réponse puis vérifie.</span></>}
-            {fb.kind === "unreadable" && <><Pi mood="think" w={64} h={44} /><div><b>Je ne lis pas ce nombre</b><span>Écris par exemple −3, 4,5 ou 7/12.</span></div></>}
+            {fb.kind === "idle" && <><Pi mood="think" w={64} h={44} /><span className="hint">{cur.choices ? "Choisis une réponse." : "Écris ta réponse puis vérifie."}</span></>}
+            {fb.kind === "unreadable" && <><Pi mood="think" w={64} h={44} />{typeof cur.a === "number"
+              ? <div><b>Je ne lis pas ce nombre</b><span>Écris par exemple −3, 4,5 ou 7/12.</span></div>
+              : <div><b>Écris ta réponse</b><span>Le champ est vide.</span></div>}</>}
             {(fb.kind === "ok" || fb.kind === "ko") && (
               <><Pi key={beat} mood={fb.kind === "ok" ? "happy" : "sad"} className={fb.kind === "ok" ? "jump" : "shake"} w={64} h={44} />
-                <div><b>{fb.kind === "ok" ? "Juste ! +10 XP" : `Réponse : ${fr(cur.a)}`}</b><span>{fb.text}</span></div></>
+                <div><b>{fb.kind === "ok" ? "Juste ! +10 XP" : `Réponse : ${answerText(cur)}`}</b><span>{fb.text}</span></div></>
             )}
           </div>
-          <button className="cta" id="ok" ref={okBtn} onClick={() => act()}>{!answered ? "Vérifier" : qn === SERIES_LENGTH - 1 ? "Voir le résultat" : "Continuer"}</button>
+          <button className="cta" id="ok" ref={okBtn} onClick={() => act()} disabled={!!cur.choices && !answered}>{!answered ? "Vérifier" : qn === SERIES_LENGTH - 1 ? "Voir le résultat" : "Continuer"}</button>
         </div>
       </div>
     </section>
@@ -228,7 +244,7 @@ function Result({ slug, c, units, index, mode, done, miss, onAgain }: { slug: st
             {miss.map((x, k) => (
               <div key={k}>
                 <div className="q2" dangerouslySetInnerHTML={{ __html: x.q }} />
-                <div>Toi : <span className="mono" style={{ color: "var(--bad)" }}>{x.you || "—"}</span> · juste : <span className="mono" style={{ color: "var(--ok)" }}>{fr(x.a)}</span></div>
+                <div>Toi : <span className="mono" style={{ color: "var(--bad)" }}>{x.you || "—"}</span> · juste : <span className="mono" style={{ color: "var(--ok)" }}>{x.a}</span></div>
                 <div className="why">{x.why}</div>
               </div>
             ))}

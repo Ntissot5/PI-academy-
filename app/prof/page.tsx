@@ -5,13 +5,15 @@ import { useApp } from "@/components/AppProvider";
 import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
 import {
-  createClasse, getBoard, lastErrors, listClasses, listParcours, removeEleve, resetPin, setParcoursAssignes,
-  type Board, type BoardEleve, type Classe, type Erreur, type Parcours,
+  createClasse, getBoard, lastErrors, listClasses, listMatieres, listParcours, removeEleve, resetPin, setParcoursAssignes,
+  type Board, type BoardEleve, type Classe, type Erreur, type Matiere, type Parcours,
 } from "@/lib/api";
 import { DEFAULT_ICON } from "@/lib/generators";
 import { useRequireAuth } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { LVL, mastery } from "@/lib/mastery";
+import { CANTONS, cantonByCode } from "@/lib/cantons";
+import { anneesLabel, fitsCanton, groupByMatiere, planLabel } from "@/lib/catalogue";
 import { pb } from "@/lib/pb";
 
 const frDate = (d: string) => (d ? d.split("-").reverse().join(".") : "—");
@@ -24,6 +26,7 @@ export default function Prof() {
   const [classes, setClasses] = useState<Classe[] | null>(null);
   const [current, setCurrent] = useState<string | null>(null);
   const [catalog, setCatalog] = useState<Parcours[]>([]);
+  const [matieres, setMatieres] = useState<Matiere[]>([]);
   const [board, setBoard] = useState<Board | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
 
@@ -42,6 +45,7 @@ export default function Prof() {
     if (!ok) return;
     loadClasses().catch(() => setClasses([]));
     listParcours().then(setCatalog).catch(() => {});
+    listMatieres().then(setMatieres).catch(() => {});
   }, [ok, loadClasses]);
 
   const reload = useCallback(async () => {
@@ -91,8 +95,8 @@ export default function Prof() {
             <button key={c.id} type="button" role="tab" aria-selected={c.id === current} onClick={() => setCurrent(c.id)}>{c.nom}</button>
           ))}
         </div>
-        <NewClass onCreate={async (nom) => {
-          const c = await createClasse(user!.id, nom);
+        <NewClass defaultCanton={user?.canton ?? classes[classes.length - 1]?.canton ?? ""} onCreate={async (nom, canton) => {
+          const c = await createClasse(user!.id, nom, canton);
           await loadClasses();
           setCurrent(c.id);
           toast(`Classe créée : code ${c.code}`);
@@ -102,7 +106,7 @@ export default function Prof() {
       {classe && (
         <>
           <ClassHead classe={classe} count={board?.eleves.length} />
-          <Assign classe={classe} catalog={catalog} onChange={async (ids) => {
+          <Assign classe={classe} catalog={catalog} matieres={matieres} onChange={async (ids) => {
             await setParcoursAssignes(classe.id, ids);
             await loadClasses();
             reload();
@@ -129,9 +133,11 @@ export default function Prof() {
   );
 }
 
-function NewClass({ onCreate, first }: { onCreate: (nom: string) => Promise<void>; first: boolean }) {
+function NewClass({ onCreate, first, defaultCanton }: { onCreate: (nom: string, canton: string) => Promise<void>; first: boolean; defaultCanton: string }) {
   const [open, setOpen] = useState(first);
   const [nom, setNom] = useState("");
+  const [canton, setCanton] = useState(defaultCanton);
+  useEffect(() => { if (!canton && defaultCanton) setCanton(defaultCanton); }, [defaultCanton, canton]);
   const [busy, setBusy] = useState(false);
   useEffect(() => { if (first) setOpen(true); }, [first]);
   if (!open) return <button type="button" className="cta ghost" id="new-class" onClick={() => setOpen(true)}>+ Nouvelle classe</button>;
@@ -139,12 +145,17 @@ function NewClass({ onCreate, first }: { onCreate: (nom: string) => Promise<void
     e.preventDefault();
     if (!nom.trim()) return;
     setBusy(true);
-    try { await onCreate(nom.trim()); setNom(""); setOpen(false); } finally { setBusy(false); }
+    try { await onCreate(nom.trim(), canton); setNom(""); setOpen(false); } finally { setBusy(false); }
   };
   return (
     <form className="new-class" onSubmit={submit}>
       <div className="field"><label htmlFor="class-name">Nom de la classe</label>
         <input id="class-name" required maxLength={60} placeholder="9e B · maths" value={nom} onChange={(e) => setNom(e.target.value)} autoFocus /></div>
+      <div className="field"><label htmlFor="class-canton">Canton</label>
+        <select id="class-canton" value={canton} onChange={(e) => setCanton(e.target.value)}>
+          <option value="">Choisir…</option>
+          {[...CANTONS].sort((a, b) => a.nom.localeCompare(b.nom, "fr")).map((c) => <option key={c.code} value={c.code}>{c.nom}</option>)}
+        </select></div>
       <button className="cta" type="submit" disabled={busy}>Créer la classe</button>
     </form>
   );
@@ -159,7 +170,7 @@ function ClassHead({ classe, count }: { classe: Classe; count?: number }) {
     <div className="daily class-head">
       <div className="left">
         <img className="ico" src={img("report")} alt="" />
-        <div><h3>{classe.nom}</h3><p className="small">{count == null ? "…" : `${count} élève${count > 1 ? "s" : ""}`} · les élèves entrent sur la page « Je suis élève »</p></div>
+        <div><h3>{classe.nom}</h3><p className="small">{count == null ? "…" : `${count} élève${count > 1 ? "s" : ""}`}{cantonByCode(classe.canton) ? ` · ${cantonByCode(classe.canton)!.nom}` : ""} · les élèves entrent sur la page « Je suis élève »</p></div>
       </div>
       <div className="code-box">
         <span className="small">Code de classe</span>
@@ -170,7 +181,7 @@ function ClassHead({ classe, count }: { classe: Classe; count?: number }) {
   );
 }
 
-function Assign({ classe, catalog, onChange }: { classe: Classe; catalog: Parcours[]; onChange: (ids: string[]) => Promise<void> }) {
+function Assign({ classe, catalog, matieres, onChange }: { classe: Classe; catalog: Parcours[]; matieres: Matiere[]; onChange: (ids: string[]) => Promise<void> }) {
   // Affichage immédiat ; on revient à l'état serveur si l'enregistrement échoue.
   const [ids, setIds] = useState(classe.parcours_assignes);
   const { toast } = useApp();
@@ -180,21 +191,28 @@ function Assign({ classe, catalog, onChange }: { classe: Classe; catalog: Parcou
     setIds(next);
     try { await onChange(next); } catch { setIds(classe.parcours_assignes); toast("Le changement n’a pas été enregistré"); }
   };
+  const school = catalog;
   return (
     <div className="card">
-      <div className="sec-h"><h2>Parcours assignés</h2><p className="small">Tes élèves ne voient que ces parcours.</p></div>
-      <div className="assign">
-        {catalog.map((p) => {
-          const on = ids.includes(p.id);
-          return (
-            <label key={p.id} className={`assign-row ${on ? "on" : ""}`}>
-              <input type="checkbox" checked={on} onChange={() => toggle(p.id)} />
-              <span className="ic"><img src={img(p.icone || "star")} alt="" /></span>
-              <span className="meta"><span className="num">{p.niveau}</span><b>{p.titre}</b></span>
-            </label>
-          );
-        })}
-      </div>
+      <div className="sec-h"><h2>Parcours assignés</h2><p className="small">Tes élèves ne voient que ces parcours.{cantonByCode(classe.canton) ? " Ceux du plan d’études de ta classe sont en premier." : ""}</p></div>
+      {groupByMatiere(school, matieres, classe.canton).map(({ matiere, items }) => (
+        <div key={matiere?.id ?? "autres"} className="assign-group">
+          <h3 className="small">{matiere?.nom ?? "Autres"}</h3>
+          <div className="assign">
+            {items.map((p) => {
+              const on = ids.includes(p.id);
+              const an = anneesLabel(p);
+              return (
+                <label key={p.id} className={`assign-row ${on ? "on" : ""} ${fitsCanton(p, classe.canton) ? "" : "other"}`}>
+                  <input type="checkbox" checked={on} onChange={() => toggle(p.id)} />
+                  <span className="ic"><img src={img(p.icone || "star")} alt="" /></span>
+                  <span className="meta"><span className="num">{planLabel(p)}{an ? ` · ${an}` : ""}{p.statut === "a_valider" ? " · Bêta" : ""}</span><b>{p.titre}</b></span>
+                </label>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

@@ -5,8 +5,9 @@ import { useRouter } from "next/navigation";
 import { useApp } from "@/components/AppProvider";
 import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
-import type { Parcours } from "@/lib/api";
-import { DEFAULT_ICON, FINAL_ID, GENERATORS } from "@/lib/generators";
+import { listMatieres, type Matiere, type Parcours } from "@/lib/api";
+import { CANTONS, PLANS } from "@/lib/cantons";
+import { DEFAULT_ICON, FINAL_ID, GENERATORS, GENERATOR_LABEL } from "@/lib/generators";
 import { forgetEtat, useRequireAuth } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { pb } from "@/lib/pb";
@@ -20,7 +21,7 @@ type Sel = { kind: "parcours"; id: string } | { kind: "unite"; id: string } | nu
 const ICONS = ["flower", "report", "molecule", "pin", "folder", "mail", "plane", "note", "eye", "cal31", "laptop", "star"];
 const GEN_IDS = [...Object.keys(GENERATORS), FINAL_ID];
 const UNIT_FIELDS = ["ordre", "id_generateur", "titre", "sous_titre", "regle", "exemple", "image", "piege", "icone"] as const;
-const PARCOURS_FIELDS = ["slug", "titre", "accroche", "description", "public", "niveau", "icone", "ordre", "payant"] as const;
+const PARCOURS_FIELDS = ["slug", "titre", "accroche", "description", "public", "niveau", "icone", "ordre", "payant", "plan", "annee_min", "annee_max", "cantons", "statut"] as const;
 
 /** Admin : éditer les textes des unités et l'ordre des parcours, importer/exporter en JSON. */
 export default function Admin() {
@@ -30,6 +31,7 @@ export default function Admin() {
   const [parcours, setParcours] = useState<Parcours[] | null>(null);
   const [unites, setUnites] = useState<UniteRec[]>([]);
   const [sel, setSel] = useState<Sel>(null);
+  const [matieres, setMatieres] = useState<Matiere[]>([]);
 
   useEffect(() => { if (ok && user && user.role !== "admin") router.replace("/"); }, [ok, user, router]);
 
@@ -40,6 +42,7 @@ export default function Admin() {
     ]);
     setParcours(ps);
     setUnites(us);
+    setMatieres(await listMatieres().catch(() => []));
   }, []);
   useEffect(() => { if (ok && user?.role === "admin") load().catch(() => setParcours([])); }, [ok, user, load]);
 
@@ -97,9 +100,9 @@ export default function Admin() {
         </nav>
         <div className="content">
           {selU && <UnitForm key={selU.id} u={selU} slug={parcours.find((p) => p.id === selU.parcours)?.slug ?? ""} onSaved={load} />}
-          {selP && <ParcoursForm key={selP.id} p={selP} onSaved={load} />}
+          {selP && <ParcoursForm key={selP.id} p={selP} matieres={matieres} onSaved={load} />}
           {!sel && <div className="card"><p className="small">Choisis un parcours ou une unité dans la liste.</p></div>}
-          <JsonTools parcours={parcours} unites={unites} onImported={load} />
+          <JsonTools parcours={parcours} unites={unites} matieres={matieres} onImported={load} />
         </div>
       </div>
     </section>
@@ -140,7 +143,7 @@ function UnitForm({ u, slug, onSaved }: { u: UniteRec; slug: string; onSaved: ()
       <div className="field"><label htmlFor="u-piege">Le piège classique</label><textarea id="u-piege" maxLength={1000} value={v.piege} onChange={set("piege")} /></div>
       <div className="row2">
         <div className="field"><label htmlFor="u-gen">Type d’exercices</label>
-          <select id="u-gen" className="select" value={v.id_generateur} onChange={set("id_generateur")}>{GEN_IDS.map((g) => <option key={g} value={g}>{g}</option>)}</select></div>
+          <select id="u-gen" className="select" value={v.id_generateur} onChange={set("id_generateur")}>{GEN_IDS.map((g) => <option key={g} value={g}>{GENERATOR_LABEL[g] ?? g}</option>)}</select></div>
         <div className="field"><label htmlFor="u-icone">Icône</label>
           <select id="u-icone" className="select" value={v.icone} onChange={set("icone")}>{ICONS.map((g) => <option key={g} value={g}>{g}</option>)}</select></div>
       </div>
@@ -151,14 +154,21 @@ function UnitForm({ u, slug, onSaved }: { u: UniteRec; slug: string; onSaved: ()
   );
 }
 
-function ParcoursForm({ p, onSaved }: { p: Parcours; onSaved: () => Promise<void> }) {
+function ParcoursForm({ p, matieres, onSaved }: { p: Parcours; matieres: Matiere[]; onSaved: () => Promise<void> }) {
   const [v, setV] = useState(p);
+  const [cantons, setCantons] = useState((p.cantons ?? []).join(", "));
   const { state, run } = useSave(onSaved);
   const set = (k: keyof Parcours) => (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => setV({ ...v, [k]: e.target.value });
   const submit = (e: FormEvent) => {
     e.preventDefault();
     run(async () => {
-      await pb().collection("parcours").update(p.id, { titre: v.titre, accroche: v.accroche, description: v.description, niveau: v.niveau, public: v.public, icone: v.icone });
+      const codes = cantons.toUpperCase().split(/[^A-Z]+/).filter(Boolean);
+      const bad = codes.filter((c) => !CANTONS.some((x) => x.code === c));
+      if (bad.length) throw new Error(`Canton inconnu : ${bad.join(", ")}. Utilise les abréviations (VD, GE, ZH…).`);
+      await pb().collection("parcours").update(p.id, {
+        titre: v.titre, accroche: v.accroche, description: v.description, niveau: v.niveau, public: v.public, icone: v.icone,
+        matiere: v.matiere, plan: v.plan, annee_min: Number(v.annee_min) || 0, annee_max: Number(v.annee_max) || 0, cantons: codes, statut: v.statut,
+      });
       forgetEtat(p.slug);
     });
   };
@@ -178,6 +188,21 @@ function ParcoursForm({ p, onSaved }: { p: Parcours; onSaved: () => Promise<void
         <div className="field"><label htmlFor="p-icone">Icône</label>
           <select id="p-icone" className="select" value={v.icone} onChange={set("icone")}>{ICONS.map((g) => <option key={g} value={g}>{g}</option>)}</select></div>
       </div>
+      <div className="row2">
+        <div className="field"><label htmlFor="p-matiere">Matière</label>
+          <select id="p-matiere" value={v.matiere} onChange={set("matiere")}><option value="">—</option>{matieres.map((m) => <option key={m.id} value={m.id}>{m.nom}</option>)}</select></div>
+        <div className="field"><label htmlFor="p-plan">Plan d’études</label>
+          <select id="p-plan" value={v.plan || "libre"} onChange={set("plan")}>{Object.entries(PLANS).map(([k, x]) => <option key={k} value={k}>{x.nom}</option>)}</select></div>
+      </div>
+      <div className="row2">
+        <div className="field"><label htmlFor="p-amin">Année Harmos de</label><input id="p-amin" type="number" min={0} max={12} value={v.annee_min || ""} onChange={set("annee_min")} /></div>
+        <div className="field"><label htmlFor="p-amax">à</label><input id="p-amax" type="number" min={0} max={12} value={v.annee_max || ""} onChange={set("annee_max")} /></div>
+      </div>
+      <div className="row2">
+        <div className="field"><label htmlFor="p-cantons">Réservé aux cantons (vide = tous)</label><input id="p-cantons" placeholder="VD, GE" value={cantons} onChange={(e) => setCantons(e.target.value)} /></div>
+        <div className="field"><label htmlFor="p-statut">Statut</label>
+          <select id="p-statut" value={v.statut || "publie"} onChange={set("statut")}><option value="publie">Publié</option><option value="a_valider">Bêta (à valider)</option></select></div>
+      </div>
       {state === "ok" && <div className="ok-msg" role="status">Enregistré.</div>}
       {state !== "ok" && state !== "idle" && state !== "busy" && <div className="err" role="alert">{state}</div>}
       <button className="cta" type="submit" disabled={state === "busy"}>Enregistrer le parcours</button>
@@ -186,15 +211,17 @@ function ParcoursForm({ p, onSaved }: { p: Parcours; onSaved: () => Promise<void
 }
 
 /** Même format que pocketbase/seed/parcours.json. */
-function JsonTools({ parcours, unites, onImported }: { parcours: Parcours[]; unites: UniteRec[]; onImported: () => Promise<void> }) {
+function JsonTools({ parcours, unites, matieres, onImported }: { parcours: Parcours[]; unites: UniteRec[]; matieres: Matiere[]; onImported: () => Promise<void> }) {
   const [force, setForce] = useState(false);
   const [report, setReport] = useState<string | null>(null);
   const [err, setErr] = useState<string | null>(null);
 
   const exportJson = () => {
     const data = {
+      matieres: matieres.map(({ slug, nom, domaine, icone, ordre }) => ({ slug, nom, domaine, icone, ordre })),
       parcours: parcours.map((p) => ({
         ...Object.fromEntries(PARCOURS_FIELDS.map((k) => [k, p[k]])),
+        matiere: matieres.find((m) => m.id === p.matiere)?.slug ?? "",
         unites: unites.filter((u) => u.parcours === p.id).map((u) => Object.fromEntries(UNIT_FIELDS.map((k) => [k, u[k]]))),
       })),
     };
@@ -216,7 +243,12 @@ function JsonTools({ parcours, unites, onImported }: { parcours: Parcours[]; uni
       const lines: string[] = [];
       for (const { unites: us = [], ...p } of data.parcours) {
         for (const u of us) if (!GEN_IDS.includes(String(u.id_generateur))) throw new Error(`Type d’exercices inconnu : « ${u.id_generateur} » (unité « ${u.titre} »).`);
-        const fields = Object.fromEntries(PARCOURS_FIELDS.filter((k) => k in p).map((k) => [k, p[k]]));
+        const fields: Record<string, unknown> = Object.fromEntries(PARCOURS_FIELDS.filter((k) => k in p).map((k) => [k, p[k]]));
+        if (typeof p.matiere === "string") {
+          const m = matieres.find((x) => x.slug === p.matiere);
+          if (!m && p.matiere) throw new Error(`Matière inconnue : « ${p.matiere} ». Matières existantes : ${matieres.map((x) => x.slug).join(", ")}.`);
+          fields.matiere = m?.id ?? "";
+        }
         let rec = parcours.find((x) => x.slug === p.slug);
         if (!rec) rec = await pb().collection("parcours").create<Parcours>(fields);
         else if (force) rec = await pb().collection("parcours").update<Parcours>(rec.id, fields);
