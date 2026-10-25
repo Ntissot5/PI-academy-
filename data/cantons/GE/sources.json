@@ -1,0 +1,132 @@
+{
+ "canton": "GE",
+ "telecharge_le": "2026-10-25",
+ "documents": [
+  {
+   "fichier": "pdf/allemand-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf",
+   "octets": 127406,
+   "sha256": "6c4f066eead1a478956937782009bd1f28d0b4dbd7058961b284985bef8799dc"
+  },
+  {
+   "fichier": "pdf/allemand-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-co_prescriptions-cantonales.pdf",
+   "octets": 212365,
+   "sha256": "25bef051416385ea669f3ad9e1331509089751520f187dc9ed97b662a94e6a60"
+  },
+  {
+   "fichier": "pdf/anglais-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf",
+   "octets": 123748,
+   "sha256": "df4b2f56149246458f720e3365f4129ddfcd89c6214df46634c5dbc3a0c2814f"
+  },
+  {
+   "fichier": "pdf/anglais-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf",
+   "octets": 246821,
+   "sha256": "06261c593ae7a074b93b5f5907438173c15c06efc12b8a19dd5f6ae0b6a73bc4"
+  },
+  {
+   "fichier": "pdf/citoyennete-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/citoyennete-c2_prescriptions-cantonales.pdf",
+   "octets": 111480,
+   "sha256": "81df384211a91b5fb7d3428aafc23f9bb0b8ea47ac9cbd83bdf4e384feed40c8"
+  },
+  {
+   "fichier": "pdf/citoyennete-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/citoyennete-co_prescriptions-cantonales.pdf",
+   "octets": 148315,
+   "sha256": "6269286082a3f98b7fc51d2a3827bc9aa36767fe7ef76d13d5ffde871ff55636"
+  },
+  {
+   "fichier": "pdf/francais-c1_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c1_prescriptions-cantonales.pdf",
+   "octets": 141288,
+   "sha256": "2557fb33d1383115a0e985bc6b2369ec58236c648e47df05c50a33be3542c69b"
+  },
+  {
+   "fichier": "pdf/francais-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c2_prescriptions-cantonales.pdf",
+   "octets": 145280,
+   "sha256": "444727a56f32ae52cd6b67d7a2d364d9dce9d789e2a48b26b9bd2eafb51ca6e3"
+  },
+  {
+   "fichier": "pdf/francais-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf",
+   "octets": 224259,
+   "sha256": "2810e7505b66764bb6971fed599cb4bd42c2255b181ae4f8db505afb70dc671a"
+  },
+  {
+   "fichier": "pdf/geographie-c1_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-c1_prescriptions-cantonales.pdf",
+   "octets": 115230,
+   "sha256": "f7e62c96ab68442786a65d09646d764a404d0b537f60aeeba9da9ddefbb1ef2e"
+  },
+  {
+   "fichier": "pdf/geographie-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-c2_prescriptions-cantonales.pdf",
+   "octets": 121742,
+   "sha256": "9c2ea8e529bf3b3ebb44146518313879abcb77eb5e4eecbccec6b1104f16e75a"
+  },
+  {
+   "fichier": "pdf/geographie-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-co_prescriptions-cantonales.pdf",
+   "octets": 198154,
+   "sha256": "0ae10f49571e3040c274455f1844c01e5a7ee6ccd3befcf113c9809a643d75db"
+  },
+  {
+   "fichier": "pdf/histoire-c1_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-c1_prescriptions-cantonales.pdf",
+   "octets": 140584,
+   "sha256": "1e5da3fc28ef25075847eedc608239837b5cb253d0c6351707c07338b8c7b71c"
+  },
+  {
+   "fichier": "pdf/histoire-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-c2_prescriptions-cantonales.pdf",
+   "octets": 149409,
+   "sha256": "c67d51af395b552942820b986cc16a9a36f5d8832695962bd2ae89a97aa9d19b"
+  },
+  {
+   "fichier": "pdf/histoire-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-co_prescriptions-cantonales.pdf",
+   "octets": 237713,
+   "sha256": "0c2400ad363eb3554bca779ccccde45f9854fce1a8ad650dcaef57d42c86ea0b"
+  },
+  {
+   "fichier": "pdf/mathematiques-c1_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c1_prescriptions-cantonales.pdf",
+   "octets": 139073,
+   "sha256": "50fa340a775f4aba0de4dffd6c1718b68fa47d29ae4625f98a8411fe3f9d3a36"
+  },
+  {
+   "fichier": "pdf/mathematiques-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c2_prescriptions-cantonales.pdf",
+   "octets": 158115,
+   "sha256": "01f6abb48b81f57a3e9357ba31f09fc522bd1d642353d2bf64c6caf70777975f"
+  },
+  {
+   "fichier": "pdf/mathematiques-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-co_prescriptions-cantonales.pdf",
+   "octets": 215570,
+   "sha256": "cd559a67fc29bba5d5fa2421be5c376936a4e9e3041f3bbac5bfd8c57a9af0ae"
+  },
+  {
+   "fichier": "pdf/sciences-de-la-nature-c1_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c1_prescriptions-cantonales.pdf",
+   "octets": 134719,
+   "sha256": "7220950580bca49a7ea52ca7ea51c80fa048b04a4bee21b9311acc03e3106875"
+  },
+  {
+   "fichier": "pdf/sciences-de-la-nature-c2_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c2_prescriptions-cantonales.pdf",
+   "octets": 143545,
+   "sha256": "d25abfd2a9c46b32c5edd4283598e82507b203fe8abbd9d505e3b368e04fc008"
+  },
+  {
+   "fichier": "pdf/sciences-de-la-nature-co_prescriptions-cantonales.pdf",
+   "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-co_prescriptions-cantonales.pdf",
+   "octets": 259590,
+   "sha256": "eee51d78a66a04b31e0eb62477fc4c63c6951405436af5103b185c9bef5ddd50"
+  }
+ ]
+}

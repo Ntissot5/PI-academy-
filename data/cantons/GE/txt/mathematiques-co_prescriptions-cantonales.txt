@@ -1,0 +1,166 @@
+                                                                                                                                                                                              RE/AA 02.06.2026
+
+                                                     REPUBLIQUE ET CANTON DE GENEVE
+                                                     Département de l'instruction publique, de la formation et de la jeunesse
+                                                     Direction générale de l'enseignement obligatoire
+                                                     Service enseignement et évaluation
+
+
+                                                                                            Prescriptions cantonales
+Ens eignement secondaire I - C ycle d'ori entation
+                                                                                 concernant l'application du Plan d'études romand (PER)
+
+                                                                                                 Mathématiques 9e-11e
+                                                                                                          Année scolaire 2026-2027
+
+                                                     Cadre pédagogique
+                                                     Les Mathématiques s'inscrivent dans le domaine Mathématiques et Sciences de la nature
+                                                     (MSN) du Plan d'études romand (PER), lequel vise notamment à développer les compétences
+                                                     suivantes :
+                                                     • se représenter, problématiser et modéliser des situations,
+                                                     • résoudre des problèmes en construisant et en mobilisant des notions, des concepts, des
+                                                         démarches et des raisonnements propres aux Mathématiques dans les champs des
+                                                         nombres et de l'espace.
+                                                     L'enseignement des Mathématiques au cycle d'orientation vise à enrichir les compétences
+                                                     apprises à l'école primaire dans l'acquisition des méthodes et d'un langage spécifique pour
+                                                     appréhender l'espace et modéliser des situations et vise à développer l'esprit critique. Les
+                                                     connaissances et compétences ainsi développées sont mobilisées dans la pose et la résolution
+                                                     de problèmes propres aux Mathématiques ou à d'autres disciplines, notamment à la Biologie et
+                                                     à la Physique.
+
+                                                     Dotation horaire
+                                                                            9e                                                10e                                                11e
+
+                                                                     5 périodes                                         5 périodes                                         5 périodes
+
+                                                     Programme
+                                                     Les objectifs d'apprentissage des Mathématiques (MSN 31 à 34) se déclinent à travers quatre
+                                                     thèmes : espace (MSN 31), nombres et opérations (MSN 32), fonctions et algèbre (MSN 33),
+                                                     grandeurs et mesures (MSN 34). L'objectif MSN 35 (modélisation) est quant à lui transversal et
+                                                     concerne donc l'ensemble des cours du domaine MSN.
+                                                     Si les objectifs du plan d'études sont les mêmes pour l'ensemble des élèves, certains
+                                                     apprentissages, le rythme de progression et le degré de complexité sont différenciés selon les
+                                                     regroupements et les sections : le niveau 1 du PER (Niv. 1) est visé en R1 et CT, le niveau 2
+                                                     (Niv. 2) en R2 et LC et le niveau 3 (Niv. 3) en R3/TC* et LS. On se réfèrera au tableau de la
+                                                     page suivante pour le résumé des apprentissages du PER.
+                                                     * TC : Dans le cadre d'un projet pilote, la 9e année est organisée en « tronc commun » (TC) dans certains cycles d'orientation.
+
+
+                                                     Moyens d'enseignement
+                                                     Les moyens d'enseignement romands (MER) Mathématiques 9-10-11 (CIIP, 2024-2026) sont
+                                                     utilisés dans l'ensemble des classes : les élèves disposent d'un Livre et d'un Fichier pour
+                                                     chaque année de scolarité.
+                                                     Un Aide-mémoire et une calculatrice sont remis en 9e pour l'ensemble du cycle d'orientation (la
+                                                     calculatrice TI-30 XS MultiView est utilisée en 9e, la calculatrice Sharp EL-W531TG-WH en 10e-
+                                                     11e). Le matériel de géométrie (compas – remis en 7P –, équerre-rapporteur, règle graduée)
+                                                     est utilisé jusqu'à la fin de la scolarité obligatoire.
+                                                     L'utilisation des moyens d'enseignement officiels est obligatoire. Ils peuvent être complétés par des ressources développées par les enseignantes et
+                                                     enseignants et des séquences pédagogiques disponibles sur le site Enseignement (edu.ge.ch/enseignement/co).
+
+                                                                            DGEO • Service enseignement et évaluation • Chemin de l'Écho 5A • 1213 Onex • ge.ch
+                                                                                                                                                   Page : 2/2
+
+
+
+
+Évaluation
+Les moyennes trimestrielles sont établies sur la base d'au minimum cinq notes en lien avec les
+différents axes du PER. On entend par note tout travail significatif ou la moyenne de plusieurs
+travaux sur des champs plus restreints.
+En 11e année, les Mathématiques font l'objet d'une EVACOM (évaluation commune) et d'un
+TAF (test d'attentes fondamentales), dont les champs sont accessibles sur le site Enseignement
+(edu.ge.ch/enseignement/co).
+
+Annexe : résumé des apprentissages du PER
+                                            9e                                            10e                                             11e
+                         Résolution de problèmes géométriques         Résolution de problèmes géométriques            Résolution de problèmes géométriques
+                         Triangles, quadrilatères et cercles          Polygones réguliers                             Tangente, angle au centre, angle inscrit
+                         Droites parallèles et perpendiculaires       Propriétés des solides (cylindre,                 et angles isométriques (LC-LS)
+                         Angles, hauteur, médiatrice, bissectrice,      pyramide)                                     Cercle de Thalès (LS)
+                           cercle inscrit et circonscrit              Représentation de solides (prisme droit)        Propriétés des solides (cône, sphère)
+ MSN 31
+ Espace
+
+
+
+
+                         Médiane et centre de gravité (R2-R3/TC)      Rotation                                        Représentation de solides (cylindre)
+                         Propriétés des solides (cube,                                                                Représentation de pyramides régulières
+                           parallélépipède rectangle, prisme droit)                                                     (LC-LS)
+                         Représentation de solides (cube,                                                             Homothétie (LC-LS)
+                           parallélépipède rectangle)                                                                 Similitude (LS : sensibilisation)
+                         Translation, symétrie axiale et symétrie                                                     Repérage dans l'espace
+                           centrale
+                         Repérage dans le plan
+                         Résoudre des problèmes numériques            Résoudre des problèmes numériques               Résoudre des problèmes numériques
+                         Nombres entiers, multiples, diviseurs        Fractions                                       Utilisation de différentes écritures d'un
+                         Nombres décimaux                             Racines                                           même nombre
+                         Nombres relatifs                             Notation scientifique                           Opérations avec les fractions
+ Nombres et opérations
+
+
+
+
+                         Fractions                                    Priorité des opérations                         Opérations sur les nombres relatifs
+                         Puissances                                   Propriétés des puissances (LC-LS)               Probabilités
+                         Priorité des opérations                      Utilisation de différentes écritures d'un       Propriétés des racines (LS)
+       MSN 32
+
+
+
+
+                         Utilisation de différentes écritures d'un      même nombre                                   Utilisation d'outils TIC (calculatrice,
+                           même nombre                                Addition et soustraction de fractions (CT-LC)     tableur, grapheur…)
+                         Opérations sur les nombres décimaux          Multiplication et division de fractions (LS)
+                         Addition et soustraction de fractions        Multiplication et division de nombres
+                           (R3/TC)                                      relatifs (LC-LS)
+                         Addition et soustraction de nombres          Addition de nombres relatifs (CT)
+                           relatifs (R2-R3/TC)                        Utilisation d'outils TIC (calculatrice,
+                         Utilisation d'outils TIC (calculatrice,        tableur, grapheur…)
+                           tableur, grapheur…)
+                         Résolution de problèmes de                   Résolution de problèmes de                  Résolution de problèmes de
+                           proportionnalité et de problèmes             proportionnalité et de problèmes            proportionnalité et de problèmes
+                           algébriques                                  algébriques                                 algébriques
+ Fonctions et algèbre
+
+
+
+
+                         Proportionnalité (quantité/quantité,         Proportionnalité (échelle, pourcentage      Proportionnalité (vitesse, masse
+                           agrandissement et réduction)                 et pente)                                   volumique et débit)
+                         Lecture et représentation de données         Fonctions affines (LC-LS)                   Fonctions affines (CT)
+       MSN 33
+
+
+
+
+                           (diagrammes)                               Substitution (CT)                           Fonctions inverses, carrés, cubiques (LC-LS)
+                         Substitution (R2-R3/TC)                      Calcul littéral (LC-LS)                     Fonctions quadratiques (LS)
+                                                                      Équations du premier degré (LC-LS)          Substitution
+                                                                                                                  Calcul littéral
+                                                                                                                  Équations du premier degré
+                                                                                                                  Équations du second degré (LS)
+                                                                                                                  Système d'équations (LS)
+                         Résolution de problèmes de mesurage          Résolution de problèmes de mesurage         Résolution de problèmes de mesurage
+                         Longueurs (polygones)                        Longueurs du cercle                         Volume du cylindre
+ Grandeurs et mesures
+
+
+
+
+                         Aires (polygones)                            Arc de cercle et secteur circulaire (LC-LS) Volume d'un solide par décomposition
+                         Aires totales et volumes (cube,              Aire du disque et de figures composées Aire totale et volume de la pyramide (LC-LS)
+                           parallélépipède rectangle)
+       MSN 34
+
+
+
+
+                                                                      Aires totales et volumes de prismes droits Aire et volume de la sphère (LS)
+                         Mesure de grandeurs et conversion            Aire totale et volume du cylindre (LC-LS) Volume du cône (LC-LS)
+                           d'unités (longueur, aire, masse)           Calcul d'une longueur manquante             Calcul d'une longueur manquante
+                                                                      Mesure de grandeurs et conversion           Théorème de Pythagore
+                                                                        d'unités (volume, capacité, temps)        Théorème de Thalès (LC-LS)
+                                                                      Théorème de Pythagore (LC-LS)               Mesure de grandeurs et conversion
+                                                                                                                    d'unités composées (vitesse)
+

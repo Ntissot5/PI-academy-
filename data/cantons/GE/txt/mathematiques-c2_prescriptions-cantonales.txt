@@ -1,0 +1,167 @@
+                                                                                                                                      RE/NB 02.06.2026
+
+REPUBLIQUE ET CANTON DE GENEVE
+Département de l'instruction publique, de la formation et de la jeunesse
+Direction générale de l'enseignement obligatoire
+Service enseignement et évaluation
+
+
+                                       Prescriptions cantonales
+                          concernant l'application du Plan d'études romand (PER)
+
+                                            Mathématiques 5P-8P
+                                                    Année scolaire 2026-2027
+
+Cadre pédagogique
+Les Mathématiques s'inscrivent dans le domaine Mathématiques et Sciences de la nature
+(MSN) du Plan d'études romand (PER), lequel vise notamment à développer les compétences
+suivantes :
+• se représenter, problématiser et modéliser des situations,
+• résoudre des problèmes en construisant et en mobilisant des notions, des concepts, des
+    démarches et des raisonnements propres aux Mathématiques dans les champs des
+    nombres et de l'espace.
+L'enseignement des Mathématiques au cycle moyen vise à enrichir les savoirs et savoir-faire acquis
+au cycle élémentaire afin de les mobiliser dans la représentation de situations mathématiques et la
+résolution de problèmes. Les élèves sont fréquemment exposés à des situations complexes qui
+permettent de développer la maîtrise des outils mathématiques nécessaires à leur résolution.
+
+Dotation horaire
+                5P                                   6P                                    7P                                   8P
+
+          6 périodes                           6 périodes                           6 périodes                            6 périodes
+
+Programme
+La résolution de problèmes et la modélisation occupent une place centrale en Mathématiques.
+Le programme est organisé autour de quatre axes thématiques : les figures et transformations
+géométriques, le repérage dans le plan et dans l'espace (axe Espace), le dénombrement, la
+comparaison et la représentation de nombres (axe Nombres), les calculs, les multiples, les
+diviseurs et les suites de nombres (axe Opérations) ainsi que la mesure et le calcul de
+grandeurs (axe Grandeurs et mesures).
+
+Moyens d'enseignement
+Les moyens d'enseignement romands (MER) Mathématiques 5-8 sont utilisés dans l'ensemble
+des classes : les élèves disposent pour chaque année de scolarité d'un Livre, d'un Fichier et
+d'un Aide-mémoire, ainsi que d'instruments de géométrie : une règle millimétrée et une équerre
+(remis en 5P et 7P, utilisés durant deux ans), une réquerre (règle-équerre remise en 6P, utilisée
+durant trois ans), un compas et un rapporteur (remis respectivement en 7P et en 8P, à conserver
+jusqu'à la fin du cycle d'orientation).
+Du matériel spécifique permettant la manipulation est en outre mis à disposition des élèves,
+ainsi que des calculatrices (dont l'utilisation fait l'objet d'un enseignement).
+L'utilisation des moyens d'enseignement officiels est obligatoire. Ils peuvent être complétés par d'autres ressources pédagogiques.
+
+Évaluation
+Les Mathématiques font l'objet d'une note semestrielle. L'évaluation porte sur l'acquisition de
+notions et d'outils, ainsi que sur la capacité des élèves à mobiliser les compétences de
+résolution de problèmes. Chaque axe thématique du PER est évalué au moins une fois dans
+l'année ; au moins trois axes sont évalués chaque semestre.
+Les moyennes semestrielles sont constituées d'au moins trois travaux significatifs (exercices
+complexes de résolution de problèmes, complétés d'exercices d'application ou de restitution).
+                       DGEO • Service enseignement et évaluation • Chemin de l'Écho 5A • 1213 Onex • ge.ch
+                                                                                                                                                               Page : 2/2
+
+
+
+
+Un ensemble de travaux assimilés peut également constituer une note et compter comme un
+travail significatif supplémentaire dans le calcul de la moyenne.
+En 8P, les Mathématiques font en outre l'objet d'une évaluation commune de fin de cycle, en
+deux parties (composées pour moitié de situations-problème et pour moitié d'exercices
+d'application), comptant dans le bilan certificatif. La note obtenue compte pour un cinquième de
+la moyenne du deuxième semestre, soit un dixième de la moyenne annuelle.
+La directive Évaluation des compétences et des connaissances des élèves (D-E-DGEO-EP-SEE-12) pose le cadre de l'évaluation à l'école primaire.
+
+
+Annexe : résumé des apprentissages du PER
+                                                                           5P-6P                                                           7P-8P
+
+                                                Résolution de problèmes géométriques                            Résolution de problèmes géométriques
+                                                Figures géométriques planes et solides                          Figures géométriques planes et solides
+                                                  Propriétés du : triangle, carré, rectangle, losange, cercle     Propriétés des : triangles, quadrilatères, cercle
+                                                  Décomposition d'une surface plane en surfaces élémentaires      Décomposition d'une surface plane
+                                                  Croquis                                                         Construction de figures planes
+                                                  Dessin de carrés et de rectangles                               Cube, parallélépipède rectangle, pyramide
+                                                  Parallélisme et perpendicularité (6P)                           Développement, perspective et représentation de solides
+                         (MSN 21)
+                          Espace
+
+
+
+
+                                                  Cube et parallélépipède rectangle ; pyramide (6P)             Transformations géométriques
+                                                  Développement de solides                                        Translation, symétrie axiale, rotation
+                                                Transformations géométriques                                      Frises, pavages
+                                                  Propriétés des isométries                                       Axes de symétrie
+                                                  Frises, pavages                                                 Construction par isométrie de figures planes
+                                                  Axes de symétrie                                                Agrandissement et réduction
+                                                  Translation                                                   Repérage dans le plan et dans l'espace
+                                                Repérage dans le plan et dans l'espace                            Système de repérage personnel et conventionnel (plan)
+                                                  Itinéraires dans l'environnement familier
+                                                Domaine numérique de travail : nombres naturels                 Domaine numérique de travail : nombres naturels
+                                                de 0 à 1'000 (5P) ; de 0 à 10'000 (6P)                          inférieurs à 1'000'000 et nombres rationnels inférieurs à
+                                                Résolution de problèmes numériques                              10'000 avec au plus deux décimales (7P) ; nombres
+                                                                                                                naturels et nombres rationnels positifs (8P)
+                                                Dénom breme nt e t extens ion du domaine numérique
+                                                  Comptage organisé par groupement de 10, 100 (5P) ;            Résolution de problèmes numériques
+                                                      de 1'000 (6P)                                             Dénom breme nt e t extens ion du domaine numérique
+                                                  Estimation                                                      Exploration de l'infiniment grand et de l'infiniment petit
+                                                  Constitution de collections                                   Comparaison et représentation de nombres
+                         Nombres
+                         (MSN 22)
+
+
+
+
+                                                  Comptage et décomptage                                          Comparaison, classement, encadrement et intercalation
+ Modélisation (MSN 25)
+
+
+
+
+                                                  Exploration de l'infiniment grand                               Droite graduée
+                                                Comparaison et représentation de nombres                          Mise en relation de nombres naturels
+                                                  Comparaison, classement, encadrement                            Unités, dizaines, centaines, milliers, dixièmes,
+                                                      et intercalation de nombres                                     centièmes (7P) ; millièmes (8P)
+                                                  Bande numérique                                                 Fractions unitaires ou de même dénominateur
+                                                  Unités, dizaines, centaines (5P) ; milliers (6P)              Écriture de nombres
+                                                Écriture de nombres                                               Mot-nombre oral ou écrit – Décomposition
+                                                  Mot-nombre oral ou écrit – Décomposition                        Diverses écritures du nombre (8P)
+                                                                                                                  Moitié, tiers, quart, dixième, …
+                                                Résolution de problèmes additifs, soustractifs,                 Résolution de problèmes additifs, soustractifs,
+                                                multiplicatifs et divisifs                                      multiplicatifs et divisifs
+                                                Calculatrice                                                    Calculatrice
+                                                Multiples, diviseurs, suite de nombres                          Multiples, diviseurs, suite de nombres
+                         Opérations
+                          (MSN 23)
+
+
+
+
+                                                  Multiples – Critères de divisibilité – Suites arithmétiques     Multiples et diviseurs – Critères de divisibilité
+                                                Calculs                                                           Suites numériques
+                                                  Calcul réfléchi, algorithmes, répertoire mémorisé             Calculs
+                                                  Répertoire soustractif de 0-0 à 19-9                            Calcul réfléchi, algorithmes, répertoire mémorisé
+                                                  Répertoire multiplicatif de 0x0 à 9x9                           Estimations
+                                                                                                                  Répertoire multiplicatif de 0x0 à 12x12
+                                                Résolution de problèmes de mesurage                             Résolution de problèmes de mesurage
+                                                Mesure de grandeurs                                             Mesure de grandeurs
+                         Grandeurs et mesures
+
+
+
+
+                                                  Mesurage (longueur, aire, volume, masse, temps)                 Mesurage à l'aide d'outils conventionnels
+                                                     à l'aide d'outils non conventionnels                            ou non conventionnels
+                                                  Estimation                                                      Fractionnement, doublement ou triplement de
+                              (MSN 24)
+
+
+
+
+                                                  Comparaison et classement de grandeurs                             grandeurs
+                                                  Règle graduée                                                   Comparaison et classement de grandeurs
+                                                Unités de mesure (cm et m)                                      Calcul de grandeurs
+                                                                                                                  Calcul de longueurs, aires (7P) ; volumes (8P)
+                                                                                                                Unités de mesure
+                                                                                                                  Unités de longueur, aire, volumes (7P) ; angles (8P)
+                                                                                                                  Conversion d'unités
+
