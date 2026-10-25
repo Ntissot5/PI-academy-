@@ -42,11 +42,31 @@ async function first(col, filter) {
 token = (await api("POST", "/api/collections/_superusers/auth-with-password", { identity: EMAIL, password: PASSWORD })).token;
 
 const data = JSON.parse(await readFile(file, "utf8"));
+
+// Matières : référencées par leur slug dans les parcours.
+const matiereId = {};
+for (const m of data.matieres ?? []) {
+  let rec = await first("matieres", `slug = "${m.slug}"`);
+  if (!rec) rec = await api("POST", "/api/collections/matieres/records", m);
+  else if (FORCE) rec = await api("PATCH", `/api/collections/matieres/records/${rec.id}`, m);
+  matiereId[m.slug] = rec.id;
+}
+const empty = (v) => v === "" || v == null || v === 0 || (Array.isArray(v) && v.length === 0);
+
 const bySlug = {};
-for (const { unites, ...p } of data.parcours) {
+for (const { unites, ...raw } of data.parcours) {
+  const p = { ...raw };
+  if (p.matiere) {
+    p.matiere = matiereId[p.matiere] ?? (await first("matieres", `slug = "${p.matiere}"`))?.id ?? "";
+  }
   let rec = await first("parcours", `slug = "${p.slug}"`);
   if (!rec) rec = await api("POST", "/api/collections/parcours/records", p);
   else if (FORCE) rec = await api("PATCH", `/api/collections/parcours/records/${rec.id}`, p);
+  else {
+    // Sans --force : on ne remplit que les champs encore vides (ex. nouveaux champs après une migration).
+    const fill = Object.fromEntries(Object.entries(p).filter(([k, v]) => empty(rec[k]) && !empty(v)));
+    if (Object.keys(fill).length) rec = await api("PATCH", `/api/collections/parcours/records/${rec.id}`, fill);
+  }
   bySlug[p.slug] = rec;
   let created = 0;
   for (const u of unites) {

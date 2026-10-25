@@ -69,8 +69,20 @@ routerAdd("GET", "/api/pi/etat", (e) => {
   const byUnit = {};
   for (const p of progs) byUnit[p.getString("unite")] = p;
 
+  // Canton effectif : celui du profil, sinon celui de la classe (élèves).
+  let canton = e.auth.getString("canton");
+  if (!canton && e.auth.getString("classe")) {
+    try { canton = $app.findRecordById("classes", e.auth.getString("classe")).getString("canton"); } catch (_) { canton = ""; }
+  }
+  let matiere = null;
+  if (parcours.getString("matiere")) {
+    try { const m = $app.findRecordById("matieres", parcours.getString("matiere")); matiere = { slug: m.getString("slug"), nom: m.getString("nom") }; } catch (_) { matiere = null; }
+  }
+
   return e.json(200, {
     stats: stats,
+    canton: canton,
+    matiere: matiere,
     parcours: parcours,
     unites: unites.map((u) => {
       const p = byUnit[u.id];

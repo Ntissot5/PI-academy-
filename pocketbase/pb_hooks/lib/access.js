@@ -15,7 +15,7 @@ function canOpenParcours(app, auth, parcours) {
 function cleanStatement(s) {
   return String(s || "")
     .slice(0, 600)
-    .replace(/<(?!\/?(sup|sub)>)[^>]*>/gi, "")
+    .replace(/<(?!\/?(sup|sub|b)>)[^>]*>/gi, "")
     .replace(/<(?=[^>]*$)/g, "");
 }
 
