@@ -1,0 +1,95 @@
+{
+  "discipline": "Citoyenneté",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/9",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/161",
+      "code": "SHS 23",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils pertinents pour traiter des problématiques de sciences humaines et sociales",
+      "composantes": [
+        "A. en dégageant les informations pertinentes dans les sources disponibles pour produire un nouveau document",
+        "B. en enquêtant sur des hypothèses historiques ou géographiques",
+        "C. en se représentant le temps à l’aide de repères et d’outils variés",
+        "D. en se repérant sur des représentations graphiques diverses (cartes, tableaux,…) et en passant de la réalité à la carte (et inversement)",
+        "E. en décrivant et en comparant les représentations d’un espace à différentes échelles (croquis, plan, schéma, photo, maquette, …)",
+        "F. en utilisant un lexique spécifique lié à la géographie et à l’histoire",
+        "G. en sélectionnant des ressources documentaires et en les associant de manière critique"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/69",
+      "code": "SHS 24",
+      "axe": "Relation Homme-société",
+      "titre": "Identifier les formes locales d’organisation politique et sociale",
+      "composantes": [
+        "1. en distinguant les divers acteurs et la répartition des responsabilités",
+        "2. en s’initiant au débat démocratique par l’expression et la confrontation d’opinions diverses et argumentées",
+        "3. en établissant des liens entre ses droits et devoirs et ceux des autres (Convention relative aux droits de l'enfant)",
+        "4. en s'initiant au fonctionnement de la société civile et politique de sa commune et de son canton"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "Droits et devoirs de l'enfant",
+          "contenu": [
+            "Initiation aux droits, devoirs et responsabilités de l’enfant (Convention relative aux droits de l’enfant)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Droits et devoirs de l'enfant",
+          "contenu": [
+            "Comparaison entre les droits et devoirs d’un enfant en Suisse et d’un enfant dans un autre pays"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "contenu": [
+            "Découverte du rôle et du fonctionnement de sociétés locales (culturelles, sportives, caritatives,…)",
+            "Initiation au débat sur quelques choix de sociétés locales et simulation de votation"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "contenu": [
+            "Initiation à l’organisation politique communale en fonction d’événements, si possible en lien avec l’actualité (élections, votations,…)",
+            "Illustration des principales différences entre votations et élections communales et débat sur leurs enjeux",
+            "Description de différents rôles des élus communaux (selon les spécificités de chaque canton)",
+            "Identification du processus de prise de décision au niveau communal (distinction exécutif/législatif)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Droits et devoirs de l'enfant",
+          "texte": "explicite quelques droits et devoirs de l’enfant"
+        },
+        {
+          "fin": "8e",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "texte": "décrit quelques éléments du processus de décision communal à partir d’un cas concret"
+        },
+        {
+          "fin": "8e",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "texte": "identifie quelques éléments fondamentaux qui permettent de distinguer le pouvoir exécutif communal (maire/syndic, conseil communal/municipal) du pouvoir législatif communal (assemblée, conseil général, conseil de ville)"
+        }
+      ]
+    }
+  ]
+}

@@ -14,3 +14,4 @@ pocketbase/pb_data_e2e/
 .next-*/
 *.tsbuildinfo
 demo/dist/
+data/per-kit/tool/node_modules/

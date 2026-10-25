@@ -1,0 +1,298 @@
+{
+  "discipline": "Histoire",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/8",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/68",
+      "code": "SHS 22",
+      "axe": "Relation Homme-temps",
+      "titre": "Identifier la manière dont les Hommes ont organisé leur vie collective à travers le temps, ici et ailleurs",
+      "composantes": [
+        "1. en reconstituant des éléments de la vie d’une société à un moment donné de son histoire",
+        "2. en travaillant les périodisations construites par les historiens",
+        "3. en identifiant les principales religions mondiales",
+        "4. en établissant des liens entre des événements du passé ainsi qu’entre des situations actuelles et des événements du passé",
+        "5. en recourant à des documents et à des récits historiques",
+        "6. en dégageant la relativité des représentations du passé (et de l’avenir) construites à un moment donné",
+        "7. en construisant progressivement une chronologie générale des civilisations de l’histoire de l’humanité"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "Répartition des périodes étudiées",
+          "contenu": [
+            "De la Préhistoire à la fin de l'Antiquité"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Répartition des périodes étudiées",
+          "contenu": [
+            "Du Moyen Âge à l'Époque contemporaine"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "contenu": [
+            "Observation et mise en relation de documents iconographiques et de textes décrivant le mode de vie et l'organisation sociale à certaines périodes, ainsi que le territoire concerné",
+            "Identification des changements intervenus, de la permanence de certains éléments\nQuestionnement et formulation d’hypothèses concernant l’évolution des modes de vie (les situations de la vie actuelle auxquelles cela correspond, ce qui a changé, ce qui est resté et pourquoi)",
+            "Création et utilisation expérimentale de divers objets ou techniques (poterie, peinture, armes, outils, cuisine, jeux)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "contenu": [
+            "Identification et situation dans le temps d’événements qui ont contribué au changement",
+            "Organisation de ces événements selon l'ordre chronologique (succession et simultanéité)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "contenu": [
+            "Situation dans le temps et mise en relation d’événements constituant des moments de rupture (inventions, révolutions, réformes, découvertes,..)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "contenu": [
+            "Identification et description du rôle de personnages ou de groupes (acteurs individuels et collectifs) impliqués dans une relation sociale ou par un événement"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "contenu": [
+            "Distinction entre fiction (récit, mythe, légende,…) et réalité"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "contenu": [
+            "Comparaison de diverses sources concernant un événement ou une période, mise en évidence de ressemblances et de différences dans leur représentation"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "contenu": [
+            "Comparaison de diverses sources concernant un événement ou une période et mise en évidence de l’évolution des représentations"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "contenu": [
+            "Questionnement sur l’authenticité des événements et des personnages, la véracité des reconstitutions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "contenu": [
+            "Mise en évidence de représentations erronées et « idées reçues » concernant les périodes historiques"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Traces et mémoire",
+          "contenu": [
+            "Questionnement sur ce qui reste d’une période, d’un événement, sur les éléments (traces ou documents) qui permettent de les comprendre, sur ce qui a été conservé et pourquoi (esthétique, mémoire, valeur réelle ou sentimentale,…)",
+            "Observation de traces du passé (objets, monuments, aménagement de l’espace,…) : matière, provenance, situation, condition, lieu et raison de leur conservation. Identification des renseignements qu’elles donnent",
+            "Identification des héritages du passé, des conséquences sur la vie actuelle (répartition linguistique, religieuse, organisation sociale, politique, manifestation culturelle,…), et des commémorations"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Exploitation et analyse des sources (gravures, photos, films, textes originaux, témoignages, articles,…) traitant d’un même sujet ou d’une même période, selon leur pertinence, leur authenticité"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Exploration et identification de l’apport de diverses sources"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Distinction entre sources historiques et reconstitutions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Sélection d'informations, comparaison et mise en relation de sources diverses afin de :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– répondre à une question donnée ou vérifier une hypothèse"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– répondre à une question donnée et vérifier une hypothèse",
+            "– présenter quelques caractéristiques d’une période, d’un événement, d’un personnage"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– décrire un changement, une évolution concernant un aspect de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– décrire un changement, une évolution dans la vie quotidienne, la vie sociale"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Appropriation d'un vocabulaire et de notions spécifiques au temps et à l'histoire"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Date, période, durée, chronologie, déroulement\nAnnée, siècle, millénaire",
+            "Événement, changement, évolution\nSociété, religion, pouvoir,…\nTrace, source historique, reconstitution",
+            "Préhistoire, Antiquité, Moyen Âge, Temps modernes, Époque contemporaine"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Se repérer",
+          "contenu": [
+            "Mise en évidence de la durée des périodes, de la chronologie (succession et simultanéité) des événements concernant l'histoire des Hommes ici et ailleurs, par l’utilisation et la construction de frises chronologiques",
+            "Mise en relation avec des repères temporels liés à l'histoire familiale",
+            "Attribution progressive d’éléments liés à chaque période ou événement (images, photos, mots-clés,…) permettant d’en identifier les caractéristiques",
+            "Enrichissement de la frise historique par des éléments en lien avec l’actualité, ou évoqués dans d’autres domaines (arts, sciences, littérature,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "texte": "caractérise selon 2 ou 3 critères le mode de vie à certaines périodes de l’histoire, dans certaines régions"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "texte": "distingue, entre l'objet d'étude et la période actuelle ou d'autres périodes du passé, des éléments qui ont changé ou qui sont restés"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "texte": "cite et commente des événements qui induisent un changement"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "texte": "met en relation des personnages, des lieux et des événements repères"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "texte": "identifie, catégorise et décrit le rôle des acteurs concernés par un événement"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "texte": "distingue les personnages historiques des héros de fiction"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "texte": "identifie des différences de représentation à propos d’un événement, d’une période"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Traces et mémoire",
+          "texte": "met en relation des objets avec la période où ils ont été produits, identifie le lieu et la raison de leur conservation"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Traces et mémoire",
+          "texte": "identifie et situe dans le temps quelques événements de l’histoire locale ou nationale ayant laissé des traces dans la vie actuelle"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Traces et mémoire",
+          "texte": "met en relation des éléments historiques et leur commémoration"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "choisit dans les documents à disposition, les informations pertinentes et utiles pour la compréhension d’un événement"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "présente, oralement ou par écrit, le résultat d’une recherche en associant plusieurs éléments (textes, images, lignes du temps, carte,…)"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "connaît et utilise en situation un vocabulaire adéquat pour décrire des éléments et les situer dans le temps"
+        },
+        {
+          "fin": "8e",
+          "notion": "Se repérer",
+          "texte": "choisit la plus pertinente des représentations graphiques de l’écoulement du temps et l'utilise pour situer des périodes, des événements, des personnages"
+        },
+        {
+          "fin": "8e",
+          "notion": "Se repérer",
+          "texte": "caractérise, ordonne et situe dans le temps les grandes périodes de l’histoire"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/161",
+      "code": "SHS 23",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils pertinents pour traiter des problématiques de sciences humaines et sociales",
+      "composantes": [
+        "A. en dégageant les informations pertinentes dans les sources disponibles pour produire un nouveau document",
+        "B. en enquêtant sur des hypothèses historiques ou géographiques",
+        "C. en se représentant le temps à l’aide de repères et d’outils variés",
+        "D. en se repérant sur des représentations graphiques diverses (cartes, tableaux,…) et en passant de la réalité à la carte (et inversement)",
+        "E. en décrivant et en comparant les représentations d’un espace à différentes échelles (croquis, plan, schéma, photo, maquette, …)",
+        "F. en utilisant un lexique spécifique lié à la géographie et à l’histoire",
+        "G. en sélectionnant des ressources documentaires et en les associant de manière critique"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

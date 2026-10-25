@@ -1,0 +1,284 @@
+{
+  "extrait_le": "2026-10-25T19:42:43.229Z",
+  "source": "https://portail.ciip.ch/per",
+  "fichiers": [
+    {
+      "discipline": "Mathématiques",
+      "cycle": 3,
+      "fichier": "PER_mathematiques_cycle3.json",
+      "objectifs": [
+        "MSN 31",
+        "MSN 32",
+        "MSN 33",
+        "MSN 34",
+        "MSN 35"
+      ],
+      "progressions": 151
+    },
+    {
+      "discipline": "Mathématiques",
+      "cycle": 2,
+      "fichier": "PER_mathematiques_cycle2.json",
+      "objectifs": [
+        "MSN 21",
+        "MSN 22",
+        "MSN 23",
+        "MSN 24",
+        "MSN 25"
+      ],
+      "progressions": 103
+    },
+    {
+      "discipline": "Mathématiques",
+      "cycle": 1,
+      "fichier": "PER_mathematiques_cycle1.json",
+      "objectifs": [
+        "MSN 11",
+        "MSN 12",
+        "MSN 13",
+        "MSN 14",
+        "MSN 15"
+      ],
+      "progressions": 57
+    },
+    {
+      "discipline": "Sciences de la nature",
+      "cycle": 3,
+      "fichier": "PER_sciences-nature_cycle3.json",
+      "objectifs": [
+        "MSN 35",
+        "MSN 36",
+        "MSN 37",
+        "MSN 38"
+      ],
+      "progressions": 38
+    },
+    {
+      "discipline": "Sciences de la nature",
+      "cycle": 2,
+      "fichier": "PER_sciences-nature_cycle2.json",
+      "objectifs": [
+        "MSN 25",
+        "MSN 26",
+        "MSN 27",
+        "MSN 28"
+      ],
+      "progressions": 89
+    },
+    {
+      "discipline": "Sciences de la nature",
+      "cycle": 1,
+      "fichier": "PER_sciences-nature_cycle1.json",
+      "objectifs": [
+        "MSN 15",
+        "MSN 16",
+        "MSN 17",
+        "MSN 18"
+      ],
+      "progressions": 77
+    },
+    {
+      "discipline": "Français",
+      "cycle": 3,
+      "fichier": "PER_francais_cycle3.json",
+      "objectifs": [
+        "L1 31",
+        "L1 32",
+        "L1 33",
+        "L1 34",
+        "L1 35",
+        "L1 36",
+        "L1 38",
+        "L 37"
+      ],
+      "progressions": 247
+    },
+    {
+      "discipline": "Français",
+      "cycle": 2,
+      "fichier": "PER_francais_cycle2.json",
+      "objectifs": [
+        "L1 21",
+        "L1 22",
+        "L1 23",
+        "L1 24",
+        "L1 25",
+        "L1 26",
+        "L1 28",
+        "L 27"
+      ],
+      "progressions": 382
+    },
+    {
+      "discipline": "Français",
+      "cycle": 1,
+      "fichier": "PER_francais_cycle1.json",
+      "objectifs": [
+        "L1 11-12",
+        "L1 13-14",
+        "L1 15",
+        "L1 16",
+        "L1 18",
+        "L 17"
+      ],
+      "progressions": 225
+    },
+    {
+      "discipline": "Allemand",
+      "cycle": 3,
+      "fichier": "PER_allemand_cycle3.json",
+      "objectifs": [
+        "L2 31",
+        "L2 32",
+        "L2 33",
+        "L2 34",
+        "L2 36",
+        "L 37"
+      ],
+      "progressions": 60
+    },
+    {
+      "discipline": "Allemand",
+      "cycle": 2,
+      "fichier": "PER_allemand_cycle2.json",
+      "objectifs": [
+        "L2 21",
+        "L2 22",
+        "L2 23",
+        "L2 24",
+        "L2 26",
+        "L 27"
+      ],
+      "progressions": 42
+    },
+    {
+      "discipline": "Allemand",
+      "cycle": 1,
+      "fichier": "PER_allemand_cycle1.json",
+      "objectifs": [],
+      "progressions": 0
+    },
+    {
+      "discipline": "Anglais",
+      "cycle": 3,
+      "fichier": "PER_anglais_cycle3.json",
+      "objectifs": [
+        "L3 31",
+        "L3 32",
+        "L3 33",
+        "L3 34",
+        "L3 36",
+        "L 37"
+      ],
+      "progressions": 71
+    },
+    {
+      "discipline": "Anglais",
+      "cycle": 2,
+      "fichier": "PER_anglais_cycle2.json",
+      "objectifs": [
+        "L 27",
+        "L3 21",
+        "L3 22",
+        "L3 23",
+        "L3 24",
+        "L3 26"
+      ],
+      "progressions": 52
+    },
+    {
+      "discipline": "Anglais",
+      "cycle": 1,
+      "fichier": "PER_anglais_cycle1.json",
+      "objectifs": [],
+      "progressions": 0
+    },
+    {
+      "discipline": "Géographie",
+      "cycle": 3,
+      "fichier": "PER_geographie_cycle3.json",
+      "objectifs": [
+        "SHS 31",
+        "SHS 33"
+      ],
+      "progressions": 18
+    },
+    {
+      "discipline": "Géographie",
+      "cycle": 2,
+      "fichier": "PER_geographie_cycle2.json",
+      "objectifs": [
+        "SHS 21",
+        "SHS 23"
+      ],
+      "progressions": 28
+    },
+    {
+      "discipline": "Géographie",
+      "cycle": 1,
+      "fichier": "PER_geographie_cycle1.json",
+      "objectifs": [
+        "SHS 11",
+        "SHS 13"
+      ],
+      "progressions": 38
+    },
+    {
+      "discipline": "Histoire",
+      "cycle": 3,
+      "fichier": "PER_histoire_cycle3.json",
+      "objectifs": [
+        "SHS 32",
+        "SHS 33"
+      ],
+      "progressions": 25
+    },
+    {
+      "discipline": "Histoire",
+      "cycle": 2,
+      "fichier": "PER_histoire_cycle2.json",
+      "objectifs": [
+        "SHS 22",
+        "SHS 23"
+      ],
+      "progressions": 24
+    },
+    {
+      "discipline": "Histoire",
+      "cycle": 1,
+      "fichier": "PER_histoire_cycle1.json",
+      "objectifs": [
+        "SHS 12",
+        "SHS 13"
+      ],
+      "progressions": 35
+    },
+    {
+      "discipline": "Citoyenneté",
+      "cycle": 3,
+      "fichier": "PER_citoyennete_cycle3.json",
+      "objectifs": [
+        "SHS 33",
+        "SHS 34"
+      ],
+      "progressions": 9
+    },
+    {
+      "discipline": "Citoyenneté",
+      "cycle": 2,
+      "fichier": "PER_citoyennete_cycle2.json",
+      "objectifs": [
+        "SHS 23",
+        "SHS 24"
+      ],
+      "progressions": 5
+    },
+    {
+      "discipline": "Citoyenneté",
+      "cycle": 1,
+      "fichier": "PER_citoyennete_cycle1.json",
+      "objectifs": [],
+      "progressions": 0
+    }
+  ]
+}

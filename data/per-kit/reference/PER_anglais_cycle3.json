@@ -1,0 +1,759 @@
+{
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/4",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/178",
+      "code": "L3 31",
+      "axe": "Compréhension de l'écrit",
+      "titre": "Lire de manière autonome des textes rédigés en langage courant",
+      "composantes": [
+        "1. en repérant des informations dans le texte",
+        "2. en se familiarisant avec les règles de l’expression écrite",
+        "3. en dégageant le thème et l’organisation générale d’un texte",
+        "4. en abordant divers genres textuels ainsi que la situation de communication dans laquelle ils ont été produits ainsi que les raisons pour le choix du genre",
+        "5. en anticipant le contenu d’un texte en fonction du support et du genre textuel",
+        "6. en enrichissant son capital lexical et structurel",
+        "7. en distinguant le réel de l’imaginaire",
+        "8. en participant à des moments de lecture d’ouvrages littéraires",
+        "9. en émettant et en vérifiant des hypothèses sur le sens et l’interprétation du texte"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension détaillée de textes informatifs ou narratifs, courts et simples, liés à des thèmes de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension détaillée de textes informatifs ou narratifs, liés à des thèmes variés et connus de l’élève"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension détaillée de textes informatifs, narratifs ou argumentatifs, liés à des thèmes plus variés et parfois inconnus de l’élève"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Choix de textes (lettre personnelle, interview, article de presse, page web, carte postale, chanson, poème, courriel, graded reader, lettre de lecteur, fait divers, biographie, portrait, article de vulgarisation scientifique et/ou historique,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension de textes contenant un vocabulaire élémentaire (Niv 1), étendu (Niv 2) et des structures grammaticales simples (Niv 1), complexes (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension globale de textes de plus en plus complexes"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Consolidation et développement de stratégies de lecture"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, paratexte,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Repérage et mise en relation d’informations (Niv 1), reformulation des idées principales et du contenu (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de divers genres textuels (affiche, publicité, annonce, lettre personnelle, courriel, courrier des lecteurs, reportage, actualité, recette, BD, blog, page internet, graded reader,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Observation et description de l’organisation du texte (titre, sous-titres, paragraphes, illustrations,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "repère des informations ponctuelles et comprend le sens global d’un texte, sur des sujets courants, à condition que les structures grammaticales soient simples et le vocabulaire adapté\nNiveau de référence A2.2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "repère des informations détaillées et comprend le sens global d’un texte d’une certaine longueur, sur des sujets divers, connus ou inconnus, même si le vocabulaire est étendu et les structures grammaticales complexes"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "repère et réunit des informations provenant de différentes parties d’un ou de plusieurs textes, afin d’accomplir une tâche spécifique"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "identifie les opinions et les arguments d’un texte argumentatif sans en comprendre nécessairement le détail\nNiveau de référence B1.2 (cf. ci-dessous) (Niv 2)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/180",
+      "code": "L3 32",
+      "axe": "Production de l'écrit",
+      "titre": "Écrire des textes variés sur des sujets familiers ou d'intérêt personnel",
+      "composantes": [
+        "1. en adaptant sa production à la situation de communication",
+        "2. en mobilisant et en enrichissant ses connaissances discursives, lexicales et structurelles",
+        "3. en recourant aux moyens de référence appropriés",
+        "4. en utilisant sa propre créativité"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Production de textes écrits courts et simples, de types informatif ou narratif, sur des sujets de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Production de textes écrits plus complexes, de types informatif ou narratif, sur des sujets connus"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Production de textes écrits, de types informatif, narratif ou argumentatif, sur des sujets variés"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Choix de textes (invitation, mot d’excuse, récit, portrait, description de personnes, de lieux, d’objets ou d’animaux, affiche, lettre, courriel, message, carte postale, SMS, menu, recette, dialogue, poème, résumé,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Production de textes ayant fait l'objet de recherches (compte-rendu d’enquête, article,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Consolidation et développement de stratégies de production écrite"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification du contexte de communication (émetteur, destinataire, support, but poursuivi, contexte social, circonstances,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Organisation du discours :",
+            "- de la phrase simple à la phrase complexe (connecteurs (Niv 1-2), phrases subordonnées (Niv 2),…)",
+            "- du texte simple au texte complexe (titre, paragraphe, ponctuation, organisateurs de texte, exemple, développement des idées (Niv 1-2), structuration d'une argumentation (Niv 2),…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire adéquat en fonction de la situation de communication (recherche de champs lexicaux, d’expressions, d’antonymes, de synonymes, mobilisation du vocabulaire à l’aide d’un support visuel,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Mobilisation des acquis langagiers adaptés à la situation de communication (En lien avec L3 36 – Fonctionnement de la langue)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "produit des textes écrits simples, cohérents et compréhensibles, sur lui-même et son environnement"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "produit des textes écrits simples pour exprimer ses préférences, pour raconter une histoire ou présenter un sujet\nNiveau de référence A2.1 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "produit des textes écrits cohérents et compréhensibles sur des sujets variés, avec davantage d’aisance et de développement"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "produit des textes écrits pour exprimer et justifier ses goûts et son opinion à l’aide d’exemples et d’arguments\nNiveau de référence B1.1 (cf. ci-dessous) (Niv 2)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/177",
+      "code": "L3 33",
+      "axe": "Compréhension de l'oral",
+      "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en dégageant le sujet, l’idée principale et l’organisation du texte",
+        "2. en s’appuyant sur les indices verbaux et non-verbaux et sur les éléments de la textualisation",
+        "3. en identifiant le sens d’un mot, d’une phrase à l’aide du contexte",
+        "4. en recourant à des stratégies d’écoute adaptées à la situation de communication",
+        "5. en enrichissant ses connaissances lexicales et structurelles",
+        "6. en découvrant des productions littéraires variées (pièce de théâtre, pièce radiophonique, opéra,…)",
+        "7. en identifiant les genres oraux et leurs canaux d’émission"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension détaillée de textes oraux simples sur des sujets de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension détaillée de textes oraux sur des sujets connus de l’élève"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension détaillée de textes oraux d’une certaine longueur, sur des sujets plus variés et parfois inconnus de l’élève"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Choix de textes (interview, description de personnes, de lieux, d’animaux et d’objets, expression des préférences, chanson, récit, témoignage, dialogue, conversation téléphonique, émission de télé ou radio,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension de textes contenant un vocabulaire élémentaire (Niv 1), étendu (Niv 2) et des structures grammaticales simples (Niv 1), complexes (Niv 2), dans une langue standard, avec une articulation claire et un débit adapté (Niv 1), plus soutenu (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Consolidation et développement de stratégies d’écoute"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension globale de textes oraux de plus en plus complexes"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, éléments sonores, intonation, …)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Compréhension du langage de la classe (instructions, consignes,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "repère des informations ponctuelles et comprend le sens global d’un texte oral, sur des thèmes familiers, à condition que les structures grammaticales soient simples et que le vocabulaire, l’articulation et le débit soient adaptés\nNiveau de référence A2.2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "saisit des informations détaillées et comprend le sens global d’un texte oral d’une certaine longueur, clairement articulé, sur des sujets plus variés et parfois inconnus de l’élève, même si le vocabulaire est étendu, les structures grammaticales complexes, le débit soutenu\nNiveau de référence B1.2 (cf. ci-dessous) (Niv 2)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/179",
+      "code": "L3 34",
+      "axe": "Production de l'oral",
+      "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en mobilisant ses connaissances lexicales et structurelles",
+        "2. en utilisant des moyens de référence pour préparer certaines interventions",
+        "3. en fonctionnant dans différents rôles en interaction avec les autres",
+        "4. en s’adaptant aux réactions de ses interlocuteurs",
+        "5. en se représentant la situation de communication et en s’y adaptant (genres oraux, lieux, interlocuteurs, registre de langues,…)",
+        "6. en sélectionnant et en organisant un contenu"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux courts et simples, de types informatif ou narratif, sur des sujets de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux plus complexes, de types informatif ou narratif, sur des sujets connus"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux, de types informatif, narratif ou argumentatif, sur des sujets connus et variés"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Choix de thèmes (identité, emploi du temps, hobby, humeur, expression de ses préférences, vacances, projets d’avenir,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux ayant fait l'objet d'une recherche (sujets historiques, scientifiques, culturels, de société,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Consolidation et développement de stratégies de production orale"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Organisation du discours :",
+            "- de la phrase simple à la phrase complexe (connecteurs (Niv 1-2), phrases subordonnées (Niv 2),…)",
+            "- du texte simple au texte complexe (organisateurs de texte, exemple, développement des idées (Niv 1-2), structuration d'une argumentation (Niv 2),…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire adéquat"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Mobilisation d'acquis linguistiques adaptés à la situation de communication (En lien avec L3 36 – Fonctionnement de la langue)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Acquisition d'une prononciation et d'une intonation adaptées (accent tonique, phonèmes, rythme,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Échange d’informations sur soi, les autres, la vie quotidienne (achat, itinéraire, invitation, intention, goût, capacités, habitudes,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Participation à une conversation sur des thèmes familiers (achat, itinéraire, invitation, intention, goût, capacités, habitudes, conseil, opinion,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Participation à une conversation sur des thèmes variés (achat, itinéraire, invitation, intention, goût, capacités, habitudes, conseil, opinion, science, actualité, technologie,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Consolidation et développement de stratégies de production orale"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Capacité à interagir en fonction du message reçu (réaction, adaptation de son comportement,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Capacité à entretenir la discussion (relance, question, demande de précisions, demande de répétitions, adaptation de son comportement,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire adéquat"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Mobilisation d'acquis linguistiques adaptés à la situation de communication (En Lien avec L3 36 – Fonctionnement de la langue)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Acquisition d'une prononciation et d'une intonation adaptées (accent tonique, phonèmes, rythme,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "produit des textes oraux cohérents et compréhensibles pour parler de lui-même et de son environnement, raconter une histoire ou présenter un exposé"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "produit des textes oraux pour exprimer et justifier ses goûts"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "Niveau de référence A2.2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "produit des textes oraux cohérents et compréhensibles sur des sujets variés, avec davantage d’aisance"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "produit des textes oraux pour exprimer et justifier ses préférences et son opinion à l’aide d’exemples et d’arguments\nNiveau de référence B1.1 (cf. ci-dessous) (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "participe à une conversation en posant des questions et en y répondant"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "participe à une conversation sur un sujet connu"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "demande à son interlocuteur de répéter s’il ne comprend pas quelque chose\nNiveau de référence A2.2 (cf. ci-dessous)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "participe à une conversation en posant des questions et en y répondant"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "exprime son opinion sur des sujets variés et demande aux autres leur opinion"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "entretient la conversation par des questions ou des demandes de précision\nNiveau de référence B1.1 (cf. ci-dessous) (Niv 2)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/181",
+      "code": "L3 36",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+      "composantes": [
+        "1. en développant l’usage de divers moyens de référence (dictionnaires, grammaires scolaires,…)",
+        "2. en découvrant et en s’appropriant les principales régularités de construction et de fonctionnement du mot, de la phrase et du texte",
+        "3. en identifiant les principales catégories grammaticales et les principales fonctions",
+        "4. en prenant conscience de l’existence de normes et de variations à partir de productions langagières diverses",
+        "5. en développant et en structurant un vocabulaire commun pour parler du langage et de la langue",
+        "6. en vérifiant ses productions écrites à l’aide des connaissances lexicales et structurelles acquises"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Acquisition d’un répertoire de mots et d’expressions de plus en plus étoffé"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Utilisation adéquate des minuscules et des majuscules (jours, mois, pronom \"I\", matières scolaires, nationalités,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Distinction entre orthographe et prononciation"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Acquisition de quelques spécificités morphologiques (élisions phoniques, marques du pluriel,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Sensibilisation aux différents registres de langue (familier, courant, soutenu)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Maîtrise de l’alphabet"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Association entre phonèmes et graphèmes"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Acquisition d’une prononciation et intonation adaptées (accent tonique, sons spécifiques, rythme,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification et utilisation des temps et des modes (simple present, imperative form, present continuous, going to, will, past simple, zero conditional (Niv 1-2), conditional first and second, present perfect, past continuous (Niv 2))",
+            "Découverte des temps et des modes (conditional second, present perfect, past continuous (Niv 1-2), present perfect continuous, past perfect (Niv 2))"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Utilisation des auxiliaires modaux (can, could, must, have to (Niv 1-2), should (Niv 2))",
+            "Découverte des auxiliaires modaux (should (Niv 1), may, might, had better, used to (Niv 2))"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Distinction entre les catégories de mots (nom, verbe, déterminant, pronom, adjectif, adverbe, conjonction, préposition,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation des pronoms personnels sujets et compléments"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation des déterminants articles (définis/indéfinis), possessifs et démonstratifs"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation des types de phrases (déclaratif, interrogatif, impératif) et des formes affirmative et négative"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Découverte et utilisation de particularités (short answers, full forms and short forms, possessive forms, phrasal verbs, verbes suivis du gérondif ou de l’infinitif,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation du comparatif et du superlatif"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation de some/any, how much/how many avec des noms comptables/non comptables"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Position des éléments dans la phrase (adverbes, adjectifs, noms, verbes, prépositions, connecteurs,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation de phrases simples, juxtaposées, coordonnées et subordonnées"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Découverte de la forme passive (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation adéquate de la ponctuation"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "mobilise en contexte un répertoire de mots et d’expressions relatif à des situations familières"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "orthographie et épelle correctement des expressions et des mots\nNiveau de référence A2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "mobilise en contexte un répertoire de mots et d’expressions relatif à des situations variées\nNiveau de référence B1 (cf. ci-dessous) (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Phonologie",
+          "texte": "prononce de façon compréhensible des mots et des expressions connus\nNiveau de référence A2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "utilise de manière appropriée les principaux temps du passé, présent et futur en fonction de la situation de communication\nNiveau de référence A2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire et syntaxe",
+          "texte": "mobilise en contexte des structures grammaticales de base appartenant à un répertoire mémorisé\nNiveau de référence A2 (cf. ci-dessous) (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire et syntaxe",
+          "texte": "mobilise en contexte des structures grammaticales appropriées\nNiveau de référence B1 (cf. ci-dessous) (Niv 2)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/158",
+      "code": "L 37",
+      "axe": "Approches interlinguistiques",
+      "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+      "composantes": [
+        "1. en observant les emprunts des langues entre elles",
+        "2. en étudiant l’évolution linguistique entre les langues de l’Antiquité et le français",
+        "3. en comparant les aspects lexicaux et syntaxiques",
+        "4. en identifiant et en différenciant l’origine de références culturelles issues de différentes cultures dans l’espace et le temps",
+        "5. en acquérant des outils d’analyse lexicale issus de l’étymologie",
+        "6. en analysant des similitudes à l’intérieur de familles de langues"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

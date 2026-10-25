@@ -1,0 +1,356 @@
+{
+  "discipline": "Géographie",
+  "cycle": 1,
+  "source": "https://portail.ciip.ch/per/disciplines/7",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/65",
+      "code": "SHS 11",
+      "axe": "Relation Homme-espace",
+      "titre": "Se situer dans son contexte spatial et social",
+      "composantes": [
+        "1. en explorant l’espace vécu et l’espace des autres (activités humaines), en exprimant sa perception",
+        "2. en se familiarisant avec la lecture de photos, maquettes, schémas, plans et cartes",
+        "3. en utilisant des termes spécifiques liés à l’espace et à la géographie",
+        "4. en s’interrogeant et en recherchant des solutions à un problème lié à l’aménagement de l’espace vécu",
+        "5. en s’orientant dans l’espace vécu à l'aide de repères",
+        "6. en représentant librement l’espace vécu"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-2e",
+          "notion": "Espaces concernés",
+          "contenu": [
+            "Espace familier de l'élève (classe, école, maison,…) ainsi que l'espace vécu (place de jeux, jardin,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Espaces concernés",
+          "contenu": [
+            "Espace familier de l'élève (classe, école, maison,…) ainsi que les espaces fréquentés occasionnellement dans le quartier ou le village en lien avec la vie de la classe (patinoire, piscine, espace vert,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Percevoir",
+          "contenu": [
+            "Découverte sensorielle de l’espace proche (perception des odeurs, bruits, matières, lumières, températures,…)",
+            "Expression des observations et des sentiments liés aux espaces vécus ou visités (surprise, curiosité, crainte, attrait, malaise,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Observation et description de l’espace vécu ou fréquenté",
+            "Énoncé des différences constatées (distance, pente, durée,…) dans les espaces concernés et dans les descriptions des élèves"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Distinction entre les éléments naturels et ceux construits par l’Homme (aménagements)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Description de certaines de leurs caractéristiques (fonction sociale, utilisation, dangerosité, matériaux utilisés,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Catégorisation des éléments, naturels et construits, de l’espace proche (cours d’eau, végétation, voies de communication, bâtiments)",
+            "Utilisation de ces catégories pour décrire des éléments de l’espace proche"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Comparaison entre l'espace vécu et des espaces lointains (autres quartiers, régions, lieux de vacances,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Identification sur des photographies d’éléments appartenant à l’espace vécu"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Localisation, sur le terrain, d’éléments dessinés ou photographiés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Localisation, sur le terrain et sur divers supports (plans, maquettes, croquis), d’éléments dessinés ou photographiés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Recherche sur le terrain de l’emplacement du photographe au moment de la prise de vue"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Identification des formes, des volumes et des éléments significatifs (bâtiments, cours d’eau, routes,…) représentés sur divers supports"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "(photos, maquettes,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "(photos, maquettes, schémas, plans et cartes)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Repérage des signes et symboles figurant sur les représentations libres ou conventionnelles"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Décodage de signes et de symboles figurant sur les représentations libres ou conventionnelles"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Comparaison entre la réalité et les représentations graphiques des divers supports"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Comparaison de photographies de lieux divers, ou d’un même lieu selon différents angles de vue, à différents moments de l'année",
+            "Mise en évidence des ressemblances et des différences"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Identification de la permanence (ou non) de certains éléments et de leur pertinence en tant que points de repère"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Définition de la position d'une personne ou d’un élément par rapport à soi",
+            "Définition de sa propre position ou de celle d’un élément par rapport à des points de repère"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Définition de la position d’un élément en tenant compte d’un point de vue différent (autre personne, autre emplacement)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Déplacement dans un espace familier (classe, salle de gym, préau,…) sur la base d’indications (consignes orales, photographies,…), en utilisant des points de repère"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Déplacement dans un espace fréquenté sur la base d’indications (consignes orales ou écrites, photos, schémas, plans,…) en utilisant des points de repère communs définis par la classe"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Description d’un parcours (destinée à une autre personne)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Représentation de l’espace proche en deux dimensions (dessin, peinture,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Représentation de l’espace proche en deux et trois dimensions (disposition d'objets, modelage,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Dessin d’un trajet respectant une succession de points de repère"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Utilisation d'un vocabulaire spécifique précis pour décrire et situer les différents éléments de l'espace proche : devant, derrière, gauche, droite, en haut, en bas, loin, près, sur, dessus, sous, dessous, à côté, au milieu, dedans, dehors,…"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Utilisation de verbes d'action liés aux déplacements : aller vers, tourner, traverser, monter, descendre,…"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Observation de l’aménagement de l’espace familier (classe, préau, place de jeu, jardin,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Observation de l’aménagement de l’espace familier et fréquenté (école, quartier, village,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification d’aménagements différents (vestiaire, coin lecture, préau,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification d’aménagements différents, selon divers critères (utilité, sécurité, esthétique, impact environnemental)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification des fonctions possibles d’un espace (espace de travail, de loisirs, de repos,…) et des personnes concernées par cet espace (les utilisateurs et ceux qui décident de son utilisation, de son aménagement)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Formulation d’hypothèses concernant l’emplacement de divers éléments (mobilier de la classe, locaux de l’école, zones de jeu dans le préau, bâtiments,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Formulation de propositions argumentées pour l’aménagement de l’espace familier"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Décrire et classer/catégoriser",
+          "texte": "exprime oralement ses observations spatiales (c’est loin, près, long, court, ça monte, ça descend,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Décrire et classer/catégoriser",
+          "texte": "décrit et catégorise quelques éléments de l'espace proche"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "situe des éléments du terrain sur une maquette ou un plan, et inversement"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "reconnaît des éléments sur une photographie, un dessin ou un plan simple représentant la réalité"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "situe une personne ou un élément par rapport à soi ou à des points de repères"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "suit et décrit un parcours familier à l’aide d’un plan ou d’une maquette en se référant à des repères communs"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "représente un trajet familier par le dessin en tenant compte de la succession des points de repère"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "utilise des termes de repérage pertinents pour situer et décrire un élément"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) questionner et analyser",
+          "texte": "différencie les espaces de l'école en identifiant les utilisateurs, les fonctions"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/165",
+      "code": "SHS 13",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S’approprier, en situation, des outils pertinents pour découvrir et se questionner sur des problématiques de sciences humaines et sociales",
+      "composantes": [
+        "A. en repérant et en identifiant des informations pertinentes dans les sources disponibles",
+        "B. en se repérant sur des représentations graphiques diverses (photographie, dessin, plan simple, calendrier,…)",
+        "C. en décrivant et en comparant avec la réalité actuelle différentes représentations temporelles ou spatiales (photographie, croquis, plan, schéma, maquette, calendrier, ligne ou roue du temps,…)",
+        "D. en utilisant un vocabulaire spécifique lié au repérage dans l’espace et dans le temps"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

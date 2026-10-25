@@ -1,0 +1,3460 @@
+{
+  "discipline": "Français",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/1",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/3",
+      "code": "L1 21",
+      "axe": "Compréhension de l'écrit",
+      "titre": "Lire de manière autonome des textes variés et développer son efficacité en lecture",
+      "composantes": [
+        "1. en abordant divers genres textuels ainsi que la situation de communication dans laquelle ils ont été produits",
+        "2. en utilisant les moyens de référence",
+        "3. en dégageant le sujet et l’organisation générale d’un texte et en hiérarchisant les contenus",
+        "4. en mobilisant et en développant ses connaissances langagières (lexicales, grammaticales, phonologiques, prosodiques,…) et extralangagières (connaissance du monde, références culturelles,…)",
+        "5. en situant une information dans une des parties du texte",
+        "6. en anticipant le contenu d’un texte en fonction du support et du genre textuel",
+        "7. en enrichissant son capital lexical, syntaxique et orthographique",
+        "8. en distinguant le réel de l’imaginaire, l’explicite de l’implicite",
+        "9. en émettant et en vérifiant des hypothèses sur le sens et l’interprétation du texte"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Projet de lecture",
+          "contenu": [
+            "Élaboration d’un projet de lecteur en tenant compte de l’horizon d’attente, d'une intention de lecture, du type de support, de l'origine du texte à lire, du genre abordé, des connaissances générales du lecteur",
+            "Adaptation du comportement de lecteur (lecture intégrale, sélective,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Gestion de la compréhension",
+          "contenu": [
+            "Questionnement du texte, émission et vérification d’hypothèses en cours de lecture",
+            "Reformulation d’un passage du texte dans la perspective d'approfondir sa compréhension",
+            "Résumé oral d'un texte ou d'une partie de texte pour en dégager le sens",
+            "Adaptation de la lecture en fonction du document et de la tâche demandée"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Entraînement",
+          "contenu": [
+            "Développement de la fluidité (vitesse de lecture, mais aussi lecture précise, aisée, non saccadée) par de multiples activités de lecture (lecture à haute voix, regroupement de mots par unités de sens,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Types de supports conseillés : encyclopédie, fiche documentaire, dictionnaire, carte postale, lettre, affiche, journal, magazine, livre, site Internet,…",
+            "Identification :",
+            "– de différents genres textuels",
+            "– de la situation de communication (lieu social, émetteur, destinataire, but du texte)",
+            "– de l'organisation générale du texte en s'appuyant sur des indices non verbaux (mise en page, titre, table des matières, pages de couverture, paragraphes, ponctuation, illustrations,…)",
+            "– du sujet traité et des différents aspects particuliers traités dans le texte",
+            "Distinction entre ce qui est réel, vraisemblable et imaginaire",
+            "Anticipation du contenu",
+            "Mise en relation des informations explicites et implicites du texte",
+            "Prise en compte des indices lexicaux, syntaxiques, orthographiques",
+            "Repérage des actes de paroles (verbes, certaines marques de ponctuation,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le conte merveilleux",
+            "– le récit d’aventure",
+            "– la fable",
+            "– le conte du pourquoi et du comment"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le conte du pourquoi et du comment",
+            "– le récit mythique",
+            "– la légende",
+            "– le récit d’aventure",
+            "– le récit d’énigme"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage du schéma narratif et de ses différentes parties (situation initiale, complication, actions, résolution, situation finale)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Identification des cinq parties du schéma narratif ainsi que de la coda ou de la morale"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage de l’ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Restitution de l’ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Distinction entre un univers de fiction (conte) et un univers de fiction vraisemblable (récit d’aventure)",
+            "Distinction entre paroles rapportées directement et indirectement",
+            "Repérage de paroles rapportées directement :",
+            "– situation de communication",
+            "– ponctuation relative au dialogue",
+            "– identification des acteurs du dialogue",
+            "– identification des verbes de parole introduisant un dialogue",
+            "Identification du thème et de l’idée principale ainsi que des contenus propres au genre (lieu, moment, personnages, actions et intentions)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage d’organisateurs propres au genre :",
+            "– organisateurs temporels (il était une fois, trois jours après, depuis ce jour,…)",
+            "– organisateurs accélérateurs de rythme (soudain, tout à coup,…)",
+            "Repérage des différents termes désignant un même personnage (un homme, ce gaillard, le cambrioleur, il,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Identification et interprétation des oppositions (imparfait/passé simple, imparfait/passé composé, passé simple/passé composé, présent/passé composé)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– le récit de vie",
+            "– le témoignage d'une expérience vécue"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– le fait divers",
+            "– la biographie",
+            "– le récit historique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Identification des événements appartenant à un monde réel dans un texte qui relate :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Identification :",
+            "– de la visée d’un récit de vie : informer et intéresser le destinataire",
+            "– de la visée d’un témoignage : convaincre, restituer des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Identification :",
+            "– de la visée d’un fait divers : rendre compte d’un événement proche",
+            "– de la visée d’une biographie ou d’un récit historique : enrichir les connaissances"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Distinction entre paroles rapportées directement et indirectement",
+            "Repérage de paroles rapportées directement :",
+            "– situation de communication",
+            "– ponctuation relative au dialogue",
+            "– identification des acteurs du dialogue",
+            "– identification des verbes de parole introduisant un dialogue",
+            "Identification du thème et des contenus propres au genre (lieu, moment, personnages, actions et visées)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Situation des événements les uns par rapport aux autres"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Repérage de l'ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Repérage des organisateurs temporels (hier, le lendemain,…) et des accélérateurs de rythme (lorsque, soudain, tout à coup,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Repérage de mots ou groupes de mots qui montrent la position de l’émetteur (heureusement, hélas, il semble que, peut-être,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Identification et interprétation des oppositions (imparfait/passé simple, imparfait/passé composé, passé simple/passé composé, présent/passé composé)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– la lettre de demande",
+            "– la lettre d’opinion",
+            "– la réponse au courrier des lecteurs"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– la lettre au courrier des lecteurs"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Identification de la visée (exprimer une demande, donner son avis, réagir à l’opinion d’autrui,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Identification de la visée (exprimer son avis, son opinion,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Identification du sujet ou de la controverse",
+            "Distinction entre une opinion et des arguments"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Distinction entre une opinion et un constat"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Identification de quelques arguments dans les textes abordés"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage d’objections ou de différents points de vue"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage de l’organisation du texte : introduction, arguments, conclusion"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage de la hiérarchisation des arguments et d’exemples illustrant les arguments"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage et compréhension des formules d’interpellation et de politesse"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage d’organisateurs :",
+            "– de cause (car, parce que,…)",
+            "– d’énumération (tout d’abord, ensuite, enfin,…)",
+            "– de conclusion (finalement, c’est pourquoi,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage de quelques organisateurs d’opposition (en revanche, par contre,…)",
+            "Repérage de mots et groupes de mots qui montrent la position de l’émetteur (à mon avis, je pense que, il faudra que, il est impératif de,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– le texte documentaire",
+            "– l'article encyclopédique"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– le texte documentaire",
+            "– l'article encyclopédique",
+            "– le texte qui explique «comment» et «pourquoi»"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Identification :",
+            "– des différentes parties du texte, de son organisation et de son contenu",
+            "– de la visée et du sujet du texte abordé",
+            "Repérage des éléments spécifiques propres au genre (légendes, renvois, schéma,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage des différentes informations en lien avec l’organisation du texte"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage et restitution des principales informations contenues dans un texte à visée informative"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Établissement de liens entre les informations du texte et ses propres connaissances",
+            "Prise en compte de l’objectivité des informations"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Comparaison et vérification des informations du texte avec celles figurant dans d'autres textes"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage de définitions"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage et distinction de définitions et de constats"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Identification d’exemplifications et de reformulations"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage d’organisateurs propres au genre :",
+            "– énumératifs (premièrement, deuxièmement,…)",
+            "– chronologiques (au printemps, trois semaines plus tard, au début de l'été,…)",
+            "– de cause (car, parce que,…) et de conséquence (c’est pourquoi,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Interprétation de groupes de mots qui montrent la position de l’émetteur (selon le Professeur X, certains pensent que, il se peut que, il est certain que, il semblerait que,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la recette",
+            "– la marche à suivre d’un bricolage"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la marche à suivre d’un bricolage",
+            "– la règle de jeu",
+            "– le règlement"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Identification des différentes actions (recette, bricolage, règle de jeu) et/ou prescriptions (règlement)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage de la chronologie des actions",
+            "Repérage des différentes parties du texte (matériel nécessaire, ingrédients, marche à suivre,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage de la chronologie et/ou de la simultanéité des actions",
+            "Identification des différentes parties du texte (matériel nécessaire, marche à suivre, conditions de jeu, actions à effectuer,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Établissement de liens entre les informations du texte et ses propres connaissances",
+            "Prise en compte de l’importance des règles sociales"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage d’organisateurs propres au genre :",
+            "– organisateurs énumératifs (1, 2, 3 / A, B, C,…)",
+            "– organisateurs chronologiques (d’abord, ensuite, enfin,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Genres conseillés :",
+            "– le poème",
+            "– les paroles d'une chanson"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Identification :",
+            "– de la visée du texte abordé (raconter, argumenter, décrire, faire rêver, émouvoir,…)",
+            "– des différentes parties ou structures du texte",
+            "– de la sonorité et de la musicalité du texte (sons dominants d'un vers, d'une strophe/mots/rime/rythme)",
+            "Repérage :",
+            "– de contenus et d'images poétiques",
+            "– de la forme de certains genres poétiques (prose, vers réguliers, vers libres,…)",
+            "– de procédés syntaxiques (inversion, modification des groupes de la phrase) et/ou lexicaux (comparaisons, métaphores) au service de la poésie",
+            "Distinction entre compréhension littérale et interprétation du texte"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Projet de lecture",
+          "texte": "lit un texte de manière autonome, en dégage le sens général et le reformule oralement"
+        },
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "identifie le genre du texte lu, son but, l’émetteur et le destinataire, en s’appuyant sur les indices verbaux et non verbaux"
+        },
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "identifie le sujet traité et restitue tout ou partie des informations du texte (ordre chronologique ou logique) en faisant les inférences nécessaires"
+        },
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "distingue le réel du fictionnel"
+        },
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "mobilise ses connaissances lexicales, syntaxiques et orthographiques pour comprendre un mot, une phrase ou un texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "repère les passages narratifs, les passages dialogués"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "identifie et restitue le sujet et les principaux éléments constitutifs des genres abordés (lieu, moment, personnages, succession chronologique des événements)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "identifie la visée et le sujet du genre travaillé"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "identifie et restitue les principaux éléments constitutifs des genres abordés (lieu, moment, personnages, succession chronologique des événements)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "identifie la visée et le sujet du genre travaillé"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "identifie et reformule quelques arguments, une opinion d’un court texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "repère les parties d’un texte à visée argumentative (introduction – arguments – conclusion)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "identifie la visée et le sujet abordé et restitue les principales informations transmises"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "repère les différentes parties d’un texte réglant des comportements"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "identifie les actions ou prescriptions ainsi que leur chronologie et les reformule en s’appuyant sur le texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "texte": "identifie un texte poétique au moyen de certaines de ses caractéristiques formelles (vers, strophe, rime,…)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "texte": "comprend le sens général d’un poème"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "Aborder au minimum deux fois chaque regroupement de genres (texte qui raconte, relate, argumente, transmet des savoirs, règle des comportements et joue avec la langue) au cours du cycle de quatre ans. Ceci signifie que chaque année, il faut aborder au moins trois regroupements de genres"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/4",
+      "code": "L1 22",
+      "axe": "Production de l'écrit",
+      "titre": "Écrire des textes variés à l'aide de diverses références",
+      "composantes": [
+        "1. en mobilisant et en enrichissant ses connaissances lexicales, syntaxiques et orthographiques",
+        "2. en organisant le contenu en fonction des caractéristiques du genre",
+        "3. en s’appropriant les règles de l’expression écrite (gestion de la temporalité, reprises nominales et pronominales, connexions, thématisation,…)",
+        "4. en recourant aux outils de référence appropriés",
+        "5. en utilisant sa propre créativité",
+        "6. en adaptant sa production à la situation de communication"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification de la situation de communication en fonction du projet d’écriture (lieu social, émetteur, destinataire, but du texte)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Respect du genre textuel demandé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Choix d’un support adéquat (lettre, affiche, fiche signalétique, feuille,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Élaboration du contenu à l’aide de documents écrits et/ou audio (recherche d’idées, d’informations, de mots-clés,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Organisation du texte selon un modèle donné (anticipation globale de la mise en page du texte)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Écriture d’un texte en fonction du projet et du genre travaillé en respectant :",
+            "– l’utilisation d’un vocabulaire adéquat",
+            "– la production d’énoncés syntaxiquement et orthographiquement corrects",
+            "– l’utilisation d’organisateurs verbaux (temporels : le jour suivant,…) et non verbaux (titre, sous-titre, paragraphe, ponctuation,…)",
+            "– l’utilisation de reprises pronominales et nominales",
+            "– l’utilisation adéquate des temps des verbes"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le conte merveilleux",
+            "– le récit d’aventure",
+            "– le conte du pourquoi et du comment"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le récit d’aventure",
+            "– le conte du pourquoi et du comment"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Invention et reformulation collective ou individuelle d’un récit, en prenant en compte le moment, les lieux et les personnages et en choisissant un titre"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Prise en compte dans le projet d’écriture de la distinction entre un univers de fiction (conte merveilleux) et un univers de fiction vraisemblable (récit d’aventure)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Utilisation des parties du schéma narratif (situation initiale, complication, actions, résolution, situation finale)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Respect de l’ordre chronologique"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Bouleversement de l’ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Introduction d’un ou deux épisodes supplémentaires"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Introduction d’une coda (et c’est depuis ce jour que…) ou d’une morale"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Écriture de parties narratives et de passages dialogués en respectant la ponctuation relative au dialogue et en utilisant des verbes de parole"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Utilisation d’organisateurs temporels (il était une fois, le lendemain,…), d’accélérateurs de rythme (soudain, tout à coup,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Utilisation adéquate des oppositions (imparfait/passé simple, imparfait/passé composé, présent/passé composé)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– le récit de vie"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– le fait divers",
+            "– l’esquisse biographique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Création d’un univers de réalité en utilisant ses connaissances scolaires et extrascolaires"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Utilisation des différentes parties du genre travaillé (présentation de la situation, des lieux et des personnages, chronologie des événements et clôture du texte)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Choix d’un titre"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Écriture du chapeau d’un fait divers"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Distinction entre parties qui relatent et parties dialoguées"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Insertion de paroles rapportées directement ou indirectement pour le fait divers"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Utilisation d’organisateurs temporels (un jour, hier, le lendemain,…), d’accélérateurs de rythme (soudain, tout à coup,…), de la ponctuation relative au dialogue et de verbes de parole"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Utilisation d’organisateurs logiques (et alors, si bien que,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Utilisation adéquate des oppositions (imparfait/passé composé, présent/passé composé)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés:"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– la lettre de demande justifiée",
+            "– la réponse au courrier des lecteurs"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– la lettre de lecteur",
+            "– la lettre de demande justifiée"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche d’informations sur le sujet ou la controverse en fonction de la situation de communication spécifique"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche d’arguments"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche d’arguments «pour», «contre»"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Distinction entre une opinion et un constat"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Construction et écriture de son opinion"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Construction et écriture d’arguments (pour ou contre)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Production d’exemples illustrant les arguments"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation d’organisateurs de cause (car, parce que,…), d’énumération (d’abord, ensuite,…), de conclusion (finalement, c’est pourquoi,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation de groupes de mots qui montrent la position de l’émetteur (à mon avis, pour ma part, je trouve que, il semble que,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation de verbes d’opinion (croire, être persuadé que,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– le texte documentaire",
+            "– l'article encyclopédique"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– le texte qui explique «comment» et «pourquoi»",
+            "– l’article encyclopédique",
+            "– l’exposé écrit",
+            "– la note de synthèse"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Recherche d’informations en lien avec un projet d’écriture et un thème choisi"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Sélection des informations en fonction du destinataire et du but"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Appropriation des données que l'on veut expliquer"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Production d’un titre qui résume les informations du texte"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Respect de la mise en page d’un texte (documentaire ou encyclopédique) selon un modèle donné"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Respect de la mise en page d’un texte (documentaire, encyclopédique, explicatif,…) selon un modèle donné"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Écriture et organisation d’un texte qui transmet des savoirs (ordre logique des idées, titre et sous-titres, disposition à bon escient de croquis, dessins, photos,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Utilisation d’organisateurs spécifiques :",
+            "– d’énumération (a, b, c / d’abord, ensuite,…)",
+            "– chronologiques (au printemps, trois semaines après, au début de l’été,…)",
+            "– de cause (car, parce que,…)",
+            "– de conséquence (c’est pourquoi, donc,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la recette",
+            "– la marche à suivre d’un bricolage"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la marche à suivre d’un bricolage",
+            "– la règle de jeu"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Prise en compte des différentes actions qui permettent de réaliser une recette, un bricolage"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Prise en compte de la chronologie et/ou de la simultanéité des actions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Élaboration et sélection des informations en tenant compte des connaissances du destinataire"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Production d’un titre qui résume les informations du texte"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Respect de la mise en page du texte selon un exemple donné: ingrédients/matériel, marche à suivre"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Respect de la mise en page du texte selon un exemple donné : matériel, marche à suivre / conditions de jeu, actions à effectuer"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Utilisation d’organisateurs non verbaux : titre, sous-titres, numérotation, tirets,…"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Utilisation du temps du verbe demandé (impératif, infinitif, présent)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Utilisation de verbes d’action adéquats"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Genres conseillés:",
+            "– poème",
+            "– calligramme"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Recherche d'idées à partir d'un sujet donné en visant à créer un univers poétique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Élaboration d'images, de comparaisons à des fins poétiques"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Choix d'un titre en adéquation avec le thème abordé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Production d'un poème en imitant un modèle"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Organisation d'un poème en vers, en prose, en strophes"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Mise en espace d'un poème (occupation de la page, calligramme,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Utilisation de quelques procédés poétiques (mots, sonorités, rimes, rythme, images, répétitions, comparaisons, métaphores,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "écrit un texte correspondant au genre travaillé, en s'appuyant sur un guide de production et en tenant compte des contraintes syntaxiques, orthographiques, lexicales et calligraphiques"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "écrit un récit ou une partie de récit respectant le schéma narratif, l’ordre chronologique des actions et intégrant moment, lieu(x), personnages et un passage dialogué au moins"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "écrit un texte respectant le genre travaillé (situation, lieu, personnages, chronologie des événements) et intégrant des passages dialogués (paroles rapportées directement ou indirectement)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "écrit un texte à visée argumentative incluant l’exposition du sujet ou de la controverse, une opinion et au moins trois arguments"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "écrit un texte qui transmet des savoirs en l’organisant de manière structurée, sur la base de modèles travaillés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "écrit un texte en choisissant les informations indispensables, en organisant logiquement la succession des actions à l’aide de verbes d’action conjugués au temps demandé, en choisissant une mise en page appropriée"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "Aborder au minimum deux fois chaque regroupement de genres (texte qui raconte, relate, argumente, transmet des savoirs, règle des comportements et joue avec la langue) au cours du cycle de quatre ans. Ceci signifie que chaque année, il faut aborder au moins trois regroupements de genres"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/5",
+      "code": "L1 23",
+      "axe": "Compréhension de l'oral",
+      "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en dégageant le sujet, l'idée principale et l'organisation du texte",
+        "2. en s’appuyant sur les indices verbaux et non-verbaux et sur les éléments de la textualisation",
+        "3. en identifiant le sens d’un mot, d’une phrase, d’un texte grâce au contexte",
+        "4. en enrichissant son capital lexical et syntaxique",
+        "5. en adaptant son écoute en fonction de la situation de communication (intention, but,…)",
+        "6. en identifiant les genres oraux et leurs canaux d’émission"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification",
+            "– de différents genres oraux (dialogue, histoire, récit de vie, règlement, exposé,…) et des contextes dans lesquels ils sont ou ont été produits (conseil de classe, radio, émission TV, conférence,…)",
+            "– des éléments propres à la situation de communication (émetteur, public destinataire, support utilisé)",
+            "– du thème abordé et des différents aspects traités dans le texte"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Adaptation de l'écoute en anticipant le contenu en fonction de la source sonore et du genre textuel"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise en compte de l'intonation, du rythme, du volume sonore, de l'accent, des mimiques, des gestes pour aider à construire le sens du texte entendu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise en compte des indices lexicaux"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés:"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le conte",
+            "– l'histoire inventée",
+            "– le récit d'aventure"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– la légende",
+            "– le mythe",
+            "– le récit d'aventure",
+            "– la fable"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Identification des éléments propres au genre (lieu, moment, personnages, actions et intentions)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Distinction entre un univers de fiction (conte) et un univers de fiction vraisemblable (récit d'aventure)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage des composantes du schéma narratif (situation initiale, complication, actions, résolution et situation finale)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage des cinq composantes du schéma narratif ainsi que de la coda ou de la morale"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage de l'ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Reconstruction de l'ordre chronologique des événements dans le cas d’une histoire où l’ordre du texte ne suit pas la chronologie"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Repérage d'organisateurs propres au genre (il était une fois, trois jours après, depuis ce jour,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés:",
+            "– le récit de vie",
+            "– l’interview d’une personne qui témoigne de son vécu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Identification d’éléments propres au genre (situation, lieu, moment, personnages, événements,…) et de son lien au monde réel"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Repérage de l’ordre chronologique des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Distinction entre l’arrière-plan et les événements principaux"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Repérage d’organisateurs propres au genre"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genre conseillé:",
+            "– le débat régulé en tant qu’auditeur"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage des caractéristiques du genre et de la situation de communication : les participants au débat, leur rôle, le sujet traité (la controverse et ses enjeux), le modérateur, le public"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Distinction entre une opinion et un argument"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage des différentes parties du débat :",
+            "– ouverture par le modérateur",
+            "– présentation du thème",
+            "– présentation des participants au débat",
+            "– exposé des différents points de vue",
+            "– débat",
+            "– clôture"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage des arguments pour et des arguments contre le sujet abordé"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage des contre-arguments"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage d’expressions qui montrent la position de l’émetteur (à mon avis, pour ma part, il me semble que, il se peut que,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage de verbes d’opinion (être persuadé, croire,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés:",
+            "– l’interview d’expert dans une émission radiophonique",
+            "– un documentaire audiovisuel"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage des caractéristiques du genre et de la situation de communication (l’intervieweur, l’interviewé, le commentateur, le public, les intervenants, le canal de diffusion utilisé, l’intention)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Identification du thème abordé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Établissement de liens entre les informations et élaboration de questions à propos des informations reçues"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Reconnaissance des différentes parties de l’interview ou du documentaire audiovisuel"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés:"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la recette",
+            "– la description d'un itinéraire"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la règle de jeu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage des différentes caractéristiques du texte entendu (matériel nécessaire, ingrédients, marche à suivre, lieux de départ et d'arrivée, actions à effectuer,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Identification des différentes actions qui permettent de réaliser une tâche, un projet, un jeu"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage de la chronologie et/ou de la simultanéité des actions"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Identification de l'enjeu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage d'organisateurs énumératifs (d'abord, ensuite, après,…), d’organisateurs spatiaux (après, à côté, à gauche, derrière, au-dessus,…), d’organisateurs temporels (au moment où, avant que, quand, une fois que,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Repérage d'organisateurs logiques (mais, malgré, néanmoins, alors,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Genre conseillé :"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "– le poème",
+            "– la chanson"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Identification de la visée (raconter, décrire, faire rêver, émouvoir,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Repérage de contenus et d'images poétiques"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Repérage des différentes parties d'un poème"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Repérage de la forme de certains genres poétiques (prose, vers réguliers, vers libres,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Identification de la sonorité des différentes rimes"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Identification de sons dominants d'un vers, d'une strophe et de la place qu'ils occupent"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Repérage de procédés syntaxiques (inversion, modification des groupes de la phrase) et/ou lexicaux (comparaisons, métaphores) au service de la poésie"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "identifie le thème abordé et reformule les principales informations traitées dans le texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "identifie le genre de texte oral abordé et les principaux éléments du contexte de communication"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "écoute et comprend des textes oraux en restituant les principales composantes propres au genre abordé (lieu, moment, personnages et ordre chronologique des événements)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "écoute et comprend les principaux événements entendus et les restitue dans l’ordre chronologique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "situe le texte entendu (lien avec le réel, lieu, moment, personnages)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "repère les principales caractéristiques du débat (participants, modérateur)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "identifie le sujet traité (la controverse et ses enjeux) et repère les différentes opinions exprimées (arguments pour, contre)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "identifie le thème abordé et repère les principaux éléments propres au genre (intervenants, canal de diffusion, but de l’émission)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "restitue à l’aide de ses propres mots tout ou partie du texte entendu"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "agit en adéquation avec le texte entendu"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "identifie les actions à réaliser et leur déroulement logique"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/6",
+      "code": "L1 24",
+      "axe": "Production de l'oral",
+      "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en mobilisant ses connaissances lexicales, grammaticales et phonologiques",
+        "2. en organisant son propos pour tenir compte de la situation de communication",
+        "3. en adoptant différents rôles et en distinguant leurs fonctions dans l’interaction avec les autres",
+        "4. en s’adaptant aux réactions de l’auditoire",
+        "5. en se représentant la situation de communication et en s’y adaptant (genres oraux, lieux, auditoire, registres de langues,…)",
+        "6. en sélectionnant et en hiérarchisant un contenu"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Élaboration d’une production orale en fonction d’un projet (exposé, participation à un débat, compte rendu oral, jeu théâtral, restitution d’un poème,…) et de la situation de communication (prise de parole en public, dialogue informel, réponse spontanée à une demande,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification des composantes de la situation de communication constitutives d’un projet (émetteur, public destinataire, intention visée)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Élaboration et organisation du contenu selon un modèle donné:",
+            "– documentation",
+            "– choix des informations à transmettre",
+            "– supports écrits et/ou audio ou encore audiovisuels (poster, photo, schéma, enregistrement, objet,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise en compte du lieu de prise de parole (classe, théâtre, radio scolaire,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Organisation d’une disposition spatiale adéquate"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise en compte du rôle de l'énonciateur en fonction du projet (conférencier, interviewer, modérateur, débatteur, comédien,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise en compte de l’importance de la posture, de la tenue, de l’attitude"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation d’un vocabulaire adéquat"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Production d’énoncés oraux syntaxiquement corrects"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Respect des contraintes de l’oralité (prononciation, intonation, rythme, volume, débit, gestes,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– le conte",
+            "– l'histoire inventée"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– la légende",
+            "– le sketch"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Appropriation d'un récit écrit destiné à être lu en travaillant sa lecture oralisée en fonction des actes de parole (passages dialogués) et des sentiments exprimés (intonation, rythme,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Création d’un récit inventé (conte, légende,…), collectif ou individuel, destiné à être restitué oralement en tenant compte des caractéristiques du genre choisi (lieu, moment, personnages, intentions et actions) et du schéma narratif simple (situation initiale, complication, actions, résolution, situation finale)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Présentation orale (lecture à haute voix) d’un récit écrit, individuellement ou à plusieurs voix :",
+            "– en distinguant les parties narratives et les parties dialoguées",
+            "– en utilisant les intonations de la voix pour varier l’expression (sentiments exprimés)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Présentation orale d’un récit inventé, individuellement ou collectivement :",
+            "– en respectant l’ordre chronologique des actions (schéma narratif simple)",
+            "– en parlant de manière expressive et fluide"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genre conseillé :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– le récit de vie"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– l’exposé sur un personnage",
+            "– le récit de vie"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Création d’un univers de réalité en sélectionnant des événements intéressants à raconter"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Recherche et sélection d’informations nécessaires au projet de production choisi"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Création et préparation du contenu sous forme de notes et de mots-clés (fil rouge de la présentation)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Présentation des événements en fonction de leur déroulement (ordre chronologique)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Présentation orale du projet choisi en tenant compte de la situation, des lieux et des personnages, des informations à transmettre"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genre conseillé:",
+            "– le débat régulé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Respect des rituels et des règles de fonctionnement du débat (tour de parole, écoute,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Prise en compte des caractéristiques du genre, des acteurs et de leur rôle :",
+            "– le thème et ses enjeux",
+            "– les participants au débat",
+            "– le modérateur",
+            "– le public"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche d’informations sur le thème de la discussion"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Expression d’une opinion"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Distinction entre une opinion et un constat"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche d’arguments"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Production et recherche d’arguments «pour / contre» et d'objections"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Participation à un débat simple en fonction du thème choisi, en utilisant les arguments élaborés et en respectant le déroulement défini (règles de fonctionnement)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation d’expressions qui montrent la position de l’émetteur (à mon avis, pour ma part,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation des verbes d’opinion (croire, être persuadé que,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genre conseillé :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– l’interview d’expert"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– l’interview d’expert",
+            "– l’exposé oral"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Prise en compte des caractéristiques du genre, des acteurs et de leur rôle :",
+            "– l’intervieweur",
+            "– l’interviewé",
+            "– le public"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– le présentateur (= celui qui fait l’exposé)",
+            "– le public"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Prise en compte des rituels de la prise de parole en public (salutations, présentation de l’interviewé et/ou du thème abordé, clôture,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Recherche et sélection d’informations en fonction du contexte, du thème choisi (élaboration de questions, planification de l’exposé,…), du destinataire et du but"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Création et préparation du contenu sous forme de notes et de mots-clés (fil rouge de la présentation)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genre conseillé :"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Genre conseillé :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la description d'un itinéraire"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– la règle de jeu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Utilisation de la parole pour orienter, organiser et réguler des actions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Sélection des informations en tenant compte des connaissances du destinataire"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Élaboration des actions à décrire dans un ordre chronologique"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Introduction et explicitation du but du texte"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Présentation du matériel nécessaire pour effectuer le jeu"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Emploi du temps des verbes en adéquation avec le contexte (présent, impératif, il faut que + subjonctif,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Genres conseillés:",
+            "– le poème",
+            "– la chanson"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Adaptation de sa production (lecture à voix haute, récitation et chant) en fonction de la situation de communication et en prenant en compte la visée (raconter, argumenter, décrire, faire rêver, émouvoir,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Prise de conscience de l'importance de la posture, de la tenue, de l'attitude"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Mémorisation ou lecture préparée du texte choisi (poèmes, paroles de chanson)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Restitution du texte lu et/ou mémorisé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Adaptation de l'intensité, de la respiration, du débit, du rythme"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Utilisation d'une intonation expressive en fonction du texte choisi et de la gestuelle"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "prend la parole en public en fonction d’un projet défini, en s’appuyant sur un guide de production et en tenant compte de la situation de communication, du contenu, des supports prévus et des contraintes de l’oralité"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "lit à haute voix et de manière expressive un texte écrit"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "raconte une histoire inventée à l'aide de ses propres mots et en parlant de manière expressive"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "présente oralement un genre choisi (récit de vie, exposé,…) relatant des informations en tenant compte de leur ordre chronologique et des lieux, moments, personnages et actions décrites"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "participe à un débat en tenant compte des caractéristiques du genre, des acteurs et de leur rôle, en respectant les rituels et règles de fonctionnement définis et en utilisant les arguments préparés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "transmet oralement des informations sur un thème choisi, à un public donné, soit à travers l’interview d’un expert, soit par un exposé oral, en tenant compte de la situation de communication"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "présente oralement le genre abordé pour permettre à son ou ses destinataire-s d’agir"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "texte": "lit un texte (poème, paroles de chanson) en utilisant des éléments propres à l’expression orale (intonation, rythme, gestuelle,…)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "texte": "récite un texte (poème, paroles de chanson) en utilisant des éléments propres à l’expression orale (intonation, rythme, gestuelle,…)"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "En 5eet 6e années : prendre en charge le rôle de modérateur ou aider un élève à l’assumer (ouvrir le débat, présenter les débatteurs participant au débat et leur statut, donner la parole, effectuer une ou des synthèses et clore le débat)"
+        },
+        {
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "En 5e et 6e années : prendre en charge la gestion des rituels de la prise de parole en public ou aider un élève à l'assumer (présentation du conférencier, gestion des interactions avec le public,…)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/15",
+      "code": "L1 25",
+      "axe": "Accès à la littérature",
+      "titre": "Conduire et apprécier la lecture d'ouvrages littéraires",
+      "composantes": [
+        "1. en identifiant et en hiérarchisant les personnages et les événements d’un récit",
+        "2. en retranscrivant l’intrigue dans un autre mode d’expression et de représentation",
+        "3. en identifiant l'auteur (éventuellement l'illustrateur) et en recherchant d'autres œuvres du même auteur",
+        "4. en fréquentant les bibliothèques et en utilisant leurs systèmes de références",
+        "5. en fondant son choix sur la base d’éléments éditoriaux (4<sup>e</sup> de couverture, collection,…)",
+        "6. en accroissant le champ de ses lectures"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Choix d'un livre",
+          "contenu": [
+            "Sélection par l’élève d’un livre en fonction de ses lectures antérieures, de ses propres connaissances, de ses goûts et de ses capacités"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Imprégnation aux spécificités de l'écrit",
+          "contenu": [
+            "Compréhension d’une histoire lue par l’enseignant ou par un élève :",
+            "– lecture expressive dans une situation de communication déterminée",
+            "– restitution de répliques apprises par cœur (théâtre, poèmes)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Mobilisation de ses propres connaissances du monde et des textes"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Appropriation de nouvelles connaissances"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Rétablissement de la chronologie des événements d’une histoire"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Établissement de liens entre différentes parties du texte, de l'histoire, des chapitres"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Établissement de liens entre les différentes actions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Repérage des manipulations du lecteur par l'auteur"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Compréhension de textes",
+          "contenu": [
+            "Identification des différents points de vue des personnages du texte"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Confrontation d’interprétations",
+          "contenu": [
+            "Exposé des compréhensions"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Confrontation d’interprétations",
+          "contenu": [
+            "Mise en évidence d’éventuelles divergences d’interprétation et débat"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Procédures d’écriture",
+          "contenu": [
+            "Analyse d’extraits de textes pour observer la mise en mots utilisée par l’auteur :",
+            "– pour ménager le suspense (utilisation d’organisateurs: soudain, tout à coup / utilisation du passé simple, du présent,…)",
+            "– influencer le lecteur (choix lexical : un homme, le gaillard, le type, le cambrioleur)",
+            "– décrire (un lieu, un personnage, une action,…)",
+            "– établir une comparaison"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Choix d'un livre",
+          "texte": "raconte succinctement ce qu’il a lu ou entendu"
+        },
+        {
+          "fin": "8e",
+          "notion": "Choix d'un livre",
+          "texte": "donne son interprétation du texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Choix d'un livre",
+          "texte": "participe à un débat suscité par des divergences d’interprétation du texte"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Choix d'un livre",
+          "texte": "Lire des 4e de couverture et des critiques de livres, écouter des présentations pour aider l’élève à choisir, assister à une pièce de théâtre"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/16",
+      "code": "L1 26",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Construire une représentation de la langue pour comprendre et produire des textes",
+      "composantes": [
+        "1. en distinguant les différents niveaux d’analyse de la langue (syntaxe, sémantique, lexique, orthographe,…)",
+        "2. en découvrant et en s’appropriant les principales régularités de construction et de fonctionnement du mot, de la phrase et du texte",
+        "3. en développant l’usage de divers outils de référence (dictionnaires, grammaires scolaires,…)",
+        "4. en identifiant les principales catégories grammaticales et les principales fonctions",
+        "5. en prenant conscience de l’existence de normes et de variations à partir de productions langagières",
+        "6. en s’appropriant des procédures d’analyse et leurs conditions d’utilisation",
+        "7. en développant et en structurant un vocabulaire commun pour parler du langage et de la langue",
+        "8. en utilisant les connaissances acquises pour vérifier ses productions (construction, ponctuation, orthographe, conjugaison, accords,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les constituants",
+          "contenu": [
+            "Repérage et identification des constituants obligatoires et facultatifs de la phrase"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Sujet sous forme de :\nGroupe nominal – GN\nPronom – Pro\nNom – N"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Sujet sous forme de :\nGroupe nominal – GN\nPronom – Pro\nNom – N\nInfinitif – Inf"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Groupe verbal – GV – sous forme de :\nVerbe – V\nVerbe + Groupe nominal (avec ou sans préposition) – V + GN (avec ou sans préposition)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Groupe verbal – GV - sous forme de :\nVerbe – V\nVerbe + Groupe nominal (avec ou sans préposition) – V + GN (avec ou sans préposition)\nVerbe + Groupe nominal (avec ou sans préposition) + Groupe nominal (avec ou sans préposition) – V + GN (avec ou sans préposition + GN (avec ou sans préposition)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Complément de phrase – CP - sous forme de :\nGroupe nominal – GN (avec ou sans préposition)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Complément de phrase – CP - sous forme de :\nGroupe nominal – GN (avec ou sans préposition)\nAdverbe – Adv\nPhrase subordonnée – Ph sub"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Complément de verbe – CV"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification de l’Attribut sous forme de\nGroupe adjectival – GAdj\nGroupe nominal – GN"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Identification du Complément du Nom – CN - sous forme de\nGroupe adjectival – GAdj\nGroupe nominal avec préposition – GN avec préposition\nPhrase subordonnée relative – Ph rel"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les fonctions – Identification des fonctions grammaticales",
+          "contenu": [
+            "Modificateur du Verbe (Il mange lentement)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Identification du Groupe nominal – GN – sous forme de:\nDéterminant + Nom – D+N\nDéterminant + Nom + Adjectif – D+N+Adj\nDéterminant + Nom + Groupe nominal avec préposition – D+N+GN avec préposition"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Identification du Groupe nominal – GN – sous forme de:\nDéterminant + Nom – D+N\nDéterminant + Nom + Adjectif – D+N+Adj\nDéterminant + Nom + Groupe nominal avec préposition – D+N+GN avec préposition\nDéterminant + Nom + Phrase subordonnée relative – D+N+Ph rel"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Groupe verbal – GV"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Groupe nominal avec préposition"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Groupe adjectival – Gadj"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Groupe adverbial – Gadv"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les groupes – Identification des groupes",
+          "contenu": [
+            "Phrase subordonnée relative – Ph rel (en qui, que, dont)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Déterminant – D\nNom commun\nNom propre\nVerbe\nAdjectif"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Pronom personnel"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Pronom"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Adverbe"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Pronom relatif (qui, que, dont)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Les valeurs sémantiques – Identification des valeurs sémantiques",
+          "contenu": [
+            "Identification des valeurs:",
+            "– de temps",
+            "– de lieu",
+            "– de but"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Les valeurs sémantiques – Identification des valeurs sémantiques",
+          "contenu": [
+            "Identification des valeurs:",
+            "– de temps",
+            "– de lieu",
+            "– de but",
+            "– de manière",
+            "– de cause",
+            "– de conséquence"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Types et formes de phrase",
+          "contenu": [
+            "Identification des types de phrases (déclaratif et interrogatif)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Types et formes de phrase",
+          "contenu": [
+            "Identification des types de phrases (déclaratif, interrogatif, impératif et exclamatif)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Grammaire de la phrase › Types et formes de phrase",
+          "contenu": [
+            "Identification des formes de phrases (positive et négative)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire de la phrase › Types et formes de phrase",
+          "contenu": [
+            "Identification des formes de phrases (positive/négative, neutre/emphatique)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe",
+          "contenu": [
+            "Relecture du texte, dans la production écrite et/ou dans un texte dicté, pour en améliorer l’orthographe"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Copie sans faute"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Classification des mots selon l’ordre alphabétique pour l’utilisation de références"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Utilisation du correcteur orthographique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Établissement de liens entre des mots de même famille"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Établissement de liens entre le masculin et le féminin des noms"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Utilisation d’un capital mots de grande fréquence en relation avec la vie de la classe"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Mémorisation de mots le plus fréquemment utilisés (mots-outils) :\nà, au, aux, bien, comme, en, me, moi, ne… pas, ne… que, ou, par, parce que, que, qui, s’, te, toi, c’, ces, cet, cette, deux, leur, leurs, lui, où, sans, si, y, plus, tout, toute, tous, toutes, soi, se, ce,…"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Connaissance des relations phonèmes/graphèmes ([k] à c,q,k,ch,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Prise en compte de la valeur des lettres : valeurs de base, de position, auxiliaire, zéro (muette)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Identification, mémorisation et utilisation des homophones lexicaux en lien avec les activités de la classe (mère, mer, maire,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Utilisation de la majuscule ou de la minuscule selon qu’il s’agit d’un nom propre ou d’un nom commun (Jean, mon copain,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Utilisation de la majuscule ou de la minuscule selon qu’il s’agit d’un nom propre ou d’un nom commun (un Italien parle italien,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord dans le groupe nominal",
+          "contenu": [
+            "Accord du déterminant avec le nom en genre et en nombre"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord dans le groupe nominal",
+          "contenu": [
+            "Variation en nombre du pluriel des noms en –au, –eau, –eu, –ou, –al, –ail"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord dans le groupe nominal",
+          "contenu": [
+            "Accord du déterminant et de l’adjectif avec le nom"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord dans le groupe nominal",
+          "contenu": [
+            "Accord du déterminant et du participe passé avec le nom"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec le sujet : cas simples"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec un sujet inversé"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec un sujet éloigné"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec plusieurs sujets (mon père et ma mère, mon père et moi, toi et moi, Paul et toi,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec un pronom relatif en tant que sujet (qui)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "contenu": [
+            "Accord du verbe avec l’attribut du sujet"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Accord du participe passé employé sans auxiliaire"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Accord du participe passé employé avec être"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Accord du participe passé employé avec avoir"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Utilisation d’homophones grammaticaux"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Identification et utilisation des homophones grammaticaux : a/à, on/ont, son/sont, ces/ses, ce/se, ou/où"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Identification et utilisation des homophones grammaticaux : a/à, on/ont, son/sont, ces/ses, ce/se, ou/où, leur/leurs, qu’elle/qu’elles/quel/quels/ quelle/quelles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "contenu": [
+            "Organisation d’un champ lexical donné (naître, grandir, vieillir, mourir), classification des mots selon une suite logique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "contenu": [
+            "Constitution d’un champ lexical à partir d’un mot donné (pluie, grêle, brouillard,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "contenu": [
+            "Établissement de relations entre les termes spécifiques et génériques (termes spécifiques : rose, tulipe, orchidée – terme générique : fleur)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "contenu": [
+            "Mise en relation des mots de sens opposé"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "contenu": [
+            "Mise en relation de mots de sens opposé :",
+            "– chaud/froid (antonymie)",
+            "– accepter/refuser (complémentarité)",
+            "– vendre/acheter (réciprocité)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Étude des environnements possibles d'un mot ( champ sémantique )",
+          "contenu": [
+            "Reconnaissance des différents sens d’un même mot selon le contexte d’emploi (polysémie : au cœur de l’action, avoir du cœur, le cœur bat)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Étude des environnements possibles d'un mot ( champ sémantique )",
+          "contenu": [
+            "Établissement de relations entre des mots de sens proche (synonymie : une situation dangereuse = périlleuse / un homme dangereux ≠ périlleux)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Analyse de la structure interne des mots",
+          "contenu": [
+            "Exploration d’un champ morpho-sémantique donné:",
+            "– mots composés (portemonnaie,…)",
+            "– dérivation (préfixe et suffixe)",
+            "– famille de mots (odeur, odorat, inodore,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Dictionnaires",
+          "contenu": [
+            "Exploration et comparaison de l’organisation de dictionnaires"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Dictionnaires",
+          "contenu": [
+            "Comparaison de définitions d’un même mot provenant de sources différentes"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Vocabulaire › Dictionnaires",
+          "contenu": [
+            "Production de définitions selon différents modèles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Situation des événements sur la ligne du temps (temps chronologique : passé, présent, avenir)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "En lien avec L1 21 – Compréhension de l’écrit et L1 23 – Compréhension de l’oral"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "Distinction base ou radical/terminaison"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "Identification des régularités des terminaisons à l’oral"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "Utilisation des formes verbales dans des productions orales ciblées"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "5e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "7e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– conditionnel présent",
+            "– impératif"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "6e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– conditionnel présent"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "contenu": [
+            "8e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– conditionnel présent",
+            "– impératif",
+            "– plus-que-parfait",
+            "– futur antérieur",
+            "– passé simple (il, ils)",
+            "– subjonctif présent"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Passage de l’oral à l’écrit",
+          "contenu": [
+            "Observation de formes verbales écrites"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Passage de l’oral à l’écrit",
+          "contenu": [
+            "Découverte et apprentissage de l’utilisation d’un moyen de référence"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Passage de l’oral à l’écrit",
+          "contenu": [
+            "Utilisation de formes verbales dans des productions écrites à l’aide d’un moyen de référence"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "À partir d’une forme verbale donnée :",
+            "– identification de l’infinitif",
+            "– identification du temps de conjugaison",
+            "– identification du pronom de conjugaison"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "Apprentissage et consolidation des verbes ci-dessous aux temps suivants et à toutes les personnes:"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "5e année",
+            "– imparfait",
+            "– présent",
+            "– verbes être, avoir, aller, type chanter, type finir, dire, faire, entendre, savoir, vouloir"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "7e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– conditionnel présent",
+            "– impératif",
+            "– verbes être, avoir, aller, type chanter, type finir, dire, faire, entendre, savoir, vouloir, manger, commencer, mettre, pouvoir, oublier, prendre, sortir, courir, voir, venir, employer, payer, acheter, peler"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "6e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– verbes être, avoir, aller, aimer, finir, dire, faire, rendre, savoir, vouloir, manger, commencer, mettre, pouvoir, oublier, prendre, sortir, courir, voir, venir"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "contenu": [
+            "8e année",
+            "– imparfait",
+            "– présent",
+            "– futur",
+            "– passé composé",
+            "– conditionnel présent",
+            "– impératif",
+            "– plus-que-parfait",
+            "– futur antérieur",
+            "– passé simple (il, ils)",
+            "– verbes être, avoir, aller, aimer, finir, dire, faire, rendre, savoir, vouloir, manger, commencer, mettre, pouvoir, oublier, prendre, sortir, courir, voir, venir, employer, payer, acheter, peler, appeler, jeter, craindre, plaire, fuir, valoir, falloir, boire, ouvrir, vivre"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "Identification des acteurs de l'énonciation représentés par les pronoms personnels"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "Interprétation et utilisation du temps des verbes en fonction de:"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "– la chronologie des événements"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "– la chronologie des événements",
+            "– les actions de simultanéité, d’antériorité et de postériorité",
+            "– la distinction entre accompli et non accompli (Lorsque je me suis réveillé, il avait neigé/il neigeait)",
+            "– la valeur temporelle du conditionnel",
+            "– la valeur modale du conditionnel (Jean est absent, il serait malade : permet à l’émetteur d’assumer partiellement ce qu’il affirme)",
+            "– la distinction entre présent temporel et atemporel (Mon chat fait sa toilette – Le chat est un mammifère)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "Compréhension des reprises anaphoriques (la buse : cet oiseau, ce rapace diurne, cet animal, elle, la tête, sa tête, les ailes, ses ailes,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "Choix entre une majuscule et une minuscule en fonction de la ponctuation:"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "– point",
+            "– virgule",
+            "– point d’interrogation"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "De la phrase au texte",
+          "contenu": [
+            "– point",
+            "– virgule",
+            "– point-virgule",
+            "– deux-points",
+            "– guillemets, tiret",
+            "– point d’interrogation",
+            "– point d’exclamation"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Grammaire de la phrase › Les constituants",
+          "texte": "identifie, dans des phrases, les fonctions Sujet, Groupe verbal, Complément de phrase, Complément de verbe"
+        },
+        {
+          "fin": "8e",
+          "notion": "Grammaire de la phrase › Les constituants",
+          "texte": "identifie, dans des phrases simples, le Groupe nominal, le Groupe verbal, le Groupe nominal avec préposition, le Groupe adjectival"
+        },
+        {
+          "fin": "8e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "texte": "identifie, dans des phrases simples, les classes grammaticales nom commun, nom propre, adjectif, verbe, pronom de conjugaison, adverbe"
+        },
+        {
+          "fin": "8e",
+          "notion": "Grammaire de la phrase › Les valeurs sémantiques – Identification des valeurs sémantiques",
+          "texte": "identifie les valeurs sémantiques de temps, de lieu, de but"
+        },
+        {
+          "fin": "8e",
+          "notion": "Grammaire de la phrase › Types et formes de phrase",
+          "texte": "identifie les phrases de types déclaratif, interrogatif et impératif aux formes positive et négative"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe lexicale",
+          "texte": "relit et améliore l’orthographe de tout ou partie d’un texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe lexicale",
+          "texte": "maîtrise la recherche d’un mot dans une liste alphabétique, dans un dictionnaire"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe lexicale",
+          "texte": "orthographie correctement les mots-outils dans ses propres productions et dans les textes dictés sans recours à des références"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe lexicale",
+          "texte": "orthographie correctement un texte (écrit ou dicté) en lien avec les activités de la classe et avec l’aide de références"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale",
+          "texte": "utilise la majuscule à bon escient dans ses propres productions et dans les textes dictés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale › Accord dans le groupe nominal",
+          "texte": "effectue les accords dans le groupe nominal dans ses propres productions et dans les textes dictés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale › Accord du verbe avec le sujet",
+          "texte": "effectue, dans ses productions et dans les textes dictés, l’accord du verbe avec le sujet dans les cas simples, dans le cas où le sujet est inversé et lorsque le sujet est un pronom relatif"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "accorde le participe passé employé sans auxiliaire avec le nom qui l'accompagne"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "accorde le participe passé employé avec l’auxiliaire être avec le sujet du verbe"
+        },
+        {
+          "fin": "8e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "orthographie les homophones grammaticaux a/à, on/ont, son/sont, ces/ses, ce/se, ou/où dans ses propres productions et dans les textes dictés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "texte": "utilise un vocabulaire adéquat dans ses propres productions"
+        },
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire › Étude des relations entre les mots",
+          "texte": "utilise ses connaissances du système lexical pour donner du sens à ce qu’il lit"
+        },
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire › Dictionnaires",
+          "texte": "utilise un vocabulaire adéquat dans ses propres productions"
+        },
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire › Dictionnaires",
+          "texte": "utilise ses connaissances du système lexical pour donner du sens à ce qu’il lit"
+        },
+        {
+          "fin": "8e",
+          "notion": "Conjugaison › Observation de l’oral",
+          "texte": "conjugue à l’oral aux temps indiqués les verbes étudiés à l’écrit"
+        },
+        {
+          "fin": "8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "texte": "orthographie correctement à l’aide de références toutes les formes verbales dans ses propres productions et dans les textes dictés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "texte": "maîtrise la forme verbale des verbes étudiés à l’imparfait, au futur, au conditionnel, au passé composé, au plus-que-parfait, au futur antérieur"
+        },
+        {
+          "fin": "8e",
+          "notion": "Conjugaison › Observation et prise en compte de l’écrit",
+          "texte": "pour le présent : maîtrise les terminaisons des verbes étudiés aux personnes «tu, nous, vous, ils»"
+        },
+        {
+          "fin": "8e",
+          "notion": "De la phrase au texte",
+          "texte": "commence les phrases par une majuscule et les termine par une ponctuation adéquate dans ses propres productions et dans les textes dictés"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Orthographe lexicale",
+          "texte": "Offrir aux élèves la possibilité de rencontrer plusieurs fois les mots, non seulement pendant les leçons de français, mais également dans le cadre des autres disciplines\nReprendre chaque année les mots-outils du cycle ou du demi-cycle précédent"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/18",
+      "code": "L1 28",
+      "axe": "Écriture et instruments de la communication",
+      "titre": "Utiliser l'écriture et les instruments de la communication pour planifier et réaliser des documents",
+      "composantes": [
+        "1. en adaptant la graphie et la vitesse de son écriture à la tâche",
+        "2. en sélectionnant l’outil qui convient pour une tâche donnée",
+        "3. en distinguant et en utilisant les outils de navigation de l’internet (hypertexte, lien, adresse internet, courriel,…)",
+        "4. en recherchant des informations au moyen de ressources encyclopédiques et technologiques et en vérifiant leur pertinence",
+        "5. en développant un usage critique de l’internet",
+        "6. en reconnaissant quelques composantes d’un document multimédia et en les isolant pour analyse",
+        "7. en prenant des notes dans diverses situations",
+        "8. en produisant des documents (textes, dessins, enregistrements,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Utilisation de l'espace graphique (ligne de base, mise en page,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Utilisation de la plume à encre, du roller, du stylo à bille"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "",
+          "contenu": [
+            "Consolidation des apprentissages effectués au cycle 1 :",
+            "– respect du sens de rotation",
+            "– liaisons difficiles des minuscules en écriture cursive (be, br, bs, fe, fr, fs, oe, or, os, ve, vs, wa)",
+            "– tracé des lettres majuscules en écriture cursive"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Perfectionnement de l'écriture personnelle tout en respectant la lisibilité et le tracé des lettres en écriture cursive"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "",
+          "contenu": [
+            "Perfectionnement des tracés : régularité (proportions, dimension, enchaînement correct des lettres)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Développement de la fluidité du geste d'écriture afin d'augmenter la vitesse tout en respectant la lisibilité"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Prise en compte du destinataire :",
+            "– soin (régularité, propreté)",
+            "– valorisation de la mise en page"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "copie à l'encre un texte de manière lisible et soignée en écriture cursive"
+        },
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "utilise l'espace graphique à bon escient : respect des conventions sociales de mise en page des genres textuels"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/17",
+      "code": "L 27",
+      "axe": "Approches interlinguistiques",
+      "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+      "composantes": [
+        "1. en situant les langues dans l’espace et le temps",
+        "2. en ayant recours aux différentes langues représentées dans la classe",
+        "3. en identifiant l’existence de liens entre la langue et la culture",
+        "4. en comparant des systèmes phonologiques et des systèmes d’écriture"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Prise de conscience des différentes langues parlées par les élèves de la classe"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Distinction entre langages (gestuelle, mimiques, pictogrammes,…) et langues (chinois, français, arabe, latin,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Observation et comparaison de corpus écrits et/ou oraux de langues différentes (la formation du pluriel des noms entre les langues, y compris le français,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Questionnement et constats à partir d'un corpus donné (genre des noms dans les différentes langues, découverte de mots venus d’ailleurs – emprunts,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

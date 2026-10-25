@@ -1,0 +1,618 @@
+[
+  {
+    "objectif": "L1 31",
+    "ressource": 579,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/579/VS-L131nivII.pdf"
+  },
+  {
+    "objectif": "L1 31",
+    "ressource": 578,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/578/13.08-PPER-Fr-C3-31.pdf"
+  },
+  {
+    "objectif": "L1 31",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 32",
+    "ressource": 580,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/580/13.08-PPER-Fr-C3-32.pdf"
+  },
+  {
+    "objectif": "L1 32",
+    "ressource": 581,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/581/VS-L132nivII.pdf"
+  },
+  {
+    "objectif": "L1 32",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 33",
+    "ressource": 1081,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/1081/13.08-PPER-Fr-C3-33.pdf"
+  },
+  {
+    "objectif": "L1 33",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 34",
+    "ressource": 583,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/583/13.08-PPER-Fr-C3-34.pdf"
+  },
+  {
+    "objectif": "L1 34",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 15",
+    "ressource": 603,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 16",
+    "ressource": 608,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L 17",
+    "ressource": 611,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 18",
+    "ressource": 613,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 26",
+    "ressource": 593,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 28",
+    "ressource": 598,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 35",
+    "ressource": 584,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/584/13.08-PPER-Fr-C3-35.pdf"
+  },
+  {
+    "objectif": "L1 35",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L1 36",
+    "ressource": 585,
+    "titre": "Précision cantonale BE",
+    "canton": "BE",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/585/13.08-PPER-Fr-C3-36.pdf"
+  },
+  {
+    "objectif": "L1 36",
+    "ressource": 586,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/586/VS-L136nivII.pdf"
+  },
+  {
+    "objectif": "L1 36",
+    "ressource": 15165,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/francais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 21",
+    "ressource": 660,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 22",
+    "ressource": 659,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 23",
+    "ressource": 661,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 24",
+    "ressource": 662,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 31",
+    "ressource": 71,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/71/VS-L231-pr%C3%A9cisions.pdf"
+  },
+  {
+    "objectif": "L2 32",
+    "ressource": 72,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/72/VS-L232-pr%C3%A9cisions.pdf"
+  },
+  {
+    "objectif": "L2 32",
+    "ressource": 15166,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 33",
+    "ressource": 73,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/73/VS-L233-pr%C3%A9cisions.pdf"
+  },
+  {
+    "objectif": "L2 33",
+    "ressource": 15166,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 34",
+    "ressource": 262,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/262/VS-L234-pr%C3%A9cisions.pdf"
+  },
+  {
+    "objectif": "L2 34",
+    "ressource": 15166,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 26",
+    "ressource": 663,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L2 36",
+    "ressource": 264,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/264/VS-L236-pr%C3%A9cisions.pdf"
+  },
+  {
+    "objectif": "L2 36",
+    "ressource": 15166,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/allemand-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 11",
+    "ressource": 686,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 12",
+    "ressource": 173,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 13",
+    "ressource": 174,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 14",
+    "ressource": 524,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 21",
+    "ressource": 1021,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 22",
+    "ressource": 1233,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 23",
+    "ressource": 1235,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 24",
+    "ressource": 873,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 31",
+    "ressource": 15169,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 32",
+    "ressource": 15169,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 33",
+    "ressource": 15169,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 34",
+    "ressource": 15169,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/mathematiques-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 16",
+    "ressource": 526,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 17",
+    "ressource": 532,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 18",
+    "ressource": 535,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 26",
+    "ressource": 881,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 26",
+    "ressource": 883,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/883/VS-MSN26.pdf"
+  },
+  {
+    "objectif": "MSN 27",
+    "ressource": 880,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/880/VS-MSN27.pdf"
+  },
+  {
+    "objectif": "MSN 27",
+    "ressource": 879,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 28",
+    "ressource": 877,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/877/VS-MSN28.pdf"
+  },
+  {
+    "objectif": "MSN 28",
+    "ressource": 875,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 36",
+    "ressource": 884,
+    "titre": "VS: 9CO Sciences naturelles - Répartition annuelle",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/884/PER_nouvelle_repartition_plateforme.pdf"
+  },
+  {
+    "objectif": "MSN 36",
+    "ressource": 885,
+    "titre": "VS: Différenciation NI-NII en sciences au CO",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/885/Differenciation_NI-NII_nouvelle_repartition.pdf"
+  },
+  {
+    "objectif": "MSN 36",
+    "ressource": 15170,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 37",
+    "ressource": 15170,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 37",
+    "ressource": 885,
+    "titre": "VS: Différenciation NI-NII en sciences au CO",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/885/Differenciation_NI-NII_nouvelle_repartition.pdf"
+  },
+  {
+    "objectif": "MSN 37",
+    "ressource": 884,
+    "titre": "VS: 9CO Sciences naturelles - Répartition annuelle",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/884/PER_nouvelle_repartition_plateforme.pdf"
+  },
+  {
+    "objectif": "MSN 38",
+    "ressource": 15170,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/sciences-de-la-nature-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "MSN 38",
+    "ressource": 884,
+    "titre": "VS: 9CO Sciences naturelles - Répartition annuelle",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/884/PER_nouvelle_repartition_plateforme.pdf"
+  },
+  {
+    "objectif": "MSN 38",
+    "ressource": 885,
+    "titre": "VS: Différenciation NI-NII en sciences au CO",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/885/Differenciation_NI-NII_nouvelle_repartition.pdf"
+  },
+  {
+    "objectif": "SHS 11",
+    "ressource": 219,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 12",
+    "ressource": 221,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-c1_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 21",
+    "ressource": 220,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 21",
+    "ressource": 495,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/495/VS-SHS21.pdf"
+  },
+  {
+    "objectif": "SHS 22",
+    "ressource": 222,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 22",
+    "ressource": 496,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/496/VS-SHS22-24.pdf"
+  },
+  {
+    "objectif": "SHS 24",
+    "ressource": 15164,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/citoyennete-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 31",
+    "ressource": 890,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/890/SHS31-33-G%C3%A9ographie.pdf"
+  },
+  {
+    "objectif": "SHS 31",
+    "ressource": 15171,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/geographie-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 32",
+    "ressource": 618,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/618/SHS32-33-Histoire.pdf"
+  },
+  {
+    "objectif": "SHS 32",
+    "ressource": 15172,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/histoire-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "SHS 34",
+    "ressource": 891,
+    "titre": "Précision cantonale VS",
+    "canton": "VS",
+    "url": "https://bdper.plandetudes.ch/uploads/ressources/891/SHS34-Citoyennet%C3%A9.pdf"
+  },
+  {
+    "objectif": "SHS 34",
+    "ressource": 15173,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/citoyennete-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 23",
+    "ressource": 15163,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 21",
+    "ressource": 15163,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 24",
+    "ressource": 15163,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 22",
+    "ressource": 15163,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 26",
+    "ressource": 15163,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-c2_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 33",
+    "ressource": 15167,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 31",
+    "ressource": 15167,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 34",
+    "ressource": 15167,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 32",
+    "ressource": 15167,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf"
+  },
+  {
+    "objectif": "L3 36",
+    "ressource": 15167,
+    "titre": "Précision cantonale GE",
+    "canton": "GE",
+    "url": "https://edu.ge.ch/enseignement/system/files/2023-01/anglais-co_prescriptions-cantonales.pdf"
+  }
+]

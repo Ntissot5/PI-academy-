@@ -1,0 +1,335 @@
+{
+  "discipline": "Histoire",
+  "cycle": 1,
+  "source": "https://portail.ciip.ch/per/disciplines/8",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/66",
+      "code": "SHS 12",
+      "axe": "Relation Homme-temps",
+      "titre": "Se situer dans son contexte temporel et social",
+      "composantes": [
+        "1. en explorant le temps vécu et en décrivant sa perception de celui-ci",
+        "2. en utilisant des repères",
+        "3. en se représentant le temps vécu à l’aide de systèmes de repérage personnels et conventionnels (ligne du temps, roue, tableau,…)",
+        "4. en établissant des relations de succession et de simultanéité",
+        "5. en prenant connaissance de la multiplicité des religions",
+        "6. en utilisant des témoignages et des traces diverses du passé",
+        "7. en s’interrogeant sur des éléments de la vie d’autrefois et en constatant les changements/les permanences",
+        "8. en s’imprégnant des récits, des mythes et des légendes",
+        "9. en utilisant des termes spécifiques liés au temps et à l’histoire"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-2e",
+          "notion": "Temps concernés",
+          "contenu": [
+            "Temps vécu ou évoqué et possibilité de comparaison avec le passé"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Temps concernés",
+          "contenu": [
+            "Temps vécu ou évoqué",
+            "Temps historique, imprégnation et comparaison avec le temps présent par le biais de témoignages, récits, documents, traces,…"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Percevoir",
+          "contenu": [
+            "Perception des éléments sensoriels qui rythment la vie (cloches, sonnerie, circulation, activités humaines, lumières, phénomènes saisonniers,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Percevoir",
+          "contenu": [
+            "Perception du déroulement, de l’avancement du temps sur le vivant (plantes, animaux, humains,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Percevoir",
+          "contenu": [
+            "Perception des durées et expression du ressenti qui y est lié"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Percevoir",
+          "contenu": [
+            "Découverte du temps passé au travers de témoignages, objets, récits,…"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Observation et description de ce qui change, de ce qui est semblable au cours d’une durée donnée"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Observation et comparaison de durées"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Observation et mesure de durées"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Découpage des durées en identifiant le début et la fin d'une action, d’un processus, d'un événement (école/vacances, travail/loisirs/repos,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Découpage d'une durée en périodes (matinée, pause, après-midi,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Découpage d'une durée en périodes (heures, jours, semaines, mois, saisons, années, vie)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Description des caractéristiques de ces périodes"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Identification et description de phénomènes, d'événements cycliques, se renouvelant dans un ordre immuable (heures, jours, saisons,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Classement des étapes d’une activité ou d’événements vécus, les unes par rapport aux autres, en établissant des relations de succession (avant/après) et de simultanéité (en même temps que …)",
+            "Débat concernant la pertinence de l'ordre chronologique choisi (pourquoi dans cet ordre-là ?, à quoi sert cette étape ?…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Distinction des étapes de la vie : naissance, enfance, âge adulte, vieillesse, mort"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Classement des étapes de la vie: de la naissance à la mort"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Décrire et classer/catégoriser",
+          "contenu": [
+            "Exploration du temps vécu par sa famille, par la construction d’un arbre généalogique simplifié (notion de génération), à partir de photographies, de dessins"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Identification de points de repère pour découper le temps vécu en périodes (en lien avec les moments de la vie scolaire et familiale, puis les rythmes du corps, de la nature, de la société)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Mise en relation d'événements ou d’activités spécifiques avec ces périodes (fêtes, célébrations,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Découverte de représentations conventionnelles (ligne du temps, roue et calendrier,…) pour situer des événements (passés, présents et futurs)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Utilisation de représentations conventionnelles (ligne du temps, roue et calendrier,…) pour situer des événements"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Utilisation d'un vocabulaire spécifique précis pour situer et décrire la durée et la mesure du temps :",
+            "– avant, pendant, après, en même temps, hier, aujourd'hui, demain, matin, après-midi, soir, jour, nuit, (très ou trop) long, court, rapide, lent,…"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "– les jours de la semaine, les saisons"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "– les heures, les jours de la semaine, les mois de l'année, les saisons"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Écoute de récits historiques, de mythes, de légendes",
+            "Discussion à propos des éléments réels et des éléments imaginaires"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Distinction entre personnages historiques et héros de fiction"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Observation de traces du passé (images, objets,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Recherche et description de traces du passé récent ou plus ancien liées au milieu local (images, objets, constructions,…)",
+            "Mise en relation avec des témoignages oraux ou écrits"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification, dans le milieu local, de la permanence et des changements entre aujourd’hui, hier et un passé plus éloigné"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Comparaison d'objets de la vie quotidienne d'un enfant à des époques différentes (jouets, vêtements, véhicules,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Débat et hypothèses sur le fonctionnement, l’utilité des objets observés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Recherche sur les modes de vie des deux générations précédentes (outils, nourriture, bâtiments, communications,…)",
+            "Identification de modifications intervenues"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Questionnement sur une de ces modifications, proposition d'hypothèses pour en expliquer les causes"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Décrire et classer/catégoriser",
+          "texte": "identifie dans son environnement des durées, des changements et des permanences"
+        },
+        {
+          "fin": "4e",
+          "notion": "Décrire et classer/catégoriser",
+          "texte": "classe les étapes (représentées sous forme de photographies, dessins) d’un événement vécu ou évoqué (récit) selon leur succession ou leur simultanéité"
+        },
+        {
+          "fin": "4e",
+          "notion": "Décrire et classer/catégoriser",
+          "texte": "lit et comprend un arbre généalogique simplifié et indique les liens entre les personnes"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "utilise une ligne du temps et un calendrier pour situer des événements"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) repérer",
+          "texte": "connaît et utilise en situation le vocabulaire qui se rapporte à la durée, à la mesure et à la perception du temps"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) questionner et analyser",
+          "texte": "cite, décrit et compare quelques éléments du passé et du présent en observant ce qui change, ce qui ne change pas"
+        },
+        {
+          "fin": "4e",
+          "notion": "(Se) questionner et analyser",
+          "texte": "classe des éléments donnés selon les critères « ancien » et « actuel » de façon argumentée"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "(Se) repérer",
+          "texte": "Utiliser les principales unités de découpage du temps suivantes : le quart d’heure, la demi-heure, l’heure, le jour, la semaine, le mois, la saison, l’année"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/165",
+      "code": "SHS 13",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S’approprier, en situation, des outils pertinents pour découvrir et se questionner sur des problématiques de sciences humaines et sociales",
+      "composantes": [
+        "A. en repérant et en identifiant des informations pertinentes dans les sources disponibles",
+        "B. en se repérant sur des représentations graphiques diverses (photographie, dessin, plan simple, calendrier,…)",
+        "C. en décrivant et en comparant avec la réalité actuelle différentes représentations temporelles ou spatiales (photographie, croquis, plan, schéma, maquette, calendrier, ligne ou roue du temps,…)",
+        "D. en utilisant un vocabulaire spécifique lié au repérage dans l’espace et dans le temps"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

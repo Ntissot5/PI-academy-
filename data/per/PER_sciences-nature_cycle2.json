@@ -1,0 +1,1151 @@
+{
+  "discipline": "Sciences de la nature",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/6",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/154",
+      "code": "MSN 25",
+      "axe": "Modélisation",
+      "titre": "Représenter des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+      "composantes": [
+        "A. en imaginant et en utilisant des représentations visuelles (codes, schémas, graphiques, tableaux,…)",
+        "B. en identifiant des invariants d’une situation",
+        "C. en triant et organisant des données",
+        "D. en communiquant ses résultats et ses interprétations",
+        "E. en explorant des situations aléatoires et en se confrontant au concept de probable",
+        "F. en se posant des questions et en définissant un cadre d’étude",
+        "G. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/59",
+      "code": "MSN 26",
+      "axe": "Phénomènes naturels et techniques",
+      "titre": "Explorer des phénomènes naturels et des technologies à l'aide de démarches caractéristiques des sciences expérimentales",
+      "composantes": [
+        "1. en observant et décrivant un phénomène naturel ou le fonctionnement d’un objet technique",
+        "2. en formulant des hypothèses et en les confrontant aux résultats expérimentaux",
+        "3. en anticipant un résultat expérimental à l’aide d’un modèle simple et en le confrontant aux résultats expérimentaux",
+        "4. en imaginant des stratégies d’exploration et d’expérimentation",
+        "5. en imaginant et/ou utilisant des instruments d’observation et de mesure",
+        "6. en proposant des interprétations et en les confrontant à celles de ses pairs et aux informations de médias variés",
+        "7. en mettant en forme ses observations ou ses déductions"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Liens EN 22 – Science informatique"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de questions, d'hypothèses"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique (oralement ou par écrit – dessin ou schéma intuitif, légende,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique",
+            "Évaluation de leur pertinence (prennent-elles en compte les éléments de la situation problématique ?)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Développement de stratégies d’exploration et/ou d’expérimentation, par :",
+            "– l’imagination d'une piste de recherche, d'un dispositif d'exploration, qui permet de répondre à une problématique, à une question de recherche",
+            "– l’anticipation des résultats",
+            "– la mise en évidence de quelques facteurs (variables) qui peuvent intervenir dans l’explication d’un phénomène observé ou expérimenté",
+            "– la détermination des facteurs à observer, impliquant de déterminer des invariants",
+            "– la mise en œuvre d'un dispositif expérimental ou d'exploration (démontage d'un objet technique) qui a été imaginé ou proposé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte et mise en forme des données"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Relevé fidèle des résultats, des observations et/ou des mesures effectuées (dessin d'observation, photo, texte, nombre, schéma,…); tenue d'un journal d'observations"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Utilisation d'outils ou d'instruments adéquats pour les différentes observations ou expériences (règle, chronomètre, thermomètre,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Choix d'outils ou d'instruments adéquats pour une situation problématique donnée; utilisation correcte de ces outils en prenant conscience des marges d'erreurs ou d'interprétation"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prises de mesures de : longueur, capacité, masse, durée, température,… à l'aide d'unités non standardisées (gobelets, nombre de tours,…) en les comparant aux unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prises de mesures de : longueur, capacité, masse, durée, température,… à l'aide des unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte de données complémentaires (photos, données numériques,…) dans différents médias (autres élèves, Internet,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Organisation des données à l’aide de diverses représentations (schéma, tableau, arbre de classement, diagramme, graphique, carte,…) à construire, à utiliser, à modifier et à enrichir"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Analyse de données et élaboration d'un modèle explicatif"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Confrontation des données à d'autres situations (à d'autres relevés, à des situations vécues,…)",
+            "Interprétation des données en les confrontant à d'autres sources (ses pairs, divers médias,…) ou à d'autres situations (au vécu, à l'expérimentation,…)",
+            "Distinction entre ce qui relève des résultats, des constats, de ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question",
+            "Proposition d’une explication; élaboration d'une règle, d'une loi, d'un principe, d'un modèle,…",
+            "Validation des propositions par un débat scientifique, fondant l'argumentation sur la mise en regard des interprétations et des données prises en compte avec les modèles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Communication"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Présentation orale ou écrite de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observations, résultats, interprétation,…) à l'aide de différents supports (image, dessin, texte, tableau, graphique,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Expérimentation et mise en évidence de quelques propriétés de la matière dans ses états solide et liquide (dureté, compressibilité, conservation de la masse lors d’un changement de forme, différence entre solide et liquide ?…)",
+            "Expérimentation et mise en évidence de quelques propriétés du changement d’état de la matière dans sa transformation solide - liquide (conservation de la masse lors d’un changement par le passage de liquide à solide ? est-ce réversible ? à quelles températures ?…)",
+            "Observation des différentes formes de l’eau dans l’environnement (pluie, brouillard, neige, givre,…) et compréhension du cycle naturel de l’eau"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Étude de l’eau comme élément essentiel à la vie (imaginer la vie sans eau pour les êtres vivants,…)",
+            "Expérimentation et mise en évidence de quelques propriétés du changement d’état de la matière dans sa transformation solide – liquide (notion de réversibilité, températures associées,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Utilisation de différents produits (eau, sel, sable, huile,…) pour créer des mélanges (hétérogènes ou homogènes) et expérimentation de divers dispositifs pour les séparer (filtration, décantation, évaporation,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Identification de différents types de pollutions (caractéristiques, conséquences,…)",
+            "Catégorisation et comparaison des ressources naturelles (proportion d'air respirable, lieux de stockage de l'eau douce sur Terre, part de l'eau douce utilisable par rapport à l'eau salée,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Expérimentation et représentation de quelques propriétés de l’air (force et pression, omniprésence,…)",
+            "Identification de l’air comme étant une matière gazeuse, dans notre environnement"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "contenu": [
+            "Expérimentation et représentation de quelques propriétés de l’air (air froid/air chaud, taux d’humidité)",
+            "Mise en lien des propriétés étudiées avec les phénomènes météorologiques : vents, précipitations,…"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Forces et énergie (mécanique)",
+          "contenu": [
+            "Équilibre et leviers",
+            "Expérimentation de la notion d’équilibre au moyen de diverses balances et objets de masses différentes",
+            "Compréhension du fonctionnement des outils de mesure et des unités conventionnelles associées",
+            "Expérimentation et schématisation des propriétés des leviers : axe de rotation et point d’application de la force ; lien avec quelques outils (où tenir les ciseaux pour couper du carton ? et la tenaille, et le casse-noix ? comment porter un sac ? soulever des charges à l’aide de leviers,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Forces et énergie (mécanique)",
+          "contenu": [
+            "Transmission de mouvements",
+            "Observation et représentation des transmissions du mouvement (mouvements de rotation ou de translation) dans des modèles expérimentaux et dans des objets technologiques (fouet mécanique, sonnette, voiture à ressort, pendule, montre, système d’entraînement d’un vélo, moulin,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "contenu": [
+            "Expérimentation de circuits simples (ampoule, piles de différentes formes, fils conducteurs,…) et du principe du court-circuit",
+            "Observation du fonctionnement d’objets technologiques impliquant des circuits électriques à courant faible (lampe de poche, jeu,…)",
+            "Expérimentation de la conductivité électrique (matériaux isolants ou conducteurs) dans une perspective de prévention"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "contenu": [
+            "Recherche des fonctions de l’énergie pour l’être humain (pour son corps, chauffer, éclairer, mettre en mouvement,…)",
+            "Identification et comparaison des sources d’énergie (renouvelables/non renouvelables) et évaluation des avantages et inconvénients",
+            "Observation et expérimentation de diverses transformations d’énergie (chauffe-eau, radiateur électrique,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "contenu": [
+            "Expérimentation de la conductivité thermique (échange de chaleur entre différentes matières, matériaux isolants ou conducteurs)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "contenu": [
+            "Expérimentation et représentation de quelques propriétés de la lumière (trajet en ligne droite, source de lumière naturelle ou artificielle,…)",
+            "Expérimentation, représentation et modélisation de quelques phénomènes d’ombres liés aux objets : mise en évidence des facteurs en jeu (position de la source de lumière, forme de l'objet, orientation de la surface où l’ombre est projetée,…) et des conséquences (ombre propre et ombre-s portée-s)",
+            "Observation de la course apparente du Soleil et mise en relation avec l’alternance jour/nuit et les points cardinaux"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "contenu": [
+            "Observation de la course apparente du Soleil (en précisant notamment l’heure et la position du Soleil au lever, au point culminant et au coucher) et mise en relation avec l’alternance jour/nuit, les points cardinaux, les saisons,…",
+            "Représentation et modélisation en 2 et 3 dimensions des deux mouvements simultanés de la Terre (rotation autour de son axe et révolution autour du Soleil) pour appréhender les notions d’alternance jour/nuit, d’année, de durée du jour et de la nuit, de cycle des saisons,…",
+            "Observation de modèles en 2 et 3 dimensions de quelques corps principaux de notre système solaire en distinguant les éléments étoile – planète – satellite (Soleil, Terre, Lune, autres planètes du système), en appréhendant les notions de tailles et de distances"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "contenu": [
+            "Étude et analyse des mécanismes en jeu dans une catastrophe naturelle affectant la planète Terre (inondation, sécheresse, tempête,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "formule au moins une question et/ou une hypothèse qui utilise(nt) les éléments de la situation au sujet d'une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit une piste de recherche, un dispositif d'exploration qui permet de répondre à une question de recherche (dans une liste de propositions)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "met en évidence quelques facteurs (des variables et des constantes) intervenant dans l’explication d’une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "récolte des résultats ou des observations pertinents en regard de la problématique étudiée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit un ou plusieurs instruments de mesure adéquats dans une problématique donnée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "utilise correctement des instruments de mesure (longueur, capacité, masse, durée, température)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "organise des données à l'aide de différents outils de représentation"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation pour infirmer ou corroborer des hypothèses"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "reconnaît certaines phases d’une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "communique certaines phases d'une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "texte": "identifie les changements d’état de l’eau et certaines de ses caractéristiques concernant son aspect, son volume, sa température"
+        },
+        {
+          "fin": "8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "texte": "décrit le cycle naturel de l'eau"
+        },
+        {
+          "fin": "8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "texte": "sait que l’air est une matière"
+        },
+        {
+          "fin": "8e",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Forces et énergie (mécanique)",
+          "texte": "équilibre des charges de masses différentes sur des systèmes de levier"
+        },
+        {
+          "fin": "8e",
+          "notion": "Forces et énergie (mécanique)",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "texte": "reconnaît certains comportements ou gestes dangereux pour le corps humain dans la manipulation de l’électricité"
+        },
+        {
+          "fin": "8e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "texte": "reconnaît différentes sources d’énergie courantes et leurs utilisations"
+        },
+        {
+          "fin": "8e",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "texte": "distingue ombre propre et ombre portée d’un objet éclairé"
+        },
+        {
+          "fin": "8e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "texte": "schématise les deux mouvements simultanés de la Terre (rotation autour de son axe et révolution autour du Soleil) et les utilise pour définir la notion de jour et d’année"
+        },
+        {
+          "fin": "8e",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/60",
+      "code": "MSN 27",
+      "axe": "Corps humain",
+      "titre": "Identifier les différentes parties de son corps, en décrire le fonctionnement et en tirer des conséquences pour sa santé",
+      "composantes": [
+        "1. en identifiant des risques de la vie courante et de certains\ncomportements",
+        "2. en testant et en caractérisant les organes des sens",
+        "3. en identifiant les principales sources d’énergie et leurs\ntransformations dans le corps",
+        "4. en comprenant le mécanisme de la respiration externe",
+        "5. en établissant des liens entre le système locomoteur et\nles mouvements",
+        "6. en identifiant les transformations du corps au cours de la vie",
+        "7. en expérimentant certains fonctionnements du corps",
+        "8. en représentant et en modélisant le corps à l’aide de\nschémas ou de maquettes",
+        "9. en acquérant et en utilisant un vocabulaire spécifique"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de questions, d’hypothèses"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique (oralement ou par écrit - dessin ou schéma intuitif, légende,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique",
+            "Évaluation de leur pertinence (prennent-elles en compte les éléments de la situation problématique ?)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Développement de stratégies d’exploration et/ou d’expérimentation, par :",
+            "– l’imagination d'une piste de recherche, d'un dispositif d'exploration, qui permet de répondre à une problématique, à une question de recherche",
+            "– l’anticipation des résultats",
+            "– la mise en évidence de quelques facteurs (variables) qui peuvent intervenir dans l’explication d’un phénomène observé ou expérimenté",
+            "– la détermination des facteurs à observer, impliquant de déterminer des invariants",
+            "– la mise en œuvre d'un dispositif expérimental ou d'exploration (démontage d'un objet technique) qui a été imaginé ou proposé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte et mise en forme des données"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Relevé fidèle des résultats, des observations et/ou des mesures effectuées (dessin d'observation, photo, texte, nombre, schéma,…); tenue d'un journal d'observations"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Utilisation d'outils ou d'instruments adéquats pour les différentes observations ou expériences (règle, chronomètre, thermomètre,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Choix d'outils ou d'instruments adéquats pour une situation problématique donnée ; utilisation correcte de ces outils en prenant conscience des marges d'erreurs ou d'interprétation"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prise de mesures de : longueur, capacité, masse, durée, température,… à l'aide d'unités non standardisées (gobelets, nombre de tours,…) en les comparant aux unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prises de mesures de : longueur, capacité, masse, durée, température,… à l'aide des unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte de données complémentaires (photos, données numériques,…) dans différents médias (autres élèves, Internet,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Organisation des données à l’aide de diverses représentations (schéma, tableau, arbre de classement, diagramme, graphique, carte,…) à construire, à utiliser, à modifier et à enrichir"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Analyse des données et élaboration d'un modèle explicatif"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Confrontation des données à d'autres situations (à d'autres relevés, à des situations vécues,…)",
+            "Interprétation des données en les confrontant à d'autres sources (ses pairs, divers médias,…) ou à d'autres situations (au vécu, à l'expérimentation,…)",
+            "Distinction entre ce qui relève des résultats, des constats, de ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question",
+            "Proposition d’une explication; élaboration d'une règle, d'une loi, d'un principe, d'un modèle,…",
+            "Validation des propositions par un débat scientifique, fondant l'argumentation sur la mise en regard des interprétations et des données prises en compte avec les modèles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Communication"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Présentation orale ou écrite de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observations, résultats, interprétation,…) à l'aide de différents supports (image, dessin, texte, tableau, graphique,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "contenu": [
+            "Mise en évidence des organes et fonctions du corps touchés par certains comportements, néfastes ou bénéfiques (concernant l'alimentation, le sommeil, l'activité physique,…) dans une perspective de prévention"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "contenu": [
+            "Mise en évidence des organes et fonctions du corps touchés par certains comportements, néfastes ou bénéfiques concernant l'alimentation, le sommeil, l'activité physique, l'audition,… (tabagisme, alcoolisme, dopage,…) dans une perspective de prévention"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "contenu": [
+            "Comparaison de diverses représentations ou modélisations du corps humain pour y localiser les organes étudiés"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Organes des sens ( 2 , 7 )",
+          "contenu": [
+            "Catégorisation des informations captées par le corps selon les 5 sens et identification des organes concernés",
+            "Analyse des conséquences de l'absence d'un sens (jouer à l'aveugle, au sourd, mettre des gants,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "contenu": [
+            "Mise en évidence des principes d'une alimentation équilibrée"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "contenu": [
+            "Représentation spontanée du cheminement des aliments dans le corps et confrontation avec des schémas anatomiques",
+            "Mise en évidence des différents organes de l'appareil digestif : processus mécanique et chimique de transformation des aliments en nutriments, de leur assimilation et de leur élimination",
+            "Schématisation des relations entre l'appareil digestif et l'appareil circulatoire"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Respiration externe ( 4 , 7 , 9 )",
+          "contenu": [
+            "Représentation spontanée du cheminement de l'air dans le corps et confrontation avec des schémas anatomiques",
+            "Mise en évidence des relations entre l'appareil respiratoire et l'appareil circulatoire (dénombrement des respirations et pulsations cardiaques selon l’activité du corps)",
+            "Mesure du volume d'air éjecté par respiration normale ou forcée"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "contenu": [
+            "Construction de sa représentation du squelette par :",
+            "– la schématisation de l'intérieur du corps humain (squelette)",
+            "– l’amélioration par palpation de son propre corps",
+            "– la vérification à l’aide de différents médias (schémas, photos, modèles en 3 dimensions,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "contenu": [
+            "Comparaison du squelette d’un Homme et de celui d’autres vertébrés en repérant les os principaux pour comprendre le fonctionnement du système locomoteur et son lien avec le mode de vie"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "contenu": [
+            "Mise en évidence des différents mouvements du corps par :",
+            "– l’émission d’hypothèses sur les mouvements possibles et impossibles",
+            "– la catégorisation des mouvements (flexion, extension) et de différentes articulations (dans un axe, dans plusieurs directions) par expérimentation sur son corps",
+            "– la vérification à l’aide de différents médias (schémas, photos, modèles en 3 dimensions, animations,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "contenu": [
+            "Mise en évidence du fonctionnement des principaux muscles du bras (lieu d’attache, direction du mouvement), par la construction de modèles en 3D permettant de reproduire les mouvements et/ou par la consultation de différents médias"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "contenu": [
+            "Observation de l'évolution du corps en procédant à des mesures régulières consignées dans un carnet personnel (taille, poids, pointure, dentition, cheveux,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "contenu": [
+            "Mise en évidence de l'évolution du corps humain tout au long de la vie ; description des caractéristiques de chaque étape (enfance, adolescence, adulte,…) et représentation à l'aide d'une frise temporelle"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "contenu": [
+            "Observation d'une faculté du corps à se régénérer (repousse des cheveux, des ongles et selon les opportunités: cicatrisation, hématome, recalcification d'un os cassé,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "formule au moins une question et/ou une hypothèse qui utilise(nt) les éléments de la situation au sujet d'une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit une piste de recherche, un dispositif d'exploration qui permet de répondre à une question de recherche (dans une liste de propositions)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "met en évidence quelques facteurs (des variables et des constantes) intervenant dans l’explication d’une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "récolte des résultats ou des observations pertinents en regard de la problématique étudiée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit un ou plusieurs instruments de mesure adéquats dans une problématique donnée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "utilise correctement des instruments de mesure (longueur, capacité, masse, durée, température)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "organise des données à l'aide de différents outils de représentation"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation pour infirmer ou corroborer des hypothèses"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "reconnaît certaines phases d’une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "communique certaines phases d'une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "texte": "énumère quelques besoins fondamentaux au bon fonctionnement du corps"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "texte": "repère quelques comportements à risques et les explicite"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Organes des sens ( 2 , 7 )",
+          "texte": "associe une information captée par le corps à un organe sensoriel"
+        },
+        {
+          "fin": "8e",
+          "notion": "Organes des sens ( 2 , 7 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "texte": "situe et ordonne les principaux organes de l'appareil digestif (bouche, dents, œsophage, estomac, intestins, anus)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "texte": "décrit sommairement le fonctionnement et le rôle de ces principaux organes dans le processus de digestion en lien avec l'appareil circulatoire"
+        },
+        {
+          "fin": "8e",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Respiration externe ( 4 , 7 , 9 )",
+          "texte": "situe, ordonne et décrit sommairement le fonctionnement des principaux organes de l'appareil respiratoire (bouche, nez, trachée, poumons)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Respiration externe ( 4 , 7 , 9 )",
+          "texte": "établit une relation entre l’intensité de l’activité physique et les appareils circulatoire et respiratoire"
+        },
+        {
+          "fin": "8e",
+          "notion": "Respiration externe ( 4 , 7 , 9 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "texte": "complète un schéma du squelette à l’aide de divers documents ; situe les os principaux"
+        },
+        {
+          "fin": "8e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "texte": "distingue divers types d’articulations et les situe dans le corps humain"
+        },
+        {
+          "fin": "8e",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/61",
+      "code": "MSN 28",
+      "axe": "Diversité du vivant",
+      "titre": "Déterminer des caractéristiques du monde vivant et de divers milieux et en tirer des conséquences pour la pérennité de la vie",
+      "composantes": [
+        "1. en observant et décrivant divers milieux urbains et naturels",
+        "2. en construisant et en utilisant des critères de classement spécifiques",
+        "3. en identifiant les interactions des êtres vivants entre eux et avec leur milieu",
+        "4. en décrivant le cycle de vie : naissance, croissance, mort",
+        "5. en percevant l’impact de son interaction avec le monde vivant",
+        "6. en observant des éléments de fragilité d’écosystèmes, y compris urbains",
+        "7. en organisant et en présentant ses observations",
+        "8. en concevant et réalisant des expérimentations"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de questions, d'hypothèses"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique (oralement ou par écrit - dessin ou schéma intuitif, légende,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Formulation de quelques questions et hypothèses au sujet d'une problématique",
+            "Évaluation de leur pertinence (prennent-elles en compte les éléments de la situation problématique ?)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Développement de stratégies d’exploration et/ou d’expérimentation, par :",
+            "– l’imagination d'une piste de recherche, d'un dispositif d'exploration, qui permet de répondre à une problématique, à une question de recherche",
+            "– l’anticipation des résultats, la mise en évidence de quelques facteurs (variables) qui peuvent intervenir dans l’explication d’un phénomène observé ou expérimenté",
+            "– la détermination des facteurs à observer, impliquant de déterminer des invariants",
+            "– la mise en œuvre d'un dispositif expérimental ou d'exploration (démontage d'un objet technique) qui a été imaginé ou proposé"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte et mise en forme des données"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Relevé fidèle des résultats, des observations et/ou des mesures effectuées (dessin d'observation, photo, texte, nombre, schéma,…) ; tenue d'un journal d'observations"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Utilisation d'outils ou d'instruments adéquats pour les différentes observations ou expériences (règle, chronomètre, thermomètre,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Choix d'outils ou d'instruments adéquats pour une situation problématique donnée ; utilisation correcte de ces outils en prenant conscience des marges d'erreurs ou d'interprétation"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prise de mesures de : longueur, capacité, masse, durée, température,… à l'aide d'unités non standardisées (gobelets, nombre de tours,…) en les comparant aux unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Prises de mesures de : longueur, capacité, masse, durée, température,… à l'aide des unités conventionnelles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Récolte de données complémentaires (photos, données numériques,…) dans différents médias (autres élèves, Internet,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Organisation des données à l’aide de diverses représentations (schéma, tableau, arbre de classement, diagramme, graphique, carte,…) à construire, à utiliser, à modifier et à enrichir"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Analyse des données et élaboration d'un modèle explicatif"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Confrontation des données à d'autres situations (à d'autres relevés, à des situations vécues,…)",
+            "Interprétation des données en les confrontant à d'autres sources (ses pairs, divers médias,…) ou à d'autres situations (au vécu, à l'expérimentation,…)",
+            "Distinction entre ce qui relève des résultats, des constats, de ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question",
+            "Proposition d’une explication ; élaboration d'une règle, d'une loi, d'un principe, d'un modèle,…",
+            "Validation des propositions par un débat scientifique, fondant l'argumentation sur la mise en regard des interprétations et des données prises en compte avec les modèles"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Communication"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Développement de la démarche scientifique",
+          "contenu": [
+            "Présentation orale ou écrite de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observations, résultats, interprétation,…) à l'aide de différents supports (image, dessin, texte, tableau, graphique,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "contenu": [
+            "Observation et identification de diverses parties de végétaux (racine, écorce, tige, feuilles, fruits, fleurs, rameaux,…), d’animaux (pattes, bec,…) et de champignons afin de comparer leur morphologie",
+            "Recherche de critères définissant la notion de vivant en restant à l’échelle de l’organisme visible à l'œil nu (naître, se développer en interaction avec le milieu, se reproduire, mourir)",
+            "Recherche de critères pour trier, classer ou ranger les êtres vivants",
+            "Présentation des classements à l’aide de divers outils (tableaux, schémas, arbres de classement,…)",
+            "Comparaison avec des critères et classements utilisés par les scientifiques",
+            "Identification d’un être vivant à l’aide d'une clé de détermination simple",
+            "Mise en évidence de la biodiversité en répertoriant quelques êtres vivants d’un milieu étudié"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "contenu": [
+            "Mise en lien de la morphologie de diverses espèces animales avec :",
+            "– leur régime alimentaire (carnivore, granivore, herbivore,…)",
+            "– leur mode de locomotion (marche, course, vol, nage,…)",
+            "– leurs stratégies de protection ou d’attaques (camouflage, venin,… - affût, poursuite, piège,…)",
+            "Étude des relations alimentaires entre les êtres vivants (chaîne alimentaire, pyramide alimentaire,…) et identification des producteurs (végétaux), des consommateurs 1 (herbivores), des consommateurs 2 (carnivores ou prédateurs) et des décomposeurs sur un schéma montrant les relations alimentaires dans un milieu naturel"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Interdépendance (les êtres vivants entre eux et avec leur milieu) ( 3 )",
+          "contenu": [
+            "Pour un milieu étudié :",
+            "– comparaison et analyse des relations (symbiose, prédation, parasitisme, compétition,…) entre êtres vivants",
+            "– analyse des liens entre animaux, plantes,… et le milieu afin de montrer les interdépendances (disponibilité en nourriture, possibilité de protection, de croissance, conditions favorables pour la reproduction,…) et leur implication pour la biodiversité",
+            "– analyse de différents documents (schémas, textes, films,…) présentant ces relations"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Étude de différentes phases du cycle de vie d’un animal par l’organisation d'un élevage (asticot-mouche; chenille-papillon; fourmis, poussins ; souris ;…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Comparer différentes phases du cycle de vie de plusieurs animaux pour mettre en évidence l’unité et la diversité des étapes de la reproduction (fécondation, œuf, éclosion, développement jusqu’à l’âge adulte,…)",
+            "Comparaison des stratégies de reproduction de différentes classes d’animaux pour assurer la perpétuation de l’espèce (peu ou beaucoup d’œufs, développement à l’intérieur ou à l’extérieur du corps,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Récolte de différentes graines (gland, marron, pépin de pomme, lentille, haricot, pois, fève,…) pour définir leur fonction (unité) et constater leurs différences (diversité de formes, de couleurs,…)",
+            "Expérimentation des conditions de germination",
+            "Étude des différentes phases du cycle de vie d’une plante par l’organisation d'une plantation, observations dans le milieu, confrontation à des documents,…",
+            "Étude de la croissance des plantes par l’observation et la prise de note des marques de l’évolution saisonnière sur quelques arbres ou arbustes témoins proches de l’école (rougissement des feuilles, perte des feuilles, rameau avec bourgeons, éclosion de la première feuille, croissance des rameaux,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Mise en évidence de l’unité du cycle de vie de toute plante (fécondation, développement, mort,…)",
+            "Étude du cycle de vie des plantes à fleur, avec un accent sur leur reproduction : pollinisation, développement de la fleur et évolution en fruit, notamment par l’observation de plantes diversifiées dans leur milieu et/ou par leur culture (plants de tomates, de petit pois, de haricots, cerisier, pommier, érable, chêne,…)",
+            "Comparaison des stratégies adoptées par les plantes pour assurer la perpétuation de l’espèce (repartir des racines, faire des fleurs et des graines,… ; les disséminer par le vent, par les animaux,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Comparaison des stratégies de divers animaux (migration, hibernation, survie à un certain stade de développement,…) et de diverses plantes (en graine chez les annuelles ; par conservation d’une partie de la plante chez les vivaces, y c. les arbres,…) pour survivre à l’hiver"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "contenu": [
+            "Comparaison entre la graine (végétal) et l’œuf (animal) et mise en évidence du rôle identique joué dans le cycle de vie (détenir l’information pour développer un individu)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "contenu": [
+            "Utilisation des informations obtenues lors de l’étude d’un milieu pour émettre des hypothèses sur ce qui changerait si l'on modifiait ce milieu (élimination de certaines espèces, assèchement, enlèvement de terre, coupe fréquente de l'herbe,…) et pour en analyser leur pertinence"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "contenu": [
+            "Mise en évidence de la variation de biodiversité en comparant un milieu avant et après l'intervention de l'Homme (néfaste ou bénéfique)",
+            "Exploitation d'un fait d'actualité pour montrer la fragilité des milieux naturels (incendie, marée noire, pollutions diverses, disparition d'espèces, déforestation,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "formule au moins une question et/ou une hypothèse qui utilise(nt) les éléments de la situation au sujet d'une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit une piste de recherche, un dispositif d'exploration qui permet de répondre à une question de recherche (dans une liste de propositions)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "met en évidence quelques facteurs (des variables et des constantes) intervenant dans l’explication d’une problématique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "récolte des résultats ou des observations pertinents en regard de la problématique étudiée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "choisit un ou plusieurs instruments de mesure adéquats dans une problématique donnée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "utilise correctement des instruments de mesure (longueur, capacité, masse, durée, température)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "organise des données à l'aide de différents outils de représentation"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation pour infirmer ou corroborer des hypothèses"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "reconnaît certaines phases d’une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Développement de la démarche scientifique",
+          "texte": "communique certaines phases d'une recherche"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "texte": "différencie vivant/non vivant par des critères à l’échelle de l’organisme (naître, croître, se reproduire, mourir)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "texte": "propose un critère de classement et l’utilise"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "texte": "identifie et classe quelques êtres vivants à l’aide de documents de référence"
+        },
+        {
+          "fin": "8e",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "texte": "établit un lien entre une particularité morphologique d’un animal et son mode de vie"
+        },
+        {
+          "fin": "8e",
+          "notion": "Interdépendance (les êtres vivants entre eux et avec leur milieu) ( 3 )",
+          "texte": "caractérise une relation entre êtres vivants"
+        },
+        {
+          "fin": "8e",
+          "notion": "Interdépendance (les êtres vivants entre eux et avec leur milieu) ( 3 )",
+          "texte": "caractérise une relation entre un être vivant et son milieu"
+        },
+        {
+          "fin": "8e",
+          "notion": "Interdépendance (les êtres vivants entre eux et avec leur milieu) ( 3 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "ordonne différentes phases de développement d’un animal"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "ordonne différentes phases de développement d’un végétal (germination, croissance, floraison, pollinisation, fécondation, maturation du fruit et développement des graines, dissémination des graines)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "repère une similitude entre l’œuf et la graine"
+        },
+        {
+          "fin": "8e",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "texte": "cite une adaptation développée par les animaux et par les végétaux pour survivre à l’hiver"
+        },
+        {
+          "fin": "8e",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "texte": "décrit les conséquences (positives ou négatives) d'une intervention humaine sur un milieu naturel"
+        },
+        {
+          "fin": "8e",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "texte": "compare un milieu diversifié et un milieu peu diversifié en se basant sur leur description"
+        },
+        {
+          "fin": "8e",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "texte": "cf. Attentes liées au Développement de la démarche scientifique"
+        }
+      ]
+    }
+  ]
+}

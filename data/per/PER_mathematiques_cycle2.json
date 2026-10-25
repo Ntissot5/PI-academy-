@@ -1,0 +1,1187 @@
+{
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/5",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/40",
+      "code": "MSN 21",
+      "axe": "Espace",
+      "titre": "Poser et résoudre des problèmes pour structurer le plan et l'espace",
+      "composantes": [
+        "1. en dégageant des propriétés géométriques des figures planes et en les classant",
+        "2. en dégageant des propriétés des solides et en s’initiant à leur représentation",
+        "3. en représentant des figures planes et des solides à l’aide de croquis, de maquettes, d’ébauches de perspective,…",
+        "4. en effectuant des isométries et en décrivant des déplacements à l’aide d’isométries",
+        "5. en s’appropriant et en utilisant des systèmes conventionnels de repérage",
+        "6. en utilisant des instruments de géométrie"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes géométriques en lien avec le repérage, ainsi que les figures et les transformations étudiées, notamment : (A, B, C, D, F, G)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose d’une conjecture, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Reconnaissance, description et dénomination de figures planes (triangle, carré, rectangle, losange, cercle) selon leurs propriétés (symétrie-s interne-s, parallélisme, isométrie,…) (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Reconnaissance, description et dénomination de figures planes (triangles, quadrilatères, cercle) selon leurs propriétés (symétrie-s interne-s, parallélisme, isométrie,…) (1)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Décomposition d'une surface plane en surfaces élémentaires et recomposition"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Décomposition d'une surface plane en surfaces élémentaires et recomposition"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Représentation de figures planes à l'aide de croquis (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Dessin de carrés et de rectangles à l'aide de la règle graduée (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Construction des figures planes les plus courantes à l'aide des instruments de géométrie (règle graduée, équerre, compas, rapporteur) (3, 6)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Reconnaissance du parallélisme et de la perpendicularité (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Construction de droites parallèles et perpendiculaires (6)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Reconnaissance, description et dénomination de solides (cube, pyramide, parallélépipède rectangle) selon leurs faces, sommets ou arêtes (2)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Reconnaissance, description et dénomination de solides (cube, parallélépipède rectangle, pyramide) selon leurs faces, sommets ou arêtes et vérification de certaines propriétés (2)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Construction de solides selon certains critères (nombre ou forme des faces, type de solides,…) (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Découverte du lien entre un solide et son développement à l'aide de matériel (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Dessin et réalisation de quelques développements du cube et du parallélépipède rectangle avec du matériel de construction (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Interprétation de la représentation en perspective d'un solide ou d'un assemblage de solides (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Figures géométriques planes et solides",
+          "contenu": [
+            "Représentation de solides à l'aide d'ébauches de perspective (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Observation des principales propriétés (variants et invariants) des isométries (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Reconnaissance, description et dénomination des isométries (translation, symétrie axiale, rotation) (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Anticipation de la forme et de la position d'une figure plane après une ou plusieurs isométries (4)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Réalisation de frises, de pavages à l'aide d'isométries sur un papier à réseau et/ou au moyen de matériel (papier-calque, papier à réseau, ciseaux, miroir,…) (4)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Repérage des axes de symétrie d'une figure plane (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Repérage et construction des axes de symétrie d'une figure plane (1)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Reproduction d'une figure plane par translation ou par symétrie axiale au moyen de matériel (papier-calque, papier à réseau, ciseaux, miroir,…) (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Reproduction d'une figure plane par une isométrie (translation, rotation, symétrie axiale) au moyen de matériel (papier-calque, papier à réseau, ciseaux, miroir,…) (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Construction d'une figure plane par une isométrie (translation, symétrie axiale) à l'aide des instruments de géométrie (4, 6)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Agrandissement et réduction de figures planes sur papier à réseau"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Utilisation d'un code personnel pour mémoriser et communiquer des itinéraires de son environnement familier (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Utilisation d'un système de repérage personnel (plan et espace) ou conventionnel (plan), pour mémoriser et communiquer des positions et des itinéraires (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Orientation du support (plan, carte,…) à partir de points de repères choisis (5)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes géométriques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– mobilisation de propriétés de figures et de transformations"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation d'un système de repérage pour situer des objets dans le plan"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation d'outils de construction appropriés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat en utilisant un vocabulaire adéquat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Figures géométriques planes et solides",
+          "texte": "nomme le cercle, le carré, le triangle, le rectangle et reconnaît ces figures dans diverses situations (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Figures géométriques planes et solides",
+          "texte": "utilise une règle pour achever la construction d'une figure à partir d'un modèle (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Figures géométriques planes et solides",
+          "texte": "reconnaît et nomme le triangle rectangle, le triangle équilatéral, le triangle isocèle, le carré, le rectangle, le losange, le parallélogramme et le cercle"
+        },
+        {
+          "fin": "8e",
+          "notion": "Figures géométriques planes et solides",
+          "texte": "décrit le triangle équilatéral, le carré, le rectangle, selon le nombre de côtés, le nombre d'angles droits, les côtés de même mesure, le parallélisme des côtés et les symétries internes"
+        },
+        {
+          "fin": "8e",
+          "notion": "Figures géométriques planes et solides",
+          "texte": "construit le triangle équilatéral, le carré et rectangle, des droites parallèles et perpendiculaires à l'aide des instruments de géométrie (règle graduée, équerre, compas, rapporteur)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Transformations géométriques",
+          "texte": "reconnaît une symétrie axiale et une translation"
+        },
+        {
+          "fin": "8e",
+          "notion": "Transformations géométriques",
+          "texte": "repère le-s axe-s de symétrie d'une figure plane"
+        },
+        {
+          "fin": "8e",
+          "notion": "Transformations géométriques",
+          "texte": "poursuit la construction d'une frise ou d'un pavage"
+        },
+        {
+          "fin": "8e",
+          "notion": "Transformations géométriques",
+          "texte": "reproduit une figure plane par une translation ou une symétrie axiale au moyen de matériel"
+        },
+        {
+          "fin": "8e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "trace un parcours sur un plan à partir de consignes (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "situe sur un plan des positions relatives d'objets (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "utilise un système d'axes orthonormé pour placer un point ou pour communiquer sa position"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/41",
+      "code": "MSN 22",
+      "axe": "Nombres",
+      "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres rationnels",
+      "composantes": [
+        "1. en passant de l’énonciation (orale ou écrite) du nombre à son écriture chiffrée et inversement",
+        "2. en explorant différentes écritures de nombres et différents systèmes de numération, présents ou passés",
+        "3. en ordonnant des nombres rationnels, notamment décimaux",
+        "4. en organisant les nombres rationnels à travers les opérations",
+        "5. en utilisant des propriétés des nombres entiers",
+        "6. en utilisant différentes procédures de calcul (calcul réfléchi, algorithmes, répertoire mémorisé, calculatrice,…)",
+        "7. en explorant l’infiniment grand et l’infiniment petit"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:\nnombres naturels de 0 à 10'000"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:\nnombres naturels et nombres rationnels positifs"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés et l’écriture de ces nombres, notamment : (A, C, D, F)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose d’une conjecture, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Dénombrement d'une collection d'objets par comptage organisé, par groupements par 10, 100, 1000"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Estimation du nombre d'objets d'une collection (par perception globale,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Constitution d'une collection ayant un nombre donné d'objets"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Comptage et décomptage de 1 en 1, de 10 en 10, de 100 en 100, de 1000 en 1000 à partir d'un nombre donné"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Exploration de l’infiniment grand (7)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "contenu": [
+            "Exploration de l’infiniment grand et de l’infiniment petit (7)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Comparaison, classement, encadrement et intercalation de nombres (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Comparaison, classement, encadrement et intercalation de nombres écrits sous forme décimale (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Représentation et lecture de nombres sur une bande numérique (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Représentation et lecture de nombres sur une droite graduée (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Production d'un nombre plus petit ou plus grand qu'un nombre donné d'une unité, d'une dizaine, d'une centaine, d'un millier"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Mise en relation d'un nombre naturel avec d'autres (valant dix fois plus que, cent fois plus que, une dizaine de moins que,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Extraction du nombre entier de dizaines, centaines ou milliers d'un nombre (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Extraction du nombre entier de dizaines, centaines ou milliers d'un nombre et de dixièmes, centièmes ou millièmes (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Comparaison, classement de fractions unitaires ou de même dénominateur (3)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Comparaison et représentation de nombres",
+          "contenu": [
+            "Exploration, comparaison et représentation sur une droite graduée de nombres entiers relatifs (températures, niveaux, pertes, ligne du temps,…) (3)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à sa décomposition en unités, dizaines, centaines, milliers et inversement (1, 5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à sa décomposition en unités, dizaines, centaines,…, dixièmes, centièmes, millièmes et inversement (1, 5)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée et inversement (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée et inversement (nombres ayant au plus 3 décimales) (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Reconnaissance d'un nombre sous diverses écritures et établissement de quelques égalités\n(la moitié = 1/2 = 0,5 = 5 dixièmes = 5/10 …) (2)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Expression de la quantité correspondant à la moitié, au tiers, au quart, aux trois quarts, au dixième,… d'une quantité donnée"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Écriture des nombres à l'aide de puissances (8 = 2^3,…) (2)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Écriture de nombres",
+          "contenu": [
+            "Exploration de différentes écritures de nombres et de systèmes de numération, présents ou passés (2)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes numériques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation des règles du système de numération"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– estimation et vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat, en utilisant un vocabulaire adéquat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "texte": "dénombre une quantité d'objets inférieure à 1000 par comptage organisé (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "texte": "constitue une collection ayant un nombre d'objets inférieur à 200 (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Dénombrement et extension du domaine numérique",
+          "texte": "compte et décompte de 1 en 1, de 10 en 10 et de 100 en 100 à partir d’un nombre donné (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Comparaison et représentation de nombres",
+          "texte": "compare, ordonne, encadre, intercale des nombres naturels (6e année) et décimaux ayant au plus 2 décimales (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Comparaison et représentation de nombres",
+          "texte": "place et lit des nombres ayant au plus 1 décimale sur une droite numérique graduée"
+        },
+        {
+          "fin": "8e",
+          "notion": "Comparaison et représentation de nombres",
+          "texte": "extrait le nombre entier de milliers, de centaines et de dizaines d’un nombre naturel inférieur à 10’000 (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Écriture de nombres",
+          "texte": "lit et écrit en chiffres des nombres naturels (6e année) et décimaux ayant au plus 2 décimales, inférieurs à 1'000'000 (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Écriture de nombres",
+          "texte": "décompose un nombre en milliers, centaines, dizaines et unités (6e année) ainsi qu'en dixièmes et centièmes (8e année)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/42",
+      "code": "MSN 23",
+      "axe": "Opérations",
+      "titre": "Résoudre des problèmes additifs et multiplicatifs",
+      "composantes": [
+        "1. en traduisant les situations en écritures additive, soustractive, multiplicative ou divisive",
+        "2. en sélectionnant les données numériques à utiliser",
+        "3. en choisissant l’outil de calcul le mieux adapté à la situation proposée",
+        "4. en anticipant un résultat et en exerçant un regard critique sur le résultat obtenu",
+        "5. en utilisant les propriétés des quatre opérations",
+        "6. en construisant , en exerçant et utilisant des procédures de calcul (calcul réfléchi, algorithmes, calculatrice, répertoire mémorisé) avec des nombres rationnels positifs"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:\nnombres naturels : 0 à 10'000"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:\nnombres naturels et nombres rationnels positifs"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés, l’écriture de ces nombres et les opérations étudiées, notamment : (A, B, C, D, E, F, G)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose d’une conjecture, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats",
+            "– acceptation ou refus d'un résultat par l'estimation de l'ordre de grandeur, la connaissance des opérations ou la confrontation au réel"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– traduction des données d'un problème en opérations arithmétiques : additions, soustractions et multiplications (2)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– traduction des données d'un problème en opérations arithmétiques, en utilisant au besoin des parenthèses : additions, soustractions, multiplications et divisions (2)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– lecture de tableaux de valeurs pour en extraire quelques informations (2, A)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– lecture et utilisation de tableaux de valeurs (2, A, C)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– élaboration de tableaux de valeurs et lecture de représentations graphiques (2)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes additifs et soustractifs (EEE, ECE, ETE) (B, C, D)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes additifs et soustractifs (EEE, ECE, ETE, TTT) (B, C, D)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes multiplicatifs et divisifs : situations d’itération, liées au produit cartésien, de produit de mesures, de proportionnalité (B, C, D)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes multiplicatifs et divisifs : situations d'itération, liées au produit cartésien, de produit de mesures, de proportionnalité (B, C, D)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Calculatrice",
+          "contenu": [
+            "Utilisation de la calculatrice dans des situations où l’aspect calculatoire est secondaire, pour vérifier le résultat d’un calcul ou pour effectuer des calculs complexes (4, 6)",
+            "Acceptation ou refus de l’affichage d’un résultat par estimation de l’ordre de grandeur (4)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Calculatrice",
+          "contenu": [
+            "Connaissance des fonctions de base d'une calculatrice : mise en marche et arrêt, quatre opérations de base, reprise de la réponse précédente, effacement et corrections",
+            "Observation de l'ordre dans lequel la calculatrice effectue les opérations (3+4x6,…) (6)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calculatrice",
+          "contenu": [
+            "Connaissance des fonctions de base d'une calculatrice : mise en marche et arrêt, quatre opérations de base, reprise de la réponse précédente, effacement et corrections, emploi des parenthèses",
+            "Observation de l'ordre dans lequel la calculatrice effectue les opérations (30-(3+4x6),…) (6)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Recherche des multiples d'un nombre"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Recherche des multiples et des diviseurs d'un nombre"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Découverte de quelques critères de divisibilité : 2, 5, 10, 100"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Utilisation de quelques critères de divisibilité : 2, 3, 5, 9, 10, 100"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Reconnaissance et établissement de suites arithmétiques"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "contenu": [
+            "Reconnaissance, établissement de suites numériques et expression de leur loi de formation (progressions, multiples, puissances,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation d'outils de calculs appropriés : calcul réfléchi, algorithmes, répertoire mémorisé, calculatrice (6)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des propriétés de l'addition et de la multiplication (commutativité, associativité), et décomposition des nombres (additive, soustractive, multiplicative) pour organiser et effectuer des calculs de manière efficace ainsi que pour donner des estimations (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des propriétés de l'addition et de la multiplication (commutativité, associativité, distributivité), et décomposition des nombres (additive, soustractive, multiplicative) pour organiser et effectuer des calculs de manière efficace ainsi que pour donner des estimations (5)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des algorithmes pour effectuer des calculs de façon efficace (addition, soustraction, multiplication) (6)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des algorithmes pour effectuer des calculs de façon efficace avec des nombres écrits sous forme décimale inférieurs à 10'000 : (6)",
+            "– addition et soustraction dont les termes ont au plus 2 décimales",
+            "– multiplication dont les facteurs et le produit ont au plus 2 décimales",
+            "– division euclidienne dont le dividende est inférieur à 10'000 et le diviseur est inférieur à 100",
+            "– division dont le dividende (< 10'000) et le diviseur (< 100) ont au plus une décimale et le quotient au plus deux décimales"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Calculs",
+          "contenu": [
+            "Mémorisation du répertoire soustractif de 0-0 à 19-9 (6)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Calculs",
+          "contenu": [
+            "Mémorisation du répertoire multiplicatif de 0x0 à 9x9 (6)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calculs",
+          "contenu": [
+            "Mémorisation du répertoire multiplicatif de 0x0 à 12x12 (6)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes additifs, soustractifs, multiplicatifs (6e année) et divisifs (8e année) avec des nombres naturels inférieurs à 1000 (6e année), avec des nombres ayant au plus 2 décimales inférieurs à 10'000 (8e année) et faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix de l’opération : addition ou soustraction, multiplication ou division"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et utilisation d’outils de calculs appropriés"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– estimation et vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat, en utilisant un vocabulaire adéquat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "lit des tableaux de valeurs"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "traduit en une écriture mathématique appropriée un problème additif, soustractif, multiplicatif (6e année) et divisif (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculatrice",
+          "texte": "connaît et utilise les fonctions de base d’une calculatrice pour effectuer une opération (+, -, x, :)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "texte": "établit la liste des premiers multiples et celle des diviseurs d'un nombre inférieur à 100"
+        },
+        {
+          "fin": "8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "texte": "détermine si un nombre est un diviseur ou un multiple d'un autre"
+        },
+        {
+          "fin": "8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "texte": "utilise les critères de divisibilité par 2, 5, 10, 100"
+        },
+        {
+          "fin": "8e",
+          "notion": "Multiples, diviseurs, suites de nombres",
+          "texte": "reconnaît et complète une suite arithmétique de nombres naturels inférieurs à 1000 (6e année) et de nombres inférieurs à 10'000 dont les termes ont au plus 1 décimale (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "utilise des procédures de calcul réfléchi pour effectuer de manière efficace une addition, une soustraction (6e année), une multiplication, ou une division (8e année), par exemple en:\n6e année : 18+24 ; 101+73 ; 200-27 …\n8e année : 1,2+4,5 ; 6500+470 ; 30-2,8 ; 3x14 ; 20x30 ; 200x7 ; 1,5x4 ; 186:10 …"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "effectue un calcul comportant une suite d'opérations dont l'ordre est indiqué par des parenthèses, sans imbrication"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "utilise un algorithme d’addition, de soustraction avec des nombres naturels inférieurs à 1000 (6e année) et avec des nombres inférieurs à 10'000 dont les termes ont au plus 2 décimales (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "utilise un algorithme de multiplication avec des nombres naturels dont un des facteurs a 1 chiffre et dont le produit est inférieur à 1000 (6e année), avec des nombres écrits sous forme décimale dont les facteurs et le produit ont au plus 2 décimales et sont inférieurs à 10'000 (8e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "utilise un algorithme de division euclidienne avec un dividende inférieur à 10'000 et un diviseur inférieur à 100"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calculs",
+          "texte": "maîtrise les répertoires mémorisés de 0-0 à 19-9 (6e année) et de 0x0 à 9x9 (6e année)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/43",
+      "code": "MSN 24",
+      "axe": "Grandeurs et mesures",
+      "titre": "Utiliser la mesure pour comparer des grandeurs",
+      "composantes": [
+        "1. en exprimant une mesure dans différentes unités",
+        "2. en explorant des unités de mesures d’autres pays et époques",
+        "3. en s’appropriant différentes unités conventionnelles de mesure (m, kg,…)",
+        "4. en utilisant l’instrument de mesure et l’unité adaptés à la situation",
+        "5. en estimant la mesure des grandeurs",
+        "6. en décomposant des surfaces et des solides en aires et en surfaces et solides élémentaires",
+        "7. en calculant différentes grandeurs (périmètres, aires, volumes,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes de mesurage en lien avec les grandeurs étudiées, notamment : (A, B, C, D, F, G)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose d’une conjecture, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Organisation d'un mesurage, choix d'une unité (conventionnelle ou non) et d'une procédure (longueur, aire, volume, masse, temps) (3, 4, 6)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Estimation de grandeurs : longueur, aire, volume, masse, temps (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Doublement, triplement d'une grandeur"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Fractionnement d'une grandeur (moitié, tiers, quart, trois-quarts,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Comparaison, classement et mesure de grandeurs (longueur, aire, volume, masse) par manipulation de lignes, angles, surfaces ou solides, en utilisant des unités non conventionnelles (7)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Comparaison, classement et mesure de grandeurs (longueur, aire, volume, masse) par manipulation de lignes, angles, surfaces ou solides, en utilisant des unités conventionnelles et non conventionnelles (5, 7)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Mesure d'une longueur à l'aide d'une règle graduée et communication du résultat obtenu par un nombre ou par un encadrement (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Mesure d'un angle à l'aide d'un rapporteur et communication du résultat obtenu par un nombre ou par un encadrement (5)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Calcul de longueurs, de trajets et de périmètres (1)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Calcul de l'aire (mesures entières) :",
+            "– du carré et du rectangle",
+            "– du triangle, du parallélogramme, du losange et d'autres surfaces par décomposition en surfaces élémentaires et recomposition",
+            "(1, 7)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Calcul du volume du cube et du parallélépipède rectangle (mesures entières) (1, 7)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Unités de mesure",
+          "contenu": [
+            "Utilisation d'unités conventionnelles de longueur : cm et m (4)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Unités de mesure",
+          "contenu": [
+            "Utilisation d'unités conventionnelles:",
+            "– de longueur (mm, cm, dm, m et km),",
+            "– d'aires (cm^2, dm^2 et m^2),",
+            "– de volumes (cm^3, dm^3 et m^3)",
+            "– d'angles (degrés)",
+            "(4)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "Unités de mesure",
+          "contenu": [
+            "Exploration d'unités de mesures d’autres pays et époques (2)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Unités de mesure",
+          "contenu": [
+            "Expression d’une même grandeur dans différentes unités (km↔m, m↔cm, t↔kg, kg↔g, h↔min, min↔sec, l↔dl) (3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes de mesures de longueurs et d’aires en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– organisation d'un mesurage (choix d'une procédure, d'un instrument de mesure, d'une unité de mesure)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat"
+        },
+        {
+          "fin": "8e",
+          "notion": "Mesure de grandeurs",
+          "texte": "compare des longueurs et des aires de surfaces simples par manipulation, par dessin (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Mesure de grandeurs",
+          "texte": "utilise une règle graduée pour mesurer ou tracer un segment (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Mesure de grandeurs",
+          "texte": "mesure une longueur (segments, distance entre deux points) ou une masse avec des instruments de mesure adaptés et exprime le résultat dans une unité conventionnelle adéquate"
+        },
+        {
+          "fin": "8e",
+          "notion": "Mesure de grandeurs",
+          "texte": "compare des angles par manipulation"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule des longueurs : ligne brisée, périmètre d'un polygone régulier ou non"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule l'aire du carré et du rectangle (mesures entières)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Calcul de grandeurs",
+          "texte": "détermine l’aire d’un parallélogramme, d’un triangle rectangle à partir de l’aire du rectangle (mesures entières)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Unités de mesure",
+          "texte": "choisit, parmi diverses unités proposées, celle qui convient dans une situation donnée (6e année)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Unités de mesure",
+          "texte": "exprime une même grandeur dans différentes unités :\nkm↔m, m↔cm, kg↔g"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/154",
+      "code": "MSN 25",
+      "axe": "Modélisation",
+      "titre": "Représenter des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+      "composantes": [
+        "A. en imaginant et en utilisant des représentations visuelles (codes, schémas, graphiques, tableaux,…)",
+        "B. en identifiant des invariants d’une situation",
+        "C. en triant et organisant des données",
+        "D. en communiquant ses résultats et ses interprétations",
+        "E. en explorant des situations aléatoires et en se confrontant au concept de probable",
+        "F. en se posant des questions et en définissant un cadre d’étude",
+        "G. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

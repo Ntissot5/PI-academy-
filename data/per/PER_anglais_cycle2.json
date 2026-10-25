@@ -1,0 +1,560 @@
+{
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/4",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/17",
+      "code": "L 27",
+      "axe": "Approches interlinguistiques",
+      "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+      "composantes": [
+        "1. en situant les langues dans l’espace et le temps",
+        "2. en ayant recours aux différentes langues représentées dans la classe",
+        "3. en identifiant l’existence de liens entre la langue et la culture",
+        "4. en comparant des systèmes phonologiques et des systèmes d’écriture"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Prise de conscience des différentes langues parlées par les élèves de la classe"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Distinction entre langages (gestuelle, mimiques, pictogrammes,…) et langues (chinois, français, arabe, latin,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Observation et comparaison de corpus écrits et/ou oraux de langues différentes (la formation du pluriel des noms entre les langues, y compris le français,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Questionnement et constats à partir d'un corpus donné (genre des noms dans les différentes langues, découverte de mots venus d’ailleurs – emprunts,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/173",
+      "code": "L3 21",
+      "axe": "Compréhension de l'écrit",
+      "titre": "Lire des textes propres à des situations familières de communication",
+      "composantes": [
+        "1. en adaptant sa connaissance des liens entre l’oral et l’écrit (code, accentuation, intonation,…)",
+        "2. en utilisant ses connaissances phonologiques pour intégrer des éléments de la nouvelle langue",
+        "3. en utilisant des moyens de référence",
+        "4. en prenant en compte le contexte de communication (destinataire, visée,…)",
+        "5. en dégageant le sens global et les idées principales d’un texte",
+        "6. en vérifiant ses hypothèses à l’aide de ses connaissances langagières et générales"
+      ],
+      "progressions": [
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension de textes courts et simples liés à des thèmes familiers de la vie quotidienne (BD, dialogue, chanson, menu, recette, horaire, carte géographique, carte postale, carte de visite, affiche, publicité, petite annonce, lettre personnelle, courriel, blog, page internet, graded reader,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Développement de stratégies de lecture"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, paratexte,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Repérage d’informations essentielles à la compréhension du texte"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Identification de divers genres textuels (affiche, publicité, annonce, lettre personnelle, courriel, courrier des lecteurs, reportage, actualité, recette, BD, blog, page internet, graded reader,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension d’instructions simples (consignes liées aux différentes activités de la classe)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Observation et description de l’organisation du texte (titre, sous-titres, paragraphes, illustrations,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "comprend des textes courts et simples sur des sujets familiers"
+        },
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "trouve les informations essentielles dans des textes variés"
+        },
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "comprend les consignes de travail\nNiveau de référence A1.2 (cf. ci-dessous)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/175",
+      "code": "L3 22",
+      "axe": "Production de l'écrit",
+      "titre": "Écrire des textes simples propres à des situations familières de communication",
+      "composantes": [
+        "1. en s’appuyant sur des expressions et sur des éléments ritualisés",
+        "2. en utilisant des moyens de référence",
+        "3. en prenant en compte le contexte de communication (destinataire, visée,…)",
+        "4. en mobilisant ses connaissances stratégiques (par exemple compensation de lacunes)",
+        "5. en mobilisant ses connaissances lexicales et structurelles",
+        "6. en utilisant ses connaissances du code alphabétique"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "",
+          "contenu": [
+            "."
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Production de textes écrits courts et simples sur des thèmes de la vie quotidienne (fiche d’identité, portrait, description simple de personnes, d’objets, d’animaux, de lieux, affiche, message, carte postale, lettre, courriel, SMS, menu, dialogue,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Développement de stratégies de production écrite"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Identification du contexte de communication (émetteur, destinataire, support, but poursuivi, contexte social, circonstances,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Organisation d’un texte (titre, paragraphe, ponctuation,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire adéquat"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "produit des énoncés et des textes écrits simples et compréhensibles sur certains aspects de son identité, de son entourage et de sa vie quotidienne\nNiveau de référence A1.2 (cf. ci-dessous)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/172",
+      "code": "L3 23",
+      "axe": "Compréhension de l'oral",
+      "titre": "Comprendre des textes oraux brefs propres à des situations familières de communication",
+      "composantes": [
+        "1. en dégageant le sens global et les idées principales d’un texte",
+        "2. en adaptant son écoute en fonction de la situation de communication (intention, but,…)",
+        "3. en mobilisant ses connaissances lexicales et structurelles",
+        "4. en participant comme auditeur à des moments de lecture de productions littéraires",
+        "5. en prenant en compte les caractéristiques de l’oralité (prononciation, intonation, débit, langage non verbal,…)",
+        "6. en prenant en compte les consignes et les interventions de l’enseignant et celles des autres élèves"
+      ],
+      "progressions": [
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension de textes oraux courts et simples sur des thèmes familiers de la vie quotidienne (description élémentaire de personnes, de lieux, d’animaux, dialogue, chanson, annonce, message téléphonique,…), à condition que le débit soit adapté et que la langue soit standard et clairement articulée"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Développement de stratégies d’écoute"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, éléments sonores, intonation,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Repérage d’informations essentielles à la compréhension du texte"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "",
+          "contenu": [
+            "Compréhension d’instructions simples (langage de classe, consignes, …) exprimées distinctement, accompagnées si nécessaire de gestes"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "comprend des textes oraux courts, si nécessaire à l’aide d’un support gestuel et/ou iconographique, si le langage est standard, le débit adapté et le thème familier"
+        },
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "repère dans des textes oraux des informations essentielles à la compréhension"
+        },
+        {
+          "fin": "8e",
+          "notion": "",
+          "texte": "comprend les consignes liées aux activités menées en classe\nNiveau de référence A1.2 (cf. ci-dessous)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/174",
+      "code": "L3 24",
+      "axe": "Production de l'oral",
+      "titre": "Produire des énoncés simples propres à des situations familières de communication",
+      "composantes": [
+        "1. en utilisant des moyens de référence pour préparer certaines interventions",
+        "2. en mobilisant et en utilisant ses connaissances lexicales et structurelles",
+        "3. en prenant en compte le contexte de communication (destinataire, visée,…)",
+        "4. en prenant en compte les caractéristiques de l’oralité (prononciation, intonation, débit, langage non-verbal,…)",
+        "5. en réagissant aux interventions de l’enseignant et à celles des autres élèves"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "."
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux courts et simples sur des thèmes familiers de la vie quotidienne(identité, emploi du temps, hobby, humeur, expression de ses préférences,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "Développement de stratégies de production orale"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire de base pour parler de situations de la vie quotidienne et d’intérêts personnels"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "Mobilisation d'acquis linguistiques adaptés à la situation de communication",
+            "(En lien avec L3 26 – Fonctionnement de la langue)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "S’exprimer oralement en continu",
+          "contenu": [
+            "Acquisition d'une prononciation et d'une intonation adaptée (accent tonique, phonèmes, rythme,…)"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "."
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Échange d’informations simples (présentation, questionnement et/ou information au sujet du domicile, du nom, de l’âge, de l’origine, de la famille et des amis, des animaux de compagnie, de l’activité, de l’heure,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Développement de stratégies de production orale"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Établissement d’un contact social de base (salutations, formules de politesse élémentaires)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Capacité à interagir en fonction du message reçu (réaction, demande de précisions, demande de répétitions, adaptation de son comportement,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Choix et utilisation d’un vocabulaire adéquat"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Mobilisation d'acquis linguistiques adaptés à la situation de communication (En lien avec L3 26 – Fonctionnement de la langue)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Acquisition d'une prononciation et d'une intonation adaptées (accent tonique, phonèmes, rythme,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "S’exprimer oralement en continu",
+          "texte": "produit des énoncés et des textes oraux simples et compréhensibles sur certains aspects de son identité, de son entourage et de sa vie quotidienne\nNiveau de référence A1.2 (cf. ci-dessous)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Prendre part à une conversation",
+          "texte": "répond à des questions simples et en pose"
+        },
+        {
+          "fin": "8e",
+          "notion": "Prendre part à une conversation",
+          "texte": "participe à une conversation simple sur un sujet familier"
+        },
+        {
+          "fin": "8e",
+          "notion": "Prendre part à une conversation",
+          "texte": "demande à son interlocuteur de répéter ou d’expliquer, s’il ne comprend pas quelque chose"
+        },
+        {
+          "fin": "8e",
+          "notion": "Prendre part à une conversation",
+          "texte": "Niveau de référence A1.2 (cf. ci-dessous)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/176",
+      "code": "L3 26",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+      "composantes": [
+        "1. en construisant des règles de base et en élaborant des outils personnels",
+        "2. en apprenant à consulter des moyens de référence",
+        "3. en identifiant les premières catégories d’unités langagières et les fonctions de base (mot, expression, phrase,…)",
+        "4. en découvrant quelques éléments structurels",
+        "5. en s’interrogeant sur l’usage de la langue et sur les régularités de son fonctionnement"
+      ],
+      "progressions": [
+        {
+          "annee": "7e-8e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Acquisition d’un répertoire de mots et d’expressions simples"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Utilisation adéquate des minuscules et des majuscules (jours, mois, pronom \"I\", matières scolaires, nationalités,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Acquisition de quelques spécificités morphologiques (élisions phoniques, marques du pluriel,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Reconnaissance et utilisation de l’alphabet"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Découverte des relations entre phonèmes et graphèmes"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Découverte et acquisition progressive d’une prononciation et intonation adaptées (sons spécifiques, rythme, accent tonique,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification et utilisation des temps et des modes (simple present, imperative form, present continuous)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Utilisation des auxiliaires au présent (can, do)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Observation, identification et utilisation progressive des pronoms personnels sujets et compléments"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Observation, identification et utilisation progressive des déterminants articles (définis/indéfinis), possessifs et démonstratifs"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Observation, identification et utilisation progressive des types de phrases (déclaratif, interrogatif, impératif) et des formes affirmative et négative"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Découverte et utilisation de particularités (short answers, full forms and short forms, possessive forms, phrasal verbs,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Découverte du comparatif"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Découverte et utilisation progressive de some / any, how much / how many avec des noms comptables / non comptables"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Observation de la position des éléments dans la phrase(adverbes, adjectifs, noms, verbes, prépositions,…) et mise en pratique progressive"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Grammaire et syntaxe",
+          "contenu": [
+            "Utilisation adéquate de la ponctuation (point, point d’interrogation, point d’exclamation)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "mobilise un répertoire de mots et d’expressions relatif à des situations familières"
+        },
+        {
+          "fin": "8e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "orthographie et épelle correctement des expressions et des mots familiers\nNiveau de référence A1 (cf. ci-dessous)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Phonologie",
+          "texte": "prononce de façon compréhensible des mots et des expressions connus\nNiveau de référence A1 (cf. ci-dessous)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Conjugaison",
+          "texte": "reconnaît les deux temps du présent propres aux différentes situations de communication\nNiveau de référence A1 (cf. ci-dessous)"
+        },
+        {
+          "fin": "8e",
+          "notion": "Grammaire et syntaxe",
+          "texte": "mobilise des structures grammaticales de base appartenant à un répertoire mémorisé\nNiveau de référence A1 (cf. ci-dessous)"
+        }
+      ]
+    }
+  ]
+}

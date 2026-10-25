@@ -1,0 +1,33 @@
+{
+  "_note": "Rattachement des 12 générateurs du prototype aux objectifs du PER. 'hors_PER' = contenu du secondaire II (gymnase / niveau d'entrée EPFL), réservé au parcours Prépa EPFL. Les années et niveaux sont repris des progressions de PER_mathematiques_cycle3.json.",
+  "generateurs": [
+    { "id": "rel",  "titre": "Nombres négatifs", "per": [
+      { "code": "MSN 32", "notion": "Calculs", "annee": "9e-10e", "niveau": "Niv 2-3", "texte_per": "nombres entiers relatifs de -100 à +100 (+, −, ∙, :)" },
+      { "code": "MSN 32", "notion": "Calculs", "annee": "10e (+) puis 11e (+, −, ∙, :)", "niveau": "Niv 1", "texte_per": "nombres entiers relatifs de -100 à +100" } ] },
+    { "id": "frac", "titre": "Fractions et pourcentages", "per": [
+      { "code": "MSN 32", "notion": "Calculs", "annee": "9e-11e selon niveau", "texte_per": "nombres rationnels (positifs) sous forme fractionnaire (+, −, ·, :)" },
+      { "code": "MSN 32", "notion": "Nombres", "annee": "9e-10e", "texte_per": "fractionnaire (y compris simplification et amplification), de pourcentage" },
+      { "code": "MSN 33", "notion": "Éléments pour la résolution de problèmes", "annee": "10e-11e", "texte_per": "échelle, pourcentage, pente" } ] },
+    { "id": "pow",  "titre": "Puissances et notation scientifique", "per": [
+      { "code": "MSN 32", "notion": "Calculs", "annee": "10e", "niveau": "Niv 2-3", "texte_per": "puissances (a, b, m et n dans ℕ) : a^m·a^n = a^(m+n) …" },
+      { "code": "MSN 32", "notion": "Nombres", "annee": "10e-11e", "texte_per": "de la notation scientifique : a·10^n (n dans ℕ Niv 1s ; n dans ℤ Niv 2-3)" } ] },
+    { "id": "eq1",  "titre": "Équations du 1er degré", "per": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "annee": "10e-11e (Niv 2), 10e (Niv 3), 11e (Niv 1)", "texte_per": "Résolution d'équations du premier degré à une inconnue … à l'aide des règles d'équivalence" } ] },
+    { "id": "geo",  "titre": "Aires, volumes, unités", "per": [
+      { "code": "MSN 34", "notion": "Calcul de grandeurs", "annee": "9e (polygones, cube, parallélépipède), 10e (disque, cylindre), 11e (pyramide, cône, sphère)", "texte_per": "Mesure des dimensions adéquates et calcul …" },
+      { "code": "MSN 34", "notion": "Mesure de grandeurs et conversion d'unités", "annee": "9e-11e", "texte_per": "expression d'une grandeur dans diverses unités" } ] },
+    { "id": "iso",  "titre": "Isoler une inconnue", "per": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "annee": "11e", "niveau": "Niv 2-3", "texte_per": "Expression de chacune des variables d'une formule connue en fonction des autres" },
+      { "code": "MSN 34", "notion": "Calcul de grandeurs", "annee": "10e-11e", "texte_per": "Calcul d'une grandeur manquante à partir de celles qui sont connues" } ] },
+    { "id": "lin",  "titre": "Fonctions et droites", "per": [
+      { "code": "MSN 33", "notion": "Fonctions", "annee": "10e (Niv 2-3), 11e (Niv 1)", "texte_per": "de l'expression fonctionnelle au tableau de valeurs et à la représentation graphique : x→ax+b" },
+      { "code": "MSN 33", "notion": "Fonctions", "annee": "11e", "niveau": "Niv 2-3", "texte_per": "de la représentation graphique à l'expression fonctionnelle" } ] },
+    { "id": "eq2",  "titre": "Équations du 2e degré", "per": [
+      { "code": "MSN 33", "notion": "Algèbre – Équations", "annee": "11e", "niveau": "Niv 3", "texte_per": "Résolution d'équations du deuxième degré à une inconnue par factorisation ou à l'aide de la formule de Viète" } ],
+      "hors_PER": "Discriminant Δ et sommet de la parabole : secondaire II" },
+    { "id": "trig", "titre": "Trigonométrie", "per": [], "hors_PER": "Secondaire II (non présent au PER)" },
+    { "id": "log",  "titre": "Exponentielles et logarithmes", "per": [], "hors_PER": "Secondaire II (non présent au PER)" },
+    { "id": "der",  "titre": "Dérivées", "per": [], "hors_PER": "Secondaire II (non présent au PER)" },
+    { "id": "final","titre": "Examen final", "per": "mixte : codes des unités tirées" }
+  ]
+}
