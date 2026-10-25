@@ -2,6 +2,8 @@ import { deBanque, tirer, type Item } from "./f-outils";
 import type { Question } from "./types";
 
 const C2: readonly Item[] = [
+  ["*Il pleuvait depuis le matin. Tout à coup, le tonnerre gronda.* Pourquoi « pleuvait » est-il à l’imparfait ?", "il décrit l’arrière-plan, une action qui dure", ["il raconte une action soudaine", "il exprime un ordre", "il exprime l’avenir"], "L’imparfait décrit le décor ou une action qui dure ; le passé simple (gronda) raconte une action soudaine de premier plan."],
+  ["*Il pleuvait depuis le matin. Tout à coup, le tonnerre gronda.* Pourquoi « gronda » est-il au passé simple ?", "il raconte une action soudaine, de premier plan", ["il décrit le décor", "il exprime une habitude", "il exprime une vérité générale"], "Le passé simple fait avancer le récit ; l’imparfait décrit l’arrière-plan."],
   ["*Mon chat fait sa toilette.* Le présent exprime…", "une action en train de se faire", ["une vérité générale", "une habitude passée", "un futur proche"], "Présent temporel : l’action se passe au moment où l’on parle."],
   ["*Le chat est un mammifère.* Le présent exprime…", "une vérité générale", ["une action en train de se faire", "un futur proche", "une action passée"], "Présent atemporel : c’est vrai tout le temps."],
   ["*Lorsque je me suis réveillé, il avait neigé.* L’action « avait neigé » est…", "antérieure au réveil", ["simultanée au réveil", "postérieure au réveil"], "Le plus-que-parfait exprime une action accomplie avant une autre action passée."],
