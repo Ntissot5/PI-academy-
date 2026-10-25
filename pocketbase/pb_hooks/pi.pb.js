@@ -230,3 +230,95 @@ routerAdd("POST", "/api/pi/serie", (e) => {
   out.stats = userStats($app, e.auth.id);
   return e.json(200, out);
 }, $apis.requireAuth("users"));
+
+/* ---------- élèves : rejoindre une classe, se connecter ---------- */
+// Pas d'e-mail : code de classe + pseudo (unique dans la classe) + PIN à 4 chiffres.
+// Le PIN est le mot de passe PocketBase de l'élève (bcrypt). 5 essais ratés → blocage 10 min.
+
+routerAdd("POST", "/api/pi/eleve/rejoindre", (e) => {
+  const E = require(`${__hooks}/lib/eleve.js`);
+  const body = e.requestInfo().body;
+  const code = E.normCode(body.code), pseudo = E.normPseudo(body.pseudo), pin = String(body.pin || "");
+  const classe = E.findClasse($app, code);
+  if (!classe) throw new BadRequestError("Ce code de classe n’existe pas. Vérifie-le avec ton prof.");
+  if (!/^[\p{L}\p{N}][\p{L}\p{N} ._-]{1,23}$/u.test(pseudo)) {
+    throw new BadRequestError("Ton pseudo fait 2 à 24 caractères : lettres, chiffres, espace, point, tiret.");
+  }
+  if (!/^\d{4}$/.test(pin)) throw new BadRequestError("Le PIN fait 4 chiffres.");
+  if (E.findEleve($app, classe.id, pseudo)) throw new BadRequestError("Ce pseudo est déjà pris dans ta classe. Choisis-en un autre.");
+
+  const u = new Record($app.findCollectionByNameOrId("users"));
+  u.set("role", "eleve");
+  u.set("pseudo", pseudo);
+  u.set("classe", classe.id);
+  u.set("xp", 0);
+  u.set("verified", true);
+  u.setPassword(pin);
+  try {
+    $app.save(u);
+  } catch (_) {
+    throw new BadRequestError("Ce pseudo est déjà pris dans ta classe. Choisis-en un autre.");
+  }
+  return $apis.recordAuthResponse(e, u, "pin");
+});
+
+routerAdd("POST", "/api/pi/eleve/connexion", (e) => {
+  const E = require(`${__hooks}/lib/eleve.js`);
+  const body = e.requestInfo().body;
+  const code = E.normCode(body.code), pseudo = E.normPseudo(body.pseudo), pin = String(body.pin || "");
+  const WRONG = "Code de classe, pseudo ou PIN incorrect.";
+  const classe = E.findClasse($app, code);
+  if (!classe) throw new BadRequestError(WRONG);
+  const u = E.findEleve($app, classe.id, pseudo);
+  if (!u) throw new BadRequestError(WRONG);
+
+  const left = E.lockedMinutes(u);
+  if (left > 0) throw new TooManyRequestsError(`Trop d’essais. Réessaie dans ${left} min, ou demande un nouveau PIN à ton prof.`);
+
+  if (!/^\d{4}$/.test(pin) || !u.validatePassword(pin)) {
+    const n = u.getInt("pin_echecs") + 1;
+    if (n >= E.MAX_TRIES) {
+      u.set("pin_echecs", 0);
+      u.set("pin_bloque_jusqua", E.iso(Date.now() + E.LOCK_MIN * 60000));
+      $app.save(u);
+      throw new TooManyRequestsError(`Trop d’essais. Réessaie dans ${E.LOCK_MIN} min, ou demande un nouveau PIN à ton prof.`);
+    }
+    u.set("pin_echecs", n);
+    $app.save(u);
+    const rest = E.MAX_TRIES - n;
+    throw new BadRequestError(`${WRONG} Encore ${rest} essai${rest > 1 ? "s" : ""}.`);
+  }
+  if (u.getInt("pin_echecs") || !u.getDateTime("pin_bloque_jusqua").isZero()) {
+    u.set("pin_echecs", 0);
+    u.set("pin_bloque_jusqua", "");
+    $app.save(u);
+  }
+  return $apis.recordAuthResponse(e, u, "pin");
+});
+
+/* ---------- prof : tableau d'une classe, nouveau PIN ---------- */
+
+routerAdd("GET", "/api/pi/prof/classe/{id}", (e) => {
+  const { classeBoard } = require(`${__hooks}/lib/prof.js`);
+  let classe;
+  try { classe = $app.findRecordById("classes", e.request.pathValue("id")); } catch (_) { throw new NotFoundError("Classe introuvable."); }
+  if (classe.getString("prof") !== e.auth.id) throw new NotFoundError("Classe introuvable.");
+  return e.json(200, classeBoard($app, classe));
+}, $apis.requireAuth("users"));
+
+routerAdd("POST", "/api/pi/prof/eleve/{id}/pin", (e) => {
+  const pin = String(e.requestInfo().body.pin || "");
+  if (!/^\d{4}$/.test(pin)) throw new BadRequestError("Le PIN fait 4 chiffres.");
+  let u;
+  try { u = $app.findRecordById("users", e.request.pathValue("id")); } catch (_) { throw new NotFoundError("Élève introuvable."); }
+  let ok = false;
+  if (u.getString("role") === "eleve" && u.getString("classe")) {
+    try { ok = $app.findRecordById("classes", u.getString("classe")).getString("prof") === e.auth.id; } catch (_) { ok = false; }
+  }
+  if (!ok) throw new NotFoundError("Élève introuvable.");
+  u.setPassword(pin);
+  u.set("pin_echecs", 0);
+  u.set("pin_bloque_jusqua", "");
+  $app.save(u);
+  return e.json(200, { ok: true });
+}, $apis.requireAuth("users"));

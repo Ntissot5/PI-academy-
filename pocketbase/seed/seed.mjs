@@ -73,9 +73,29 @@ if (DEMO) {
       prof: prof.id, nom: "Classe démo 9e", parcours_assignes: [bySlug["9e-bases"]?.id].filter(Boolean),
     });
   }
-  for (const pseudo of ["Démo-Alex", "Démo-Sam", "Démo-Lou"]) {
-    if (!(await first("users", `classe = "${classe.id}" && pseudo = "${pseudo}"`))) {
-      await api("POST", "/api/collections/users/records", { role: "eleve", pseudo, classe: classe.id, password: "1234", passwordConfirm: "1234" });
+  // Un peu d'activité fictive, pour que le tableau du prof montre les 4 niveaux et des élèves « bloqués ».
+  const units = bySlug["9e-bases"]
+    ? (await api("GET", `/api/collections/unites/records?sort=ordre&perPage=50&filter=${q(`parcours = "${bySlug["9e-bases"].id}"`)}`)).items
+    : [];
+  const day = (off) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Zurich" }).format(new Date(Date.now() - off * 864e5));
+  const DEMO = {
+    "Démo-Alex": { xp: 380, prog: [{ u: 0, lecon_lue: true, nb_entrainements: 2, meilleur_entrainement: 9, nb_boss: 1, meilleur_boss: 9, valide: true }, { u: 1, lecon_lue: true, nb_entrainements: 1, meilleur_entrainement: 8 }, { u: 2, lecon_lue: true }], days: [0, 1, 2] },
+    "Démo-Sam": { xp: 210, prog: [{ u: 0, lecon_lue: true, nb_entrainements: 3, meilleur_entrainement: 8, nb_boss: 2, meilleur_boss: 6, boss_rates: 2 }], days: [0, 3], errors: true },
+    "Démo-Lou": { xp: 40, prog: [{ u: 0, lecon_lue: true, nb_entrainements: 1, meilleur_entrainement: 4 }], days: [10] },
+  };
+  for (const [pseudo, d] of Object.entries(DEMO)) {
+    if (await first("users", `classe = "${classe.id}" && pseudo = "${pseudo}"`)) continue;
+    const u = await api("POST", "/api/collections/users/records", { role: "eleve", pseudo, classe: classe.id, password: "1234", passwordConfirm: "1234" });
+    if (!units.length) continue;
+    await api("PATCH", `/api/collections/users/records/${u.id}`, { xp: d.xp });
+    for (const { u: i, ...p } of d.prog) await api("POST", "/api/collections/progressions/records", { ...p, utilisateur: u.id, unite: units[i].id });
+    for (const [k, off] of d.days.entries()) {
+      await api("POST", "/api/collections/sessions/records", { utilisateur: u.id, serie: `demo${u.id}${k}`, unite: units[0].id, mode: "entrainement", date: day(off), minutes: 14, total: 10, bonnes: 7, xp_gagne: 70, terminee: true });
+    }
+    if (d.errors) {
+      for (const [enonce, rep, bonne] of [["−7 − (−3)", "−10", "−4"], ["12 + (−18)", "6", "−6"], ["−4 × (−5)", "−20", "20"]]) {
+        await api("POST", "/api/collections/erreurs/records", { utilisateur: u.id, unite: units[0].id, enonce, reponse_donnee: rep, bonne_reponse: bonne, date: day(0) });
+      }
     }
   }
   console.log(`Démo : ${PROF.email} / ${PROF.password} · ${ADULTE.email} / ${ADULTE.password}`);
