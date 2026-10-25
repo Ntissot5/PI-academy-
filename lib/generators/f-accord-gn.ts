@@ -42,7 +42,7 @@ function tirage() {
   const d = pick(adj[4] && plur ? DET.slice(1) : DET);
   const det = plur ? d[2] : fem ? d[1] : d[0];
   const nom = plur ? pl : sg;
-  const forme = adj[(fem ? 1 : 0) + (plur ? 2 : 0)];
+  const forme = adj[(fem ? 1 : 0) + (plur ? 2 : 0)] as string;
   return { sg, fem, plur, adj, det, nom, forme, avant: adj[4] };
 }
 

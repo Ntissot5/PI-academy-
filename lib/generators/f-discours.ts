@@ -28,9 +28,6 @@ const TRANSFO: readonly Item[] = [
 ];
 
 /** Paroles rapportées : discours direct, indirect, indirect libre. */
-export function gen1(): Question {
-  return tirer([identifier, deBanque(TRANSFO)]);
-}
 
 export function gen(): Question {
   return tirer([identifier, identifier, deBanque(TRANSFO)]);

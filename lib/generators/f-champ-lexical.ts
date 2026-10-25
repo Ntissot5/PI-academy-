@@ -2,6 +2,10 @@ import { pick } from "../math";
 import { melange, qcm, tirer } from "./f-outils";
 import type { Question } from "./types";
 
+/** « à » / « de » + thème, avec contraction (au théâtre, du football). */
+const a = (t: string): string => (t.startsWith("le ") ? "au " + t.slice(3) : "à " + t);
+const de = (t: string): string => (t.startsWith("le ") ? "du " + t.slice(3) : "de " + t);
+
 /* Champs lexicaux : [thème, mots]. */
 const CHAMPS: readonly (readonly [string, readonly string[]])[] = [
   ["la météo", ["pluie", "grêle", "brouillard", "averse", "orage", "bruine", "éclaircie"]],
@@ -22,20 +26,20 @@ function intrus(): Question {
   const trois = melange(mots).slice(0, 3);
   const [t2, autres] = pick(CHAMPS.filter(([x]) => x !== t));
   const x = pick(autres);
-  return qcm(`Quel mot n’appartient pas au même champ lexical que les autres ?`, x, trois, `${trois.join(", ")} appartiennent au champ lexical de ${t} ; « ${x} » appartient plutôt à celui de ${t2}.`);
+  return qcm(`Quel mot n’appartient pas au même champ lexical que les autres ?`, x, trois, `${trois.join(", ")} appartiennent au champ lexical ${de(t)} ; « ${x} » appartient plutôt à celui ${de(t2)}.`);
 }
 
 function theme(): Question {
   const [t, mots] = pick(CHAMPS);
   const quatre = melange(mots).slice(0, 4);
-  return qcm(`À quel champ lexical appartiennent ces mots : <b>${quatre.join(", ")}</b> ?`, t, CHAMPS.map(([x]) => x), `Tous ces mots se rapportent à ${t} : ils forment un champ lexical.`);
+  return qcm(`À quel champ lexical appartiennent ces mots : <b>${quatre.join(", ")}</b> ?`, t, CHAMPS.map(([x]) => x), `Tous ces mots se rapportent ${a(t)} : ils forment un champ lexical.`);
 }
 
 function appartient(): Question {
   const [t, mots] = pick(CHAMPS);
   const m = pick(mots);
   const autres = CHAMPS.filter(([x]) => x !== t).map(([, ms]) => pick(ms));
-  return qcm(`Quel mot appartient au champ lexical de <b>${t}</b> ?`, m, autres, `« ${m} » se rapporte à ${t}.`);
+  return qcm(`Quel mot appartient au champ lexical ${de(t).replace(/^(du|de) /, "$1 <b>")}</b> ?`, m, autres, `« ${m} » se rapporte ${a(t)}.`);
 }
 
 /* Thème d'un court passage. */
@@ -49,7 +53,7 @@ const PASSAGES: readonly (readonly [string, string])[] = [
 
 function passage(): Question {
   const [p, t] = pick(PASSAGES);
-  return qcm(`Quel est le champ lexical dominant de ce passage ? <b>${p}</b>`, t, ["l’orage", "la mer", "la peur", "le théâtre", "la joie", "la montagne"], `Les mots du passage se rapportent à ${t} : c’est le champ lexical dominant.`);
+  return qcm(`Quel est le champ lexical dominant de ce passage ? <b>${p}</b>`, t, ["l’orage", "la mer", "la peur", "le théâtre", "la joie", "la montagne"], `Les mots du passage se rapportent ${a(t)} : c’est le champ lexical dominant.`);
 }
 
 /** Champ lexical : regrouper les mots qui se rapportent à un même thème. */

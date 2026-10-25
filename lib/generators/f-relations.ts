@@ -31,9 +31,9 @@ const ANT: readonly (readonly [string, string, "antonymie" | "complémentarité"
   ["vendre", "acheter", "réciprocité"], ["prêter", "emprunter", "réciprocité"], ["donner", "recevoir", "réciprocité"], ["parent", "enfant", "réciprocité"],
 ];
 const TYPE_WHY = {
-  antonymie: "Ils s’opposent sur une échelle : il y a des degrés entre les deux (tiède entre chaud et froid).",
-  complémentarité: "L’un exclut l’autre, sans milieu : si on n’accepte pas, on refuse.",
-  réciprocité: "Les deux décrivent la même situation vue de deux côtés : si je vends, quelqu’un achète.",
+  antonymie: "ils s’opposent sur une échelle : il y a des degrés entre les deux (tiède entre chaud et froid).",
+  complémentarité: "l’un exclut l’autre, sans milieu : si on n’accepte pas, on refuse.",
+  réciprocité: "les deux décrivent la même situation vue de deux côtés : si je vends, quelqu’un achète.",
 };
 
 function contraire(): Question {

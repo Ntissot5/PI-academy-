@@ -17,19 +17,19 @@ function nom(): Question {
 
 /* [rôle, signe]. */
 const ROLES: readonly (readonly [string, string])[] = [
-  ["annonce une énumération, une explication ou des paroles rapportées", "les deux-points"],
-  ["encadrent les paroles rapportées directement", "les guillemets"],
-  ["indique, dans un dialogue, que quelqu’un d’autre prend la parole", "le tiret"],
-  ["marque une phrase inachevée, une hésitation ou une suite qu’on ne dit pas", "les points de suspension"],
-  ["sépare les éléments d’une énumération", "la virgule"],
-  ["termine une phrase qui pose une question directe", "le point d’interrogation"],
-  ["sépare deux parties de phrase liées par le sens, plus fortement qu’une virgule, mais moins qu’un point", "le point-virgule"],
-  ["encadrent une précision que l’on pourrait supprimer, comme une date ou une explication", "les parenthèses"],
+  ["annoncer une énumération, une explication ou des paroles rapportées", "les deux-points"],
+  ["encadrer les paroles rapportées directement", "les guillemets"],
+  ["indiquer, dans un dialogue, que quelqu’un d’autre prend la parole", "le tiret"],
+  ["marquer une phrase inachevée, une hésitation ou une suite qu’on ne dit pas", "les points de suspension"],
+  ["séparer les éléments d’une énumération", "la virgule"],
+  ["terminer une phrase qui pose une question directe", "le point d’interrogation"],
+  ["séparer deux parties de phrase liées par le sens, plus fortement qu’une virgule, mais moins qu’un point", "le point-virgule"],
+  ["encadrer une précision que l’on pourrait supprimer, comme une date ou une explication", "les parenthèses"],
 ];
 
 function role(): Question {
   const [r, s] = pick(ROLES);
-  return qcm(`Quel signe <b>${r}</b> ?`, s, SIGNES, `C’est ${s}.`);
+  return qcm(`Quel signe de ponctuation sert à <b>${r}</b> ?`, s, SIGNES, `On utilise ${s} pour ${r}.`);
 }
 
 /* [phrase correcte, fautes, explication]. */
