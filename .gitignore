@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.env*.local
+pocketbase/pb_data/
+pocketbase/bin/
+test-results/
+playwright-report/
+tests/e2e/.auth/
