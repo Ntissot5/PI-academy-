@@ -24,7 +24,7 @@ if [ ! -x "$BIN" ] || ! "$BIN" --version | grep -q "$PB_VERSION"; then
 fi
 
 cmd="${1:-serve}"; shift || true
-args=(--dir "$ROOT/pocketbase/pb_data" --migrationsDir "$ROOT/pocketbase/pb_migrations" --hooksDir "$ROOT/pocketbase/pb_hooks")
+args=(--dir "${PB_DATA:-$ROOT/pocketbase/pb_data}" --migrationsDir "$ROOT/pocketbase/pb_migrations" --hooksDir "$ROOT/pocketbase/pb_hooks")
 if [ "$cmd" = "serve" ]; then
   exec "$BIN" serve "${args[@]}" --http "${PB_HTTP:-127.0.0.1:8090}" "$@"
 else
