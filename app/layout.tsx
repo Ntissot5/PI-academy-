@@ -17,7 +17,7 @@ import { TopBar } from "@/components/TopBar";
 export const metadata: Metadata = {
   title: APP_NAME,
   description: "Les maths, 20 minutes par jour, avec Pi.",
-  icons: { icon: "/icons/blob.webp" },
+  icons: { icon: "/icons/pi.svg" },
 };
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
