@@ -20,10 +20,10 @@ Notions couvertes / notions du PER (pourcentage).
 | 6e | 0 / 18 (0 %) | 0 / 18 (0 %) | 2 / 59 (3 %) | 3 / 10 (30 %) | 0 / 4 (0 %) | 2 / 9 (22 %) | 1 / 7 (14 %) | 0 / 3 (0 %) | 8 / 128 (6 %) |
 | 7e | 0 / 19 (0 %) | 0 / 17 (0 %) | 3 / 59 (5 %) | 3 / 10 (30 %) | 1 / 10 (10 %) | 2 / 9 (22 %) | 1 / 7 (14 %) | 1 / 3 (33 %) | 11 / 134 (8 %) |
 | 8e | 0 / 19 (0 %) | 0 / 17 (0 %) | 3 / 59 (5 %) | 3 / 10 (30 %) | 1 / 10 (10 %) | 2 / 9 (22 %) | 1 / 7 (14 %) | 1 / 3 (33 %) | 11 / 134 (8 %) |
-| 9e | 4 / 16 (25 %) | 2 / 12 (17 %) | 4 / 38 (11 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 1 / 10 (10 %) | 1 / 5 (20 %) | 16 / 107 (15 %) |
-| 10e | 7 / 17 (41 %) | 3 / 15 (20 %) | 3 / 40 (8 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 1 / 10 (10 %) | 1 / 5 (20 %) | 19 / 113 (17 %) |
-| 11e | 7 / 17 (41 %) | 2 / 14 (14 %) | 2 / 38 (5 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 2 / 10 (20 %) | 1 / 5 (20 %) | 18 / 110 (16 %) |
-| **Total** | 18 / 172 (10 %) | 7 / 167 (4 %) | 19 / 512 (4 %) | 18 / 70 (26 %) | 5 / 58 (9 %) | 11 / 78 (14 %) | 8 / 82 (10 %) | 5 / 27 (19 %) | **91 / 1166 (8 %)** |
+| 9e | 5 / 16 (31 %) | 2 / 12 (17 %) | 4 / 38 (11 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 1 / 10 (10 %) | 1 / 5 (20 %) | 17 / 107 (16 %) |
+| 10e | 8 / 17 (47 %) | 3 / 15 (20 %) | 3 / 40 (8 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 1 / 10 (10 %) | 1 / 5 (20 %) | 20 / 113 (18 %) |
+| 11e | 8 / 17 (47 %) | 2 / 14 (14 %) | 2 / 38 (5 %) | 2 / 10 (20 %) | 1 / 10 (10 %) | 1 / 6 (17 %) | 2 / 10 (20 %) | 1 / 5 (20 %) | 19 / 110 (17 %) |
+| **Total** | 21 / 172 (12 %) | 7 / 167 (4 %) | 19 / 512 (4 %) | 18 / 70 (26 %) | 5 / 58 (9 %) | 11 / 78 (14 %) | 8 / 82 (10 %) | 5 / 27 (19 %) | **94 / 1166 (8 %)** |
 
 L’allemand commence en 5e, l’anglais en 7e et la citoyenneté en 5e : les cases « — » sont normales.
 
@@ -33,26 +33,26 @@ Ordre : MSN 32/33/34, puis Français (L1 36 fonctionnement de la langue, puis le
 
 | # | Code | Notion | Discipline | Années | Progressions PER |
 |---:|---|---|---|---|---:|
-| 1 | MSN 33 | Algèbre – Calcul littéral | Mathématiques | 9e-11e | 28 |
-| 2 | MSN 33 | Diagrammes | Mathématiques | 9e-11e | 12 |
-| 3 | MSN 32 | Éléments pour la résolution de problèmes | Mathématiques | 9e-11e | 9 |
-| 4 | MSN 33 | Fonctions | Mathématiques | 9e | 5 |
-| 5 | MSN 33 | Éléments pour la résolution de problèmes | Mathématiques | 9e | 3 |
-| 6 | MSN 34 | Éléments pour la résolution de problèmes | Mathématiques | 9e-11e | 3 |
-| 7 | L1 36 | Vocabulaire › Champ lexical | Français | 9e-11e | 23 |
-| 8 | L1 36 | Grammaire de la phrase › La phrase complexe | Français | 9e-11e | 21 |
-| 9 | L1 36 | De la phrase au texte › Énonciation | Français | 9e-11e | 20 |
-| 10 | L1 36 | Orthographe lexicale | Français | 9e-11e | 17 |
-| 11 | L1 36 | Vocabulaire › Enrichissement lexical | Français | 9e-11e | 12 |
-| 12 | L1 36 | De la phrase au texte › Texte | Français | 9e-11e | 11 |
-| 13 | L1 36 | Vocabulaire › Morphologie d'un mot | Français | 9e-11e | 9 |
-| 14 | L1 36 | Grammaire de la phrase › Les fonctions | Français | 9e-11e | 8 |
-| 15 | L1 36 | Grammaire de la phrase › Les types et formes de phrase | Français | 9e-11e | 8 |
-| 16 | L1 36 | Orthographe grammaticale › Accord dans le Groupe nominal | Français | 9e-11e | 8 |
-| 17 | L1 36 | Grammaire de la phrase › Les constituants de la phrase | Français | 9e-11e | 6 |
-| 18 | L1 36 | Grammaire de la phrase › Les groupes | Français | 9e-11e | 6 |
-| 19 | L1 36 | Orthographe grammaticale › Accord sujet-verbe | Français | 9e-11e | 5 |
-| 20 | L1 36 | Grammaire de la phrase | Français | 9e-11e | 3 |
+| 1 | MSN 33 | Diagrammes | Mathématiques | 9e-11e | 12 |
+| 2 | MSN 32 | Éléments pour la résolution de problèmes | Mathématiques | 9e-11e | 9 |
+| 3 | MSN 33 | Fonctions | Mathématiques | 9e | 5 |
+| 4 | MSN 33 | Éléments pour la résolution de problèmes | Mathématiques | 9e | 3 |
+| 5 | MSN 34 | Éléments pour la résolution de problèmes | Mathématiques | 9e-11e | 3 |
+| 6 | L1 36 | Vocabulaire › Champ lexical | Français | 9e-11e | 23 |
+| 7 | L1 36 | Grammaire de la phrase › La phrase complexe | Français | 9e-11e | 21 |
+| 8 | L1 36 | De la phrase au texte › Énonciation | Français | 9e-11e | 20 |
+| 9 | L1 36 | Orthographe lexicale | Français | 9e-11e | 17 |
+| 10 | L1 36 | Vocabulaire › Enrichissement lexical | Français | 9e-11e | 12 |
+| 11 | L1 36 | De la phrase au texte › Texte | Français | 9e-11e | 11 |
+| 12 | L1 36 | Vocabulaire › Morphologie d'un mot | Français | 9e-11e | 9 |
+| 13 | L1 36 | Grammaire de la phrase › Les fonctions | Français | 9e-11e | 8 |
+| 14 | L1 36 | Grammaire de la phrase › Les types et formes de phrase | Français | 9e-11e | 8 |
+| 15 | L1 36 | Orthographe grammaticale › Accord dans le Groupe nominal | Français | 9e-11e | 8 |
+| 16 | L1 36 | Grammaire de la phrase › Les constituants de la phrase | Français | 9e-11e | 6 |
+| 17 | L1 36 | Grammaire de la phrase › Les groupes | Français | 9e-11e | 6 |
+| 18 | L1 36 | Orthographe grammaticale › Accord sujet-verbe | Français | 9e-11e | 5 |
+| 19 | L1 36 | Grammaire de la phrase | Français | 9e-11e | 3 |
+| 20 | L1 36 | Grammaire de la phrase › La pronominalisation | Français | 9e-10e | 3 |
 
 ## Rattachement des exercices (à relire)
 
@@ -76,6 +76,13 @@ Les maths reprennent `data/per-kit/mapping_generateurs_PER.json` ; les autres di
 |  | MSN 34 | Calcul de grandeurs | 10e-11e |  |
 | `lin` | MSN 33 | Fonctions | 10e | 10e-11e |
 |  | MSN 33 | Fonctions | 11e |  |
+| `litt-valeur` | MSN 33 | Algèbre – Calcul littéral | 9e | 9e-11e |
+|  | MSN 33 | Algèbre – Calcul littéral | 10e |  |
+|  | MSN 33 | Algèbre – Calcul littéral | 10e-11e |  |
+|  | MSN 33 | Algèbre – Calcul littéral | 11e |  |
+| `litt-reduire` | MSN 33 | Algèbre – Calcul littéral | 10e | 10e-11e |
+|  | MSN 33 | Algèbre – Calcul littéral | 10e-11e |  |
+|  | MSN 33 | Algèbre – Calcul littéral | 11e |  |
 | `eq2` | MSN 33 | Algèbre – Équations | 11e | 11e |
 | `fr-present` | L1 26 | Conjugaison › Observation et prise en compte de l’écrit | 5e-6e | 5e-10e |
 |  | L1 26 | Conjugaison › Observation et prise en compte de l’écrit | 7e-8e |  |

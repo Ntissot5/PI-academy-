@@ -114,6 +114,7 @@ Source : Plan d’études romand, © CIIP. Le texte officiel est repris tel quel
 - **Pour les profs** : chaque unité montre le texte officiel visé, avec le lien vers la source, et la répartition du canton de la classe quand il en publie une (`data/cantons/cantons.json`, copié dans `public/data/`). Les élèves ne voient que les titres et les explications de l’app.
 - **Cantons** (GE, VD, FR, VS, NE, JU, BE francophone) : documents officiels dans `data/cantons/<canton>/pdf/` (téléchargés via le navigateur, avec URL et SHA-256 dans `sources.json`), extraits dans `data/cantons/<canton>/canton.json` (grilles horaires, niveaux et filières, répartition par année, évaluations ; texte recopié, « INTROUVABLE » sinon). `node scripts/build-cantons.mjs` contrôle et rassemble tout dans `data/cantons/cantons.json` et `public/data/cantons.json`. Seul Genève publie une répartition notion par année pour toutes les disciplines ; Vaud, pour l’option Mathématiques et physique (codes cantonaux MEP 31-34).
 - **Couverture** : `node scripts/per-couverture.mjs` → `docs/COUVERTURE-PER.md` (tableau année × discipline, 20 notions prioritaires sans exercice, rattachements à relire).
+- **Compléter plus tard** (nouveaux exercices, documents cantonaux, nouvelle version du PER) : `docs/COMPLETER-LE-PER.md`.
 
 Les exercices sont créés par la plateforme et ne reprennent pas ceux des moyens d’enseignement romands, protégés par le droit d’auteur.
 

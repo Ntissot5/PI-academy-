@@ -17243,7 +17243,7 @@
    "slug": "mathematiques-9e",
    "titre": "Maths 9e",
    "accroche": "Le programme officiel de 9e année",
-   "description": "15 notions du Plan d’études romand. 3 ont déjà leurs exercices, les autres arrivent bientôt.",
+   "description": "15 notions du Plan d’études romand. 4 ont déjà leurs exercices, les autres arrivent bientôt.",
    "public": "ecole",
    "niveau": "9e Harmos",
    "icone": "flower",
@@ -17469,19 +17469,20 @@
      "ordre": 11
     },
     {
-     "id_generateur": "",
-     "statut": "bientot",
-     "titre": "Algèbre – Calcul littéral",
-     "sous_titre": "MSN 33 · Opérations",
-     "icone": "lock",
+     "id_generateur": "litt-valeur",
+     "statut": "actif",
+     "titre": "Valeur d’une expression",
+     "sous_titre": "MSN 33 · Algèbre – Calcul littéral",
+     "regle": "Pour calculer une expression littérale, on remplace chaque lettre par sa valeur, entre parenthèses si elle est négative, puis on calcule dans l’ordre : parenthèses, puissances, multiplications et divisions, additions et soustractions.",
+     "exemple": "3x² − 7 pour x = −2 : 3 · (−2)² − 7 = 3 · 4 − 7 = 5",
+     "image": "Une formule, c’est une recette avec des cases vides : b·h/2, c’est « base fois hauteur divisé par 2 ». Tu mets tes nombres dans les cases, et la recette fait le reste.",
+     "piege": "(−2)² = 4, pas −4 : le carré d’un nombre négatif est positif. Sans parenthèses, la calculatrice comprend −2² = −4.",
+     "icone": "pin",
      "per_codes": [
       "MSN 33"
      ],
      "per_notions": [
-      "94db3d2e7e92",
-      "4325eebf8f94",
-      "5df65615ec26",
-      "1bb863f8978b"
+      "4325eebf8f94"
      ],
      "annee": "9e",
      "tag": "",
@@ -17548,12 +17549,14 @@
      "icone": "star",
      "per_codes": [
       "MSN 32",
+      "MSN 33",
       "MSN 34"
      ],
      "per_notions": [
       "647eebde6d4b",
       "9fdc03503794",
       "1304f122deb3",
+      "4325eebf8f94",
       "f5d58ea3ed1d",
       "fc954257a954"
      ],
@@ -19689,7 +19692,7 @@
    "slug": "mathematiques-10e",
    "titre": "Maths 10e",
    "accroche": "Le programme officiel de 10e année",
-   "description": "17 notions du Plan d’études romand. 7 ont déjà leurs exercices, les autres arrivent bientôt.",
+   "description": "18 notions du Plan d’études romand. 9 ont déjà leurs exercices, les autres arrivent bientôt.",
    "public": "ecole",
    "niveau": "10e Harmos",
    "icone": "flower",
@@ -19921,30 +19924,46 @@
      "ordre": 11
     },
     {
-     "id_generateur": "",
-     "statut": "bientot",
-     "titre": "Algèbre – Calcul littéral",
-     "sous_titre": "MSN 33 · Opérations",
-     "icone": "lock",
+     "id_generateur": "litt-valeur",
+     "statut": "actif",
+     "titre": "Valeur d’une expression",
+     "sous_titre": "MSN 33 · Algèbre – Calcul littéral",
+     "regle": "Pour calculer une expression littérale, on remplace chaque lettre par sa valeur, entre parenthèses si elle est négative, puis on calcule dans l’ordre : parenthèses, puissances, multiplications et divisions, additions et soustractions.",
+     "exemple": "3x² − 7 pour x = −2 : 3 · (−2)² − 7 = 3 · 4 − 7 = 5",
+     "image": "Une formule, c’est une recette avec des cases vides : b·h/2, c’est « base fois hauteur divisé par 2 ». Tu mets tes nombres dans les cases, et la recette fait le reste.",
+     "piege": "(−2)² = 4, pas −4 : le carré d’un nombre négatif est positif. Sans parenthèses, la calculatrice comprend −2² = −4.",
+     "icone": "pin",
      "per_codes": [
       "MSN 33"
      ],
      "per_notions": [
-      "460e8139b0fa",
       "7549fc0a5316",
-      "c258922dd3c2",
-      "5df65615ec26",
-      "81deba119b86",
-      "9b83903f3937",
-      "38e2c1b5f483",
-      "7b6473d7419b",
-      "b292ee0d8c09",
+      "c258922dd3c2"
+     ],
+     "annee": "10e",
+     "tag": "",
+     "ordre": 12
+    },
+    {
+     "id_generateur": "litt-reduire",
+     "statut": "actif",
+     "titre": "Réduire et développer",
+     "sous_titre": "MSN 33 · Algèbre – Calcul littéral",
+     "regle": "On additionne seulement les termes semblables : les x avec les x, les nombres avec les nombres. Pour développer k(x + b), on multiplie chaque terme par k. Pour multiplier des monômes, on multiplie les nombres et on additionne les exposants.",
+     "exemple": "3x + 5x − 2 = 8x − 2 · 4(x − 3) = 4x − 12 · 2x · 3x² = 6x³",
+     "image": "Comme ranger des pièces : tu peux additionner les pièces de 2 CHF entre elles, mais 3 pièces de 2 CHF plus 4 pièces de 1 CHF, ça ne fait pas 7 pièces de quelque chose.",
+     "piege": "Un signe − devant une parenthèse change tous les signes à l’intérieur : (5x + 2) − (3x − 4) = 5x + 2 − 3x + 4 = 2x + 6.",
+     "icone": "molecule",
+     "per_codes": [
+      "MSN 33"
+     ],
+     "per_notions": [
       "5fdeec4f310a",
       "088a1e4c725f"
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 12
+     "ordre": 13
     },
     {
      "id_generateur": "eq1",
@@ -19965,7 +19984,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 13
+     "ordre": 14
     },
     {
      "id_generateur": "",
@@ -19981,7 +20000,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 14
+     "ordre": 15
     },
     {
      "id_generateur": "geo",
@@ -20002,7 +20021,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 15
+     "ordre": 16
     },
     {
      "id_generateur": "iso",
@@ -20022,7 +20041,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 16
+     "ordre": 17
     },
     {
      "id_generateur": "",
@@ -20038,7 +20057,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 17
+     "ordre": 18
     },
     {
      "id_generateur": "final",
@@ -20059,6 +20078,10 @@
       "58ae91bb30a7",
       "40d3ccd41053",
       "7a81b3e46bc4",
+      "7549fc0a5316",
+      "c258922dd3c2",
+      "5fdeec4f310a",
+      "088a1e4c725f",
       "5901ae5ba923",
       "ba7566ab6ced",
       "f5d58ea3ed1d",
@@ -20067,7 +20090,7 @@
      ],
      "annee": "10e",
      "tag": "",
-     "ordre": 18
+     "ordre": 19
     }
    ]
   },
@@ -22306,7 +22329,7 @@
    "slug": "mathematiques-11e",
    "titre": "Maths 11e",
    "accroche": "Le programme officiel de 11e année",
-   "description": "17 notions du Plan d’études romand. 7 ont déjà leurs exercices, les autres arrivent bientôt.",
+   "description": "18 notions du Plan d’études romand. 9 ont déjà leurs exercices, les autres arrivent bientôt.",
    "public": "ecole",
    "niveau": "11e Harmos",
    "icone": "flower",
@@ -22534,32 +22557,46 @@
      "ordre": 11
     },
     {
-     "id_generateur": "",
-     "statut": "bientot",
-     "titre": "Algèbre – Calcul littéral",
-     "sous_titre": "MSN 33 · Opérations",
-     "icone": "lock",
+     "id_generateur": "litt-valeur",
+     "statut": "actif",
+     "titre": "Valeur d’une expression",
+     "sous_titre": "MSN 33 · Algèbre – Calcul littéral",
+     "regle": "Pour calculer une expression littérale, on remplace chaque lettre par sa valeur, entre parenthèses si elle est négative, puis on calcule dans l’ordre : parenthèses, puissances, multiplications et divisions, additions et soustractions.",
+     "exemple": "3x² − 7 pour x = −2 : 3 · (−2)² − 7 = 3 · 4 − 7 = 5",
+     "image": "Une formule, c’est une recette avec des cases vides : b·h/2, c’est « base fois hauteur divisé par 2 ». Tu mets tes nombres dans les cases, et la recette fait le reste.",
+     "piege": "(−2)² = 4, pas −4 : le carré d’un nombre négatif est positif. Sans parenthèses, la calculatrice comprend −2² = −4.",
+     "icone": "pin",
      "per_codes": [
       "MSN 33"
      ],
      "per_notions": [
-      "89e6f289c530",
-      "79b6f03b0ff4",
       "c258922dd3c2",
-      "5df65615ec26",
-      "d100e406be93",
-      "81deba119b86",
-      "9b83903f3937",
-      "38e2c1b5f483",
-      "2e6797d03305",
-      "b292ee0d8c09",
-      "bcb4dc9b3e72",
-      "088a1e4c725f",
-      "6820150a7a0c"
+      "79b6f03b0ff4"
      ],
      "annee": "11e",
      "tag": "",
      "ordre": 12
+    },
+    {
+     "id_generateur": "litt-reduire",
+     "statut": "actif",
+     "titre": "Réduire et développer",
+     "sous_titre": "MSN 33 · Algèbre – Calcul littéral",
+     "regle": "On additionne seulement les termes semblables : les x avec les x, les nombres avec les nombres. Pour développer k(x + b), on multiplie chaque terme par k. Pour multiplier des monômes, on multiplie les nombres et on additionne les exposants.",
+     "exemple": "3x + 5x − 2 = 8x − 2 · 4(x − 3) = 4x − 12 · 2x · 3x² = 6x³",
+     "image": "Comme ranger des pièces : tu peux additionner les pièces de 2 CHF entre elles, mais 3 pièces de 2 CHF plus 4 pièces de 1 CHF, ça ne fait pas 7 pièces de quelque chose.",
+     "piege": "Un signe − devant une parenthèse change tous les signes à l’intérieur : (5x + 2) − (3x − 4) = 5x + 2 − 3x + 4 = 2x + 6.",
+     "icone": "molecule",
+     "per_codes": [
+      "MSN 33"
+     ],
+     "per_notions": [
+      "088a1e4c725f",
+      "bcb4dc9b3e72"
+     ],
+     "annee": "11e",
+     "tag": "",
+     "ordre": 13
     },
     {
      "id_generateur": "eq1",
@@ -22579,7 +22616,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 13
+     "ordre": 14
     },
     {
      "id_generateur": "iso",
@@ -22601,7 +22638,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 14
+     "ordre": 15
     },
     {
      "id_generateur": "",
@@ -22617,7 +22654,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 15
+     "ordre": 16
     },
     {
      "id_generateur": "geo",
@@ -22638,7 +22675,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 16
+     "ordre": 17
     },
     {
      "id_generateur": "",
@@ -22654,7 +22691,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 17
+     "ordre": 18
     },
     {
      "id_generateur": "final",
@@ -22674,6 +22711,10 @@
       "48196133f765",
       "0507ff90601e",
       "956b1a2613cf",
+      "c258922dd3c2",
+      "79b6f03b0ff4",
+      "088a1e4c725f",
+      "bcb4dc9b3e72",
       "5901ae5ba923",
       "121734bc77a6",
       "60fce191375f",
@@ -22682,7 +22723,7 @@
      ],
      "annee": "11e",
      "tag": "",
-     "ordre": 18
+     "ordre": 19
     }
    ]
   },

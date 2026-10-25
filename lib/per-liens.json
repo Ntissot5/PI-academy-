@@ -257,6 +257,100 @@
    }
   ]
  },
+ "litt-valeur": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33"
+  ],
+  "cles": [
+   "4325eebf8f94",
+   "7549fc0a5316",
+   "c258922dd3c2",
+   "79b6f03b0ff4"
+  ],
+  "annees": [
+   9,
+   10,
+   11
+  ],
+  "annee": "9e-11e",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "9e",
+    "cles": [
+     "4325eebf8f94"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "10e",
+    "cles": [
+     "7549fc0a5316"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "10e-11e",
+    "cles": [
+     "c258922dd3c2"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "11e",
+    "cles": [
+     "79b6f03b0ff4"
+    ]
+   }
+  ]
+ },
+ "litt-reduire": {
+  "discipline": "Mathématiques",
+  "codes": [
+   "MSN 33"
+  ],
+  "cles": [
+   "5fdeec4f310a",
+   "088a1e4c725f",
+   "bcb4dc9b3e72"
+  ],
+  "annees": [
+   10,
+   11
+  ],
+  "annee": "10e-11e",
+  "liens": [
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "10e",
+    "cles": [
+     "5fdeec4f310a"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "10e-11e",
+    "cles": [
+     "088a1e4c725f"
+    ]
+   },
+   {
+    "code": "MSN 33",
+    "notion": "Algèbre – Calcul littéral",
+    "plage": "11e",
+    "cles": [
+     "bcb4dc9b3e72"
+    ]
+   }
+  ]
+ },
  "eq2": {
   "discipline": "Mathématiques",
   "codes": [

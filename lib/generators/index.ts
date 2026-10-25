@@ -31,6 +31,8 @@ import { gen as histSuisse } from "./hist-suisse";
 import { gen as histMonde } from "./hist-monde";
 import { gen as citFederal } from "./cit-federal";
 import { gen as citCanton } from "./cit-canton";
+import { gen as littValeur } from "./litt-valeur";
+import { gen as littReduire } from "./litt-reduire";
 import { createFinal } from "./final";
 import { perExercice } from "../per";
 import type { Generator } from "./types";
@@ -42,6 +44,7 @@ export { createFinal };
 export const GENERATORS: Record<string, Generator> = {
   // Mathématiques (prototype)
   rel, frac, pow, eq1, geo, iso, lin, eq2, trig, log, der,
+  "litt-valeur": littValeur, "litt-reduire": littReduire,
   // Français
   "fr-present": frPresent, "fr-imparfait": frImparfait, "fr-futur": frFutur, "fr-pc": frPc,
   "fr-homophones": frHomophones, "fr-nature": frNature,
@@ -60,6 +63,7 @@ export const GENERATOR_LABEL: Record<string, string> = {
   rel: "Nombres négatifs", frac: "Fractions et pourcentages", pow: "Puissances", eq1: "Équations du 1er degré",
   geo: "Aires et volumes", iso: "Isoler une inconnue", lin: "Fonctions et droites", eq2: "Équations du 2e degré",
   trig: "Trigonométrie", log: "Exponentielles et logarithmes", der: "Dérivées",
+  "litt-valeur": "Valeur d’une expression littérale", "litt-reduire": "Réduire et développer",
   "fr-present": "Français · présent", "fr-imparfait": "Français · imparfait", "fr-futur": "Français · futur",
   "fr-pc": "Français · passé composé", "fr-homophones": "Français · homophones", "fr-nature": "Français · nature des mots",
   "de-praesens": "Allemand · Präsens", "de-artikel": "Allemand · der, die, das", "de-zahlen": "Allemand · Zahlen",
@@ -76,6 +80,7 @@ export const FINAL_ID = "final";
 export const DEFAULT_ICON: Record<string, string> = {
   rel: "flower", frac: "report", pow: "molecule", eq1: "pin", geo: "folder", iso: "mail",
   lin: "plane", eq2: "note", trig: "eye", log: "cal31", der: "laptop", final: "star",
+  "litt-valeur": "pin", "litt-reduire": "molecule",
   "fr-present": "note", "fr-imparfait": "mail", "fr-futur": "plane", "fr-pc": "cal31", "fr-homophones": "eye", "fr-nature": "report",
   "de-praesens": "note", "de-artikel": "pin", "de-zahlen": "cal31", "de-perfekt": "mail", "en-irregular": "plane", "en-present": "note",
   "sci-unites": "folder", "sci-masse-volumique": "molecule", "sci-electricite": "laptop", "chi-symboles": "molecule",

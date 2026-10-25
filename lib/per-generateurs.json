@@ -24,6 +24,15 @@
     "lin": { "discipline": "Mathématiques", "liens": [
       { "code": "MSN 33", "notion": "Fonctions", "plage": "10e", "cherche": "x→ax+b" },
       { "code": "MSN 33", "notion": "Fonctions", "plage": "11e", "cherche": "x→ax+b" } ] },
+    "litt-valeur": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "9e", "cherche": "Détermination de la valeur numérique d'une expression littérale (bh/2" },
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "10e", "cherche": "Détermination de la valeur numérique d'une expression littérale (bh/2" },
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "10e-11e", "cherche": "Détermination de la valeur numérique d'une expression littérale (√(a^2+b^2), 3x^2" },
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "11e", "cherche": "Détermination de la valeur numérique d'une expression littérale (√(a^2+b^2), 4(x+y+z)" } ] },
+    "litt-reduire": { "discipline": "Mathématiques", "liens": [
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "10e", "cherche": "addition, soustraction et multiplication de monômes (Niv 2-3)" },
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "10e-11e", "cherche": "addition, soustraction et multiplication de polynômes (Niv 2-3)" },
+      { "code": "MSN 33", "notion": "Algèbre – Calcul littéral", "plage": "11e", "cherche": "addition, réduction de monômes ou polynômes du premier degré" } ] },
     "eq2": { "discipline": "Mathématiques", "secondaire_II": "Discriminant Δ et sommet de la parabole : secondaire II. Seule la résolution par factorisation ou par la formule de Viète figure au PER (11e, Niv 3).", "liens": [
       { "code": "MSN 33", "notion": "Algèbre – Équations", "plage": "11e", "cherche": "formule de Viète" } ] },
     "trig": { "discipline": "Mathématiques", "secondaire_II": "Trigonométrie : secondaire II (non présent au PER).", "liens": [] },

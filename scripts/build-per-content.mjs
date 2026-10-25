@@ -104,6 +104,7 @@ const matIcone = Object.fromEntries(seed.matieres.map((m) => [m.slug, m.icone]))
 // Texte de leçon d'un exercice : celui de sa première unité dans parcours.json.
 const lecon = {};
 for (const p of seed.parcours) for (const u of p.unites) lecon[u.id_generateur] ??= u;
+for (const [id, l] of Object.entries(read("pocketbase/seed/lecons.json").lecons)) lecon[id] ??= l;
 
 /** Libellé court d'une notion pour l'élève : dernier niveau, sans les renvois « ( 1 , 5 ) ». */
 const libelle = (notion, o) => {
@@ -226,8 +227,33 @@ migrate((app) => {
   for (const m of app.findRecordsByFilter("matieres", "1 = 1", "", 0, 0)) matiereId[m.getString("slug")] = m.id;
   const pCol = app.findCollectionByNameOrId("parcours");
   const uCol = app.findCollectionByNameOrId("unites");
+  // Clé d'une leçon d'un parcours par année : son type d'exercices, ou sa première notion PER si « Bientôt ».
+  const cleU = (gen, notions) => gen || "bientot:" + ((notions && notions[0]) || "");
   for (const p of PARCOURS) {
-    try { app.findFirstRecordByFilter("parcours", "slug = {:s}", { s: p.slug }); continue; } catch (_) { /* nouveau */ }
+    let exist = null;
+    try { exist = app.findFirstRecordByFilter("parcours", "slug = {:s}", { s: p.slug }); } catch (_) { /* nouveau */ }
+    if (exist) {
+      // Parcours déjà créé : on ajoute les nouveaux exercices, on remet l'ordre du PER, on retire les « Bientôt »
+      // devenus inutiles. Les textes retouchés dans l'admin et la progression des élèves sont gardés.
+      if (!exist.getBool("auto")) continue;
+      const deja = {};
+      for (const u of app.findRecordsByFilter("unites", "parcours = {:p}", "", 0, 0, { p: exist.id })) {
+        let ns = [];
+        try { ns = JSON.parse(u.getString("per_notions") || "[]"); } catch (_) { ns = []; }
+        deja[cleU(u.getString("id_generateur"), ns)] = u;
+      }
+      const vus = {};
+      for (const u of p.unites) {
+        const k = cleU(u.id_generateur, u.per_notions);
+        vus[k] = true;
+        let ur = deja[k];
+        if (!ur) { ur = new Record(uCol); for (const f of Object.keys(u)) ur.set(f, u[f]); ur.set("parcours", exist.id); }
+        else { ur.set("ordre", u.ordre); ur.set("per_codes", u.per_codes); ur.set("per_notions", u.per_notions); ur.set("annee", u.annee); }
+        app.save(ur);
+      }
+      for (const k of Object.keys(deja)) if (!vus[k] && k.indexOf("bientot:") === 0) app.delete(deja[k]);
+      continue;
+    }
     const rec = new Record(pCol);
     for (const k of Object.keys(p)) {
       if (k === "unites") continue;
@@ -245,7 +271,11 @@ migrate((app) => {
   // Retour arrière : on garde le contenu (il a pu être retouché dans l'admin).
 });
 `;
-fs.writeFileSync(root + "pocketbase/pb_migrations/1761700001_per_contenu.js", body);
+// Une base déjà en ligne a appliqué 1761700001 : après un ajout de contenu, --nouvelle-migration écrit un nouveau
+// fichier (même logique, synchronise les parcours existants) au lieu de réécrire celui-là.
+const nom = process.argv.includes("--nouvelle-migration") ? `${Math.floor(Date.now() / 1000)}_per_contenu.js` : "1761700001_per_contenu.js";
+fs.writeFileSync(root + "pocketbase/pb_migrations/" + nom, body);
+console.log(`Migration : pocketbase/pb_migrations/${nom}`);
 
 const nU = parcoursPer.reduce((s, p) => s + p.unites.length, 0);
 const nA = parcoursPer.reduce((s, p) => s + p.unites.filter((u) => u.statut === "actif").length, 0);
