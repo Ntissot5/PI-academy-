@@ -44,16 +44,27 @@ export const compte = (de: number, a: number): string => Array.from({ length: a 
 const UNITES = ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "treize", "quatorze", "quinze", "seize", "dix-sept", "dix-huit", "dix-neuf"];
 const DIZAINES = ["", "dix", "vingt", "trente", "quarante", "cinquante", "soixante", "septante", "huitante", "nonante"];
 
-/** Nombre en lettres (0 à 999), à la mode romande : septante, huitante, nonante. */
-export function lettres(n: number): string {
+/** Cantons romands où l'on dit « quatre-vingts » plutôt que « huitante » (septante et nonante partout). */
+const QUATRE_VINGTS = ["GE", "NE", "JU", "BE"];
+export const ditQuatreVingts = (canton?: string): boolean => !!canton && QUATRE_VINGTS.includes(canton.toUpperCase());
+
+/** Nombre en lettres (0 à 999), à la mode romande : septante, nonante, et huitante ou quatre-vingts selon le canton. */
+export function lettres(n: number, quatreVingts = false): string {
   if (n < 20) return UNITES[n];
   if (n < 100) {
     const d = Math.floor(n / 10), u = n % 10;
+    if (d === 8 && quatreVingts) return u === 0 ? "quatre-vingts" : `quatre-vingt-${UNITES[u]}`;
     if (u === 0) return DIZAINES[d];
     if (u === 1) return `${DIZAINES[d]} et un`;
     return `${DIZAINES[d]}-${UNITES[u]}`;
   }
   const c = Math.floor(n / 100), r = n % 100;
   const tete = c === 1 ? "cent" : `${UNITES[c]} cent${r === 0 ? "s" : ""}`;
-  return r === 0 ? tete : `${tete} ${lettres(r)}`;
+  return r === 0 ? tete : `${tete} ${lettres(r, quatreVingts)}`;
+}
+
+/** Toutes les écritures justes d'un nombre (huitante ou quatre-vingts, traits d'union traditionnels ou partout), pour `accept`. */
+export function lettresAccept(n: number): string[] {
+  const f = [lettres(n), lettres(n, true)];
+  return [...new Set([...f, ...f.map((x) => x.replace(/ /g, "-"))])];
 }

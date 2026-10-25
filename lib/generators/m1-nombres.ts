@@ -1,11 +1,12 @@
 import { R } from "../math";
-import type { Question } from "./types";
-import { lettres, qcm } from "./m1-outils";
+import type { GenContext, Question } from "./types";
+import { ditQuatreVingts, lettres as lettresRomandes, qcm } from "./m1-outils";
 
 const pl = (n: number, mot: string) => `${n} ${mot}${n > 1 ? "s" : ""}`;
 
-/** Dizaines et unités, paquets de 10, nombres en lettres (septante, huitante, nonante), juste avant / juste après, jusqu'à 200 : PER MSN 12, 3e-4e. */
-export function gen(): Question {
+/** Dizaines et unités, paquets de 10, nombres en lettres (septante, huitante ou quatre-vingts selon le canton, nonante), juste avant / juste après, jusqu'à 200 : PER MSN 12, 3e-4e. */
+export function gen(ctx?: GenContext): Question {
+  const qv = ditQuatreVingts(ctx?.canton), lettres = (n: number) => lettresRomandes(n, qv);
   const t = R(0, 6);
   if (t === 0) {
     const c = Math.random() < 0.3 ? 1 : 0, d = R(c ? 0 : 1, 9), u = R(0, 9), n = 100 * c + 10 * d + u;

@@ -1,6 +1,6 @@
 import { R, pick } from "../math";
 import type { Question } from "./types";
-import { melange, propositions } from "./data/l2-outils";
+import { melange } from "./data/l2-outils";
 
 // [proposition principale, conjonctions possibles, sujet, milieu, verbe conjugué]
 const P: [string, ("weil" | "denn" | "dass" | "wenn")[], string, string, string][] = [
@@ -51,5 +51,3 @@ export function gen(): Question {
       : `${juste} denn relie deux propositions principales : le verbe (${v}) reste en 2e position.`,
   };
 }
-
-export const _propositions = propositions;

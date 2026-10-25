@@ -1,1 +1,715 @@
-{ "generateurs": {}, "en_classe": [] }
+{
+ "generateurs": {
+  "m3-angles": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e",
+     "cherche": "Reconnaissance et dénomination des angles (aigu, obtus, droit, plat)"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-11e",
+     "cherche": "somme des angles"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– triangles, quadrilatères, cercles"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "déduction d’une ou plusieurs informations nouvelles"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Mesure de grandeurs et conversion d'unités",
+     "plage": "9e",
+     "cherche": "– angle (mesure en degrés)"
+    }
+   ],
+   "annees": [
+    9,
+    10
+   ]
+  },
+  "m3-figures": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-11e",
+     "cherche": "Reconnaissance, dénomination, description des propriétés et construction de"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– hauteur, médiatrice, bissectrice"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– droites parallèles, droites perpendiculaires"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– cercles inscrit et circonscrit"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– médiane, centre de gravité"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-10e",
+     "cherche": "– triangles, quadrilatères, cercles"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-11e",
+     "cherche": "Représentation de figures planes par un croquis et/ou un dessin à l"
+    }
+   ],
+   "annees": [
+    9,
+    10
+   ]
+  },
+  "m3-polygones": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "10e-11e",
+     "cherche": "– polygones réguliers"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "9e-11e",
+     "cherche": "somme des angles"
+    }
+   ],
+   "annees": [
+    10,
+    11
+   ]
+  },
+  "m3-cercle": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "11e",
+     "cherche": "angle au centre"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Figures géométriques planes",
+     "plage": "11e",
+     "cherche": "– cercle de Thalès"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "utilisation des propriétés des figures et des transformations géométriques pour établir des preuves"
+    }
+   ],
+   "annees": [
+    11,
+    11
+   ]
+  },
+  "m3-solides": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "9e-11e",
+     "cherche": "Reconnaissance, dénomination, description de solides selon leurs propriétés"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "9e-10e",
+     "cherche": "– cube, parallélépipède rectangle, prisme droit, cylindre, pyramide"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "11e",
+     "cherche": "– cône, sphère"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "9e-11e",
+     "cherche": "Réalisation de développements et construction de solides"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "9e-10e",
+     "cherche": "– cube, parallélépipède rectangle, prisme droit"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "11e",
+     "cherche": "– cylindre (Niv 1s-2-3)"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "11e",
+     "cherche": "– pyramide régulière (Niv 2-3)"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Solides",
+     "plage": "9e-11e",
+     "cherche": "Représentation de solides en perspective"
+    }
+   ]
+  },
+  "m3-transfo": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e-10e",
+     "cherche": "Reconnaissance et dénomination des isométries"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e-11e",
+     "cherche": "Description et identification des caractéristiques d'une isométrie"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e-10e",
+     "cherche": "– isométrie (vecteur de translation"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e-11e",
+     "cherche": "Anticipation de la position d'une figure plane après une ou plusieurs isométries"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e-11e",
+     "cherche": "Réalisation de frises ou de pavages"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "9e",
+     "cherche": "Agrandissement et réduction de figures planes en utilisant la proportionnalité (Niv s)"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "10e",
+     "cherche": "Agrandissement et réduction de figures planes en utilisant la proportionnalité"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "mise en œuvre d’une démarche de résolution"
+    }
+   ]
+  },
+  "m3-homothetie": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "11e",
+     "cherche": "– homothétie (centre, rapport"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "11e",
+     "cherche": "– similitude (Niv 3s)"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "11e",
+     "cherche": "– par une homothétie"
+    }
+   ],
+   "annees": [
+    11,
+    11
+   ]
+  },
+  "m3-reperage": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 31",
+     "notion": "Repérage dans le plan et dans l'espace",
+     "plage": "9e-11e",
+     "cherche": "Utilisation de systèmes de repérage pour communiquer des positions et des itinéraires"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "déduction d’une ou plusieurs informations nouvelles"
+    }
+   ]
+  },
+  "m3-nombres": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e-10e",
+     "cherche": "Reconnaissance et utilisation de propriétés des nombres naturels"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e",
+     "cherche": "– critères de divisibilité, multiples et diviseurs communs"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e",
+     "cherche": "– ppmc, pgdc, nombres premiers, produit de facteurs (Niv 2-3)"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "10e",
+     "cherche": "– ppmc, pgdc, nombres premiers, produit de facteurs (Niv 1)"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e-11e",
+     "cherche": "Exploration de quelques systèmes de numération"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "mise en œuvre d’une démarche de résolution"
+    }
+   ],
+   "annees": [
+    9,
+    10
+   ]
+  },
+  "m3-racines": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "10e-11e",
+     "cherche": "– de racine carrée et cubique"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e-11e",
+     "cherche": "Discernement des ensembles de nombres, découverte de quelques nombres irrationnels"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e-11e",
+     "cherche": "Comparaison, approximation, encadrement"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Calculs",
+     "plage": "10e-11e",
+     "cherche": "– carrés parfaits pour en extraire la racine"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Calculs",
+     "plage": "11e",
+     "cherche": "– racines carrées (cubiques), y compris extraction d'entiers"
+    }
+   ],
+   "annees": [
+    10,
+    11
+   ]
+  },
+  "m3-estimation": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "acceptation ou refus d'un résultat par l'estimation de l'ordre de grandeur"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "ordre dans lequel la calculatrice effectue les opérations"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "traduction des données d'un problème en opérations arithmétiques"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "ajustement d’essais successifs"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Calculs",
+     "plage": "9e-10e",
+     "cherche": "Connaissance et utilisation des priorités des opérations"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Nombres",
+     "plage": "9e-11e",
+     "cherche": "ordre de grandeur de nombres"
+    }
+   ]
+  },
+  "m3-probas": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "10e-11e",
+     "cherche": "Exploration de situations aléatoires"
+    },
+    {
+     "code": "MSN 32",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "11e",
+     "cherche": "Traitement de situations aléatoires à l'aide de notions de probabilités"
+    }
+   ],
+   "annees": [
+    10,
+    11
+   ]
+  },
+  "m3-proportion": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de proportionnalité"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-10e",
+     "cherche": "– quantité / quantité (prix, poids, devises"
+    },
+    {
+     "code": "MSN 35",
+     "notion": "",
+     "plage": "9e-11e",
+     "cherche": "Cet objectif n'est pas travaillé pour lui-même"
+    }
+   ],
+   "annees": [
+    9,
+    10
+   ]
+  },
+  "m3-echelle": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "10e-11e",
+     "cherche": "– échelle, pourcentage, pente"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de proportionnalité"
+    }
+   ],
+   "annees": [
+    10,
+    11
+   ]
+  },
+  "m3-vitesse": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "11e",
+     "cherche": "– vitesse moyenne"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "11e",
+     "cherche": "– masse volumique (Niv 1s-2-3)"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "11e",
+     "cherche": "– débit (Niv 3)"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Mesure de grandeurs et conversion d'unités",
+     "plage": "11e",
+     "cherche": "– vitesse"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Mesure de grandeurs et conversion d'unités",
+     "plage": "11e",
+     "cherche": "– autres grandeurs (débit, masse volumique"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de mesurage"
+    }
+   ],
+   "annees": [
+    11,
+    11
+   ]
+  },
+  "m3-fonctions": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "9e-11e",
+     "cherche": "Reconnaissance de situations pouvant être modélisées par des fonctions"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "9e-11e",
+     "cherche": "Lecture et interprétation de tableaux de valeurs"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "9e-11e",
+     "cherche": "– un ou plusieurs opérateurs"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "9e-11e",
+     "cherche": "– de l'opérateur au tableau de valeurs et inversement"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "10e",
+     "cherche": "x→ax^2"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Fonctions",
+     "plage": "11e",
+     "cherche": "x→ax^2"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes en lien avec les notions étudiées (fonctions"
+    },
+    {
+     "code": "MSN 35",
+     "notion": "",
+     "plage": "9e-11e",
+     "cherche": "Cet objectif n'est pas travaillé pour lui-même"
+    }
+   ]
+  },
+  "m3-diagrammes": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 33",
+     "notion": "Diagrammes",
+     "plage": "9e-11e",
+     "cherche": "Lecture de données (horaires, statistiques,…) et interprétation de diagrammes"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Diagrammes",
+     "plage": "10e-11e",
+     "cherche": "– diagramme circulaire, en barre"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Diagrammes",
+     "plage": "9e",
+     "cherche": "– diagramme cartésien, en colonnes"
+    },
+    {
+     "code": "MSN 33",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "tri et organisation des informations"
+    }
+   ]
+  },
+  "m3-mesures": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 34",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de mesurage"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "9e-10e",
+     "cherche": "– de l'aire d'un polygone par décomposition en figures simples"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "10e-11e",
+     "cherche": "– du périmètre et de l'aire d'une surface par décomposition en figures simples"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "9e",
+     "cherche": "– du volume et de l'aire du cube et du parallélépipède rectangle"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "10e-11e",
+     "cherche": "Calcul d'une grandeur manquante"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Mesure de grandeurs et conversion d'unités",
+     "plage": "9e-11e",
+     "cherche": "Estimation de grandeurs, choix d'une unité adéquate"
+    }
+   ]
+  },
+  "m3-pythagore": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "10e-11e",
+     "cherche": "Utilisation du théorème de Pythagore (Niv 2-3)"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "11e",
+     "cherche": "Utilisation du théorème de Pythagore (Niv 1)"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de mesurage"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "mise en œuvre d’une démarche de résolution"
+    }
+   ],
+   "annees": [
+    10,
+    11
+   ]
+  },
+  "m3-thales": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 34",
+     "notion": "Calcul de grandeurs",
+     "plage": "11e",
+     "cherche": "Utilisation de la proportionnalité des figures semblables et du théorème de Thalès"
+    },
+    {
+     "code": "MSN 34",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "9e-11e",
+     "cherche": "Résolution de problèmes de mesurage"
+    },
+    {
+     "code": "MSN 31",
+     "notion": "Transformations géométriques",
+     "plage": "11e",
+     "cherche": "– similitude (Niv 3s)"
+    }
+   ],
+   "annees": [
+    11,
+    11
+   ]
+  }
+ },
+ "en_classe": []
+}
