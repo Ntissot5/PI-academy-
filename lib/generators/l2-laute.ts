@@ -4,7 +4,7 @@ import { propositions } from "./data/l2-outils";
 
 // Noms des lettres en allemand, écrits « à la française ».
 const ALPHABET: [string, string][] = [
-  ["A", "a"], ["C", "tsé"], ["E", "é"], ["G", "gué"], ["H", "ha"], ["I", "i"], ["J", "yott"], ["Q", "kou"],
+  ["C", "tsé"], ["E", "é"], ["G", "gué"], ["H", "ha"], ["J", "yott"], ["Q", "kou"],
   ["R", "èr"], ["U", "ou"], ["V", "faou"], ["W", "vé"], ["Y", "upsilonn"], ["Z", "tsètt"],
 ];
 

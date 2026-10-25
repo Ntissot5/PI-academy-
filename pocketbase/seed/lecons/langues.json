@@ -1,1 +1,436 @@
-{ "lecons": {} }
+{
+  "lecons": {
+    "l2-lesen-a": {
+      "titre": "Lire de petits textes en allemand",
+      "regle": "Lis d’abord tout le texte une fois, sans t’arrêter sur les mots inconnus. Repère ensuite les mots que tu connais déjà (prénoms, nombres, couleurs, animaux, jours) : ils suffisent souvent pour répondre. Puis relis la question et cherche dans le texte la phrase qui y répond.",
+      "exemple": "« Ich habe eine Katze. Sie heisst Mimi. » → Lena a un chat, il s’appelle Mimi.",
+      "image": "Pi lit comme un détective : il ne comprend pas tout, mais il ramasse les indices (les mots connus) et ça suffit pour trouver la réponse.",
+      "piege": "Ne réponds pas avec ce que tu imagines : la réponse doit être écrite dans le texte. Attention à « kein » et « nicht », qui changent tout le sens.",
+      "icone": "eye"
+    },
+    "l2-lesen-b": {
+      "titre": "Comprendre une carte, un courriel, une affiche",
+      "regle": "Regarde d’abord le genre de texte : une carte postale commence par « Liebe… / Lieber… », une affiche donne une date, une heure et un lieu, une recette donne des ingrédients et des consignes. Ça t’aide à deviner ce qu’on va y trouver. Repère les mots-clés de la question (quand ? où ? pourquoi ?) et cherche-les dans le texte : Uhr (heure), am Montag (lundi), in (dans), weil (parce que).",
+      "exemple": "« Sommerfest … von 14 bis 18 Uhr. Eintritt frei! » → la fête finit à 18 h, l’entrée est gratuite.",
+      "image": "Un texte, c’est comme une boîte de Lego : Pi regarde d’abord l’image sur la boîte (le genre de texte), puis il cherche les pièces dont il a besoin.",
+      "piege": "Attention aux mots qui indiquent le temps : « gestern » (hier) et « heute » (aujourd’hui) ne parlent pas du même moment.",
+      "icone": "eye"
+    },
+    "l2-lesen-c": {
+      "titre": "Lire des annonces, interviews et opinions",
+      "regle": "Avant de lire en détail, identifie la situation : qui écrit, à qui, pour quoi faire (informer, raconter, convaincre, chercher quelqu’un) ? Le genre se reconnaît à des indices : « Liebes Tagebuch » (journal), « gesucht » (petite annonce), questions-réponses (interview), « Ich bin dafür / dagegen » (opinion). Pour une opinion, cherche la position de l’auteur et ses arguments, souvent introduits par « aber », « denn », « ausserdem ».",
+      "exemple": "« Ich bin dagegen. … Besser sind klare Regeln. » → Sara est contre l’interdiction totale et propose des règles.",
+      "image": "Pi lit un article comme on écoute un ami au téléphone : d’abord « qui parle et de quoi ? », ensuite seulement les détails.",
+      "piege": "Un mot connu ne suffit pas : « Kein totales Verbot » veut dire le contraire de « totales Verbot ». Lis toute la phrase.",
+      "icone": "report"
+    },
+    "l2-wortschatz": {
+      "titre": "Le vocabulaire des thèmes familiers",
+      "regle": "Apprends chaque nom avec son article (der, die, das) et son pluriel : der Hund, die Hunde. En allemand, tous les noms prennent une majuscule. Classe les mots par thèmes (famille, école, nourriture, maison, corps, vêtements, ville, loisirs, temps) : c’est plus facile à retenir. En Suisse, on dit aussi das Velo (das Fahrrad) ou das Spital (das Krankenhaus).",
+      "exemple": "le chien = der Hund · la pomme = der Apfel · la maison = das Haus · lundi = der Montag",
+      "image": "Les mots sont comme les vêtements dans l’armoire de Pi : rangés par tiroirs (les thèmes), il les retrouve tout de suite.",
+      "piege": "Le genre allemand ne suit pas le français : la pomme → der Apfel (masculin), la fille → das Mädchen (neutre).",
+      "icone": "note"
+    },
+    "l2-gegenteil": {
+      "titre": "Contraires et familles de mots",
+      "regle": "Beaucoup d’adjectifs vont par paires de contraires : gross ↔ klein, alt ↔ jung, schnell ↔ langsam, voll ↔ leer. Apprends-les ensemble. Une famille de mots partage le même radical : spielen → der Spieler, der Spielplatz ; schlafen → das Schlafzimmer. Si tu connais le verbe, tu devines le nom.",
+      "exemple": "warm ↔ kalt · früh ↔ spät · fahren → der Fahrer, das Fahrrad",
+      "image": "Une famille de mots, c’est un arbre : le radical est le tronc, et Pi grimpe de branche en branche (spielen, Spiel, Spieler, Spielplatz).",
+      "piege": "« alt » a deux contraires : jung (pour une personne) et neu (pour un objet).",
+      "icone": "flower"
+    },
+    "l2-komposita": {
+      "titre": "Les mots composés",
+      "regle": "L’allemand colle des mots ensemble : Hand + Schuh = der Handschuh (le gant). Pour comprendre, découpe le mot en morceaux connus. Le dernier mot donne le sens principal et l’article : die Sonne + die Brille = die Sonnenbrille ; das Haus + die Aufgabe = die Hausaufgabe. Parfois, une petite lettre fait le lien : Geburt-s-tag, Lieblings-farbe.",
+      "exemple": "der Fuss + der Ball = der Fussball · der Zahn + die Bürste = die Zahnbürste",
+      "image": "Un mot composé, c’est un train : Pi regarde la dernière voiture, la locomotive est à l’arrière ! C’est elle qui décide de l’article.",
+      "piege": "Ce n’est pas le premier mot qui donne l’article : das Haus mais die Hausaufgabe.",
+      "icone": "molecule"
+    },
+    "l2-laute": {
+      "titre": "L’alphabet et les sons de l’allemand",
+      "regle": "Certaines lettres se disent autrement qu’en français : J = « yott », V = « faou », W = « vé », Z = « tsètt ». Dans les mots : ei se prononce « aï » (mein), ie = « i » long (vier), eu et äu = « oï » (neu, Häuser), sch = « ch » (Schule), w = « v » (Wasser), v = souvent « f » (Vater), z = « ts » (Zug), u = « ou » (gut), ü = « u » (Tür), j = « y » (ja).",
+      "exemple": "drei = « draï » · vier = « fir » · Zug = « tsoug » · Wasser = « vasser »",
+      "image": "Pi range les sons comme des costumes : en allemand, la lettre w porte le costume du « v » français, et le v porte celui du « f ».",
+      "piege": "ei et ie sont à l’envers l’un de l’autre : mein (« aï »), mais Liebe (« i »). Regarde la deuxième lettre : c’est elle qu’on entend.",
+      "icone": "note"
+    },
+    "l2-vokale": {
+      "titre": "Voyelles longues, brèves et accent tonique",
+      "regle": "Une voyelle est longue si elle est doublée (Boot, Tee), suivie d’un h muet (Sohn, fahren) ou si c’est ie (Lied). Elle est brève devant une consonne doublée ou plusieurs consonnes (Bett, Mutter, Katze, Hand). Accent tonique : les mots allemands simples sont accentués sur la première syllabe (MUTter) ; une particule séparable est accentuée (ANrufen), un préfixe inséparable jamais (beSUchen) ; les verbes en -ieren sont accentués sur -ie- (stuDIEren).",
+      "exemple": "Sohn (o long) · Sonne (o bref) · AUFstehen · verSTEhen",
+      "image": "La consonne doublée, c’est un frein : Pi passe vite sur la voyelle (Bett). Le h, c’est une pédale de pause : il s’arrête longtemps (Sohn).",
+      "piege": "Le h après une voyelle ne se prononce pas : il sert juste à allonger la voyelle (Uhr = « ouhr » long).",
+      "icone": "note"
+    },
+    "l2-uhrzeit": {
+      "titre": "Dire l’heure, les jours et les mois",
+      "regle": "Pour l’heure courante : 3:00 = drei Uhr ; 3:15 = Viertel nach drei ; 3:45 = Viertel vor vier ; 3:10 = zehn nach drei ; 3:50 = zehn vor vier. Et 3:30 = halb vier : on dit la moitié avant l’heure suivante ! Les jours : Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag, Sonntag. Les mois : Januar … Dezember. Jours et mois sont masculins (der Montag, der Mai).",
+      "exemple": "Es ist halb acht = 7:30 · Es ist Viertel nach zwei = 2:15",
+      "image": "Pi imagine une pizza pour l’heure suivante : à 7:30, la moitié de la pizza « acht » est déjà mangée, il ne reste que « halb acht ».",
+      "piege": "halb drei, ce n’est pas 3:30 mais 2:30 : on compte vers l’heure qui arrive.",
+      "icone": "cal31"
+    },
+    "l2-modalverben": {
+      "titre": "Les verbes de mode",
+      "regle": "können (pouvoir, savoir), müssen (devoir), wollen (vouloir), dürfen (avoir le droit), sollen (on me demande de), möchten (aimerait). Au singulier, la voyelle change souvent et ich / er n’ont pas de terminaison : ich kann, du kannst, er kann ; ich muss, er muss ; ich will, er will ; ich darf. Le verbe de mode est conjugué en 2e position, l’infinitif part tout à la fin de la phrase.",
+      "exemple": "Ich kann heute nicht kommen. · Wir müssen am Abend Deutsch lernen. · Darfst du ein Eis essen?",
+      "image": "Le verbe de mode et l’infinitif, c’est une parenthèse : Pi ouvre la parenthèse en 2e position (kann) et la referme à la fin (kommen).",
+      "piege": "ich kann, pas « ich kanne » ; er muss, pas « er musst ». Et l’infinitif ne reste pas à côté du verbe de mode : il va au bout.",
+      "icone": "mail"
+    },
+    "l2-imperativ": {
+      "titre": "L’impératif : donner une consigne",
+      "regle": "Avec du : on prend le présent sans -st et sans pronom (du kommst → Komm!). Les verbes qui changent e en i le gardent : du liest → Lies! ; du nimmst → Nimm! ; du gibst → Gib! Avec ihr : la forme du présent sans pronom (ihr kommt → Kommt!). Avec Sie (politesse) : l’infinitif + Sie (Kommen Sie!). Les particules séparables vont à la fin : Steh auf! Hör zu!",
+      "exemple": "Lies den Text! · Öffnet das Buch! · Warten Sie einen Moment! · Sei leise! (sein)",
+      "image": "L’impératif, c’est Pi qui donne des ordres à son robot : pas besoin de dire « toi », le robot sait qu’on lui parle.",
+      "piege": "Pas de tréma avec du : du fährst, mais Fahr langsam! Et sein est irrégulier : Sei! Seid! Seien Sie!",
+      "icone": "pin"
+    },
+    "l2-trennbar": {
+      "titre": "Les verbes à particule séparable",
+      "regle": "Beaucoup de verbes ont une particule (auf, an, ein, mit, ab, zu, fern…). Au présent, le verbe conjugué est en 2e position et la particule se détache pour aller à la fin de la phrase : aufstehen → Ich stehe um sieben Uhr auf. Au Perfekt, ge- se glisse entre la particule et le verbe : aufgestanden, eingekauft, angerufen. La particule est toujours accentuée (AUFstehen).",
+      "exemple": "anrufen → Ich rufe Oma an. · einkaufen → Wir kaufen im Supermarkt ein. · fernsehen → ferngesehen",
+      "image": "Le verbe à particule, c’est une fusée à deux étages : au décollage, l’étage du bas (la particule) se détache et tombe tout au bout de la phrase.",
+      "piege": "Ne colle pas la particule devant le verbe conjugué : « Ich aufstehe » est faux, on dit « Ich stehe … auf ».",
+      "icone": "molecule"
+    },
+    "l2-praeteritum": {
+      "titre": "Präteritum de sein et haben, futur avec werden",
+      "regle": "Pour raconter au passé, on utilise surtout le Präteritum avec sein et haben, et avec les verbes de mode. sein : ich war, du warst, er war, wir waren, ihr wart, sie waren. haben : ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten. Verbes de mode : -te sans tréma (ich konnte, musste, durfte, wollte). Le futur se forme avec werden + infinitif à la fin : ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden.",
+      "exemple": "Gestern war ich im Zoo. · Wir hatten keine Zeit. · Nächstes Jahr werde ich Oma besuchen.",
+      "image": "Le Präteritum, c’est l’album photo de Pi : « Ich war in Bern », « Ich hatte Hunger », chaque photo raconte un moment passé.",
+      "piege": "ich war et er war ont la même forme (pas de -t à er). Et konnte perd son tréma : können → ich konnte.",
+      "icone": "cal31"
+    },
+    "l2-plural": {
+      "titre": "Le pluriel des noms",
+      "regle": "Au pluriel, l’article est toujours die. La marque du pluriel varie : -e (der Tag → die Tage), -e avec tréma (der Stuhl → die Stühle), -er avec tréma (das Haus → die Häuser), -n / -en (die Schule → die Schulen), -s (das Auto → die Autos), rien (das Zimmer → die Zimmer), ou tréma seul (der Apfel → die Äpfel). Les féminins en -in prennent -nen (die Freundinnen). Le plus sûr : apprendre chaque nom avec son pluriel.",
+      "exemple": "das Buch → die Bücher · die Katze → die Katzen · der Lehrer → die Lehrer",
+      "image": "Pi range chaque nom avec deux étiquettes : son article et son pluriel. Une seule étiquette, et il se trompe de tiroir.",
+      "piege": "Le pluriel n’est presque jamais en -s comme en français : der Hund → die Hunde, pas « die Hunds ».",
+      "icone": "folder"
+    },
+    "l2-pronomen": {
+      "titre": "Remplacer un nom : er, sie, es",
+      "regle": "Un nom masculin (der) se remplace par er, un féminin (die) par sie, un neutre (das) par es, et tout pluriel par sie. Le pronom suit le genre grammatical du mot, même pour les choses : der Tisch → er, die Lampe → sie.",
+      "exemple": "Der Hund ist hier. → Er ist hier. · Das Mädchen ist klein. → Es ist klein. · Die Kinder sind dort. → Sie sind dort.",
+      "image": "Le pronom est un miroir de l’article : der → er, die → sie, das → es. Pi n’a qu’à regarder l’article pour choisir.",
+      "piege": "Das Mädchen est neutre : on dit « es », même si c’est une fille !",
+      "icone": "pin"
+    },
+    "l2-pronomen-kasus": {
+      "titre": "Pronoms à l’accusatif et au datif",
+      "regle": "Comme les articles, les pronoms changent selon le cas. Accusatif (après sehen, besuchen, fragen, für, ohne…) : mich, dich, ihn, sie, es, uns, euch, sie, Sie. Datif (après helfen, danken, gefallen, gehören, mit, von…, ou pour la personne à qui l’on donne) : mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen.",
+      "exemple": "Ich besuche dich. · Kannst du mir helfen? · Das Velo gehört ihm. · Das Geschenk ist für uns.",
+      "image": "Pi a une boîte à pronoms à trois tiroirs : qui ? (ich), qui/quoi ? (mich), à qui ? (mir).",
+      "piege": "er → ihn (accusatif) mais ihm (datif). Et helfen veut le datif : Ich helfe dir, pas « dich ».",
+      "icone": "pin"
+    },
+    "l2-satzbau": {
+      "titre": "La place du verbe",
+      "regle": "Dans une phrase déclarative, le verbe conjugué est toujours en 2e position. Si la phrase commence par autre chose que le sujet (heute, am Montag, im Sommer…), le sujet passe juste après le verbe : c’est l’inversion. Ce qui compte, c’est la position du verbe, pas celle du sujet.",
+      "exemple": "Ich spiele heute Fussball. → Heute spiele ich Fussball.",
+      "image": "Le verbe est le pilier n° 2 du pont : Pi peut mettre ce qu’il veut sur la première pierre, le pilier reste toujours à la 2e place.",
+      "piege": "« Heute ich spiele » est faux : après « Heute », c’est le verbe qui vient tout de suite.",
+      "icone": "plane"
+    },
+    "l2-nebensatz": {
+      "titre": "Phrases complexes : weil, dass, wenn, denn",
+      "regle": "Après weil (parce que), dass (que), wenn (quand, si) et les autres conjonctions de subordination, le verbe conjugué va tout à la fin de la proposition, et une virgule sépare les deux propositions. Avec un verbe de mode ou au Perfekt, c’est le verbe conjugué qui est le tout dernier : …, weil ich lernen muss ; …, dass er gekommen ist. Après und, aber, oder, denn, l’ordre ne change pas : le verbe reste en 2e position.",
+      "exemple": "Ich bleibe zu Hause, weil ich krank bin. · Ich bleibe zu Hause, denn ich bin krank.",
+      "image": "weil, c’est un aimant qui attire le verbe tout au bout de la phrase ; denn n’a pas d’aimant, le verbe reste à sa place.",
+      "piege": "« weil ich bin krank » s’entend parfois à l’oral, mais c’est faux à l’écrit : weil ich krank bin.",
+      "icone": "plane"
+    },
+    "l2-negation": {
+      "titre": "nicht ou kein ?",
+      "regle": "kein remplace ein ou un nom sans article : Ich habe einen Hund → Ich habe keinen Hund ; Ich habe Zeit → Ich habe keine Zeit. kein se décline comme ein (kein, keine, keinen). Dans les autres cas (verbe, adjectif, nom avec der/die/das ou mein), on utilise nicht : Der Film ist nicht gut ; Ich komme nicht ; Das ist nicht mein Velo.",
+      "exemple": "Das ist keine Katze. · Ich kann nicht schwimmen. · Wir haben keine Hausaufgaben.",
+      "image": "kein, c’est « zéro » devant un nom (zéro chien) ; nicht, c’est un panneau « non » posé sur le reste.",
+      "piege": "On ne dit pas « nicht ein Hund » mais « kein Hund ». Et au masculin accusatif : keinen.",
+      "icone": "eye"
+    },
+    "l2-wfragen": {
+      "titre": "Les questions avec W-",
+      "regle": "Les mots interrogatifs commencent presque tous par W : wer (qui), was (quoi), wo (où), woher (d’où), wohin (où, vers où), wann (quand), wie (comment), warum (pourquoi), wie viele (combien). Après le mot interrogatif vient directement le verbe conjugué, puis le sujet : Wo wohnst du? Pour choisir le bon mot, regarde la réponse : un lieu → wo, un moment → wann, une raison (weil…) → warum.",
+      "exemple": "Woher kommst du? — Aus Italien. · Wann beginnt der Film? — Um acht Uhr.",
+      "image": "Les W-Fragen sont une famille de clés : Pi essaie la clé qui ouvre la réponse (un lieu, une heure, une personne…).",
+      "piege": "wo n’est pas « qui » : « qui » se dit wer. Et wo (où on est) ≠ wohin (où on va).",
+      "icone": "mail"
+    },
+    "l2-akkusativ": {
+      "titre": "Le nominatif et l’accusatif",
+      "regle": "Le sujet (qui fait l’action) est au nominatif : der, ein, mein. Le complément d’objet direct (qui ? quoi ? après sehen, haben, suchen, kaufen, brauchen…) est à l’accusatif. Seul le masculin change : der → den, ein → einen, kein → keinen, mein → meinen. Au féminin, au neutre et au pluriel, l’accusatif a la même forme que le nominatif.",
+      "exemple": "Der Hund ist hier. (nominatif) · Ich sehe den Hund. · Ich habe einen Bruder. · Ich kaufe eine Jacke.",
+      "image": "Au masculin, l’accusatif met une petite queue en -n : Pi dessine un « n » sur der → den, ein → einen.",
+      "piege": "Le féminin ne change pas : Ich sehe die Katze (pas « den Katze »).",
+      "icone": "folder"
+    },
+    "l2-dativ": {
+      "titre": "Le datif",
+      "regle": "Le datif répond à « à qui ? » (complément d’objet indirect : Ich gebe dem Kind ein Buch) et vient après certaines prépositions : mit, von, zu, bei, aus, nach, seit. Les formes : der → dem, die → der, das → dem, pluriel die → den + -n au nom. ein → einem / einer ; mein → meinem / meiner. Verbes avec datif : helfen, danken, gefallen, gehören.",
+      "exemple": "Ich fahre mit dem Zug. · Ich helfe meiner Mutter. · Ich spiele mit den Kindern.",
+      "image": "Au datif, Pi met un « m » aux masculins et neutres (dem, einem) et un « r » aux féminins (der, einer).",
+      "piege": "Au féminin, le datif est der : mit der Freundin. Ce n’est pas un masculin !",
+      "icone": "folder"
+    },
+    "l2-praepositionen": {
+      "titre": "Les prépositions et les cas",
+      "regle": "Certaines prépositions ont un cas fixe. Datif : mit, nach, aus, zu, von, bei, seit. Accusatif : für, ohne, gegen, durch, um. Les prépositions de lieu (in, an, auf…) prennent l’accusatif pour un mouvement vers un lieu (wohin ? Ich gehe in die Schule) et le datif pour une position (wo ? Ich bin in der Schule). Contractions : in + dem = im, in + das = ins, zu + dem = zum, zu + der = zur.",
+      "exemple": "Ich gehe ins Kino. · Ich bin im Kino. · ein Geschenk für einen Freund · seit einer Stunde",
+      "image": "Wohin ? Pi est en route, il roule vers l’accusatif. Wo ? Pi est arrivé et se repose au datif.",
+      "piege": "Ne mélange pas « ins » (je vais au cinéma) et « im » (je suis au cinéma).",
+      "icone": "pin"
+    },
+    "l2-wortarten": {
+      "titre": "La nature des mots",
+      "regle": "Un nom (Nomen) désigne une personne, un animal, une chose : en allemand, il prend toujours une majuscule. Un verbe (Verb) dit l’action : son infinitif finit par -en ou -n (spielen). Un adjectif (Adjektiv) décrit (gross, rot). Un pronom (Pronomen) remplace un nom (ich, er, uns). Un déterminant (Artikel) accompagne le nom (ein, mein, kein).",
+      "exemple": "Der kleine Hund spielt. → Hund : nom · klein : adjectif · spielt : verbe · der : déterminant",
+      "image": "La majuscule, c’est la couronne des noms : en allemand, chaque nom porte la sienne, partout dans la phrase.",
+      "piege": "Un mot qui commence par une majuscule en début de phrase n’est pas forcément un nom : regarde son rôle.",
+      "icone": "report"
+    },
+    "l2-komparativ": {
+      "titre": "Comparatif et superlatif",
+      "regle": "Comparatif : adjectif + -er, souvent avec un tréma sur a, o, u (gross → grösser, alt → älter, jung → jünger), suivi de als : Tom ist grösser als Lena. Égalité : so … wie (so gross wie). Superlatif : am + adjectif + -sten (am schnellsten, am ältesten). Formes irrégulières : gut → besser → am besten ; viel → mehr → am meisten ; gern → lieber → am liebsten ; hoch → höher → am höchsten.",
+      "exemple": "Ein Zug ist schneller als ein Velo. · Ich bin so alt wie du. · Mathe mag ich am liebsten.",
+      "image": "Pi monte un escalier : gut, besser, am besten. Chaque marche ajoute un petit morceau au mot.",
+      "piege": "Après un comparatif, c’est als (pas wie) : grösser als du. wie sert pour l’égalité : so gross wie du.",
+      "icone": "star"
+    },
+    "l2-interlingue": {
+      "titre": "Entre l’allemand, le français et l’anglais",
+      "regle": "Les langues s’empruntent des mots : le français a pris à l’allemand hamster, bretzel, rösti, edelweiss, vasistas (de « Was ist das? ») ; l’allemand de Suisse a pris au français Velo, Trottoir, Portemonnaie, Billett, Coiffeur. Les langues ne classent pas les noms de la même façon : le genre change souvent (la lune → der Mond, le soleil → die Sonne) et l’allemand a même un neutre. Le pluriel aussi : français et anglais ajoutent souvent -s, l’allemand utilise -e, -er, -n, un tréma…",
+      "exemple": "le livre → les livres · book → books · das Buch → die Bücher",
+      "image": "Les mots voyagent comme des touristes : Pi en croise à chaque frontière, avec un accent un peu différent.",
+      "piege": "Un mot qui se ressemble n’a pas forcément le même genre : die Sonne est féminin, le soleil masculin.",
+      "icone": "plane"
+    },
+    "l3-reading-a": {
+      "titre": "Lire de courts textes en anglais",
+      "regle": "Regarde d’abord le genre de texte (portrait, menu, courriel, affiche, règlement) : il annonce le type d’informations. Repère les mots transparents (restaurant, family, museum) et les mots que tu connais, puis cherche dans le texte la phrase qui répond à la question. Pas besoin de tout comprendre pour répondre juste.",
+      "exemple": "« Open every day except Monday » → fermé le lundi.",
+      "image": "Pi lit comme un détective : quelques indices bien choisis (un jour, un prix, un lieu) suffisent pour résoudre l’énigme.",
+      "piege": "Attention aux petits mots qui inversent le sens : don't, not, except (sauf), without (sans).",
+      "icone": "eye"
+    },
+    "l3-reading-b": {
+      "titre": "Lire un blog, un article, une lettre",
+      "regle": "Identifie la situation de communication : qui écrit, à qui, dans quel but (informer, raconter, se plaindre, convaincre) ? Le registre donne des indices : « Dear Sir or Madam … Yours faithfully » = lettre formelle ; « Hi! … See you » = message à un ami. Pour un texte d’opinion, repère les arguments pour et contre, puis l’avis de l’auteur (In my opinion, I think).",
+      "exemple": "« I am writing to complain about… » → Tom écrit pour se plaindre.",
+      "image": "Pi lit la première et la dernière phrase comme on regarde la couverture d’un livre : ça dit déjà de quoi parle le texte.",
+      "piege": "Une réponse peut reprendre des mots du texte et être fausse : vérifie le sens de toute la phrase.",
+      "icone": "report"
+    },
+    "l3-vocab": {
+      "titre": "Le vocabulaire des thèmes familiers",
+      "regle": "Apprends les mots par thèmes : family, school, food, colours, animals, house, body, weather, hobbies, town, clothes. Certains mots diffèrent entre l’anglais britannique et américain : trousers / pants, rubber / eraser, flat / apartment, sweets / candy, autumn / fall, holiday / vacation. Les deux sont acceptés.",
+      "exemple": "le pain = bread · la cuisine = kitchen · le pull = jumper (UK) / sweater (US)",
+      "image": "Pi range ses mots dans des boîtes à chaussures, une par thème : quand il parle de nourriture, il ouvre la boîte « food ».",
+      "piege": "Faux amis : library = bibliothèque (pas librairie). Et « a cave » = une grotte.",
+      "icone": "note"
+    },
+    "l3-capitals": {
+      "titre": "Les majuscules en anglais",
+      "regle": "En anglais, prennent une majuscule : le pronom I (toujours), les jours (Monday), les mois (July), les langues (English, French), les nationalités (Swiss, Italian), les pays et les villes (Canada, London), les fêtes (Christmas). Les saisons (summer, winter), les moments de la journée (morning) et les noms communs restent en minuscules.",
+      "exemple": "On Monday I speak French with my Swiss friend. · I love summer.",
+      "image": "Pi met une couronne aux mots « importants » de l’anglais : I, les jours, les mois, les langues et les pays.",
+      "piege": "Contrairement au français, lundi, juillet, français et suisse prennent une majuscule en anglais : Monday, July, French, Swiss.",
+      "icone": "eye"
+    },
+    "l3-plurals": {
+      "titre": "Pluriels et formes contractées",
+      "regle": "Pluriel : on ajoute -s (books) ; -es après -s, -x, -sh, -ch et beaucoup de mots en -o (boxes, watches, potatoes) ; consonne + y → -ies (babies), mais voyelle + y → -ys (boys) ; -f / -fe → -ves (knives). Pluriels irréguliers : child → children, man → men, woman → women, foot → feet, tooth → teeth, mouse → mice, person → people, sheep → sheep. Formes contractées : l’apostrophe remplace les lettres qui tombent (I am → I'm, do not → don't, cannot → can't, will not → won't).",
+      "exemple": "a city → two cities · a knife → two knives · she is → she's",
+      "image": "Le pluriel irrégulier, c’est un déguisement : Pi reconnaît « feet » même si « foot » a changé de costume.",
+      "piege": "won't est la forme courte de will not, pas de « want not ». Et it's (= it is) n’est pas its (possessif).",
+      "icone": "folder"
+    },
+    "l3-sounds": {
+      "titre": "Alphabet et prononciation de l’anglais",
+      "regle": "Les noms des lettres ne sont pas ceux du français : A « éï », E « i », I « aï », G « dji », J « djéï », H « éïtch », R « ar », U « you », W « double-you », Y « ouaï ». L’orthographe anglaise garde des lettres muettes : knife (k), write (w), lamb (b), hour (h), listen (t), half (l). Des mots qui s’écrivent différemment peuvent se prononcer pareil : see / sea, two / too, there / their, know / no.",
+      "exemple": "Spell your name : P-I = « pi aï » · knife = « naïf »",
+      "image": "En anglais, certaines lettres sont des passagers clandestins : elles voyagent dans le mot, mais Pi ne les entend jamais.",
+      "piege": "Le E anglais se dit « i » et le I se dit « aï » : épeler « Emma » commence par « i ».",
+      "icone": "note"
+    },
+    "l3-continuous": {
+      "titre": "Present continuous ou present simple ?",
+      "regle": "Present continuous = be (am, is, are) + verbe en -ing, pour une action en cours (now, at the moment, Look!, Listen!). Present simple pour une habitude (every day, on Sundays, usually). Orthographe de -ing : le e final tombe (make → making) ; consonne doublée après voyelle courte (swim → swimming, run → running, sit → sitting).",
+      "exemple": "Look! She is dancing. · She dances every Saturday. · I'm reading at the moment.",
+      "image": "Le present continuous, c’est une vidéo en direct : Pi filme ce qui se passe maintenant. Le present simple, c’est l’agenda de ses habitudes.",
+      "piege": "N’oublie pas be : « She dancing » est faux, on dit « She is dancing ».",
+      "icone": "laptop"
+    },
+    "l3-imperative": {
+      "titre": "L’impératif en anglais",
+      "regle": "Pour donner un ordre ou une consigne, on utilise la base verbale, sans sujet : Open your books! Sit down! Pour interdire : Don't + base (Don't run!). Pour proposer de faire quelque chose ensemble : Let's + base (Let's go!). Pour être poli, ajoute please.",
+      "exemple": "Listen carefully! · Don't forget your homework! · Let's sing a song!",
+      "image": "L’impératif, c’est la télécommande de la classe : un bouton, une action, pas besoin de dire « you ».",
+      "piege": "Pas de « to » à l’impératif : « Close the door », pas « To close the door ».",
+      "icone": "pin"
+    },
+    "l3-can-do": {
+      "titre": "Les auxiliaires can et do",
+      "regle": "can (pouvoir, savoir) est suivi de la base verbale, même à la 3e personne : She can swim. Question : Can you swim? Négation : can't. Au present simple, les questions et les négations se font avec do / does : Do you like pizza? Does she play tennis? I don't like fish. He doesn't live here. Après does / doesn't, le verbe perd son -s. Les réponses courtes reprennent l’auxiliaire : Yes, I can. / No, she doesn't.",
+      "exemple": "Can your sister ski? — Yes, she can. · Does Tom have a cat? — No, he doesn't.",
+      "image": "do et does sont les assistants de Pi : ils portent le -s et la négation, et le verbe principal peut se reposer à sa forme de base.",
+      "piege": "Pas de double -s : « Does she plays » est faux, on dit « Does she play ». Et jamais « He cans ».",
+      "icone": "mail"
+    },
+    "l3-past": {
+      "titre": "Le past simple",
+      "regle": "Verbes réguliers : base + -ed (play → played). Orthographe : après -e, seulement -d (like → liked) ; consonne + y → -ied (study → studied) ; consonne doublée après une voyelle courte (stop → stopped). Les verbes irréguliers ont leur propre forme (go → went). Négation : didn't + base (I didn't go). Question : Did + sujet + base (Did you see it?). Même forme pour toutes les personnes.",
+      "exemple": "Yesterday we visited a castle. · She didn't watch TV. · Did you enjoy the film?",
+      "image": "did, c’est la machine à remonter le temps : quand Pi l’utilise, le verbe n’a plus besoin de voyager, il reste à la base.",
+      "piege": "Après did ou didn't, jamais de forme au passé : « Did you went » est faux → « Did you go ».",
+      "icone": "cal31"
+    },
+    "l3-future": {
+      "titre": "Le futur : going to et will",
+      "regle": "be going to + base : un projet ou une intention déjà décidés (I'm going to visit my grandma next weekend). will + base : une prédiction (I think it will rain), une décision prise sur le moment (I'll answer it!), une promesse ou une offre. Négatif : won't (= will not). will a la même forme pour toutes les personnes.",
+      "exemple": "We're going to see the match tonight. · I'm sure you will pass. · It won't be easy.",
+      "image": "going to, c’est l’agenda de Pi (c’est déjà écrit) ; will, c’est sa boule de cristal ou une idée qui lui vient tout de suite.",
+      "piege": "Pas de « to » après will : « I will to come » est faux → « I will come ».",
+      "icone": "plane"
+    },
+    "l3-perfect": {
+      "titre": "Le present perfect",
+      "regle": "have / has + participe passé (regular : -ed ; irregular : la 3e colonne, seen, been, written). On l’utilise pour une expérience ou un résultat sans moment précis, souvent avec ever, never, already, just, before. Avec since (point de départ : since 2019) ou for (durée : for three years), il exprime une action qui dure jusqu’à maintenant. Avec un moment précis du passé (yesterday, last week, in 2020, ago), on utilise le past simple.",
+      "exemple": "I have never been to London. · She has just finished. · I saw that film yesterday.",
+      "image": "Le present perfect, c’est un pont entre le passé et maintenant : Pi a vu le film, et il s’en souvient encore aujourd’hui.",
+      "piege": "« I have seen it yesterday » est faux : avec yesterday → past simple (I saw it yesterday).",
+      "icone": "cal31"
+    },
+    "l3-conditional": {
+      "titre": "Les phrases avec if (conditionnels)",
+      "regle": "Zero conditional (vérité générale) : if + présent, présent (If you heat ice, it melts). First conditional (possible) : if + présent, will + base (If it rains, we will stay home). Second conditional (imaginaire) : if + prétérit, would + base (If I were rich, I would buy a boat). Après if, on ne met jamais will ni would.",
+      "exemple": "If you study, you'll pass. · If I had wings, I would fly to Japan.",
+      "image": "if, c’est une porte : Pi regarde ce qu’il y a derrière. Porte probable → will ; porte de rêve → would.",
+      "piege": "« If it will rain » est faux : après if, on met le présent → If it rains.",
+      "icone": "molecule"
+    },
+    "l3-modals": {
+      "titre": "Les verbes modaux",
+      "regle": "can = capacité ou permission ; could = can au passé ; must = obligation (souvent personnelle) ; have to / has to = obligation (règle) ; had to = obligation au passé ; mustn't = interdiction ; don't have to = pas nécessaire ; should = conseil. Les modaux (can, must, should) sont suivis de la base verbale, sans to, et ne prennent pas de -s.",
+      "exemple": "You mustn't smoke here. · I don't have to get up early on Sunday. · You should go to bed.",
+      "image": "mustn't, c’est un feu rouge ; don't have to, c’est un feu vert « si tu veux » : Pi ne les confond pas.",
+      "piege": "mustn't (interdit) ≠ don't have to (pas obligatoire). Et jamais « must to ».",
+      "icone": "mail"
+    },
+    "l3-pronouns": {
+      "titre": "Pronoms sujets et compléments",
+      "regle": "Pronoms sujets (devant le verbe) : I, you, he, she, it, we, they. Pronoms compléments (après un verbe ou une préposition) : me, you, him, her, it, us, them. I s’écrit toujours avec une majuscule.",
+      "exemple": "She likes him. · Can you help me? · This present is for us. · They live in Bern.",
+      "image": "Chaque pronom a deux costumes : un pour être sujet (he), un pour être complément (him). Pi choisit selon sa place dans la phrase.",
+      "piege": "Après une préposition, pronom complément : « for me », pas « for I ».",
+      "icone": "pin"
+    },
+    "l3-determiners": {
+      "titre": "a / an, possessifs, this / that",
+      "regle": "a devant un son consonne, an devant un son voyelle : on écoute le son, pas la lettre (an hour, a university). Possessifs : my, your, his (à lui), her (à elle), its (à une chose, un animal), our, their. Démonstratifs : this / these (proche, singulier / pluriel), that / those (loin).",
+      "exemple": "an apple · a uniform · Tom loves his dog. · These shoes are new. · Look at that house!",
+      "image": "Pi pointe du doigt : sous sa main, this ou these ; au loin, that ou those.",
+      "piege": "its (possessif) n’a pas d’apostrophe ; it's veut dire it is. Et his / her dépend du possesseur, pas de l’objet : Anna and her brother.",
+      "icone": "folder"
+    },
+    "l3-questions": {
+      "titre": "Les mots interrogatifs",
+      "regle": "What (quoi, quel), Where (où), When (quand), Who (qui), Why (pourquoi), How (comment), How old (quel âge), How many (combien, + nom comptable), How much (combien, + non comptable ou prix), Whose (à qui), Which (lequel). Ordre : mot interrogatif + auxiliaire (do, does, is, can…) + sujet + verbe.",
+      "exemple": "Where do you live? — In Geneva. · Whose bag is this? — It's Tom's.",
+      "image": "Chaque mot en Wh- est une clé pour une porte différente : la réponse dit à Pi quelle clé il fallait.",
+      "piege": "Who is she? (qui est-elle ?) ≠ How is she? (comment va-t-elle ?). Et pour un prix : How much is it?",
+      "icone": "mail"
+    },
+    "l3-comparatives": {
+      "titre": "Le comparatif",
+      "regle": "Adjectif court : -er + than (tall → taller than). Orthographe : big → bigger, hot → hotter (consonne doublée) ; happy → happier (y → ier) ; nice → nicer. Adjectif long (2 syllabes ou plus, sauf -y) : more + adjectif (more interesting). Irréguliers : good → better, bad → worse.",
+      "exemple": "An elephant is bigger than a mouse. · This book is more interesting than that one.",
+      "image": "Pi fait la course : « faster than » le vent ! Les petits mots prennent -er, les longs prennent « more ».",
+      "piege": "Pas de double comparatif : « more bigger » est faux → bigger.",
+      "icone": "star"
+    },
+    "l3-superlatives": {
+      "titre": "Le superlatif",
+      "regle": "Adjectif court : the + -est (the tallest, the biggest, the happiest). Adjectif long : the most + adjectif (the most expensive). Irréguliers : good → the best, bad → the worst. On l’utilise pour comparer un élément à tout un groupe (in the world, in our class, of my life).",
+      "exemple": "Mount Everest is the highest mountain in the world. · This is the best day of my life!",
+      "image": "Le superlatif, c’est la première place du podium : Pi y monte avec « the » et la médaille « -est ».",
+      "piege": "N’oublie pas the : « She is the youngest », pas « She is youngest in the class ».",
+      "icone": "star"
+    },
+    "l3-some-any": {
+      "titre": "some / any, much / many",
+      "regle": "some dans les phrases affirmatives, les offres et les demandes polies (Would you like some cake?) ; any dans les questions et les négations (Are there any apples? There isn't any milk). How many + nom comptable au pluriel (brothers, apples, people) ; How much + nom non comptable (water, money, sugar, homework).",
+      "exemple": "We have some bread. · I don't have any pets. · How much money? · How many people?",
+      "image": "Les noms comptables sont des billes (Pi peut les compter : many) ; les non comptables sont du sable (much).",
+      "piege": "homework, information et money sont non comptables en anglais : how much homework, pas « how many homeworks ».",
+      "icone": "flower"
+    },
+    "l3-word-order": {
+      "titre": "L’ordre des mots",
+      "regle": "L’ordre de base est sujet + verbe + complément. Les adverbes de fréquence (always, never, often, usually) se placent devant le verbe principal, mais après be (He is always late). L’adjectif se place devant le nom (a red car), dans l’ordre opinion – taille – âge – couleur (a nice old house, a big black dog). Le lieu vient avant le moment (to school every day). Dans une question : mot interrogatif + do/does + sujet + verbe.",
+      "exemple": "I always walk to school. · She has a big black dog. · Where do you live?",
+      "image": "Une phrase anglaise, c’est un train dont les wagons ont des places réservées : Pi ne peut pas les mélanger.",
+      "piege": "Pas d’adjectif après le nom : « a car red » est faux → a red car.",
+      "icone": "plane"
+    },
+    "l3-possessive": {
+      "titre": "Le génitif ’s",
+      "regle": "Pour dire « le … de … » avec une personne ou un animal, on met le possesseur en premier + 's, puis l’objet : Tom's bike (le vélo de Tom). Après un pluriel en -s, on ne met que l’apostrophe : my parents' car. Après un pluriel irrégulier sans -s : the children's toys, the men's shoes.",
+      "exemple": "Anna's cat · my sister's dog · the girls' room (plusieurs filles)",
+      "image": "L’apostrophe, c’est un crochet : Pi accroche l’objet à son propriétaire (Tom's → bike).",
+      "piege": "the girl's room (une fille) ≠ the girls' room (plusieurs filles) : la place de l’apostrophe change le sens.",
+      "icone": "folder"
+    },
+    "l3-gerund": {
+      "titre": "Verbe + -ing ou verbe + to",
+      "regle": "Certains verbes sont suivis de la forme en -ing : enjoy, finish, mind, keep, avoid (I enjoy swimming). D’autres de to + base : want, decide, hope, need, plan, promise, would like (She wants to learn Spanish). Après une préposition (at, for, in, of…), on met toujours -ing : good at drawing, thank you for helping.",
+      "exemple": "We finished eating at six. · They decided to buy a dog. · I'm interested in making films.",
+      "image": "Pi a deux tiroirs : celui des verbes « -ing » et celui des verbes « to ». Il apprend dans quel tiroir range chaque verbe.",
+      "piege": "« I enjoy to swim » est faux → I enjoy swimming. Et après une préposition, jamais to : « for helping ».",
+      "icone": "laptop"
+    },
+    "l3-prepositions": {
+      "titre": "in, on, at",
+      "regle": "Temps : at + heure précise et quelques expressions (at 8 o'clock, at night, at Christmas) ; on + jour ou date (on Monday, on 3 June) ; in + mois, année, saison, moment de la journée (in May, in 2012, in summer, in the evening). Lieu : in = à l’intérieur (in the kitchen, in Switzerland) ; on = sur une surface ou dans un transport public (on the table, on the bus) ; at = à un point précis (at the bus stop, at home).",
+      "exemple": "The lesson starts at 8 o'clock on Monday in September.",
+      "image": "Pi imagine trois boîtes : at, la plus petite (un point), on, la moyenne (un jour, une surface), in, la plus grande (un mois, un pays).",
+      "piege": "On dit in the morning, mais at night ; on Monday, mais in May.",
+      "icone": "pin"
+    },
+    "l3-connectors": {
+      "titre": "Relier des phrases",
+      "regle": "Coordination : and (et), but (mais), or (ou), so (donc). Subordination : because (parce que), although (bien que), when (quand), if (si). Pronoms relatifs : who pour une personne (the girl who lives next door), which pour une chose (the book which I read), where pour un lieu (the house where I was born).",
+      "exemple": "It was raining, so we took an umbrella. · Although it was cold, we went swimming.",
+      "image": "Les connecteurs sont les ponts entre les îles-phrases : because ramène la cause, so emmène vers la conséquence.",
+      "piege": "because donne la cause, so la conséquence : « I was ill, so I stayed home » = « I stayed home because I was ill ».",
+      "icone": "molecule"
+    },
+    "l3-passive": {
+      "titre": "La voix passive",
+      "regle": "Le passif se forme avec be + participe passé : English is spoken in many countries. Le temps se voit sur be : présent (is, are), passé (was, were). Celui qui fait l’action est introduit par by : The Mona Lisa was painted by Leonardo da Vinci. On l’utilise quand l’action ou l’objet est plus important que la personne qui agit.",
+      "exemple": "Cheese is made from milk. · The windows were cleaned yesterday.",
+      "image": "Au passif, Pi tourne la caméra : on ne filme plus celui qui agit, mais ce qui subit l’action.",
+      "piege": "Le participe passé des verbes irréguliers : build → built, write → written, speak → spoken.",
+      "icone": "report"
+    },
+    "l3-word-classes": {
+      "titre": "La nature des mots en anglais",
+      "regle": "noun (nom : dog, water), verb (verbe : play, is), adjective (adjectif : beautiful, small), adverb (adverbe : slowly, always ; souvent en -ly), preposition (préposition : on, through, with), conjunction (conjonction : and, but, because), pronoun (pronom : they, me). Un même mot peut changer de nature selon la phrase : regarde son rôle.",
+      "exemple": "She sings beautifully (adverbe) · a beautiful song (adjectif)",
+      "image": "Pi regarde le travail de chaque mot dans la phrase : celui qui décrit le nom est un adjectif, celui qui décrit l’action est un adverbe.",
+      "piege": "beautiful (adjectif) ≠ beautifully (adverbe) : le -ly change la nature du mot.",
+      "icone": "report"
+    },
+    "l3-cognates": {
+      "titre": "Faux amis, mots transparents et emprunts",
+      "regle": "Beaucoup de mots anglais ressemblent au français et ont le même sens (information, animal, important) : ce sont des mots transparents. D’autres se ressemblent mais ont un autre sens : ce sont des faux amis (library = bibliothèque, actually = en fait, to attend = assister à, sensible = raisonnable). L’anglais a emprunté des mots au français (restaurant, ballet, souvenir, menu), et le français à l’anglais (week-end, parking, sandwich, football).",
+      "exemple": "actually = en fait (pas « actuellement », qui se dit nowadays / currently)",
+      "image": "Les faux amis sont des sosies : Pi croit reconnaître un copain, mais ce n’est pas lui !",
+      "piege": "a library n’est pas une librairie (a bookshop), et eventually veut dire finalement.",
+      "icone": "plane"
+    }
+  }
+}

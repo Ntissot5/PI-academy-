@@ -70,11 +70,11 @@ export function gen(): Question {
     const [de, art, fr, gfr] = pick(GENRE);
     const gde = GENRE_DE[art];
     return {
-      q: `En français, on dit <b>${fr}</b> (${gfr}). En allemand, <b>${art} ${de}</b> est…`,
+      q: `En français, <b>${fr}</b> est ${gfr}. Et en allemand, <b>${de}</b> (${fr}) est…`,
       txt: 1,
       a: gde,
       choices: ["masculin", "féminin", "neutre"],
-      why: `${art} → ${gde}.${gde === gfr ? " Ici, le genre est le même dans les deux langues." : " Le genre change d’une langue à l’autre : il faut l’apprendre avec chaque mot. L’allemand a même un troisième genre, le neutre."}`,
+      why: `${art} ${de} → ${gde}.${gde === gfr ? " Ici, le genre est le même dans les deux langues." : " Le genre change d’une langue à l’autre : il faut l’apprendre avec chaque mot. L’allemand a même un troisième genre, le neutre."}`,
     };
   }
   const [fr, en, sg, pl, leurres] = pick(PLURIEL);

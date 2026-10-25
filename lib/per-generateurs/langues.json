@@ -1,1 +1,984 @@
-{ "generateurs": {}, "en_classe": [] }
+{
+  "generateurs": {
+    "l2-lesen-a": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 21",
+          "notion": "",
+          "plage": "5e-6e",
+          "cherche": "Lecture et compréhension de textes très simples et très courts"
+        },
+        {
+          "code": "L2 21",
+          "notion": "",
+          "plage": "5e-6e",
+          "cherche": "Compréhension de textes simples comportant essentiellement des mots connus"
+        }
+      ]
+    },
+    "l2-lesen-b": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Lecture et compréhension de textes simples et courts"
+        },
+        {
+          "code": "L2 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Compréhension de textes comportant une proportion importante de mots connus"
+        }
+      ]
+    },
+    "l2-lesen-c": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 31",
+          "notion": "",
+          "plage": "9e",
+          "cherche": "Lecture et compréhension de textes variés, courts et simples"
+        },
+        {
+          "code": "L2 31",
+          "notion": "",
+          "plage": "10e",
+          "cherche": "Lecture et compréhension de textes personnels, descriptifs et informatifs"
+        },
+        {
+          "code": "L2 31",
+          "notion": "",
+          "plage": "11e",
+          "cherche": "Lecture et compréhension de textes personnels, informatifs, et argumentatifs"
+        },
+        {
+          "code": "L2 31",
+          "notion": "",
+          "plage": "9e-11e",
+          "cherche": "Identification de divers genres textuels"
+        }
+      ]
+    },
+    "l2-wortschatz": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "5e-8e",
+          "cherche": "Mémorisation du vocabulaire (phonologie, orthographe, minuscule/majuscule, utilisation en contexte) lié à des thèmes familiers"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Connaissance du vocabulaire (phonologie, orthographe, minuscule/majuscule, utilisation en contexte)"
+        }
+      ]
+    },
+    "l2-gegenteil": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "5e-8e",
+          "cherche": "Enrichissement du vocabulaire (synonymes, antonymes, familles de mots, champs lexicaux)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Enrichissement du vocabulaire (synonymes, antonymes, familles de mots, champs lexicaux)"
+        }
+      ]
+    },
+    "l2-komposita": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Repérage de mots connus dans un mot composé"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Distinction lexicale entre les mots (simples, composés, dérivés)"
+        }
+      ]
+    },
+    "l2-laute": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Phonologie",
+          "plage": "5e-8e",
+          "cherche": "Maîtrise de l'alphabet"
+        },
+        {
+          "code": "L2 26",
+          "notion": "Phonologie",
+          "plage": "5e-8e",
+          "cherche": "Association entre phonèmes et graphèmes"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Phonologie",
+          "plage": "9e-11e",
+          "cherche": "Association entre phonèmes et graphèmes"
+        }
+      ]
+    },
+    "l2-vokale": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Phonologie",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre voyelles longues et brèves"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Phonologie",
+          "plage": "9e-11e",
+          "cherche": "Respect de l'accent tonique à l'intérieur du mot"
+        }
+      ]
+    },
+    "l2-uhrzeit": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 24",
+          "notion": "S'exprimer oralement en continu",
+          "plage": "7e-8e",
+          "cherche": "nombres de 1 à 100 (âge, numéro de téléphone, date, heure"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Connaissance du vocabulaire"
+        }
+      ]
+    },
+    "l2-modalverben": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Conjugaison",
+          "plage": "5e-8e",
+          "cherche": "Auxiliaires de mode (formes utiles en classe)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Auxiliaires de temps et de mode"
+        }
+      ]
+    },
+    "l2-imperativ": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Conjugaison",
+          "plage": "5e-8e",
+          "cherche": "Impératif (formes utiles en classe)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Temps de l’indicatif (présent, passé, futur) et impératif"
+        }
+      ]
+    },
+    "l2-trennbar": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Verbes à particule séparable"
+        }
+      ]
+    },
+    "l2-praeteritum": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Temps de l’indicatif (présent, passé, futur)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Auxiliaires de temps et de mode"
+        }
+      ]
+    },
+    "l2-plural": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Repérage de certaines marques du pluriel"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Distinction grammaticale entre les mots (genres, nombres)"
+        }
+      ]
+    },
+    "l2-pronomen": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Observation puis utilisation progressive de la pronominalisation des trois genres et du pluriel"
+        }
+      ]
+    },
+    "l2-pronomen-kasus": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Reconnaissance des fonctions et application des cas (déterminants, adjectifs, noms, pronoms)"
+        }
+      ]
+    },
+    "l2-satzbau": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Organisation des éléments dans la phrase (place du verbe, inversion)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Organisation des éléments dans la phrase (place du verbe, inversion"
+        }
+      ]
+    },
+    "l2-nebensatz": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Utilisation de la phrase coordonnée, subordonnée"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Ponctuation (place des virgules)"
+        }
+      ]
+    },
+    "l2-negation": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Utilisation des formes et des types de phrases simples (affirmative/négative"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des formes de phrases (simple/complexe, affirmative/négative)"
+        }
+      ]
+    },
+    "l2-wfragen": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Utilisation des formes et des types de phrases simples (affirmative/négative, déclarative, interrogative, impérative)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des types de phrases (déclarative, interrogative, impérative)"
+        }
+      ]
+    },
+    "l2-akkusativ": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Utilisation implicite du nominatif et de l'accusatif"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Reconnaissance des fonctions et application des cas"
+        }
+      ]
+    },
+    "l2-dativ": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Reconnaissance des fonctions et application des cas"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre les fonctions (sujet, CV direct et indirect"
+        }
+      ]
+    },
+    "l2-praepositionen": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des prépositions"
+        }
+      ]
+    },
+    "l2-wortarten": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 26",
+          "notion": "Grammaire de la phrase",
+          "plage": "5e-8e",
+          "cherche": "Distinction entre catégories de mots (noms, déterminants, adjectifs, pronoms, verbes)"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre catégories de mots"
+        },
+        {
+          "code": "L2 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Acquisition d'un métalangage pour désigner les principales catégories grammaticales utilisées"
+        }
+      ]
+    },
+    "l2-komparativ": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L2 36",
+          "notion": "Grammaire de la phrase",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre catégories de mots (noms, déterminants, adjectifs"
+        }
+      ]
+    },
+    "l2-interlingue": {
+      "discipline": "Allemand",
+      "liens": [
+        {
+          "code": "L 27",
+          "notion": "",
+          "plage": "5e-8e",
+          "cherche": "découverte de mots venus d’ailleurs – emprunts"
+        },
+        {
+          "code": "L 27",
+          "notion": "",
+          "plage": "5e-8e",
+          "cherche": "la formation du pluriel des noms entre les langues"
+        },
+        {
+          "code": "L 37",
+          "notion": "",
+          "plage": "9e-11e",
+          "cherche": "Il s'active dans les autres axes seulement."
+        }
+      ]
+    },
+    "l3-reading-a": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Lecture et compréhension de textes courts et simples liés à des thèmes familiers de la vie quotidienne"
+        },
+        {
+          "code": "L3 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Repérage d’informations essentielles à la compréhension du texte"
+        },
+        {
+          "code": "L3 21",
+          "notion": "",
+          "plage": "7e-8e",
+          "cherche": "Lecture et compréhension d’instructions simples"
+        }
+      ]
+    },
+    "l3-reading-b": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 31",
+          "notion": "",
+          "plage": "9e",
+          "cherche": "Lecture et compréhension détaillée de textes informatifs ou narratifs, courts et simples"
+        },
+        {
+          "code": "L3 31",
+          "notion": "",
+          "plage": "10e",
+          "cherche": "Lecture et compréhension détaillée de textes informatifs ou narratifs, liés à des thèmes variés"
+        },
+        {
+          "code": "L3 31",
+          "notion": "",
+          "plage": "11e",
+          "cherche": "Lecture et compréhension détaillée de textes informatifs, narratifs ou argumentatifs"
+        },
+        {
+          "code": "L3 31",
+          "notion": "",
+          "plage": "9e-11e",
+          "cherche": "Identification de divers genres textuels"
+        }
+      ]
+    },
+    "l3-vocab": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "7e-8e",
+          "cherche": "Acquisition d’un répertoire de mots et d’expressions simples"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Acquisition d’un répertoire de mots et d’expressions de plus en plus étoffé"
+        }
+      ]
+    },
+    "l3-capitals": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "7e-8e",
+          "cherche": "Utilisation adéquate des minuscules et des majuscules"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation adéquate des minuscules et des majuscules"
+        }
+      ]
+    },
+    "l3-plurals": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "7e-8e",
+          "cherche": "Acquisition de quelques spécificités morphologiques (élisions phoniques, marques du pluriel"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Acquisition de quelques spécificités morphologiques (élisions phoniques, marques du pluriel"
+        }
+      ]
+    },
+    "l3-sounds": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Phonologie",
+          "plage": "7e-8e",
+          "cherche": "Reconnaissance et utilisation de l’alphabet"
+        },
+        {
+          "code": "L3 26",
+          "notion": "Phonologie",
+          "plage": "7e-8e",
+          "cherche": "Découverte des relations entre phonèmes et graphèmes"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Phonologie",
+          "plage": "9e-11e",
+          "cherche": "Maîtrise de l’alphabet"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Vocabulaire et orthographe",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre orthographe et prononciation"
+        }
+      ]
+    },
+    "l3-continuous": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Conjugaison",
+          "plage": "7e-8e",
+          "cherche": "present continuous"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "present continuous"
+        }
+      ]
+    },
+    "l3-imperative": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Conjugaison",
+          "plage": "7e-8e",
+          "cherche": "imperative form"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "imperative form"
+        }
+      ]
+    },
+    "l3-can-do": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Conjugaison",
+          "plage": "7e-8e",
+          "cherche": "Utilisation des auxiliaires au présent (can, do)"
+        },
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "short answers"
+        }
+      ]
+    },
+    "l3-past": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "past simple"
+        }
+      ]
+    },
+    "l3-future": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "going to, will"
+        }
+      ]
+    },
+    "l3-perfect": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "present perfect"
+        }
+      ]
+    },
+    "l3-conditional": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "zero conditional (Niv 1-2), conditional first and second"
+        }
+      ]
+    },
+    "l3-modals": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Conjugaison",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des auxiliaires modaux (can, could, must, have to (Niv 1-2), should (Niv 2))"
+        }
+      ]
+    },
+    "l3-pronouns": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "pronoms personnels sujets et compléments"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des pronoms personnels sujets et compléments"
+        }
+      ]
+    },
+    "l3-determiners": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "déterminants articles (définis/indéfinis), possessifs et démonstratifs"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des déterminants articles (définis/indéfinis), possessifs et démonstratifs"
+        }
+      ]
+    },
+    "l3-questions": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "types de phrases (déclaratif, interrogatif, impératif)"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation des types de phrases (déclaratif, interrogatif, impératif)"
+        }
+      ]
+    },
+    "l3-comparatives": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "Découverte du comparatif"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation du comparatif et du superlatif"
+        }
+      ]
+    },
+    "l3-superlatives": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation du comparatif et du superlatif"
+        }
+      ]
+    },
+    "l3-some-any": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "some / any, how much / how many"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation de some/any, how much/how many"
+        }
+      ]
+    },
+    "l3-word-order": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "Observation de la position des éléments dans la phrase"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Position des éléments dans la phrase"
+        }
+      ]
+    },
+    "l3-possessive": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "possessive forms"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "possessive forms"
+        }
+      ]
+    },
+    "l3-gerund": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "verbes suivis du gérondif ou de l’infinitif"
+        }
+      ]
+    },
+    "l3-prepositions": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 26",
+          "notion": "Grammaire et syntaxe",
+          "plage": "7e-8e",
+          "cherche": "Observation de la position des éléments dans la phrase(adverbes, adjectifs, noms, verbes, prépositions"
+        },
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre les catégories de mots (nom, verbe, déterminant, pronom, adjectif, adverbe, conjonction, préposition"
+        }
+      ]
+    },
+    "l3-connectors": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Utilisation de phrases simples, juxtaposées, coordonnées et subordonnées"
+        }
+      ]
+    },
+    "l3-passive": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Découverte de la forme passive (Niv 2)"
+        }
+      ]
+    },
+    "l3-word-classes": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L3 36",
+          "notion": "Grammaire et syntaxe",
+          "plage": "9e-11e",
+          "cherche": "Distinction entre les catégories de mots"
+        }
+      ]
+    },
+    "l3-cognates": {
+      "discipline": "Anglais",
+      "liens": [
+        {
+          "code": "L 27",
+          "notion": "",
+          "plage": "5e-8e",
+          "cherche": "découverte de mots venus d’ailleurs – emprunts"
+        },
+        {
+          "code": "L 37",
+          "notion": "",
+          "plage": "9e-11e",
+          "cherche": "Il s'active dans les autres axes seulement."
+        }
+      ]
+    }
+  },
+  "en_classe": [
+    {
+      "discipline": "Allemand",
+      "code": "L2 22",
+      "notion": "",
+      "raison": "Production écrite libre (textes, lettres, messages) : se corrige par l'enseignant·e."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 23",
+      "notion": "",
+      "raison": "Compréhension de l'oral : demande des documents audio, absents de l'app."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 24",
+      "notion": "Prendre part à une conversation",
+      "raison": "Interaction orale (dialogue, échange) : se travaille en classe avec un ou une partenaire."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 32",
+      "notion": "",
+      "raison": "Production écrite libre (textes, lettres, messages) : se corrige par l'enseignant·e."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 33",
+      "notion": "",
+      "raison": "Compréhension de l'oral : demande des documents audio, absents de l'app."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 34",
+      "notion": "S'exprimer oralement en continu",
+      "raison": "Production orale : demande un interlocuteur et une écoute, pas de correction automatique fiable."
+    },
+    {
+      "discipline": "Allemand",
+      "code": "L2 34",
+      "notion": "Prendre part à une conversation",
+      "raison": "Interaction orale (dialogue, échange) : se travaille en classe avec un ou une partenaire."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 22",
+      "notion": "",
+      "raison": "Production écrite libre (textes, lettres, messages) : se corrige par l'enseignant·e."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 23",
+      "notion": "",
+      "raison": "Compréhension de l'oral : demande des documents audio, absents de l'app."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 24",
+      "notion": "S’exprimer oralement en continu",
+      "raison": "Production orale : demande un interlocuteur et une écoute, pas de correction automatique fiable."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 24",
+      "notion": "Prendre part à une conversation",
+      "raison": "Interaction orale (dialogue, échange) : se travaille en classe avec un ou une partenaire."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 32",
+      "notion": "",
+      "raison": "Production écrite libre (textes, lettres, messages) : se corrige par l'enseignant·e."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 33",
+      "notion": "",
+      "raison": "Compréhension de l'oral : demande des documents audio, absents de l'app."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 34",
+      "notion": "S'exprimer oralement en continu",
+      "raison": "Production orale : demande un interlocuteur et une écoute, pas de correction automatique fiable."
+    },
+    {
+      "discipline": "Anglais",
+      "code": "L3 34",
+      "notion": "Prendre part à une conversation",
+      "raison": "Interaction orale (dialogue, échange) : se travaille en classe avec un ou une partenaire."
+    }
+  ]
+}

@@ -10,7 +10,7 @@ export function gen(): Question {
   if (R(0, 1) === 0) {
     const memes = WORDS.filter((x) => x[3] === theme && x !== w).map((x) => x[0]);
     return {
-      q: `Thème ${THEME_FR[theme]} : que signifie <b>${en}</b> ?`,
+      q: `Thème « ${THEME_FR[theme]} » : que signifie <b>${en}</b> ?`,
       txt: 1,
       a: fr,
       choices: propositions(fr, memes),

@@ -36,6 +36,6 @@ export function gen(): Question {
     a,
     keys: KEYS_DE,
     hint: cas === "acc" ? "Accusatif : mich, dich, ihn, sie, es, uns, euch, sie." : "Datif : mir, dir, ihm, ihr, ihm, uns, euch, ihnen.",
-    why: `${fin} ${raison} → ${nom} devient ${a}.`,
+    why: `${fin} ${raison} → ${nom === a ? `${nom} ne change pas` : `${nom} devient ${a}`}.`,
   };
 }

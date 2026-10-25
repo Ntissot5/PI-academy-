@@ -25,23 +25,23 @@ export function gen(): Question {
     const verbe = pick(verbes);
     const [nom, acc] = FORMES[det][n.art];
     return {
-      q: `Complète : <b>${verbe} … ${n.de}.</b> (${det === "der" ? n.art : nom})`,
+      q: `Complète : <b>${verbe} … ${n.de}.</b> (${det === "der" ? "der, die ou das" : det})`,
       txt: 1,
       a: acc,
       keys: KEYS_DE,
-      hint: "Complément d’objet direct → accusatif.",
-      why: `${verbe} ${acc} ${n.de}. ${n.de} est le complément d’objet direct : accusatif.${n.art === "der" ? ` Au masculin, ${nom} devient ${acc}.` : " Au féminin et au neutre, l’accusatif a la même forme que le nominatif."}`,
+      hint: "Complément d’objet direct → accusatif. Pense au genre du nom.",
+      why: `${verbe} ${acc} ${n.de}. ${n.art} ${n.de} est le complément d’objet direct : accusatif.${n.art === "der" ? ` Au masculin, ${nom} devient ${acc}.` : " Au féminin et au neutre, l’accusatif a la même forme que le nominatif."}`,
     };
   }
   const det = pick(["der", "ein", "mein"] as Det[]);
   const nom = maj(FORMES[det][n.art][0]);
   const fin = pick(["ist hier", "ist dort", "ist sehr gross"]);
   return {
-    q: `Complète : <b>… ${n.de} ${fin}.</b> (${det === "der" ? n.art : FORMES[det][n.art][0]})`,
+    q: `Complète : <b>… ${n.de} ${fin}.</b> (${det === "der" ? "der, die ou das" : det})`,
     txt: 1,
     a: nom,
     keys: KEYS_DE,
     hint: "Qui fait l’action ou de qui parle-t-on ? C’est le sujet.",
-    why: `${nom} ${n.de} ${fin}. ${n.de} est le sujet : nominatif, la forme ne change pas.`,
+    why: `${nom} ${n.de} ${fin}. ${n.art} ${n.de} est le sujet : nominatif.${det !== "der" && n.art === "die" ? ` Au féminin : ${FORMES[det].die[0]}.` : ""}`,
   };
 }

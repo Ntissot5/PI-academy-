@@ -65,3 +65,18 @@ export const deBanque = (items: readonly Item[], consigne = ""): (() => Question
   const [q, a, autres, why] = pick(items);
   return qcm(consigne + q, a, autres, why);
 };
+
+/** Banque « étiquette » : [phrase avec *groupe*, étiquette, précision facultative] ; propositions fixes. */
+export function etiquette(
+  consigne: string,
+  items: readonly (readonly [string, string, string?])[],
+  etiquettes: readonly string[],
+  regle: Record<string, string>,
+): () => Question {
+  return () => {
+    const [p, a, plus] = pick(items);
+    const why = `« ${vise(p)} » : ${a}. ${plus ?? regle[a] ?? ""}`.trim();
+    // Plus de 4 étiquettes : on en propose 4, dont la bonne.
+    return etiquettes.length > 4 ? qcm(`${consigne} ${p}`, a, etiquettes, why) : qcmFixe(`${consigne} ${p}`, a, etiquettes, why);
+  };
+}

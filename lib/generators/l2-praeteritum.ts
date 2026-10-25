@@ -15,20 +15,20 @@ const PRAET: [string, string, F6, string][] = [
   ["dürfen", "avoir le droit de", ["durfte", "durftest", "durfte", "durften", "durftet", "durften"], "lange fernsehen"],
 ];
 const FUTUR: F6 = ["werde", "wirst", "wird", "werden", "werdet", "werden"];
-const SUITE_FUTUR = ["Oma besuchen", "ein Velo kaufen", "nach Bern fahren", "mehr Deutsch lernen", "das Zimmer aufräumen"];
+const SUITE_FUTUR: [string, string][] = [["Nächstes Jahr", "mehr Deutsch lernen"], ["Morgen", "Oma besuchen"], ["Am Wochenende", "das Zimmer aufräumen"], ["Im Sommer", "nach Bern fahren"], ["Bald", "ein Velo kaufen"]];
 const SUJETS: [string, number][] = [["ich", 0], ["du", 1], ["Lena", 2], ["Tom", 2], ["wir", 3], ["ihr", 4], ["die Kinder", 5]];
 
 /** Präteritum de sein, haben et des verbes de mode ; futur avec werden. */
 export function gen(): Question {
   const [suj, p] = pick(SUJETS);
   if (R(0, 3) === 0) {
-    const suite = pick(SUITE_FUTUR);
+    const [quand, suite] = pick(SUITE_FUTUR);
     return {
-      q: `Futur avec <b>werden</b> : <b>Nächstes Jahr … ${suj} ${suite}.</b>`,
+      q: `Futur avec <b>werden</b> : <b>${quand} … ${suj} ${suite}.</b>`,
       txt: 1,
       a: FUTUR[p],
       keys: KEYS_DE,
-      why: `Nächstes Jahr ${FUTUR[p]} ${suj} ${suite}. werden est conjugué en 2e position (inversion après « Nächstes Jahr »), l’infinitif va à la fin.`,
+      why: `${quand} ${FUTUR[p]} ${suj} ${suite}. werden est conjugué en 2e position (inversion après « ${quand} »), l’infinitif va à la fin.`,
     };
   }
   const [inf, fr, f, fin] = pick(PRAET);

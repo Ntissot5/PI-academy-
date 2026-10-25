@@ -12,7 +12,7 @@ export function gen(): Question {
     if (R(0, 1) === 0) {
       // Allemand → français (QCM dans le même thème)
       return {
-        q: `Thème ${THEME_FR[n.theme]} : que signifie <b>${avecArt(n)}</b> ?`,
+        q: `Thème « ${THEME_FR[n.theme]} » : que signifie <b>${avecArt(n)}</b> ?`,
         txt: 1,
         a: n.fr,
         choices: propositions(n.fr, memes.map((x) => x.fr)),
@@ -35,7 +35,7 @@ export function gen(): Question {
   const memes = WOERTER.filter((x) => x[2] === theme && x[0] !== de);
   if (R(0, 1) === 0) {
     return {
-      q: `Thème ${THEME_FR[theme]} : que signifie <b>${de}</b> ?`,
+      q: `Thème « ${THEME_FR[theme]} » : que signifie <b>${de}</b> ?`,
       txt: 1,
       a: fr,
       choices: propositions(fr, memes.map((x) => x[1])),

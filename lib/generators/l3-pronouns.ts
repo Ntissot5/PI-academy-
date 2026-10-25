@@ -3,7 +3,7 @@ import type { Question } from "./types";
 
 // [sujet, complément, sens]
 const P: [string, string, string][] = [
-  ["I", "me", "je / moi"], ["you", "you", "tu / toi"], ["he", "him", "il / lui"], ["she", "her", "elle"], ["it", "it", "il, elle (chose, animal)"],
+  ["I", "me", "je / moi"], ["you", "you", "tu / toi"], ["he", "him", "il / lui"], ["she", "her", "elle"],
   ["we", "us", "nous"], ["they", "them", "ils, elles / eux"],
 ];
 const OBJ = ["Can you help … ?", "Everybody likes … .", "This present is for … .", "Look at … !", "Please call … tonight.", "My grandma often visits … ."];
@@ -11,7 +11,7 @@ const SUJ = ["… plays tennis every Friday.", "… are in the same class.", "�
 
 /** Pronoms personnels sujets (I, he, they…) et compléments (me, him, them…). */
 export function gen(): Question {
-  const [s, o, sens] = pick(P.filter((p) => p[0] !== "you"));
+  const [s, o, sens] = pick(P.filter((p) => p[0] !== "you" && p[0] !== "it"));
   if (R(0, 2) > 0) {
     const phrase = pick(OBJ);
     const fin = phrase.replace(/ … ?([.!?])/, ` ${o}$1`).replace(" … ", ` ${o} `);
@@ -22,7 +22,6 @@ export function gen(): Question {
       why: `${fin} Après un verbe ou une préposition (for, at…), on utilise le pronom complément : ${s} → ${o}.`,
     };
   }
-  if (s === "it") return gen();
   const troisSg = s === "he" || s === "she" || s === "it";
   const choixPhr = SUJ.filter((x) => (x.includes(" plays ") || x.includes(" is ") ? troisSg : x.includes(" are ") || x.includes(" live ") ? !troisSg && s !== "I" : true));
   const phrase = pick(choixPhr);
