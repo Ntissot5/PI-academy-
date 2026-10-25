@@ -1,0 +1,15 @@
+# Une seule adresse pour tout : le site (Next.js) et PocketBase (/api, /_ pour l'administration).
+# Dokploy (Traefik) s'occupe du HTTPS et envoie tout ici, sur le port 80.
+:80 {
+	encode gzip
+	@pocketbase path /api/* /_/*
+	handle @pocketbase {
+		# flush_interval -1 : le temps réel du tableau prof (SSE) passe sans attendre.
+		reverse_proxy pocketbase:8090 {
+			flush_interval -1
+		}
+	}
+	handle {
+		reverse_proxy web:3000
+	}
+}

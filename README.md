@@ -80,13 +80,16 @@ Le seed ne modifie jamais un parcours ou une unité qui existe déjà, sauf avec
 
 ## Déployer sur Dokploy
 
-Deux applications Dokploy depuis ce repo :
+Une seule application Dokploy, de type **Compose**, avec `docker-compose.prod.yml`. Le site et PocketBase sont servis à la même adresse : le proxy (`deploy/caddy/Caddyfile`) envoie `/api` et `/_` (administration) à PocketBase, et tout le reste au site.
 
-1. **PocketBase** : type Dockerfile, contexte `pocketbase/`, port 8090, **volume persistant monté sur `/pb/pb_data`**. Domaine par ex. `api.pi-academy.ch`. Puis, dans le terminal Dokploy : `/pb/pocketbase superuser upsert <email> <mot de passe> --dir=/pb/pb_data`.
-2. **Web** : type Dockerfile, contexte racine, port 3000, argument de build `NEXT_PUBLIC_PB_URL=https://api.pi-academy.ch` (lu au build : reconstruire si l’URL change). Domaine par ex. `pi-academy.ch`.
-3. Depuis ta machine : `PB_URL=https://api.pi-academy.ch PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… npm run pb:seed` (sans `--demo` en production si tu ne veux pas les comptes démo).
-4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting* (en plus du blocage PIN, il freine les essais de codes de classe).
-5. Te donner le rôle admin : dashboard PocketBase → `users` → ton compte → `role = admin`.
+1. Dokploy → **Create Service → Compose** → dépôt GitHub, branche, chemin `docker-compose.prod.yml`.
+2. Onglet **Environment** : `PB_SUPERUSER_EMAIL=…` et `PB_SUPERUSER_PASSWORD=…` (compte d'administration PocketBase, créé ou mis à jour à chaque démarrage).
+3. Onglet **Domains** : service `proxy`, port `80`, ton domaine (ou le domaine gratuit proposé par Dokploy), HTTPS activé.
+4. **Deploy**. Les données restent dans le volume `pb_data` entre deux déploiements.
+5. Dans PocketBase (`https://ton-domaine/_/`) → Settings : l'URL de l'application, le SMTP si besoin, et le *rate limiting*.
+6. Te donner le rôle admin dans l'app : `users` → ton compte → `role = admin`.
+
+Testé sans Docker en reproduisant le proxy (inscription, séries, tableau prof en temps réel, blocage PIN).
 
 Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage, contenu de départ compris (`1761600000_contenu.js`, généré depuis `pocketbase/seed/parcours.json` par `node scripts/build-content-migration.mjs`) : un PocketBase neuf a directement ses matières, parcours et unités. Le seed reste utile pour les comptes démo (`--demo`).
 
