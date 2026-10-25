@@ -1,6 +1,8 @@
 # Pi Academy
 
-Plateforme de maths gamifiée, en français (Suisse romande), pour les élèves de 9e–11e Harmos suivis par leur prof et pour les adultes qui visent le niveau d’entrée EPFL. Mascotte : Pi.
+Plateforme d’apprentissage gamifiée, en français (Suisse romande), pour les élèves de 9e–11e Harmos suivis par leur prof et pour les adultes qui visent le niveau d’entrée EPFL. Mascotte : Pi. Tout est gratuit.
+
+Matières : mathématiques, sciences de la nature, français, allemand, anglais, géographie, histoire, citoyenneté. Chaque utilisateur (ou classe) choisit son canton : les parcours de son plan d’études (Plan d’études romand, Lehrplan 21, Piano di studio tessinois) passent en premier, et certaines questions portent sur son canton.
 
 - **Front** : Next.js 15 (App Router, TypeScript strict), CSS du prototype repris tel quel (`styles/`), polices auto-hébergées (`@fontsource`, aucun appel à Google).
 - **Back** : PocketBase (auth, base, règles d’accès, routes `pb_hooks`).
@@ -57,15 +59,19 @@ PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… node scripts/captures.mjs captu
 
 ## Ajouter un parcours
 
-Voir `docs/AJOUTER-UN-PARCOURS.md` (guide sans code). En bref : ajouter le parcours et ses unités dans un fichier JSON au format de `pocketbase/seed/parcours.json`, puis `npm run pb:seed -- mon-fichier.json`. Chaque unité référence un générateur existant par `id_generateur` (`rel`, `frac`, `pow`, `eq1`, `geo`, `iso`, `lin`, `eq2`, `trig`, `log`, `der`) ; l’unité `final` mélange toutes les unités de son parcours.
+Voir `docs/AJOUTER-UN-PARCOURS.md` (guide sans code). En bref : ajouter le parcours et ses unités dans un fichier JSON au format de `pocketbase/seed/parcours.json` (champs `matiere`, `plan`, `annee_min`, `annee_max`, `cantons`, `statut` compris), puis l’importer depuis `/admin` ou avec `npm run pb:seed -- mon-fichier.json`. Chaque unité référence un générateur existant par `id_generateur` (liste et libellés dans `lib/generators/index.ts`, `GENERATOR_LABEL`) ; l’unité `final` mélange toutes les unités de son parcours.
 
 Le seed ne modifie jamais un parcours ou une unité qui existe déjà, sauf avec `--force`.
 
 ## Ajouter un générateur
 
-1. Créer `lib/generators/<id>.ts` qui exporte `gen(): Question` (`{ q, a, tol?, hint?, txt?, why }`). `q` peut contenir `<sup>`/`<sub>`, rien d’autre.
-2. L’enregistrer dans `GENERATORS` et `DEFAULT_ICON` (`lib/generators/index.ts`).
-3. `npm test` : le test des 1 000 tirages le prend automatiquement (pas de `NaN`, pas d’énoncé vide, réponse `fr(a)` acceptée).
+1. Créer `lib/generators/<id>.ts` qui exporte `gen(ctx?): Question` (`{ q, a, accept?, choices?, keys?, tol?, hint?, txt?, why }`).
+   - `a` nombre : corrigé avec `tol` (clavier − / ,).
+   - `a` texte : comparé sans majuscules ni espaces en trop, accents exigés, ß = ss ; `accept` liste les variantes ; `keys` les touches d’accents.
+   - `choices` : QCM, `a` doit en faire partie.
+   - `ctx.canton` : canton de l’élève (ex. `cit-canton`). `q` peut contenir `<sup>`, `<sub>`, `<b>`, rien d’autre.
+2. L’enregistrer dans `GENERATORS`, `GENERATOR_LABEL` et `DEFAULT_ICON` (`lib/generators/index.ts`).
+3. `npm test` : le test des 1 000 tirages le prend automatiquement (pas de `NaN`, pas d’énoncé vide, bonne réponse acceptée, QCM sans doublon).
 4. L’utiliser dans une unité via `id_generateur`.
 
 ## Déployer sur Dokploy
@@ -91,6 +97,14 @@ Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au dém
 - **Dates** : jour de session, série de jours, objectif du jour et calendrier 28 jours calculés côté serveur en Europe/Zurich (`pocketbase/pb_hooks/lib/zurich.js`, testé sur les changements d’heure).
 - **Lecture** : chacun voit ses données ; un prof voit les élèves de ses classes seulement ; l’admin voit tout.
 - **Protection des mineurs** : pas d’e-mail ni de nom complet pour les élèves, pas d’analytics ni de traceur tiers, polices servies par l’appli.
+
+## Contenu des nouvelles matières
+
+Les parcours de français, allemand, anglais, sciences, géographie, histoire et citoyenneté sont marqués **Bêta** (`statut = a_valider`) : le contenu est écrit à partir de faits vérifiables (conjugaisons, institutions, dates), mais il doit être relu par des enseignant·es avant d’être présenté comme conforme au plan d’études. L’admin passe un parcours en « Publié » une fois relu.
+
+- Les cantons et leur plan d’études sont dans `lib/cantons.ts` (26 cantons, chefs-lieux, langues). Les institutions cantonales (parlement, gouvernement) y sont renseignées pour BE, FR, TI, VD, VS, NE, GE et JU ; pour les autres cantons, la question « Ton canton » porte sur un de ces cantons, en le nommant.
+- Les parcours de langues et de sciences suivent le Plan d’études romand : pour un canton du Lehrplan 21 ou le Tessin, ils restent visibles, avec la mention « Autre plan d’études ».
+- Pas de contenu pour Arts et Corps et mouvement : ces domaines ne se prêtent pas à une correction automatique.
 
 ## Limites connues
 

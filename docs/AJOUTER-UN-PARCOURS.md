@@ -16,20 +16,21 @@ Un parcours, c’est une suite d’**unités**. Chaque unité a :
 
 Les exercices sont créés automatiquement par l’application. Tu choisis simplement le type :
 
-| `id_generateur` | Exercices |
-|---|---|
-| `rel` | Nombres négatifs (+, −, ×, ÷) |
-| `frac` | Fractions et pourcentages |
-| `pow` | Puissances de 10 et notation scientifique |
-| `eq1` | Équations du 1er degré |
-| `geo` | Aires, périmètres, volumes, unités |
-| `iso` | Isoler une inconnue dans une formule |
-| `lin` | Fonctions et droites (pente, f(x)) |
-| `eq2` | Équations du 2e degré, Δ |
-| `trig` | Trigonométrie |
-| `log` | Exponentielles et logarithmes |
-| `der` | Dérivées |
-| `final` | Examen final : mélange toutes les unités du parcours |
+| `id_generateur` | Exercices | Réponse |
+|---|---|---|
+| `rel`, `frac`, `pow`, `eq1`, `geo`, `iso`, `lin`, `eq2`, `trig`, `log`, `der` | Mathématiques (négatifs, fractions, puissances, équations, aires et volumes, formules, droites, 2e degré, trigonométrie, logarithmes, dérivées) | nombre |
+| `fr-present`, `fr-imparfait`, `fr-futur`, `fr-pc` | Français : conjugaison aux 4 temps | texte |
+| `fr-homophones` | Français : a/à, et/est, son/sont, ou/où, ces/ses, on/ont, ce/se, peu/peut | choix |
+| `fr-nature` | Français : nature des mots | choix |
+| `de-artikel` | Allemand : der, die, das | choix |
+| `de-praesens`, `de-zahlen`, `de-perfekt` | Allemand : présent, nombres, Perfekt | texte |
+| `en-present`, `en-irregular` | Anglais : present simple, verbes irréguliers | texte |
+| `sci-unites`, `sci-masse-volumique`, `sci-electricite` | Sciences : unités, masse volumique, loi d’Ohm | nombre |
+| `chi-symboles` | Chimie : symboles des éléments | texte |
+| `geo-cantons`, `geo-suisse` | Géographie : cantons, repères suisses | texte ou choix |
+| `hist-suisse`, `hist-monde` | Histoire : grandes dates | choix |
+| `cit-federal`, `cit-canton` | Citoyenneté : Confédération, ton canton | choix |
+| `final` | Examen final : mélange toutes les unités du parcours | — |
 
 Besoin d’un type d’exercice qui n’existe pas ? Décris-le (avec 3 exemples de questions et leurs réponses) et transmets-le : il faudra le programmer.
 
@@ -70,6 +71,12 @@ Copie ce modèle dans un fichier texte (par ex. `mon-parcours.json`) et remplis-
       "icone": "folder",
       "ordre": 3,
       "payant": false,
+      "matiere": "mathematiques",
+      "plan": "per",
+      "annee_min": 10,
+      "annee_max": 10,
+      "cantons": [],
+      "statut": "a_valider",
       "unites": [
         {
           "ordre": 1,
@@ -103,6 +110,11 @@ Règles du fichier :
 
 - `slug` : minuscules, chiffres et tirets seulement, unique (il apparaît dans l’adresse).
 - `public` : `ecole` ou `adulte`.
+- `matiere` : `mathematiques`, `sciences`, `francais`, `allemand`, `anglais`, `geographie`, `histoire` ou `citoyennete`.
+- `plan` : `per` (Plan d’études romand), `lp21` (Lehrplan 21), `pds` (Tessin) ou `libre` (toute la Suisse).
+- `annee_min` / `annee_max` : années Harmos (9 à 11 pour le cycle 3).
+- `cantons` : laisse `[]` pour tous les cantons, ou mets des abréviations (`["VD", "GE"]`) pour réserver le parcours à ces cantons.
+- `statut` : `a_valider` tant qu’il n’a pas été relu (badge « Bêta »), puis `publie`.
 - `ordre` : 1, 2, 3… dans l’ordre où les élèves avancent. Une unité se débloque quand le boss de la précédente est battu.
 - `icone` : une des icônes en verre bleu : `flower`, `report`, `molecule`, `pin`, `folder`, `mail`, `plane`, `note`, `eye`, `cal31`, `laptop`, `star`.
 - Les guillemets typographiques (’ « ») sont bienvenus dans les textes ; les guillemets droits `"` doivent être écrits `\"`.
