@@ -1,1 +1,380 @@
-{ "lecons": {} }
+{
+  "lecons": {
+    "sn-c1-matiere": {
+      "titre": "De quoi sont faits les objets ?",
+      "regle": "Chaque objet est fait d’une matière : bois, métal, verre, plastique, papier, tissu, pierre. On les reconnaît avec nos sens : le métal est froid et brillant, le bois est chaud au toucher, le verre est transparent. Dans l’eau, certains objets flottent (liège, bois), d’autres coulent (pierre, métal). L’eau change : dans le froid elle gèle (glace), dans la chaleur la glace fond. La neige et la grêle sont de l’eau gelée. On trie les déchets pour recycler : verre, papier, métal, compost.",
+      "exemple": "Un bouchon flotte, une bille coule. Un glaçon au soleil devient de l’eau.",
+      "image": "Pi fait une chasse au trésor dans la classe : il touche, regarde, tapote chaque objet pour deviner sa matière, comme un détective.",
+      "piege": "Un gros objet ne coule pas toujours : un grand morceau de bois flotte, une toute petite bille de métal coule.",
+      "icone": "molecule"
+    },
+    "sn-c1-forces-saisons": {
+      "titre": "Le vent, l’eau et les saisons",
+      "regle": "L’air qui bouge (le vent) et l’eau qui coule peuvent pousser : le vent fait tourner l’éolienne et avance le voilier, l’eau fait tourner la roue du moulin. Sur une pente, une bille roule vers le bas. Sur une balance, le côté le plus lourd descend. L’année a 4 saisons : printemps (fleurs, bourgeons), été (chaud, longues journées), automne (feuilles qui tombent), hiver (froid, neige). Certains animaux dorment tout l’hiver (marmotte), d’autres partent au chaud (hirondelle).",
+      "exemple": "Printemps → été → automne → hiver → printemps…",
+      "image": "Pi souffle sur son moulinet en papier : son souffle, c’est un petit vent qui le fait tourner.",
+      "piege": "Le vent ne se voit pas, mais il existe : on voit ce qu’il pousse (feuilles, drapeaux, nuages).",
+      "icone": "flower"
+    },
+    "sn-c1-corps": {
+      "titre": "Mon corps et ma santé",
+      "regle": "Mon corps a une tête, un cou, un tronc (ventre, dos), deux bras et deux jambes. Les articulations permettent de plier : cou, épaule, coude, poignet, genou, cheville. Chaque partie a un rôle : les jambes pour marcher, les mains pour prendre. Pour vivre, le corps a besoin de respirer, boire, manger, dormir et bouger. Pour rester en forme : manger varié, se laver les mains, se brosser les dents matin et soir. Certaines choses sont dangereuses : médicaments, produits avec une tête de mort, plaques chaudes, la route, l’eau profonde.",
+      "exemple": "Le coude plie le bras, le genou plie la jambe.",
+      "image": "Le corps de Pi est comme un pantin articulé : là où le pantin a une attache, Pi a une articulation.",
+      "piege": "Les médicaments ressemblent parfois à des bonbons : on n’y touche jamais sans un adulte.",
+      "icone": "star"
+    },
+    "sn-c1-sens": {
+      "titre": "Les 5 sens",
+      "regle": "Nous avons 5 sens. La vue avec les yeux (couleurs, formes). L’ouïe avec les oreilles (sons). L’odorat avec le nez (odeurs). Le goût avec la langue (sucré, salé, acide, amer). Le toucher avec la peau (doux, rugueux, chaud, froid, mouillé). Pour reconnaître un objet, on utilise souvent plusieurs sens à la fois.",
+      "exemple": "Le citron : je le vois jaune, je le sens, je le goûte acide.",
+      "image": "Les sens de Pi sont 5 antennes qui lui apportent des nouvelles du monde.",
+      "piege": "Le chaud et le froid, c’est la peau qui les sent (le toucher), pas les yeux.",
+      "icone": "eye"
+    },
+    "sn-c1-vivant": {
+      "titre": "Vivant ou pas vivant ?",
+      "regle": "Un être vivant naît, grandit, se reproduit et meurt. Les animaux et les plantes sont vivants. Un caillou, une voiture ou un nuage ne sont pas vivants. Les plantes ont des racines et ne se déplacent pas ; elles ont besoin d’eau, de lumière et de terre. Les animaux se déplacent et mangent. Le cycle de vie : la graine germe, la plante grandit, fleurit, puis donne des graines. Le poussin sort de l’œuf, la chenille devient papillon, le têtard devient grenouille.",
+      "exemple": "Graine → petite plante → fleur → nouvelles graines.",
+      "image": "Pi regarde un haricot pousser dans un pot : chaque jour, il dessine ce qui a changé.",
+      "piege": "Ce qui bouge n’est pas forcément vivant (un nuage, une voiture), et un arbre est vivant même s’il ne marche pas.",
+      "icone": "flower"
+    },
+    "sn-c1-demarche": {
+      "titre": "Observer, mesurer, expliquer",
+      "regle": "Pour savoir quelque chose, le scientifique observe et mesure avec le bon outil : le thermomètre pour le chaud et le froid, la règle pour la longueur, la balance pour savoir si c’est lourd, le chronomètre pour le temps, le verre mesureur pour l’eau, le calendrier pour les jours. On peut aussi mesurer avec des objets tous pareils (gobelets, crayons). Ce qu’on voit est un constat ; ce qu’on pense pour l’expliquer est une explication, qu’on vérifie ensuite.",
+      "exemple": "Constat : « la règle flotte ». Explication : « parce qu’elle est en bois ».",
+      "image": "Pi a une boîte à outils de savant : chaque outil répond à une seule question.",
+      "piege": "Pour comparer deux mesures en gobelets ou en crayons, il faut que les gobelets (ou les crayons) soient tous pareils.",
+      "icone": "folder"
+    },
+    "sn-c2-matiere": {
+      "titre": "L’eau, l’air et les mélanges",
+      "regle": "La matière existe en trois états : solide, liquide, gazeux. L’eau pure gèle à 0 °C et bout à 100 °C (au niveau de la mer). Fusion : solide → liquide. Solidification : liquide → solide. Évaporation : liquide → gaz. Condensation : gaz → liquide. La masse ne change pas lors d’un changement d’état ou de forme. Cycle de l’eau : évaporation, nuages, précipitations, ruissellement. Un mélange est homogène (on ne voit qu’une phase : eau salée) ou hétérogène (eau et huile). On sépare par décantation, filtration ou évaporation. L’air est un gaz : il a une masse, se comprime ; l’air chaud monte. L’eau douce est rare : environ 97 % de l’eau sur Terre est salée.",
+      "exemple": "Eau boueuse : décantation, puis filtration. Eau salée : évaporation pour récupérer le sel.",
+      "image": "Le cycle de l’eau, c’est le grand manège de Pi : la goutte monte au ciel, voyage en nuage, retombe en pluie, puis recommence.",
+      "piege": "Le sel dissous passe à travers un filtre : pour le récupérer, il faut évaporer l’eau.",
+      "icone": "molecule"
+    },
+    "sn-c2-mecanique": {
+      "titre": "Équilibre, leviers et engrenages",
+      "regle": "Un levier tourne autour d’un point d’appui (l’axe). Plus on appuie loin de l’axe, moins il faut de force. Sur une balançoire à bascule, il y a équilibre quand masse × distance est égal des deux côtés : le plus lourd se rapproche de l’axe. Ciseaux, casse-noix, tenailles sont des leviers. Le mouvement se transmet : chaîne de vélo (plateau → pignon), roues dentées (qui tournent en sens inverse). Rotation : tourner autour d’un axe. Translation : glisser en ligne droite.",
+      "exemple": "20 kg à 3 m équilibrent 30 kg à 2 m : 20 × 3 = 30 × 2 = 60.",
+      "image": "Pi soulève un gros caillou avec un long bâton posé sur une pierre : avec un bras de levier long, il devient très fort.",
+      "piege": "Pour couper du carton avec des ciseaux, on le met au fond des lames (près de l’axe), pas au bout.",
+      "icone": "laptop"
+    },
+    "sn-c2-energie": {
+      "titre": "Circuits électriques et énergies",
+      "regle": "Une ampoule s’allume si le circuit est fermé : une boucle complète de la pile à la pile. L’interrupteur ouvre ou ferme le circuit. Relier directement les deux bornes d’une pile, c’est un court-circuit : la pile chauffe. Les métaux conduisent le courant (conducteurs) ; plastique, bois, verre, caoutchouc ne le conduisent pas (isolants). Le courant de la prise (230 V) est dangereux. Sources d’énergie renouvelables : soleil, vent, eau, bois, géothermie. Non renouvelables : pétrole, gaz, charbon, uranium. Les appareils transforment l’énergie : radiateur → chaleur, moteur → mouvement, lampe → lumière. Les isolants thermiques gardent la chaleur.",
+      "exemple": "Pile + fil + ampoule + fil retour à la pile = circuit fermé, l’ampoule brille.",
+      "image": "Le courant, c’est comme une course de relais : si un coureur manque (un fil coupé), le relais s’arrête.",
+      "piege": "Le fil électrique est conducteur dedans (métal) et isolant dehors (plastique).",
+      "icone": "laptop"
+    },
+    "sn-c2-ciel": {
+      "titre": "Lumière, ombres et système solaire",
+      "regle": "La lumière va en ligne droite. Un objet opaque fait une ombre du côté opposé à la lumière ; plus la lumière est basse, plus l’ombre est longue. Le Soleil se lève à l’est, culmine au sud vers midi (en Suisse) et se couche à l’ouest. La Terre tourne sur elle-même en environ 24 h (jour et nuit) et autour du Soleil en environ 365 jours (une année). Son axe penché explique les saisons. Le Soleil est une étoile, la Terre une planète, la Lune son satellite. Les 8 planètes : Mercure, Vénus, Terre, Mars, Jupiter, Saturne, Uranus, Neptune.",
+      "exemple": "Le matin, ton ombre est longue et vers l’ouest ; à midi, elle est courte et vers le nord.",
+      "image": "Pi tourne sur lui-même devant une lampe : le côté éclairé, c’est le jour ; le côté sombre, la nuit.",
+      "piege": "Ce n’est pas le Soleil qui tourne autour de la Terre : c’est la Terre qui tourne sur elle-même.",
+      "icone": "star"
+    },
+    "sn-c2-demarche": {
+      "titre": "Mener une expérience",
+      "regle": "Une démarche scientifique : une question, une hypothèse (réponse possible), une expérience, des résultats, une interprétation. On ne change qu’un seul facteur à la fois et on garde tout le reste pareil. On choisit le bon instrument : thermomètre (°C), chronomètre (s), balance (g, kg), récipient gradué (ml, dl, l), règle ou mètre (cm, m). On note tout dans un journal d’observations. On répète les mesures et on calcule la moyenne. Constat = ce qu’on a observé ; interprétation = ce qu’on en conclut.",
+      "exemple": "Moyenne de 12,4 s ; 12,6 s ; 12,5 s : (12,4 + 12,6 + 12,5) ÷ 3 = 12,5 s.",
+      "image": "Pi fait le détective : il ne change qu’un indice à la fois pour savoir lequel compte vraiment.",
+      "piege": "Si on change deux facteurs en même temps (lumière et eau), on ne sait plus lequel a agi.",
+      "icone": "folder"
+    },
+    "sn-c2-corps": {
+      "titre": "Organes, sens et santé",
+      "regle": "Le cœur pompe le sang, les poumons respirent, l’estomac et les intestins digèrent, les reins filtrent le sang, le cerveau commande. Le crâne protège le cerveau, les côtes protègent le cœur et les poumons. Les 5 sens ont leurs organes : œil, oreille, nez, langue, peau. Pour la santé : alimentation équilibrée (légumes, fruits, féculents, protéines ; peu de sucreries), eau, sommeil, activité physique. Le tabac abîme les poumons, le bruit trop fort les oreilles. Le corps change toute la vie (enfance, adolescence, âge adulte, vieillesse) et se répare : cicatrisation, os qui se ressoude, cheveux et ongles qui repoussent.",
+      "exemple": "Tabac → poumons. Musique trop forte → oreilles. Sucreries → dents.",
+      "image": "Le corps de Pi est une équipe : chaque organe a son poste, et tous gagnent ensemble.",
+      "piege": "Les dents définitives ne repoussent pas si on les perd : il faut en prendre soin.",
+      "icone": "report"
+    },
+    "sn-c2-appareils": {
+      "titre": "Digestion, respiration, squelette",
+      "regle": "Les aliments passent par la bouche, l’œsophage, l’estomac, l’intestin grêle, le gros intestin. Les dents coupent (digestion mécanique), les sucs digestifs transforment (digestion chimique). Les nutriments passent dans le sang dans l’intestin grêle. L’air passe par le nez, la trachée, les bronches, les poumons : on prend du dioxygène, on rejette du CO₂. Après un effort, on respire plus vite et le cœur bat plus vite. Le squelette soutient et protège ; les articulations permettent de bouger ; les muscles tirent sur les os grâce aux tendons. Biceps : plier le bras ; triceps : le tendre.",
+      "exemple": "Pouls : 20 battements en 15 s → 20 × 4 = 80 battements par minute.",
+      "image": "Le tube digestif de Pi est un toboggan géant qui transforme une pomme en petits morceaux d’énergie.",
+      "piege": "L’œsophage conduit les aliments, la trachée conduit l’air : ce sont deux tuyaux différents.",
+      "icone": "report"
+    },
+    "sn-c2-classification": {
+      "titre": "Classer les êtres vivants",
+      "regle": "On classe les animaux selon des critères observables. Vertébrés (avec colonne vertébrale) : mammifères (poils, allaitent), oiseaux (plumes, bec), poissons (nageoires, branchies), reptiles (écailles sèches), amphibiens (peau nue et humide, larve dans l’eau). Insectes : 6 pattes ; araignées : 8 pattes. Régimes alimentaires : herbivore, carnivore, granivore, insectivore, omnivore. La forme du corps est liée au mode de vie : dents, pattes, camouflage. Une clé de détermination pose des questions successives pour trouver le nom d’une espèce.",
+      "exemple": "La chauve-souris vole, mais elle a des poils et allaite : c’est un mammifère.",
+      "image": "Pi range les animaux dans des tiroirs : un tiroir « plumes », un tiroir « poils », un tiroir « écailles »…",
+      "piege": "La baleine et le dauphin vivent dans l’eau, mais ce sont des mammifères, pas des poissons.",
+      "icone": "flower"
+    },
+    "sn-c2-chaines": {
+      "titre": "Qui mange qui ?",
+      "regle": "Une chaîne alimentaire montre qui est mangé par qui ; la flèche va du mangé vers le mangeur. Elle commence toujours par un végétal (producteur). Puis viennent les consommateurs de 1er ordre (herbivores) et de 2e ordre (carnivores). Les décomposeurs (vers de terre, champignons) recyclent la matière morte. Entre êtres vivants : prédation (chasser), parasitisme (vivre aux dépens d’un hôte), symbiose ou mutualisme (les deux y gagnent), compétition (même ressource). Si un maillon disparaît, tout le milieu change : un écosystème est fragile.",
+      "exemple": "Herbe → lapin → renard : l’herbe est le producteur, le renard le consommateur de 2e ordre.",
+      "image": "Une chaîne alimentaire, c’est un train : si un wagon se décroche, les suivants s’arrêtent.",
+      "piege": "La flèche « herbe → lapin » ne veut pas dire « l’herbe mange le lapin » : elle montre où va la nourriture.",
+      "icone": "flower"
+    },
+    "sn-c2-cycles": {
+      "titre": "Les cycles de vie",
+      "regle": "Tous les êtres vivants naissent, grandissent, se reproduisent et meurent. Certains animaux changent complètement de forme : c’est la métamorphose (œuf, chenille, chrysalide, papillon ; œuf, têtard, grenouille). Chez les plantes à fleurs : pollinisation (pollen transporté par le vent ou les insectes), la fleur devient fruit, le fruit contient des graines, la graine germe. Les graines sont dispersées par le vent, l’eau ou les animaux. Pour passer l’hiver : hibernation (marmotte), migration (hirondelle), graines (plantes annuelles), bourgeons (arbres). La graine et l’œuf ont le même rôle : donner un nouvel individu.",
+      "exemple": "Cerisier : fleur → pollinisation par l’abeille → cerise → noyau (graine) → nouvel arbre.",
+      "image": "Pi tient un album photo d’un papillon : œuf, chenille, chrysalide… on dirait quatre animaux différents !",
+      "piege": "La chrysalide n’est pas morte : à l’intérieur, la chenille se transforme en papillon.",
+      "icone": "flower"
+    },
+    "sn-c3-matiere": {
+      "titre": "Particules, états et réactions",
+      "regle": "La matière est faite de particules (molécules, atomes). Solide : particules serrées et fixes. Liquide : proches mais mobiles. Gaz : éloignées et très agitées. Chauffer augmente l’agitation (dilatation, changement d’état). L’air contient environ 78 % de diazote (N₂) et 21 % de dioxygène (O₂). Transformation physique : la substance reste la même (changement d’état, dissolution). Transformation chimique : de nouvelles substances apparaissent (combustion, rouille). Dans une réaction, les atomes se réarrangent et leur nombre est conservé : la masse totale des réactifs égale celle des produits.",
+      "exemple": "C + O₂ → CO₂ ; CH₄ + 2 O₂ → CO₂ + 2 H₂O. 12 g de carbone + 32 g de dioxygène → 44 g de CO₂.",
+      "image": "Les atomes sont les briques LEGO de Pi : une réaction démonte et remonte les constructions, sans perdre une seule brique.",
+      "piege": "L’eau qui bout ne se transforme pas en une autre substance : c’est un changement physique, pas chimique.",
+      "icone": "molecule"
+    },
+    "sn-c3-optique": {
+      "titre": "Les couleurs de la lumière",
+      "regle": "La lumière blanche est un mélange de couleurs (on le voit dans l’arc-en-ciel : rouge, orange, jaune, vert, bleu, indigo, violet). Notre rétine contient trois types de cônes, sensibles au rouge, au vert et au bleu : c’est le modèle trichromique. Synthèse additive (lumières) : rouge + vert = jaune ; rouge + bleu = magenta ; vert + bleu = cyan ; les trois = blanc. Un objet paraît coloré parce qu’il renvoie certaines lumières et absorbe les autres. Éclairé par une lumière qu’il absorbe, il paraît noir. En peinture (synthèse soustractive), les pigments absorbent : mélanger assombrit.",
+      "exemple": "Une tomate rouge sous lumière verte paraît noire.",
+      "image": "Un objet, c’est un tri de Pi : il garde certaines couleurs et renvoie les autres vers tes yeux.",
+      "piege": "Mélanger des lumières et mélanger des peintures, ce n’est pas pareil : rouge + vert donne jaune en lumière, mais une couleur brune en peinture.",
+      "icone": "eye"
+    },
+    "sn-c3-mecanique": {
+      "titre": "Vitesse, forces et poids",
+      "regle": "Vitesse moyenne : v = d ÷ t (m/s ou km/h ; 1 m/s = 3,6 km/h). Une force se représente par une flèche et se mesure en newtons (N) avec un dynamomètre. Forces courantes : pesanteur (poids), soutien, frottement, force motrice, poussée d’Archimède. Poids et masse ne sont pas la même chose : la masse (kg) est la quantité de matière, le poids (N) est la force d’attraction : P = m × g, avec g ≈ 9,81 N/kg sur Terre. 1re loi de Newton : si les forces se compensent, l’objet reste immobile ou garde un mouvement rectiligne à vitesse constante.",
+      "exemple": "60 kg sur Terre : P = 60 × 9,81 ≈ 589 N. Sur la Lune, même masse, poids environ 6 fois plus petit.",
+      "image": "Pi en trottinette sur du plat : s’il ne pousse plus, les frottements le freinent jusqu’à l’arrêt.",
+      "piege": "On dit « je pèse 40 kilos » ; en physique, 40 kg est ta masse, ton poids vaut environ 392 N.",
+      "icone": "plane"
+    },
+    "sn-c3-energie": {
+      "titre": "L’énergie se transforme",
+      "regle": "Formes d’énergie : cinétique (mouvement), potentielle de gravitation (hauteur), chimique (aliments, combustibles), thermique (chaleur), électrique, rayonnement (lumière). Sources renouvelables : soleil, vent, eau, géothermie, biomasse ; non renouvelables : pétrole, gaz, charbon, uranium. L’énergie ne se crée pas et ne disparaît pas : elle se transforme (souvent en partie en chaleur). Énergie électrique : E = P × t (W × h = Wh ; 1 kWh = 1000 Wh). Chauffer de l’eau : Q = m × c × ΔT avec c = 4,18 kJ/(kg·°C). Rendement = énergie utile ÷ énergie reçue.",
+      "exemple": "Une bouilloire de 2000 W pendant 0,5 h : 1000 Wh = 1 kWh.",
+      "image": "L’énergie, c’est la monnaie de Pi : elle change de forme (pièces, billets) mais le total reste le même.",
+      "piege": "Une énergie « perdue » n’a pas disparu : elle est partie en chaleur qu’on n’utilise pas.",
+      "icone": "laptop"
+    },
+    "sn-c3-demarche": {
+      "titre": "Protocole et mesures",
+      "regle": "Un protocole précise ce qu’on mesure, comment et avec quoi. On fait varier un seul facteur à la fois, et on compare avec un témoin. Instruments : balance (masse), chronomètre (durée), thermomètre (température), éprouvette graduée (volume), double-mètre (longueur), dynamomètre (force), baromètre (pression), ampèremètre (intensité), voltmètre (tension). Plus on répète une mesure, plus la moyenne est fiable. On présente les résultats avec des unités et des arrondis adaptés : courbe pour une évolution, diagramme circulaire pour des parts d’un tout, colonnes pour comparer.",
+      "exemple": "Période d’un pendule : 1,52 s ; 1,55 s ; 1,50 s ; 1,57 s → moyenne 1,535 s ≈ 1,54 s.",
+      "image": "Pi réalise une recette de cuisine scientifique : tant de grammes, tant de minutes, toujours pareil, sauf l’ingrédient testé.",
+      "piege": "Une hypothèse réfutée n’est pas un échec : c’est un vrai résultat.",
+      "icone": "folder"
+    },
+    "sn-c3-organisme": {
+      "titre": "Organisme, microbes et prévention",
+      "regle": "Le corps s’organise en niveaux : cellule, tissu, organe, système (appareil). Les systèmes travaillent ensemble pour nourrir chaque cellule : digestif (nutriments), respiratoire (dioxygène), circulatoire (transport), excréteur (déchets), nerveux (commande). Agents infectieux : virus (grippe), bactéries, champignons (mycoses). Les antibiotiques agissent sur les bactéries, pas sur les virus. Le vaccin entraîne le système immunitaire. Prévention : hygiène des mains, sommeil, sport, alimentation variée ; dangers des addictions (tabac, alcool, drogues, écrans) et du bruit trop fort.",
+      "exemple": "Grippe → virus → les antibiotiques n’y peuvent rien ; le vaccin peut la prévenir.",
+      "image": "Le système immunitaire de Pi est une équipe de gardiens : le vaccin leur montre une photo du voleur avant qu’il n’arrive.",
+      "piege": "Prendre un antibiotique contre un rhume (virus) ne sert à rien et rend les bactéries plus résistantes.",
+      "icone": "report"
+    },
+    "sn-c3-nerfs-squelette": {
+      "titre": "Nerfs, squelette et muscles",
+      "regle": "Le système nerveux central (cerveau et moelle épinière) reçoit les messages des organes des sens par les nerfs sensitifs et commande les muscles par les nerfs moteurs. Un réflexe est une réponse rapide et involontaire. Le squelette : crâne, colonne vertébrale (7 vertèbres cervicales, 12 dorsales, 5 lombaires, puis sacrum et coccyx), cage thoracique, bassin, os des membres. Les tendons relient muscles et os, les ligaments relient les os entre eux, le cartilage permet aux os de glisser. Les muscles ne font que tirer : ils travaillent par paires (biceps / triceps).",
+      "exemple": "Je vois un ballon (œil) → nerf sensitif → cerveau → nerf moteur → muscles du bras → je l’attrape.",
+      "image": "Les nerfs de Pi sont des câbles de téléphone : certains montent les nouvelles, d’autres descendent les ordres.",
+      "piege": "Tendon et ligament : le tendon attache un muscle à un os ; le ligament attache deux os.",
+      "icone": "report"
+    },
+    "sn-c3-digestion-circulation": {
+      "titre": "Digestion, cœur et respiration",
+      "regle": "Tube digestif : bouche, pharynx, œsophage, estomac, intestin grêle, côlon, rectum, anus. Organes associés : glandes salivaires, foie, pancréas. Digestion mécanique (mâcher, brasser) et chimique (enzymes). L’intestin grêle absorbe les nutriments ; le côlon absorbe l’eau. Les reins éliminent les déchets du métabolisme (urée) dans l’urine. Le cœur a 4 cavités ; les artères partent du cœur, les veines y reviennent, les capillaires font les échanges. Dans les alvéoles, le dioxygène passe dans le sang, le CO₂ en sort. Ventilation : renouveler l’air des poumons. Respiration cellulaire : produire de l’énergie dans les cellules.",
+      "exemple": "Glucose + dioxygène → dioxyde de carbone + eau + énergie (dans chaque cellule).",
+      "image": "Le sang est le camion de livraison de Pi : il charge le dioxygène aux poumons, les nutriments à l’intestin, et livre chaque cellule.",
+      "piege": "Artère ne veut pas dire « sang riche en dioxygène » : l’artère pulmonaire transporte du sang pauvre en dioxygène.",
+      "icone": "report"
+    },
+    "sn-c3-reproduction": {
+      "titre": "Puberté et reproduction",
+      "regle": "La puberté transforme le corps d’enfant en corps capable de se reproduire, à un rythme différent pour chacun. Les testicules produisent les spermatozoïdes, les ovaires les ovules. Le cycle menstruel dure environ 28 jours ; sans fécondation, la muqueuse de l’utérus est éliminée (règles). Fécondation : un spermatozoïde et un ovule s’unissent ; la cellule-œuf devient embryon, puis fœtus, et naît après environ 9 mois. Le placenta nourrit le fœtus. L’enfant reçoit la moitié de son information génétique de chaque parent. Allergies et cancers sont des dysfonctionnements du corps.",
+      "exemple": "Fécondation → cellule-œuf → embryon → fœtus → nouveau-né.",
+      "image": "La cellule-œuf de Pi est comme un livre de recettes écrit à deux mains : une moitié par chaque parent.",
+      "piege": "La puberté ne commence pas au même âge pour tout le monde, et c’est normal.",
+      "icone": "note"
+    },
+    "sn-c3-ecosystemes": {
+      "titre": "Écosystèmes et photosynthèse",
+      "regle": "Les êtres vivants naissent, se développent, se nourrissent, respirent, excrètent, se reproduisent et meurent. Niveaux : écosystème, population (même espèce), individu, cellule. Les autotrophes (plantes vertes, algues) fabriquent leur matière grâce à la lumière : c’est la photosynthèse (CO₂ + eau + lumière → glucose + O₂, grâce à la chlorophylle). Les hétérotrophes (animaux, champignons) dépendent d’eux. Facteurs abiotiques : lumière, température, eau, sol. Modifier un écosystème (route, monoculture, espèce exotique, climat) a des effets en chaîne.",
+      "exemple": "Une plante aquatique éclairée rejette des bulles de dioxygène ; l’eau iodée colore en bleu-noir l’amidon d’une feuille.",
+      "image": "Les plantes sont la centrale solaire de Pi : elles captent la lumière et nourrissent toute la chaîne.",
+      "piege": "La plante respire aussi (jour et nuit) : la photosynthèse s’y ajoute à la lumière.",
+      "icone": "flower"
+    },
+    "sn-c3-cellule-genetique": {
+      "titre": "Cellule et hérédité",
+      "regle": "La cellule est l’unité de base du vivant : membrane, cytoplasme, noyau (et, chez les végétaux, paroi et chloroplastes). Les cellules spécialisées (neurone, globule rouge…) ont une forme adaptée à leur fonction ; les cellules souches peuvent se transformer. Reproduction asexuée : un seul parent, descendants identiques (bactérie, stolons du fraisier). Reproduction sexuée : deux gamètes fusionnent, descendants différents. Chez l’humain : 46 chromosomes (23 paires) ; un gamète en a 23. Les gènes sont portés par l’ADN des chromosomes. La mitose donne deux cellules identiques. L’évolution explique la biodiversité.",
+      "exemple": "Ovule (23) + spermatozoïde (23) → cellule-œuf (46 chromosomes).",
+      "image": "Le noyau est la bibliothèque de Pi : les chromosomes sont les livres, les gènes les recettes.",
+      "piege": "Un gamète n’a pas 46 chromosomes mais 23 : sinon, l’enfant en aurait 92.",
+      "icone": "molecule"
+    },
+    "shs-c1-espace": {
+      "titre": "Se repérer autour de moi",
+      "regle": "Pour dire où sont les choses, on utilise des mots précis : devant, derrière, à gauche, à droite, en haut, en bas, sur, sous, dedans, dehors, près, loin, au milieu, à côté. Pour dire comment on se déplace : aller vers, tourner, traverser, monter, descendre. Un bon point de repère est bien visible et ne bouge pas (église, fontaine, grand arbre). Sur un plan vu d’en haut, les objets sont dessinés par des formes et des symboles ; la légende explique ce qu’ils veulent dire (bleu pour l’eau, vert pour la forêt).",
+      "exemple": "« Le ballon est sous la table, à côté de la chaise. »",
+      "image": "Pi monte en montgolfière au-dessus de l’école : vue d’en haut, la cour devient un rectangle et les arbres des ronds verts.",
+      "piege": "Face à face, ma droite est à la gauche de mon copain.",
+      "icone": "pin"
+    },
+    "shs-c1-amenagement": {
+      "titre": "Mon espace : la nature et ce qu’on construit",
+      "regle": "Autour de moi, il y a des éléments naturels (rivière, lac, forêt, montagne, colline) et des éléments construits par les humains (maisons, routes, ponts, places de jeux, gares). Chaque espace a une fonction : le préau pour jouer, le vestiaire pour se changer, la bibliothèque pour lire, la piscine pour nager. Les aménagements servent aussi à la sécurité (barrière, passage piéton). Mes sens m’aident à reconnaître un lieu : bruit des vagues, odeur du pain, chants d’oiseaux.",
+      "exemple": "Une rivière est naturelle ; le pont qui la traverse est construit.",
+      "image": "Pi se promène les yeux fermés : rien qu’en écoutant et en sentant, il devine s’il est en forêt, au bord du lac ou en ville.",
+      "piege": "Un parc a l’air naturel, mais ce sont des personnes qui l’ont aménagé.",
+      "icone": "pin"
+    },
+    "shs-c2-cartes": {
+      "titre": "Lire une carte",
+      "regle": "Sur une carte, le nord est en général en haut ; l’est à droite, l’ouest à gauche, le sud en bas. La boussole indique le nord. La légende explique les couleurs et les symboles. Les courbes de niveau relient les points de même altitude : serrées, la pente est raide. L’échelle indique le rapport entre la carte et la réalité : au 1 : 25 000, 1 cm sur la carte vaut 25 000 cm, soit 250 m en réalité. Grande échelle (1 : 5 000) : petit territoire, beaucoup de détails ; petite échelle (1 : 1 000 000) : grand territoire, peu de détails.",
+      "exemple": "Au 1 : 50 000, 4 cm sur la carte = 4 × 0,5 km = 2 km.",
+      "image": "Une carte, c’est la Suisse rétrécie par Pi avec une machine magique : l’échelle dit combien de fois elle a rapetissé.",
+      "piege": "Pour convertir : 1 km = 100 000 cm. Au 1 : 100 000, 1 cm vaut donc 1 km.",
+      "icone": "pin"
+    },
+    "shs-c2-territoire": {
+      "titre": "Organiser et aménager l’espace",
+      "regle": "Les humains aménagent l’espace pour répondre à leurs besoins : besoins vitaux (se nourrir, boire, se protéger, respirer) et besoins secondaires (se déplacer, communiquer, apprendre, se divertir). Chaque lieu a une ou plusieurs fonctions : habiter, travailler, se déplacer, se divertir. Un lieu est choisi pour des raisons naturelles (eau, relief, ensoleillement), sociales et économiques (proximité, prix) ou culturelles. Des aménagements relient (ponts, routes), approvisionnent (barrages, conduites d’eau), évacuent (STEP, déchetteries) et protègent (murs antibruit). Chaque aménagement a des impacts sur l’environnement et les gens.",
+      "exemple": "Lavaux : vignes en terrasses sur une pente ensoleillée, face au Léman.",
+      "image": "Pi dessine son village idéal : où mettre l’école, la gare, les maisons, l’usine ? Chaque choix a des avantages et des inconvénients.",
+      "piege": "Un lieu bien placé pour une activité (usine près d’une autoroute) peut gêner une autre (habitations tranquilles).",
+      "icone": "pin"
+    },
+    "shs-c2-acteurs": {
+      "titre": "Les acteurs et les échelles",
+      "regle": "Les acteurs sont les personnes ou groupes qui utilisent ou transforment un espace : habitants, employés, entreprises, associations, autorités. On distingue les acteurs publics (commune, canton, Confédération) et privés (entreprises, associations, particuliers), individuels ou collectifs. Dans une filière : le producteur fabrique, le distributeur vend, le consommateur achète. Un même problème peut s’étudier à plusieurs échelles : locale (commune), régionale, nationale (Suisse), continentale, mondiale.",
+      "exemple": "Gruyère : le fromager produit, le magasin distribue, la famille consomme.",
+      "image": "Pi regarde la même place de jeux avec plusieurs paires de lunettes : celles des enfants, des voisins, de la commune…",
+      "piege": "Le magasin ne fabrique pas le fromage : il le distribue.",
+      "icone": "pin"
+    },
+    "shs-c3-monde": {
+      "titre": "Repères : l’Europe et le monde",
+      "regle": "Les continents habités : Europe, Afrique, Amérique, Asie, Océanie (et l’Antarctique, sans habitants permanents). Les océans : Pacifique (le plus grand), Atlantique, Indien, Arctique, Austral. Grands repères : le Nil (Afrique), l’Amazone et l’Amazonie (Amérique du Sud), l’Himalaya et l’Everest (Asie), les Andes, le Sahara. La Suisse est au cœur de l’Europe ; ses voisins sont la France, l’Allemagne, l’Autriche, le Liechtenstein et l’Italie. Le Rhin va vers la mer du Nord, le Rhône vers la Méditerranée.",
+      "exemple": "Capitales : Paris, Berlin, Rome, Vienne, Madrid, Ottawa, Brasilia, Tokyo, Pékin, Canberra.",
+      "image": "Pi fait le tour du monde en avion : à chaque escale, il colle la photo d’une capitale sur sa carte.",
+      "piege": "La capitale n’est pas toujours la plus grande ville : Ottawa (pas Toronto), Canberra (pas Sydney), Berne (ville fédérale, pas Zurich).",
+      "icone": "plane"
+    },
+    "shs-c3-territoires": {
+      "titre": "Risques, villes, migrations, ressources",
+      "regle": "Risques : séismes et volcans se concentrent aux limites des plaques tectoniques (ceinture de feu du Pacifique) ; un risque, c’est un aléa qui touche des enjeux humains. Production : le climat et le relief expliquent où l’on cultive (cacao en zone tropicale). Villes : centre historique, périurbanisation, pendulaires, fonctions urbaines (commerce, services, formation). Changements climatiques : recul des glaciers, effet de serre renforcé par le CO₂. Migrations : causes économiques, politiques, sociales, culturelles, environnementales. Ressources : l’eau douce (« or bleu ») est inégalement répartie ; l’accès à l’information aussi (fracture numérique).",
+      "exemple": "La Suisse, « château d’eau de l’Europe » : le Rhin, le Rhône et l’Inn y prennent leur source.",
+      "image": "Pi suit une goutte d’eau du glacier du Rhône jusqu’à la Méditerranée : elle traverse des pays qui n’ont pas tous autant d’eau.",
+      "piege": "Un séisme très fort dans un désert vide fait moins de dégâts qu’un séisme moyen sous une grande ville : le risque dépend aussi des enjeux.",
+      "icone": "plane"
+    },
+    "shs-c3-acteurs-echelles": {
+      "titre": "Acteurs, intentions et échelles",
+      "regle": "Chaque acteur (habitant, entreprise, commune, État, ONG) agit sur l’espace avec une intention : vendre, protéger, se loger, attirer des touristes… Ces intentions peuvent s’opposer. Le marché suit l’offre et la demande : si l’offre baisse et que la demande reste forte, le prix monte ; si l’offre est abondante, le prix baisse. Une problématique se pose différemment à chaque échelle : locale, régionale, nationale, mondiale. Changer d’échelle change les acteurs concernés et les solutions possibles.",
+      "exemple": "Un projet de station de ski : la société des remontées veut des clients, une association veut protéger la faune, la commune veut des emplois.",
+      "image": "Pi zoome et dézoome sur une carte numérique : à chaque niveau, ce ne sont plus les mêmes personnes qui décident.",
+      "piege": "La bonne échelle dépend du problème : un passage piéton, c’est local ; le climat, c’est mondial.",
+      "icone": "pin"
+    },
+    "shs-c1-calendrier": {
+      "titre": "Le temps qui passe",
+      "regle": "Le temps se découpe : la journée (matin, midi, après-midi, soir, nuit), la semaine (lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche), les mois (janvier à décembre, 12 mois), les saisons (printemps, été, automne, hiver), les années. Hier, aujourd’hui, demain ; avant, pendant, après. Certains événements reviennent toujours dans le même ordre : les jours, les saisons, les fêtes (Noël en décembre, fête nationale le 1er août). La vie a des étapes : naissance, enfance, âge adulte, vieillesse. Mes grands-parents, mes parents et moi : trois générations.",
+      "exemple": "Hier, c’était lundi ; aujourd’hui, mardi ; demain, ce sera mercredi.",
+      "image": "Le calendrier de Pi est une roue : les jours et les saisons tournent et reviennent toujours dans le même ordre.",
+      "piege": "Après dimanche, on ne s’arrête pas : on recommence avec lundi.",
+      "icone": "cal31"
+    },
+    "shs-c1-autrefois": {
+      "titre": "Autrefois et aujourd’hui",
+      "regle": "Le passé a laissé des traces : vieilles photos, objets, maisons, châteaux, récits des grands-parents. En les comparant avec aujourd’hui, on voit ce qui a changé (lampe à pétrole → lampe électrique, lettre → message sur un téléphone) et ce qui est resté (on mange toujours du pain). Les contes et les légendes racontent des histoires imaginaires (dragons, fées) ; l’histoire raconte ce qui s’est vraiment passé. Les dinosaures ont existé, mais bien avant les humains.",
+      "exemple": "Le château de Chillon a vraiment existé au Moyen Âge ; le dragon du conte, non.",
+      "image": "Pi ouvre la malle du grenier de sa grand-mère : chaque objet est un indice qui raconte comment on vivait avant.",
+      "piege": "Les humains de la Préhistoire n’ont jamais rencontré de dinosaures, même si les dessins animés le montrent.",
+      "icone": "cal31"
+    },
+    "shs-c2-siecles": {
+      "titre": "Siècles, millénaires et durées",
+      "regle": "Une décennie = 10 ans, un siècle = 100 ans, un millénaire = 1000 ans. Les siècles s’écrivent en chiffres romains : le XVe siècle va de 1401 à 1500. Pour trouver le siècle d’une année, on prend les centaines et on ajoute 1 (sauf pour les années qui finissent par 00) : 1515 → XVIe siècle ; 1900 → XIXe siècle. La durée entre deux dates : on soustrait. Avant Jésus-Christ (av. J.-C.), on compte à rebours ; il n’y a pas d’année 0, on passe de 1 av. J.-C. à 1 apr. J.-C.",
+      "exemple": "De 1291 à 1848 : 1848 − 1291 = 557 ans. 2025 est au XXIe siècle.",
+      "image": "Une frise chronologique est la règle graduée de Pi : chaque centimètre peut valoir 10 ans, 100 ans ou plus.",
+      "piege": "L’an 1900 appartient au XIXe siècle, pas au XXe : le XXe siècle commence en 1901.",
+      "icone": "cal31"
+    },
+    "shs-c2-periodes": {
+      "titre": "Les grandes périodes de l’histoire",
+      "regle": "On découpe l’histoire en cinq grandes périodes : la Préhistoire (jusqu’à l’invention de l’écriture, vers 3300 av. J.-C.), l’Antiquité (jusqu’à 476, chute de l’Empire romain d’Occident), le Moyen Âge (jusqu’à la fin du XVe siècle, vers 1492), les Temps modernes (jusqu’en 1789, Révolution française), l’Époque contemporaine (depuis 1789). Chaque période a ses repères : grottes peintes et villages lacustres, Helvètes et Romains à Aventicum, châteaux forts et Pacte de 1291, imprimerie et Réforme, machine à vapeur et État fédéral de 1848. Ailleurs, d’autres civilisations vivent à la même époque.",
+      "exemple": "1291 : Moyen Âge. 1515 (Marignan) : Temps modernes. 1848 : Époque contemporaine.",
+      "image": "L’histoire est un grand livre de Pi en cinq chapitres ; chaque chapitre a ses images et ses héros.",
+      "piege": "Ces dates de découpage sont des conventions européennes : elles ne marquent pas un changement d’un jour à l’autre.",
+      "icone": "cal31"
+    },
+    "shs-c2-sources": {
+      "titre": "Traces, sources et légendes",
+      "regle": "L’historien travaille avec des sources : des traces de l’époque (objets, textes, photos, monuments, témoignages). Une reconstitution (maquette, dessin moderne, fête médiévale) est faite plus tard, d’après les sources. Une fiction (conte, dessin animé) est inventée. Il faut distinguer la réalité des mythes et des idées reçues : Guillaume Tell est une légende ; les Vikings ne portaient pas de casques à cornes. Le passé nous a laissé des héritages : langues issues du latin, monuments, fêtes et commémorations comme le 1er août.",
+      "exemple": "Une pièce romaine trouvée à Avenches : source. La maquette d’Aventicum au musée : reconstitution.",
+      "image": "Pi enquête comme un détective : un objet d’époque est un indice, une reconstitution est le portrait-robot fait d’après les indices.",
+      "piege": "Une image dans un livre d’histoire n’est pas forcément une source : c’est souvent un dessin moderne.",
+      "icone": "folder"
+    },
+    "shs-c3-sources": {
+      "titre": "Sources, représentations et mémoire",
+      "regle": "Sources primaires : produites à l’époque (texte, image, objet, témoignage) ; secondaires : études faites plus tard. Natures : écrites, iconographiques, archéologiques, orales, audiovisuelles. Pour critiquer une source : qui l’a produite, quand, pour qui, dans quel but ? Dans un film ou une œuvre, on distingue le temps représenté (l’époque montrée), le temps représentant (l’époque de production) et le temps de visionnement. Attention aux anachronismes. L’histoire analyse avec méthode ; la mémoire est un souvenir collectif qui peut idéaliser (mythes fondateurs, Guillaume Tell) et se construit par des commémorations (1er août, célébré pour la première fois en 1891).",
+      "exemple": "Un film de 1995 sur 1914-1918 : temps représenté 1914-1918, temps représentant 1995.",
+      "image": "Chaque source est une paire de lunettes de Pi : elle montre le passé, mais avec la couleur des verres de son auteur.",
+      "piege": "Une source d’époque n’est pas forcément objective : une affiche de propagande date bien de 1940, mais elle veut convaincre.",
+      "icone": "folder"
+    },
+    "shs-c3-societes": {
+      "titre": "Les sociétés à travers le temps",
+      "regle": "On compare les sociétés selon plusieurs dimensions. Sociale : les trois ordres de l’Ancien Régime (clergé, noblesse, tiers état), les corporations, puis les ouvriers de l’ère industrielle ; en Suisse, l’AVS (1948) et le droit de vote des femmes au niveau fédéral (1971). Économique : troc puis monnaie ; révolution néolithique (agriculture), révolution industrielle (machine à vapeur), commerce triangulaire, délocalisations. Politique : monarchie absolue, démocratie, séparation des pouvoirs (Montesquieu), conflits du XXe siècle (guerres mondiales, Guerre froide jusqu’à la chute du mur de Berlin en 1989, décolonisation).",
+      "exemple": "Législatif : fait les lois. Exécutif : les applique. Judiciaire : juge.",
+      "image": "Pi compare trois maquettes de village : néolithique, médiéval, industriel. Qu’est-ce qui change ? Qu’est-ce qui reste ?",
+      "piege": "Le commerce triangulaire n’est pas un simple échange : il reposait sur la traite et l’esclavage de millions d’Africains.",
+      "icone": "cal31"
+    },
+    "shs-c3-religions": {
+      "titre": "Le fait religieux dans l’histoire",
+      "regle": "Les religions polythéistes honorent plusieurs dieux (Égyptiens, Grecs, Romains) ; les monothéismes un seul : judaïsme (le plus ancien), christianisme, islam (VIIe siècle, Hégire en 622). Les religions répondent aux grandes questions : origine du monde (cosmogonie), au-delà. Elles influencent la vie quotidienne et le pouvoir : monastères au Moyen Âge, Réforme protestante (Luther 1517, Zwingli à Zurich, Calvin à Genève), séparation entre catholiques et protestants. Pouvoir temporel (rois, États) et spirituel (Églises) ; aujourd’hui, la laïcité sépare l’État et les religions et garantit la liberté de croyance.",
+      "exemple": "Genève, « Rome protestante », marquée par Calvin au XVIe siècle.",
+      "image": "Pi visite une cathédrale, un temple, une synagogue et une mosquée : chaque bâtiment raconte une histoire de croyances et de société.",
+      "piege": "Monothéisme ne veut pas dire « une seule religion » : il y a plusieurs religions monothéistes.",
+      "icone": "note"
+    },
+    "shs-c2-droits-enfant": {
+      "titre": "Les droits de l’enfant",
+      "regle": "La Convention relative aux droits de l’enfant a été adoptée par l’ONU en 1989. Elle protège toutes les personnes de moins de 18 ans. Parmi les droits : avoir un nom et une nationalité, aller à l’école, être soigné, jouer et se reposer, être protégé contre la violence et le travail forcé, donner son avis sur ce qui le concerne. Aux droits correspondent des responsabilités : respecter les autres, respecter les règles. Partout dans le monde, ces droits ne sont pas encore respectés de la même façon. En Suisse, un enfant en difficulté peut appeler le 147.",
+      "exemple": "Le droit d’aller à l’école va avec le devoir de respecter les règles de l’école.",
+      "image": "Les droits de l’enfant sont le parapluie de Pi : ils le protègent, mais il doit aussi faire attention à ne pas mouiller les autres.",
+      "piege": "Avoir des droits ne veut pas dire faire tout ce qu’on veut : mes droits s’arrêtent là où commencent ceux des autres.",
+      "icone": "star"
+    },
+    "shs-c2-commune": {
+      "titre": "La vie dans ma commune",
+      "regle": "Dans la commune, les gens se regroupent en sociétés locales : clubs de sport, fanfares, chœurs, samaritains. Elles décident en assemblée, à la majorité. La commune s’occupe de nombreuses tâches : écoles primaires, déchets, routes communales, eau. Elle a un pouvoir exécutif (municipalité ou conseil communal, selon le canton) qui dirige et applique les décisions, et un pouvoir législatif (conseil général ou communal, ou assemblée communale) qui vote le budget et les règlements. Dans une votation, on dit oui ou non à un objet ; dans une élection, on choisit des personnes.",
+      "exemple": "Votation : « Acceptez-vous la nouvelle piscine ? » Élection : choisir les membres du conseil communal.",
+      "image": "La commune est la maison commune de Pi et de ses voisins : ensemble, ils décident des règles et de ce qu’on construit.",
+      "piege": "Les noms changent selon les cantons : un « conseil communal » est l’exécutif dans certains cantons et le législatif dans d’autres (comme Vaud).",
+      "icone": "mail"
+    },
+    "shs-c3-etat": {
+      "titre": "L’État, la démocratie et les droits",
+      "regle": "Un État a un territoire, une population et un pouvoir politique souverain. Dans un État de droit, tout le monde respecte la loi, y compris les autorités, et les pouvoirs sont séparés : législatif (fait les lois), exécutif (les applique), judiciaire (juge). En Suisse : Assemblée fédérale, Conseil fédéral, Tribunal fédéral. Régimes : démocratie (le pouvoir au peuple), monarchie (un roi ou une reine), république (sans monarque héréditaire), dictature (pouvoir sans contrôle), fédéralisme (pouvoir partagé entre État central et États membres). Textes de référence : Constitution fédérale, Déclaration universelle des droits de l’homme (ONU, 1948), Convention européenne des droits de l’homme (Conseil de l’Europe).",
+      "exemple": "Le Royaume-Uni est une monarchie démocratique ; la Suisse une république fédérale démocratique.",
+      "image": "La séparation des pouvoirs, c’est le jeu de Pi à trois arbitres : aucun ne peut tout décider seul.",
+      "piege": "Une monarchie peut être démocratique (monarchie constitutionnelle), et une « république » peut être une dictature.",
+      "icone": "report"
+    },
+    "shs-c3-suisse-monde": {
+      "titre": "La Suisse et le monde",
+      "regle": "La Suisse n’est pas membre de l’Union européenne mais lui est liée par des accords bilatéraux ; elle fait partie de l’espace Schengen et garde le franc suisse. Elle est membre de l’ONU depuis 2002 et du Conseil de l’Europe depuis 1963. Genève accueille le siège européen de l’ONU, l’OMS, l’OMC et le CICR (Croix-Rouge, fondée en 1863 avec Henry Dunant). Les ambassades représentent la Suisse auprès d’autres États, les consulats aident les Suisses à l’étranger, la DDC mène la coopération au développement. Les ONG (Amnesty International, Greenpeace) agissent indépendamment des gouvernements. La neutralité suisse a été reconnue en 1815.",
+      "exemple": "Schengen : pas de contrôle systématique des personnes à la frontière entre la Suisse et la France ; mais pas d’euro en Suisse.",
+      "image": "La Suisse est la petite maison de Pi au milieu d’un grand quartier : elle n’est pas dans le club (l’UE), mais elle a signé beaucoup d’accords avec ses voisins.",
+      "piege": "Schengen et l’Union européenne, ce n’est pas la même chose : la Suisse est dans Schengen, mais pas dans l’UE.",
+      "icone": "plane"
+    }
+  }
+}

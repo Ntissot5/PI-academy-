@@ -5,12 +5,12 @@ const shuffle = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
 
 // Chaînes alimentaires simples : [producteur, consommateur 1, consommateur 2]
 const CHAINES: [string, string, string][] = [
-  ["l’herbe", "le lapin", "le renard"],
-  ["les feuilles de chêne", "la chenille", "la mésange"],
-  ["les algues", "le gardon", "le brochet"],
-  ["les graines", "le mulot", "la chouette"],
+  ["l’herbe", "le chevreuil", "le lynx"],
+  ["l’herbe", "la sauterelle", "le lézard"],
+  ["l’herbe", "le lièvre", "l’aigle royal"],
+  ["la salade", "l’escargot", "l’orvet"],
   ["l’herbe", "le chevreuil", "le loup"],
-  ["la salade", "l’escargot", "le hérisson"],
+  ["les feuilles", "le criquet", "la grenouille"],
 ];
 const ROLES = ["producteur", "consommateur de 1er ordre (herbivore)", "consommateur de 2e ordre (carnivore)", "décomposeur"];
 

@@ -15,7 +15,7 @@ const ITEMS: [string, string, string[], string][] = [
   ["Une lampe à incandescence transforme l’énergie électrique en lumière et surtout en…", "chaleur", ["mouvement", "énergie chimique", "son"], "Une grande partie part en chaleur : son rendement est faible."],
   ["Pourquoi une lampe LED est-elle plus économique qu’une ampoule à incandescence ?", "Elle transforme plus d’énergie en lumière et moins en chaleur", ["Elle ne consomme rien", "Elle produit plus de chaleur", "Elle fonctionne sans électricité"], "Meilleur rendement : moins d’énergie perdue en chaleur."],
   ["Principe de conservation de l’énergie : l’énergie…", "ne se crée pas et ne disparaît pas, elle se transforme", ["se crée dans les centrales", "disparaît quand on l’utilise", "ne peut jamais être transformée"], "L’énergie « perdue » est en fait transformée, souvent en chaleur."],
-  ["Un frigo transporte la chaleur de l’intérieur vers…", "l’extérieur (la grille à l’arrière chauffe)", ["l’intérieur", "nulle part, il détruit la chaleur", "le congélateur des voisins"], "Le frigo consomme de l’électricité pour sortir la chaleur de l’intérieur."],
+  ["Un frigo transporte la chaleur de l’intérieur vers…", "l’extérieur (la grille à l’arrière chauffe)", ["l’intérieur", "le néant : il détruit la chaleur", "le congélateur des voisins"], "Le frigo consomme de l’électricité pour sortir la chaleur de l’intérieur."],
 ];
 
 /** Cycle 3 · énergie : formes, sources, transformations, conservation, énergie électrique et thermique, rendement. */

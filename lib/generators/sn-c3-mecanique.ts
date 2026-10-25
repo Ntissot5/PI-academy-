@@ -5,7 +5,7 @@ const shuffle = <T,>(a: T[]) => [...a].sort(() => Math.random() - 0.5);
 
 const ITEMS: [string, string, string[], string][] = [
   ["Quelle est l’unité de la force dans le Système international ?", "Le newton (N)", ["Le kilogramme (kg)", "Le joule (J)", "Le watt (W)"], "Une force se mesure en newtons, avec un dynamomètre."],
-  ["La masse d’un astronaute sur la Lune, comparée à sur Terre, est…", "la même", ["6 fois plus petite", "nulle", "6 fois plus grande"], "La masse (quantité de matière) ne change pas ; c’est son poids qui est environ 6 fois plus petit sur la Lune."],
+  ["La masse d’un astronaute sur la Lune, comparée à sur Terre, est…", "la même", ["6 fois plus petite", "égale à zéro", "6 fois plus grande"], "La masse (quantité de matière) ne change pas ; c’est son poids qui est environ 6 fois plus petit sur la Lune."],
   ["Le poids d’un astronaute sur la Lune, comparé à sur Terre, est…", "environ 6 fois plus petit", ["le même", "6 fois plus grand", "nul"], "L’attraction de la Lune est environ 6 fois plus faible que celle de la Terre."],
   ["Avec quel instrument mesure-t-on un poids (une force) ?", "Un dynamomètre", ["Une balance à plateaux", "Un baromètre", "Un thermomètre"], "Le dynamomètre contient un ressort qui s’allonge selon la force."],
   ["Un livre est posé immobile sur une table. Quelle force compense son poids ?", "La force de soutien de la table (réaction)", ["La force de frottement", "La poussée d’Archimède", "Aucune"], "Immobile : les forces se compensent. La table pousse vers le haut autant que le poids tire vers le bas."],
