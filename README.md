@@ -31,7 +31,7 @@ Comptes démo (tous marqués « démo », aucune donnée réelle) :
 |---|---|---|
 | Adulte | `adulte.demo@example.ch` | `demo-adulte-2026` |
 | Prof | `prof.demo@example.ch` | `demo-prof-2026` |
-| Élèves | `Démo-Alex`, `Démo-Sam`, `Démo-Lou` (classe « Classe démo 9e », code affiché par le seed) | PIN `1234` |
+| Élèves | `Démo-Alex`, `Démo-Sam`, `Démo-Lou` (classe « Classe démo 9e », code affiché par le seed ; Sam et Lou apparaissent « bloqués ») | PIN `1234` |
 
 Avec Docker : `docker compose up --build`, puis les étapes 1 (superuser, via `docker compose exec pocketbase /pb/pocketbase superuser upsert … --dir=/pb/pb_data`) et 2 avec `PB_URL=http://localhost:8090`.
 
@@ -42,6 +42,7 @@ Pour te donner le rôle admin : dans le tableau de bord PocketBase (`/_/`), coll
 ```bash
 npm test             # Vitest : 12 générateurs × 1 000 tirages, fidélité au prototype, parse/fr, dates Zurich
 npm run test:e2e     # Playwright : démarre un PocketBase jetable (8091) et l’appli (3001)
+                     # adulte (inscription → boss → autre appareil), prof + élève (temps réel, bloqués, PIN), blocage PIN, admin
 npm run typecheck
 ```
 
@@ -74,14 +75,17 @@ Deux applications Dokploy depuis ce repo :
 1. **PocketBase** : type Dockerfile, contexte `pocketbase/`, port 8090, **volume persistant monté sur `/pb/pb_data`**. Domaine par ex. `api.pi-academy.ch`. Puis, dans le terminal Dokploy : `/pb/pocketbase superuser upsert <email> <mot de passe> --dir=/pb/pb_data`.
 2. **Web** : type Dockerfile, contexte racine, port 3000, argument de build `NEXT_PUBLIC_PB_URL=https://api.pi-academy.ch` (lu au build : reconstruire si l’URL change). Domaine par ex. `pi-academy.ch`.
 3. Depuis ta machine : `PB_URL=https://api.pi-academy.ch PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… npm run pb:seed` (sans `--demo` en production si tu ne veux pas les comptes démo).
-4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting*.
+4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting* (en plus du blocage PIN, il freine les essais de codes de classe).
+5. Te donner le rôle admin : dashboard PocketBase → `users` → ton compte → `role = admin`.
 
 Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage.
 
 ## Données et règles
 
 - **Rôles** (`users.role`) : `eleve`, `prof`, `adulte`, `admin`. L’inscription publique n’accepte que `adulte` et `prof`.
-- **Élèves** : pseudo (unique dans la classe, sans tenir compte des majuscules) + PIN 4 chiffres + code de classe. Pas d’e-mail. Le PIN est le mot de passe PocketBase de l’élève, donc haché en bcrypt ; la connexion standard par e-mail leur est fermée, ils passent par une route dédiée (5 essais, puis blocage 10 min — phase 2).
+- **Élèves** : pseudo (unique dans la classe, sans tenir compte des majuscules) + PIN 4 chiffres + code de classe. Pas d’e-mail. Le PIN est le mot de passe PocketBase de l’élève, donc haché en bcrypt ; la connexion standard par e-mail leur est fermée, ils passent par `POST /api/pi/eleve/rejoindre` et `POST /api/pi/eleve/connexion` (5 essais ratés, puis blocage 10 min). Le prof peut donner un nouveau PIN (ce qui débloque) ou retirer l’élève (compte et progression supprimés).
+- **Prof** : `GET /api/pi/prof/classe/{id}` renvoie la grille élèves × unités et les élèves bloqués (aucune session depuis 7 jours, ou boss d’une unité non validée raté 2 fois ou plus). L’écran s’abonne en temps réel aux progressions, sessions, erreurs et arrivées d’élèves.
+- **Admin** (`/admin`, rôle `admin`) : textes des unités, réglages et ordre des parcours, import/export JSON.
 - **Écritures de progression** : uniquement via `POST /api/pi/serie` et `POST /api/pi/lecon`. Les collections `progressions`, `sessions`, `erreurs` sont en lecture seule pour le client.
 - **Séries** : le client envoie l’état cumulé de la série (à l’abandon, quand l’onglet passe en arrière-plan, à la fin). Le serveur n’enregistre que le nouveau : minutes et erreurs d’une série quittée sont gardées, rien n’est compté deux fois. Hors ligne, la série est mise en attente et renvoyée au prochain chargement.
 - **Dates** : jour de session, série de jours, objectif du jour et calendrier 28 jours calculés côté serveur en Europe/Zurich (`pocketbase/pb_hooks/lib/zurich.js`, testé sur les changements d’heure).

@@ -43,11 +43,19 @@ Besoin d’un type d’exercice qui n’existe pas ? Décris-le (avec 3 exemples
 
 ## Méthode 1 : l’écran admin
 
-L’écran d’édition des textes des unités et de l’ordre des parcours arrive avec la phase 2. Ce paragraphe sera complété à ce moment-là.
+Il faut un compte avec le rôle « admin » (à demander à la personne qui gère la plateforme).
+
+1. Connecte-toi, puis clique sur **Admin : contenu des parcours** en bas de la page des parcours (ou va sur `/admin`).
+2. À gauche, la liste des parcours et de leurs unités. Clique sur une unité.
+3. Modifie le titre, le sous-titre, la règle, l’exemple, l’image ou le piège, puis **Enregistrer l’unité**. Le lien **Voir la page →** montre le résultat tel que les élèves le voient.
+4. Les flèches ↑ ↓ à côté du nom d’un parcours changent l’ordre des parcours dans le catalogue.
+5. **Réglages du parcours** : titre, niveau, accroche (le grand titre du bandeau), description, public, icône.
+
+Pour créer un parcours entier d’un coup, prépare un fichier JSON (méthode 2), puis, dans l’écran admin, carte « Fichier JSON » → **Importer un fichier…**. Sans la case « Remplacer les textes… », les unités qui existent déjà ne sont pas touchées. **Télécharger tous les parcours** te donne un fichier complet à recopier comme modèle.
 
 ## Méthode 2 : un fichier JSON
 
-Copie ce modèle dans un fichier texte (par ex. `mon-parcours.json`), remplis-le, puis envoie-le à l’admin, qui le charge avec `npm run pb:seed -- mon-parcours.json`.
+Copie ce modèle dans un fichier texte (par ex. `mon-parcours.json`) et remplis-le. Ensuite, soit tu l’importes toi-même depuis l’écran admin, soit tu l’envoies à l’admin, qui peut aussi le charger avec `npm run pb:seed -- mon-parcours.json`.
 
 ```json
 {
