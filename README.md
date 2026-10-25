@@ -1,0 +1,95 @@
+# Pi Academy
+
+Plateforme de maths gamifiée, en français (Suisse romande), pour les élèves de 9e–11e Harmos suivis par leur prof et pour les adultes qui visent le niveau d’entrée EPFL. Mascotte : Pi.
+
+- **Front** : Next.js 15 (App Router, TypeScript strict), CSS du prototype repris tel quel (`styles/`), polices auto-hébergées (`@fontsource`, aucun appel à Google).
+- **Back** : PocketBase (auth, base, règles d’accès, routes `pb_hooks`).
+- **Exercices** : générés et corrigés dans le navigateur (`lib/generators`). Seuls les résultats partent au serveur.
+- **Référence visuelle** : `DESIGN.md` et `reference/route-epfl.html`. Le nom affiché vient de `lib/config.ts` (`APP_NAME`).
+
+## Lancer en local
+
+Prérequis : Node 22, `curl` et `unzip` (le script télécharge PocketBase tout seul).
+
+```bash
+npm install
+
+# 1. PocketBase (terminal 1)
+bash scripts/pocketbase.sh superuser upsert admin@example.ch un-mot-de-passe-solide
+npm run pb                      # http://127.0.0.1:8090/_/
+
+# 2. Contenu de départ + comptes démo (une fois)
+PB_SUPERUSER_EMAIL=admin@example.ch PB_SUPERUSER_PASSWORD=un-mot-de-passe-solide npm run pb:seed -- --demo
+
+# 3. Application (terminal 2)
+npm run dev                     # http://localhost:3000
+```
+
+Comptes démo (tous marqués « démo », aucune donnée réelle) :
+
+| Rôle | Identifiant | Mot de passe / PIN |
+|---|---|---|
+| Adulte | `adulte.demo@example.ch` | `demo-adulte-2026` |
+| Prof | `prof.demo@example.ch` | `demo-prof-2026` |
+| Élèves | `Démo-Alex`, `Démo-Sam`, `Démo-Lou` (classe « Classe démo 9e », code affiché par le seed) | PIN `1234` |
+
+Avec Docker : `docker compose up --build`, puis les étapes 1 (superuser, via `docker compose exec pocketbase /pb/pocketbase superuser upsert … --dir=/pb/pb_data`) et 2 avec `PB_URL=http://localhost:8090`.
+
+Pour te donner le rôle admin : dans le tableau de bord PocketBase (`/_/`), collection `users`, mets `role = admin` sur ton compte.
+
+## Tests
+
+```bash
+npm test             # Vitest : 12 générateurs × 1 000 tirages, fidélité au prototype, parse/fr, dates Zurich
+npm run test:e2e     # Playwright : démarre un PocketBase jetable (8091) et l’appli (3001)
+npm run typecheck
+```
+
+`tests/unit/fidelite.test.ts` exécute le moteur du prototype et le portage TypeScript avec la même graine : ils doivent produire exactement les mêmes questions.
+
+Captures comparées prototype ↔ appli (400 px et desktop, clair et sombre) :
+
+```bash
+NEXT_PUBLIC_E2E=1 npx next build && NEXT_PUBLIC_E2E=1 npx next start &
+PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… node scripts/captures.mjs captures/
+```
+
+## Ajouter un parcours
+
+Voir `docs/AJOUTER-UN-PARCOURS.md` (guide sans code). En bref : ajouter le parcours et ses unités dans un fichier JSON au format de `pocketbase/seed/parcours.json`, puis `npm run pb:seed -- mon-fichier.json`. Chaque unité référence un générateur existant par `id_generateur` (`rel`, `frac`, `pow`, `eq1`, `geo`, `iso`, `lin`, `eq2`, `trig`, `log`, `der`) ; l’unité `final` mélange toutes les unités de son parcours.
+
+Le seed ne modifie jamais un parcours ou une unité qui existe déjà, sauf avec `--force`.
+
+## Ajouter un générateur
+
+1. Créer `lib/generators/<id>.ts` qui exporte `gen(): Question` (`{ q, a, tol?, hint?, txt?, why }`). `q` peut contenir `<sup>`/`<sub>`, rien d’autre.
+2. L’enregistrer dans `GENERATORS` et `DEFAULT_ICON` (`lib/generators/index.ts`).
+3. `npm test` : le test des 1 000 tirages le prend automatiquement (pas de `NaN`, pas d’énoncé vide, réponse `fr(a)` acceptée).
+4. L’utiliser dans une unité via `id_generateur`.
+
+## Déployer sur Dokploy
+
+Deux applications Dokploy depuis ce repo :
+
+1. **PocketBase** : type Dockerfile, contexte `pocketbase/`, port 8090, **volume persistant monté sur `/pb/pb_data`**. Domaine par ex. `api.pi-academy.ch`. Puis, dans le terminal Dokploy : `/pb/pocketbase superuser upsert <email> <mot de passe> --dir=/pb/pb_data`.
+2. **Web** : type Dockerfile, contexte racine, port 3000, argument de build `NEXT_PUBLIC_PB_URL=https://api.pi-academy.ch` (lu au build : reconstruire si l’URL change). Domaine par ex. `pi-academy.ch`.
+3. Depuis ta machine : `PB_URL=https://api.pi-academy.ch PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… npm run pb:seed` (sans `--demo` en production si tu ne veux pas les comptes démo).
+4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting*.
+
+Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage.
+
+## Données et règles
+
+- **Rôles** (`users.role`) : `eleve`, `prof`, `adulte`, `admin`. L’inscription publique n’accepte que `adulte` et `prof`.
+- **Élèves** : pseudo (unique dans la classe, sans tenir compte des majuscules) + PIN 4 chiffres + code de classe. Pas d’e-mail. Le PIN est le mot de passe PocketBase de l’élève, donc haché en bcrypt ; la connexion standard par e-mail leur est fermée, ils passent par une route dédiée (5 essais, puis blocage 10 min — phase 2).
+- **Écritures de progression** : uniquement via `POST /api/pi/serie` et `POST /api/pi/lecon`. Les collections `progressions`, `sessions`, `erreurs` sont en lecture seule pour le client.
+- **Séries** : le client envoie l’état cumulé de la série (à l’abandon, quand l’onglet passe en arrière-plan, à la fin). Le serveur n’enregistre que le nouveau : minutes et erreurs d’une série quittée sont gardées, rien n’est compté deux fois. Hors ligne, la série est mise en attente et renvoyée au prochain chargement.
+- **Dates** : jour de session, série de jours, objectif du jour et calendrier 28 jours calculés côté serveur en Europe/Zurich (`pocketbase/pb_hooks/lib/zurich.js`, testé sur les changements d’heure).
+- **Lecture** : chacun voit ses données ; un prof voit les élèves de ses classes seulement ; l’admin voit tout.
+- **Protection des mineurs** : pas d’e-mail ni de nom complet pour les élèves, pas d’analytics ni de traceur tiers, polices servies par l’appli.
+
+## Limites connues
+
+- **Correction côté client, triche possible.** Les exercices sont générés et corrigés dans le navigateur ; le serveur fait confiance au champ `ok` de chaque réponse. Un élève qui bricole les requêtes peut s’attribuer des XP ou valider un boss. Accepté pour le MVP ; une correction serveur demanderait de générer les questions côté serveur (ou de signer les tirages).
+- L’URL de PocketBase est figée au build de l’appli (`NEXT_PUBLIC_PB_URL`).
+- Pas de paiement : le champ `parcours.payant` existe mais n’est pas utilisé (phase 3).

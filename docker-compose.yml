@@ -1,0 +1,27 @@
+# Développement local : PocketBase + application.
+#   docker compose up --build
+#   → appli http://localhost:3000 · PocketBase http://localhost:8090/_/
+# Puis, une fois : créer le superuser et remplir la base (voir README).
+services:
+  pocketbase:
+    build: ./pocketbase
+    ports:
+      - "8090:8090"
+    volumes:
+      - pb_data:/pb/pb_data
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      args:
+        # Adresse de PocketBase vue par le navigateur.
+        NEXT_PUBLIC_PB_URL: ${NEXT_PUBLIC_PB_URL:-http://localhost:8090}
+    ports:
+      - "3000:3000"
+    depends_on:
+      - pocketbase
+    restart: unless-stopped
+
+volumes:
+  pb_data:
