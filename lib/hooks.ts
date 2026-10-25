@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useApp } from "@/components/AppProvider";
 import { getEtat, type Etat } from "./api";
 
@@ -8,9 +8,10 @@ import { getEtat, type Etat } from "./api";
 export function useRequireAuth() {
   const { ready, user } = useApp();
   const router = useRouter();
+  const path = usePathname();
   useEffect(() => {
-    if (ready && !user) router.replace(`/connexion?suite=${encodeURIComponent(window.location.pathname)}`);
-  }, [ready, user, router]);
+    if (ready && !user) router.replace(`/connexion?suite=${encodeURIComponent(path)}`);
+  }, [ready, user, router, path]);
   return ready && !!user;
 }
 

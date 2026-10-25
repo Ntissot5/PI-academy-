@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import { createContext, useCallback, useContext, useEffect, useRef, useState, type ReactNode } from "react";
 import { pb, type User } from "@/lib/pb";
 import { flushPending, getStats, type Stats } from "@/lib/api";
@@ -53,11 +54,12 @@ export function AppProvider({ children }: { children: ReactNode }) {
     return off;
   }, [refreshStats]);
 
+  const router = useRouter();
   const logout = useCallback(() => {
     pb().authStore.clear();
     setStats(null);
-    window.location.href = "/";
-  }, []);
+    router.replace("/");
+  }, [router]);
 
   const toast = useCallback((t: string) => {
     setToastText(t);

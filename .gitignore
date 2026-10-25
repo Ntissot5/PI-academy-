@@ -13,3 +13,4 @@ captures/
 pocketbase/pb_data_e2e/
 .next-*/
 *.tsbuildinfo
+demo/dist/

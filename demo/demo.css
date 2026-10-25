@@ -1,0 +1,8 @@
+/* Bandeau de la version démo, avec les tokens du design. */
+.demo-bar{background:var(--ice);border-bottom:1px solid var(--line)}
+.demo-bar .in{max-width:1180px;margin:0 auto;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;justify-content:space-between;padding-block:8px;font-size:.88rem;color:var(--muted)}
+.demo-bar b{color:var(--ink)}
+.demo-btns{display:flex;flex-wrap:wrap;gap:6px}
+.demo-btns button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:5px 12px;font-weight:700;font-size:.85rem;color:var(--brand)}
+.demo-btns button:hover{border-color:var(--brand)}
+.demo-btns .reset{color:var(--muted)}

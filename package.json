@@ -11,7 +11,8 @@
     "test:e2e": "playwright test",
     "pb": "bash scripts/pocketbase.sh serve",
     "pb:seed": "node pocketbase/seed/seed.mjs",
-    "demo": "bash scripts/demo.sh"
+    "demo": "bash scripts/demo.sh",
+    "build:demo": "vite build --config demo/vite.config.mts && node demo/inline.mjs"
   },
   "dependencies": {
     "@fontsource/figtree": "^5.3.0",
@@ -27,7 +28,9 @@
     "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "4.7.0",
     "typescript": "5.9.3",
+    "vite": "6.4.5",
     "vitest": "^5.0.5"
   }
 }
