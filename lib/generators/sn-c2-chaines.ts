@@ -38,7 +38,7 @@ export function gen(): Question {
     const nom = ch[i];
     const a = ROLES[i];
     return {
-      q: `Chaîne alimentaire : ${ch[0]} → ${ch[1]} → ${ch[2]}. Quel est le rôle de ${nom} ?`, txt: 1, a, choices: shuffle([...ROLES]),
+      q: `Chaîne alimentaire : ${ch[0]} → ${ch[1]} → ${ch[2]}. Dans cette chaîne, ${nom} : quel rôle ?`, txt: 1, a, choices: shuffle([...ROLES]),
       why: `${ch[0][0].toUpperCase() + ch[0].slice(1)} : producteur ; ${ch[1]} le mange (consommateur de 1er ordre) ; ${ch[2]} mange ${ch[1]} (consommateur de 2e ordre).`,
     };
   }
