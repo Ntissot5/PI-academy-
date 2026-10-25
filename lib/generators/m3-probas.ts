@@ -22,12 +22,12 @@ export function gen(): Question {
   const t = R(0, 7);
   if (t === 0) {
     const [ev, ok] = pick(DE), faces = [1, 2, 3, 4, 5, 6].filter(ok);
-    return { q: `On lance un dé équilibré à 6 faces. Quelle est la probabilité d’obtenir ${ev} ?`, txt: 1, a: faces.length / 6, tol: 0.005, hint: HINT, why: `Cas favorables : ${faces.join(", ")} → ${faces.length} sur 6 = ${frac(faces.length, 6)}.` };
+    return { q: `On lance un dé équilibré à 6 faces. Quelle est la probabilité d’obtenir ${ev} ?`, txt: 1, a: faces.length / 6, tol: 0.0051, hint: HINT, why: `Cas favorables : ${faces.join(", ")} → ${faces.length} sur 6 = ${frac(faces.length, 6)}.` };
   }
   if (t === 1) {
-    const r = R(1, 9), b = R(1, 9), v = R(1, 9), n = r + b + v;
+    const r = R(2, 9), b = R(2, 9), v = R(2, 9), n = r + b + v;
     const [c, k] = pick([["rouge", r], ["bleue", b], ["verte", v]] as const);
-    return { q: `Un sac contient ${r} billes rouges, ${b} bleues et ${v} vertes. Tu en tires une au hasard. Quelle est la probabilité qu’elle soit ${c} ?`, txt: 1, a: k / n, tol: 0.005, hint: HINT, why: `${k} billes ${c}s sur ${n} billes en tout : ${k}/${n}${frac(k, n) !== `${k}/${n}` ? ` = ${frac(k, n)}` : ""}.` };
+    return { q: `Un sac contient ${r} billes rouges, ${b} bleues et ${v} vertes. Tu en tires une au hasard. Quelle est la probabilité qu’elle soit ${c} ?`, txt: 1, a: k / n, tol: 0.0051, hint: HINT, why: `${k} billes ${c}s sur ${n} billes en tout : ${k}/${n}${frac(k, n) !== `${k}/${n}` ? ` = ${frac(k, n)}` : ""}.` };
   }
   if (t === 2) {
     const [ev, k, why] = pick([
@@ -35,13 +35,13 @@ export function gen(): Question {
       ["deux fois le même côté", 2, "Issues : PP, PF, FP, FF. Favorables : PP et FF → 2/4 = 1/2."],
       ["au moins une fois pile", 3, "Issues : PP, PF, FP, FF. Seule FF ne convient pas : 3/4."],
     ] as const);
-    return { q: `On lance deux fois une pièce de monnaie. Quelle est la probabilité d’obtenir ${ev} ?`, txt: 1, a: k / 4, tol: 0.005, hint: HINT, why };
+    return { q: `On lance deux fois une pièce de monnaie. Quelle est la probabilité d’obtenir ${ev} ?`, txt: 1, a: k / 4, tol: 0.0051, hint: HINT, why };
   }
   if (t === 3) {
     const s = R(2, 12), c = 6 - Math.abs(7 - s);
     const paires: string[] = [];
     for (let a = 1; a <= 6; a++) { const b = s - a; if (b >= 1 && b <= 6) paires.push(`${a}+${b}`); }
-    return { q: `On lance deux dés équilibrés et on additionne les points. Quelle est la probabilité que la somme soit ${s} ?`, txt: 1, a: c / 36, tol: 0.005, hint: HINT, why: `Il y a 6 × 6 = 36 issues. Favorables : ${paires.join(", ")} → ${c}/36${frac(c, 36) !== `${c}/36` ? ` = ${frac(c, 36)}` : ""}.` };
+    return { q: `On lance deux dés équilibrés et on additionne les points. Quelle est la probabilité que la somme soit ${s} ?`, txt: 1, a: c / 36, tol: 0.0051, hint: HINT, why: `Il y a 6 × 6 = 36 issues. Favorables : ${paires.join(", ")} → ${c}/36${frac(c, 36) !== `${c}/36` ? ` = ${frac(c, 36)}` : ""}.` };
   }
   if (t === 4) {
     const N = pick([20, 25, 50, 100, 200]), k = R(1, N / 2), f = (k / N) * 100;

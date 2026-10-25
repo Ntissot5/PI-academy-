@@ -1,1 +1,164 @@
-{ "lecons": {} }
+{
+  "lecons": {
+    "m3-angles": {
+      "titre": "Angles et triangles",
+      "regle": "Un angle aigu mesure moins de 90°, un angle droit 90°, un angle obtus entre 90° et 180°, un angle plat 180°. Dans tout triangle, la somme des trois angles vaut 180° ; dans tout quadrilatère, 360° (on le coupe en deux triangles). Dans un triangle isocèle, les deux angles à la base sont égaux ; dans un triangle équilatéral, chaque angle vaut 60°. Dans un parallélogramme, les angles opposés sont égaux et deux angles voisins font 180°.",
+      "exemple": "Triangle avec 50° et 70° : 180 − 50 − 70 = 60°. Quadrilatère avec 80°, 95° et 110° : 360 − 285 = 75°.",
+      "image": "Découpe les trois coins d’un triangle en papier et colle-les côte à côte : ils forment toujours une ligne droite, un angle plat de 180°. Pi l’a essayé avec dix triangles différents !",
+      "piege": "Oublier que la somme d’un quadrilatère vaut 360° et pas 180°. Et un angle de 90° n’est ni aigu ni obtus : il est droit.",
+      "icone": "star"
+    },
+    "m3-figures": {
+      "titre": "Figures planes et droites remarquables",
+      "regle": "Médiatrice : droite perpendiculaire à un segment en son milieu ; ses points sont à égale distance des extrémités. Bissectrice : droite qui coupe un angle en deux angles égaux. Hauteur : droite issue d’un sommet, perpendiculaire au côté opposé. Médiane : segment qui relie un sommet au milieu du côté opposé. Les médiatrices se coupent au centre du cercle circonscrit, les bissectrices au centre du cercle inscrit, les médianes au centre de gravité. Quadrilatères : le parallélogramme a des diagonales qui se coupent en leur milieu ; si elles ont même longueur, c’est un rectangle ; si elles sont perpendiculaires, un losange ; les deux, un carré. Un triangle n’existe que si le plus grand côté est plus court que la somme des deux autres. Sur un plan à l’échelle 1:k, 1 cm représente k cm en réalité.",
+      "exemple": "Côtés 4 cm, 5 cm, 10 cm : 10 > 4 + 5, impossible. Échelle 1:50 : 6 cm sur le plan = 300 cm = 3 m.",
+      "image": "La médiatrice, c’est l’endroit où tu peux poser ton sac pour qu’il soit exactement à la même distance de ta maison et de celle de Pi : tous les points « justes » forment une droite.",
+      "piege": "Confondre médiane (passe par le milieu du côté) et médiatrice (perpendiculaire au milieu du côté), ou hauteur et médiane : la hauteur fait un angle droit, la médiane pas forcément.",
+      "icone": "flower"
+    },
+    "m3-polygones": {
+      "titre": "Polygones réguliers",
+      "regle": "Un polygone régulier a tous ses côtés égaux et tous ses angles égaux. Pour n côtés : angle au centre = 360° ÷ n ; somme des angles intérieurs = (n − 2) × 180° ; chaque angle intérieur = (n − 2) × 180° ÷ n, ce qui vaut aussi 180° − angle au centre ; il a n axes de symétrie et son périmètre vaut n × côté. Noms : pentagone (5), hexagone (6), heptagone (7), octogone (8), décagone (10), dodécagone (12).",
+      "exemple": "Hexagone régulier : angle au centre 360 ÷ 6 = 60°, angle intérieur 4 × 180 ÷ 6 = 120°.",
+      "image": "Une pizza coupée en 8 parts égales : chaque part fait un angle de 360 ÷ 8 = 45° au centre. Relie les bouts des coupes et tu obtiens l’octogone régulier de Pi.",
+      "piege": "Confondre angle au centre et angle intérieur : pour l’hexagone, 60° au centre mais 120° à chaque sommet.",
+      "icone": "star"
+    },
+    "m3-cercle": {
+      "titre": "Angles dans le cercle et entre droites",
+      "regle": "Deux angles opposés par le sommet sont isométriques (égaux). Avec deux droites parallèles coupées par une sécante, les angles alternes-internes sont égaux, les angles correspondants aussi. Dans un cercle, un angle inscrit vaut la moitié de l’angle au centre qui intercepte le même arc ; deux angles inscrits qui interceptent le même arc sont égaux. La tangente en un point est perpendiculaire au rayon en ce point. Cercle de Thalès : si [AB] est un diamètre et C un autre point du cercle, le triangle ABC est rectangle en C.",
+      "exemple": "Angle au centre 80° → angle inscrit 40°. [AB] diamètre, angle en A = 35° → angle en B = 90 − 35 = 55°.",
+      "image": "Les rails de la gare de Lausanne sont parallèles : une route qui les traverse les coupe avec exactement le même angle aux deux rails. Pi le vérifie avec son rapporteur.",
+      "piege": "Doubler au lieu de diviser : l’angle inscrit est la MOITIÉ de l’angle au centre, pas le double.",
+      "icone": "eye"
+    },
+    "m3-solides": {
+      "titre": "Solides : faces, sommets, arêtes",
+      "regle": "Un polyèdre n’a que des faces planes (des polygones) : cube, parallélépipède rectangle, prisme, pyramide. Cylindre, cône et sphère ne sont pas des polyèdres. Prisme à base de n côtés : n + 2 faces, 2n sommets, 3n arêtes. Pyramide à base de n côtés : n + 1 faces, n + 1 sommets, 2n arêtes. Relation d’Euler pour ces polyèdres : faces + sommets − arêtes = 2. Développements : cube = 6 carrés ; cylindre = 2 disques et un rectangle dont un côté vaut le périmètre de la base (2πr) ; cône = un disque et un secteur ; pyramide régulière = la base et n triangles isocèles. En perspective cavalière, la face avant est en vraie grandeur, les arêtes parallèles restent parallèles et les arêtes cachées sont en traitillé.",
+      "exemple": "Prisme à base hexagonale : 8 faces, 12 sommets, 18 arêtes ; 8 + 12 − 18 = 2.",
+      "image": "Déplie une boîte de céréales : tu obtiens 6 rectangles à plat. Le rouleau de papier toilette de Pi, découpé le long, devient un rectangle : c’est le développement d’un cylindre.",
+      "piege": "Compter 6 arêtes pour un cube parce qu’on pense aux faces : il a 6 faces mais 12 arêtes et 8 sommets.",
+      "icone": "folder"
+    },
+    "m3-transfo": {
+      "titre": "Isométries et agrandissements",
+      "regle": "Une isométrie déplace une figure sans la déformer : longueurs, angles, aire et périmètre sont conservés. Dans un repère : translation de vecteur (a ; b) : (x ; y) → (x + a ; y + b). Symétrie d’axe x : (x ; −y). Symétrie d’axe y : (−x ; y). Symétrie de centre O : (−x ; −y) ; de centre C : C est le milieu du point et de son image. Rotation de 90° de centre O, sens inverse des aiguilles d’une montre : (−y ; x). Pour enchaîner deux transformations, on applique la première puis la seconde à l’image. Agrandir ou réduire avec un facteur k multiplie toutes les longueurs par k et l’aire par k².",
+      "exemple": "A(3 ; −2), translation (−1 ; 4) → (2 ; 2). Symétrie d’axe y → (−3 ; −2).",
+      "image": "Quand tu glisses ta trousse sur le banc, elle change de place mais pas de taille : c’est une translation. Ton reflet dans le lac Léman, c’est une symétrie axiale.",
+      "piege": "Croire qu’en doublant les longueurs, l’aire double : elle est multipliée par 4.",
+      "icone": "plane"
+    },
+    "m3-homothetie": {
+      "titre": "Homothéties et similitudes",
+      "regle": "Une homothétie de centre O et de rapport k envoie le point (x ; y) sur (k·x ; k·y). Avec un centre C : on multiplie le vecteur CA par k, puis on part de C. Les longueurs sont multipliées par |k|, les aires par k². Si |k| > 1, la figure est agrandie ; si |k| < 1, elle est réduite ; si k est négatif, l’image passe de l’autre côté du centre ; k = −1 donne une symétrie centrale. Deux figures semblables ont des longueurs proportionnelles : le rapport de similitude est grand ÷ petit.",
+      "exemple": "Centre O, rapport −2 : A(3 ; 1) → (−6 ; −2). Un segment de 5 cm devient 10 cm ; une aire de 4 cm² devient 16 cm².",
+      "image": "Le projecteur de la classe est le centre : plus tu éloignes l’écran, plus l’image de Pi est grande, mais elle garde exactement la même forme.",
+      "piege": "Avec un rapport négatif, la longueur de l’image n’est pas négative : on multiplie par la valeur absolue.",
+      "icone": "eye"
+    },
+    "m3-reperage": {
+      "titre": "Repérage dans le plan et l’espace",
+      "regle": "Un point du plan se repère par (abscisse ; ordonnée). Aller vers la droite ou la gauche change x ; vers le haut ou le bas change y. Quadrants : 1er (x > 0, y > 0), 2e (x < 0, y > 0), 3e (x < 0, y < 0), 4e (x > 0, y < 0). Un point d’ordonnée 0 est sur l’axe des abscisses ; d’abscisse 0, sur l’axe des ordonnées. Milieu de [AB] : la moyenne des abscisses et la moyenne des ordonnées. Dans l’espace, on ajoute une troisième coordonnée, la cote z : (x ; y ; z).",
+      "exemple": "A(−2 ; 5), B(4 ; 1) : milieu ((−2 + 4) ÷ 2 ; (5 + 1) ÷ 2) = (1 ; 3).",
+      "image": "Une place au cinéma : rangée et numéro de siège. Dans un immeuble de Genève, il faut en plus l’étage : c’est la troisième coordonnée de Pi.",
+      "piege": "Inverser les coordonnées : on donne toujours x d’abord (horizontal), puis y (vertical).",
+      "icone": "pin"
+    },
+    "m3-nombres": {
+      "titre": "Divisibilité, pgdc, ppmc, numération",
+      "regle": "Critères : divisible par 2 si le dernier chiffre est pair ; par 5 s’il finit par 0 ou 5 ; par 10 s’il finit par 0 ; par 4 si ses deux derniers chiffres forment un multiple de 4 ; par 25 s’il finit par 00, 25, 50 ou 75 ; par 3 (ou 9) si la somme de ses chiffres est divisible par 3 (ou 9). Un nombre premier a exactement deux diviseurs : 1 et lui-même. Tout nombre se décompose en produit de facteurs premiers. Le pgdc est le plus grand diviseur commun (partages égaux sans reste), le ppmc le plus petit multiple commun (événements qui se répètent). Chiffres romains : I = 1, V = 5, X = 10, L = 50, C = 100, D = 500, M = 1000 ; un symbole avant un plus grand se soustrait (IX = 9). En binaire, chaque chiffre vaut une puissance de 2.",
+      "exemple": "360 = 2³ × 3² × 5. pgdc(24 ; 36) = 12, ppmc(4 ; 6) = 12. MCMXC = 1990. 1011 en binaire = 8 + 2 + 1 = 11.",
+      "image": "Deux bus quittent la gare ensemble, l’un toutes les 10 min, l’autre toutes les 15 min : Pi les reverra partir ensemble après 30 min, le ppmc.",
+      "piege": "Un multiple de 3 n’est pas forcément un multiple de 9 : 21 (2 + 1 = 3) est divisible par 3, pas par 9. Et 51 ou 91 ne sont pas premiers (3 × 17, 7 × 13).",
+      "icone": "note"
+    },
+    "m3-racines": {
+      "titre": "Racines carrées et cubiques",
+      "regle": "La racine carrée de a (a ≥ 0) est le nombre positif dont le carré vaut a : √49 = 7. La racine cubique de a est le nombre dont le cube vaut a : ∛125 = 5. Si a n’est pas un carré parfait, √a est irrationnel : on l’encadre entre deux entiers (√50 entre 7 et 8, car 49 < 50 < 64) ou on l’arrondit. Ensembles : ℕ (naturels) ⊂ ℤ (relatifs) ⊂ ℚ (fractions) ⊂ ℝ (réels, dont √2 et π). Règles : √a · √b = √(a · b) et √(a² · b) = a√b.",
+      "exemple": "√0,36 = 0,6. √72 = √(36 × 2) = 6√2. √2 · √8 = √16 = 4.",
+      "image": "Un carré de jardin de 64 m² : son côté mesure √64 = 8 m. Pour un cube de 27 dm³, Pi cherche ∛27 = 3 dm.",
+      "piege": "√(a + b) n’est pas √a + √b : √(9 + 16) = √25 = 5, pas 3 + 4 = 7.",
+      "icone": "molecule"
+    },
+    "m3-estimation": {
+      "titre": "Résoudre et contrôler un calcul",
+      "regle": "Pour résoudre un problème : lis, trie les données, traduis-les en calcul (avec parenthèses si besoin), calcule, puis contrôle. L’ordre de grandeur s’obtient en arrondissant chaque nombre à un chiffre significatif : il permet d’accepter ou de refuser un résultat. Une calculatrice scientifique respecte les priorités : parenthèses, puissances, × et ÷, puis + et −. Quand on ne voit pas de calcul direct, on peut procéder par essais successifs et ajuster.",
+      "exemple": "412 × 48 ≈ 400 × 50 = 20 000 (exact : 19 776). « Le triple de la somme de 7 et 5 » = 3 × (7 + 5) = 36.",
+      "image": "Avant de payer tes courses au magasin, tu arrondis chaque prix dans ta tête : si la caisse affiche 150 CHF pour un panier estimé à 15 CHF, Pi sait qu’il y a une erreur.",
+      "piege": "Taper 12 + 8 ÷ 4 en pensant obtenir 5 : la calculatrice divise d’abord et affiche 14. Il faut des parenthèses : (12 + 8) ÷ 4.",
+      "icone": "laptop"
+    },
+    "m3-probas": {
+      "titre": "Probabilités simples",
+      "regle": "Quand toutes les issues ont la même chance, probabilité = nombre de cas favorables ÷ nombre de cas possibles. Elle est comprise entre 0 (événement impossible) et 1 (événement certain). La probabilité qu’un événement ne se produise pas vaut 1 moins celle qu’il se produise. Pour deux lancers, on liste toutes les issues (tableau ou arbre) : 4 pour deux pièces, 36 pour deux dés. Sur beaucoup d’essais, la fréquence observée se rapproche de la probabilité.",
+      "exemple": "Dé : P(pair) = 3/6 = 1/2. Deux dés : P(somme = 7) = 6/36 = 1/6.",
+      "image": "Dans le sac de Pi, 3 billes rouges et 5 bleues : en tirant sans regarder, il a 3 chances sur 8 d’avoir une rouge.",
+      "piege": "Croire que les sommes de deux dés sont équiprobables : 7 sort 6 fois plus souvent que 2.",
+      "icone": "star"
+    },
+    "m3-proportion": {
+      "titre": "Proportionnalité",
+      "regle": "Deux grandeurs sont proportionnelles si on passe de l’une à l’autre en multipliant toujours par le même nombre, le facteur de proportionnalité. Pour le trouver, on divise une valeur par la valeur correspondante. Méthodes : passer par l’unité (prix de 1 kg), multiplier par le facteur, ou utiliser les rapports (deux fois plus de personnes, deux fois plus de farine). Un tableau est proportionnel si tous les quotients bas ÷ haut sont égaux. Un agrandissement ou une réduction multiplie toutes les longueurs par le même facteur.",
+      "exemple": "3 kg coûtent 7,50 CHF → 1 kg : 2,50 CHF → 5 kg : 12,50 CHF.",
+      "image": "Pour la fondue de la classe, Pi compte 200 g de fromage par personne : pour 6 personnes 1,2 kg, pour 12 personnes 2,4 kg.",
+      "piege": "Ajouter au lieu de multiplier : si 4 cm deviennent 6 cm (× 1,5), alors 10 cm deviennent 15 cm, pas 12 cm.",
+      "icone": "report"
+    },
+    "m3-echelle": {
+      "titre": "Échelles, pourcentages, pentes",
+      "regle": "Échelle 1:E : 1 cm sur la carte représente E cm en réalité (1 km = 100 000 cm). Pourcentage : p % de N = N × p ÷ 100 ; après un rabais de r %, il reste (100 − r) % du prix ; pour retrouver le prix de départ, on divise par (1 − r/100). Une hausse de x % suivie d’une baisse de x % ne ramène pas au prix de départ. Pente d’une route en % = dénivelé ÷ distance horizontale × 100.",
+      "exemple": "1:25 000, 8 cm → 200 000 cm = 2 km. Rabais 20 % sur 80 CHF → 64 CHF. Pente 8 % sur 500 m → 40 m de montée.",
+      "image": "Sur la carte de rando de Pi au 1:50 000, chaque centimètre vaut un demi-kilomètre de marche.",
+      "piege": "Pour retrouver le prix avant un rabais de 20 %, ajouter 20 % au prix soldé : 64 + 20 % = 76,80, faux. Il faut 64 ÷ 0,8 = 80 CHF.",
+      "icone": "pin"
+    },
+    "m3-vitesse": {
+      "titre": "Vitesse, débit, masse volumique",
+      "regle": "Vitesse moyenne v = d ÷ t ; d = v · t ; t = d ÷ v (avec t en heures pour des km/h ; 1 h 30 = 1,5 h). 1 m/s = 3,6 km/h. Sur un aller-retour, la vitesse moyenne vaut distance totale ÷ temps total, pas la moyenne des deux vitesses. Débit = volume ÷ temps (L/min). Masse volumique ρ = m ÷ V (g/cm³), d’où m = ρ · V et V = m ÷ ρ.",
+      "exemple": "120 km en 1 h 30 : 120 ÷ 1,5 = 80 km/h. 72 km/h = 72 ÷ 3,6 = 20 m/s.",
+      "image": "Le train de Pi entre Fribourg et Berne ne roule pas toujours à la même vitesse : la vitesse moyenne, c’est celle qu’il aurait s’il roulait régulièrement pour arriver à la même heure.",
+      "piege": "Écrire 1 h 30 = 1,3 h : 30 min, c’est une demi-heure, donc 1,5 h.",
+      "icone": "plane"
+    },
+    "m3-fonctions": {
+      "titre": "Fonctions : machines et tableaux",
+      "regle": "Une fonction associe à chaque nombre d’entrée x un seul nombre de sortie. On peut la donner par une « machine » (× 3 puis + 2), par une expression (x → 3x + 2), par un tableau de valeurs ou par un graphique. Pour retrouver l’entrée, on fait le chemin à l’envers (− 2 puis ÷ 3). Dans un tableau d’une fonction affine, la sortie augmente toujours du même nombre quand x augmente de 1. x → ax est une situation de proportionnalité ; x → ax + b (avec b ≠ 0) ne l’est pas ; x → ax² donne des valeurs positives si a > 0, même pour x négatif.",
+      "exemple": "x → 3x + 2 : 0 → 2, 1 → 5, 2 → 8. Il sort 20 → (20 − 2) ÷ 3 = 6.",
+      "image": "Le taxi de Pi : 6 CHF au départ, puis 3 CHF par km. Prix = 3x + 6 : c’est une fonction, mais pas une proportion, car 0 km coûte déjà 6 CHF.",
+      "piege": "Croire qu’une règle trouvée sur une seule colonne suffit : vérifie-la sur tout le tableau.",
+      "icone": "report"
+    },
+    "m3-diagrammes": {
+      "titre": "Lire des données et des diagrammes",
+      "regle": "Moyenne = somme des valeurs ÷ nombre de valeurs. Effectif total = somme des effectifs. Fréquence d’une catégorie en % = effectif ÷ effectif total × 100. Dans un diagramme circulaire, le disque entier (360°) représente le total : angle du secteur = effectif ÷ total × 360°, et 90° = 25 %. Dans un diagramme en colonnes, la hauteur de chaque colonne représente l’effectif : lis l’échelle (combien vaut un carreau). Sur un horaire, la durée se calcule de l’heure de départ à l’heure d’arrivée, en passant par l’heure pleine.",
+      "exemple": "Valeurs 12, 15, 9, 14 : moyenne 50 ÷ 4 = 12,5. 6 élèves sur 24 → 6 × 360 ÷ 24 = 90°.",
+      "image": "Le camembert des goûts de glace de la classe de Pi : si la moitié préfère le chocolat, sa part prend la moitié du disque, 180°.",
+      "piege": "Pour une durée, soustraire les heures comme des nombres décimaux : de 8 h 50 à 9 h 10, il y a 20 min, pas 60.",
+      "icone": "report"
+    },
+    "m3-mesures": {
+      "titre": "Problèmes de mesure",
+      "regle": "Fais un croquis et note les données avec leurs unités. Mets tout dans la même unité avant de calculer. Aire d’un rectangle = longueur × largeur ; d’un triangle = base × hauteur ÷ 2 ; pour une forme compliquée, découpe-la en figures simples ou enlève ce qui manque. Volume d’un pavé = longueur × largeur × hauteur ; 1 m³ = 1000 L et 1 L = 1 dm³ = 1000 cm³. Pour retrouver une grandeur manquante, on inverse la formule (longueur = aire ÷ largeur). Si on achète des pots ou des paquets entiers, on arrondit vers le haut.",
+      "exemple": "Mur 5 m × 2,5 m moins fenêtre 1,5 m × 1 m = 11 m². Un pot couvre 4 m² → 2,75 → 3 pots.",
+      "image": "Pi veut carreler la salle de bain : il compte combien de carreaux tiennent sur la longueur, puis sur la largeur, et multiplie.",
+      "piege": "Mélanger les unités : une pièce de 4 m avec des carreaux de 25 cm, c’est 400 ÷ 25 = 16 carreaux, pas 4 ÷ 25.",
+      "icone": "folder"
+    },
+    "m3-pythagore": {
+      "titre": "Théorème de Pythagore",
+      "regle": "Dans un triangle rectangle, le carré de l’hypoténuse (le côté opposé à l’angle droit, le plus long) est égal à la somme des carrés des deux autres côtés : c² = a² + b². Pour l’hypoténuse : c = √(a² + b²). Pour un côté de l’angle droit : b = √(c² − a²). Réciproque : si le carré du plus grand côté est égal à la somme des carrés des deux autres, le triangle est rectangle. On l’utilise pour une diagonale, une échelle contre un mur, une distance dans un repère ou la hauteur d’un triangle isocèle.",
+      "exemple": "a = 6, b = 8 : c² = 36 + 64 = 100, c = 10. Hypoténuse 13, côté 5 : √(169 − 25) = √144 = 12.",
+      "image": "Pour traverser un terrain rectangulaire, Pi coupe en diagonale : c’est plus court que de longer deux côtés, et Pythagore dit exactement de combien.",
+      "piege": "Additionner les carrés quand on cherche un côté de l’angle droit : il faut soustraire (c² − a²). Et ne pas oublier la racine à la fin.",
+      "icone": "molecule"
+    },
+    "m3-thales": {
+      "titre": "Thalès et figures semblables",
+      "regle": "Si M est sur [AB], N sur [AC] et (MN) parallèle à (BC), alors les triangles AMN et ABC sont semblables : AM/AB = AN/AC = MN/BC. On en déduit aussi AM/MB = AN/NC. Deux figures semblables ont la même forme : leurs longueurs sont proportionnelles (rapport k), leurs angles égaux et leurs aires multipliées par k². Les rayons du soleil étant parallèles, un bâton et son ombre permettent de calculer la hauteur d’un arbre.",
+      "exemple": "AM = 4, AB = 10, AN = 6 : AC = 6 × 10 ÷ 4 = 15. Bâton 1 m, ombre 0,8 m ; arbre, ombre 6,4 m → hauteur 8 m.",
+      "image": "Pi mesure la hauteur de la cathédrale de Lausanne sans grimper : il compare son ombre à celle d’un bâton planté à côté, au même moment.",
+      "piege": "Mélanger les côtés : AM se compare à AB (côté entier), pas à MB, sauf si tu écris aussi AN/NC de l’autre côté.",
+      "icone": "eye"
+    }
+  }
+}

@@ -1,1 +1,156 @@
-{ "lecons": {} }
+{
+ "lecons": {
+  "m2-figures-56": {
+   "titre": "Figures planes et symétries",
+   "regle": "On reconnaît une figure à ses propriétés. Le carré a 4 côtés égaux et 4 angles droits. Le rectangle a 4 angles droits et ses côtés opposés égaux. Le losange a 4 côtés égaux, sans angle droit obligatoire. Le triangle a 3 côtés. Tous les points du cercle sont à la même distance du centre. Deux droites parallèles ne se rencontrent jamais ; deux droites perpendiculaires se coupent en formant un angle droit. Un axe de symétrie partage une figure en deux moitiés qui se superposent par pliage : le carré en a 4, le rectangle et le losange 2, le cercle une infinité. Faire glisser (translation) ou retourner (symétrie) une figure ne change ni ses longueurs ni ses angles.",
+   "exemple": "Un rectangle de 6 cm sur 3 cm : 4 angles droits, côtés opposés parallèles, 2 axes de symétrie.",
+   "image": "Plie une feuille en deux et découpe une forme : quand tu déplies, les deux moitiés sont pareilles. Le pli, c’est l’axe de symétrie. Pi le fait avec ses cartes d’anniversaire.",
+   "piege": "Les diagonales d’un rectangle ne sont pas des axes de symétrie : si tu plies selon la diagonale, les deux moitiés ne se superposent pas.",
+   "icone": "star"
+  },
+  "m2-figures-78": {
+   "titre": "Triangles, quadrilatères, isométries",
+   "regle": "Triangles : équilatéral (3 côtés égaux, 3 axes), isocèle (2 côtés égaux, 1 axe), rectangle (un angle droit), quelconque. Quadrilatères : le trapèze a une paire de côtés parallèles ; le parallélogramme a ses côtés opposés parallèles ; le losange a 4 côtés égaux ; le rectangle a 4 angles droits ; le carré est à la fois un losange et un rectangle. Les isométries déplacent une figure sans la déformer : la translation la fait glisser, la symétrie axiale la retourne comme un miroir, la rotation la fait tourner autour d’un point. Sur un quadrillage, une translation ajoute le même décalage à chaque point ; le symétrique d’un point est à la même distance de l’axe, de l’autre côté. Agrandir ×k multiplie chaque longueur par k.",
+   "exemple": "Un carré est toujours un rectangle, mais un rectangle n’est que parfois un carré.",
+   "image": "Les isométries, c’est comme tes déplacements au skate-park : glisser tout droit (translation), faire demi-tour sur place (rotation), ou voir ton reflet dans la vitre (symétrie). Pi reste toujours de la même taille !",
+   "piege": "Si on agrandit un rectangle 2 fois, l’aire n’est pas doublée : elle est multipliée par 4 (2 × 2).",
+   "icone": "star"
+  },
+  "m2-solides": {
+   "titre": "Les solides",
+   "regle": "Un solide a des faces (surfaces planes), des arêtes (où deux faces se touchent) et des sommets (les coins). Le cube a 6 faces carrées, 12 arêtes et 8 sommets. Le parallélépipède rectangle (une boîte) a aussi 6 faces, 12 arêtes et 8 sommets, mais ses faces sont des rectangles. La pyramide à base carrée a 5 faces (1 carré + 4 triangles), 8 arêtes et 5 sommets. Le développement (patron) d’un solide est la figure plane qu’on plie pour le fabriquer : le patron du cube a 6 carrés. Pour compter les cubes d’une construction en pavé, on compte une couche puis on multiplie par le nombre de couches.",
+   "exemple": "Une construction de 4 × 3 cubes sur 2 couches : 12 × 2 = 24 cubes.",
+   "image": "Déplie une boîte de céréales : tu obtiens son patron, 6 rectangles collés. Pi le replie pour ranger ses billes.",
+   "piege": "On oublie les cubes cachés derrière ou en dessous quand on compte un assemblage sur un dessin.",
+   "icone": "molecule"
+  },
+  "m2-reperage": {
+   "titre": "Se repérer sur un quadrillage",
+   "regle": "Sur un quadrillage, une case se repère par sa colonne (une lettre) et sa ligne (un nombre) : C4 = colonne C, ligne 4. Pour suivre un itinéraire, on avance case par case : → et ← changent la colonne, ↑ et ↓ changent la ligne. Les points cardinaux, dans le sens des aiguilles d’une montre : nord, est, sud, ouest. Sur un plan bien orienté, le nord est en haut, l’est à droite, le sud en bas et l’ouest à gauche. Pour retrouver un point de départ, on fait le chemin à l’envers.",
+   "exemple": "Départ B2, puis 3 cases à droite et 1 vers le haut : E3.",
+   "image": "C’est comme la bataille navale : « D5 ? Touché ! ». Pi note toujours la lettre d’abord, le nombre ensuite.",
+   "piege": "On confond colonnes et lignes : la lettre indique la colonne (gauche-droite), le nombre la ligne (bas-haut).",
+   "icone": "pin"
+  },
+  "m2-paver": {
+   "titre": "Décomposer une surface",
+   "regle": "Pour mesurer une surface sur papier quadrillé, on compte les carreaux qu’elle couvre. Une figure compliquée se découpe en rectangles faciles à compter, ou se voit comme un grand rectangle auquel on enlève un morceau. Deux demi-carreaux font un carreau. Si on change d’unité (par exemple des triangles d’un demi-carreau), le nombre change, mais la surface reste la même.",
+   "exemple": "Rectangle de 5 × 4 = 20 carreaux, moins un coin de 2 × 1 = 2 : la figure en L couvre 18 carreaux.",
+   "image": "Pour carreler la salle de bains, on compte les catelles rangée par rangée. Pi coupe les catelles en deux pour les bords.",
+   "piege": "On compte deux fois les carreaux de la zone où deux rectangles se touchent : découpe bien sans recouvrement.",
+   "icone": "flower"
+  },
+  "m2-nombres-56": {
+   "titre": "Lire et écrire les nombres",
+   "regle": "Un nombre s’écrit avec des chiffres rangés de droite à gauche : unités, dizaines, centaines, milliers. 1 dizaine = 10 unités, 1 centaine = 10 dizaines, 1 millier = 10 centaines. Un rang vide s’écrit 0 : 3 milliers et 5 unités = 3005. Le chiffre des dizaines de 4372 est 7, mais 4372 contient 437 dizaines en tout. Pour comparer deux nombres, on regarde d’abord le nombre de chiffres, puis on compare chiffre par chiffre depuis la gauche. En Suisse romande, on dit septante (70) et nonante (90). Les Romains utilisaient des lettres : I = 1, V = 5, X = 10, L = 50, C = 100.",
+   "exemple": "4 milliers + 2 dizaines + 6 unités = 4026 (quatre mille vingt-six).",
+   "image": "Les chiffres, c’est comme des places dans un car : chacun a sa rangée. Si une rangée est vide, Pi y met un 0 pour garder la place.",
+   "piege": "On oublie le 0 d’un rang vide : « deux mille trente » s’écrit 2030, pas 230.",
+   "icone": "note"
+  },
+  "m2-nombres-78": {
+   "titre": "Décimaux, fractions, relatifs",
+   "regle": "Après la virgule, on trouve les dixièmes, puis les centièmes, puis les millièmes. 1 unité = 10 dixièmes = 100 centièmes = 1000 millièmes. Pour comparer des décimaux, on compare la partie entière, puis les dixièmes, puis les centièmes : on peut ajouter des zéros à droite (2,5 = 2,50). Un même nombre a plusieurs écritures : 1/2 = 0,5 = 5 dixièmes. Le quart de 20, c’est 20 : 4 = 5 ; les trois quarts, 5 × 3 = 15. Entre deux fractions de numérateur 1, la plus grande a le plus petit dénominateur. Les nombres négatifs (−3) sont à gauche de 0 sur la droite graduée. 2³ = 2 × 2 × 2 = 8.",
+   "exemple": "2,5 > 2,45 car 2,50 > 2,45 (5 dixièmes contre 4 dixièmes).",
+   "image": "Au supermarché, 2,50 CHF c’est 2 francs et 50 centimes, plus cher que 2,45 CHF. Pi compare les prix rang par rang.",
+   "piege": "2,45 n’est pas plus grand que 2,5 parce que « 45 est plus grand que 5 » : il faut comparer les dixièmes d’abord.",
+   "icone": "note"
+  },
+  "m2-denombrer": {
+   "titre": "Compter, grouper, estimer",
+   "regle": "Pour compter une grande collection, on fait des paquets de 10, de 100, de 1000 : 3 paquets de 100, 4 de 10 et 7 seuls font 347. Compter de 10 en 10 ou de 100 en 100, c’est ajouter toujours le même nombre (attention au passage de la centaine ou du millier). Pour estimer, on arrondit puis on calcule de tête. Les nombres ne s’arrêtent jamais : on peut toujours ajouter 1. Un million = 1 000 000 = mille milliers ; un milliard = mille millions. Et entre deux décimaux, on peut toujours en trouver un autre.",
+   "exemple": "Compter de 100 en 100 depuis 2950 : 2950, 3050, 3150…",
+   "image": "Au stade, on ne compte pas les spectateurs un par un : on compte une rangée et on multiplie. Pi estime ainsi les billes dans le bocal.",
+   "piege": "En comptant de 10 en 10 depuis 1995, on oublie le passage du millier : après 1995 vient 2005, pas 1905.",
+   "icone": "eye"
+  },
+  "m2-enigmes": {
+   "titre": "Chercher et raisonner",
+   "regle": "Pour résoudre une énigme, on organise la recherche : on fait la liste des nombres possibles, puis on élimine ceux qui ne respectent pas un indice. On peut aussi faire des essais et les ajuster, ou faire les opérations à l’envers (si on a multiplié par 3 puis ajouté 5, on enlève 5 puis on divise par 3). À la fin, on vérifie toujours que la réponse respecte toutes les conditions.",
+   "exemple": "Je pense à un nombre, ×2 puis +3 donne 17 : 17 − 3 = 14, 14 : 2 = 7.",
+   "image": "C’est comme un jeu de détective : chaque indice élimine des suspects jusqu’à ce qu’il n’en reste qu’un. Pi garde sa liste et barre au fur et à mesure.",
+   "piege": "Oublier de vérifier : le nombre trouvé doit respecter tous les indices, pas seulement le dernier.",
+   "icone": "folder"
+  },
+  "m2-calcul-56": {
+   "titre": "Calculer vite et juste",
+   "regle": "Il faut connaître par cœur les tables de multiplication jusqu’à 9 × 9 et les soustractions comme 15 − 8. En colonnes, on aligne les unités sous les unités et on n’oublie pas les retenues. Pour calculer astucieusement, on peut changer l’ordre des termes d’une addition ou des facteurs d’une multiplication (commutativité) et les regrouper (associativité) : 25 × 7 × 4 = 25 × 4 × 7 = 700. On peut aussi décomposer : 99 + 47 = 100 + 47 − 1 = 146. Pour estimer, on arrondit avant de calculer.",
+   "exemple": "48 + 37 + 52 = (48 + 52) + 37 = 100 + 37 = 137.",
+   "image": "Ranger les nombres qui « vont bien ensemble » (qui font 10, 100…), c’est comme faire des paires de chaussettes : Pi les regroupe d’abord, c’est plus rapide.",
+   "piege": "On ne peut pas changer l’ordre d’une soustraction : 9 − 4 n’est pas égal à 4 − 9.",
+   "icone": "laptop"
+  },
+  "m2-calcul-78": {
+   "titre": "Calculs avec des décimaux",
+   "regle": "Livret jusqu’à 12 × 12. Distributivité : 7 × 98 = 7 × 100 − 7 × 2 = 686. Pour additionner ou soustraire des décimaux en colonnes, on aligne les virgules et on complète par des zéros. Pour multiplier, on calcule sans virgule puis on place autant de décimales que dans les deux facteurs réunis. Division euclidienne : dividende = diviseur × quotient + reste, et le reste est plus petit que le diviseur. Pour une division décimale, on continue après la virgule en ajoutant des zéros. Priorités : × et : avant + et −, sauf s’il y a des parenthèses.",
+   "exemple": "3,4 × 2,1 : 34 × 21 = 714, 2 décimales → 7,14.",
+   "image": "Partager 50 CHF entre 4 amis : 12 francs chacun et il reste 2 francs ; si on casse ces 2 francs en centimes, chacun reçoit 12,50 CHF. Pi continue toujours la division après la virgule.",
+   "piege": "Dans une addition de décimaux, on n’aligne pas les nombres à droite mais sur la virgule : 12,5 + 3,25 = 15,75.",
+   "icone": "laptop"
+  },
+  "m2-multiples-56": {
+   "titre": "Multiples et suites",
+   "regle": "Les multiples de 4 sont les nombres de la table de 4 : 0, 4, 8, 12, 16… Un nombre est divisible par 2 s’il se termine par 0, 2, 4, 6 ou 8 ; par 5 s’il se termine par 0 ou 5 ; par 10 s’il se termine par 0 ; par 100 s’il se termine par 00. Dans une suite arithmétique, on ajoute (ou on enlève) toujours le même nombre : 5, 12, 19, 26… (+7).",
+   "exemple": "Le premier multiple de 6 plus grand que 40 est 42 (6 × 7).",
+   "image": "Les marches d’un escalier ont toutes la même hauteur : monter de marche en marche, c’est comme une suite où on ajoute toujours la même chose. Pi compte ses pas de 3 en 3.",
+   "piege": "Un nombre qui se termine par 5 n’est pas divisible par 2 : il est impair.",
+   "icone": "report"
+  },
+  "m2-multiples-78": {
+   "titre": "Diviseurs, critères, suites",
+   "regle": "a est un diviseur de b si la division de b par a tombe juste : les diviseurs de 12 sont 1, 2, 3, 4, 6, 12. On les cherche par paires (1 × 12, 2 × 6, 3 × 4). Critères : par 3 si la somme des chiffres est divisible par 3 ; par 9 si elle est divisible par 9 ; par 2, 5, 10, 100 selon le dernier ou les deux derniers chiffres. Une suite a une loi de formation : on ajoute toujours la même chose, on multiplie par le même nombre, ou ce sont des carrés (1, 4, 9, 16…).",
+   "exemple": "471 : 4 + 7 + 1 = 12, divisible par 3, donc 471 est divisible par 3.",
+   "image": "Pour faire des équipes égales avec 24 élèves, on peut en faire 2, 3, 4, 6, 8 ou 12 : ce sont les diviseurs de 24. Pi aime les nombres qui se partagent de beaucoup de façons.",
+   "piege": "Le critère de 9 n’est pas « se termine par 9 » : 19 n’est pas divisible par 9, mais 72 oui (7 + 2 = 9).",
+   "icone": "report"
+  },
+  "m2-calculatrice": {
+   "titre": "Bien utiliser la calculatrice",
+   "regle": "Une calculatrice qui respecte les priorités calcule × et : avant + et − : 3 + 4 × 6 = 27. Une calculatrice simple calcule au fur et à mesure : elle affichera 42. Les parenthèses se calculent en premier : 30 − (3 + 4 × 6) = 3. Après « = », le résultat reste affiché et on peut continuer le calcul à partir de lui. Avant de croire l’affichage, on estime l’ordre de grandeur : 48 × 21 ≈ 50 × 20 = 1000, donc 10 080 est faux.",
+   "exemple": "12 × 15 = 180, puis : 4 = 45.",
+   "image": "La calculatrice, c’est comme un GPS : très utile, mais si elle t’envoie dans le lac, tu dois t’en rendre compte ! Pi vérifie toujours l’ordre de grandeur.",
+   "piege": "Une faute de frappe (un chiffre en trop, deux chiffres inversés) donne un résultat faux : l’estimation permet de la repérer.",
+   "icone": "laptop"
+  },
+  "m2-problemes-56": {
+   "titre": "Résoudre un problème",
+   "regle": "1. Lis l’énoncé et repère la question. 2. Trie les informations utiles. 3. Choisis l’opération : on réunit deux parties (+), on cherche une partie ou un écart (−), on répète le même nombre plusieurs fois (×). 4. Calcule, puis vérifie que la réponse a du sens. « De plus » ne veut pas toujours dire addition : il faut comprendre la situation. Pour un prix proportionnel, on cherche d’abord le prix d’un seul objet. Avec de l’argent, 1 CHF = 100 centimes.",
+   "exemple": "3 cahiers coûtent 6 CHF : 1 cahier coûte 2 CHF, donc 7 cahiers coûtent 14 CHF.",
+   "image": "Un problème, c’est comme une recette : d’abord tu sors les bons ingrédients (les données), puis tu suis les étapes. Pi fait toujours un petit dessin.",
+   "piege": "« Léa a 12 billes, c’est 5 de plus que Tom » : Tom en a 12 − 5 = 7, pas 17.",
+   "icone": "mail"
+  },
+  "m2-problemes-78": {
+   "titre": "Problèmes à plusieurs étapes",
+   "regle": "Pour un problème à étapes, on écrit chaque calcul et ce qu’il représente. On peut utiliser des parenthèses pour écrire tout en un seul calcul : 3 × (2 + 1). Dans une division, le reste doit être interprété : s’il reste des élèves, il faut un car de plus. Deux grandeurs sont proportionnelles si on passe de l’une à l’autre en multipliant toujours par le même nombre ; on peut passer par l’unité. Sur un graphique de vitesse constante, la distance double quand la durée double.",
+   "exemple": "215 élèves, cars de 50 : 215 : 50 = 4 reste 15, donc 5 cars.",
+   "image": "Préparer une course d’école, c’est plein de petits calculs : le prix total, le nombre de cars, la monnaie à rendre. Pi les fait un par un, dans l’ordre.",
+   "piege": "Arrondir mal le résultat d’une division : 4,3 cars n’existe pas, il en faut 5.",
+   "icone": "mail"
+  },
+  "m2-mesures-56": {
+   "titre": "Mesurer des longueurs et des durées",
+   "regle": "1 m = 100 cm. 3 m 45 cm = 345 cm = 3,45 m. Pour mesurer, on choisit une unité adaptée : cm pour une gomme, m pour la cour, kg pour un sac de pommes de terre, min pour une récréation. Avec une règle, on lit la graduation du début et celle de la fin : la longueur est la différence. On peut mesurer avec une unité inventée (un crayon, un empan) : plus l’unité est grande, moins on la reporte de fois. 1 h = 60 min. Estimer, c’est donner une valeur proche en comparant avec un objet connu (une porte mesure environ 2 m).",
+   "exemple": "Un trait de la graduation 3 cm à 11 cm mesure 8 cm.",
+   "image": "Ta taille, notée sur le mur de la cuisine, ou la longueur de ton saut à la gym : on mesure partout ! Pi mesure son lit en empans.",
+   "piege": "Sur une règle, on ne commence pas toujours à 0 : si le trait part de 2 cm, il faut soustraire 2.",
+   "icone": "cal31"
+  },
+  "m2-mesures-78": {
+   "titre": "Unités et conversions",
+   "regle": "Longueurs : 1 km = 1000 m, 1 m = 10 dm = 100 cm = 1000 mm. Masses : 1 t = 1000 kg, 1 kg = 1000 g. Capacités : 1 l = 10 dl = 100 cl. Durées : 1 h = 60 min, 1 min = 60 s. Aires : 1 m² = 100 dm², 1 dm² = 100 cm². Volumes : 1 m³ = 1000 dm³, 1 dm³ = 1000 cm³ = 1 litre. Pour passer à une unité plus petite, on multiplie ; à une plus grande, on divise. Les angles se mesurent en degrés avec un rapporteur : aigu < 90°, droit = 90°, obtus entre 90° et 180°, plat = 180°. D’autres pays utilisent d’autres unités : 1 pouce = 2,54 cm, 1 mile ≈ 1,6 km.",
+   "exemple": "2,5 km = 2500 m ; 750 g = 0,75 kg ; 1 h 15 min = 75 min.",
+   "image": "Dans une recette, 2 dl de lait ou 200 ml, c’est pareil ; Pi convertit avant de verser pour ne pas rater le gâteau.",
+   "piege": "1 h 30 min ne vaut pas 1,30 h mais 1,5 h : une heure a 60 minutes, pas 100.",
+   "icone": "cal31"
+  },
+  "m2-aires": {
+   "titre": "Périmètre, aire, volume",
+   "regle": "Le périmètre est la longueur du tour : rectangle 2 × (L + l), carré 4 × c. L’aire mesure la surface : rectangle L × l, carré c × c, triangle b × h : 2, parallélogramme b × h, losange D × d : 2. Une figure compliquée se découpe en rectangles. Le volume mesure la place occupée : cube a × a × a, parallélépipède rectangle L × l × h. Les unités : cm pour un périmètre, cm² pour une aire, cm³ pour un volume.",
+   "exemple": "Rectangle 8 m sur 5 m : périmètre 26 m, aire 40 m².",
+   "image": "Le périmètre, c’est la clôture autour du jardin ; l’aire, c’est le gazon à semer ; le volume, c’est la terre dans le bac. Pi achète la clôture en mètres et le gazon en m².",
+   "piege": "Confondre périmètre et aire : pour un carré de 4 cm, le périmètre et l’aire font tous deux 16, mais l’un est en cm et l’autre en cm².",
+   "icone": "plane"
+  }
+ }
+}

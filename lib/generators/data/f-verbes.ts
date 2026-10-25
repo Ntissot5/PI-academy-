@@ -45,7 +45,7 @@ function er(inf: string, o: { etre?: boolean } = {}): Def {
   const devantAO = (t: string) => (r.endsWith("g") ? r + "e" : r.endsWith("c") ? r.slice(0, -1) + "ç" : r) + t;
   pr[3] = devantAO("ons");
   const muet = (f: (s: string) => string) => { pr = pr.map((x, i) => ([0, 1, 2, 5].includes(i) ? f(x) : x)); };
-  const m = r.match(/^(.*)([eé])([^aeiouyéè]+)$/); // e/é + consonne(s) + er
+  const m = r.match(/^(.*)([eé])([^aeiouyéè])$/); // e/é + consonne(s) + er
   if (/(eter|eler)$/.test(inf) && !["acheter", "peler", "modeler", "geler"].includes(inf)) {
     // jeter, appeler : on double la consonne devant un e muet
     const dbl = (s: string) => s.replace(/(et|el)(e|es|ent)$/, (_, a, t) => a + a.slice(-1) + t);
@@ -68,7 +68,6 @@ function er(inf: string, o: { etre?: boolean } = {}): Def {
     muet((s) => s.replace(/y(e|es|ent)$/, "i$1") + "|" + s);
     fut = `${r.slice(0, -1)}ier|${inf}`;
   }
-  if (!fut.includes("|") && !fut.endsWith("r")) fut += "";
   const ps = ["ai", "as", "a", "âmes", "âtes", "èrent"].map((t) => (t === "èrent" ? r.replace(/ç$/, "c") : devantAO("")) + t);
   return { pr, fut, ps, pp: r + "é", etre: o.etre, groupe: 1 };
 }
@@ -164,7 +163,7 @@ export function def(v: string): Def {
 /** Les verbes connus (tous les verbes du PER cités en L1 26 et L1 36). */
 export const VERBES_PER = {
   c2: ["être", "avoir", "aller", "chanter", "aimer", "finir", "dire", "faire", "entendre", "rendre", "savoir", "vouloir", "manger", "commencer", "mettre", "pouvoir", "oublier", "prendre", "sortir", "courir", "voir", "venir", "employer", "payer", "acheter", "peler", "appeler", "jeter", "craindre", "plaire", "fuir", "valoir", "boire", "ouvrir", "vivre"],
-  "9e": ["être", "avoir", "faire", "dire", "pouvoir", "aller", "voir", "savoir", "vouloir", "devoir", "croire", "prendre", "comprendre", "apprendre", "aimer", "parler", "mettre", "tenir", "venir", "devenir", "rendre", "entendre", "répondre", "attendre", "perdre", "descendre", "connaître", "paraître", "sentir", "sortir", "partir", "vivre", "écrire", "placer", "commencer", "avancer", "suivre", "mourir", "couvrir", "ouvrir", "offrir", "souffrir", "lire", "acheter"],
+  "9e": ["être", "avoir", "faire", "dire", "pouvoir", "aller", "voir", "savoir", "vouloir", "falloir", "devoir", "croire", "prendre", "comprendre", "apprendre", "aimer", "parler", "mettre", "tenir", "venir", "devenir", "rendre", "entendre", "répondre", "attendre", "perdre", "descendre", "connaître", "paraître", "sentir", "sortir", "partir", "vivre", "écrire", "placer", "commencer", "avancer", "suivre", "mourir", "couvrir", "ouvrir", "offrir", "souffrir", "lire", "acheter"],
   "10e": ["servir", "jeter", "appeler", "recevoir", "apercevoir", "peser", "lever", "rire", "sourire", "finir", "agir", "apprécier", "crier", "oublier", "courir", "envoyer", "manger", "valoir", "plaire", "dormir", "céder", "répéter", "espérer", "cuire", "conduire", "produire", "craindre", "peindre", "éteindre", "payer", "essayer", "asseoir"],
   "11e": ["acquérir", "assiéger", "battre", "boire", "broyer", "conclure", "créer", "croître", "cueillir", "fuir", "haïr", "modeler", "mouvoir", "naître", "vaincre"],
 };
@@ -180,17 +179,18 @@ export function present(v: string): string[] {
 /** Radical de l'imparfait (nous mangeons → mange, nous plaçons → plaç). */
 function radImp(v: string): string {
   const d = def(v);
-  return d.impf ?? v1(d.pr[3])[0].replace(/ons$/, "");
+  return d.impf ?? map(d.pr[3], (x) => x.replace(/ons$/, ""));
 }
 
 export function imparfait(v: string): string[] {
-  const r = radImp(v);
-  return ["ais", "ais", "ait", "ions", "iez", "aient"].map((t) => {
-    let x = r;
-    if (t.startsWith("i") && x.endsWith("ge")) x = x.slice(0, -1);
-    if (t.startsWith("i") && x.endsWith("ç")) x = x.slice(0, -1) + "c";
-    return x + t;
-  });
+  return ["ais", "ais", "ait", "ions", "iez", "aient"].map((t) =>
+    map(radImp(v), (r) => {
+      let x = r;
+      if (t.startsWith("i") && x.endsWith("ge")) x = x.slice(0, -1);
+      if (t.startsWith("i") && x.endsWith("ç")) x = x.slice(0, -1) + "c";
+      return x + t;
+    }),
+  );
 }
 
 export function futur(v: string): string[] {
@@ -236,14 +236,13 @@ export function imperatif(v: string): [string, string, string] {
   const d = def(v);
   if (d.impe) return d.impe;
   const pr = d.pr;
-  const tu = v1(pr[1])[0];
   const sansS = d.groupe === 1 || /e$/.test(v1(pr[0])[0]); // chante, ouvre, cueille
-  return [sansS ? map(pr[1], (x) => x.replace(/s$/, "")) : pr[1], pr[3], pr[4]].map((x, i) => (i === 0 && !sansS ? x : x)) as [string, string, string];
+  return [sansS ? map(pr[1], (x) => x.replace(/s$/, "")) : pr[1], pr[3], pr[4]];
 }
 
 export function participePresent(v: string): string {
   const d = def(v);
-  return d.ppr ?? radImp(v) + "ant";
+  return d.ppr ?? map(radImp(v), (r) => r + "ant");
 }
 
 /* ---------- Temps composés ---------- */

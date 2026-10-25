@@ -57,7 +57,7 @@ export function gen(): Question {
     };
   }
   const p = pick(PERS);
-  const [debut, fin, prep] = pick([
+  const [debut, fin, prep] = pick(([
     ["Ich spreche mit", "", "mit + datif"],
     ["Ich helfe", "", "helfen + datif"],
     ["Ich gebe", " das Buch", "geben : à qui ? → datif"],

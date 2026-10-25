@@ -1,4 +1,4 @@
-import { NZ, R, S, pick } from "../math";
+import { NZ, P, R, S, pick } from "../math";
 import type { Question } from "./types";
 import { melange, pt } from "./m3-outils";
 
@@ -10,7 +10,7 @@ export function gen(): Question {
   if (t === 0) {
     const x1 = R(-9, 9), y1 = R(-9, 9), x2 = x1 + 2 * NZ(-5, 5), y2 = y1 + 2 * NZ(-5, 5), abs = R(0, 1) === 1;
     const mx = (x1 + x2) / 2, my = (y1 + y2) / 2;
-    return { q: `A${pt(x1, y1)} et B${pt(x2, y2)}. Quelle est ${abs ? "l’abscisse (x)" : "l’ordonnée (y)"} du milieu M de [AB] ?`, txt: 1, a: abs ? mx : my, hint: "La moyenne des deux coordonnées.", why: `M = ((${S(x1)} + ${S(x2)}) ÷ 2 ; (${S(y1)} + ${S(y2)}) ÷ 2) = ${pt(mx, my)}.` };
+    return { q: `A${pt(x1, y1)} et B${pt(x2, y2)}. Quelle est ${abs ? "l’abscisse (x)" : "l’ordonnée (y)"} du milieu M de [AB] ?`, txt: 1, a: abs ? mx : my, hint: "La moyenne des deux coordonnées.", why: `M = ((${S(x1)} + ${P(x2)}) ÷ 2 ; (${S(y1)} + ${P(y2)}) ÷ 2) = ${pt(mx, my)}.` };
   }
   if (t === 1) {
     const x = NZ(-9, 9), y = NZ(-9, 9);
@@ -50,8 +50,8 @@ export function gen(): Question {
     const y = R(-6, 6), x1 = R(-9, 3), x2 = x1 + R(2, 9);
     const [p, q] = R(0, 1) ? [x1, x2] : [x2, x1];
     return R(0, 1)
-      ? { q: `Quelle est la distance entre A${pt(p, y)} et B${pt(q, y)} (en unités) ?`, txt: 1, a: x2 - x1, why: `Même ordonnée : on compare les abscisses, ${S(Math.max(p, q))} − ${S(Math.min(p, q))} = ${x2 - x1}.` }
-      : { q: `Quelle est la distance entre A${pt(y, p)} et B${pt(y, q)} (en unités) ?`, txt: 1, a: x2 - x1, why: `Même abscisse : on compare les ordonnées, ${S(Math.max(p, q))} − ${S(Math.min(p, q))} = ${x2 - x1}.` };
+      ? { q: `Quelle est la distance entre A${pt(p, y)} et B${pt(q, y)} (en unités) ?`, txt: 1, a: x2 - x1, why: `Même ordonnée : on compare les abscisses, ${S(Math.max(p, q))} − ${P(Math.min(p, q))} = ${x2 - x1}.` }
+      : { q: `Quelle est la distance entre A${pt(y, p)} et B${pt(y, q)} (en unités) ?`, txt: 1, a: x2 - x1, why: `Même abscisse : on compare les ordonnées, ${S(Math.max(p, q))} − ${P(Math.min(p, q))} = ${x2 - x1}.` };
   }
   const ax = R(-6, 6), ay = R(-6, 6), mx = ax + NZ(-4, 4), my = ay + NZ(-4, 4), abs = pick([true, false]);
   const bx = 2 * mx - ax, by = 2 * my - ay;

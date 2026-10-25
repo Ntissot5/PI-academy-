@@ -1,4 +1,4 @@
-import { NZ, R, S, fr, pick } from "../math";
+import { NZ, P, R, S, fr, pick } from "../math";
 import type { Question } from "./types";
 import { qcm, pt } from "./m3-outils";
 
@@ -22,7 +22,7 @@ export function gen(): Question {
   const x = NZ(-8, 8), y = NZ(-8, 8);
   if (t === 0) {
     const a = NZ(-6, 6), b = NZ(-6, 6);
-    return coord(`On applique au point A${pt(x, y)} la translation de vecteur ${pt(a, b)}.`, x + a, y + b, `On ajoute le vecteur : (${S(x)} + ${S(a)} ; ${S(y)} + ${S(b)}).`);
+    return coord(`On applique au point A${pt(x, y)} la translation de vecteur ${pt(a, b)}.`, x + a, y + b, `On ajoute le vecteur : (${S(x)} + ${P(a)} ; ${S(y)} + ${P(b)}).`);
   }
   if (t === 1) {
     const k = R(0, 2), [nom, f] = TRANSFOS[k], [x2, y2] = f(x, y);
@@ -31,7 +31,7 @@ export function gen(): Question {
   }
   if (t === 2) {
     const cx = NZ(-4, 4), cy = NZ(-4, 4);
-    return coord(`On applique au point A${pt(x, y)} la symétrie centrale de centre C${pt(cx, cy)}.`, 2 * cx - x, 2 * cy - y, `C est le milieu de A et de son image : x' = 2 × ${S(cx)} − ${S(x)}, y' = 2 × ${S(cy)} − ${S(y)}.`);
+    return coord(`On applique au point A${pt(x, y)} la symétrie centrale de centre C${pt(cx, cy)}.`, 2 * cx - x, 2 * cy - y, `C est le milieu de A et de son image : x' = 2 × ${P(cx)} − ${P(x)}, y' = 2 × ${P(cy)} − ${P(y)}.`);
   }
   if (t === 3) {
     const [nom, f] = TRANSFOS[3], [x2, y2] = f(x, y);
@@ -69,7 +69,7 @@ export function gen(): Question {
   if (t === 6) {
     // Composition : symétrie d'axe y puis translation
     const a = NZ(-5, 5), b = NZ(-5, 5);
-    return coord(`On applique au point A${pt(x, y)} la symétrie d’axe des ordonnées, puis la translation de vecteur ${pt(a, b)}.`, -x + a, y + b, `Symétrie : ${pt(-x, y)} ; translation : (${S(-x)} + ${S(a)} ; ${S(y)} + ${S(b)}).`);
+    return coord(`On applique au point A${pt(x, y)} la symétrie d’axe des ordonnées, puis la translation de vecteur ${pt(a, b)}.`, -x + a, y + b, `Symétrie : ${pt(-x, y)} ; translation : (${S(-x)} + ${P(a)} ; ${S(y)} + ${P(b)}).`);
   }
   const k = R(0, 3);
   if (k === 0) {
