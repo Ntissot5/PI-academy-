@@ -1,0 +1,144 @@
+/* Styles ajoutés pour les écrans qui n'existent pas dans le prototype.
+   Uniquement des tokens et les formes de DESIGN.md (cartes 16 px, boutons 12 px, chips 99 px). */
+
+body{margin:0}
+a{color:inherit}
+.logo{text-decoration:none;color:inherit}
+a.cta{display:inline-block;text-decoration:none;text-align:center}
+a.unit{text-decoration:none;color:inherit}
+
+/* bouton clair/sombre : même forme que les chips */
+.chip.theme{padding:5px 7px;color:var(--ink)}
+.chip.theme i{display:block;width:18px;height:18px;margin:3px;border-radius:50%;border:2px solid var(--ink);background:linear-gradient(90deg,var(--ink) 50%,transparent 50%)}
+
+/* lien texte (dans le pied de page) */
+.link{text-decoration:none;border:0;background:none;padding:0;color:var(--brand);font-weight:600;font-size:inherit}
+
+/* formulaires (connexion, inscription) */
+.form{display:flex;flex-direction:column;gap:14px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.field input{font:inherit;font-size:1.05rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink);min-width:0}
+.field input:focus{border-color:var(--brand);outline:none}
+.field input.pin{font-family:var(--f-mono);letter-spacing:.3em;font-size:1.3rem}
+.form .err{background:var(--bad-soft);color:var(--bad);border-radius:12px;padding:10px 14px;font-weight:600;font-size:.92rem}
+.tabs{display:flex;gap:6px;background:var(--ice-2);border:1px solid var(--line);border-radius:12px;padding:4px}
+.tabs button{flex:1;border:0;background:none;border-radius:9px;padding:9px 10px;font-weight:700;color:var(--muted)}
+.tabs button[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.narrow{max-width:520px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+
+/* accueil public */
+.intro{display:flex;flex-direction:column;gap:18px}
+.chips-line{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.chips-line span{display:flex;align-items:center;gap:6px;padding:5px 12px 5px 6px;border-radius:99px;background:var(--surface);border:1px solid var(--line);font-weight:600;font-size:.88rem}
+.chips-line img{width:24px;height:24px}
+
+.loading{display:grid;place-items:center;padding:60px 0}
+.crumb a{color:var(--brand);font-weight:600;text-decoration:none}
+
+/* ---------- espace prof ---------- */
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:14px;min-width:0}
+.card h3{font-size:1.05rem}
+.small{color:var(--muted);font-size:.88rem}
+.kick{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.class-bar{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;justify-content:space-between}
+.class-tabs{display:flex;flex-wrap:wrap;gap:8px}
+.class-tabs button{border:1px solid var(--line);background:var(--surface);border-radius:99px;padding:8px 14px;font-weight:700;color:var(--muted)}
+.class-tabs button[aria-selected="true"]{background:var(--ice);border-color:var(--brand);color:var(--ink)}
+.new-class{display:flex;flex-wrap:wrap;gap:10px;align-items:flex-end}
+.new-class .field{flex:1 1 220px}
+.class-head .left img{width:52px;height:52px}
+.code-box{display:flex;align-items:center;gap:12px;justify-content:flex-end;flex-wrap:wrap}
+.code-box b{font-size:1.6rem;letter-spacing:.12em;background:var(--ice-2);border:1px solid var(--line);border-radius:12px;padding:6px 14px}
+.code-box .cta{padding:9px 14px}
+.assign{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.assign-row{display:grid;grid-template-columns:auto 48px 1fr;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:10px 12px;cursor:pointer;background:var(--surface)}
+.assign-row.on{border-color:var(--brand);background:var(--ice-2)}
+.assign-row input{width:18px;height:18px;accent-color:var(--brand)}
+.assign-row .ic{width:48px;height:48px;display:grid;place-items:center;background:var(--ice-2);border-radius:14px}
+.assign-row .ic img{width:38px;height:38px}
+.assign-row .meta{display:flex;flex-direction:column;min-width:0}
+.assign-row .num{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.stuck{background:var(--bad-soft);border-color:transparent;box-shadow:none}
+.stuck h3{color:var(--bad)}
+.stuck-row{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline;text-align:left;border:0;background:var(--surface);border-radius:10px;padding:10px 12px}
+.stuck-row span{color:var(--muted);font-size:.9rem}
+.board-wrap{overflow-x:auto;margin:0 -4px}
+.board{border-collapse:separate;border-spacing:0;min-width:100%;font-size:.9rem}
+.board th,.board td{padding:6px 5px;text-align:center;white-space:nowrap}
+.board thead th{font-weight:600;color:var(--muted);font-size:.75rem;vertical-align:bottom}
+.board thead th img{width:26px;height:26px;margin:0 auto 2px;display:block;filter:drop-shadow(0 4px 6px rgba(35,86,232,.15))}
+.board .who{text-align:left;position:sticky;left:0;background:var(--surface);z-index:1;padding-right:12px}
+.board tbody th.who{font-weight:600}
+.board .who button{border:0;background:none;padding:0;font-weight:700;color:var(--ink)}
+.board tbody tr{cursor:pointer}
+.board tbody tr:hover td,.board tbody tr:hover th,.board tbody tr.sel td,.board tbody tr.sel th{background:var(--ice-2)}
+.board tbody td,.board tbody th{border-top:1px solid var(--line)}
+.board .last{color:var(--muted);text-align:right;padding-left:12px}
+.cell{display:inline-block;width:22px;height:22px;border-radius:6px;background:var(--m0);vertical-align:middle}
+.badge{display:inline-block;margin-left:8px;font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:2px 8px;border-radius:99px;background:var(--ice);color:var(--brand)}
+.badge.bad{background:var(--bad-soft);color:var(--bad)}
+.detail .sec-h{align-items:flex-start}
+.detail-actions{display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:flex-end}
+.pin-form{display:flex;gap:10px;align-items:flex-end;flex-wrap:wrap}
+.pin-form .field input{width:120px}
+.cta.danger{color:var(--bad)}
+.cta.danger-full{background:var(--bad);box-shadow:none}
+.confirm{display:flex;flex-wrap:wrap;gap:10px;align-items:center;background:var(--bad-soft);border-radius:12px;padding:10px 12px}
+.confirm span{font-weight:600;color:var(--bad);font-size:.9rem}
+@media (max-width:620px){
+  .class-head .code-box{justify-content:flex-start}
+  .assign{grid-template-columns:1fr}
+}
+
+/* ---------- admin ---------- */
+.admin-grid{display:grid;grid-template-columns:300px 1fr;gap:20px;align-items:start}
+.admin-list{display:flex;flex-direction:column;gap:2px}
+.admin-list button{display:flex;align-items:center;gap:10px;border:0;background:none;padding:8px 10px;border-radius:10px;text-align:left;font-weight:600;font-size:.92rem}
+.admin-list button:hover{background:var(--ice-2)}
+.admin-list button[aria-current="true"]{background:var(--ice)}
+.admin-list button img{width:26px;height:26px}
+.admin-list h4{font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:12px 10px 4px;display:flex;justify-content:space-between;align-items:center;gap:6px}
+.order{display:flex;gap:4px}
+.order button{width:30px;height:30px;padding:0;justify-content:center;border:1px solid var(--line);background:var(--surface);border-radius:8px}
+.field textarea{font:inherit;font-size:1rem;padding:12px 14px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink);min-height:96px;resize:vertical}
+.field textarea:focus{border-color:var(--brand);outline:none}
+.field textarea.mono{font-family:var(--f-mono);min-height:60px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.ok-msg{background:var(--ok-soft);color:var(--ok);border-radius:12px;padding:10px 14px;font-weight:600;font-size:.92rem}
+@media (max-width:960px){.admin-grid{grid-template-columns:1fr}}
+@media (max-width:620px){.row2{grid-template-columns:1fr}}
+.admin-list.side{position:static}
+.field select{font:inherit;font-size:1rem;padding:11px 12px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink)}
+.field select:focus{border-color:var(--brand);outline:none}
+
+/* ---------- QCM (nouvelles matières) ---------- */
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.choices button{border:2px solid var(--line);background:var(--ice-2);border-radius:12px;padding:14px 16px;font-size:1.08rem;font-weight:600;text-align:left;color:var(--ink);min-height:54px}
+.choices button:hover:not(:disabled){border-color:var(--brand)}
+.choices button.good{border-color:var(--ok);background:var(--ok-soft);color:var(--ok)}
+.choices button.bad{border-color:var(--bad);background:var(--bad-soft);color:var(--bad)}
+.choices button:disabled{cursor:default}
+.q b{font-weight:700;color:var(--brand)}
+
+/* ---------- canton et catalogue par matière ---------- */
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.daily.canton .left img{width:52px;height:52px}
+.daily.canton .field{justify-self:end;min-width:220px}
+.daily.canton select{width:100%}
+.mat-h{display:flex;align-items:center;gap:12px;margin-top:10px}
+.mat-h img{width:40px;height:40px}
+.mat-h h2{font-size:1.3rem}
+.mat-h .small{display:block}
+.pill-s{display:inline-flex;align-items:center;font-size:.72rem;font-weight:700;letter-spacing:.03em;padding:2px 8px;border-radius:99px;background:var(--ice);color:var(--brand)}
+.pill-s.warn{background:var(--bad-soft);color:var(--bad)}
+.pill-s.mute{background:var(--m0);color:var(--muted)}
+.unit.other{opacity:.72}
+@media (max-width:620px){.daily.canton .field{justify-self:stretch;min-width:0}}
+.assign-group{display:flex;flex-direction:column;gap:8px}
+.assign-group h3{text-transform:uppercase;letter-spacing:.08em;font-size:.75rem;font-weight:700}
+.assign-row.other{opacity:.7}
+.new-class .field select{min-width:160px}
+/* touches d'accents : plus nombreuses que − / , → elles passent à la ligne */
+.keys.many{flex-wrap:wrap;flex-basis:100%}
+.keys.many button{width:44px;height:44px}

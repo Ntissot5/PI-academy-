@@ -1,0 +1,24 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* unit cards */
+.units{display:grid;grid-template-columns:1fr;gap:12px}
+.unit{display:grid;grid-template-columns:72px 1fr auto;gap:16px;align-items:center;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.unit:hover:not(.lk){transform:translateY(-2px);border-color:var(--brand)}
+.unit .ic{position:relative;width:72px;height:72px;display:grid;place-items:center;background:var(--ice-2);border-radius:18px}
+.unit .ic img{width:58px;height:58px}
+.unit .lock{position:absolute;right:-6px;bottom:-6px;width:28px;height:28px}
+.unit.lk .ic>img:first-child{filter:grayscale(.9) opacity(.45)}
+.unit.lk{cursor:not-allowed}
+.unit.lk h3,.unit.lk p{opacity:.55}
+.unit .meta{min-width:0;display:flex;flex-direction:column;gap:4px}
+.unit .num{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--brand)}
+.unit h3{font-size:1.08rem}
+.unit p{font-size:.88rem;color:var(--muted)}
+.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px;font-size:.78rem;color:var(--muted)}
+.skills span{display:flex;align-items:center;gap:5px}
+.skills i{width:14px;height:14px;border-radius:4px;background:var(--m0)}
+.go{font-weight:700;color:var(--brand);font-size:.9rem;white-space:nowrap}
+.unit.final{background:linear-gradient(135deg,var(--ink),color-mix(in srgb,var(--ink) 75%,var(--brand)));color:var(--surface);border-color:transparent}
+.unit.final p,.unit.final .skills{color:color-mix(in srgb,var(--surface) 75%,transparent)}
+.unit.final .num{color:var(--brand-2)}
+.unit.final .ic{background:color-mix(in srgb,var(--surface) 12%,transparent)}
+.unit.final .go{color:var(--brand-2)}

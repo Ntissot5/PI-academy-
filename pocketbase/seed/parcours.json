@@ -1,0 +1,767 @@
+{
+  "parcours": [
+    {
+      "slug": "prepa-epfl",
+      "titre": "Prépa EPFL",
+      "accroche": "De la 11e au niveau d’entrée EPFL",
+      "description": "12 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "adulte",
+      "niveau": "Prépa EPFL",
+      "icone": "star",
+      "ordre": 1,
+      "payant": false,
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "rel",
+          "titre": "Nombres négatifs",
+          "sous_titre": "Les signes, enfin propres",
+          "regle": "Moins un négatif devient plus : 5 − (−3) = 5 + 3 = 8. Pour × et ÷, deux signes pareils donnent +, deux signes différents donnent −.",
+          "exemple": "−3 − (−4) = −3 + 4 = 1",
+          "image": "Comme le score au golf : −3 puis on t’enlève une pénalité de −2, tu reviens à −1, pas à −5.",
+          "piege": "12 + (−18) = −6, pas 6. Cherche d’abord qui « gagne » (le plus grand en valeur absolue), le signe suit.",
+          "icone": "flower"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "frac",
+          "titre": "Fractions et pourcentages",
+          "sous_titre": "Le langage de l’argent",
+          "regle": "p % de N = N × p ÷ 100. Augmenter de p % = multiplier par (1 + p/100). Fractions : même dénominateur avant d’additionner.",
+          "exemple": "1/4 + 1/3 = 3/12 + 4/12 = 7/12",
+          "image": "Ton budget voyage : 30 % de 2 000 CHF pour l’hôtel = 600 CHF. Le reste (70 %) = 1 400 CHF.",
+          "piege": "« 71 % c’est de l’eau, quelle aire pour la terre ? » → on prend 29 % (100 − 71), on ne divise pas par 71.",
+          "icone": "report"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "pow",
+          "titre": "Puissances et notation scientifique",
+          "sous_titre": "Les très grands et très petits nombres",
+          "regle": "10ᵃ · 10ᵇ = 10ᵃ⁺ᵇ ; 10ᵃ ÷ 10ᵇ = 10ᵃ⁻ᵇ. Notation scientifique : un seul chiffre avant la virgule, puis × 10ⁿ.",
+          "exemple": "0,000 504 3 = 5,043 · 10⁻⁴",
+          "image": "Comme compter les décimales sur un ticket : 0,007 306 → on déplace la virgule de 3 rangs → 7,306 · 10⁻³.",
+          "piege": "10⁻³ ÷ 10⁻⁴ = 10⁻³⁻⁽⁻⁴⁾ = 10¹. La soustraction d’un négatif, encore elle.",
+          "icone": "molecule"
+        },
+        {
+          "ordre": 4,
+          "id_generateur": "eq1",
+          "titre": "Équations du 1er degré",
+          "sous_titre": "Trouver x proprement",
+          "regle": "Ce que tu fais d’un côté, tu le fais de l’autre. Regroupe les x à gauche, les nombres à droite, puis divise.",
+          "exemple": "3x = −6 + x → 2x = −6 → x = −3",
+          "image": "Une balance de practice : enlève 3 balles à gauche, enlève-en 3 à droite, elle reste à l’équilibre.",
+          "piege": "Simplifier −6/12 donne −1/2 = −0,5. Divise haut ET bas par le même nombre.",
+          "icone": "pin"
+        },
+        {
+          "ordre": 5,
+          "id_generateur": "geo",
+          "titre": "Aires, volumes, unités",
+          "sous_titre": "Calculatrice autorisée",
+          "regle": "Périmètre = le tour (m). Aire = la surface (m²). Volume = l’espace (m³). Cône et pyramide = (base × hauteur) ÷ 3.",
+          "exemple": "Cône r = 4, h = 20 : π·4²·20 ÷ 3 ≈ 335,1 cm³ ≈ 3,35 dl",
+          "image": "Le périmètre, c’est la clôture du green. L’aire, c’est le gazon à tondre. Le volume, c’est le sable du bunker.",
+          "piege": "Base d’une pyramide de côté 210 m : 210² = 44 100 m², pas 4 × 210. Et 1 dl = 100 cm³, 1 L = 1 000 cm³.",
+          "icone": "folder"
+        },
+        {
+          "ordre": 6,
+          "id_generateur": "iso",
+          "titre": "Isoler une inconnue",
+          "sous_titre": "Retourner une formule",
+          "regle": "Défais les opérations dans l’ordre inverse. Si V = π·r²·h, alors h = V ÷ (π·r²) et r = √(V ÷ (π·h)).",
+          "exemple": "Cylindre V = 785,4 cm³, r = 5 cm → h = 785,4 ÷ (π·25) ≈ 10 cm",
+          "image": "Comme retrouver la vitesse de club à partir de la distance : tu pars du résultat et tu remontes la formule.",
+          "piege": "Ne remplace pas l’inconnue par une valeur au hasard (le rayon n’est pas « la moitié de la base »). Écris la formule, isole, calcule.",
+          "icone": "mail"
+        },
+        {
+          "ordre": 7,
+          "id_generateur": "lin",
+          "titre": "Fonctions et droites",
+          "sous_titre": "y = mx + b",
+          "regle": "m = pente = (y₂ − y₁) ÷ (x₂ − x₁). b = là où la droite coupe l’axe y. Zéro de la fonction : on résout mx + b = 0.",
+          "exemple": "Points (1 ; 3) et (4 ; 9) → m = (9 − 3) ÷ (4 − 1) = 2",
+          "image": "La pente, c’est le dénivelé du green : de combien la balle descend pour chaque mètre parcouru.",
+          "piege": "Pente : on fait y sur x (vertical ÷ horizontal), et dans le même ordre en haut et en bas.",
+          "icone": "plane"
+        },
+        {
+          "ordre": 8,
+          "id_generateur": "eq2",
+          "titre": "Équations du 2e degré",
+          "sous_titre": "Paraboles et Δ",
+          "regle": "ax² + bx + c = 0 : Δ = b² − 4ac. Si Δ ≥ 0 : x = (−b ± √Δ) ÷ 2a. Le sommet de la parabole est en x = −b ÷ 2a.",
+          "exemple": "x² − 5x + 6 = 0 → Δ = 25 − 24 = 1 → x = 2 ou x = 3",
+          "image": "La trajectoire d’une balle est une parabole : le sommet, c’est le point le plus haut du vol.",
+          "piege": "Dans Δ = b² − 4ac, b² est toujours positif : (−5)² = 25, pas −25.",
+          "icone": "note"
+        },
+        {
+          "ordre": 9,
+          "id_generateur": "trig",
+          "titre": "Trigonométrie",
+          "sous_titre": "Angles en degrés, calculatrice OK",
+          "regle": "Triangle rectangle : sin = opposé ÷ hypoténuse, cos = adjacent ÷ hypoténuse, tan = opposé ÷ adjacent. Radians : π rad = 180°.",
+          "exemple": "Hypoténuse 10, angle 30° → opposé = 10 · sin 30° = 5",
+          "image": "Le loft d’un club : l’angle décide combien la balle monte (opposé) pour combien elle avance (adjacent).",
+          "piege": "Vérifie que ta calculatrice est en DEG et pas en RAD. sin(30) en radians donne −0,99 au lieu de 0,5.",
+          "icone": "eye"
+        },
+        {
+          "ordre": 10,
+          "id_generateur": "log",
+          "titre": "Exponentielles et logarithmes",
+          "sous_titre": "Croissance, intérêts, échelles",
+          "regle": "log₁₀(10ᵏ) = k. Résoudre 2ˣ = 32 revient à chercher l’exposant : x = 5. Capital : C · (1 + r)ⁿ.",
+          "exemple": "1 000 CHF à 5 % pendant 2 ans → 1 000 · 1,05² = 1 102,50",
+          "image": "Ton handicap qui baisse de 10 % par an : c’est une exponentielle, pas une soustraction fixe.",
+          "piege": "Un taux de 3 % s’écrit 0,03 dans (1 + r)ⁿ, pas 3.",
+          "icone": "cal31"
+        },
+        {
+          "ordre": 11,
+          "id_generateur": "der",
+          "titre": "Dérivées",
+          "sous_titre": "La pente instantanée",
+          "regle": "(xⁿ)′ = n·xⁿ⁻¹. (a·f)′ = a·f′. Une constante a une dérivée nulle. f′(x₀) = pente de la tangente en x₀.",
+          "exemple": "f(x) = 2x³ → f′(x) = 6x² → f′(2) = 24",
+          "image": "La vitesse de la tête de club à l’impact : c’est la dérivée de sa position à cet instant précis.",
+          "piege": "(x³)′ = 3x², pas 3x³ : on baisse l’exposant de 1.",
+          "icone": "laptop"
+        },
+        {
+          "ordre": 12,
+          "id_generateur": "final",
+          "titre": "Boss final : niveau EPFL",
+          "sous_titre": "Tout le programme mélangé",
+          "regle": "Questions tirées des 11 étapes. Réussis 8 sur 10 sans aide pour valider le niveau d’entrée.",
+          "exemple": "Mélange : signes, %, puissances, équations, volumes, droites, Δ, trigo, logs, dérivées",
+          "image": "Le dernier tour d’un tournoi : rien de nouveau, juste tout ce que tu as entraîné, sous pression.",
+          "piege": "Ralentis sur les signes et les unités. C’est là que tu perdais tes points en 11e.",
+          "icone": "star"
+        }
+      ],
+      "matiere": "mathematiques",
+      "plan": "libre",
+      "statut": "publie",
+      "cantons": []
+    },
+    {
+      "slug": "9e-bases",
+      "titre": "9e Harmos · Bases",
+      "accroche": "Les bases de la 9e Harmos",
+      "description": "5 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e Harmos",
+      "icone": "flower",
+      "ordre": 2,
+      "payant": false,
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "rel",
+          "titre": "Nombres négatifs",
+          "sous_titre": "Plus, moins et les signes",
+          "regle": "Moins un négatif, ça fait plus : 5 − (−3) = 5 + 3 = 8. Pour × et ÷ : deux signes pareils donnent +. Deux signes différents donnent −.",
+          "exemple": "−3 − (−4) = −3 + 4 = 1",
+          "image": "Pense au thermomètre. Il fait −3 °C et ça se réchauffe de 5 degrés : il fait 2 °C.",
+          "piege": "12 + (−18) = −6, pas 6. Regarde quel nombre est le plus grand sans son signe : c’est lui qui donne le signe.",
+          "icone": "flower"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "frac",
+          "titre": "Fractions et pourcentages",
+          "sous_titre": "Les soldes et les parts de pizza",
+          "regle": "p % de N = N × p ÷ 100. Pour additionner deux fractions, mets-les d’abord au même dénominateur.",
+          "exemple": "1/4 + 1/3 = 3/12 + 4/12 = 7/12",
+          "image": "Un jeu à 60 CHF est soldé à 25 %. 25 % de 60 = 15 CHF de rabais. Tu paies 45 CHF.",
+          "piege": "1/4 + 1/3 ne fait pas 2/7. On n’additionne pas les dénominateurs : on les rend pareils d’abord.",
+          "icone": "report"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "pow",
+          "titre": "Puissances",
+          "sous_titre": "Compter les zéros",
+          "regle": "10³ = 10 × 10 × 10 = 1 000. On multiplie : on additionne les exposants. On divise : on les soustrait.",
+          "exemple": "10² · 10³ = 10⁵ et 0,000 5 = 5 · 10⁻⁴",
+          "image": "Un million, c’est un 1 suivi de 6 zéros. Donc un million = 10⁶.",
+          "piege": "10⁻³ ÷ 10⁻⁴ = 10¹. Enlever un nombre négatif, ça fait plus.",
+          "icone": "molecule"
+        },
+        {
+          "ordre": 4,
+          "id_generateur": "eq1",
+          "titre": "Équations du 1er degré",
+          "sous_titre": "Trouver x",
+          "regle": "Ce que tu fais d’un côté du =, fais-le de l’autre. Mets les x d’un côté, les nombres de l’autre. Puis divise.",
+          "exemple": "3x = −6 + x → 2x = −6 → x = −3",
+          "image": "Une balance à deux plateaux : tu enlèves 3 billes à gauche, tu en enlèves 3 à droite. Elle reste droite.",
+          "piege": "−6 ÷ 12 = −0,5, pas −2. Le nombre du haut se divise par celui du bas.",
+          "icone": "pin"
+        },
+        {
+          "ordre": 5,
+          "id_generateur": "final",
+          "titre": "Examen final : 9e Harmos",
+          "sous_titre": "Les 4 unités mélangées",
+          "regle": "Questions tirées des 4 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : signes, %, fractions, puissances, équations",
+          "image": "Comme un match après les entraînements : rien de nouveau, juste tout ce que tu as appris.",
+          "piege": "Prends ton temps sur les signes moins. C’est là qu’on perd le plus de points.",
+          "icone": "star"
+        }
+      ],
+      "matiere": "mathematiques",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 9,
+      "statut": "publie",
+      "cantons": []
+    },
+    {
+      "slug": "francais-conjugaison",
+      "titre": "Français · Conjugaison",
+      "accroche": "Conjuguer sans hésiter",
+      "description": "5 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "note",
+      "ordre": 3,
+      "payant": false,
+      "matiere": "francais",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "fr-present",
+          "titre": "Le présent",
+          "sous_titre": "Ce qui se passe maintenant",
+          "regle": "1er groupe (-er) : -e, -es, -e, -ons, -ez, -ent. 2e groupe (-ir, nous finissons) : -is, -is, -it, -issons, -issez, -issent. Les verbes fréquents comme être, avoir, aller, faire s’apprennent par cœur.",
+          "exemple": "nous mangeons · ils finissent · vous faites",
+          "image": "Le présent, c’est la photo de l’instant : « Je lis, tu écoutes, il pleut. »",
+          "piege": "Vous « faites », pas « faisez ». Et « nous mangeons » garde le e pour que le g reste doux.",
+          "icone": "note"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "fr-imparfait",
+          "titre": "L’imparfait",
+          "sous_titre": "Raconter le passé, décrire",
+          "regle": "On prend le radical de « nous » au présent (nous finiss-ons) et on ajoute -ais, -ais, -ait, -ions, -iez, -aient. Seul être change : j’étais.",
+          "exemple": "nous faisons → je faisais · nous voyons → vous voyiez",
+          "image": "L’imparfait, c’est le décor d’une histoire : « Il faisait nuit, la neige tombait… »",
+          "piege": "Nous mangions, mais je mangeais : le e reste devant a, il part devant i.",
+          "icone": "mail"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "fr-futur",
+          "titre": "Le futur simple",
+          "sous_titre": "Ce qui va arriver",
+          "regle": "Infinitif + -ai, -as, -a, -ons, -ez, -ont. Certains verbes ont un radical spécial : être → ser-, avoir → aur-, aller → ir-, faire → fer-, voir → verr-, venir → viendr-.",
+          "exemple": "je parlerai · nous finirons · ils iront",
+          "image": "Le futur, c’est ton agenda : « Demain, je verrai mes amis. »",
+          "piege": "Je verrai (avec deux r), pas « je voirai ».",
+          "icone": "plane"
+        },
+        {
+          "ordre": 4,
+          "id_generateur": "fr-pc",
+          "titre": "Le passé composé",
+          "sous_titre": "Une action terminée",
+          "regle": "Auxiliaire avoir ou être au présent + participe passé. Avec être (aller, venir, partir, arriver, rester, tomber…), le participe s’accorde avec le sujet.",
+          "exemple": "j’ai mangé · elle est partie · ils sont venus",
+          "image": "Le passé composé, c’est un objectif coché : « J’ai fini mes devoirs. »",
+          "piege": "Elle est allée (avec e), mais elle a mangé (sans accord avec avoir).",
+          "icone": "cal31"
+        },
+        {
+          "ordre": 5,
+          "id_generateur": "final",
+          "titre": "Examen final : conjugaison",
+          "sous_titre": "Les 4 unités mélangées",
+          "regle": "Questions tirées des 4 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : présent, imparfait, futur, passé composé",
+          "image": "Comme un concours d’orthographe : tous les temps, dans le désordre.",
+          "piege": "Lis bien le temps demandé avant de répondre.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "francais-grammaire",
+      "titre": "Français · Orthographe et grammaire",
+      "accroche": "Les mots qui se ressemblent",
+      "description": "3 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "eye",
+      "ordre": 4,
+      "payant": false,
+      "matiere": "francais",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "fr-homophones",
+          "titre": "Les homophones",
+          "sous_titre": "a/à, et/est, son/sont, ou/où…",
+          "regle": "Remplace pour vérifier : a → avait, est → était, sont → étaient, ont → avaient, peut → pouvait. Si ça marche, c’est le verbe. Sinon, c’est l’autre mot.",
+          "exemple": "Il a (avait) faim. Il va à Berne.",
+          "image": "C’est comme deux jumeaux : même voix, mais pas le même rôle dans la phrase.",
+          "piege": "« Où » avec accent parle d’un lieu. « Ou » sans accent veut dire « ou bien ».",
+          "icone": "eye"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "fr-nature",
+          "titre": "La nature des mots",
+          "sous_titre": "Nom, verbe, adjectif…",
+          "regle": "Le nom désigne une chose ou une personne. Le verbe dit l’action. L’adjectif décrit le nom. Le déterminant se place devant le nom. Le pronom remplace un nom.",
+          "exemple": "Le (déterminant) petit (adjectif) chat (nom) dort (verbe).",
+          "image": "Chaque mot a un métier dans la phrase, comme les joueurs d’une équipe.",
+          "piege": "« Le » devant un nom est un déterminant. « Le » devant un verbe (je le vois) est un pronom.",
+          "icone": "report"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "final",
+          "titre": "Examen final : orthographe et grammaire",
+          "sous_titre": "Les 2 unités mélangées",
+          "regle": "Questions tirées des 2 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : homophones et nature des mots",
+          "image": "Un mélange de pièges : prends le temps de remplacer pour vérifier.",
+          "piege": "Ne réponds pas « à l’oreille » : fais le test du remplacement.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "allemand-bases",
+      "titre": "Allemand · Les bases",
+      "accroche": "Deutsch, Schritt für Schritt",
+      "description": "5 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "mail",
+      "ordre": 5,
+      "payant": false,
+      "matiere": "allemand",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "de-artikel",
+          "titre": "Der, die, das",
+          "sous_titre": "Le genre des noms",
+          "regle": "Chaque nom allemand a un genre : masculin (der), féminin (die) ou neutre (das). Apprends toujours le nom avec son article.",
+          "exemple": "der Hund · die Katze · das Haus",
+          "image": "C’est comme le prénom de famille du mot : il ne le quitte jamais.",
+          "piege": "das Mädchen (la fille) est neutre : tous les mots en -chen sont neutres.",
+          "icone": "pin"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "de-praesens",
+          "titre": "Le présent (Präsens)",
+          "sous_titre": "ich, du, er, wir, ihr, sie",
+          "regle": "Radical + -e, -st, -t, -en, -t, -en. Certains verbes changent de voyelle avec du et er : fahren → du fährst, sehen → er sieht, sprechen → er spricht.",
+          "exemple": "ich spiele · du fährst · er liest",
+          "image": "Comme en français, le verbe s’accorde avec la personne. Il suffit de connaître les 6 terminaisons.",
+          "piege": "sein est irrégulier : ich bin, du bist, er ist, wir sind, ihr seid, sie sind.",
+          "icone": "note"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "de-zahlen",
+          "titre": "Les nombres (Zahlen)",
+          "sous_titre": "Compter en allemand",
+          "regle": "De 21 à 99, on dit l’unité avant la dizaine : einundzwanzig = un-et-vingt. On écrit tout en un seul mot.",
+          "exemple": "35 = fünfunddreissig · 120 = hundertzwanzig",
+          "image": "Comme lire l’heure à l’envers : d’abord les unités, puis les dizaines.",
+          "piege": "En Suisse, on écrit dreissig avec ss (pas de ß). 16 = sechzehn, 17 = siebzehn.",
+          "icone": "cal31"
+        },
+        {
+          "ordre": 4,
+          "id_generateur": "de-perfekt",
+          "titre": "Le passé (Perfekt)",
+          "sous_titre": "haben ou sein + Partizip II",
+          "regle": "Perfekt = haben ou sein au présent + participe passé (souvent ge- … -t ou ge- … -en). Les verbes de mouvement prennent sein.",
+          "exemple": "ich habe gespielt · ich bin gegangen",
+          "image": "C’est comme le passé composé en français : un auxiliaire et un participe.",
+          "piege": "Les verbes en -ieren n’ont pas de ge- : studiert, telefoniert.",
+          "icone": "mail"
+        },
+        {
+          "ordre": 5,
+          "id_generateur": "final",
+          "titre": "Examen final : allemand",
+          "sous_titre": "Les 4 unités mélangées",
+          "regle": "Questions tirées des 4 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : articles, présent, nombres, Perfekt",
+          "image": "Une petite interro surprise : tout ce que tu as vu, mélangé.",
+          "piege": "Pense aux umlauts : fährt, schläft, Mädchen.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "anglais-bases",
+      "titre": "Anglais · Les bases",
+      "accroche": "English, step by step",
+      "description": "3 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "plane",
+      "ordre": 6,
+      "payant": false,
+      "matiere": "anglais",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "en-present",
+          "titre": "Le present simple",
+          "sous_titre": "He plays, she watches",
+          "regle": "Au present simple, on ajoute -s à la 3e personne du singulier (he, she, it). -es après -o, -s, -sh, -ch, -x. Consonne + y → -ies.",
+          "exemple": "he plays · she watches · it flies",
+          "image": "Le -s, c’est le petit badge de he, she et it.",
+          "piege": "have devient has : she has a brother.",
+          "icone": "note"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "en-irregular",
+          "titre": "Les verbes irréguliers",
+          "sous_titre": "go, went, gone",
+          "regle": "Les verbes irréguliers ont un prétérit et un participe passé à apprendre par cœur : base – prétérit – participe.",
+          "exemple": "go – went – gone · eat – ate – eaten",
+          "image": "C’est comme une comptine : répète les trois formes à voix haute.",
+          "piege": "be a deux prétérits : was (I, he, she, it) et were (you, we, they).",
+          "icone": "plane"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "final",
+          "titre": "Examen final : anglais",
+          "sous_titre": "Les 2 unités mélangées",
+          "regle": "Questions tirées des 2 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : present simple et verbes irréguliers",
+          "image": "Comme une discussion avec un ami anglais : les formes doivent venir toutes seules.",
+          "piege": "N’oublie pas le -s de he, she, it.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "sciences-9-11",
+      "titre": "Sciences de la nature · 9e–11e",
+      "accroche": "Mesurer, calculer, comprendre",
+      "description": "5 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "molecule",
+      "ordre": 7,
+      "payant": false,
+      "matiere": "sciences",
+      "plan": "per",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "sci-unites",
+          "titre": "Les unités",
+          "sous_titre": "Convertir sans se tromper",
+          "regle": "Pour passer d’une unité à une autre, on multiplie ou on divise par le bon facteur. km/h → m/s : ÷ 3,6. 1 L = 1 000 cm³. 1 kg = 1 000 g.",
+          "exemple": "72 km/h = 72 ÷ 3,6 = 20 m/s",
+          "image": "Comme changer des francs en centimes : même valeur, autre unité.",
+          "piege": "Vers une unité plus petite, le nombre grandit : 2 kg = 2 000 g.",
+          "icone": "folder"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "sci-masse-volumique",
+          "titre": "La masse volumique",
+          "sous_titre": "ρ = m ÷ V",
+          "regle": "La masse volumique ρ dit combien pèse 1 cm³ d’une matière : ρ = m ÷ V, en g/cm³. L’eau vaut 1 g/cm³.",
+          "exemple": "m = 540 g, V = 200 cm³ → ρ = 2,7 g/cm³ (aluminium)",
+          "image": "Un sac de plumes et un sac de cailloux de même taille n’ont pas le même poids : c’est la masse volumique.",
+          "piege": "Ce qui a une masse volumique plus petite que l’eau flotte : la glace (0,92) flotte.",
+          "icone": "molecule"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "sci-electricite",
+          "titre": "L’électricité",
+          "sous_titre": "Tension, courant, résistance",
+          "regle": "Loi d’Ohm : U = R × I (volts = ohms × ampères). Puissance : P = U × I (watts).",
+          "exemple": "R = 10 Ω, I = 0,5 A → U = 5 V",
+          "image": "Le courant, c’est l’eau dans un tuyau ; la tension, la pression ; la résistance, un tuyau étroit.",
+          "piege": "Pour trouver I, on divise : I = U ÷ R, pas U × R.",
+          "icone": "laptop"
+        },
+        {
+          "ordre": 4,
+          "id_generateur": "chi-symboles",
+          "titre": "Les symboles chimiques",
+          "sous_titre": "H, O, Na, Fe…",
+          "regle": "Chaque élément a un symbole d’une ou deux lettres : une majuscule, puis une minuscule. Certains viennent du latin.",
+          "exemple": "Na = sodium (natrium) · Fe = fer (ferrum) · Au = or (aurum)",
+          "image": "C’est comme les plaques de voitures des cantons : VD, GE… mais pour les atomes.",
+          "piege": "K, c’est le potassium (kalium), pas le calcium (Ca).",
+          "icone": "molecule"
+        },
+        {
+          "ordre": 5,
+          "id_generateur": "final",
+          "titre": "Examen final : sciences",
+          "sous_titre": "Les 4 unités mélangées",
+          "regle": "Questions tirées des 4 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : unités, masse volumique, électricité, symboles",
+          "image": "Comme une expérience au labo : il faut tout mesurer juste.",
+          "piege": "Vérifie l’unité demandée avant de répondre.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "geographie-suisse",
+      "titre": "Géographie · La Suisse et ses cantons",
+      "accroche": "26 cantons, 4 langues",
+      "description": "3 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "pin",
+      "ordre": 8,
+      "payant": false,
+      "matiere": "geographie",
+      "plan": "libre",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "geo-cantons",
+          "titre": "Les cantons",
+          "sous_titre": "Chefs-lieux, abréviations, langues",
+          "regle": "La Suisse compte 26 cantons. Chaque canton a un chef-lieu (siège des autorités), une abréviation de deux lettres et une ou plusieurs langues officielles.",
+          "exemple": "VD = Vaud, chef-lieu Lausanne, français",
+          "image": "Les plaques de voitures donnent les abréviations : VD, GE, ZH, TI…",
+          "piege": "Le chef-lieu des Grisons est Coire (Chur). Bâle-Campagne, c’est Liestal.",
+          "icone": "pin"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "geo-suisse",
+          "titre": "Repères sur la Suisse",
+          "sous_titre": "Sommets, lacs, régions",
+          "regle": "Trois grandes régions : le Jura, le Plateau et les Alpes. Quatre langues nationales. Cinq pays voisins.",
+          "exemple": "Pointe Dufour : 4 634 m, le plus haut sommet",
+          "image": "Imagine la Suisse comme un gâteau en trois couches : Jura, Plateau, Alpes.",
+          "piege": "Le Léman est le plus grand lac, mais il est partagé avec la France. Le plus grand lac entièrement suisse est le lac de Neuchâtel.",
+          "icone": "eye"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "final",
+          "titre": "Examen final : géographie",
+          "sous_titre": "Les 2 unités mélangées",
+          "regle": "Questions tirées des 2 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : cantons et repères",
+          "image": "Un tour de Suisse en 10 questions.",
+          "piege": "Lis bien : chef-lieu, abréviation ou langue ?",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "histoire-suisse",
+      "titre": "Histoire · Repères",
+      "accroche": "De 1291 à aujourd’hui",
+      "description": "3 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "cal31",
+      "ordre": 9,
+      "payant": false,
+      "matiere": "histoire",
+      "plan": "libre",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "hist-suisse",
+          "titre": "L’histoire suisse",
+          "sous_titre": "Les grandes dates",
+          "regle": "1291 : Pacte fédéral. 1515 : Marignan. 1815 : neutralité reconnue. 1848 : naissance de l’État fédéral. 1971 : droit de vote des femmes au niveau fédéral.",
+          "exemple": "1848 : première Constitution fédérale",
+          "image": "Une frise chronologique, c’est comme l’album photo de la Suisse.",
+          "piege": "1291 n’est pas la création de la Suisse moderne : c’est 1848.",
+          "icone": "cal31"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "hist-monde",
+          "titre": "L’histoire du monde",
+          "sous_titre": "Des repères pour se situer",
+          "regle": "1492 : Colomb en Amérique. 1789 : Révolution française. 1914–1918 et 1939–1945 : les deux guerres mondiales. 1989 : chute du mur de Berlin.",
+          "exemple": "1969 : premiers pas sur la Lune",
+          "image": "Relie chaque date à une image : la caravelle, la Bastille, la fusée…",
+          "piege": "La Première Guerre mondiale commence en 1914, la Seconde en 1939.",
+          "icone": "plane"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "final",
+          "titre": "Examen final : histoire",
+          "sous_titre": "Les 2 unités mélangées",
+          "regle": "Questions tirées des 2 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : Suisse et monde",
+          "image": "Un voyage dans le temps, dans le désordre.",
+          "piege": "Élimine d’abord les dates impossibles.",
+          "icone": "star"
+        }
+      ]
+    },
+    {
+      "slug": "citoyennete",
+      "titre": "Citoyenneté · Institutions suisses",
+      "accroche": "Comment la Suisse décide",
+      "description": "3 unités, 20 minutes par jour. Tu lis la règle, tu t’entraînes, tu bats le boss de l’unité.",
+      "public": "ecole",
+      "niveau": "9e–11e Harmos",
+      "icone": "report",
+      "ordre": 10,
+      "payant": false,
+      "matiere": "citoyennete",
+      "plan": "libre",
+      "annee_min": 9,
+      "annee_max": 11,
+      "cantons": [],
+      "statut": "a_valider",
+      "unites": [
+        {
+          "ordre": 1,
+          "id_generateur": "cit-federal",
+          "titre": "La Confédération",
+          "sous_titre": "Parlement, gouvernement, droits populaires",
+          "regle": "Le Conseil fédéral (7 membres) gouverne. L’Assemblée fédérale (Conseil national, 200 sièges, et Conseil des États, 46 sièges) fait les lois. Le peuple peut lancer une initiative (100 000 signatures) ou un référendum (50 000).",
+          "exemple": "Conseil national 200 + Conseil des États 46 = Assemblée fédérale 246",
+          "image": "Comme dans une classe : un comité (le gouvernement), une assemblée (le parlement) et le vote de tous.",
+          "piege": "Le Conseil fédéral est élu par l’Assemblée fédérale, pas par le peuple.",
+          "icone": "report"
+        },
+        {
+          "ordre": 2,
+          "id_generateur": "cit-canton",
+          "titre": "Ton canton",
+          "sous_titre": "Parlement et gouvernement cantonaux",
+          "regle": "Chaque canton a sa constitution, son parlement (souvent le Grand Conseil) et son gouvernement (souvent le Conseil d’État). Choisis ton canton dans le catalogue pour des questions sur le tien.",
+          "exemple": "Vaud : Grand Conseil de 150 membres, Conseil d’État de 7 membres",
+          "image": "La Suisse est comme une équipe de 26 joueurs : chacun a ses règles, avec des règles communes.",
+          "piege": "Le Jura appelle son parlement « Parlement » et son gouvernement « Gouvernement ».",
+          "icone": "folder"
+        },
+        {
+          "ordre": 3,
+          "id_generateur": "final",
+          "titre": "Examen final : citoyenneté",
+          "sous_titre": "Les 2 unités mélangées",
+          "regle": "Questions tirées des 2 unités. Réussis 8 sur 10 sans aide pour valider le parcours.",
+          "exemple": "Mélange : Confédération et canton",
+          "image": "Comme une votation : il faut connaître les règles du jeu.",
+          "piege": "Ne confonds pas Conseil fédéral (gouvernement) et Conseil national (parlement).",
+          "icone": "star"
+        }
+      ]
+    }
+  ],
+  "matieres": [
+    {
+      "slug": "mathematiques",
+      "nom": "Mathématiques",
+      "domaine": "Mathématiques et Sciences de la nature",
+      "icone": "flower",
+      "ordre": 1
+    },
+    {
+      "slug": "sciences",
+      "nom": "Sciences de la nature",
+      "domaine": "Mathématiques et Sciences de la nature",
+      "icone": "molecule",
+      "ordre": 2
+    },
+    {
+      "slug": "francais",
+      "nom": "Français",
+      "domaine": "Langues",
+      "icone": "note",
+      "ordre": 3
+    },
+    {
+      "slug": "allemand",
+      "nom": "Allemand",
+      "domaine": "Langues",
+      "icone": "mail",
+      "ordre": 4
+    },
+    {
+      "slug": "anglais",
+      "nom": "Anglais",
+      "domaine": "Langues",
+      "icone": "plane",
+      "ordre": 5
+    },
+    {
+      "slug": "geographie",
+      "nom": "Géographie",
+      "domaine": "Sciences humaines et sociales",
+      "icone": "pin",
+      "ordre": 6
+    },
+    {
+      "slug": "histoire",
+      "nom": "Histoire",
+      "domaine": "Sciences humaines et sociales",
+      "icone": "cal31",
+      "ordre": 7
+    },
+    {
+      "slug": "citoyennete",
+      "nom": "Citoyenneté",
+      "domaine": "Sciences humaines et sociales",
+      "icone": "report",
+      "ordre": 8
+    }
+  ]
+}

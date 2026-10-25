@@ -1,0 +1,23 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+@media (max-width:960px){
+  .cols{grid-template-columns:1fr}.side{display:none}
+  .ugrid{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  .hero{grid-template-columns:1fr;padding:22px}
+  .guide{display:grid;grid-template-columns:104px 1fr;align-items:center;gap:12px;min-width:0}
+  .guide .pi-big{width:104px;height:72px;grid-column:1;grid-row:1}
+  .guide .bubble{grid-column:2;grid-row:1;max-width:none;font-size:.9rem}
+  .guide .cta{grid-column:1/-1;width:100%}
+  .bubble::after{left:-8px;bottom:auto;top:50%;transform:translateY(-50%) rotate(135deg)}
+  .daily{grid-template-columns:1fr}
+  .unit{grid-template-columns:60px 1fr;padding:14px}
+  .unit .ic{width:60px;height:60px;border-radius:16px}.unit .ic img{width:48px;height:48px}
+  .unit .go{grid-column:2}
+  .uhead img{width:68px;height:68px}
+  .chip{padding:4px 10px 4px 4px;font-size:.85rem}
+  .logo span.t{display:none}
+  .qcard{padding:20px}
+  .q{font-size:1.3rem}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

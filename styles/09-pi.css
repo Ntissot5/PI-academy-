@@ -1,0 +1,13 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* mascot Pi */
+.pi{position:relative;display:inline-block}
+.pi img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(35,86,232,.25))}
+.pi svg{position:absolute;inset:0;width:100%;height:100%}
+.pi.bob{animation:bob 3.2s ease-in-out infinite}
+.pi.jump{animation:jump .6s ease-out 2}
+.pi.shake{animation:shake .45s ease-in-out 1}
+.lid{animation:blink 4.5s infinite;transform-origin:center;transform-box:fill-box}
+@keyframes bob{50%{transform:translateY(-6px)}}
+@keyframes jump{40%{transform:translateY(-14px) scale(1.04)}}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+@keyframes blink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}

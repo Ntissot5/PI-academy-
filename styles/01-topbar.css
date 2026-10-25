@@ -1,0 +1,12 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* top bar */
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--surface);border-bottom:1px solid var(--line)}
+.top .in{max-width:1180px;margin:0 auto;height:60px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.logo{display:flex;align-items:center;gap:8px;background:none;border:0;padding:0;font-family:var(--f-display);font-weight:700;font-size:1.1rem}
+.logo .pi{width:44px;height:30px}
+.chips{display:flex;gap:8px}
+.chip{display:flex;align-items:center;gap:6px;padding:5px 12px 5px 6px;border-radius:99px;background:var(--ice-2);border:1px solid var(--line);font-weight:700;font-family:var(--f-mono);font-size:.92rem}
+.chip img{width:24px;height:24px}
+
+main{max-width:1180px;margin:0 auto;padding-block:24px 80px}

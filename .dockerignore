@@ -1,0 +1,9 @@
+node_modules
+.next
+.next-*
+pocketbase/pb_data*
+pocketbase/bin
+test-results
+playwright-report
+captures
+.git

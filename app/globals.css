@@ -1,0 +1,14 @@
+/* CSS du prototype (reference/route-epfl.html), découpé par section sans modification. */
+@import "../styles/00-base.css";
+@import "../styles/01-topbar.css";
+@import "../styles/02-hero.css";
+@import "../styles/03-layout.css";
+@import "../styles/04-daily.css";
+@import "../styles/05-units.css";
+@import "../styles/06-unit-page.css";
+@import "../styles/07-quiz.css";
+@import "../styles/08-result.css";
+@import "../styles/09-pi.css";
+@import "../styles/app.css";
+/* Les media queries du prototype restent en dernier, comme dans l'original. */
+@import "../styles/10-responsive.css";

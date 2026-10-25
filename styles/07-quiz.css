@@ -1,0 +1,29 @@
+/* Copié tel quel de reference/route-epfl.html. Ne pas réécrire : les styles nouveaux vont dans app.css. */
+/* quiz */
+.qwrap{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.qbar{display:flex;align-items:center;gap:12px}
+.qbar .x{border:0;background:var(--surface);border:1px solid var(--line);width:40px;height:40px;border-radius:12px;font-size:1.1rem}
+.qbar .bar{flex:1;height:14px}
+.qbar .bar i{background:linear-gradient(90deg,var(--ok),#3fd39a)}
+.qcard{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:26px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:16px}
+.qkick{display:flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.qkick img{width:26px;height:26px}
+.q{font-family:var(--f-mono);font-size:1.5rem;line-height:1.5;overflow-x:auto}
+.q.text{font-family:var(--f-body);font-size:1.15rem;font-weight:500}
+.q sup{font-size:.6em}
+.hint{font-size:.85rem;color:var(--muted)}
+.ans{display:flex;gap:8px;flex-wrap:wrap}
+.ans input{flex:1 1 180px;min-width:0;font:inherit;font-family:var(--f-mono);font-size:1.3rem;padding:14px 16px;border-radius:12px;border:2px solid var(--line);background:var(--ice-2);color:var(--ink)}
+.ans input:focus{border-color:var(--brand);outline:none}
+.keys{display:flex;gap:6px}
+.keys button{width:50px;border-radius:12px;border:1.5px solid var(--line);background:var(--surface);font-family:var(--f-mono);font-size:1.15rem}
+.check{position:sticky;bottom:0;background:var(--surface);border-top:1px solid var(--line);margin-top:8px;padding-block:14px calc(14px + env(safe-area-inset-bottom,0px));z-index:5}
+.check .in{max-width:720px;margin:0 auto;display:flex;align-items:center;gap:14px;justify-content:space-between}
+.check.ok{background:var(--ok-soft);border-color:transparent}
+.check.ko{background:var(--bad-soft);border-color:transparent}
+.fbx{display:flex;align-items:center;gap:12px;min-width:0}
+.fbx .pi{width:64px;height:44px;flex:none}
+.fbx b{display:block;font-family:var(--f-display);font-size:1.05rem}
+.check.ok .fbx b{color:var(--ok)} .check.ko .fbx b{color:var(--bad)}
+.fbx span{font-size:.9rem}
+.check.ok .cta{background:var(--ok);box-shadow:none} .check.ko .cta{background:var(--bad);box-shadow:none}
