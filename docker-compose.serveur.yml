@@ -1,0 +1,18 @@
+# Serveur seul, sans Dokploy (ex. Oracle Cloud, Oracle Linux) : le proxy Caddy répond directement
+# sur les ports 80 et 443 et obtient le certificat HTTPS pour SITE_ADDRESS.
+#   docker compose -f docker-compose.prod.yml -f docker-compose.serveur.yml up -d --build
+# Variables dans le fichier .env à côté : SITE_ADDRESS, PB_SUPERUSER_EMAIL, PB_SUPERUSER_PASSWORD.
+services:
+  proxy:
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?indique le nom de domaine dans .env}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:

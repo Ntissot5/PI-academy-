@@ -89,6 +89,14 @@ Une seule application Dokploy, de type **Compose**, avec `docker-compose.prod.ym
 5. Dans PocketBase (`https://ton-domaine/_/`) → Settings : l'URL de l'application, le SMTP si besoin, et le *rate limiting*.
 6. Te donner le rôle admin dans l'app : `users` → ton compte → `role = admin`.
 
+**Sans Dokploy** (un serveur seul, par ex. Oracle Cloud gratuit sous Oracle Linux) : ouvrir les ports 80 et 443 dans la « security list » du réseau, puis sur le serveur :
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Ntissot5/pi-academy-/demo-local/scripts/installer-serveur.sh | bash -s -- https://github.com/Ntissot5/pi-academy-.git demo-local
+```
+
+Le script installe Docker, ouvre le pare-feu local, choisit l'adresse `<ip>.sslip.io` (HTTPS automatique par Caddy) et crée un mot de passe d'administration dans `~/pi-academy/.env`. Le relancer met le site à jour.
+
 Testé sans Docker en reproduisant le proxy (inscription, séries, tableau prof en temps réel, blocage PIN).
 
 Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage, contenu de départ compris (`1761600000_contenu.js`, généré depuis `pocketbase/seed/parcours.json` par `node scripts/build-content-migration.mjs`) : un PocketBase neuf a directement ses matières, parcours et unités. Le seed reste utile pour les comptes démo (`--demo`).
