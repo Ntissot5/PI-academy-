@@ -16,14 +16,17 @@ test("matières : canton, français (texte), histoire (QCM), citoyenneté du can
   // canton → plan d'études mis en avant, choix gardé dans le profil
   await page.selectOption("#canton", "GE");
   await expect(page.locator(".daily.canton")).toContainText("Plan d’études romand");
+  // une grille de matières en carrés
   for (const m of ["Mathématiques", "Sciences de la nature", "Français", "Allemand", "Anglais", "Géographie", "Histoire", "Citoyenneté"]) {
-    await expect(page.locator(".mat-h h2", { hasText: m })).toBeVisible();
+    await expect(page.locator(".mat-tile b", { hasText: m })).toBeVisible();
   }
   await page.waitForTimeout(500);
   await page.reload();
   await expect(page.locator("#canton")).toHaveValue("GE");
 
   // français : réponses en texte, une erreur
+  await page.locator(".mat-tile", { hasText: "Français" }).click();
+  await expect(page.locator(".uhead h1")).toHaveText("Français");
   await page.getByRole("button", { name: /Français · Conjugaison/ }).click();
   await expect(page.locator(".hero .kick")).toHaveText("Cours · Français");
   await page.click("#cont");
@@ -49,7 +52,7 @@ test("matières : canton, français (texte), histoire (QCM), citoyenneté du can
   await page.click("#go");
   await expect(page.locator(".qcard .q")).toContainText("Genève");
 
-  // un canton du Lehrplan 21 : les parcours romands passent en « Autre plan d'études »
+  // un canton du Lehrplan 21 : les parcours romands sont signalés comme d'un autre plan
   const other = await (await browser.newContext()).newPage();
   await other.goto("/connexion");
   await other.fill("#email", email);
@@ -57,8 +60,16 @@ test("matières : canton, français (texte), histoire (QCM), citoyenneté du can
   await other.getByRole("button", { name: "Me connecter" }).click();
   await other.waitForURL("**/parcours");
   await other.selectOption("#canton", "ZH");
-  await expect(other.locator(".unit", { hasText: "Allemand · Les bases" })).toContainText("Autre plan d’études");
-  await expect(other.locator(".unit", { hasText: "Citoyenneté · Institutions suisses" })).not.toContainText("Autre plan d’études");
+  await other.locator(".mat-tile", { hasText: "Allemand" }).click();
+  // aucun programme du Lehrplan 21 en allemand pour l'instant : on le dit
+  await expect(other.locator(".sec-h h2")).toHaveText("Programmes disponibles");
+  await expect(other.locator(".sec-h")).toContainText("un autre plan que celui de Zurich");
+  await other.locator(".crumb a").click();
+  await other.locator(".mat-tile", { hasText: "Citoyenneté" }).click();
+  // la citoyenneté fédérale vaut pour toute la Suisse ; les programmes PER par année sont « d'un autre plan »
+  await expect(other.locator(".sec-h h2").first()).toHaveText("Pour ton canton");
+  await expect(other.locator(".units").first().locator(".unit")).toHaveCount(1);
+  await expect(other.locator(".sec-h h2").nth(1)).toHaveText("Autres plans d’études");
 
   expect(errors).toEqual([]);
 });

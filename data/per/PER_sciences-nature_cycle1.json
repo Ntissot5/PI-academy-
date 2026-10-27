@@ -1,0 +1,855 @@
+{
+  "discipline": "Sciences de la nature",
+  "cycle": 1,
+  "source": "https://portail.ciip.ch/per/disciplines/6",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/167",
+      "code": "MSN 15",
+      "axe": "Modélisation",
+      "titre": "Représenter des phénomènes naturels, techniques ou des situations mathématiques",
+      "composantes": [
+        "A. en imaginant et en utilisant divers outils de représentation",
+        "B. en menant des observations répétées",
+        "C. en se référant à diverses sources",
+        "D. en triant et organisant des données",
+        "E. en confrontant et en communiquant ses observations, ses résultats, ses constats, ses interprétations",
+        "F. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques",
+        "G. en se posant des questions et en exprimant ses conceptions"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/56",
+      "code": "MSN 16",
+      "axe": "Phénomènes naturels et techniques",
+      "titre": "Explorer des phénomènes naturels et des technologies",
+      "composantes": [
+        "1. en confrontant ses conceptions entre pairs et avec divers médias",
+        "2. en distinguant les éléments du monde naturel des objets manufacturés",
+        "3. en cherchant à expliquer le fonctionnement de phénomènes naturels et d’objets techniques",
+        "4. en imaginant, en réalisant des expérimentations et en proposant des explications",
+        "5. en communiquant ses observations à l’aide d’un vocabulaire adapté"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Formulation de questions et d’hypothèses au sujet d'une problématique (oralement ou par écrit : dessins ou schémas intuitifs, légendes,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition de pistes de recherche",
+            "Élaboration et/ou mise en œuvre d'un dispositif d’expérimentation, d'exploration ou d’observation"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Identification de quelques facteurs (variables) influençant un phénomène observé ou expérimenté"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Choix et utilisation d'outils de mesure adéquats pour une problématique"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Découverte et comparaison de longueurs, de durées, de capacités,… à l'aide d'unités de mesure non standardisées (bandelettes, gobelets,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Comparaisons de longueurs, de capacités, de masses, de durées,… à l'aide d'unités non standardisées et des unités conventionnelles (système métrique, calendriers)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessin, légende, description dictée à l'adulte,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessins d'observation, photos, schémas, légendes, descriptions, explications, journal d’observation,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des éléments récoltés et des observations à l'aide d'un outil de représentation proposé (frise chronologique, tableau de classement, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des collections, des observations et des résultats à l'aide de divers outils de représentation proposés (frise chronologique, tableaux et arbres de classement, schémas, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition d’une explication à partir des résultats d’une observation, d’une expérience. Sensibilisation à la distinction entre ce qui relève des résultats, des constats, et ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question (constat : une règle flotte; interprétation : elle flotte parce qu’elle est en bois ou en plastique)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral, présentation d'une phase de la recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral ou écrit, présentation de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo, texte, schéma,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Matière",
+          "contenu": [
+            "Récolte d’éléments (bois, pierre, métal, tissu, plastique, papier,…) de son environnement (naturel ou construit)",
+            "Manipulation de divers éléments, prise d’information à l’aide des 5 sens, verbalisation des observations"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Matière",
+          "contenu": [
+            "Récolte d’éléments (bois, pierre, métal, tissu, plastique, papier,…) de l’environnement (naturel ou construit)",
+            "Catégorisation spontanée (flottabilité, perméabilité, solubilité, dureté et déformation, forme, masse, aspect,…) des éléments récoltés puis discussion des critères retenus",
+            "Classement (aspect, forme, matière, masse, odeur,…) et argumentation d’éléments selon des critères donnés :",
+            "– utilisations des matières",
+            "– matière-s constitutive-s"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Matière",
+          "contenu": [
+            "Catégorisation spontanée de différents objets (de l’environnement naturel ou construit) selon des critères donnés (aspect, forme, matière, masse, odeur,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Matière",
+          "contenu": [
+            "Réflexion à propos de quelques objets manufacturés : quelles en sont les matières constitutives ? comment les recycle-t-on ?"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Matière",
+          "contenu": [
+            "Observation des phénomènes naturels liés à l’eau (nuage, pluie, neige, grêle, soleil,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Matière",
+          "contenu": [
+            "Observation des phénomènes naturels liés à l’eau (nuage, pluie, neige, grêle, inondation, vent, soleil,…) et expérimentation des transformations de l’eau liquide-solide-liquide (neige, glace)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Expérimentation de la force à l’aide du corps et d’objets (sac plastique, feuille de papier, tourniquet, bouteille, arrosoir, balle, bille, bateau à voile, moulin, aspirateur, jet d’eau,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Expérimentation de la force de l’air, de l’eau et/ou d’objets en mouvement, perception à l’aide du corps et à l’aide de dispositifs construits (éolienne, parachute, cerf-volant, roue à aube, balles ou billes roulant sur des rampes,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Observation de la force de l’air, de l’eau, des objets en mouvement dans l’environnement"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Utilisation des objets techniques"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Mise en relation des expériences réalisées avec l’utilisation de ces forces par l’homme"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Forces et énergie",
+          "contenu": [
+            "Réalisation et expérimentation de divers dispositifs pour rechercher l’équilibre entre divers objets ou le point d’équilibre propre d’un objet"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Planète Terre",
+          "contenu": [
+            "Distinction des différentes saisons par l’observation, l’approche par les sens et la comparaison de certaines caractéristiques (température, luminosité, fréquence et nature des intempéries, apparence de la végétation, variations de températures, rythmes des végétaux, ouverture des fleurs,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Planète Terre",
+          "contenu": [
+            "Distinction des cycles journaliers et saisonniers par l’observation de certaines caractéristiques (température, luminosité, sens du vent, fréquence et nature des intempéries, apparence de la végétation, variations de températures, rythmes circadiens – activités/repos,…) et la prise de mesures",
+            "Réflexion et observation sur ce qui fonctionne de manière cyclique (rythmes circadiens – activités/repos, rythmes des végétaux, ouverture des fleurs, rythmes biologiques animal – migration, hibernation, reproduction – et végétal – germination, floraison, fructification,…) à partir de l’alternance jour/nuit et des saisons"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Planète Terre",
+          "contenu": [
+            "Exploration de phénomènes naturels liés à l’actualité (tempête, avalanche, migration des oiseaux,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Planète Terre",
+          "contenu": [
+            "Exploration de phénomènes naturels liés à l’actualité (tempête, inondation, sécheresse, avalanche, migration des oiseaux, éruption volcanique,…) et émission d’hypothèses pour les expliquer"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "formule au moins une question ou une hypothèse au sujet d'une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "identifie un facteur (une variable ou une constante) intervenant dans une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "propose un instrument de mesure adéquat dans une situation problématique donnée"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation ou de recherches documentaires pour infirmer ou confirmer une hypothèse"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "compare deux éléments (objets, plantes, animaux, partie du corps,…) selon des critères donnés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "choisit un critère pour trier une collection et l’utilise pour la présenter"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "communique ses résultats par oral et à l'aide d’un dessin annoté"
+        },
+        {
+          "fin": "4e",
+          "notion": "Matière",
+          "texte": "classe des objets selon des critères liés aux propriétés de la matière : aspect (taille, rugosité, couleur,…) et matières constitutives (bois, pierre, métal,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Forces et énergie",
+          "texte": "cf. Attentes liées à Initiation à la démarche scientifique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Forces et énergie",
+          "texte": "équilibre deux masses par essais successifs à l’aide d’outils appropriés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Planète Terre",
+          "texte": "décrit le cycle naturel jour/nuit en utilisant quelques observations (lumière, température, végétation, faune,…) et des repères temporels (horaires sur la journée)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Planète Terre",
+          "texte": "décrit le cycle naturel des saisons en utilisant quelques observations (lumière, température, conditions météorologiques, végétation, faune,…) et des repères temporels (calendriers)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/57",
+      "code": "MSN 17",
+      "axe": "Corps humain",
+      "titre": "Construire son schéma corporel pour tenir compte de ses besoins",
+      "composantes": [
+        "1. en identifiant ses besoins",
+        "2. en expérimentant le fonctionnement de son corps à travers les sens",
+        "3. en représentant graphiquement son corps",
+        "4. en identifiant les principales caractéristiques de certaines parties du corps",
+        "5. en identifiant certains risques de la vie courante",
+        "6. en définissant son rythme biologique"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Formulation de questions et d’hypothèses au sujet d'une problématique (oralement ou par écrit – dessins ou schémas intuitifs, légendes,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition de pistes de recherche",
+            "Élaboration et/ou mise en œuvre d'un dispositif d'exploration ou d’observation"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Identification de quelques facteurs (variables) influençant un phénomène observé ou expérimenté"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Choix et utilisation d'outils de mesure adéquats pour une problématique"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Découverte et comparaison de longueurs, de durées, de capacités,… à l'aide d'unités de mesure non standardisées (bandelettes, gobelets,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Comparaisons de longueurs, de capacités, de masses, de durées,… à l'aide d'unités non standardisées et des unités conventionnelles (système métrique, calendriers)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessin, légende, description dictée à l'adulte,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessins d'observation, photos, schémas, légendes, descriptions, explications, journal d’observation,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des observations à l'aide d'un outil de représentation proposé (frise chronologique, tableau de classement, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des observations et des résultats à l'aide de divers outils de représentation proposés (frise chronologique, tableaux et arbres de classement, schémas, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition d'une explication à partir des résultats d’une observation ou d’une expérience",
+            "Sensibilisation à la distinction entre ce qui relève des résultats, des constats, et ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question (constat : une règle flotte ; interprétation : elle flotte parce qu’elle est en bois ou en plastique)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral, présentation d'une phase de la recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral ou écrit, présentation de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo, texte, schéma,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Représentation sommaire de son corps de face en utilisant le dessin, la peinture, le modelage,…"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Représentation de son corps de face et de profil en utilisant le dessin, la peinture, le modelage,…"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Comparaison de sa production à celle d’un livre, à un média et proposition de deux améliorations à sa représentation"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Identification des différentes parties du corps (tête, bras, jambe, ventre, dos,…) et du visage (nez, yeux, bouche, oreilles, cheveux,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Identification et représentation :",
+            "– des différentes parties du corps (tête, bras, jambe, ventre, dos,…) et du visage (nez, yeux, bouche, oreilles, cheveux,…)",
+            "– des principales articulations (cou, genoux, coudes, poignets, épaules, chevilles,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Prise de conscience du rôle des différentes parties du corps (jambe pour le déplacement, main pour la préhension,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "contenu": [
+            "Description des caractéristiques des parties externes du corps et de leur fonction"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "contenu": [
+            "Découpage du jour en différentes étapes"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "contenu": [
+            "Découpage du jour en différentes étapes avec mise en évidence des besoins vitaux du corps à chacune d'entre elles"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "contenu": [
+            "Échange sur une observation personnelle qu’il a faite sur son rythme biologique et ses besoins"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "contenu": [
+            "Identification de ce qui est vital (respirer, boire, manger, dormir, se mouvoir, se protéger)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "contenu": [
+            "Sensibilisation à une hygiène de vie (manger équilibré, respect de son corps,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "contenu": [
+            "Découverte des 5 sens par l’expérimentation (en classe, dans la forêt, au bord de la rivière, autour de l'école,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "contenu": [
+            "Découverte des 5 sens par l’expérimentation pour dégager certaines caractéristiques de ce qui est perçu",
+            "Différenciation d’objets par expérimentation en choisissant et utilisant ses sens (déterminer si c’est sucré, mouillé, coloré, rugueux,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Risques et prévention ( 5 )",
+          "contenu": [
+            "Identification de ce qui peut être dangereux pour le corps dans différentes situations, lors de sorties ou d’événements liés à la vie de la classe",
+            "Formulation d’une hypothèse sur ce qui peut être dangereux pour son corps dans une situation nouvelle donnée par l’enseignant et proposition d’un comportement adapté"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "formule au moins une question ou une hypothèse au sujet d'une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "identifie un facteur (une variable ou une constante) intervenant dans une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "propose un instrument de mesure adéquat dans une situation problématique donnée"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation ou de recherches documentaires pour infirmer ou corroborer une hypothèse"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "compare deux éléments (objets, plantes, animaux, partie du corps,…) selon des critères donnés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "communique ses résultats par oral et à l'aide d’un dessin annoté"
+        },
+        {
+          "fin": "4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "texte": "situe et nomme les principales parties de son corps et de son visage"
+        },
+        {
+          "fin": "4e",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "texte": "identifie les fonctions essentielles des principales parties repérées"
+        },
+        {
+          "fin": "4e",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "texte": "identifie et nomme ses besoins vitaux (respirer, boire, manger, dormir, se protéger)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "identifie, repère et nomme les 5 sens"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "décrit par comparaison quelques caractéristiques liées aux 5 sens :"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "– ouïe (aigu/grave; fort/faible,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "– goût (sucré/salé,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "– odorat (agréable/désagréable,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "– toucher (lisse/rugueux; chaud/froid; mouillé/sec; taille; lourd/léger;…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "texte": "– vue (clair/sombre ; couleur ; forme ;…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Risques et prévention ( 5 )",
+          "texte": "respecte les règles de sécurité dans des situations données"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/58",
+      "code": "MSN 18",
+      "axe": "Diversité du vivant",
+      "titre": "Explorer l'unité et la diversité du vivant",
+      "composantes": [
+        "1. en repérant des propriétés et/ou des caractères communs au vivant",
+        "2. en distinguant le vivant du non-vivant",
+        "3. en réalisant des expérimentations",
+        "4. en identifiant les besoins fondamentaux du vivant : se nourrir, se protéger, se reproduire",
+        "5. en présentant ses observations",
+        "6. en explorant divers milieux urbains et naturels et en visitant des expositions (musées, zoo, jardins botaniques,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Formulation de questions et d’hypothèses au sujet d'une problématique (oralement ou par écrit - dessins ou schémas intuitifs, légendes,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition de pistes de recherche",
+            "Élaboration et/ou mise en œuvre d'un dispositif d’expérimentation, d'exploration ou d’observation"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Identification de quelques facteurs (variables) influençant un phénomène observé ou expérimenté"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Choix et utilisation d'outils de mesure adéquats pour une problématique"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Comparaisons de longueurs, de capacités, de masses, de durées,… à l'aide d'unités non standardisées (bandelettes, gobelets,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Comparaisons de longueurs, de capacités, de masses, de durées,… à l'aide d'unités non standardisées et des unités conventionnelles (système métrique, calendriers)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessins, légendes, descriptions, dictées à l'adulte,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Relevé des observations ou des mesures effectuées (dessins d'observation, photos, schémas, légendes, descriptions, explications, journal d’observation,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des éléments récoltés et des observations à l'aide d'un outil de représentation proposé (frise chronologique, tableau de classement, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Organisation et tri des collections, des observations et des résultats à l'aide de divers outils de représentation proposés (frise chronologique, tableaux et arbres de classement, schémas, représentations de longueurs,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Proposition d'une explication à partir des résultats d’une observation, d'une expérience",
+            "Sensibilisation à la distinction entre ce qui relève des résultats, des constats, de ce qui relève de l'interprétation qu'on en fait et qui peut être remise en question (constats : une règle flotte ; interprétation : elle flotte parce qu’elle est en bois ou en plastique)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral, présentation d'une phase de la recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Initiation à la démarche scientifique",
+          "contenu": [
+            "Dans un compte-rendu oral ou écrit, présentation de certaines phases d'une recherche (question de recherche, hypothèse, expérimentation, observation, résultats, interprétations,…) à l'aide de différents supports (image, dessin, photo, texte, schéma,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Diversité des milieux (enquête) ( 3 , 5 , 6 )",
+          "contenu": [
+            "Exploration d'un milieu en utilisant ses sens",
+            "Comparaison de ce qui est perçu à l'aide des sens selon un critère donné"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Diversité des milieux (enquête) ( 3 , 5 , 6 )",
+          "contenu": [
+            "Exploration d'un milieu (utilisation de tous ses sens) en répertoriant les éléments qui le composent",
+            "Comparaison de quelques-uns de ces éléments (3-4 arbres, 3-4 cailloux, 3-4 animaux,…)",
+            "Distinction entre animaux et végétaux"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "contenu": [
+            "Collecte de différents éléments à l'extérieur de l'école et organisation spontanée de la collection par comparaison"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "contenu": [
+            "Collecte de différents éléments à l'extérieur de l'école et organisation spontanée de la collection par comparaison",
+            "Échanges sur les caractéristiques proposées par les élèves pour définir ce qui est vivant",
+            "Tri d’une collection à l’aide du critère vivant/non-vivant (naître, croître, se reproduire, mourir)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "contenu": [
+            "Observation d'un animal en classe ou dans son environnement pour identifier les besoins du vivant (manger, boire, se reposer, se protéger,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "contenu": [
+            "Expérimentation sur la germination et le développement d'une plante en testant les besoins imaginés par les élèves ; mise en évidence du cycle de vie d'une plante",
+            "Enquête pour identifier les besoins des animaux à partir d'un élevage (en classe, à la ferme, au zoo,…)",
+            "Comparaison entre différents animaux pour définir comment leurs besoins se réalisent (se nourrir, se protéger,…) et comment s'accomplit leur cycle de vie (naissance – croissance - reproduction)",
+            "Recherche de quelques critères de différenciation entre les plantes et les animaux"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "formule au moins une question ou une hypothèse au sujet d'une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "identifie un facteur (une variable ou une constante) intervenant dans une problématique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "propose un instrument de mesure adéquat dans une situation problématique donnée"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "confronte ses résultats d'observation, d'expérimentation ou de recherches documentaires pour infirmer ou confirmer une hypothèse"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "compare deux éléments (objets, plantes, animaux, partie du corps,…) selon des critères donnés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "choisit un critère pour trier une collection et l’utilise pour la présenter"
+        },
+        {
+          "fin": "4e",
+          "notion": "Initiation à la démarche scientifique",
+          "texte": "communique ses résultats par oral et à l'aide d’un dessin annoté"
+        },
+        {
+          "fin": "4e",
+          "notion": "Diversité des milieux (enquête) ( 3 , 5 , 6 )",
+          "texte": "compare deux éléments (objets, plantes ou animaux) selon des critères donnés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "texte": "distingue le vivant du non-vivant selon deux ou trois caractéristiques"
+        },
+        {
+          "fin": "4e",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "texte": "argumente que les plantes, comme les animaux, font partie du vivant"
+        },
+        {
+          "fin": "4e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "texte": "cf. Attentes liées à Initiation à la démarche scientifique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "texte": "nomme deux besoins fondamentaux du vivant et les décrit sur deux animaux étudiés"
+        },
+        {
+          "fin": "4e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "texte": "compare des animaux de deux classes différentes pour dégager des différences et des similitudes"
+        },
+        {
+          "fin": "4e",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "texte": "trouve quelques caractéristiques communes aux animaux et aux plantes"
+        }
+      ]
+    }
+  ]
+}

@@ -11,6 +11,10 @@ Matières : mathématiques, sciences de la nature, français, allemand, anglais,
 
 ## Lancer en local
 
+**En une commande** (Mac ou Linux, avec Node.js installé) : `npm run demo`. Tout démarre (PocketBase, contenu, comptes démo, site) et le navigateur s’ouvre sur http://localhost:3000.
+
+Étape par étape :
+
 Prérequis : Node 22, `curl` et `unzip` (le script télécharge PocketBase tout seul).
 
 ```bash
@@ -76,13 +80,24 @@ Le seed ne modifie jamais un parcours ou une unité qui existe déjà, sauf avec
 
 ## Déployer sur Dokploy
 
-Deux applications Dokploy depuis ce repo :
+Une seule application Dokploy, de type **Compose**, avec `docker-compose.prod.yml`. Le site et PocketBase sont servis à la même adresse : le proxy (`deploy/caddy/Caddyfile`) envoie `/api` et `/_` (administration) à PocketBase, et tout le reste au site.
 
-1. **PocketBase** : type Dockerfile, contexte `pocketbase/`, port 8090, **volume persistant monté sur `/pb/pb_data`**. Domaine par ex. `api.pi-academy.ch`. Puis, dans le terminal Dokploy : `/pb/pocketbase superuser upsert <email> <mot de passe> --dir=/pb/pb_data`.
-2. **Web** : type Dockerfile, contexte racine, port 3000, argument de build `NEXT_PUBLIC_PB_URL=https://api.pi-academy.ch` (lu au build : reconstruire si l’URL change). Domaine par ex. `pi-academy.ch`.
-3. Depuis ta machine : `PB_URL=https://api.pi-academy.ch PB_SUPERUSER_EMAIL=… PB_SUPERUSER_PASSWORD=… npm run pb:seed` (sans `--demo` en production si tu ne veux pas les comptes démo).
-4. Dans PocketBase → Settings : régler l’URL de l’application, SMTP si tu veux la réinitialisation de mot de passe, et activer le *rate limiting* (en plus du blocage PIN, il freine les essais de codes de classe).
-5. Te donner le rôle admin : dashboard PocketBase → `users` → ton compte → `role = admin`.
+1. Dokploy → **Create Service → Compose** → dépôt GitHub, branche, chemin `docker-compose.prod.yml`.
+2. Onglet **Environment** : `PB_SUPERUSER_EMAIL=…` et `PB_SUPERUSER_PASSWORD=…` (compte d'administration PocketBase, créé ou mis à jour à chaque démarrage).
+3. Onglet **Domains** : service `proxy`, port `80`, ton domaine (ou le domaine gratuit proposé par Dokploy), HTTPS activé.
+4. **Deploy**. Les données restent dans le volume `pb_data` entre deux déploiements.
+5. Dans PocketBase (`https://ton-domaine/_/`) → Settings : l'URL de l'application, le SMTP si besoin, et le *rate limiting*.
+6. Te donner le rôle admin dans l'app : `users` → ton compte → `role = admin`.
+
+**Sans Dokploy** (un serveur seul, par ex. Oracle Cloud gratuit sous Oracle Linux) : ouvrir les ports 80 et 443 dans la « security list » du réseau, puis sur le serveur :
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Ntissot5/pi-academy-/demo-local/scripts/installer-serveur.sh | bash -s -- https://github.com/Ntissot5/pi-academy-.git demo-local
+```
+
+Le script installe Docker, ouvre le pare-feu local, choisit l'adresse `<ip>.sslip.io` (HTTPS automatique par Caddy) et crée un mot de passe d'administration dans `~/pi-academy/.env`. Le relancer met le site à jour.
+
+Testé sans Docker en reproduisant le proxy (inscription, séries, tableau prof en temps réel, blocage PIN).
 
 Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au démarrage, contenu de départ compris (`1761600000_contenu.js`, généré depuis `pocketbase/seed/parcours.json` par `node scripts/build-content-migration.mjs`) : un PocketBase neuf a directement ses matières, parcours et unités. Le seed reste utile pour les comptes démo (`--demo`).
 
@@ -97,6 +112,22 @@ Les migrations (`pocketbase/pb_migrations`) s’appliquent toutes seules au dém
 - **Dates** : jour de session, série de jours, objectif du jour et calendrier 28 jours calculés côté serveur en Europe/Zurich (`pocketbase/pb_hooks/lib/zurich.js`, testé sur les changements d’heure).
 - **Lecture** : chacun voit ses données ; un prof voit les élèves de ses classes seulement ; l’admin voit tout.
 - **Protection des mineurs** : pas d’e-mail ni de nom complet pour les élèves, pas d’analytics ni de traceur tiers, polices servies par l’appli.
+
+## Plan d’études romand (PER)
+
+Source : Plan d’études romand, © CIIP. Le texte officiel est repris tel quel ; il n’est jamais modifié. Avant une mise en production publique, l’accord de la CIIP (ciip@ne.ch) est attendu.
+
+- **Texte officiel** : `data/per/` (24 fichiers par discipline et par cycle), extrait de l’API publique du PER par `data/per-kit/tool/extract.mjs` (voir `data/per-kit/PROMPT-PER.md`). Contrôle : les fichiers sont identiques à ceux de `data/per-kit/reference/`.
+- **Programme par année** : `node scripts/per-programme.mjs` → `data/per/programme_par_annee.json` (1re à 11e) et `data/per/per_notions.json` (une progression officielle par ligne, avec une clé stable).
+- **Rattachement des exercices** : `lib/per-generateurs.json` (code + notion + plage + extrait du texte officiel). `node scripts/build-per-content.mjs` vérifie chaque lien contre le texte officiel et produit `lib/per-liens.json`, les champs PER de `pocketbase/seed/parcours.json`, `pocketbase/seed/parcours-per.json` (un parcours par année et par discipline) et la migration `1761700001_per_contenu.js`.
+- **Règle** : pas d’exercice sans code PER ni année. Chaque question générée porte `per_code` et `annee` ; une unité sans code PER ou sans année est refusée par le serveur. Trigonométrie, logarithmes, dérivées et le Δ du 2e degré sont `secondaire_II` (hors PER) et n’existent que dans la Prépa EPFL.
+- **Parcours par année** : « Maths 9e », « Français 7e »… une leçon par notion du PER ; une notion sans exercice est affichée « Bientôt », visible mais verrouillée. Ces parcours sont marqués Bêta tant que les rattachements ne sont pas relus.
+- **Pour les profs** : chaque unité montre le texte officiel visé, avec le lien vers la source, et la répartition du canton de la classe quand il en publie une (`data/cantons/cantons.json`, copié dans `public/data/`). Les élèves ne voient que les titres et les explications de l’app.
+- **Cantons** (GE, VD, FR, VS, NE, JU, BE francophone) : documents officiels dans `data/cantons/<canton>/pdf/` (téléchargés via le navigateur, avec URL et SHA-256 dans `sources.json`), extraits dans `data/cantons/<canton>/canton.json` (grilles horaires, niveaux et filières, répartition par année, évaluations ; texte recopié, « INTROUVABLE » sinon). `node scripts/build-cantons.mjs` contrôle et rassemble tout dans `data/cantons/cantons.json` et `public/data/cantons.json`. Seul Genève publie une répartition notion par année pour toutes les disciplines ; Vaud, pour l’option Mathématiques et physique (codes cantonaux MEP 31-34).
+- **Couverture** : `node scripts/per-couverture.mjs` → `docs/COUVERTURE-PER.md` (tableau année × discipline, 20 notions prioritaires sans exercice, rattachements à relire).
+- **Compléter plus tard** (nouveaux exercices, documents cantonaux, nouvelle version du PER) : `docs/COMPLETER-LE-PER.md`.
+
+Les exercices sont créés par la plateforme et ne reprennent pas ceux des moyens d’enseignement romands, protégés par le droit d’auteur.
 
 ## Contenu des nouvelles matières
 

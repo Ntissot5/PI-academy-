@@ -1,0 +1,21 @@
+{
+  "_note": "Textes de leçon des types d'exercices qui ne figurent dans aucun parcours de parcours.json : repris dans les parcours par année (scripts/build-per-content.mjs).",
+  "lecons": {
+    "litt-valeur": {
+      "titre": "Valeur d’une expression",
+      "regle": "Pour calculer une expression littérale, on remplace chaque lettre par sa valeur, entre parenthèses si elle est négative, puis on calcule dans l’ordre : parenthèses, puissances, multiplications et divisions, additions et soustractions.",
+      "exemple": "3x² − 7 pour x = −2 : 3 · (−2)² − 7 = 3 · 4 − 7 = 5",
+      "image": "Une formule, c’est une recette avec des cases vides : b·h/2, c’est « base fois hauteur divisé par 2 ». Tu mets tes nombres dans les cases, et la recette fait le reste.",
+      "piege": "(−2)² = 4, pas −4 : le carré d’un nombre négatif est positif. Sans parenthèses, la calculatrice comprend −2² = −4.",
+      "icone": "pin"
+    },
+    "litt-reduire": {
+      "titre": "Réduire et développer",
+      "regle": "On additionne seulement les termes semblables : les x avec les x, les nombres avec les nombres. Pour développer k(x + b), on multiplie chaque terme par k. Pour multiplier des monômes, on multiplie les nombres et on additionne les exposants.",
+      "exemple": "3x + 5x − 2 = 8x − 2 · 4(x − 3) = 4x − 12 · 2x · 3x² = 6x³",
+      "image": "Comme ranger des pièces : tu peux additionner les pièces de 2 CHF entre elles, mais 3 pièces de 2 CHF plus 4 pièces de 1 CHF, ça ne fait pas 7 pièces de quelque chose.",
+      "piege": "Un signe − devant une parenthèse change tous les signes à l’intérieur : (5x + 2) − (3x − 4) = 5x + 2 − 3x + 4 = 2x + 6.",
+      "icone": "molecule"
+    }
+  }
+}

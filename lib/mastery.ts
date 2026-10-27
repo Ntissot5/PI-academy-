@@ -7,7 +7,13 @@ export interface Progression {
   nb_boss: number;
   valide: boolean;
   lecon_lue: boolean;
+  /** Prochaine révision (AAAA-MM-JJ) et intervalle en jours, une fois l'unité validée. */
+  revision_le?: string;
+  intervalle?: number;
 }
+
+/** L'unité est-elle à réviser aujourd'hui ? */
+export const aReviser = (p: Progression | null | undefined, today: string) => !!p?.valide && !!p.revision_le && p.revision_le <= today;
 
 export type Level = 0 | 1 | 2 | 3;
 export const LVL = ["Pas commencé", "Tenté", "Familier", "Maîtrisé"] as const;

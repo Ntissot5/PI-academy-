@@ -1,0 +1,2574 @@
+{
+  "discipline": "Français",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/1",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/7",
+      "code": "L1 31",
+      "axe": "Compréhension de l'écrit",
+      "titre": "Lire et analyser des textes de genres différents et en dégager les multiples sens",
+      "composantes": [
+        "1. en identifiant et en caractérisant les différents genres de textes",
+        "2. en mettant en évidence l’organisation du texte et la progression du récit ou des idées",
+        "3. en utilisant les moyens de référence",
+        "4. en mobilisant et en développant ses connaissances langagières (lexicales, grammaticales, phonologiques, prosodiques,…) et extralangagières (connaissance du monde, références culturelles,…)",
+        "5. en confrontant le contenu du texte à des références diverses",
+        "6. en dégageant le sens des mots et des phrases, à partir du texte et du contexte",
+        "7. en se décentrant et en adoptant une posture réflexive et critique",
+        "8. en dégageant le point de vue de l’auteur",
+        "9. en hiérarchisant et en synthétisant les contenus"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification :",
+            "– des composantes de situations d’énonciation diverses (auteur/émetteur, public destinataire, but poursuivi, lieu social, contexte,…)",
+            "– des différents regroupements de genres de textes (texte narratif, texte qui argumente,…)",
+            "– des caractéristiques du genre de texte à travailler",
+            "– des visées du texte (distraire, décrire, faire agir, expliquer, convaincre,…)",
+            "– des intitulés et de la mise en page (titres, intertitres, paragraphes, marques de dialogues, illustrations, encadrés,…)",
+            "– des sujets ou des thèmes par le repérage des champs lexicaux dominants et/ou spécifiques",
+            "– de l'explicite et de l'implicite"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Repérage des organisateurs textuels (alphanumériques, énumératifs, additifs, temporels, spatiaux) et des connecteurs"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Interprétation des reprises anaphoriques (pronoms, synonymes, périphrases, termes génériques,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Analyse morphologique et contextuelle, segmentation des phrases"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Formulation et vérification d'hypothèses"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Reconnaissance des idées principales"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Réalisation d'activités résumantes"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification des modalisateurs d'appréciation (hélas, par bonheur,…) et de probabilité (sans doute, il se peut que, il semble,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés :\nrécit d'aventures, légende, mythe fondateur, récit policier,…"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés (texte qui relate) :\nrécit de vie, témoignage, fait divers,…",
+            "Genres conseillés (texte qui raconte):\nrécit d'aventures, récit policier,…"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés :\nrécit de science-fiction, récit fantastique, récit historique,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Distinction entre le texte narratif et les autres regroupements de genres"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Distinction entre les textes qui relatent (monde réel) et les textes qui racontent (monde fictionnel)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Distinction entre l'auteur et le narrateur"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Identification :",
+            "– de la position du narrateur (interne, externe)",
+            "– des éléments du décor",
+            "– des personnages, de leurs relations et de leurs rôles (schéma actanciel)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Identification de passages dialogués, descriptifs, explicatifs,…"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Repérage d'une structure narrative (schéma narratif)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Comparaison entre l'ordre du récit et l'ordre de la chronologie du récit (retour en arrière ou anticipation) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Analyse des sensations, des émotions et des sentiments des personnages"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Analyse du portrait moral des personnages"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Analyse de la vitesse du récit (ellipses narratives, résumés d'action) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Identification de la comparaison et de la métaphore"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Identification de la périphrase, de l'hyperbole, de la personnification, de la métonymie (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Distinction entre les valeurs de l'imparfait et du passé simple ou du passé composé"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Mise en relation d'éléments du récit avec son vécu, réactions aux valeurs véhiculées par le récit"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Liens CT – Démarche réflexive – Élaboration d’une opinion personnelle, remise en question et décentration de soi"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :\npoint de vue, pétition, article, critique de production, message publicitaire, brochure officielle avant les votations,…"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Analyse des visées argumentatives (message publicitaire, tract politique, démonstration scientifique,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage d'une structure argumentative (introduction, idée à défendre, arguments, exemples, conclusion)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Distinction entre arguments et exemples"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Reformulation d'un argument et d'un contre-argument"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Hiérarchisation des arguments par détermination d’un ordre d’importance et par classement en fonction de la visée argumentative (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Repérage et analyse de procédés de la réfutation et de la concession (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Analyse du fondement des arguments et des exemples (fait, croyance, valeur morale, esthétique, logique,…) et de leur valeur objective/subjective (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Liens SHS 31 – Relation Homme-espace; SHS 32 – Relation Homme-temps; MSN 36 – Phénomènes naturels et techniques; MSN 38 – Diversité du vivant; EN 31 – Médias; CT – Démarche réflexive – Élaboration d’une opinion personnelle – Remise en question et décentration de soi"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :\ncompte rendu, article encyclopédique, texte documentaire,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Distinction entre les différentes présentations d'information (textes, schémas, graphiques,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage de la structure du texte"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage des informations utiles à un réinvestissement possible (tables des matières, illustrations, index,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Analyse comparative de différents canaux d'information (différents médias traitant la même information,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Distinction entre la présentation du fait et son commentaire (objectif/subjectif)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage de la source et de la validité de l'information (expérimentale, historique, littéraire, psychologique,…) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Repérage des procédés visant à l'effacement de l'émetteur (tournure impersonnelle, forme passive, effacement du «je»,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "En lien avec L1 32 – Production de l’écrit; L1 34 – Production de l’oral; L1 35 – Accès à la littérature; L1 36 – Vocabulaire"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Genres conseillés :\npoème, chanson,…"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Distinction entre compréhension littérale et interprétation"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Expression des sentiments, émotions, souvenirs suscités par le texte lu"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Repérage de la présence ou de l'absence de ponctuation, de l'inversion de l’ordre habituel des mots"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Identification des assonances, allitérations, anaphores, enjambements (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Identification des rimes, refrains"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Sensibilisation à la versification et à la métrique (vers, strophe, forme fixe)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Identification de la versification et de la métrique (vers, strophe, forme fixe) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Identification et analyse de figures de style"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "En lien avec L1 32 – Production de l’écrit; L1 34 – Production de l’oral; L1 35 – Accès à la littérature"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Genres conseillés :",
+            "saynète, farce, comédie, tragédie,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Reconnaissance de la double énonciation (l'auteur et les personnages) et de la double réception (le public et les personnages)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Expression des sentiments, émotions, souvenirs suscités par le texte lu"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Identification :",
+            "– des seuils de la pièce (couverture, page de garde, sommaire, dédicace, avertissement, prologue)",
+            "– des intitulés (actes, scènes) et de la mise en page (répliques, tirades, didascalies)",
+            "– de différents procédés comiques (de geste, de langage, de situation, de caractère, de répétition,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Distinction entre monologues, apartés, dialogues, répliques, tirades,… (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Repérage d'une structure théâtrale (exposition, nœud, dénouement, schéma actanciel) (Niv 2-3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "dégage les éléments essentiels du contenu de tous les genres de textes étudiés dans la vie scolaire et courante, en s’appuyant sur l’organisation du texte, sur le contexte et sur le paratexte"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "recourt spontanément à diverses stratégies pour lire et dépasser ses difficultés de lecture"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "lit des livres et des revues librement choisis"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "recourt spontanément à divers moyens de référence pour rechercher les informations nécessaires (dictionnaires, encyclopédies, aide extérieure, Internet,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "lit et comprend de façon autonome un texte narratif de registre courant qui forme une unité"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "dégage les éléments essentiels (lieu, époque, personnages, structure narrative)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "lit et comprend un texte complet de façon autonome (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "dresse le portrait moral des personnages et décrit leur évolution (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "lit et comprend un texte argumentatif de registre courant"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "dégage la structure"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "se positionne par rapport aux arguments développés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "lit et comprend un texte argumentatif (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "analyse la pertinence des arguments et des exemples (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "lit et comprend un texte argumentatif de registre soutenu (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "justifie sa position par rapport aux arguments développés (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "identifie le texte qui transmet des savoirs par rapport aux autres genres"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "repère l'organisation des informations et se les approprie"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "hiérarchise les informations (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "distingue faits et commentaires (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "vérifie la validité des informations (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "réinvestit les informations dans un projet personnel (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "texte": "identifie un texte poétique au moyen de ses caractéristiques formelles (versification, métrique, prosodie,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "texte": "dégage le sens littéral"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "texte": "interprète le texte en fonction de l’analyse effectuée"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "texte": "réagit en exprimant des sentiments, des émotions, des souvenirs suscités par le texte lu et formule une appréciation justifiée (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "texte": "lit et comprend de façon autonome un texte de registre de langue courant qui forme une unité"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "texte": "dégage les éléments essentiels (lieu, époque, personnages, schéma actanciel)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "texte": "lit et comprend un texte complet de façon autonome (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "texte": "dresse le portrait moral des personnages et décrit leur évolution (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "texte": "réagit en exprimant des sentiments, des émotions, des souvenirs suscités par le texte lu et formule une appréciation justifiée (Niv 3)"
+        }
+      ],
+      "reperes_par_annee": [
+        {
+          "annee": "9e",
+          "texte": "Le texte qui raconte"
+        },
+        {
+          "annee": "10e",
+          "texte": "Le texte qui relate Le texte qui raconte"
+        },
+        {
+          "annee": "11e",
+          "texte": "Le texte qui raconte"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "Aborder au minimum une à deux fois chaque regroupement de genres (texte qui raconte, relate, argumente, transmet des savoirs, texte poétique, texte théâtral) au cours du cycle. Cela signifie que chaque année, il faut aborder au moins deux regroupements de genres"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/8",
+      "code": "L1 32",
+      "axe": "Production de l'écrit",
+      "titre": "Écrire des textes de genres différents adaptés aux situations d’énonciation",
+      "composantes": [
+        "1. en organisant ses idées, en personnalisant son message et en précisant sa pensée",
+        "2. en analysant la situation d'énonciation et en s’y adaptant",
+        "3. en organisant son texte en fonction des lois du genre (organisateurs, mise en page, systèmes temporels,…)",
+        "4. en respectant les règles de l’expression écrite (temporalité, orthographe, syntaxe, reprises,…) et en utilisant un vocabulaire adapté à la situation",
+        "5. en enrichissant le contenu du texte (idée, vocabulaire, grammaire,…)",
+        "6. en utilisant la prise de notes et les technologies à disposition",
+        "7. en sélectionnant des outils de référence",
+        "8. en améliorant sa production (relecture, réécriture, réorganisation, enrichissement,…)",
+        "9. en utilisant la dimension créative de la langue et sa propre créativité"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Liens EN 31 – Médias; EN 33 – Usages; CT – Communication – Codification du langage – Analyse des ressources – Exploitation des ressources – Circulation de l’information"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Identification des composantes de situations d’énonciation diverses (auteur/émetteur, public destinataire, visée, lieu social, contexte)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Élaboration des contenus (recherche des idées ou sélection des informations, construction des champs lexicaux dominants,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Organisation du texte (planification du texte, choix ou respect du registre de langue, du système de temps, de la forme du texte,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Vérification et amélioration des temps verbaux"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Respect de la syntaxe"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation correcte de la ponctuation"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Respect de l’orthographe lexicale et grammaticale des mots"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Choix du vocabulaire"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Reprises pronominales et nominales"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Respect d’une progression thématique"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation de dictionnaires, mémentos orthographiques et grammaticaux (y compris logiciels de correction), recueil de verbes"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation du programme informatique approprié pour produire un texte et, le cas échéant, l'illustrer"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation de médias électroniques (site Internet, forum sécurisé, blog de classe, courrier électronique,…) dans le cadre d'un projet de production"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation des modalisateurs d’appréciation (hélas, par bonheur,…) et de probabilité (sans doute, il se peut que, il semble,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés :\nconte, récit, nouvelle, scène de roman,…"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés :\nrécit, nouvelle, scène de roman policier,…",
+            "Genres conseillés :\nfait divers, reportage, récit de vie, témoignage,…"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Genres conseillés :\nrécit fantastique, récit de science-fiction,…"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Choix ou respect de la position du narrateur (interne, externe)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Choix ou respect du point de vue du narrateur (narrateur omniscient, narrateur témoin, point de vue d’un personnage) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Utilisation du schéma narratif (situation initiale, complication/ élément modificateur ou déclencheur, action, réalisation, situation finale/morale)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Respect de la chronologie et/ou de la logique des événements"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Variations dans la chronologie et la vitesse du récit (retours en arrière, anticipations, sommaires, ellipses narratives) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Insertion d'éléments de description de décors"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Insertion d'éléments de description de personnages et de décors"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Insertion du portrait moral d'un ou plusieurs personnages (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Utilisation d'organisateurs spatiaux et temporels"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Organisation du texte selon une structure claire (titre, chapeau, sous-titres, paragraphes, illustrations,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Écriture de dialogues"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "contenu": [
+            "Utilisation de paroles rapportées indirectement (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :\nlettre de lecteur, pétition, note critique,…"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Genres conseillés :\npoint de vue, sujet de société,…"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche, sélection et classement d'arguments pour défendre une thèse"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Recherche, sélection et classement d'exemples illustrant les arguments"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation de différents procédés de persuasion: la justification, l'explication argumentative"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation de différents procédés de persuasion: la démonstration, l'argument d'autorité, la concession, la réfutation (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation d'une structure argumentative de type introduction – développement – conclusion (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation d'une structure argumentative développant deux positions antagonistes (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation des connecteurs (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Utilisation des connecteurs (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Liens SHS 31 – Relation Homme-espace; SHS 32 – Relation Homme-temps; MSN 36 – Phénomènes naturels et techniques; MSN 38 – Diversité du vivant; CT – Démarche réflexive – Élaboration d’une opinion personnelle – Remise en question et décentration de soi"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :\ncompte rendu, présentation documentaire, article encyclopédique,..."
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :\ncompte rendu, CV, lettre de postulation, lettre de motivation, notice biographique,…"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Genres conseillés :\ncompte rendu, procès-verbal, rapport de sciences,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Mise en page structurée du texte (titre, sous-titres, paragraphes, illustrations, croquis, schémas,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Respect de l'ordre des faits"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Utilisation",
+            "– d'une structure explicative",
+            "– des procédés explicatifs de la définition, de l’exemplification, de l'énumération, de la description",
+            "– des organisateurs énumératifs, chronologiques, additifs,…"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Disposition de la lettre (lieu, date, adresses, formules d'en-tête et finales, signature, annexes,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– établissement de relations de cause",
+            "– formulation d'hypothèses",
+            "– utilisation de la comparaison explicative, de la reformulation",
+            "(Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "En lien avec L1 31 – Compréhension de l’écrit et L1 35 – Accès à la littérature\nLiens CT – Pensée créatrice – Développement de la pensée divergente – Concrétisation de l’inventivité"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte poétique",
+          "contenu": [
+            "Écriture à visée poétique, humoristique, ludique,… (imitation d’une structure poétique, mots-valises, cadavres exquis, slogans publicitaires, poèmes,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "En lien avec L1 31 – Compréhension de l’écrit et L1 35 – Accès à la littérature"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Écriture d’une scène (originale ou par transposition)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Traduction de l’oralité (ponctuation, types et formes de phrases, interjections, registre de langue, défauts de langage,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Les regroupements de genres › Le texte théâtral",
+          "contenu": [
+            "Utilisation des didascalies"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "rédige des textes qui assurent une cohérence des idées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "rédige des textes qui intègrent les procédés de cohésion (reprises, progression thématique, organisateurs, connecteurs)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "recourt aux outils de référence, y compris aux outils informatiques, pour réaliser et enrichir son texte"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "adapte la mise en page de son texte"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "vérifie et améliore l'utilisation des temps verbaux, la syntaxe, la ponctuation, l'orthographe lexicale et grammaticale"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "Le texte qui raconte"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "rédige un récit personnel cohérent en recourant à la narration, au dialogue et à la description sommaire de décors et de personnages"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "rédige un récit personnel cohérent en recourant à la narration, au dialogue et à la description de décors et de personnages (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "rédige un récit personnel cohérent en utilisant un schéma narratif avec variations (retours en arrière, anticipations sommaires, ellipses narratives) en recourant à la narration, au dialogue, à la description de décors et de personnages à l'aide d'une expression élaborée (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "Le texte qui relate"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "restitue des informations préalablement recueillies en les reformulant et en respectant l'ordre chronologique et/ou logique (Niv 1-2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › TEXTE NARRATIF",
+          "texte": "restitue, en les reformulant, des informations préalablement recueillies, en respectant l'ordre chronologique et/ou logique et en utilisant des organisateurs (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte comportant des arguments et des exemples pour soutenir une thèse sur un sujet en rapport avec son vécu"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte structuré et cohérent (introduction, développement, conclusion), en donnant des arguments pour, des arguments contre, en prenant position, en utilisant au moins un procédé de persuasion (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte cohérent (introduction, développement, conclusion), en utilisant une structure argumentative complète, en formulant des arguments, des contre-arguments, des exemples, en prenant position, et en utilisant différents procédés de persuasion (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte comportant des arguments et des exemples pour soutenir une thèse sur un sujet en rapport avec son vécu"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte structuré et cohérent, (introduction, développement, conclusion) en donnant des arguments pour, des arguments contre, en prenant position, en utilisant au moins un procédé de persuasion (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "rédige un texte cohérent (introduction, développement, conclusion), en utilisant une structure argumentative complète, en formulant des arguments, des contre-arguments, des exemples, en prenant position, et en utilisant différents procédés de persuasion (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "rédige un texte cohérent, en suivant un plan et en hiérarchisant les informations"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "rédige un texte cohérent, en suivant une structure claire et en recourant au procédé de la définition (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "rédige un texte cohérent, en suivant une structure explicative et en recourant à divers procédés explicatifs (Niv 3)"
+        }
+      ],
+      "reperes_par_annee": [
+        {
+          "annee": "9e",
+          "texte": "Le texte qui raconte"
+        },
+        {
+          "annee": "10e",
+          "texte": "Le texte qui raconte\nLe texte qui relate"
+        },
+        {
+          "annee": "11e",
+          "texte": "Le texte qui raconte"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "Aborder au minimum une à deux fois chaque regroupement de genres (texte qui raconte, relate, argumente, transmet des savoirs, texte poétique) au cours du cycle. Cela signifie que chaque année, il faut aborder au moins deux regroupements de genres"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/9",
+      "code": "L1 33",
+      "axe": "Compréhension de l'oral",
+      "titre": "Comprendre et analyser des textes oraux de genres différents et en dégager les multiples sens",
+      "composantes": [
+        "1. en émettant des hypothèses sur le contenu et sur l’organisation du message",
+        "2. en confrontant les interprétations et en vérifiant les hypothèses",
+        "3. en s’appuyant sur des éléments de la textualisation (connexion, cohésion, reprises,…)",
+        "4. en associant à la construction du sens les éléments verbaux et non-verbaux utilisés (intonation, débit, accentuation, posture, gestuelle,…)",
+        "5. en mobilisant ses connaissances langagières et extralangagières (lexicales, grammaticales, phonologiques, prosodiques,…)",
+        "6. en déterminant une stratégie d’écoute et en prenant des notes",
+        "7. en analysant les enjeux de la situation et les intentions explicites et implicites des locuteurs",
+        "8. en identifiant les caractéristiques des genres oraux et le type de message"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Choix de textes parmi les genres suivants :\nle texte lu à haute voix (nouvelle, récit,…), le texte interprété (conte, poésie, théâtre, chanson,…), le compte rendu (lecture, visite, film, spectacle,…),…"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "l’exposé oral, le débat public"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "le reportage radiophonique, l’interview radiophonique"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification :",
+            "– des spécificités langagières de l'oral (répétitions, hésitations, phrases inachevées, mots tronqués,…)",
+            "– des éléments propres à la situation d’énonciation (présence physique de l'émetteur, possibilité de poser des questions, utilité de prendre des notes,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Anticipation du contenu en s'appuyant sur le titre, les consignes, l'identité du locuteur, et en réactivant ses connaissances sur le sujet et sur le genre de texte oral"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification des caractéristiques des genres oraux (conférence, exposé, compte rendu, débat, récit, publicité,…) et de leurs canaux de diffusion (radio, télévision, CD audio, Internet, médias sonores téléchargés à partir d'Internet,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Identification des visées déclarées de l'émetteur (narrer, décrire, faire agir, expliquer, convaincre,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification des visées explicites et implicites de l'émetteur (susciter la curiosité, séduire, manipuler, enrichir des connaissances, susciter la métacognition,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Repérage des organisateurs et connecteurs propres aux genres, des reprises anaphoriques, des champs lexicaux dominants"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Distinction des temps verbaux et de leurs valeurs"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Repérage des modalités d'appréciation et de probabilité"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "écoute et comprend le contenu d’un texte oral et les visées explicites de l’émetteur"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "fait appel, le cas échéant, à une aide extérieure pour comprendre les intentions implicites d'un texte oral (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "écoute et comprend un texte oral et les visées explicites et implicites de l’émetteur (Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/10",
+      "code": "L1 34",
+      "axe": "Production de l'oral",
+      "titre": "Produire des textes oraux de genres différents adaptés aux situations d'énonciation",
+      "composantes": [
+        "1. en organisant la structure hiérarchique et la progression des idées de sa production",
+        "2. en suivant les règles établies de la communication orale",
+        "3. en utilisant des éléments verbaux (connaissances lexicales, grammaticales et phonologiques,…) et non verbaux adéquats",
+        "4. en mobilisant ses connaissances et en recourant à diverses sources d’information pour élaborer les contenus de sa production",
+        "5. en analysant les réactions verbales et non verbales de son interlocuteur et en y adaptant le contenu de sa production",
+        "6. en identifiant le contexte de prise de parole et en s’y adaptant (genres oraux, lieux, auditoire,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Activités de restitution et de production liées aux genres suivants :\nla lecture expressive (nouvelle, récit,…), la restitution ou l’interprétation d’un texte appris (conte, poésie, théâtre, chanson,…), le compte rendu (lecture, visite, film, spectacle,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "L’exposé oral, le débat public,…"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Le reportage radiophonique, l’interview radiophonique,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Planification de la production orale en tenant compte des caractéristiques du genre choisi et des préparations qu'elle suppose"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Hiérarchisation des idées, préparation d'un aide-mémoire, choix d'un moyen de communication, adaptation des supports au contenu"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Calibrage de la production orale en fonction du temps à disposition et de la visée"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Préparation de supports écrits en appliquant les procédés d'écriture et de composition propres au genre choisi"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Observation du protocole de la production orale propre à chaque genre (salutations, présentation des intervenants, sommaire, remerciements, écoute, tours de parole,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Adaptation du ton, du volume, de la diction, du rythme, à la situation d’énonciation"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation des organisateurs, des connecteurs et des reprises anaphoriques"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Adaptation des temps des verbes (plutôt au présent et au passé composé)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation de procédés de modalisation (hélas, par bonheur, sans doute, il se peut que,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Adaptation de la gestuelle (posture, mimique, occupation de l'espace)",
+            "Recherche du contact visuel"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Adaptation de la production orale (précisions, reformulations, répétitions,…) et de son contenu (exemples, anecdotes,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "utilise en classe un registre courant"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "interagit en utilisant des procédés linguistiques qui garantissent la relation (courtoisie, reformulation, concession,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "tient compte des contraintes de l'oralité (intonation, volume de la voix, diction, rythme, gestuelle, formules et gestes récurrents)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "restitue fidèlement et lit un texte (extrait, poème, sketch, saynète, chanson,…) de façon fluide, intelligible et expressive"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "interagit avec à propos dans le cadre d'un débat régulé (Niv 1-2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "présente un texte oral (compte rendu, récit, exposé) en s'aidant de notes écrites et en tenant compte du niveau et des attentes de l'auditoire (Niv 1-2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "interagit et argumente au cours d'un débat (écoute et évalue, concède et réfute les arguments de l'autre) (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "présente un texte oral (compte rendu, récit, exposé) en repérant les obstacles de compréhension, en clarifiant et en illustrant son propos (Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/19",
+      "code": "L1 35",
+      "axe": "Accès à la littérature",
+      "titre": "Apprécier et analyser des productions littéraires diverses",
+      "composantes": [
+        "1. en accroissant le champ de ses lectures",
+        "2. en situant une œuvre dans son contexte historique et culturel",
+        "3. en découvrant des caractéristiques esthétiques (graphisme, mise en pages,…)",
+        "4. en prenant en compte la forme éditoriale et le paratexte",
+        "5. en mettant en évidence les caractéristiques de plusieurs genres littéraires"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Lecture guidée d'œuvres littéraires intégrales et d'extraits"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "",
+          "contenu": [
+            "Analyse des caractéristiques du genre littéraire étudié et de son ancrage historique et culturel (roman, récit, nouvelle, théâtre, poésie,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Appréciation de la dimension littéraire d'un texte, en identifiant :"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "– les caractéristiques d'un monde fictionnel (personnages-types, trame, mise en scène,…)",
+            "– la transmission d'une expérience humaine (psychologie des personnages, destinée humaine,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "",
+          "contenu": [
+            "– la présence de valeurs morales, sociales et culturelles (grands thèmes,…) (Niv 2-3)",
+            "– la visée esthétique (construction langagière, versification, style, emplois figurés,…) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Élaboration des significations possibles de l'œuvre étudiée et d'une interprétation personnelle"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Création d'une culture du livre au sein de la classe (cercle de lecture, compte rendu, échanges,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "identifie le caractère littéraire d'un texte en fonction d'au moins un des critères suivants: monde fictionnel, visée esthétique, expérience humaine, valeurs véhiculées"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "utilise un ou plusieurs critères pour élaborer et justifier son appréciation personnelle d'une œuvre littéraire (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "utilise plusieurs critères pour élaborer et défendre une interprétation personnelle d'une œuvre littéraire (Niv 3)"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "",
+          "texte": "Lire chaque année au moins deux ouvrages complets, adaptés à l'âge des élèves"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/20",
+      "code": "L1 36",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Analyser le fonctionnement de la langue et élaborer des critères d'appréciation pour comprendre et produire des textes",
+      "composantes": [
+        "1. en utilisant la métalangue pour parler de l’énonciation et de la langue",
+        "2. en s’appropriant des règles de fonctionnement des textes (cohésion, thématisation,…)",
+        "3. en développant la connaissance d’outils de référence diversifiés et la capacité de les utiliser à bon escient",
+        "4. en reconnaissant les principales classes grammaticales et en maîtrisant leurs usages courants",
+        "5. en distinguant les normes et les variations dans des productions langagières diverses",
+        "6. en utilisant et en complétant les procédures d’analyse"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase",
+          "contenu": [
+            "Liens CT – Communication – Codification du langage"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › Les constituants de la phrase",
+          "contenu": [
+            "Analyse de la phrase en constituants obligatoires (sujet, prédicat) et facultatifs (complément de phrase) (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Grammaire de la phrase › Les constituants de la phrase",
+          "contenu": [
+            "Analyse de la phrase en constituants obligatoires (sujet, prédicat) et facultatifs (complément de phrase) (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › Les constituants de la phrase",
+          "contenu": [
+            "Analyse de la phrase en constituants obligatoires (sujet, prédicat) et facultatifs (complément de phrase) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › Les groupes",
+          "contenu": [
+            "Identification des groupes de la phrase : Groupe nominal – GN (avec ou sans préposition), Groupe verbal – GV, Groupe adjectival – GAdj, Groupe adverbial – GAdv, et de leurs constituants (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Grammaire de la phrase › Les groupes",
+          "contenu": [
+            "Identification des groupes de la phrase : Groupe nominal – GN (avec ou sans préposition), Groupe verbal – GV, Groupe adjectival – GAdj, Groupe adverbial – GAdv, et de leurs constituants (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › Les groupes",
+          "contenu": [
+            "Identification des groupes de la phrase : Groupe nominal - GN (avec ou sans préposition), Groupe verbal - GV, Groupe adjectival - GAdj, Groupe adverbial - GAdv, et de leurs constituants (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Identification des classes grammaticales : déterminant, nom, adjectif, pronom, verbe, préposition, adverbe, conjonction de coordination, conjonction de subordination, interjection"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "contenu": [
+            "Identification des sous-classes grammaticales des déterminants et des pronoms (Niv 2-3)",
+            "Identification et utilisation des différents degrés de l’adjectif (comparatif, superlatif) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Identification des fonctions grammaticales (sujet, attribut du sujet, complément de verbe, complément de phrase, complément de nom) et de leurs réalisations"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Identification des fonctions grammaticales (attribut du complément de verbe, modificateur de l’adjectif, du verbe et de l'adverbe, complément de l'adjectif) et de leurs réalisations (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Analyse de nuances sémantiques (lieu, temps, cause, sujet réel, complément d'agent,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "contenu": [
+            "Identification du référent"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "contenu": [
+            "Transformation par pronominalisation de GN avec ou sans préposition (un seul élément)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "contenu": [
+            "Transformation par pronominalisation de GN avec ou sans préposition (plusieurs éléments)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Distinction entre la phrase simple et la phrase complexe (coordination, juxtaposition, subordination)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification et utilisation des subordonnées conjonctives compléments de phrase et compléments de verbe, sujets, compléments de l’adjectif"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification des subordonnées relatives compléments de nom"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Utilisation des subordonnées relatives compléments de nom (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification et utilisation des subordonnées interrogatives indirectes (Niv 2)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification et utilisation des subordonnées interrogatives indirectes (Niv 3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification et utilisation des subordonnées infinitives (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Identification et utilisation des subordonnées participiales (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Analyse des nuances sémantiques de temps, cause, but, et de comparaison"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Analyse des nuances sémantiques de conséquence, opposition/concession, condition (Niv 1)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Analyse des nuances sémantiques de conséquence, opposition/concession, condition (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "contenu": [
+            "Choix et emploi des modes et des temps dans la subordonnée"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Identification et utilisation des 4 types de phrase (déclaratif, exclamatif, interrogatif, impératif)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Identification et utilisation des formes négatives et emphatiques"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Identification de la forme passive (Niv 1)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Identification et utilisation de la forme passive (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Vérification systématique dans ses propres textes de l'orthographe lexicale à l'aide des ressources à disposition (dictionnaires, correcteur orthographique,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Élaboration, mémorisation et utilisation de mots issus des activités de la classe (lecture, vocabulaire, dictée,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Identification, mémorisation et utilisation des homophones lexicaux en lien avec les activités de la classe"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Établissement de liens par dérivation entre les mots de la même famille lexicale"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Formation des adverbes en -ment : cas réguliers"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Formation des adverbes en -ment : cas dérivés des adjectifs en -ant/ent; cas particuliers"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Prise en compte de l'étymologie des mots"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Ponctuation",
+          "contenu": [
+            "Analyse et utilisation de tous les signes de ponctuation",
+            "Distinction entre signes de ponctuation : virgule, point-virgule, deux points, point, point d'interrogation, point d'exclamation, points de suspension, et signes graphiques : majuscule, tiret, guillemets, parenthèses,…"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "contenu": [
+            "Vérification systématique de l'accord"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "contenu": [
+            "Application de l'accord :",
+            "– lorsque le sujet est éloigné du verbe",
+            "– lorsque le sujet est inversé",
+            "– lorsque le sujet est multiple",
+            "– lorsque le sujet comprend des termes de différentes personnes (1re, 2e, 3e)",
+            "– lorsque le sujet est un pronom relatif"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "contenu": [
+            "Application de l'accord :",
+            "– lorsque le sujet est un nom collectif avec ou sans complément",
+            "– lorsque le sujet est un déterminant ou pronom de quantité (peu de, beaucoup, plus d'un,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "contenu": [
+            "Vérification systématique de l'accord déterminant-nom"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "contenu": [
+            "Vérification systématique de l'accord adjectif-nom"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "contenu": [
+            "Application de l'accord pour les déterminants numéraux, les adjectifs de couleur, le pluriel des noms (en -ou, -eu, -au, -al, -ail) et des adjectifs (en -eu, -al); le féminin des noms et des adjectifs"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "contenu": [
+            "Application de l'accord pour le pluriel des noms et des adjectifs composés (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Application de l'accord du participe passé employé seul; avec être; avec avoir (accord avec le complément de verbe direct) (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Application de l'accord du participe passé employé seul; avec être; avec avoir (accord avec le complément de verbe direct) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Application de l'accord du participe passé d'un verbe pronominal (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "contenu": [
+            "Application de l'accord des cas particuliers du participe passé et du participe passé d’un verbe impersonnel (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Vérification systématique de l'orthographe des homophones usuels (a/à; é/er; ce-s/se-s; on/ont; on/on n'; ni/n'y; leur/leurs,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Distinction entre le participe présent et l'adjectif verbal et accord en conséquence: cas réguliers"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Distinction entre le participe présent et l'adjectif verbal et accord en conséquence : cas irréguliers (en –geant/-gent, -quant/-cant, -guant/-gant,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Orthographe de quand / quant à, au-x"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Orthographe de tout, même (adj. et adv.)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Orthographe de quelque / quel que; quoique / quoi que; quelques fois / quelquefois (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Orthographe de tout (adj. et pronom)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "contenu": [
+            "Orthographe de tout (nom, pronom, déterminant, adjectif et adverbe) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "contenu": [
+            "Compréhension et utilisation de termes métalangagiers courants (préfixe, suffixe, radical/racine, homonyme, champ lexical, synonyme, antonyme, terme générique) (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "contenu": [
+            "Compréhension et utilisation des termes métalangagiers (morphologie, affixe, préfixe, suffixe, radical/racine, dérivation, polysémie, champ sémantique, homonyme, paronyme, champ lexical, synonyme, antonyme, terme générique, emprunt, héritage, étymologie, registre de langue, néologisme,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "contenu": [
+            "Pratique courante de dictionnaires de types différents (dictionnaires de langue, encyclopédiques, des synonymes,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "contenu": [
+            "Exploitation du vocabulaire lié aux activités de la classe (découverte, hypothèse sur le sens, vérification contextuelle, recours aux moyens de référence, appropriation, réinvestissement,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Morphologie d'un mot",
+          "contenu": [
+            "Décomposition d'un mot en préfixe, radical et suffixe"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Morphologie d'un mot",
+          "contenu": [
+            "Construction de familles de mots par dérivation"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Morphologie d'un mot",
+          "contenu": [
+            "Appropriation du sens et utilisation d'éléments d'origine grecque et latine rencontrés lors d'activités de classe (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Polysémie",
+          "contenu": [
+            "Exploration du champ sémantique d'un mot pour en décider le sens en contexte"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Repérage et établissement de champs lexicaux dans les activités de lecture et d'écriture (synonymes, termes génériques, antonymes)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Repérage et établissement de vocabulaires liés à un domaine spécifique"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Emplois du sens propre et du sens figuré"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Distinction entre le sens propre et le sens figuré d'un mot"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Identification et utilisation de comparaisons, métaphores, périphrases, expressions figées"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Identification et utilisation de litotes, hyperboles, métonymies (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Identification et utilisation d’euphémismes (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Registres de langue (soutenu, courant, familier) et régionalismes"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "contenu": [
+            "Identification du registre de langue auquel appartient un mot et passage d'un registre à l'autre"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification du système et de la valeur de tous les modes et de tous les temps (sauf l'imparfait et le plus-que-parfait du subjonctif); en particulier: le passé simple à toutes les personnes, le passé antérieur, le subjonctif présent et le subjonctif passé, le conditionnel passé (le futur du passé)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification du système et de la valeur de tous les modes et de tous les temps (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification de la correspondance des formes verbales simples et composées"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Distinction des verbes en –er et des autres verbes"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification et construction des formes verbales simples (base ou radical + terminaison) et composées (choix et conjugaison de l'auxiliaire), sauf l'imparfait et le plus-que-parfait du subjonctif"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification et construction des formes verbales simples (base ou radical + terminaison) et composées (choix et conjugaison de l'auxiliaire) y compris l'imparfait et le plus-que-parfait du subjonctif (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Conjugaison › Verbes à aborder",
+          "contenu": [
+            "Être\nAvoir\nFaire\nDire\nPouvoir\nAller\nVoir\nSavoir\nVouloir\nFalloir\nDevoir\nCroire\nPrendre (comprendre reprendre apprendre)\nAimer + V. en -er\nMettre\nTenir (venir, devenir, retenir)\nRendre (entendre, répondre, attendre, perdre, descendre)\nConnaître (paraître, reconnaître, apparaître)\nSentir (sortir, partir)\nVivre\nÉcrire\nPlacer (commencer, avancer)\nSuivre\nMourir\nCouvrir (ouvrir, offrir, souffrir)\nLire\nAcheter"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Conjugaison › Verbes à aborder",
+          "contenu": [
+            "Servir\nJeter (appeler, rappeler)\nRecevoir (apercevoir)\nPeser (lever, élever)\nRire (sourire)\nFinir (agir)\nApprécier (crier, oublier, s’écrier)\nCourir\nEnvoyer\nManger\nValoir\nPlaire\nDormir\nCéder (répéter, espérer)\nCuire (conduire, produire)\nCraindre + V. en -indre\nPayer (essayer)\nAsseoir"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Conjugaison › Verbes à aborder",
+          "contenu": [
+            "Acquérir\nAssiéger\nBattre\nBoire\nBroyer\nConclure\nCréer\nCroître\nCueillir\nFuir\nHaïr\nModeler\nMouvoir\nNaître\nVaincre"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Identification et interprétation des marques de personne, de lieu et de temps qui n'ont de signification que par rapport à la situation d’énonciation (déictiques : ceci, ici, maintenant, demain, aujourd’hui, en ce moment, actuellement,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Distinction entre l'énoncé ancré dans la situation d’énonciation et l'énoncé coupé de la situation d’énonciation"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Identification, interprétation et mise en œuvre des modalisateurs d'appréciation (hélas, par bonheur,…) et de probabilité (sans doute, il se peut que, il semble,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Identification et interprétation des actes de paroles (orientations données par les types de phrase, par l'intonation, par des marques spécifiques telles que «s'il vous plaît, pouvez-vous,…»)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Observation, reconnaissance et mise en œuvre de paroles rapportées directement"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Observation, reconnaissance et mise en œuvre de paroles rapportées indirectement"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Repérage et observation de paroles rapportées librement (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Identification, interprétation et mise en œuvre des temps du récit et de leurs valeurs (imparfait / passé simple ou passé composé; présent de narration; futur du passé,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Identification des principales valeurs du présent (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "contenu": [
+            "Appliquer les règles de l’emploi des modes et de la concordance des temps (antériorité, simultanéité, postériorité) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Texte",
+          "contenu": [
+            "Repérage et mise en œuvre des marques d'organisation du texte (mise en page, typographie, ponctuation, organisateurs/connecteurs)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Texte",
+          "contenu": [
+            "Identification, interprétation et mise en œuvre de la désignation et de la reprise de l'information (pronoms, déterminants, adverbes, substituts lexicaux)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "De la phrase au texte › Texte",
+          "contenu": [
+            "Observation et mise en œuvre d'une progression thématique (à thèmes constants, à thèmes dérivés, linéaire) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "De la phrase au texte › Texte",
+          "contenu": [
+            "Observation et mise en œuvre des mécanismes de connexion (juxtaposition, coordination) et de subordination"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les constituants de la phrase",
+          "texte": "nomme avec précision la classe grammaticale et la fonction de chaque groupe et de chaque mot"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les constituants de la phrase",
+          "texte": "identifie, dans un groupe, le noyau et les constituants secondaires"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les groupes",
+          "texte": "nomme avec précision la classe grammaticale et la fonction de chaque groupe et de chaque mot"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les groupes",
+          "texte": "identifie, dans un groupe, le noyau et les constituants secondaires"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "texte": "enrichit un nom par des compléments de diverses classes grammaticales"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "texte": "enrichit un nom, un adjectif, un adverbe par des compléments de diverses classes grammaticales (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales – Identification des classes grammaticales",
+          "texte": "nomme avec précision la classe grammaticale et la fonction de chaque groupe et de chaque mot"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "texte": "nomme avec précision la classe grammaticale et la fonction de chaque groupe et de chaque mot"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "texte": "reconnaît une phrase transformée par pronominalisation, par subordination et par changement de type et de forme (sauf passive)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "texte": "substitue un pronom par le groupe nominal de référence"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "reconnaît une phrase transformée par pronominalisation, par subordination et par changement de type et de forme (sauf passive)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "transforme une phrase par subordination (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "reconnaît les subordonnées relatives compléments de nom"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "utilise les subordonnées relatives compléments de nom (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "reconnaît et utilise des subordonnées interrogatives indirectes et infinitives (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "reconnaît et utilise des subordonnées participiales (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › La phrase complexe",
+          "texte": "reconnaît les nuances sémantiques des subordonnées compléments de phrase"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "texte": "reconnaît une phrase transformée par pronominalisation, par subordination et par changement de type et de forme (sauf passive)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "texte": "transforme une phrase par pronominalisation et par changement de type et de forme (sauf passive)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "texte": "reconnaît et construit une phrase de forme passive (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "texte": "transforme une forme active en forme passive et inversement (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe lexicale",
+          "texte": "respecte l'orthographe des textes qu'on lui dicte et/ou qu'il produit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe lexicale",
+          "texte": "– en orthographiant correctement les mots"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe lexicale",
+          "texte": "– en effectuant les accords grammaticaux (accord sujet-verbe; accord dans le GN; accord du participe passé)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe lexicale",
+          "texte": "– en distinguant les homophones lexicaux et grammaticaux"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe lexicale",
+          "texte": "– en recourant aux ressources à disposition"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Ponctuation",
+          "texte": "utilise à bon escient les signes de ponctuation dans ses productions"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "texte": "respecte l'orthographe des textes qu'on lui dicte et/ou qu'il produit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "texte": "– en effectuant les accords grammaticaux (accord sujet-verbe; accord dans le GN; accord du participe passé)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord sujet-verbe",
+          "texte": "– en recourant aux ressources à disposition"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "texte": "respecte l'orthographe des textes qu'on lui dicte et/ou qu'il produit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "texte": "– en effectuant les accords grammaticaux (accord sujet-verbe; accord dans le GN; accord du participe passé)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord dans le Groupe nominal",
+          "texte": "– en recourant aux ressources à disposition"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "respecte l'orthographe des textes qu'on lui dicte et/ou qu'il produit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "– en effectuant les accords grammaticaux (accord sujet-verbe; accord dans le GN; accord du participe passé)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Accord du participe passé",
+          "texte": "– en recourant aux ressources à disposition"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "texte": "respecte l'orthographe des textes qu'on lui dicte et/ou qu'il produit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "texte": "– en effectuant les accords grammaticaux (accord sujet-verbe; accord dans le GN; accord du participe passé)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Orthographe grammaticale › Homophones grammaticaux",
+          "texte": "– en recourant aux ressources à disposition"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "texte": "pratique couramment un dictionnaire de langue et en connaît les différentes ressources"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "texte": "utilise, dans ses productions, les mots du répertoire élaboré à partir des activités menées en classe"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Enrichissement lexical",
+          "texte": "comprend les termes métalangagiers courants (synonyme, antonyme, registres de langue) contenus dans l'énoncé d'une consigne et réalise la tâche décrite"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Morphologie d'un mot",
+          "texte": "comprend les termes métalangagiers (champ lexical dominant, décomposition d’un mot en préfixe, radical et suffixe) contenus dans l'énoncé d'une consigne et réalise la tâche décrite"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "texte": "comprend les termes métalangagiers (champ lexical dominant, décomposition d’un mot en préfixe, radical et suffixe) contenus dans l'énoncé d'une consigne et réalise la tâche décrite (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "texte": "identifie les éléments d'une comparaison (comparé, comparant, outil de comparaison, élément commun) et en construit dans ses productions"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire › Champ lexical",
+          "texte": "identifie les figures de style (métaphore, comparaison, périphrase, expressions figées) et les commente (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "identifie le mode et le temps des verbes les plus fréquents"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "construit et orthographie correctement les verbes les plus fréquents aux modes et aux temps étudiés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "identifie le mode et le temps des verbes en contexte (cf. lecture) (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "identifie les valeurs des modes et des temps en contexte (cf. lecture) (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Conjugaison",
+          "texte": "construit et orthographie correctement les verbes rencontrés en contexte à tous les modes et tous les temps étudiés (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "texte": "identifie et interprète les marques de personne, de lieu et de temps liées à une situation d'énonciation donnée"
+        },
+        {
+          "fin": "11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "texte": "reconnaît les paroles rapportées directement et/ou indirectement, et les utilise dans ses productions"
+        },
+        {
+          "fin": "11e",
+          "notion": "De la phrase au texte › Énonciation",
+          "texte": "identifie les temps du récit et leurs valeurs, et les utilise dans ses productions"
+        },
+        {
+          "fin": "11e",
+          "notion": "De la phrase au texte › Texte",
+          "texte": "identifie les marques d'organisation (mise en page, typographie, ponctuation), les marques de cohésion (pronoms, déterminants, adverbes, substituts lexicaux, organisateurs et connecteurs) et les utilise dans ses productions"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Orthographe lexicale",
+          "texte": "Rappel : dès l'introduction des nouveaux MER Français 9e, 10e et 11e, les rectifications orthographiques sont la référence pour l'enseignement du français dans l'année concernée (cf. Les rectifications de l'orthographe du français (2002), Le Petit livre d'OR (2021))"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/153",
+      "code": "L1 38",
+      "axe": "Écriture et instruments de la communication",
+      "titre": "Exploiter l'écriture et les instruments de la communication pour collecter l'information, pour échanger et pour produire les documents",
+      "composantes": [
+        "A. en élargissant et en perfectionnant ses méthodes de prise de notes",
+        "B. en développant un usage éthique de l'Internet (droits d'auteur, règles d'usage, identification des sources,…)",
+        "C. en organisant l’information, en l’enregistrant, en la\nclassant, en la triant et en la retrouvant",
+        "D. en menant une recherche d’informations sur support\npapier et sous forme électronique, en recourant aux\nspécificités de chaque support",
+        "E. en articulant les différentes composantes (texte,\nimage, son) d’un document multimédia",
+        "F. en initiant une démarche collaborative",
+        "G. en identifiant les composantes d’un document et les\neffets qu’il produit sur les destinataires"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/158",
+      "code": "L 37",
+      "axe": "Approches interlinguistiques",
+      "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+      "composantes": [
+        "1. en observant les emprunts des langues entre elles",
+        "2. en étudiant l’évolution linguistique entre les langues de l’Antiquité et le français",
+        "3. en comparant les aspects lexicaux et syntaxiques",
+        "4. en identifiant et en différenciant l’origine de références culturelles issues de différentes cultures dans l’espace et le temps",
+        "5. en acquérant des outils d’analyse lexicale issus de l’étymologie",
+        "6. en analysant des similitudes à l’intérieur de familles de langues"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

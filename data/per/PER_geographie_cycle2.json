@@ -1,0 +1,346 @@
+{
+  "discipline": "Géographie",
+  "cycle": 2,
+  "source": "https://portail.ciip.ch/per/disciplines/7",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/67",
+      "code": "SHS 21",
+      "axe": "Relation Homme-espace",
+      "titre": "Identifier les relations existant entre les activités humaines et l'organisation de l'espace",
+      "composantes": [
+        "1. en comparant ses observations et représentations des espaces physiques et construit avec les représentations conventionnelles (cartes, plans, graphiques, …)",
+        "2. en étudiant des formes variées d’organisation de l’espace et les conséquences de la localisation des objets",
+        "3. en questionnant les besoins (culturels, économiques, …) des sociétés et les activités déployées pour les satisfaire",
+        "4. en formulant des questions, en émettant des hypothèses et en vérifiant leur pertinence dans le contexte socio-spatial",
+        "5. en étudiant les caractéristiques d'un territoire : naturelles (climat, hydrologie, relief), sociales, économiques, culturelles",
+        "6. en s’appropriant les principales conventions de représentation de l’espace (orientation, repères, échelles, symboles)"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-6e",
+          "notion": "Espaces concernés",
+          "contenu": [
+            "Espace vécu, fréquenté (observation indirecte, région proche) avec mise en évidence des liens avec des espaces plus lointains"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "Espaces concernés",
+          "contenu": [
+            "Espace vécu, fréquenté (observation directe) ou documenté (observation indirecte, régions suisses ou voisines) en insistant sur les relations entre l'échelon régional et l'échelon national"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Observation, questionnement et hypothèses concernant l'organisation et l'aménagement de l'espace par l'homme pour répondre aux besoins fondamentaux"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification et catégorisation des besoins vitaux et secondaires (se protéger, s'alimenter, respirer / communiquer, vivre en communauté, se déplacer, apprendre,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser",
+          "contenu": [
+            "Identification, dans l'espace étudié, de lieux répondant plus spécifiquement à l'un ou l'autre de ces besoins (habitation/zones de population, commerce/filière de production, centre sportif/région touristique, aéroport/nœud autoroutier,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "contenu": [
+            "Identification et caractérisation de différents groupes de personnes concernées (habitants, utilisateurs, employés, producteurs,…) et de son propre positionnement parmi les acteurs",
+            "Classement des personnes en catégories d'acteurs (individuels ou collectifs) :",
+            "– appartenant au domaine public ou privé",
+            "– économiques, sociaux ou politiques"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "contenu": [
+            "– différenciation entre un producteur, un distributeur et un consommateur en se basant sur une filière de production"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "contenu": [
+            "Identification de ses propres représentations d'un espace et des représentations différentes que peuvent en avoir les acteurs selon le groupe auquel ils appartiennent"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "contenu": [
+            "Description du lieu et mise en évidence de raisons pouvant expliquer sa localisation :",
+            "– raisons naturelles : identification de quelques caractéristiques du site (hydrographie, relief, paysage, ensoleillement)",
+            "– raisons sociales ou économiques : approche de la notion de proximité (de la famille, des commerces,…) et de prix",
+            "– raisons culturelles (histoire, habitudes familiales, langue, savoir-faire)",
+            "Identification des relations du lieu avec l’extérieur (limites et accès)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Identification des différentes parties d’un lieu et des relations entre elles, de leurs fonctions et utilisations (habitat, loisirs, approvisionnement, échanges, accueil, passage, activité, transformation,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Localisation et identification des moyens utilisés (aménagements liés aux activités humaines) :"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "– pour distinguer les zones et marquer leurs limites",
+            "– pour relier les lieux, les zones, les territoires différents (accès)",
+            "– pour approvisionner (eau, énergies,…) et évacuer (eaux usées, déchets,…)",
+            "– pour embellir, sécuriser, attirer,…",
+            "– pour éviter / réduire les nuisances envers les personnes et l'environnement"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Comparaison de l’organisation de différents lieux ayant les mêmes fonctions (étendue, limites, aménagements: bâtiments, voies de communication,…)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Identification de quelques impacts environnementaux, sociaux et économiques liés aux activités humaines et à l'aménagement de l'espace"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(Se) questionner et analyser › Échelle / quels espaces, quels acteurs sont-ils concernés ?",
+          "contenu": [
+            "Identification de deux échelles différentes au niveau local (appartement/quartier, quartier/ville, local /régional,…)"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(Se) questionner et analyser › Échelle / quels espaces, quels acteurs sont-ils concernés ?",
+          "contenu": [
+            "Identification des échelles concernées ou à prendre en compte selon la problématique (locale, régionale, nationale, continentale et mondiale)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Utilisation de divers médias :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– lecture d'images fixes et mobiles, extraction des informations pertinentes et mise en relation avec d'autres sources"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– lecture de tableaux, de graphiques, d'images fixes et mobiles, extraction des informations pertinentes et mise en relation avec d'autres sources"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Sélection d'informations, comparaisons et mise en relation de sources diverses afin de répondre à une question donnée, de vérifier une hypothèse :"
+          ]
+        },
+        {
+          "annee": "5e-6e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– observation du terrain, documents photographiques, plans ou cartes simplifiés"
+          ]
+        },
+        {
+          "annee": "7e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "– outils géographiques diversifiés et complexifiés, provenant de médias variés"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Schématisation de l'espace en vue d'une présentation de lieux étudiés ou de déplacements, élaboration d'une représentation personnelle (schéma, plan, maquette,…):",
+            "– choix ou élaboration d'une légende pertinente",
+            "– vérification de la lisibilité de la représentation auprès des pairs et par comparaison avec des représentations diverses"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Appropriation puis utilisation d'un vocabulaire et de notions spécifiques en lien avec l’espace et la géographie"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(S') informer",
+          "contenu": [
+            "Zone, réseau, limites, frontières,…\nRelief, hydrographie, végétation, construction, aménagement,…\nCommune, canton, région, pays\nÉchelle"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Identification de repères (éléments significatifs permanents) sur le terrain, sur une photographie, un dessin, un plan simple, une carte\nMise en relation entre la réalité et ces différents types de documents",
+            "Appropriation des principales conventions de représentation de l'espace",
+            "Identification et choix de points de repère communs et pertinents (formes, volumes,…) sur des cartes d'échelles différentes",
+            "Dénomination des points de repère significatifs de l'espace étudié (nomenclature)"
+          ]
+        },
+        {
+          "annee": "5e-8e",
+          "notion": "(Se) repérer",
+          "contenu": [
+            "Choix des outils géographiques les plus pertinents (selon le contexte, l'échelle,…) et orientation de ces documents pour se situer dans l'espace",
+            "Localisation de lieux étudiés sur des schémas, des plans et des cartes d'échelles différentes"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser",
+          "texte": "identifie à quel type de besoin un lieu peut répondre"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "texte": "selon la situation, identifie, catégorise et décrit le rôle des acteurs concernés"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "texte": "décrit un lieu :"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "texte": "– en nommant quelques caractéristiques de son site et de sa situation"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "texte": "– en identifiant ses limites et des possibilités d'accès"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "texte": "– en citant au moins deux raisons pouvant expliquer sa localisation"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "identifie et classe des lieux (ou des parties de lieux) selon leur-s fonction-s"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "délimite des zones géographiques (habitations, activités, voies et nœuds de communication,…)"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "identifie les différents types de découpage de l’espace (politique, économique, linguistique, naturel) en Suisse et en zone frontalière"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "repère des éléments de l’espace liés aux aménagements et les met en relation avec les buts recherchés"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "compare l'organisation de deux lieux selon au moins 3 critères géographiques pertinents"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "dans une situation donnée, met en relation des aménagements liés aux activités humaines et leur impact sur la qualité de vie des personnes ou sur l'environnement"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) questionner et analyser › Échelle / quels espaces, quels acteurs sont-ils concernés ?",
+          "texte": "identifie l’échelle des documents proposés : étendue spatiale et type d’informations"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "Identifie dans les documents à disposition, les informations pertinentes et utiles pour répondre à un questionnement géographique"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "présente, oralement ou par écrit, le résultat d’une recherche en mettant en relation au moins 3 éléments différents parmi les suivants : schéma personnel, graphique, croquis, photographie, carte, texte"
+        },
+        {
+          "fin": "8e",
+          "notion": "(S') informer",
+          "texte": "connaît et utilise à bon escient la nomenclature et le vocabulaire liés aux situations travaillées"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) repérer",
+          "texte": "choisit et utilise les points de repère pertinents, les signes et symboles, permettant la représentation de l'espace"
+        },
+        {
+          "fin": "8e",
+          "notion": "(Se) repérer",
+          "texte": "choisit et utilise, parmi les outils à disposition, ceux permettant le repérage, la localisation et l'orientation de quelques éléments étudiés"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/161",
+      "code": "SHS 23",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils pertinents pour traiter des problématiques de sciences humaines et sociales",
+      "composantes": [
+        "A. en dégageant les informations pertinentes dans les sources disponibles pour produire un nouveau document",
+        "B. en enquêtant sur des hypothèses historiques ou géographiques",
+        "C. en se représentant le temps à l’aide de repères et d’outils variés",
+        "D. en se repérant sur des représentations graphiques diverses (cartes, tableaux,…) et en passant de la réalité à la carte (et inversement)",
+        "E. en décrivant et en comparant les représentations d’un espace à différentes échelles (croquis, plan, schéma, photo, maquette, …)",
+        "F. en utilisant un lexique spécifique lié à la géographie et à l’histoire",
+        "G. en sélectionnant des ressources documentaires et en les associant de manière critique"
+      ],
+      "progressions": [
+        {
+          "annee": "5e-8e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

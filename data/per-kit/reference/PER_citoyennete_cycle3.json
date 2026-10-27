@@ -1,0 +1,199 @@
+{
+  "discipline": "Citoyenneté",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/9",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/157",
+      "code": "SHS 33",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils et des pratiques de recherche appropriés aux problématiques des sciences humaines et sociales",
+      "composantes": [
+        "A. en produisant des documents (notes de synthèse, synopsis, schéma, tableau…) à partir de ressources documentaires (textes historiques de toute sorte, collections d’objets, données statistiques,…)",
+        "B. en classant et en synthétisant de manière critique les ressources documentaires",
+        "C. en formulant des hypothèses et en recherchant des solutions pratiques",
+        "D. en replaçant les faits dans leur contexte historique et géographique",
+        "E. en représentant des organisations avec des cartes topographiques et thématiques de différentes échelles, ainsi qu’avec des représentations graphiques de données statistiques",
+        "F. en formalisant et en communiquant, dans des situations significatives, le résultat de ses recherches",
+        "G. en mobilisant un langage spécifique au champ des sciences humaines"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/72",
+      "code": "SHS 34",
+      "axe": "Relation Homme-société",
+      "titre": "Saisir les principales caractéristiques d'un système démocratique",
+      "composantes": [
+        "1. en s’initiant au fonctionnement de la société civile et politique",
+        "2. en s’interrogeant sur l’organisation sociale et politique d’autres communautés du passé ou du présent…",
+        "3. en se sensibilisant à des problématiques liées aux rapports entre les hommes (minorités, déséquilibres Nord-Sud,…) et à l’environnement (naturel et social)",
+        "4. en prenant connaissance des textes fondamentaux, en dégageant les fondements des droits et des devoirs liés à l’appartenance à une société démocratique et en se les appropriant",
+        "5. en s’informant de l’actualité et en cherchant à la comprendre",
+        "6. en acquérant des aptitudes et des attitudes d’action en tant qu’individu d’un groupe ou en tant que collectivité",
+        "7. en préparant et en réalisant des débats démocratiques au sein de l’école",
+        "8. en portant un regard critique et autonome, et en se positionnant en fonction de connaissances et de valeurs"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "contenu": [
+            "Construction de la pratique citoyenne notamment par :",
+            "– l’exercice du débat autour de faits d’actualité",
+            "– la prise en compte de l’altérité dans des contextes culturel, historique et socio-économiques",
+            "– une attitude participative et responsable à titre individuel et collectif",
+            "– l’analyse de questions socialement vives",
+            "– la compréhension des enjeux de société, la capacité à faire des choix et la recherche de solutions pratiques"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "contenu": [
+            "Étude des droits humains dans les textes",
+            "Observation de leur application en Suisse et dans le monde"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "contenu": [
+            "Définition de la notion d’État ; étude du rôle et du fonctionnement d’un État",
+            "Identification des valeurs véhiculées par les textes de référence (Constitution, Déclaration,…)",
+            "Analyse de la notion d’état de droit : normes, distinction et séparation des différents pouvoirs (législatif, exécutif et judiciaire), droits fondamentaux",
+            "Analyse de la notion et du rôle de citoyen"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "contenu": [
+            "Étude de la démocratie et de son fonctionnement"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "contenu": [
+            "Distinction des différents types d’organisation sociale et étatique (république, monarchie, fédéralisme, dictature, démocratie,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "La Suisse, État fédéral",
+          "contenu": [
+            "Description et analyse de l’organisation de l’État fédéral",
+            "Description et analyse de la démocratie directe et semi-directe ; rôle du peuple souverain",
+            "Analyse du paysage politique national et cantonal (pluralisme des partis, groupes de pression,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "La Suisse, État fédéral",
+          "contenu": [
+            "Observation et analyse des droits et devoirs des citoyens suisses et des résidents étrangers en Suisse (droit de vote, éligibilité, statuts, impôts,…)",
+            "Distinction des différents modes de scrutin (systèmes proportionnel et majoritaire)",
+            "Description des droits sociaux (système des trois piliers, assurances obligatoires, droit du travail,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "La Suisse et le monde",
+          "contenu": [
+            "Description des liens entre la Suisse et le monde (ambassades et consulats, développement et coopération,…)",
+            "Analyse des liens entre la Suisse et l’Union européenne (zone euro, espace Schengen, accords bilatéraux, Erasmus,…)",
+            "Description des relations de la Suisse avec les organisations internationales (ONU, OCDE, Conseil de l’Europe,…)",
+            "Identification du rôle des organisations non-gouvernementales (CICR, Amnesty, Greenpeace,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "texte": "exerce la pratique citoyenne notamment par :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "texte": "– l’analyse de situations à l'origine de débats de société"
+        },
+        {
+          "fin": "11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "texte": "– lors de débats, par la formulation d’arguments fondés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "texte": "énumère les principaux droits énoncés dans la Déclaration universelle des droits de l’homme"
+        },
+        {
+          "fin": "11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "texte": "décrit les caractéristiques d’un État"
+        },
+        {
+          "fin": "11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "texte": "explique le rôle des lois"
+        },
+        {
+          "fin": "11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "texte": "repère les droits et les devoirs fondamentaux du citoyen dans les textes de référence"
+        },
+        {
+          "fin": "11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "texte": "décrit les principales caractéristiques des démocraties modernes"
+        },
+        {
+          "fin": "11e",
+          "notion": "Qu'est-ce qu'un État ?",
+          "texte": "distingue les différents régimes politiques"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse, État fédéral",
+          "texte": "distingue les 3 niveaux de souveraineté (Confédération, canton, commune)"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse, État fédéral",
+          "texte": "différencie le rôle des élus fédéraux, cantonaux et communaux"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse, État fédéral",
+          "texte": "distingue différents partis politiques et leurs principales orientations"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse, État fédéral",
+          "texte": "explique les principaux droits et devoirs du citoyen (vote, élection, éligibilité, initiative, référendum, pétition ; respect des lois, impôts, devoir civique)"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse, État fédéral",
+          "texte": "explique les principaux droits sociaux"
+        },
+        {
+          "fin": "11e",
+          "notion": "La Suisse et le monde",
+          "texte": "décrit quelques relations entre la Suisse et l'Europe ou le monde, en lien avec l'actualité"
+        }
+      ]
+    }
+  ]
+}

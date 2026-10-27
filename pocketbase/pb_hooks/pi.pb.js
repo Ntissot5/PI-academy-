@@ -46,6 +46,20 @@ onRecordCreateRequest((e) => {
   e.next();
 }, "classes");
 
+/* ---------- unités : pas d'exercice sans code PER ni année ---------- */
+
+onRecordCreateRequest((e) => {
+  const { checkUnitePer } = require(`${__hooks}/lib/per.js`);
+  checkUnitePer($app, e.record);
+  e.next();
+}, "unites");
+
+onRecordUpdateRequest((e) => {
+  const { checkUnitePer } = require(`${__hooks}/lib/per.js`);
+  checkUnitePer($app, e.record);
+  e.next();
+}, "unites");
+
 /* ---------- état d'un parcours : unités + progression + stats ---------- */
 
 routerAdd("GET", "/api/pi/etat", (e) => {
@@ -74,6 +88,10 @@ routerAdd("GET", "/api/pi/etat", (e) => {
   if (!canton && e.auth.getString("classe")) {
     try { canton = $app.findRecordById("classes", e.auth.getString("classe")).getString("canton"); } catch (_) { canton = ""; }
   }
+  // Prof sans canton dans son profil : celui de sa dernière classe qui en a un.
+  if (!canton && e.auth.getString("role") === "prof") {
+    try { canton = $app.findRecordsByFilter("classes", "prof = {:p} && canton != ''", "-created", 1, 0, { p: e.auth.id })[0].getString("canton"); } catch (_) { canton = ""; }
+  }
   let matiere = null;
   if (parcours.getString("matiere")) {
     try { const m = $app.findRecordById("matieres", parcours.getString("matiere")); matiere = { slug: m.getString("slug"), nom: m.getString("nom") }; } catch (_) { matiere = null; }
@@ -97,6 +115,11 @@ routerAdd("GET", "/api/pi/etat", (e) => {
         image: u.getString("image"),
         piege: u.getString("piege"),
         icone: u.getString("icone"),
+        statut: u.getString("statut") || "actif",
+        per_codes: u.get("per_codes") || [],
+        per_notions: u.get("per_notions") || [],
+        annee: u.getString("annee"),
+        tag: u.getString("tag"),
         progression: p ? {
           meilleur_entrainement: p.getInt("meilleur_entrainement"),
           meilleur_boss: p.getInt("meilleur_boss"),
@@ -104,10 +127,41 @@ routerAdd("GET", "/api/pi/etat", (e) => {
           nb_boss: p.getInt("nb_boss"),
           valide: p.getBool("valide"),
           lecon_lue: p.getBool("lecon_lue"),
+          revision_le: p.getString("revision_le"),
+          intervalle: p.getInt("intervalle"),
         } : null,
       };
     }),
   });
+}, $apis.requireAuth("users"));
+
+/* ---------- révisions du jour (répétition espacée) ---------- */
+
+routerAdd("GET", "/api/pi/revisions", (e) => {
+  const { zurichDate } = require(`${__hooks}/lib/zurich.js`);
+  const { canOpenParcours } = require(`${__hooks}/lib/access.js`);
+  const today = zurichDate(Date.now());
+  const rows = $app.findRecordsByFilter(
+    "progressions", "utilisateur = {:u} && valide = true && revision_le != '' && revision_le <= {:t}", "revision_le", 50, 0,
+    { u: e.auth.id, t: today });
+  const out = [];
+  const parcoursVus = {};
+  for (const p of rows) {
+    let u, pc;
+    try { u = $app.findRecordById("unites", p.getString("unite")); } catch (_) { continue; }
+    const pid = u.getString("parcours");
+    if (!(pid in parcoursVus)) {
+      try { pc = $app.findRecordById("parcours", pid); parcoursVus[pid] = canOpenParcours($app, e.auth, pc) ? pc : null; } catch (_) { parcoursVus[pid] = null; }
+    }
+    pc = parcoursVus[pid];
+    if (!pc) continue;
+    out.push({
+      parcours: pc.getString("slug"), parcours_titre: pc.getString("titre"),
+      ordre: u.getInt("ordre"), titre: u.getString("titre"), icone: u.getString("icone"), id_generateur: u.getString("id_generateur"),
+      revision_le: p.getString("revision_le"), intervalle: p.getInt("intervalle"),
+    });
+  }
+  return e.json(200, { today: today, revisions: out });
 }, $apis.requireAuth("users"));
 
 /* ---------- leçon lue ---------- */
@@ -142,7 +196,7 @@ routerAdd("POST", "/api/pi/lecon", (e) => {
 // Limite connue (README) : la correction est faite côté client, `ok` lui est fait confiance.
 
 routerAdd("POST", "/api/pi/serie", (e) => {
-  const { zurichDate } = require(`${__hooks}/lib/zurich.js`);
+  const { zurichDate, addDays } = require(`${__hooks}/lib/zurich.js`);
   const { userStats } = require(`${__hooks}/lib/stats.js`);
   const { canOpenParcours, cleanStatement, cleanShort } = require(`${__hooks}/lib/access.js`);
   const LEN = 10, PASS = 8, XP_GOOD = 10, XP_BOSS = 100, MAX_MIN = 30;
@@ -158,6 +212,7 @@ routerAdd("POST", "/api/pi/serie", (e) => {
   try { unite = $app.findRecordById("unites", String(body.unite || "")); } catch (_) { throw new NotFoundError("Unité introuvable."); }
   const parcours = $app.findRecordById("parcours", unite.getString("parcours"));
   if (!canOpenParcours($app, e.auth, parcours)) throw new ForbiddenError("Ce parcours n'est pas ouvert pour toi.");
+  if (unite.getString("statut") === "bientot") throw new BadRequestError("Cette leçon arrive bientôt.");
 
   const out = { xp: 0, bonus: 0, valide: false, nouveau: false };
 
@@ -208,6 +263,17 @@ routerAdd("POST", "/api/pi/serie", (e) => {
         p.set("utilisateur", e.auth.id);
         p.set("unite", unite.id);
       }
+      // Révision : une série terminée sur une unité déjà validée, le jour prévu ou après.
+      const today = zurichDate(Date.now());
+      const due = p.getBool("valide") && p.getString("revision_le") && p.getString("revision_le") <= today;
+      if (due) {
+        const { prochainIntervalle } = require(`${__hooks}/lib/memoire.js`);
+        const iv = prochainIntervalle(p.getInt("intervalle"), score >= PASS);
+        p.set("intervalle", iv);
+        p.set("revision_le", addDays(today, iv));
+        p.set("nb_revisions", p.getInt("nb_revisions") + 1);
+        out.revision = { reussie: score >= PASS, prochaine: addDays(today, iv), intervalle: iv };
+      }
       if (mode === "boss") {
         p.set("nb_boss", p.getInt("nb_boss") + 1);
         p.set("meilleur_boss", Math.max(p.getInt("meilleur_boss"), score));
@@ -215,6 +281,9 @@ routerAdd("POST", "/api/pi/serie", (e) => {
           out.valide = true;
           if (!p.getBool("valide")) {
             p.set("valide", true);
+            // Première révision demain.
+            p.set("intervalle", 1);
+            p.set("revision_le", addDays(today, 1));
             xp += XP_BOSS;
             out.bonus = XP_BOSS;
             out.nouveau = true;

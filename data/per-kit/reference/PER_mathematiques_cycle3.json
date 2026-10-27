@@ -1,0 +1,1913 @@
+{
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/5",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/45",
+      "code": "MSN 31",
+      "axe": "Espace",
+      "titre": "Poser et résoudre des problèmes pour modéliser le plan et l'espace",
+      "composantes": [
+        "1. en définissant des figures planes et des solides par certaines de leurs propriétés géométriques",
+        "2. en utilisant des propriétés des figures et leur décomposition en figures élémentaires pour les construire et les reproduire",
+        "3. en mobilisant des systèmes de repérages",
+        "4. en utilisant les instruments ou les logiciels appropriés",
+        "5. en mobilisant des représentations conventionnelles des figures planes et des solides (croquis, dessin à l’échelle, perspective,…)",
+        "6. en recourant au raisonnement déductif",
+        "7. en mobilisant des transformations géométriques",
+        "8. en représentant des solides en perspective et en faisant le développement"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes géométriques en lien avec les figures et les transformations étudiées, notamment : (2, 3, 4, 5, 6, 7, A, C, D, F, H)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose de conjectures, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– utilisation des propriétés des figures et des transformations géométriques pour établir des preuves",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "Reconnaissance, dénomination, description de figures planes selon leurs propriétés (symétrie-s interne-s, côtés, angles, somme des angles, diagonales) et construction de : (1, 2, 4)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "– triangles, quadrilatères, cercles"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "– polygones réguliers (Niv 1s-2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "Reconnaissance et dénomination des angles (aigu, obtus, droit, plat) (1, 4)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "Reconnaissance, dénomination, description des propriétés et construction de : (1, 4)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "– droites parallèles, droites perpendiculaires",
+            "– hauteur, médiatrice, bissectrice",
+            "– cercles inscrit et circonscrit (Niv 1s-2-3)",
+            "– médiane, centre de gravité (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "– tangente, angle au centre d’un cercle, angle inscrit dans un cercle, angles isométriques (opposés par le sommet, alternes-internes,…) (Niv 2s-3)",
+            "– cercle de Thalès (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Figures géométriques planes",
+          "contenu": [
+            "Représentation de figures planes par un croquis et/ou un dessin à l’échelle (y compris l’échelle 1:1) (5)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Solides",
+          "contenu": [
+            "Reconnaissance, dénomination, description de solides selon leurs propriétés (faces, sommets, arêtes, polyèdre ou non) : (1, 8)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Solides",
+          "contenu": [
+            "– cube, parallélépipède rectangle, prisme droit, cylindre, pyramide"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Solides",
+          "contenu": [
+            "– cône, sphère"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Solides",
+          "contenu": [
+            "Réalisation de développements et construction de solides : (1, 8)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Solides",
+          "contenu": [
+            "– cube, parallélépipède rectangle, prisme droit"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Solides",
+          "contenu": [
+            "– cylindre (Niv 1s-2-3)",
+            "– pyramide régulière (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Solides",
+          "contenu": [
+            "Représentation de solides en perspective (5, 8)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Reconnaissance et dénomination des isométries : translation, symétrie axiale, rotation, symétrie centrale (7)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Description et identification des caractéristiques d'une isométrie (vecteur de translation, axe de symétrie, centre de rotation ou de symétrie, conservation des grandeurs,…) (Niv 1) (7)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Description et identification des caractéristiques d'une : (Niv 2-3) (7)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "– isométrie (vecteur de translation, axe de symétrie, centre de rotation ou de symétrie, conservation des grandeurs,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "– homothétie (centre, rapport,…)",
+            "– similitude (Niv 3s)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Anticipation de la position d'une figure plane après une ou plusieurs isométries (7)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Réalisation de frises ou de pavages à l'aide d'isométries (7)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "À l'aide des instruments ou de logiciels appropriés, construction de l'image d'une figure plane par une isométrie : translation, symétrie axiale, rotation, symétrie centrale (4, 7)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Agrandissement et réduction de figures planes en utilisant la proportionnalité (Niv s) (4, 7)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Agrandissement et réduction de figures planes en utilisant la proportionnalité (4, 7)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Transformations géométriques",
+          "contenu": [
+            "Construction de l'image d'une figure plane : (Niv 2-3)",
+            "– par une homothétie",
+            "– par une similitude (Niv 3s)",
+            "(4, 7)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Utilisation de systèmes de repérage pour communiquer des positions et des itinéraires, pour placer des points (plan et espace) (3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes géométriques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– mobilisation des propriétés des figures et des transformations"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation des outils de construction appropriés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– élaboration de cheminements déductifs basés sur des figures géométriques (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat en utilisant un vocabulaire adéquat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "reconnaît, nomme, décrit et construit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "– droites parallèles, droites perpendiculaires, hauteurs, angles, triangles, quadrilatères, cercles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "– médiatrice d'un segment, bissectrice d'un angle, cercles inscrit et circonscrit (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "– tangente à un cercle, médianes d’un triangle, polygones réguliers (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "utilise la somme des angles d'un triangle"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "utilise de manière appropriée les instruments de géométrie (règle, équerre, compas, rapporteur)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Figures géométriques planes",
+          "texte": "réalise un croquis comme support de réflexion, pour mémoriser ou communiquer des informations sans ambiguïté"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "reconnaît et nomme (Niv 1-2) / reconnaît, nomme et décrit (Niv 3) : cube, parallélépipède rectangle, prisme droit, pyramide, cylindre, cône, sphère"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "esquisse la représentation d'un solide :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "– par un développement"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "– en perspective"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "réalise le développement :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "– d'un cube, d'un parallélépipède rectangle"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "– d'un prisme droit (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Solides",
+          "texte": "– d'un cylindre (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "reconnaît et nomme (Niv 1-2) / reconnaît, nomme et décrit (Niv 3) :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– une isométrie"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– une homothétie (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "construit l’image d’une figure plane par :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– une isométrie"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– une homothétie (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "construit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– le-s axe-s de symétrie d’une figure plane"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "– le centre de symétrie d’une figure plane (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "agrandit et réduit une figure plane"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformations géométriques",
+          "texte": "reconnaît des figures semblables"
+        },
+        {
+          "fin": "11e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "construit et utilise un système de repérage du plan pour placer des points, pour communiquer leur position ou décrire des itinéraires"
+        },
+        {
+          "fin": "11e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "lit un plan"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/48",
+      "code": "MSN 32",
+      "axe": "Nombres",
+      "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres réels",
+      "composantes": [
+        "1. en ordonnant des nombres réels",
+        "2. en comparant différentes écritures de nombre et systèmes de numération",
+        "3. en découvrant quelques nombres irrationnels (pi, racine de 2,…)",
+        "4. en mobilisant différentes écritures des nombres (fraction, écriture décimale, %,…)",
+        "5. en utilisant des propriétés des nombres réels",
+        "6. en utilisant différentes procédures de calcul, y compris le calcul littéral",
+        "7. en organisant les nombres réels à travers les opérations"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés, l’écriture de ces nombres et les opérations étudiées, notamment : (1, 4, 5, 6, 7, A, C, D, F, a, c, d, e, f, g, h)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose de conjectures, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– utilisation des propriétés des nombres et des opérations pour établir des preuves",
+            "– traduction des données d'un problème en opérations arithmétiques, en respectant les conventions d'écriture",
+            "– choix de l'outil de calcul le mieux adapté à la situation et à ses propres compétences",
+            "– utilisation de la calculatrice dans des situations où l'aspect calculatoire est secondaire, pour vérifier le résultat d'un calcul ou pour effectuer des calculs complexes",
+            "– acceptation ou refus d'un résultat par l'estimation de l'ordre de grandeur, la connaissance des opérations ou la confrontation au réel",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Connaissance et utilisation de diverses fonctions de la calculatrice : quatre opérations de base, parenthèses, mise en mémoire et récupération de valeurs, puissance, racine,… (f)",
+            "Prise en compte de l’ordre dans lequel la calculatrice effectue les opérations"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Exploration de situations aléatoires (E)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Traitement de situations aléatoires à l'aide de notions de probabilités (Niv 2-3) (E)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Nombres",
+          "contenu": [
+            "Reconnaissance et utilisation de propriétés des nombres naturels : (5)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Nombres",
+          "contenu": [
+            "– critères de divisibilité, multiples et diviseurs communs",
+            "– ppmc, pgdc, nombres premiers, produit de facteurs (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Nombres",
+          "contenu": [
+            "– ppmc, pgdc, nombres premiers, produit de facteurs (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Nombres",
+          "contenu": [
+            "Connaissance et utilisation de différentes écritures d'un même nombre (2)",
+            "Comparaison, approximation, encadrement, représentation sur une droite et ordre de grandeur de nombres écrits sous forme : (1, 5, c)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Nombres",
+          "contenu": [
+            "– entière dans ℤ",
+            "– décimale dans ℚ"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Nombres",
+          "contenu": [
+            "– fractionnaire (y compris simplification et amplification), de pourcentage"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Nombres",
+          "contenu": [
+            "- dans ℚ^+ (Niv 1-2)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Nombres",
+          "contenu": [
+            "- dans ℚ (Niv 1-2)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Nombres",
+          "contenu": [
+            "- dans ℚ (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Nombres",
+          "contenu": [
+            "– de puissance a^b (a sous forme décimale, b dans ℕ)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Nombres",
+          "contenu": [
+            "- a dans ℚ^+ (Niv 1-2)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Nombres",
+          "contenu": [
+            "- a dans ℚ (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Nombres",
+          "contenu": [
+            "- a dans ℚ (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Nombres",
+          "contenu": [
+            "– de la notation scientifique : a·10^n\n- n dans ℕ (Niv 1s)\n- n dans ℤ (Niv 2-3)",
+            "– de racine carrée et cubique dans ℝ^+"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Nombres",
+          "contenu": [
+            "Discernement des ensembles de nombres, découverte de quelques nombres irrationnels (3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Nombres",
+          "contenu": [
+            "Exploration de quelques systèmes de numération (Rome, Égypte, Babylone, binaire,…) (2, b)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Calculs",
+          "contenu": [
+            "Connaissance et utilisation des priorités des opérations (y compris parenthèses)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "Connaissance et utilisation des propriétés des opérations pour organiser et effectuer des calculs de manière efficace et pour donner des estimations : (7, c, e)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– addition, soustraction, multiplication, division"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– puissances (a, b, m et n dans ℕ) :\na^m·a^n = a^(m+n)\na^m : a^n = a^(m-n)\n(a^m)^n = a^(m·n)\na^m·b^m = (a·b)^m (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– racines carrées (cubiques), y compris extraction d'entiers (a et b dans ℕ) :\n√(a·b)=√a·√b\n√(a/b)=(√a)/(√b)\n√(a^2·b)=a·√b (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation de procédures de calcul réfléchi ou de calcul mental avec des : (7, e)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme décimale (+, −, ∙, :)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels sous forme décimale (+, −, ∙, :) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres entiers relatifs de -100 à +100 (+) (Niv 1)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres entiers relatifs de -100 à +100 (+, −, ∙, :) (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres entiers relatifs de -100 à +100 (+, −, ∙, :) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire (+, −) (Niv 2)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire (+, −, ∙, :) (Niv 2)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire (+, −) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire (+, −, ·, :) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– carrés parfaits pour en extraire la racine"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des algorithmes pour effectuer des calculs de façon efficace avec des : (7, e)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs, sous forme décimale, inférieurs à 10000, ayant au plus deux décimales (+, −, ·, :)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire(+, −) (Niv 1-2)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels sous forme fractionnaire(+, −, ·, :) (Niv 1-2)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels positifs sous forme fractionnaire(+, −) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calculs",
+          "contenu": [
+            "– nombres rationnels sous forme fractionnaire(+, −, ·, :) (Niv 3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes numériques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix des opérations"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation d’outils de calcul appropriés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– estimation et vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat, en utilisant un vocabulaire adéquat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "traduit un problème numérique en une écriture mathématique appropriée"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "utilise les fonctions de base de la calculatrice (+ ; – ; ∙ ; : ; racine ; puissance ; mémorisation ;…) et met en lien le résultat obtenu avec le résultat attendu"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "explore un ensemble de possibilités et organise un dénombrement"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "conduit un raisonnement probabiliste simple en dénombrant les cas favorables et les cas possibles (cartes, dés, pièces de monnaie,…) (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "utilise les critères de divisibilité par 2, 3, 5, 9, 10, 25, 100"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "détermine le ppmc et le pgdc de deux nombres :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– 10 et 15; 12 et 20 ;…"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– 56 et 84 ; 45 et 75 ;… (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "décompose un nombre inférieur à 1000 en produit de facteurs premiers"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "complète une suite de nombres et exprime sa loi de formation :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– suites arithmétiques, suite des carrés, suites des puissances de 2, de 10,…"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– suites géométriques dans ℕ, suite des cubes,…"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "(Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "reconnaît, utilise différentes écritures d'un même nombre et passe de l'une à l'autre :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– décimale, fractionnaire, pourcentage, puissance, racine"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– notation scientifique"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "2/5=0,4=40/100 ;\n1,25=5/4 ;\n0,3=3/10=30% ;6^3 = 216 ;10’000 = 10^4;\n√49=7 …"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "4/3=1,33… ;\n0,375=3/8 ;\n3/20=0,15 ;\n−5/4=−1,25 ; 1,6^2=2,56 ; 5 millions = 5 ∙10^6;\n√10000=100 ; … (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "0,2222…=2/9 ;\n7∙10^(-3)=0,007 ;\n√0,16=0,4 ;\n√(4/100)=2/10 ; … (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "extrait le nombre entier:"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– de milliers, de centaines, de dizaines et d’unités d'un nombre positif"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– de dixièmes, de centièmes et de millièmes d’un nombre positif (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "amplifie, simplifie, rend irréductible une fraction et la représente géométriquement"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "compare, ordonne, encadre, intercale :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– des nombres entiers relatifs"
+        },
+        {
+          "fin": "11e",
+          "notion": "Nombres",
+          "texte": "– des nombres écrits sous forme décimale ou fractionnaire dans ℚ^+/sup>, dans ℚ (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "effectue des calculs en respectant les priorités des opérations :\n3+5∙4 = 23; 2∙3^2 = 18; 36:(12:3) = 9 …"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "utilise des procédures de calcul réfléchi ou de calcul mental pour effectuer un calcul de manière efficace, par exemple :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "– addition et soustraction :\n32+80 ; 1450–600 ; 50–12,8 ; …\n10–23 ; -12 – 5; 1/2+1/3 … (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "– multiplication et division :\n6·1,5 ; 0,12·10 ; 15·8 ; 140 :5 ; 1,8 :3 ; 250 :1000 ; 25% de 60 …\n6·(-1,5) ; 1/5·4 ; 144:9 ; -32 : (-4) ; les deux tiers de 24 … (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "– puissance et racine :\n0,3^2 ; 25 ; √81 …\n40^3; (-2)^5 ; √8100 ; √(9/4) ; 10^(-3) ;\n(1/2)^3 … (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "utilise un algorithme pour effectuer un calcul avec des nombres écrits sous forme décimale ou fractionnaire, par exemple :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "– addition et soustraction :\n487,7+90,15; 1250-546,8 ; 0,5+2/3 ;\n5/6−1/4 ; …\n1–7/3 ;\n11/12+3/8 ;\n… (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calculs",
+          "texte": "– multiplication, division et puissance :\n5,25:0,42 ; 2/5:4 ;\n103·4/25 ; … (Niv 2-3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/51",
+      "code": "MSN 33",
+      "axe": "Opérations",
+      "titre": "Résoudre des problèmes numériques et algébriques",
+      "composantes": [
+        "1. en reconnaissant les caractéristiques mathématiques d’une situation et en la traduisant en écritures numérique ou littérale",
+        "2. en observant comment les hommes ont résolu historiquement des problèmes de ce type",
+        "3. en utilisant des propriétés des opérations (+, -, x , :, puissance, racine carrée et cubique)",
+        "4. en choisissant l’outil de calcul le mieux approprié à la situation proposée",
+        "5. en mobilisant l’algèbre comme outil de calcul (équations), de preuve ou de généralisation",
+        "6. en construisant, en exerçant et en utilisant des procédures de calcul (calcul réfléchi, algorithmes, calculatrice, répertoire mémorisé) avec des nombres réels",
+        "7. en estimant un résultat et en exerçant un regard critique sur le résultat obtenu",
+        "8. en modélisant une situation de proportionnalité",
+        "9. en explorant les propriétés de quelques fonctions (linéaire, affine, quadratique,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes en lien avec les notions étudiées (fonctions, diagrammes, expressions algébriques et équations), notamment : (1, 3, 4, 5, 6, 7, 8, A, C, D, F, G, H)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose de conjectures, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats",
+            "– utilisation du langage algébrique pour établir des preuves (Niv 3) (6)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes de proportionnalité (propriétés, facteur de la proportionnalité) : (8)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– quantité / quantité (prix, poids, devises,…), agrandissement et réduction de figures"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– échelle, pourcentage, pente"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– vitesse moyenne",
+            "– masse volumique (Niv 1s-2-3)",
+            "– débit (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "Reconnaissance de situations pouvant être modélisées par des fonctions"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "Lecture et interprétation de tableaux de valeurs, de représentations graphiques (A)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "Représentation d'une relation où interviennent deux grandeurs variables par :",
+            "– un tableau de valeurs",
+            "– une représentation graphique (à la main, à l'aide d'un tableur, d'un grapheur,…)",
+            "– un ou plusieurs opérateurs (sous forme de «machine» ou d'expression verbale)",
+            "(9, A)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "Passage d'une représentation à une autre : (A)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "– de l'opérateur au tableau de valeurs et inversement",
+            "– du tableau de valeurs à la représentation graphique et inversement"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "– de l'expression fonctionnelle au tableau de valeurs et à la représentation graphique (Niv 1)",
+            "x→b, x→ax, x→ax+b, x→ax^2 (a et b dans ℤ)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Fonctions",
+          "contenu": [
+            "– de l'expression fonctionnelle au tableau de valeurs et à la représentation graphique (Niv 2-3)",
+            "x→b, x→ax, x→ax+b, x→ax^2 (a et b dans ℤ)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "– de l'expression fonctionnelle au tableau de valeurs et à la représentation graphique (Niv 2-3)",
+            "x→b, x→ax, x→ax+b, x→ax^2, x→a/x, x→x^3, x→ax^2+bx+c, x→√x (Niv 3s)\n(a, b et c dans ℚ)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Fonctions",
+          "contenu": [
+            "– de la représentation graphique à l'expression fonctionnelle (Niv 2-3)",
+            "x→b, x→ax, x→ax+b\n(a et b dans ℚ)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Diagrammes",
+          "contenu": [
+            "Lecture de données (horaires, statistiques,…) et interprétation de diagrammes (A)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Diagrammes",
+          "contenu": [
+            "Réalisation de diagrammes : (A)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Diagrammes",
+          "contenu": [
+            "– diagramme cartésien, en colonnes"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Diagrammes",
+          "contenu": [
+            "– diagramme circulaire, en barre (Niv 1s-2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Diagrammes",
+          "contenu": [
+            "Utilisation d'outils appropriés (tableur, grapheur,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Connaissance et utilisation des règles et conventions usuelles d'écriture algébrique (Niv 2s-3s)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Connaissance et utilisation des règles et conventions usuelles d'écriture algébrique (Niv 1s-2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Connaissance et utilisation des règles et conventions usuelles d'écriture algébrique (Niv 1)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Détermination de la valeur numérique d'une expression littérale (bh/2, 4x +5, abc, x^3…) en substituant des nombres aux variables (Niv 1)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Détermination de la valeur numérique d'une expression littérale (√(a^2+b^2), 4(x+y+z), πr^2h …) en substituant des nombres aux lettres (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Détermination de la valeur numérique d'une expression littérale (bh/2, 4x +5, abc, x^3 …) en substituant des nombres aux lettres (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Détermination de la valeur numérique d'une expression littérale (√(a^2+b^2), 3x^2–7, ((B+b)h)/2, 1/a+1/b, πr^2h …) en substituant des nombres aux lettres (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Élaboration d'expressions littérales à partir : (6, H)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– d'énoncés de problèmes, de figures géométriques ou d'expressions verbales (Niv 1s)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– de figures géométriques ou d'expressions verbales (Niv 2s-3s)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– d'énoncés de problèmes, de figures géométriques ou d'expressions verbales (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Interprétation d'expressions littérales et identification de celles qui sont équivalentes (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Connaissance de la terminologie, écriture réduite et ordonnée de : (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– monômes à coefficients entiers, au plus trois indéterminées :",
+            "- degré ≤3 (Niv 2)",
+            "- degré ≤6 (Niv 3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– polynômes de degré ≤3, au plus trois indéterminées :",
+            "- à coefficients entiers (Niv 2)\n- à coefficients rationnels (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "Opérations sur les polynômes :"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– addition, réduction de monômes ou polynômes du premier degré à une indéterminée et à coefficients entiers (Niv 1)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– addition, soustraction et multiplication de monômes (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– addition, soustraction et multiplication de polynômes (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "contenu": [
+            "– connaissance et utilisation d'identités remarquables de degré 2 (Niv 3)",
+            "– décomposition de polynômes en produit de facteurs (Niv 3)",
+            "– utilisation du calcul littéral comme outil de preuve dans des cas simples (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Résolution de problèmes nécessitant le recours à l'algèbre (6, H)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Traduction d'une situation par : (6, H)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– une équation du premier degré à une inconnue (Niv 1s)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– une équation du premier degré à une inconnue (Niv 2)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– une équation du premier degré à une inconnue (Niv 3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– un système d'équations du premier degré à deux inconnues (Niv 3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– une équation du deuxième degré à une inconnue (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Résolution d'équations du premier degré à une inconnue : (6)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– à l'aide des règles d'équivalence (Niv 1)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– à l'aide des règles d'équivalence (Niv 2)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "– à l'aide des règles d'équivalence (Niv 3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Résolution d'un système d'équations du premier degré à deux inconnues à l'aide des méthodes de combinaison linéaire et de substitution (Niv 3) (6)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Résolution d'équations du deuxième degré à une inconnue par factorisation ou à l'aide de la formule de Viète (Niv 3) (6)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Algèbre – Équations",
+          "contenu": [
+            "Expression de chacune des variables d'une formule connue en fonction des autres (Niv 2-3) :",
+            "d = vt ;\nA=bh/2 ; A = πr^2 …\np = 2(a+b) ;\nA=((B+b)h)/2 ;\nV=(πr^2h)/3 … (Niv 3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes relatifs aux fonctions, en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– distinction des grandeurs en jeu,"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– reconnaissance de la fonction sans formalisation (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– reconnaissance et expression de la fonction (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation de représentations et d’outils de calculs appropriés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– estimation et vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat, en utilisant une représentation et un vocabulaire adéquats"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes de proportionnalité concernant les situations suivantes :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– quantité/quantité (prix, poids, devises,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– agrandissement et réduction de figures, échelle, pourcentage"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– pente, vitesse moyenne"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "(Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "interprète correctement les données contenues dans un tableau de valeurs ou une représentation graphique"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "réalise une représentation graphique à partir:"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "– d'un tableau de valeurs"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "– d'une expression fonctionnelle x→b, x→ax, x→ax+b (a et b dans ℤ)\nx→b, x→ax, x→ax+b (a et b dans ℚ) (Niv 2-3)\nx→ax^2, x→a/x (a dans ℤ) (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "détermine une expression fonctionnelle à partir d'un tableau de valeurs dans le cas des fonctions du type :\nx→b, x→ax, x→ax+b, x→x^2 (a et b dans ℤ) (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions",
+          "texte": "détermine une expression fonctionnelle à partir d’une représentation graphique dans le cas des fonctions du type : x→b, x → ax, x→ax+b (a et b dans ℤ) (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Diagrammes",
+          "texte": "interprète correctement les données contenues dans un tableau ou un diagramme"
+        },
+        {
+          "fin": "11e",
+          "notion": "Diagrammes",
+          "texte": "représente une situation à l’aide d’un diagramme (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "texte": "substitue des nombres dans une expression littérale (degré ≤3, nombre de lettres ≤3) pour en calculer la valeur"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "texte": "élabore des expressions littérales dans des situations numériques ou géométriques (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "texte": "effectue des opérations avec des polynômes, par exemple :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "texte": "– exemples Niveau 2\n4c-c = ; z - 2z = ; 2x^2 + x^2 = ; 6a^2-3a-2a^2 + 1 = ; b-(2-3b) = ; 2y^2·3y = ; (5x)^2 = ; -3(x + 2) = ; x^2 (y + 5) = ; (x + 2) (x + 3) = ; (y^2 - 1) (y - 5) = ; (a+b)^2 ="
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Calcul littéral",
+          "texte": "– exemples Niveau 3\nc-2/5c= ;\nx^2+(x^2)/2= ;\nx^2y-1,5x^2y = ; -2a^2 + a-7 + 6a^2 - 3a = ; y^2·y/3= ; 2a (3a)^3 = ; x^2-(x+1)(x-1) = ; -3,5 (-x + 2) = ; xy^2(y-5)= ; (x+2)(x/6+3)= ; (3y^2 - 1)(5 - y) = ; (x-y)(x+y)(x+y) ="
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "résout un problème après l’avoir traduit :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "– par une équation du premier degré à une inconnue (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "– par un système d’équations du premier degré à deux inconnues (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "détermine algébriquement l'ensemble de solutions d'une équation du premier degré, par exemple (Niv 2-3) :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "– exemples Niveau 2\n4x + 5 = 3 – 2x\n7 (y + 10) = 105\n8a + 3 = 2 (4a – 5)\n3x – 2 = 2x – 2 + x\n2z^2- z = 2 (z^2 + 3)\n8x = 3x"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "– exemples Niveau 3\n(y+10)/3=105\n7a + 3 = 2 (3,5a – 5)\nx/2+x/3=4x+1\n(x+1)/2=(2x-1)/3\n2z^2 – z = 2 (z + 1)^2\n10(8x+5) = 50 -20x"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "détermine algébriquement l’ensemble de solutions d’un système d’équations du premier degré à deux inconnues, par exemple (Niv 3) :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "{9y+8=6x ; 2/3x=y"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "{5x+20y=10 ; x−y=12"
+        },
+        {
+          "fin": "11e",
+          "notion": "Algèbre – Équations",
+          "texte": "exprime une des variables d'une formule connue en fonction des autres (Niv 2-3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/54",
+      "code": "MSN 34",
+      "axe": "Grandeurs et mesures",
+      "titre": "Mobiliser la mesure pour comparer des grandeurs",
+      "composantes": [
+        "1. en connaissant le système international d’unités de mesures",
+        "2. en explorant des aspects culturels et historiques liés au système d’unité",
+        "3. en calculant des grandeurs composées (vitesse, masse volumique, débit,…) et en en construisant les unités associées",
+        "4. en mobilisant l’instrument et l’unité de mesure adaptés",
+        "5. en exprimant une mesure dans différentes unités",
+        "6. en estimant l’importance relative des grandeurs dans un phénomène naturel ou social",
+        "7. en estimant la mesure des grandeurs",
+        "8. en utilisant des procédures de calcul de longueur (théorèmes de Thalès, de Pythagore,…)",
+        "9. en calculant des grandeurs (aires, volume,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes de mesurage en lien avec les grandeurs et les théorèmes étudiés, notamment : (3, 5, 7, 8, 9, A, B, C, D, F, H)",
+            "– tri et organisation des informations (liste, tableau, schéma, croquis,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– pose de conjectures, puis validation ou réfutation",
+            "– déduction d’une ou plusieurs informations nouvelles à partir de celles qui sont connues",
+            "– réduction temporaire de la complexité d’un problème",
+            "– utilisation des propriétés des figures et des grandeurs pour établir des preuves",
+            "– vérification, puis communication d'une démarche et d'un résultat en utilisant un vocabulaire, une syntaxe ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "Comparaison, classement et mesure de grandeurs (longueur, aire, volume, angle, masse) par manipulation de lignes, angles, surfaces, ou solides, en utilisant des unités conventionnelles et non conventionnelles (1)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "Estimation de grandeurs, choix d'une unité adéquate, prise de mesure à l'aide d'un instrument adapté et expression d'une grandeur dans diverses unités : (4, 5, 7)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "– longueur",
+            "– angle (mesure en degrés)",
+            "– masse",
+            "– aire"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "– volume, capacité (Niv s)",
+            "– temps (Niv s)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "– volume, capacité",
+            "– temps"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "– vitesse (Niv s)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "– vitesse",
+            "– autres grandeurs (débit, masse volumique,…) (Niv 1s-2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "contenu": [
+            "Sensibilisation aux aspects culturels (degré Fahrenheit, mile, pouce, mille marin, nœud,…) et historiques (coudée, pied, arpent,…) de la mesure (2)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Mesure des dimensions adéquates et calcul : (9)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du périmètre d'un polygone"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du périmètre et de l'aire d'un disque"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– de la longueur d'un arc de cercle et de l'aire d'un secteur circulaire (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– de l'aire d'un carré, d'un rectangle, d'un triangle, d'un parallélogramme, d'un losange (par décomposition et à l'aide d'une formule)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– de l'aire d'un polygone par décomposition en figures simples"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du périmètre et de l'aire d'une surface par décomposition en figures simples"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume et de l'aire du cube et du parallélépipède rectangle"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume et de l'aire du cylindre (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume du cylindre (Niv 1)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume (par décomposition et à l'aide d'une formule) et de l'aire de prismes droit (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume (par décomposition et à l'aide d'une formule) et de l'aire de prismes droits (Niv 1)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume et de l'aire :\n-d'une pyramide (Niv 2-3)\n-d'une sphère (Niv 3)",
+            "– du volume d'un cône (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "– du volume d'un solide (en le décomposant au besoin en solides simples)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Calcul d'une grandeur manquante à partir de celles qui sont connues (hauteur d'un triangle à partir de sa base et de son aire,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Utilisation du théorème de Pythagore (Niv 1) (8)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Utilisation du théorème de Pythagore (Niv 2-3) (8)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Calcul de grandeurs",
+          "contenu": [
+            "Utilisation de la proportionnalité des figures semblables et du théorème de Thalès (Niv 2-3) (8)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes de mesurage en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– distinction des grandeurs en jeu dans une situation donnée"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– organisation d'un mesurage (choix d'une procédure, d'un instrument de mesure, d'une formule de calcul, d'une unité de mesure)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche et du résultat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "texte": "exprime une grandeur à l'aide d'une unité conventionnelle"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "texte": "utilise un instrument adapté pour mesurer une longueur, un angle, un temps, une masse"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mesure de grandeurs et conversion d'unités",
+          "texte": "exprime une même grandeur dans différentes unités (cas usuels et raisonnables)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule le périmètre et l'aire :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de polygones, de disques et de figures composées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de secteurs circulaires (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule l'aire :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de parallélépipèdes rectangles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de prismes droits (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de cylindres et de pyramides (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule le volume :"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de prismes droits et de cylindres"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– de pyramides et de cônes (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "calcule une grandeur manquante à partir de celles qui sont connues (Niv 2-3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "utilise le théorème de Pythagore:"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– dans le plan"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "– dans l'espace (Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Calcul de grandeurs",
+          "texte": "utilise le théorème de Thalès dans le plan (Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/151",
+      "code": "MSN 35",
+      "axe": "Modélisation",
+      "titre": "Modéliser des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+      "composantes": [
+        "A. en mobilisant des représentations graphiques (codes, schémas, tableaux, graphiques,…)",
+        "B. en associant aux grandeurs observables des paramètres",
+        "C. en triant, organisant et interprétant des données",
+        "D. en communiquant ses résultats et en présentant des modélisations",
+        "E. en traitant des situations aléatoires à l’aide de notions de probabilités",
+        "F. en dégageant une problématique et/ou en formulant des hypothèses",
+        "G. en recourant à des modèles existants",
+        "H. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques (fonctions, statistiques, algèbre,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

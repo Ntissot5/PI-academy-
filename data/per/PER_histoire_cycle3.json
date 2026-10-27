@@ -1,0 +1,381 @@
+{
+  "discipline": "Histoire",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/8",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/71",
+      "code": "SHS 32",
+      "axe": "Relation Homme-temps",
+      "titre": "Analyser l’organisation collective des sociétés humaines d'ici et d'ailleurs à travers le temps",
+      "composantes": [
+        "1. en analysant et en comparant des problématiques historiques et leurs modes de résolution actuels et passés",
+        "2. en associant de manière critique une pluralité de sources documentaires",
+        "3. en distinguant les faits historiques de leurs représentations dans les œuvres et les médias",
+        "4. en examinant les manifestations de la mémoire et leurs interactions avec l’histoire",
+        "5. en dégageant la pertinence ou le caractère relatif des périodisations",
+        "6. en analysant les différentes conceptions des relations entre individus et groupes sociaux à différentes époques",
+        "7. en dégageant l’influence du fait religieux sur l’organisation sociale"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "contenu": [
+            "Repérage et contextualisation des traces du passé dans le présent :",
+            "– identification de traces du passé (écrits, objets, monuments, iconographie,…) dans le présent",
+            "– découverte de la fonction de ces traces dans le passé",
+            "– formulation d’hypothèses sur l’utilisation actuelle de ces traces du passé"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "contenu": [
+            "Identification de la nature et de la diversité de sources historiques (écrites, iconographiques, archéologiques,…) :",
+            "– mise en évidence de l’histoire d’une source et de sa pérennité",
+            "– mise en évidence des lacunes ou de la rareté des sources selon la civilisation ou la période étudiée"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "contenu": [
+            "Analyse de la diversité et de la nature de sources historiques :",
+            "– comparaison de différentes sources sur un même thème (orales, écrites, iconographiques, audiovisuelles, premières et secondes,…)",
+            "– analyse de témoignages et mise en évidence de leur intérêt et de leur relativité",
+            "– identification et mise en évidence des manipulations et des contradictions dans les sources",
+            "– recherche et analyse de sources pour élaborer une synthèse en fonction d’une thématique abordée",
+            "– mise en évidence de la difficulté à gérer l’abondance des sources"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "contenu": [
+            "Réflexion sur l’objectivité et l’authenticité d’une source"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Démarches historiennes › Les représentations de l'Histoire ( 1 , 3 )",
+          "contenu": [
+            "Identification et analyse des différents éléments d’un documentaire ou d’une fiction (témoignages, archives, reconstitution, interventions d’historiens,…)",
+            "Identification et analyse dans une œuvre ou un média des trois temps :",
+            "– le temps représenté : époque historique représentée",
+            "– le temps représentant : moment de la production de l’œuvre",
+            "– le temps de visionnement : moment de lecture ou de visionnement par l’élève",
+            "Repérage et analyse des références historiques, des anachronismes, des erreurs et falsifications (Croisades, Trotski,…)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "contenu": [
+            "Distinction entre histoire et mémoire ; identification des différentes manifestations de la mémoire en tant que construction humaine (mythes, commémorations, biographies, chroniques, musées,…)",
+            "– identification des différences entre le récit d’un témoin et un texte d’histoire savante",
+            "– confrontation entre mythe et réalité (Création du monde, fondation de Rome, Charlemagne, Guillaume Tell,…)",
+            "Explication de la construction et de l’utilisation de mythes (goût du merveilleux et de l'héroïsme) comme élément fondateur d’une société à une époque donnée (Mythes, légendes et traditions autour de la fondation de la Confédération,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "contenu": [
+            "Analyse des liens entre mémoire et histoire:",
+            "– travail sur les différentes strates de la mémoire (personnelle, locale, nationale, internationale) (la Mob et le rapport Bergier, les génocides,…)",
+            "– confrontation de témoignages concernant un même événement (mémoires plurielles)",
+            "– distinction entre travail de mémoire et devoir de mémoire",
+            "– analyse des enjeux de la mémoire (récupération, idéalisation, négation,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "contenu": [
+            "Analyse de l’utilisation de la tradition dans la reconstitution du passé et l’interprétation du présent (création des États-nations aux XIXe et XXe siècles,…)",
+            "Comparaison de la représentation d’un événement dans le passé et actuellement (Jeux olympiques,…)",
+            "Observation de l’évolution des mentalités et de la mémoire collective par la comparaison de sources secondes d’époques différentes concernant un même thème",
+            "Formulation d’hypothèses sur la commémoration et l’utilisation du passé à différentes époques"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "contenu": [
+            "Construction de frises chronologiques mettant en relation différentes thématiques"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "contenu": [
+            "Identification et comparaison des différentes manières de compter le temps (chronologie, calendriers,…)",
+            "Identification des changements, ruptures et permanences à l’échelle de l’histoire humaine : locale, nationale, internationale,…"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "contenu": [
+            "Analyse de la construction des périodes historiques par les choix d'événements (découverte de l’Amérique ou prise de Constantinople, 1291 ou 1848 pour la naissance de la Suisse,…)",
+            "Élaboration et justification d’autres propositions de périodisation",
+            "Analyse des conséquences immédiates ou à long terme d’un événement (politique, social, religieux, économique, culturel,…) ou d’une découverte (technologique, scientifique,…) sur la périodisation"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "contenu": [
+            "Analyse de l’influence sur une société, d’un événement (révolution d’octobre 1917, explosion de la 1re bombe atomique, chute du Mur,…) d’une découverte (premières images télévisées,…), d’un nouveau courant artistique (Impression Soleil Levant, Sacre du printemps,…), de grands travaux (tunnel du Gothard, canal de Suez,…):",
+            "– en fonction du contexte politique, économique, religieux ou culturel",
+            "– en fonction des trois durées (courte, moyenne et longue)",
+            "– aux différentes échelles : régionale, nationale, internationale"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés",
+          "contenu": [
+            "Comparaison des sociétés humaines en tenant compte de différentes dimensions (sociale, économique, politique, religieuse, culturelle,…)",
+            "– identification et comparaison des caractéristiques d’une société, d’une civilisation",
+            "– étude des rencontres, échanges, affrontements entre les cultures, (conquêtes, colonisation,…)",
+            "– formulation d’hypothèses afin d’expliquer les similitudes et les différences"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "contenu": [
+            "Analyse de l’évolution des modes de vie : mode, sciences et techniques,…"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "contenu": [
+            "Identification et comparaison des différents groupes d’une société et de leurs fonctions (classes d’âge, genres, corporations, les trois ordres,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "contenu": [
+            "Mise en évidence des modes de résolution ou de justification des inégalités sociales (concertation, révolutions, luttes sociales,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "contenu": [
+            "Analyse des changements sociaux concernant le fonctionnement de la société (statut de la femme, assurances sociales, congés payés,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "contenu": [
+            "Identification et comparaison des différents systèmes économiques et de leur fonctionnement (troc, monnaie,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "contenu": [
+            "Explication et comparaison des transformations dans les modes de production :",
+            "– comparaison des différentes révolutions des modes de production (révolution néolithique/révolution industrielle ; révolution informatique et robotisation,…)",
+            "– explication des changements induits par ces révolutions"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "contenu": [
+            "Analyse de phénomènes liés aux échanges économiques (commerce triangulaire, impérialismes, délocalisations,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "contenu": [
+            "Identification et comparaison de différentes formes de pouvoir (démocratie, monarchie,…) et leurs répercussions sur la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "contenu": [
+            "Explication des concepts de pouvoir et de système politique",
+            "Mise en évidence et comparaison des différentes formes de contestation du pouvoir (les Lumières, les mouvements libéraux et nationaux…)",
+            "– explication de la séparation des pouvoirs (exécutif, législatif, judiciaire)",
+            "– comparaison de la répartition du pouvoir temporel et du pouvoir spirituel à différentes époques"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "contenu": [
+            "Analyse des conflits politiques, idéologiques et territoriaux et de leurs règlements (guerres mondiales, décolonisation, Guerre froide, construction européenne,…)",
+            "Analyse de l’influence des idéologies (communisme, nazisme, fascisme, libéralisme, pacifisme, altermondialisme,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "contenu": [
+            "Mise en évidence du contexte d’apparition et de diffusion d’une religion (monothéismes, polythéismes, schismes,…)",
+            "Comparaison des réponses données par différentes civilisations aux questions existentielles (cosmogonie, représentations de l’au-delà, mythologie,…)",
+            "Description et analyse de l’influence du fait religieux sur la vie quotidienne et sur l’organisation sociale et politique (cultes antiques, monachisme, lois de Calvin à Genève,…)",
+            "Analyse des liens entre religions et entre les religions et d’autres valeurs ; analyse des effets de ces liens sur l’organisation sociale (Humanisme, Réforme, pouvoir temporel/pouvoir spirituel, laïcité,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "texte": "identifie les traces du passé et les associe à une civilisation et/ou à une période"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "texte": "formule des hypothèses sur l’utilisation du passé aujourd’hui (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "texte": "identifie et présente différentes sources pour un même fait historique et justifie son choix"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "texte": "sélectionne des sources pour un même fait historique et en fait une analyse critique (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les représentations de l'Histoire ( 1 , 3 )",
+          "texte": "identifie les références historiques dans des représentations documentaires, ou de fiction"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Les représentations de l'Histoire ( 1 , 3 )",
+          "texte": "compare de façon critique une représentation documentaire ou une fiction à une source historique (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "texte": "distingue la part du mythe, de la mémoire et du travail scientifique dans l’histoire d’une société"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "texte": "décrit le contexte historique des principales commémorations actuelles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "texte": "distingue les enjeux inhérents à un travail de mémoire de ceux liés au devoir de mémoire (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "texte": "identifie et situe les grandes périodes et les grands événements de l’histoire"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "texte": "identifie la pluralité des organisations du temps (calendriers, découpage historique,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Démarches historiennes › Chronologie et périodisation ( 1 , 5 )",
+          "texte": "compare les significations d’un fait historique selon sa nature, son contexte et selon les 3 durées (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés",
+          "texte": "situe chaque société ou civilisation étudiée dans le temps; en décrit les faits ou les aspects marquants en utilisant un vocabulaire spécifique"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "texte": "explique et compare différentes formes d'organisation économiques et politiques, actuelles et passées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "texte": "analyse un événement en tenant compte de différentes dimensions"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "texte": "identifie et analyse les changements et permanences dans la société actuelle par rapport à celles du passé ou entre sociétés du passé (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "texte": "compare l’organisation de différentes sociétés actuelles et passées (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "texte": "identifie et analyse les changements et permanences dans la société actuelle par rapport à celles du passé ou entre sociétés du passé (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "texte": "identifie et compare les réponses données par différentes civilisations aux questions existentielles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "texte": "identifie l’influence de la religion sur l’organisation d’une société donnée"
+        },
+        {
+          "fin": "11e",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "texte": "identifie les liens entre religion et pouvoir (Niv 2)"
+        }
+      ],
+      "reperes_par_annee": [
+        {
+          "annee": "9e",
+          "texte": "Antiquité à Moyen Âge"
+        },
+        {
+          "annee": "10e",
+          "texte": "Renaissance à 1914"
+        },
+        {
+          "annee": "11e",
+          "texte": "XXe – XXIe siècles"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/157",
+      "code": "SHS 33",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils et des pratiques de recherche appropriés aux problématiques des sciences humaines et sociales",
+      "composantes": [
+        "A. en produisant des documents (notes de synthèse, synopsis, schéma, tableau…) à partir de ressources documentaires (textes historiques de toute sorte, collections d’objets, données statistiques,…)",
+        "B. en classant et en synthétisant de manière critique les ressources documentaires",
+        "C. en formulant des hypothèses et en recherchant des solutions pratiques",
+        "D. en replaçant les faits dans leur contexte historique et géographique",
+        "E. en représentant des organisations avec des cartes topographiques et thématiques de différentes échelles, ainsi qu’avec des représentations graphiques de données statistiques",
+        "F. en formalisant et en communiquant, dans des situations significatives, le résultat de ses recherches",
+        "G. en mobilisant un langage spécifique au champ des sciences humaines"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

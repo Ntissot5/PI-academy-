@@ -1,0 +1,2637 @@
+                    Mathématiques
+                       et Physique
+                                                         Option spécifique
+
+
+
+
+                               Visées prioritaires
+                               Se représenter, problématiser et modéliser des situations
+                               et résoudre des problèmes en construisant et en mobilisant
+                               des notions, des concepts, des démarches et des raisonne-
+                               ments propres aux Mathématiques et aux Sciences de la
+                               nature dans les champs des phénomènes naturels et tech-
+                               niques, du vivant et de l’environnement, ainsi que des
+                               nombres et de l’espace.
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                TROISIÈME CYCLE   1
+    Sommaire
+    Mathématiques et Physique
+
+    Commentaires généraux                                        3
+
+    Intentions                                                   3
+    Structure globale du domaine                                 4
+    Réseau des objectifs d’apprentissage                         4
+    Conditions cadre matérielles et organisationnelles           6
+    Contribution au développement des capacités transversales    6
+    Contribution à la formation générale                         6
+    Contribution à la langue de scolarisation                    7
+    Remarques spécifiques                                        7
+
+
+
+    Option spécifique vaudoise
+    Mathématiques et Physique, MEP                               9
+
+    Recherche, expérimentation et rédaction                     10
+
+    Mathématiques                                               14
+      Nombres                                                   14
+      Plan et espace                                            16
+      Fonctions et équations                                    20
+
+    Physique                                                    24
+      Mesures et incertitudes                                   24
+      Astronomie                                                26
+      Optique                                                   28
+      Chaleur et énergies                                       32
+      Mécanique                                                 36
+
+    Projets, développements et découvertes                      38
+
+
+
+    Lexique Mathématiques et Sciences de la nature              40
+
+
+
+
+2   Mathématiques et physique – MEP                                 Plan d’études romand – Spécificité VAUD
+Commentaires généraux
+
+Intentions                                                           En ce domaine, les connaissances et les démarches intel-
+Le domaine Mathématiques et Sciences de la nature, en                lectuelles qui permettent de les produire et de les utiliser
+cohérence avec les finalités et objectifs de l’école publique,       sont étroitement liées. La pratique des Mathématiques et
+mobilise et développe des méthodes de pensée et d’action             des Sciences de la nature implique la connaissance de
+tout autant qu’un ensemble de concepts, de notions et                notions, la compréhension de concepts et une posture intel-
+d’outils. Il fournit à l’élève des instruments intellectuels d’ap-   lectuelle spécifiques au domaine.
+préhension et de compréhension du réel et d’adaptation à             Le propos des Mathématiques est d’offrir des manières de
+ce dernier.                                                          penser dotées de méthodes et d’un langage spécifiques
+Dans une société fortement marquée par les progrès scien-            pour appréhender l’espace, modéliser des situations et trai-
+tifiques et technologiques, il est important que chacun pos-         ter du vrai et du faux. Ces manières de penser se réalisent
+sède des outils de base lui permettant de comprendre les             dans la pose et la résolution de problèmes propres aux
+enjeux des choix effectués par la communauté, de suivre              Mathématiques ou tirés d’autres disciplines. Les
+un débat sur le sujet et d’en saisir les enjeux principaux.          Mathématiques sont une science spéculative, dans la
+Face aux évolutions toujours plus rapides du monde, il est           mesure où elles s’intéressent à des objets abstraits tels les
+nécessaire de développer chez tous les élèves une pensée             nombres ou les figures idéales de la géométrie ; en ce sens,
+conceptuelle, cohérente, logique et structurée, d’acquérir           elles se rapprochent de la logique et de la philosophie. Elles
+souplesse d’esprit et capacité de concevoir permettant d’agir        sont aussi un outil indispensable au service des Sciences
+selon des choix réfléchis.                                           de la nature et des Sciences humaines et sociales, par la
+                                                                     mise à disposition de méthodes et d’un langage adéquat à
+Dans le même ordre d’idées, il est également important de            la résolution des problèmes issus de ces disciplines. Elles
+permettre aux élèves de contextualiser l’utilisation des nom-        promeuvent enfin une attitude de recherche par essai-
+bres, éléments essentiels dans la communication d’infor-             erreur, généralisation, conjecture et validation. En cela, leur
+mations et de données, ainsi que de structurer l’espace par          pratique développe des capacités d’imaginer des stratégies,
+l’utilisation de repères universels. Par un questionnement           d’organiser et de structurer des savoirs, de faire des liens
+sur le monde qui les entoure, on favorise chez eux une prise         entre les champs de connaissance, compétences porteuses
+de conscience des conséquences de leurs actions sur leur             d’un certain type de créativité.
+environnement. L’approche ludique dans la résolution de
+problèmes logiques et de stratégie leur offre une manière            Le propos des sciences est d’établir un principe de rationa-
+de s’ouvrir à des situations avec confiance et réflexion.            lité dans la confrontation des idées et des théories avec les
+                                                                     faits observables dans le monde environnant. La culture
+C’est dans ces buts que le domaine choisit de développer             scientifique peut se définir comme le fait de savoir identifier,
+la résolution de problèmes et la posture scientifique. Elles         sur la base de connaissances scientifiques, des questions
+visent, toutes deux, à permettre aux élèves :                        et en tirer des conclusions fondées sur des faits, en vue
+–	d’acquérir un certain nombre de notions, de concepts et           d’appréhender et d’interpréter la réalité. Cette compréhen-
+   de modèles scientifiques développés progressivement par           sion vise à prédire des effets à partir de causes identifiées.
+   l’humanité et de réaliser la manière dont les savoirs scien-      Entre autres, elle permet de repérer les changements du
+   tifiques se sont construits ;                                     monde naturel dus à l’activité humaine et à prendre des
+                                                                     décisions à ce propos.
+–	d’identifier des questions, de développer progressivement
+   la capacité de problématiser des situations, de mobiliser
+   des outils et des démarches, de tirer des conclusions
+   fondées sur des faits, notamment en vue de comprendre
+   le monde naturel et de prendre des décisions à son pro-
+   pos, ainsi que de comprendre les changements qui sont
+   apportés par l’activité humaine ;
+–	de se montrer capable d’évaluer des faits, de faire la dis-
+   tinction entre théories et observations, et d’estimer le
+   degré de confiance que l’on peut avoir dans les explica-
+   tions proposées.
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                      TROISIÈME CYCLE       3
+    Structure globale du domaine                                               Mathématiques
+    Le domaine contient une partie Mathématiques et une partie                 Au cycle 3, en Mathématiques, la Progression des appren-
+    Sciences de la nature. La thématique Modélisation est com-                 tissages est déclinée en fonction de plusieurs niveaux de
+    mune aux deux parties. Il s’agit de la considérer avec chaque              difficulté et de complexité :
+    objectif d’apprentissage (cf. Remarques spécifiques ). Par                 –	les éléments de progression, ne portant aucune mention
+    conséquent, l’enseignement apprentissage des Mathématiques                    spécifique, décrivent les apprentissages communs à tous
+    pour l’ensemble de la scolarité obligatoire est structuré autour              les élèves ;
+    des cinq premiers axes thématiques et celui des Sciences de
+                                                                               –	les éléments de progression qui sont accompagnés d’une
+    la nature autour des cinqs derniers axes thématiques. Par
+                                                                                  précision de niveau décrivent des apprentissages complé-
+    ailleurs, la thématique Grandeurs et mesures, usuellement
+                                                                                  mentaires de niveaux de difficulté spécifiques : des élé-
+    rattachée aux Mathématiques, se développe aussi aux travers
+                                                                                  ments de progression désignés par l’indication Niv. 2 ou
+    des Sciences de la nature.
+                                                                                  Niv. 3 , correspondant à des apprentissages graduellement
+                                                                                  plus difficiles et plus complexes ; lorsque des éléments de
+    Progression des apprentissages et attentes au cycle 3                         progression sont désignés par Niv. 1 | 2 ou Niv. 2 | 3 , cela
+    La désignation des Niveaux 1, 2, 3 correspond à une grada-                    signifie que les éléments décrits sont communs et ne
+    tion des apprentissages allant du plus facile, simple                         nécessitent pas de différenciation.
+    (Niveau 1) au plus difficile, complexe (Niveau 3).
+
+
+
+
+    Réseau des objectifs d’apprentissage
+
+
+                                                                                                                          Grandeurs
+                               Espace                     Nombre                           Opérations
+                                                                                                                          et mesures
+
+
+
+                                                           MSN 12
+     Premier cycle
+
+
+
+
+                                                     Poser et résoudre des                   MSN 13                         MSN 14
+                               MSN 11
+                                                   problèmes pour construire
+                                                                                     Résoudre des problèmes           Comparer et sérier des
+                          Explorer l’espace…            et structurer des
+                                                                                           additifs…                     grandeurs…
+                                                      représentations des
+                           Mathématiques
+                                                      nombres naturels…                   Mathématiques                  Mathématiques
+                                                       Mathématiques
+
+
+
+                                                           MSN 22
+     Deuxième cycle
+
+
+
+
+                               MSN 21
+                                                     Poser et résoudre des                   MSN 23                         MSN 24
+                         Poser et résoudre des     problèmes pour construire
+                                                                                     Résoudre des problèmes           Utiliser la mesure pour
+                       problèmes pour structurer        et structurer des
+                                                                                     additifs et multiplicatifs…    comparer des grandeurs…
+                          le plan et l’espace…        représentations des
+                                                     nombres rationnels…                  Mathématiques                  Mathématiques
+                           Mathématiques
+                                                       Mathématiques
+
+
+
+                                                           MSN 32
+     Troisième cycle
+
+
+
+
+                               MSN 31                                                        MSN 33
+                                                     Poser et résoudre des                                                  MSN 34
+                         Poser et résoudre des     problèmes pour construire         Résoudre des problèmes
+                                                                                                                     Mobiliser la mesure pour
+                       problèmes pour modéliser         et structurer des                numériques et
+                                                                                                                    comparer des grandeurs…
+                          le plan et l’espace…        représentations des                algébriques…
+                                                        nombres réels…                                                   Mathématiques
+                           Mathématiques                                                  Mathématiques
+                                                       Mathématiques
+
+
+
+
+4   Mathématiques et physique – MEP                                                             Plan d’études romand – Spécificité VAUD
+Au cycle 3, en Mathématiques, les attentes sont déclinées               Sciences de la nature
+selon une logique identique :                                           Pour les Sciences de la nature la même logique prévaut mais
+–	les attentes ne portant aucune mention spécifique, décri-            elle ne porte que sur la description de deux niveaux.
+   vent les Attentes fondamentales communes à tous les                  Selon les cantons, les enseignements qui peuvent participer
+   élèves ;                                                             au domaine sont :
+–	les attentes qui sont accompagnées d’une précision de                –	les mathématiques
+   niveau décrivent des attentes complémentaires de niveaux
+                                                                        –	les sciences de la nature
+   d’exigence plus spécifiques : des attentes désignées par
+   l’indication Niv. 2 ou Niv. 3 , correspondent à des exigences        –	l’environnement
+   graduellement plus élevées ; lorsque des attentes sont dési-         –	la physique
+   gnées par Niv. 1 | 2 ou Niv. 2 | 3 , cela signifie que les élé-
+   ments décrits sont communs et ne nécessitent pas de dif-             –	la chimie
+   férenciation.                                                        –	la biologie.
+
+
+
+
+                                  Phénomènes naturels
+       Modélisation                                                      Corps humain                  Diversité du vivant
+                                     et techniques
+
+
+
+          MSN 15
+                                           MSN 16                             MSN 17
+       Représenter des                                                                                         MSN 18                Premier cycle
+    phénomènes naturels,           Explorer des phénomènes             Construire son schéma
+                                                                                                         Explorer l’unité et la
+      techniques ou des                 naturels et des              corporel pour tenir compte
+                                                                                                         diversité du vivant…
+  situations mathématiques              technologies…                    de ses besoins…
+                                                                                                        Sciences de la nature
+      Mathématiques /                Sciences de la nature             Sciences de la nature
+    Sciences de la nature
+
+
+
+          MSN 25                           MSN 26                             MSN 27                           MSN 28
+                                                                                                                                     Deuxième cycle
+
+
+
+
+        Représenter des            Explorer des phénomènes             Identifier les différentes          Déterminer des
+     phénomènes naturels,         naturels et des technologies         parties de son corps, en      caractéristiques du monde
+                                                                                                    vivant et de divers milieux et
+  techniques, sociaux ou des         à l’aide de démarches           décrire le fonctionnement et
+                                                                                                     en tirer des conséquences
+   situations mathématiques           caractéristiques des            en tirer des conséquences        pour la pérennité de la
+                                  sciences expérimentales…                  pour sa santé…                       vie…
+      Mathématiques /
+    Sciences de la nature            Sciences de la nature             Sciences de la nature            Sciences de la nature
+
+
+
+          MSN 35                           MSN 36                             MSN 37
+                                                                                                               MSN 38
+                                                                                                                                     Troisième cycle
+
+
+
+
+ Modéliser des phénomènes          Analyser des phénomènes            Analyser les mécanismes
+                                                                                                       Analyser l’organisation du
+    naturels, techniques,         naturels et des technologies         des fonctions du corps
+                                                                                                         vivant et en tirer des
+  sociaux ou des situations          à l’aide de démarches             humain et en tirer des
+                                                                                                        conséquences pour la
+       mathématiques                  caractéristiques des             conséquences pour sa
+                                                                                                         pérennité de la vie…
+                                  sciences expérimentales…                    santé…
+      Mathématiques /
+                                                                                                        Sciences de la nature
+    Sciences de la nature            Sciences de la nature             Sciences de la nature
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                             TROISIÈME CYCLE               5
+    Conditions cadre matérielles et                                         exploitant l’information, en sélectionnant des sources per-
+    organisationnelles                                                      tinentes, en structurant des données, en présentant ses
+    Pour le domaine Mathématiques et Sciences de la nature,                 résultats ;
+    les conditions cadre ont pour objectif principal de faciliter les     –	les Stratégies d’apprentissage, notamment en développant
+    apprentissages, notamment ceux liés à une expérimentation                le raisonnement de l’élève, ses stratégies, sa systématique,
+    et à des collaborations avec les ressources extérieures.                 en utilisant ses essais et ses erreurs et celles des autres
+    Il s’agit entre autre de :                                               pour reconstruire une réflexion et en comprendre les faux-
+    –	mettre à disposition des espaces d’observation à proximité            pas ;
+       de l’école ;
+                                                                          –	la Pensée créatrice, notamment en amenant l’élève à ima-
+    –	donner l’occasion de sortir pour observer et explorer le
+                                                                             giner des modèles, des explications, des procédés, des
+       terrain ou le milieu ;
+                                                                             expérimentations, des moyens et des outils de mesure, à
+    –	offrir la possibilité de fréquenter un espace multimédia              accepter le risque et l’inconnu, en se représentant et en
+       permettant de faire une recherche documentaire ;                      projetant diverses modalités de réalisation ;
+    –	favoriser l’utilisation des ressources culturelles à disposition   –	la Démarche réflexive, notamment en amenant l’élève à
+       (musées, jardins botaniques,…) ;
+                                                                             choisir des méthodes adéquates, à vérifier ses hypothèses
+    –	offrir des occasions de mettre en place un élevage et une             par confrontation au réel, en développant son regard criti-
+       culture (cycles 1 et 2) ;                                             que sur ses propres choix et  /ou résultats et ceux des autres,
+    –	mettre à disposition une calculatrice ;                               en l’amenant à renoncer aux idées toutes faites sur la com-
+    –	mettre à disposition des logiciels et des didacticiels ;              préhension de phénomènes naturels ou mathématiques,
+                                                                             à analyser l’adéquation d’un modèle choisi, pour une repré-
+    –	organiser les collaborations avec les réseaux d’intervenants          sentation statistique par exemple, et les limites qu’il com-
+       autorisés :                                                           porte.
+       - autour de la prévention des principaux accidents routiers
+          et domestiques (électricité, chaleur, ingestion de pro-
+          duit) ;
+                                                                          Contribution à la Formation Générale
+       - autour de la promotion de la santé, de la prévention de
+          comportements à risque (audition, sexualité et contracep-       Par ses savoirs, ses connaissances, ses méthodes, ses modes
+          tion, maladies sexuellement transmissibles, dépendan-           de pensée ainsi que par ses modalités d’enseignement, le
+          ces, dopages,…) ;                                               domaine participe principalement aux thématiques :
+    –	mettre à disposition le matériel nécessaire aux différentes        –	Santé et bien-être, notamment par les liens à faire entre
+       expérimentations notamment différents instruments de                  l’étude du fonctionnement physiologique du vivant et les
+       mesure et d’observation que l’élève peut choisir et expéri-           besoins de son propre corps ;
+       menter (par exemple : microscope, multimètre, balance,
+       chronomètre,…) (cycles 2 et 3) ;                                   –	Médias, Images, Technologies de l’Information et de la
+                                                                            Communication (MITIC), notamment par la recherche et    /
+    –	donner l’occasion d’utiliser des ordinateurs, des logiciels et
+                                                                            ou le choix des informations nécessaires à la résolution d’un
+       des supports numériques appropriés aux problématiques
+                                                                            problème, par l’analyse critique des informations numéri-
+       traitées (cycles 2 et 3) ;
+                                                                            ques et graphiques présentées, entre autres, dans les
+    –	offrir la possibilité de réaliser des travaux pratiques en labo-     médias (pourcentages, statistiques,…) ;
+       ratoire (cycles 3).
+                                                                          –	Interdépendances (sociales, économiques, environnemen-
+                                                                             tales), notamment par la prise en compte de ses besoins,
+    Contribution au développement des Capacités                              de ceux du vivant et des contraintes environnementales qui
+    transversales                                                            en découlent, dans une perspective de développement
+                                                                             durable ;
+    Par ses savoirs, ses connaissances, ses méthodes, ses modes
+    de pensées ainsi que par ses modalités d’enseignement, le             –	Vivre ensemble et exercice de la démocratie, notamment
+    domaine contribue, chez l’élève, au développement de :                  par la prise en charge de sa part de travail et de ses respon-
+    –	la Collaboration, notamment en engageant l’élève dans une            sabilités dans une recherche et par la prise en compte de
+       recherche en Mathématiques et   /ou en Sciences de la                l’avis et du travail des autres participants à une recherche ;
+       nature lors de travaux de groupe ;                                 –	Choix et projets personnels, notamment par la réalisation
+    –	la Communication, notamment en faisant participer l’élève             d’une recherche personnelle sur un sujet particulier choisi
+       aux débats scientifiques, en formulant des questions, en              selon ses goûts et ses intérêts.
+
+
+6   Mathématiques et physique – MEP                                                       Plan d’études romand – Spécificité VAUD
+Contribution à la langue de scolarisation                            des hypothèses, observer, expérimenter, constater, rappor-
+Par ses multiples activités autour des Mathématiques et des          ter,…). Il s’agit d’accepter les verdicts des faits. Dans cette
+Sciences de la nature, le domaine contribue à renforcer la           relation scientifique, les connaissances acquises ne sont
+pratique du débat (argumentation – écoute – analyse – syn-           jamais définitives : déclinées à un certain niveau de com-
+thèse) pour participer à des échanges permettant la résolu-          plexité, elles sont momentanément utiles à l’élève, mais elles
+tion de problèmes et le développement de la posture scien-           devront nécessairement être approfondies, révisées, voire
+tifique ; il vise à développer la capacité d’analyse et de           abandonnées dans la suite de sa scolarité.
+raisonnement en s’appuyant notamment sur des notions et              L’axe Modélisation (Objectifs d’apprentissage 25, 35) se
+termes spécifiques ou propres aux disciplines ; il renforce           trouve à mi-chemin entre une méthodologie et un contenu.
+également la lecture et la compréhension de documents                 En ce sens, la modélisation est transversale à ce domaine
+scientifiques, la recherche d’informations et la rédaction de         qu’elle chapeaute. Elle s’appuie sur la méthodologie des
+textes divers (rapports et comptes rendus, textes portant sur         sciences expérimentales, mais la focalisation porte d’abord
+une thématique scientifique, rédaction de supports pour une           sur la gestion mathématique de la situation qui commence
+exposition).                                                          par son épuration et continue dans le traitement mathémati-
+Les enseignants du domaine incitent les élèves à un usage             que du problème ainsi défini.
+convenable de l’orthographe et de la syntaxe dans les textes
+éventuellement produits.
+
+
+Remarques spécifiques
+Les outils communs au domaine sont, avant tout, la posture
+scientifique qui implique, face à une situation donnée, de
+s’interroger, d’en analyser les caractéristiques pour en tirer
+les éléments essentiels, de problématiser les questions,
+d’émettre des hypothèses, de prendre des informations per-
+tinentes, de tirer des conclusions et de soumettre celles-ci à
+l’épreuve des données initiales.
+En Mathématiques, à la différence des Sciences de la nature,
+on se focalise plutôt sur le traitement du problème. Ce trai-
+tement a lieu après la modélisation, souvent liée au contexte,
+et s’organise en essais-erreurs, ajustements, généralisation,
+formulation d’une conjecture et validation de celle-ci par une
+démonstration mathématique. En revanche, en sciences, le
+nœud de la démarche se trouve dans la modélisation du
+phénomène, comprenant la problématisation de la situation,
+l’émission d’hypothèses, la mise en place d’une expérimen-
+tation ou d’observations répétées, l’analyse des résultats et
+la vérification des hypothèses par confrontation à la réalité.
+Dans les Objectifs d’apprentissage concernant les Mathéma-
+tiques, la résolution de problèmes est au centre, car c’est le
+point d’ancrage de la démarche en Mathématiques pour :
+–	donner du sens aux notions ;
+–	définir leur cadre d’application ;
+–	construire des connaissances opératoires.
+Chez les élèves les plus jeunes, l’éducation scientifique revêt
+un rôle prépondérant. Il s’agit de leur permettre de rompre
+avec une vision égocentrique (anthropomorphique) et ani-
+miste du monde pour les faire entrer dans une relation scien-
+tifique avec les phénomènes naturels ou techniques et avec
+le monde vivant. Cette relation scientifique est faite d’attitudes
+(curiosité, ouverture d’esprit, remise en question de son idée,
+exploitation positive de ses erreurs,…) et de capacités (faire
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                     TROISIÈME CYCLE       7
+                                                                                                                                   rédaction
+                                                                                                                                   Sandra Cibert Prod’hom
+                                                                                                                                   Stefan Maccagnan
+                                                                                                                                   Jean-François Theubet
+      Recherche, expérimentation et rédaction
+
+
+
+
+                                                                           Projets, développements et découvertes
+
+
+
+
+                                                                                                                                   Commission de lecture
+                                                                                                                                   Loïc de Bourgues
+                                                                                                                                   Stéphane Clivaz
+                                                                                                                                   Yves-Alain Falcy
+                                                                                                                                   Daniela Gaugaz
+                                                                                                                                   Philippe Lo Bello
+                                                                                                                                   Sandrine Rudaz
+                                                Mathématiques
+
+
+
+
+                                                                                                                    Modélisation
+
+
+
+
+                                                                                                                                   COORDINATION POUR L'OPTION SPÉCIFIQUE
+                                                                Physique
+
+
+
+
+                                                                                                                                   Mathématiques et physique
+                                                                                                                                   Yolande Berga
+
+
+       31                                       32              33         34                                       35             coordination
+                                                                                                                                   pour l'ensemble des spécificités vaudoises
+     MEP                                        MEP             MEP        MEP                                      MSN            Anne Christe de Mello
+
+
+
+
+8   Mathématiques et physique – MEP                                                                                                               Plan d’études romand – Spécificité VAUD
+Option spécifique vaudoise
+Mathématiques et Physique, MEP
+
+Introduction                                                       Références bibliographiques
+L’option spécifique Mathématiques et Physique a pour but           utilisées dans MEP 31, 32, 33 et 34
+de développer chez l’élève des compétences liées à la              AME : Gérard Charrière, Algèbre, mode d’emploi,
+recherche et l’analyse dans les domaines scientifiques. Au               Fournitures et éditions du canton de Vaud, 1995.
+travers d’activités concrètes, celui-ci sera conduit à maîtriser
+                                                                   		    Ce livre n’est plus édité. Il se trouve en collection de
+des techniques de mesures, de calculs, de démonstration
+                                                                         classe dans tous les établissements du canton de
+et d’analyse. Cette option utilise une approche de type
+                                                                         Vaud.
+démarches d’investigation qui permet de mettre à mal des
+conceptions erronées.                                              P&C : Paul Avanzi, Alain Kespy, Jacques Perret-Gentil et
+                                                                         Daniel Pfistner, Physique-chimie, sciences expéri-
+Les compétences scientifiques seront développées au tra-
+                                                                         mentales, Edition LEP, 2006.
+vers des quatre objectifs d'apprentissage présentés ici et se
+répartissant comme ceci:                                           Jean-Claude Noverraz, Des idées pour enseigner les
+                                                                   sciences et les mathématiques, brochure à disposition à la
+– MEP 31 : Recherche, expérimentation et rédaction.
+                                                                   bibliothèque de la HEPL.
+– MEP 32 : Mathématiques : Nombre, Plan et Espace,
+  Fonctions et Equations
+– MEP 33 : Physique : Mesure et incertitudes, Astronomie,
+  Optique, Chaleurs et Energies, Mécanique
+– MEP 34 : Projets, développements et découvertes
+Il est nécessaire d’établir une collaboration étroite dans les
+établissements entre l’enseignement des mathématiques de
+base, des sciences et de l’option spécifique afin de planifier
+les sujets communs. Le cours de base se charge de l’intro-
+duction et l’option spécifique permet d’approfondir certaines
+notions de manière plus rigoureuse. De plus, certains sujets
+doivent être abordés de manière intuitive, une approche
+plus formaliste étant réservée aux études post-obligatoires.
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                  TROISIÈME CYCLE       9
+MEP 31 – MSN 35                           MEP 31 – Modéliser des situations                                               1 … en déterminant
+                                                                                                                          et en analysant des
+                                                                                                                                                      2 … en suivant, en
+                                                                                                                                                      déterminant et en
+                                          mobilisant des notions, des                                                     démarches
+                                                                                                                          mathématiques
+                                                                                                                                                      analysant des
+                                                                                                                                                      protocoles
+                                          raisonnements, des démarches                                                    structurées dans le
+                                                                                                                          cadre d’une
+                                                                                                                                                      d’expérience
+
+                                          propres aux Mathématiques et à                                                  recherche
+
+                                          la Physique…
+Recherche, expérimentation et rédaction
+
+
+
+
+                                                                                      Progression des apprentissages
+                                                         9e année                                   10e année                                   11e année
+
+
+                                          RECHERCHE, EXPÉRIMENTATION ET RÉDACTION
+
+                                          Résolution de problèmes numérique, notamment par :
+                                             – tri et organisations des informations (liste, tableau, schéma, croquis…)
+                                             – ajustement d’essais successifs
+                                             – pose de conjectures, puis validation ou réfutation
+                                             – déduction d’informations nouvelles à partir de celles connues
+                                             – réduction temporaire de la complexité d’un problème
+                                             – utilisation des propriétés des nombres et des opérations afin d’établir des preuves
+                                             – traitement de situations aléatoires à l'aide de notions de probabilités
+                                             – acceptation ou refus d’un résultat par estimation de l’ordre de grandeur ou par confrontation au réel
+                                             – vérification, puis communication d’une démarche et d’un résultat en utilisant un vocabulaire, une syntaxe et des
+                                               symboles adéquats
+                                             – collaboration et organisation afin de mener efficacement une activité de recherche
+                                          Représentation schématique d’une situation, notamment par des organigrammes et des diagrammes
+
+
+
+
+                                          Rédaction du compte-rendu d’une recherche comprenant des démarches mathématiques en mettant en évidence les
+                                          trois parties :
+                                             – Introductive : partie dans laquelle l’élève reformule la question, présente le problème et effectue si nécessaire une
+                                               figure d’étude
+                                             – Expérimentale : partie contenant des calculs structurés ou une phase d’aller-retour entre question, hypothèse et
+                                               expérience
+                                             – Analytique : partie permettant de mener une réflexion sur la démarche, d’émettre des conjectures ou de justifier un
+                                               résultat obtenu
+
+
+
+
+                 10                       Mathématiques et physique – MEP                                                Plan d’études romand – Spécificité VAUD
+3 … en utilisant
+
+
+
+
+                                                                                                                               MEP 31 – MSN 35
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                          ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                               Recherche, expérimentation et rédaction
+                   Attentes fondamentales                                     Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…        Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … résout un problème numérique en choisissant et en          AME, chapitres 1 à 8
+   mettant en relation les données nécessaires à la
+   résolution et en utilisant les outils mathématiques
+   appropriés                                                 Archives de RMT (9-10-11): www.rmt-sr.ch
+ … aborde un problème par essais successifs et organise       Archives de MSF (10-11): www.maths-msf.site2.
+   un dénombrement                                            ac-strasbourg.fr
+ … traduit un problème numérique en une écriture
+   mathématique appropriée                                    Participer au RMT en 9e-10e années et à Mathématiques
+ … estime et vérifie la pertinence du résultat                sans frontière en 11e offre la possibilité aux élèves de vivre
+                                                              une expérience de collaboration où la classe entière se
+ … communique par écrit ou par oral en utilisant un           confronte à d'autres classes suisses romandes
+   vocabulaire approprié
+ … confronte ses idées à celles de ses camarades,
+   argumente
+
+ … schématise une situation                                   Organigrammes algorithmiques
+                                                              – Diagrammes d’Euler et de Venn
+                                                              – Diagrammes de Carroll
+                                                              – Diagrammes en arbre
+ … met en œuvre une démarche de type scientifique             Remarque : La démarche scientifique est mise en place
+   comprenant les phases d’essais, de conjectures, de         dès le cycle 1 dans le domaine MSN ; il s’agit donc, au
+   vérification et de justification, voire de démonstration   cycle 3 dans le domaine MEP, d’un approfondissement où
+                                                              l’on exigera une plus grande rigueur
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                               TROISIÈME CYCLE      11
+MEP 31 – MSN 35                           MEP 31 – Modéliser des situations                                               1 … en déterminant
+                                                                                                                          et en analysant des
+                                                                                                                                                      2 … en suivant, en
+                                                                                                                                                      déterminant et en
+                                          mobilisant des notions, des                                                     démarches
+                                                                                                                          mathématiques
+                                                                                                                                                      analysant des
+                                                                                                                                                      protocoles
+                                          raisonnements, des démarches                                                    structurées dans le
+                                                                                                                          cadre d’une
+                                                                                                                                                      d’expérience
+
+                                          propres aux Mathématiques et à                                                  recherche
+
+                                          la Physique…
+Recherche, expérimentation et rédaction
+
+
+
+
+                                                                                        Progression des apprentissages
+                                                          9e année                                 10e année                                    11e année
+
+
+                                          RECHERCHE, EXPÉRIMENTATION ET RÉDACTION
+
+                                          Expérimentation et rédaction d’un rapport d’expérience en mettant en évidence des parties introductive, expérimentale et
+                                          d’analyse, notamment :
+                                              – En identifiant le but de l’expérience
+                                              – En schématisant le montage de manière à pouvoir le faire construire
+                                              – En décrivant la démarche permettant d’obtenir les mesures à partir du montage
+                                              – En utilisant les instruments de mesure à disposition au laboratoire
+                                              – En organisant les résultats               – En reportant des valeurs numériques (et leurs incertitudes) dans un
+                                                obtenus dans un tableau                     système d’axe afin d’effectuer une comparaison avec le graphique d’une
+                                              – En reportant des valeurs                    loi étudiée
+                                                numériques dans un système                – En faisant la différence entre valeurs expérimentales mesurées et valeurs
+                                                d’axe                                       théoriques calculées
+                                                                                          – En vérifiant par l’expérience une loi proposée
+                                                                                                                                    – En reportant des valeurs
+                                                                                                                                      numériques (et leurs
+                                                                                                                                      incertitudes) dans un système
+                                                                                                                                      d’axe afin de découvrir une loi
+                                              – En interprétant les mesures, les          – En analysant de manière critique les mesures, les résultats et en
+                                                résultats                                   discutant les incertitudes
+                                              – En confrontant le modèle à une ou plusieurs situations réelles
+                                                                                          – En confrontant ses idées à celles de ses pairs
+                                                                                          – En menant une réflexion sur le modèle proposé et sur sa propre
+                                                                                            démarche
+
+
+
+
+                 12                       Mathématiques et physique – MEP                                                 Plan d’études romand – Spécificité VAUD
+3 … en utilisant
+
+
+
+
+                                                                                                                       MEP 31 – MSN 35
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                         ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                       Recherche, expérimentation et rédaction
+                   Attentes fondamentales                                   Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…      Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … effectue des mesures en laboratoire, les traite, les
+   analyse et les communique par écrit en utilisant un
+   vocabulaire adéquat
+
+
+
+
+ … utilise des notions de mathématiques pour résoudre
+   des problèmes de physique
+
+
+
+
+ … communique, argumente oralement en employant un          Lien FG 34
+   vocabulaire approprié
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                        TROISIÈME CYCLE     13
+MEP 32 -31– MSN 35
+                     MEP 32 – Poser et résoudre des                                 1 … en organisant
+                                                                                    les nombres en
+                                                                                                          2 … en utilisant des
+                                                                                                          propriétés des
+                                                                                                                                 3 … en utilisant les
+                                                                                                                                 définitions et les
+                     problèmes en mobilisant des                                    ensembles             nombres entiers        propriétés des
+                                                                                                                                 polygones et des
+                     notions, des concepts, des                                                                                  polyèdres
+
+                     démarches et des raisonnements
+                     propres aux Mathématiques…
+Mathématiques
+
+
+
+
+                     MEP 31 – Modéliser des situations                                               1 … en déterminant
+                                                                                                     et en analysant des
+                                                                                                                                 2 … en suivant, en
+                                                                                                                                 déterminant et en
+                     mobilisant des notions, des                                                     démarches
+                                                                                                     mathématiques
+                                                                                                                                 analysant des
+                                                                                                                                 protocoles
+                     raisonnements, des démarches                                                    structurées dans le
+                                                                                                     cadre d’une
+                                                                                                                                 d’expérience
+
+                     propres aux Mathématiques et à                                                  recherche
+
+                     la Physique…
+
+
+                                                                 Progression des apprentissages
+                                     9e année                                10e année                                     11e année
+
+                     Nombres
+                     Liens MSN 33 : Résoudre des problèmes numériques et algébriques ; FG 31 : Exercer des lectures 	m
+                     Définition de ℙ, de ℕ et de ℤ
+                     Reconnaissance et utilisation des propriétés des nombres naturels
+                         –	Écriture des nombres pairs, des nombres impairs, des multiples de n
+                         –	Connaissance et utilisation de l’écriture de position d’un nombre
+                         –	Décomposition en produit de facteurs premiers, en somme de puissances
+                           de 2
+
+                                                               Définition de ℚ, définition de ℝ comme extention de ℚ par les nombres dont le
+                                                               développement décimal est infini non périodique
+                                                               Transformation de nombres à code décimal périodique en fraction et calcul de
+                                                               fractions continuées
+                                                               Connaissance et utilisation des 6 opérations (addition, soustraction,
+                                                               multiplication, division, puissance et racine)
+                     Résolution de problèmes numériques,
+                     notament en :
+                         –	Utilisant la factorisation en
+                           produit de nombres premiers ;
+                         –	Utilisant les critères de
+                           divisibilité ;
+                         –	Utilisant les notions de ppmc et
+                           de pgdc
+                     Reconnaissance de problèmes qui se transcrivent par des congruences et leur
+                     résolution par analyse du reste de la division euclidienne
+                     Utilisation de la somme des n premiers    Analyse des nombres polygonaux, pyramidaux…
+                     entiers consécutifs                       Identification d’une suite de nombres de rangs consécutifs
+                                                               Utilisation de procédures pour exprimer la loi de formation
+
+
+
+
+       14            Mathématiques et physique – MEP                                                Plan d’études romand – Spécificité VAUD
+               4 … en effectuant        5 … en utilisant les    6 … en
+
+
+
+
+                                                                                                                                                      MEP 32 -31– MSN 35
+               des démonstrations       notions d’équation et   reconnaissant les
+               sur des lieux            de fonction             rôles des lettres dans
+               géométriques                                     le calcul littéral et
+                                                                algébrique
+                                                                (coefficient, variable,
+                                                                inconnue, paramètre)
+
+                                                                                                     ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                                                      Mathématiques
+               3 … en utilisant
+               judicieusement le
+               matériel à disposition
+               afin d’effectuer des
+               mesures lors d’étude
+               de phénomènes
+               physiques
+
+                                                                                                     ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                                   Attentes fondamentales                                                Indications pédagogiques
+                 Au cours, mais au plus tard à la fin du cycle, l’élève…                     Ressources, indices, obstacles. Notes personnelles
+
+
+	multiples dans la consommation et la production de médias et d’informations
+  … définit les ensembles ℕ, ℙ, ℤ                AME, chapitres 1, 13 et 16
+                                                                                          ℙ = ensemble des nombres premiers
+
+
+
+
+                … définit les ensembles ℚ, ℝ                                              AME, chapitres 13 et 16
+
+
+
+
+                … utilise la décomposition d'un nombre en produit de                      AME, chapitres 6 à 8
+                  facteurs premiers                                                       J.-P. Delahaye, Merveilleux nombres premiers : voyage au
+                … utilise des critères de divisibilité                                    cœur de l’arithmétique, Ed. Belin, coll. Pour la Science
+                … détermine un ppmc et un pgdc                                            Apostolos Doxiadis, Oncle Petros et la conjecture de
+                                                                                          Goldbach, Ed. Points
+
+
+
+
+                … reconnaît et utilise la congruence
+
+
+                … complète une suite de nombres et exprime sa loi de                      AME, chapitre 4
+                  formation: nombres polygonaux, nombres                                  Hans Magnus Enzensberger, Le Démon des maths, Ed. du
+                  pyramidaux, somme de n nombres consécutifs, suite                       Seuil
+                  de Fibonnacci…
+                                                                                          Des images pour les nombres, ACL, Ed. du Kangourou
+                                                                                          Lien MEP 32 – Fonctions et équations, fonctions
+                                                                                          arithmétiques
+
+
+
+
+               © CIIP 2010 – DFJC, VD 2012                                                                                         TROISIÈME CYCLE   15
+MEP 32 -31– MSN 35
+                     MEP 32 – Poser et résoudre des                                    1 … en organisant
+                                                                                       les nombres en
+                                                                                                             2 … en utilisant des
+                                                                                                             propriétés des
+                                                                                                                                    3 … en utilisant les
+                                                                                                                                    définitions et les
+                     problèmes en mobilisant des                                       ensembles             nombres entiers        propriétés des
+                                                                                                                                    polygones et des
+                     notions, des concepts, des                                                                                     polyèdres
+
+                     démarches et des raisonnements
+                     propres aux Mathématiques…
+Mathématiques
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                  1 … en déterminant
+                                                                                                        et en analysant des
+                                                                                                                                    2 … en suivant, en
+                                                                                                                                    déterminant et en
+                     mobilisant des notions, des                                                        démarches
+                                                                                                        mathématiques
+                                                                                                                                    analysant des
+                                                                                                                                    protocoles
+                     raisonnements, des démarches                                                       structurées dans le
+                                                                                                        cadre d’une
+                                                                                                                                    d’expérience
+
+                     propres aux Mathématiques et à                                                     recherche
+
+                     la Physique…
+
+
+                                                                   Progression des apprentissages
+                                       e
+                                     9 année                                    10e année                                     11e année
+
+                     Dénombrement (arbre, tableau, tri, organisation, etc.)                                  Introduction aux probabilités :
+                                                                                                             dénombrement des cas favorables et
+                                                                                                             des cas possibles
+
+
+
+
+                     Plan et espace
+                     Reconnaissance et utilisation des isométries : translation, symétrie axiale, rotation
+                     et symétrie centrale
+                     Compositions de symétries et de translations et étude de certaines de leurs
+                     propriétés
+                     Création de pavages à l’aide d’isométries à partir de polygones qui pavent le plan
+                     et de transformations de leurs côtés (par exemple méthode de l’enveloppe)
+                     Recherche de motifs minimaux d’un pavage et des isométries qui permettent
+                     ensuite de paver le plan
+
+
+
+
+                     Représentation d’un polygone, notamment par :
+                         – Description de polygones réguliers selon leurs propriétés (somme des
+                           angles, nombre d’axes de symétrie et de diagonales…)
+                         – Construction des différents polygones réguliers à l’aide de leurs propriétés
+                           (angle inscrit ou angle au centre) ou à la règle et au compas
+                         Recherche de l’ensemble des polygones réguliers qui pavent le plan et
+                          justification
+                     Recherche des carrelages d’Archimède (pavages semi-réguliers) et justification
+
+
+
+
+       16            Mathématiques et physique – MEP                                                   Plan d’études romand – Spécificité VAUD
+4 … en effectuant        5 … en utilisant les    6 … en
+
+
+
+
+                                                                                                                                           MEP 32 -31– MSN 35
+des démonstrations       notions d’équation et   reconnaissant les
+sur des lieux            de fonction             rôles des lettres dans
+géométriques                                     le calcul littéral et
+                                                 algébrique
+                                                 (coefficient, variable,
+                                                 inconnue, paramètre)
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                                           Mathématiques
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                    Attentes fondamentales                                                 Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                     Ressources, indices, obstacles. Notes personnelles
+
+ … résout de manière intuitive des problèmes liés aux                      Tout formalisme, tel que présenté au postobligatoire sous
+   dénombrements et aux probabilités                                       forme de combinaison, arrangement et permutation, n’a
+                                                                           pas lieu d’être. Sera privilégié l’aspect découverte des
+                                                                           méthodes de comptage
+                                                                           AME, chapitres 2 et 3
+                                                                           Hans Magnus Enzensberger, Le Démon des maths, Ed. du
+                                                                           Seuil
+                                                                           J.-C. Noverraz, Activités autour des dés intransitifs : des
+                                                                           idées pour enseigner les sciences et les mathématiques,
+                                                                           HEPL
+                                                                           Lien MEP 31 – RECHERCHE, EXPERIMENTATION ET
+                                                                           REDACTION : arbres et diagrammes de Venn
+
+
+ … utilise les isométries pour paver le plan                               La reconnaissance d’isométries peut se faire notamment
+                                                                           par la recherche du (ou des) polygone(s) de base d’un
+                                                                           pavage comme ceux crées par M. C. Escher
+                                                                           Des animations de la création de pavages à l’aide
+                                                                           d’isométries sont disponibles sur le site internet de Thérèse
+                                                                           Eveilleau
+                                                                           Michel Brêchet présente dans Math-Ecole, nos 207 à 210,
+                                                                           les pavages obtenus par isométries
+                                                                           A voir également :
+                                                                           R. Raba, Les Secrets des pavages, Ed. Sciences et
+                                                                           Images
+                                                                           A. Deledicq et R. Raba, Le Monde des pavages, Ed. du
+                                                                           Kangourou
+                                                                           R. Raba, Zoo mathématique, ACL, Ed. du Kangourou
+ … connaît les différentes propriétés des polygones                        Le matériel « Polydron » permet de démarrer les activités de
+ … justifie quels sont les polygones qui pavent le plan                    recherche
+                                                                           Lien MEP 32 – Nombres, nombres premiers
+                                                                           Utilisation du théorème de Gauss-Wantzel pour déterminer
+                                                                           les polygones constructibles
+                                                                           A voir également :
+                                                                           Les Malices du Kangourou : spécial polygones, collèges,
+                                                                           ACL, Ed. du Kangourou
+                                                                           Le Monde des symétries, ACL, Ed. du Kangourou
+                                                                           M. Fleury, Graphisme et géométrie, Presses de l’Université
+                                                                           du Québec
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                           TROISIÈME CYCLE     17
+MEP 32 -31– MSN 35
+                     MEP 32 – Poser et résoudre des                                   1 … en organisant
+                                                                                      les nombres en
+                                                                                                            2 … en utilisant des
+                                                                                                            propriétés des
+                                                                                                                                   3 … en utilisant les
+                                                                                                                                   définitions et les
+                     problèmes en mobilisant des                                      ensembles             nombres entiers        propriétés des
+                                                                                                                                   polygones et des
+                     notions, des concepts, des                                                                                    polyèdres
+
+                     démarches et des raisonnements
+                     propres aux Mathématiques…
+Mathématiques
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                 1 … en déterminant
+                                                                                                       et en analysant des
+                                                                                                                                   2 … en suivant, en
+                                                                                                                                   déterminant et en
+                     mobilisant des notions, des                                                       démarches
+                                                                                                       mathématiques
+                                                                                                                                   analysant des
+                                                                                                                                   protocoles
+                     raisonnements, des démarches                                                      structurées dans le
+                                                                                                       cadre d’une
+                                                                                                                                   d’expérience
+
+                     propres aux Mathématiques et à                                                    recherche
+
+                     la Physique…
+
+                                                                  Progression des apprentissages
+                                     9e année                                  10e année                                     11e année
+
+                                                                Représentation d’un polyèdre :
+
+                                                                     – en perspective cavalière ou               – à l’aide de ses projections
+                                                                       isométrique
+
+
+
+
+                                                                Dénombrement des déltaèdres, des polyèdres réguliers (de Platon) ou des
+                                                                polyèdres semi-réguliers (d’Archimède) avec justification
+                                                                Réalisation de développement et construction de polyèdres réguliers ou semi-
+                                                                réguliers.
+                                                                Description de polyèdres selon leurs propriétés (faces, sommets, arêtes,
+                                                                relation d’Euler, dual)
+                                                                Détermination du volume, de la surface ou d’une grandeur manquante d’un
+                                                                polyèdre en utilisant la formule de Pythagore ou le calcul algébrique
+
+
+
+
+                                                                Découverte et utilisation des formules trigonométriques dans les triangles
+                                                                rectangles
+
+
+
+
+                                                                                                            Présentation de certains lieux
+                                                                                                            géométriques (bissectrice, médiatrice,
+                                                                                                            cercle, arc capable, ellipse, parabole et
+                                                                                                            hyperbole)
+                                                                                                            Construction de lieux géométriques
+                                                                                                            Description et justification de quelques
+                                                                                                            lieux
+
+                     Utilisation de l’outil informatique à bon escient, notamment par :
+                         – construction de l’image d’une             – construction d’un polyèdre en             – construction d’un lieu
+                           figure plane par une isométrie              perspective                                 géométrique
+
+
+
+
+       18            Mathématiques et physique – MEP                                                  Plan d’études romand – Spécificité VAUD
+4 … en effectuant        5 … en utilisant les    6 … en
+
+
+
+
+                                                                                                                                            MEP 32 -31– MSN 35
+des démonstrations       notions d’équation et   reconnaissant les
+sur des lieux            de fonction             rôles des lettres dans
+géométriques                                     le calcul littéral et
+                                                 algébrique
+                                                 (coefficient, variable,
+                                                 inconnue, paramètre)
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                                            Mathématiques
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                    Attentes fondamentales                                                Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                     Ressources, indices, obstacles. Notes personnelles
+
+ … représente un polyèdre de différentes manières                          Il est important de développer la vision dans l’espace dans
+ … réalise le développement de polyèdres                                   l’optique d’études post-obligatoires
+
+ … décrit un polyèdre selon ses propriétés                                 De nombreuses représentations dynamiques de polyèdres
+                                                                           sont accessibles sur www.matlet.ch
+ … calcule le volume ou la surface d’un polyèdre
+                                                                           La représentation de polyèdres en perspective peut se faire
+ … calcule une grandeur manquante d’un polyèdre à                          en lien avec le cours de dessin ou en utilisant un logiciel de
+   partir de celles qui sont connues                                       géométrie
+                                                                           Le matériel « Polydron » permet de démarrer des activités
+                                                                           comme celui du développement. Les onglets de collages
+                                                                           faisant aussi partie de la réflexion sur le développement
+                                                                           De nombreuses activités peuvent se faire :
+                                                                               – Comparaison de volume, longueur et arête des
+                                                                                 duaux successifs ;
+                                                                               – Dénombrement de tous les deltaèdres
+                                                                               – Pavage de l’espace
+                                                                           Hans Magnus Enzensberger, Le Démon des maths, Ed. du
+                                                                           Seuil
+                                                                           L’activité des déltaèdres est présente dans Quelques
+                                                                           situations mathématiques 7-9, CADEV 24864
+                                                                           O. Burlet, Géométrie, Ed. LEP, pp. 273 à 287
+ … effectue des calculs à l’aide de la trigonométrie dans                  On se bornera à calculer un côté ou un angle manquant
+   le triangle rectangle                                                   dans un triangle rectangle
+                                                                           Lien MEP 33 – Mécanique
+                                                                           Approche des notions de parallèles et de méridiens
+                                                                           terrestres de sorte à déterminer la distance entre deux villes
+                                                                           connaissant leurs coordonnées géographiques
+ … connaît les lieux géométriques les plus importants                      La description de lieux simples peut s’accompagner
+ … construit des lieux géométriques                                        également des points limites, du centre et du rayon si c’est
+                                                                           un cercle…
+ … décrit et justifie quelques lieux
+                                                                           O. Burlet, Géométrie, Ed. LEP, chapitre III
+                                                                           A. Delessert, Géométrie plane, Ed. SPES, chapitre I.10
+                                                                           Les épreuves de MSF proposent la construction de lieux
+                                                                           géométriques : www.maths-msf.site2.ac¬strasbourg.fr
+ … produit un document cohérent en recourant aux                           Le logiciel de géométrie dynamique se prête
+   logiciels informatiques adaptés à la tâche prévue                       particulièrement bien à la construction de lieux
+                                                                           géométriques
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                             TROISIÈME CYCLE    19
+MEP 32 -31– MSN 35
+                     MEP 32 – Poser et résoudre des                                     1 … en organisant
+                                                                                        les nombres en
+                                                                                                              2 … en utilisant des
+                                                                                                              propriétés des
+                                                                                                                                     3 … en utilisant les
+                                                                                                                                     définitions et les
+                     problèmes en mobilisant des                                        ensembles             nombres entiers        propriétés des
+                                                                                                                                     polygones et des
+                     notions, des concepts, des                                                                                      polyèdres
+
+                     démarches et des raisonnements
+                     propres aux Mathématiques…
+Mathématiques
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                   1 … en déterminant
+                                                                                                         et en analysant des
+                                                                                                                                     2 … en suivant, en
+                                                                                                                                     déterminant et en
+                     mobilisant des notions, des                                                         démarches
+                                                                                                         mathématiques
+                                                                                                                                     analysant des
+                                                                                                                                     protocoles
+                     raisonnements, des démarches                                                        structurées dans le
+                                                                                                         cadre d’une
+                                                                                                                                     d’expérience
+
+                     propres aux Mathématiques et à                                                      recherche
+
+                     la Physique…
+
+
+                                                                  Progression des apprentissages
+                                     9e année                                  10e année                                       11e année
+
+                     Fonctions et équations
+                                                                Traduction et résolution d’un
+                                                                problème à l’aide de fonctions
+                                                                arithmétiques (suites) et de nombres
+                                                                polygonaux
+                     Traduction et résolution d’un problème à l’aide de fonctions
+
+
+                                                                Représentation de diverses fonctions polynomiales, rationnelles simples,
+                                                                exponentielles…
+                                                                Dans le cas des fonctions quadratiques :
+                                                                Détermination et démonstration des coordonnées du sommet, de l’ordonnée à
+                                                                l’origine et des abscisses à l’origine
+                                                                                                              Représentation des fonctions
+                                                                                                              paramétriques
+
+
+                     Utilisation de l’outil informatique à bon escient, notamment par
+                         – utilisation d’un tableur afin de saisir des mesures et esquisser des graphiques (linéaire, affine)
+                                                                     – utilisation d’un grapheur afin d’étudier différentes formes de graphiques
+                                                                       continus
+                                                                                                                   – utilisation d’un grapheur afin de
+                                                                                                                     visualiser les solutions et les
+                                                                                                                     graphiques de familles
+                                                                                                                     d’équations ou de fonctions
+                                                                                                                     paramétriques
+                                                                                                              Appronfondissement du calcul littéral
+
+
+
+
+       20            Mathématiques et physique – MEP                                                    Plan d’études romand – Spécificité VAUD
+4 … en effectuant        5 … en utilisant les    6 … en
+
+
+
+
+                                                                                                                                         MEP 32 -31– MSN 35
+des démonstrations       notions d’équation et   reconnaissant les
+sur des lieux            de fonction             rôles des lettres dans
+géométriques                                     le calcul littéral et
+                                                 algébrique
+                                                 (coefficient, variable,
+                                                 inconnue, paramètre)
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                                         Mathématiques
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                       ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                    Attentes fondamentales                                                 Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                     Ressources, indices, obstacles. Notes personnelles
+
+
+
+ … utilise la notion de fonction arithmétique pour                         AME, chapitre 4
+   résoudre des problèmes discrets
+
+
+
+ … utilise le concept de fonction dans différentes                         AME, chapitre 20
+   situations
+ … approche les notions d’existence et de singularité                      Les notions d’inégalités, d’intervalles et de tableaux de
+   d’une fonction                                                          signe peuvent être abordées dans cette séquence
+                                                                           d’enseignement
+                                                                           AME, chapitres 22 à 24
+
+
+ … fait la différence entre paramètre et variable, ainsi                   La détermination des coordonnées exactes de l’ensemble
+   qu’entre domaine de définition et domaine de                            des points d'intersection de deux graphes permet un lien
+   variation                                                               avec la résolution d'équations paramétriques
+ … produit un document cohérent en recourant aux
+   logiciels informatiques adaptés à la tâche prévue
+
+
+
+
+                                                                           AME, chapitre 19
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                           TROISIÈME CYCLE   21
+MEP 32 -31– MSN 35
+                     MEP 32 – Poser et résoudre des                          1 … en organisant
+                                                                             les nombres en
+                                                                                                   2 … en utilisant des
+                                                                                                   propriétés des
+                                                                                                                          3 … en utilisant les
+                                                                                                                          définitions et les
+                     problèmes en mobilisant des                             ensembles             nombres entiers        propriétés des
+                                                                                                                          polygones et des
+                     notions, des concepts, des                                                                           polyèdres
+
+                     démarches et des raisonnements
+                     propres aux Mathématiques…
+Mathématiques
+
+
+
+
+                     MEP 31 – Modéliser des situations                                        1 … en déterminant
+                                                                                              et en analysant des
+                                                                                                                          2 … en suivant, en
+                                                                                                                          déterminant et en
+                     mobilisant des notions, des                                              démarches
+                                                                                              mathématiques
+                                                                                                                          analysant des
+                                                                                                                          protocoles
+                     raisonnements, des démarches                                             structurées dans le
+                                                                                              cadre d’une
+                                                                                                                          d’expérience
+
+                     propres aux Mathématiques et à                                           recherche
+
+                     la Physique…
+
+
+                                                          Progression des apprentissages
+                                9e année                              10e année                                     11e année
+
+                                                         Traduction d’une situation et résolution de problème, notamment par :
+                                                                                                   – une équation du second degré à une
+                                                                                                   inconnue par la méthode du
+                                                                                                   discriminant.
+                                                                                                   – un système d’équations
+
+
+
+
+                                                                                                   Résolution d’équations paramétriques
+                                                                                                   de degré 1 et 2 et discussion des
+                                                                                                   signes de ∆, ∑, ∏ pour le degré 2
+                                                                                                   Approche des notions d’inégalités,
+                                                                                                   d’intervalles et de tableaux de signe
+
+
+
+
+       22             Mathématiques et physique – MEP                                            Plan d’études romand – Spécificité VAUD
+   4 … en effectuant        5 … en utilisant les    6 … en
+
+
+
+
+                                                                                                                                         MEP 32 -31– MSN 35
+   des démonstrations       notions d’équation et   reconnaissant les
+   sur des lieux            de fonction             rôles des lettres dans
+   géométriques                                     le calcul littéral et
+                                                    algébrique
+                                                    (coefficient, variable,
+                                                    inconnue, paramètre)
+
+                                                                                      ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                                         Mathématiques
+   3 … en utilisant
+   judicieusement le
+   matériel à disposition
+   afin d’effectuer des
+   mesures lors d’étude
+   de phénomènes
+   physiques
+
+                                                                                         ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                       Attentes fondamentales                                                Indications pédagogiques
+     Au cours, mais au plus tard à la fin du cycle, l’élève…                     Ressources, indices, obstacles. Notes personnelles
+
+    … résout un problème après l’avoir traduit
+      algébriquement
+                                                                              AME, chapitres 22 à 24
+    … généralise la notion d’équation et de systèmes
+      d’équations                                                             Démonstration de la formule des solutions d’une équation
+                                                                              de degré 2
+    … détermine algébriquement l’ensemble des solutions
+      d’une équations du second degré à une inconnue par                      Equation de degré 1 à 3 inconnues. La résolution des
+      la méthode du discriminant                                              systèmes d’équations se fera par :
+
+    … détermine algébriquement l’ensemble de solutions                        – Utilisation des méthodes de combinaison linéaire
+      d’un système d’équations du premier degré à deux ou                     (addition), d’élimination de Gauss (substitution)
+      trois inconnues                                                         – Détermination de l’expression fonctionnelle d’une
+                                                                              fonction quadratique définie par 3 points
+    … maîtrise les notions d’existence de solution(s) pour
+      une équation
+    … fait la différence entre paramètre et inconnue, ainsi
+      qu’entre domaine de définition et domaine de
+      variation
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                        TROISIÈME CYCLE      23
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                                 1 …connaissant et
+                                                                                                              en utilisant le
+                                                                                                                                       2 … en modélisant
+                                                                                                                                       des phénomènes liés
+                     et résoudre des problèmes mobilisant                                                     système
+                                                                                                              international d’unités
+                                                                                                                                       à l’astronomie
+
+                     des notions, des concepts, des                                                           de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                   1 … en déterminant
+                                                                                                         et en analysant des
+                                                                                                                                       2 … en suivant, en
+                                                                                                                                       déterminant et en
+                     mobilisant des notions, des                                                         démarches
+                                                                                                         mathématiques
+                                                                                                                                       analysant des
+                                                                                                                                       protocoles
+                     raisonnements, des démarches                                                        structurées dans le
+                                                                                                         cadre d’une
+                                                                                                                                       d’expérience
+
+                     propres aux Mathématiques et à                                                      recherche
+
+                     la Physique…
+
+
+                      AVERTISSEMENT : La coordination entre les enseignants de sciences MSN 26 et MSN 36 et de MEP est 	in
+
+
+                                                                   Progression des apprentissages
+                                     9e année                                    10e année                                     11e année
+
+                     Mesures et incertitudes
+                     Présentation du Système International d’Unités
+
+
+
+
+                     Présentation des différentes sources d’incertitudes (erreur aléatoire, grossière,
+                     systématique, de l’observateur, de l’appareil de mesure)
+                     Estimation de l’incertitude d’une mesure (incertitude absolue)
+                     Calcul de l’incertitude relative d’une mesure (précision)
+
+
+                                                                 Calcul de l’incertitude sur un résultat en utilisant la valeur centrale entre valeur
+                                                                 minimale et maximale
+                     Prise de mesures et mise en correspondance dans un tableau de valeurs ou dans un système d’axes
+
+
+
+
+                                                                 Recherche de la fonction associée à des mesures
+
+
+                     Recherche d'informations dans les formulaires et tables
+                     Comparaison de grandeurs expérimentales avec les valeurs tabulées
+                     Utilisation de la calculatrice en tenant compte de la cohérence entre les mesures prises (ou données d’un problème) et les
+                     chiffres significatifs retenus
+
+
+
+
+       24            Mathématiques et physique – MEP                                                    Plan d’études romand – Spécificité VAUD
+              3 … en modélisant        4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                                   MEP 33 -31– MSN 35
+              des phénomènes           fonctionnement de     notions de force et
+              d’optique                systèmes soumis à     moment de force
+                                       des équilibres et à
+                                       des transferts
+                                       d’énergie
+
+                                                                                                ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                                           1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                                   Physique
+              3 … en utilisant
+              judicieusement le
+              matériel à disposition
+              afin d’effectuer des
+              mesures lors d’étude
+              de phénomènes
+              physiques
+
+                                                                                                ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+	indispensable. Une attention particulière sera portée à Astronomie, Energie et Mécanique
+
+
+                                 Attentes fondamentales                                             Indications pédagogiques
+                Au cours, mais au plus tard à la fin du cycle, l’élève…                Ressources, indices, obstacles. Notes personnelles
+
+
+
+               … associe les bonnes unités aux grandeurs qu’il utilise              Depuis deux siècles, les progrès de la science et de la
+                                                                                    métrologie permettent des définitions de plus en plus
+                                                                                    précises des unités de mesure. C'est donc l'occasion
+                                                                                    d'introduire la notion de précision et d'incertitude mais
+                                                                                    également d'aborder différentes techniques de mesures
+                                                                                    AME, p. 176
+                                                                                    P&C, pp. 8 à 19
+               … estime l’incertitude d’une mesure                                  André Kulling et Jean-Claude Noverraz, Optique
+               … fait la distinction entre incertitude absolue, incertitude         géométrique, Ed. DIPC, pp. 259 à 270
+                 relative et erreur
+               … emploie des incertitudes dans des représentations
+                 graphiques
+               … calcule l’incertitude d’un résultat obtenu par une
+                 opération
+               … organise les mesures prises en les mettant en                      Les situations proportionnelles se prêtent particulièrement
+                 évidence dans un tableau ou un système d’axes                      bien aux graphes avec rectangles d'incertitude, étant
+                                                                                    donné que la représentation graphique devrait être une
+                                                                                    droite
+               … modélise des phénomènes physiques à l’aide de                      Etude du débit d’un écoulement en fonction de la hauteur
+                 fonctions simples                                                  du liquide (fonction racine)
+               … retrouve les valeurs dont il a besoin dans les tables              Annexes de P&C
+                 numériques
+
+               … utilise la calculatrice de manière efficace                        Il est intéressant de faire le lien entre précision d'une
+               … arrondit ses résultats correctement                                mesure et les arrondis d'un résultat
+
+
+
+
+              © CIIP 2010 – DFJC, VD 2012                                                                                       TROISIÈME CYCLE   25
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                                1 …connaissant et
+                                                                                                             en utilisant le
+                                                                                                                                      2 … en modélisant
+                                                                                                                                      des phénomènes liés
+                     et résoudre des problèmes mobilisant                                                    système
+                                                                                                             international d’unités
+                                                                                                                                      à l’astronomie
+
+                     des notions, des concepts, des                                                          de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                 1 … en déterminant
+                                                                                                       et en analysant des
+                                                                                                                                      2 … en suivant, en
+                                                                                                                                      déterminant et en
+                     mobilisant des notions, des                                                       démarches
+                                                                                                       mathématiques
+                                                                                                                                      analysant des
+                                                                                                                                      protocoles
+                     raisonnements, des démarches                                                      structurées dans le
+                                                                                                       cadre d’une
+                                                                                                                                      d’expérience
+
+                     propres aux Mathématiques et à                                                    recherche
+
+                     la Physique…
+
+
+                                                                   Progression des apprentissages
+                                     9e année                                   10e année                                    11e année
+
+                     Astronomie
+                     AVERTISSEMENT: MSN 26 – Planète Terre est proposé en 7e et en 8e. L’élève schématise les deux mouvements de la Terre
+                     et les utilise pour définir la notion de jour et année. Il observe différents modèles de systèmes (Terre-Lune, système solaire)
+                     MEP 33 – Astronomie propose un approfondissement autour des échelles de l’Univers (Terre, Lune, système solaire, étoiles
+                     proches, Voie lactée, galaxies proches)
+                     Compréhension de la notion de mesure du temps notamment par :
+                         – l’expérimentation du fonctionnement de systèmes de mesure
+                         – la relation entre la mesure du temps et les phénomènes astronomiques
+                           qui y sont liés
+
+
+
+                     Représentation de modèles en 2 ou 3 dimensions des corps principaux de notre
+                     système solaire en appréhendant les notions de tailles et de distances
+                     Calcul sur les grands nombres et les échelles
+                     Transformations d’unités entre km, al, UA
+                     Approfondissement des phénomènes liés à la Terre, la Lune et le Soleil : saisons,
+                     éclipses solaire et lunaire, phases de la Lune, face cachée de la Lune
+                     Calcul des vitesses de rotation et de révolution des astres
+
+
+
+
+                     Compréhension et expérimentation de         Mesure d’une distance à partir de lignes de visée
+                     méthodes historiques pour mesurer
+                     des distances terrestres, astronomiques
+
+
+
+
+       26            Mathématiques et physique – MEP                                                   Plan d’études romand – Spécificité VAUD
+3 … en modélisant        4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                        MEP 33 -31– MSN 35
+des phénomènes           fonctionnement de     notions de force et
+d’optique                systèmes soumis à     moment de force
+                         des équilibres et à
+                         des transferts
+                         d’énergie
+
+                                                                                   ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                              1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                        Physique
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                   ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                   Attentes fondamentales                                             Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … mesure le temps                                                    Fabrication d’un système permettant de mesurer le temps
+                                                                      (chandelle, clepsydre, pendule…)
+                                                                      Fabrication d’un cadran solaire, d’un nocturlabe ou d’un
+                                                                      astrolabe
+                                                                      Article sur les calendriers dans Math-Ecole n° 214
+                                                                      Calendrier perpétuel et algorithme du jour de Pâques
+ … effectue des opérations avec la notation scientifique              Coordination indispensable entre enseignants du cycle 2 et
+ … résout des problèmes de proportionnalité                           du cycle 3 (MSN 26 – Planète Terre)
+
+ … effectue des transformations d’unités en relation avec             A chaque fois que l’utilisation de la calculatrice se justifie,
+   l’astronomie (année-lumière, UA)                                   présenter aux élèves une manière efficace de procéder
+
+ … modélise les systèmes Terre-Lune et Soleil-Terre et                Montrer la difficulté de fabriquer un modèle du système
+   analyse les rapports de grandeurs                                  solaire en utilisant la même échelle pour la taille des
+                                                                      planètes et leurs distances respectives au Soleil
+                                                                      Un prolongement possible serait de dessiner les planètes à
+                                                                      leur place correcte à une date donnée, puis de prévoir
+                                                                      leurs positions les mois suivants en supposant les orbites
+                                                                      circulaires
+                                                                      CD : Les Galaxies, Marc Lachièze-Rey, Ed. De ViveVoix –
+                                                                      Les échelles de l’univers
+                                                                      DVD : Tous sur orbite, N. Gessner, Ed. Montparnasse
+ … analyse des méthodes de mesures historiques pour                   Mesurer la circonférence de la Terre comme Eratosthène…
+   déterminer des distances astronomiques ou                          Mesurer le diamètre de la Lune à partir d’une image
+   géographiques                                                      d’éclipse lunaire…
+ … utilise la vitesse de la lumière pour déterminer la                Mesurer la distance Terre-Lune avec une pièce de
+   distance entre des astres (Soleil-Terre et Terre-Lune)             monnaie…
+                                                                      La conquête spatiale
+                                                                      DVD : Apollo 11
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                        TROISIÈME CYCLE     27
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                                  1 …connaissant et
+                                                                                                               en utilisant le
+                                                                                                                                        2 … en modélisant
+                                                                                                                                        des phénomènes liés
+                     et résoudre des problèmes mobilisant                                                      système
+                                                                                                               international d’unités
+                                                                                                                                        à l’astronomie
+
+                     des notions, des concepts, des                                                            de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                    1 … en déterminant
+                                                                                                          et en analysant des
+                                                                                                                                        2 … en suivant, en
+                                                                                                                                        déterminant et en
+                     mobilisant des notions, des                                                          démarches
+                                                                                                          mathématiques
+                                                                                                                                        analysant des
+                                                                                                                                        protocoles
+                     raisonnements, des démarches                                                         structurées dans le
+                                                                                                          cadre d’une
+                                                                                                                                        d’expérience
+
+                     propres aux Mathématiques et à                                                       recherche
+
+                     la Physique…
+
+
+                                                                    Progression des apprentissages
+                                      9e année                                      10e année                                   11e année
+
+                     Optique
+                     Différentiation entre sources primaires et secondaires de lumière
+                     Détermination des zones d’ombre, de pénombre et de lumière en présence d’une
+                     (ou plusieurs) source(s) lumineuse(s)
+                     Définition de la diffusion et de la dispersion de la lumière
+
+
+
+
+                     Détermination de la position de l’image produite par un miroir plan
+                     Définition des rayons incident et réfléchi ainsi que celle des angles d’incidence et
+                     de réflexion à partir de la normale
+
+
+
+
+                     Détermination graphique par le construction de Maxwell et expérimentale du
+                     trajet d’un rayon lumineux réfracté
+                     Définition de la réfraction (rayons incident, réfléchi et réfracté, angles
+                     d’incidence, de reflexion et de réfraction à partir de la normale), de l’indice de
+                     réfraction et de la réflexion totale
+                     Analyse d’illusions d’optique dues à la réfraction
+
+
+
+
+       28            Mathématiques et physique – MEP                                                     Plan d’études romand – Spécificité VAUD
+3 … en modélisant        4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                       MEP 33 -31– MSN 35
+des phénomènes           fonctionnement de     notions de force et
+d’optique                systèmes soumis à     moment de force
+                         des équilibres et à
+                         des transferts
+                         d’énergie
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                             1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                       Physique
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                   Attentes fondamentales                                             Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                 Ressources, indices, obstacles. Notes personnelles
+
+
+
+ … différencie source primaire et source secondaire de                Les sources lumineuses que sont le Soleil et la Lune ainsi
+   lumière                                                            que les ombres dues à la Terre illustrent bien ces deux
+ … détermine les zones d’ombre, de pénombre ou de                     concepts (phases de la Lune, eclipses…)
+   lumière en présence d’une (ou plusieurs) source(s)                 Les ombres projetées permettent également de faire des
+   lumineuse(s)                                                       calculs de proportionnalité
+ … définit ce que sont la diffusion et la dispersion de la            La dispersion de la lumière permet d’expliquer les
+   lumière                                                            différentes couleurs que peut prendre le ciel
+                                                                      A voir :
+                                                                      P&C, « Sources et récepteurs de lumière » (pp. 42 à 47)
+                                                                      P&C, « La propagation de la lumière » (pp. 48 à 54)
+                                                                      P&C, « Ombre et éclipse » (pp. 55 à 61)
+                                                                      A. Külling et J.-C. Noverraz, Optique géométrique, Ed.
+                                                                      DIPC, ainsi que les fiches de travail qui s’y rapportent
+ … détermine la position de l’image produite par un                   Déterminer où placer plusieurs miroirs pour pouvoir
+   miroir plan                                                        atteindre une cible à l’aide d’un laser
+ … définit la réflexion d’un rayon lumineux en employant              Etudier le nombre d’images d’une épingle produites par
+   un vocabulaire précis                                              deux miroirs formant un angle variable
+                                                                      Déterminer la taille minimale et la position d’un miroir pour
+                                                                      se voir en entier
+                                                                      P&C, « La réflexion de la lumière » (pp. 62 à 69)
+                                                                      J.-C. Noverraz, Symétrie, vitre et miroir plan : des idées
+                                                                      pour enseigner les sciences et les mathématiques, HEPL
+                                                                      (pp. 179-180)
+ … détermine le trajet d’un rayon lumineux réfracté                   La construction de Maxwell peut se faire à l’aide d’un
+ … définit la réfraction d’un rayon lumineux en                       logiciel de géométrie où l’on peut faire varier les indices de
+   employant un vocabulaire précis                                    réfractions ou l’angle d’incidence
+
+ … analyse les illusions dues à la réfraction                         Evaluer la profondeur d’un récipient dont on ne voit que la
+                                                                      surface
+                                                                      Analyse de la taille d’un poisson dans un aquarium vu
+                                                                      depuis l’extérieur
+                                                                      Analyse des causes des mirages inférieurs dans le désert,
+                                                                      des mirages supérieurs dans les zones froides
+                                                                      P&C, « La Réfraction de la lumière » (pp. 70 à 78)
+                                                                      A. Külling et J.-C. Noverraz, Optique géométrique, Ed.
+                                                                      DIPC, ainsi que les fiches de travail qui s’y rapportent
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                       TROISIÈME CYCLE     29
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                        1 …connaissant et
+                                                                                                     en utilisant le
+                                                                                                                              2 … en modélisant
+                                                                                                                              des phénomènes liés
+                     et résoudre des problèmes mobilisant                                            système
+                                                                                                     international d’unités
+                                                                                                                              à l’astronomie
+
+                     des notions, des concepts, des                                                  de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                          1 … en déterminant
+                                                                                                et en analysant des
+                                                                                                                              2 … en suivant, en
+                                                                                                                              déterminant et en
+                     mobilisant des notions, des                                                démarches
+                                                                                                mathématiques
+                                                                                                                              analysant des
+                                                                                                                              protocoles
+                     raisonnements, des démarches                                               structurées dans le
+                                                                                                cadre d’une
+                                                                                                                              d’expérience
+
+                     propres aux Mathématiques et à                                             recherche
+
+                     la Physique…
+
+
+                                                          Progression des apprentissages
+                                9e année                                10e année                                     11e année
+
+                                                         Etude des lentilles épaisses en utilisant la réfraction de la lumière
+
+
+
+                                                         Etude des lentilles minces (convergente et divergente)
+                                                         Détermination graphique de la position et de la taille d’une image réelle ou
+                                                         virtuelle produite par une lentille convergente ou divergente
+
+
+                                                         Utilisation des lois des lentilles
+
+
+
+                                                         Calcul du grandissement d’une image
+                                                         Etude d’un système de deux lentilles
+                                                         Détermination graphique de la position et de la taille d’une image produite par
+                                                         un système de deux lentilles
+                                                         Réalisation de montages optiques qui permettent de vérifier des résultats
+                                                         théoriques ou de déterminer la distance focale d’une lentille
+
+
+
+
+                                                         Etude des défauts de l’œil (myopie, hypermétropie) et de l’accommodation
+
+
+
+
+       30             Mathématiques et physique – MEP                                              Plan d’études romand – Spécificité VAUD
+3 … en modélisant      4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                     MEP 33 -31– MSN 35
+des phénomènes         fonctionnement de     notions de force et
+d’optique              systèmes soumis à     moment de force
+                       des équilibres et à
+                       des transferts
+                       d’énergie
+
+                                                                                 ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                            1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                     Physique
+       3 … en utilisant
+       judicieusement le
+       matériel à disposition
+       afin d’effectuer des
+       mesures lors d’étude
+       de phénomènes
+       physiques
+
+                                                                                 ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                          Attentes fondamentales                                    Indications pédagogiques
+         Au cours, mais au plus tard à la fin du cycle, l’élève…        Ressources, indices, obstacles. Notes personnelles
+
+        … détermine le trajet d’un rayon lunimeux réfracté par       P&C, « Les Lentilles » (pp. 86 à 103)
+          une surface sphérique                                      A. Külling et J.-C. Noverraz, Optique géométrique, Ed.
+                                                                     DIPC, ainsi que les fiches de travail qui s’y rapportent
+        … trace les rayons particuliers pour les lentilles minces    La loi des lentilles se prête à l’exercice des fractions dans
+          et utilise un vocabulaire précis (foyer, centre optique,   les cas simples ou celui des fonctions (p en fonction de p’)
+          axe optique, distance focale)
+        … différencie image réelle et image virtuelle
+        … détermine la position et la taille d’une image réelle ou
+          virtuelle produite par une lentille graphiquement et
+          par calculs
+        … calcule le grandissement d’une image
+        … détermine la position et la taille d’une image produite    Utilisation du théorème des vergences
+          par un système de deux lentilles graphiquement et
+          par calculs
+
+        … réalise un montage comprenant une (ou deux)                Les expériences d’optique offrent également l’occasion de
+          lentille(s) et interprète ses résultats                    travailler avec des tableaux de valeurs, des incertitudes ou
+                                                                     des graphiques
+                                                                     Analyse d’appareils optiques comme la loupe, le
+                                                                     microscope ou la lunette astronomique
+        … analyse les défauts de l’œil                               J.-C. Noverraz, Des idées pour enseigner les sciences et les
+                                                                     mathématiques, HEPL : « Algèbre et géométrie “à la
+                                                                     loupe” » (intéressant pour la modélisation – pp. 170-175)
+                                                                     et « L’Œil et la vision – Un modèle pour l’œil » (pp. 200 à
+                                                                     205)
+
+
+
+
+   © CIIP 2010 – DFJC, VD 2012                                                                              TROISIÈME CYCLE         31
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                               1 …connaissant et
+                                                                                                            en utilisant le
+                                                                                                                                     2 … en modélisant
+                                                                                                                                     des phénomènes liés
+                     et résoudre des problèmes mobilisant                                                   système
+                                                                                                            international d’unités
+                                                                                                                                     à l’astronomie
+
+                     des notions, des concepts, des                                                         de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                                1 … en déterminant
+                                                                                                      et en analysant des
+                                                                                                                                     2 … en suivant, en
+                                                                                                                                     déterminant et en
+                     mobilisant des notions, des                                                      démarches
+                                                                                                      mathématiques
+                                                                                                                                     analysant des
+                                                                                                                                     protocoles
+                     raisonnements, des démarches                                                     structurées dans le
+                                                                                                      cadre d’une
+                                                                                                                                     d’expérience
+
+                     propres aux Mathématiques et à                                                   recherche
+
+                     la Physique…
+
+
+                                                                 Progression des apprentissages
+                                      e
+                                     9 année                                  10e année                                     11e année
+
+                     Chaleur et énergies
+                     AVERTISSEMENT: MSN 36 – Energie est proposé en 11e année. L’élève quantifie l’énergie thermique en mesurant la masse
+                     et la température. Il calcule et compare le rendement de différents appareils de chauffage de l’eau (transformation de
+                     l’énergie électrique en énergie thermique)
+                     MEP 33 – Energie propose une autre approche de l’énergie thermique par le calcul et la détermination de la chaleur
+                     massique et la capacité calorifique du calorimètre. Le calcul de rendement se fera pour la transformation d’énergie
+                     chimique ou mécanique en énergie thermique
+                     Il est proposé ici en 10e et 11e années pour faciliter la coordination avec les enseignants MSN 36. Mécanique et énergie
+                     sont deux thèmes qui seront répartis sur les 10e et 11e années
+                                                                Définition des concepts de chaleur et température
+                                                                Utilisation de différentes unités de mesure de température : celsius, kelvin,
+                                                                fahrenheit et fonctions de correspondance
+                                                                Utilisation de différentes unités de mesure d’énergie : joule, kWh, cal et calculs
+                                                                de correspondance
+
+
+
+
+                                                                Détermination de l’énergie chimique liée à une combustion telle que E = m H
+                                                                Détermination expérimentale d’un rendement, d’une puissance
+                                                                Expérimentation pour déterminer :
+                                                                    – la capacité calorifique d’un calorimètre
+                                                                    – la chaleur massique de l’eau
+                                                                    – la chaleur massique d’un métal
+
+
+
+
+       32            Mathématiques et physique – MEP                                                  Plan d’études romand – Spécificité VAUD
+3 … en modélisant        4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                   MEP 33 -31– MSN 35
+des phénomènes           fonctionnement de     notions de force et
+d’optique                systèmes soumis à     moment de force
+                         des équilibres et à
+                         des transferts
+                         d’énergie
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                             1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                   Physique
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                   Attentes fondamentales                                            Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … distingue chaleur et température                                   Fabrication et étalonnage d’un thermomètre
+ … distingue évaporation, vaporisation et ébullition                  Fabrication d’un panneau solaire le plus efficace
+                                                                      Comment transmettre au mieux la chaleur d’une ampoule
+                                                                      à « un verre » d’eau ?
+                                                                      Modélisation du métabolisme d’un petit rongueur en
+                                                                      comparant pertes de chaleur et régime alimentaire :
+                                                                      J.-C. Noverraz, Approche du métabolisme et modélisation
+                                                                      – Des idées pour enseigner les sciences et les
+                                                                      mathématiques, HEPL (pour cette activité l’élève doit être
+                                                                      capable de calculer une énergie thermique liée à une
+                                                                      variation de température)
+ … calcule une énergie liée à une combustion
+ … mesure et calcule un rendement, une puissance                      Le calcul de rendement : énergie chimique-énergie
+                                                                      thermique (bougie, labogaz, lampe à alcool)
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                    TROISIÈME CYCLE    33
+MEP 33 -31– MSN 35    MEP 33 – Modéliser des situations, poser                                          1 …connaissant et
+                                                                                                        en utilisant le
+                                                                                                                                 2 … en modélisant
+                                                                                                                                 des phénomènes liés
+                      et résoudre des problèmes mobilisant                                              système
+                                                                                                        international d’unités
+                                                                                                                                 à l’astronomie
+
+                      des notions, des concepts, des                                                    de mesure
+
+                      raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                        1 … en déterminant
+                                                                                              et en analysant des
+                                                                                                                             2 … en suivant, en
+                                                                                                                             déterminant et en
+                     mobilisant des notions, des                                              démarches
+                                                                                              mathématiques
+                                                                                                                             analysant des
+                                                                                                                             protocoles
+                     raisonnements, des démarches                                             structurées dans le
+                                                                                              cadre d’une
+                                                                                                                             d’expérience
+
+                     propres aux Mathématiques et à                                           recherche
+
+                     la Physique…
+
+
+                                                          Progression des apprentissages
+                                9e année                               10e année                                    11e année
+
+                                                         Détermination de l’énergie thermique liée à un changement d’état E = m L
+                                                         Utilisation d’un calorimètre
+                                                         Expérimentation pour déterminer la chaleur latente de fusion de la glace
+                                                         Détermination de la température d’équilibre lors du mélange
+
+
+
+
+                                                         Décomposition de l’énergie mécanique en énergies potentielle de pesanteur et
+                                                         cinétique
+                                                         Utilisation du principe de conservation de l’énergie mécanique
+
+
+
+                                                         Utilisation du principe de conservation de l’énergie
+                                                         Calcul de rendements énergétiques
+
+
+
+
+       34             Mathématiques et physique – MEP                                            Plan d’études romand – Spécificité VAUD
+3 … en modélisant       4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                    MEP 33 -31– MSN 35
+des phénomènes          fonctionnement de     notions de force et
+d’optique               systèmes soumis à     moment de force
+                        des équilibres et à
+                        des transferts
+                        d’énergie
+
+                                                                             ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                        1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                    Physique
+   3 … en utilisant
+   judicieusement le
+   matériel à disposition
+   afin d’effectuer des
+   mesures lors d’étude
+   de phénomènes
+   physiques
+
+                                                                                 ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                      Attentes fondamentales                                         Indications pédagogiques
+     Au cours, mais au plus tard à la fin du cycle, l’élève…            Ressources, indices, obstacles. Notes personnelles
+
+    … calcule une énergie liée à une fusion ou une vaporisation      Les expériences de calorimétrie se prêtent bien au calcul
+                                                                     d’incertitudes. En premier lieu par rapport à l’estimation
+    … expérimente la calorimétrie                                    des incertitudes absolues sur les mesures, puis par le
+                                                                     calcul de l’incertitude sur le résultat et la comparaison de
+                                                                     ce dernier avec la valeur tabulée
+    … mesure et calcule un bilan d’énergie en calorimétrie           Maitrise d’un bilan d’énergie en calorimétrie :
+                                                                     Réalisation d’expériences et vérification par le calcul des
+                                                                     résultats obtenus
+    … calcule une énergie potentielle de pesanteur, une              Lien MEP 33 – Mécanique : Les calculs autour de l’énergie
+      énergie cinétique, une puissance mécanique et un               mécanique peuvent faire intervenir l’énergie dissipée par
+      rendement                                                      les forces de frottements
+    … résout des problèmes liés à la conservation de l’énergie
+      mécanique
+    … calcule un transfert d’énergie et un rendement                 Permet de faire le lien entre chaleur et énergie mécanique
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                 TROISIÈME CYCLE        35
+MEP 33 -31– MSN 35   MEP 33 – Modéliser des situations, poser                                            1 …connaissant et
+                                                                                                         en utilisant le
+                                                                                                                                  2 … en modélisant
+                                                                                                                                  des phénomènes liés
+                     et résoudre des problèmes mobilisant                                                système
+                                                                                                         international d’unités
+                                                                                                                                  à l’astronomie
+
+                     des notions, des concepts, des                                                      de mesure
+
+                     raisonnements propres à la Physique…
+Physique
+
+
+
+
+                     MEP 31 – Modéliser des situations                                             1 … en déterminant
+                                                                                                   et en analysant des
+                                                                                                                                  2 … en suivant, en
+                                                                                                                                  déterminant et en
+                     mobilisant des notions, des                                                   démarches
+                                                                                                   mathématiques
+                                                                                                                                  analysant des
+                                                                                                                                  protocoles
+                     raisonnements, des démarches                                                  structurées dans le
+                                                                                                   cadre d’une
+                                                                                                                                  d’expérience
+
+                     propres aux Mathématiques et à                                                recherche
+
+                     la Physique…
+
+
+                                                               Progression des apprentissages
+                                     e
+                                    9 année                                 10e année                                    11e année
+
+                     Mécanique
+                     AVERTISSEMENT: MSN 36 – Mécanique est proposé en 10e et 11e. L’élève représente des forces par des flèches, reconnaît
+                     certaines forces (pesanteur, frottement, soutien, Archimède) et mesure la force de pesanteur
+                     MEP 33 – Mécanique propose une autre approche des forces, moments de forces, composition de forces et travail
+                                                              Définition d’un vecteur par sa direction, son sens et sa norme
+                                                              Addition de vecteurs
+
+                                                              Calcul de la force gravifique entre deux corps
+                                                              Rappel de la notion de masse et de force de pesanteur
+                                                              Compréhension de la provenance de g=9,81 N kg-1
+                                                              Etude des caractéristiques de la force de pesanteur et calcul de son intensité
+                                                              Approfondissement de l’étude de la force d’Archimède
+
+
+                                                              Décomposition des forces et détermination des intensités :
+                                                                  – A l’aide de schémas à l’échelle (forces non perpendiculaires)
+                                                                  – A l’aide de la trigonométrie (forces perpendiculaires)
+
+
+
+
+                                                              Calcul d’un moment de force lié à la rotation d’un solide autour d’un axe
+
+
+
+
+                                                              Reconnaissance et prévision de la notion d’équilibre :
+                                                                  – Sur un point soumis à des forces concourantes
+                                                                  – Sur un système possédant un axe de rotation
+                                                                  Détermination du travail d’une force
+                                                              Identification de l’énergie potentielle de pesanteur comme travail de la force de
+                                                              pesanteur
+                                                              Puissance mécanique
+                                                              Calcul du travail des forces mises en jeu dans des machines simples
+                                                              Différentiation entre les unités de mesures qui définissent le moment et le
+                                                              travail d’une force
+
+
+
+
+       36            Mathématiques et physique – MEP                                              Plan d’études romand – Spécificité VAUD
+3 … en modélisant        4 … en étudiant le    5 … en utilisant les
+
+
+
+
+                                                                                                                                          MEP 33 -31– MSN 35
+des phénomènes           fonctionnement de     notions de force et
+d’optique                systèmes soumis à     moment de force
+                         des équilibres et à
+                         des transferts
+                         d’énergie
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+                                                                                             1 2 3… voir MSN 36, CIIP 2010
+
+
+
+
+                                                                                                                                          Physique
+3 … en utilisant
+judicieusement le
+matériel à disposition
+afin d’effectuer des
+mesures lors d’étude
+de phénomènes
+physiques
+
+                                                                                  ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+                   Attentes fondamentales                                             Indications pédagogiques
+  Au cours, mais au plus tard à la fin du cycle, l’élève…                Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … est capable de représenter les forces à l’aide de                  Une coordination avec le cours de sciences est nécessaire.
+   vecteurs                                                           En effet, la reconnaissance des forces se fait dans le
+                                                                      domaine MSN 36
+ … est capable de faire la différence entre masse et poids            P&C, « La force de pesanteur et la gravitation universelle »
+ … calcule une force de pesanteur                                     (pp. 125-134)
+                                                                      Détermination de la masse à partir de l’allongement d’un
+                                                                      ressort.
+                                                                      Fonctionnement du dynamomètre
+                                                                      Exploration de la méthode de Cavendish pour déterminer la
+                                                                      constante de gravitation terrestre
+ … mesure ou calcule l’intensité des composantes d’une                En particulier, l’étude du plan incliné sera un bon moyen
+   force                                                              pour appliquer
+                                                                                      la trigonométrie. L’élève sera capable de
+ … construit ou calcule la résultante de forces                       calculer F P// et F P⊥. 	  Dans les autres situations, une étude
+                                                                      schématique à l’échelle permettra aux élèves de déterminer
+                                                                      l’intensité des composantes d’une force
+                                                                      P&C, « Plusieurs effets d’une même force – La
+                                                                      décomposition d’une force » (pp. 135-138)
+ … calcule un moment de force                                         P&C, « La rotation des solides autour d’un axe – Le moment
+                                                                      d’une force » (pp. 139-144)
+                                                                      J.-C. Noverraz, Mobile de Calder, Des idées pour enseigner
+                                                                      les sciences et les mathématiques, HEPL
+ … détermine si une composition de forces est stable ou               P&C, « Le travail d’une force – La puissance » (pp. 145-
+   instable                                                           152)
+ … calcule le travail d’une force                                     P&C, « Les machines simples » (pp. 153-163)
+                                                                      Palan, treuil, plan incliné, cric automobile, cric hydraulique,
+                                                                      travail résistant…
+                                                                      Lien MEP 33 – Chaleur et énergie
+
+
+
+
+ … fait la différence entre moment et travail d’une force             Il est possible de faire le lien avec le champ UNITÉS DE
+                                                                      MESURE en discutant des unités et en expliquant pourquoi
+                                                                      Nm = J dans un cas, mais pas dans l’autre
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                                        TROISIÈME CYCLE       37
+MEP 34 – MSN 35                          MEP 34 – Développer des sujets,                                                            1 …en abordant
+                                                                                                                                    des sujets à travers
+                                                                                                                                                           2 …en abordant
+                                                                                                                                                           des sujets à travers
+                                         des projets favorisant                                                                     leur histoire.         des articles de
+                                                                                                                                                           vulgarisation.
+                                         une ouverture sur les sciences
+                                         du passé, actuelles et du futur…
+Projets, développements et découvertes
+
+
+
+
+                                                                                        Progression des apprentissages
+                                                         9e année                                     10e année                                     11e année
+
+
+                                         PROJETS, DÉVELOPPEMENTS ET DÉCOUVERTES
+
+                                         AVERTISSEMENT : L’option spécifique Mathématiques et Physique doit permettre à l’élève de développer des savoirs–être,
+                                         savoirs–faire propre à la conduite d’activités scientifiques. L'axe thématique PROJETS, DÉVELOPPEMENTS ET
+                                         DÉCOUVERTES fournit des propositions non exhaustives en lien avec les objectifs MEP 31, 32 et 33 et non des sujets à
+                                         aborder obligatoirement. Ceux-ci peuvent être remplacé par d’autres thèmes qui s’inscrivent dans la même visée
+                                         pédagogique.
+                                         L'axe thématique PROJETS, DÉVELOPPEMENTS ET DÉCOUVERTES donne des pistes qui doivent permettre aux élèves de
+                                         conduire des activités de recherche dans une démarche d’investigation et de développer une culture scientifique en
+                                         abordant des sujets historiques ou d’actualité
+                                                                                                                                    Compléments historiques et
+                                                                                                                                    expérimetaux autour de nombres
+                                                                                                                                    remarquables : Pi, nombre d’or, racine
+                                                                                                                                    de 2
+
+
+                                         Analyse de différents systèmes de numération
+                                         Utilisation de différentes bases de numération (60, binaire, hexadécimale…)
+                                         Exploration historique de l’invention du zéro, numération de position
+
+
+                                         Reconnaissance et utilisation des codes Jules César, Vigenère, Polybe                      Reconnaissance et utilisation de la
+                                                                                                                                    fréquence des lettres dans la langue
+                                                                                                                                    française
+                                                                                                                                    Utilisation de clés et de fonctions pour
+                                                                                                                                    coder et décoder un message
+
+
+                                         Familiarisation avec des façons de faire et de raisonner propres à la logique
+                                         robotique, notamment en :
+                                             – identifiant les objectifs d’une activité ainsi que les notions théoriques et
+                                               pratiques qui en résultent
+                                             – planifiant, construisant et programmant le robot en fonction des
+                                               observations et des mesures effectuées
+                                             – testant le robot afin d’identifier d’éventuelles erreurs de conception et en
+                                               mettant en place des stratégies de remédiation
+                                             Initiation à l'utilisation d'outils et de procédés simples afin de faire fonctionner
+                                               un robot de manière autonome
+
+
+
+
+                 38                      Mathématiques et physique – MEP                                                      Plan d’études romand – Spécificité VAUD
+3 …en développant         4 …en abordant la
+
+
+
+
+                                                                                                                            MEP 34 – MSN 35
+l’inventivité, l’esprit   logique propre à la
+de recherche et de        programmation
+synthèse.                 robotique.
+
+
+
+
+                                                                         ABC… voir MSN 35 rabat de gauche, CIIP 2010
+
+
+
+
+                                                                                                                            Projets, développements et découvertes
+                      Attentes fondamentales                                 Indications pédagogiques
+   Au cours, mais au plus tard à la fin du cycle, l’élève…       Ressources, indices, obstacles. Notes personnelles
+
+
+
+
+ … connaît différents nombres réels remarquables             AME, chapitre 10, p. 140
+                                                             Pi, ACL, Ed. du Kangourou
+                                                             André Deledicq,Le Nombre d’or, ACL, Ed. du Kangourou
+                                                             Robert Vincent, Géométrie du nombre d’or, Ed. Chalagram
+ … utilise différents systèmes de numération (Babylone,      Les maths, c’est magique !, Ed. Nathan
+   Egypte, Rome…)                                            La longue histoire des nombres, ACL, Ed. du Kangourou
+                                                             J.-C. Deledicq, Jeu de chiffres, ACL, Ed. du Kangourou
+                                                             D. Guedj, Zéro, Ed. Robert Laffont
+ … code et décode des messages cryptés                       AME, chapitre 8, p. 112
+                                                             Nicolas Martignoni, Cryptologie, cahier de la CRM no 2,
+                                                             Hypercube : « Cryptographie », numéro spécial 49, été
+                                                             2003
+                                                             Sciences et Vie Junior, nos 131 et 132, « L'Histoire des
+                                                             codes secrets »
+ … sait programmer un robot                                  Outils :
+                                                                  – Robots NXT
+                                                                  – X-Logo
+                                                             Sites pour trouver des outils et se familiariser avec cette
+                                                             technologie :
+                                                                  – www.edurobot.ch
+                                                                  – www.philobotique.ch
+                                                                  – roberta.epfl.ch
+
+
+
+
+© CIIP 2010 – DFJC, VD 2012                                                                              TROISIÈME CYCLE    39
+     Lexique Mathématiques et Sciences de la nature
+
+     Algorithme : c’est une procédure automatisée de calcul. Pour          et en particulier sur des animaux ou des hommes). La
+     chaque opération, il existe différents algorithmes.                   démarche du physicien ou du chimiste de reproduire un phé-
+     Chiffre : en mathématique, un chiffre est un signe, un carac-         nomène en laboratoire en contrôlant les variables et les para-
+     tère destiné à l’écriture des nombres. Dans notre numération,         mètres est donc rarement applicable à d’autres sciences.
+     il existe dix chiffres différents : 1, 2, 3, 4, 5, 6, 7, 8, 9 et 0.   Dans ce cas, l’expérimentation peut être remplacée par l’ob-
+                                                                           servation répétée afin de disposer d’un nombre statistique-
+     Conjecture : par « pose d’une conjecture puis validation ou           ment valable de données permettant d’extraire ce qui se repro-
+     réfutation », on entend : émettre des suppositions sur                duit de ce qui est lié à un cas particulier.
+     « quelque chose qui semble vrai », puis essayer de le démon-
+     trer. « Conjecture » a ainsi une signification proche du terme        Démonstration ou preuve : en mathématiques, la démons-
+     « hypothèse » employé dans la langue courante. Pour le                tration (ou la preuve) a un statut tout à fait particulier par
+     mathématicien, « hypothèse » prend un sens particulier, c’est         rapport aux autres sciences : elle se base sur le principe du
+     un outil de démonstration.                                            tiers exclu (en mathématiques, une affirmation est vraie ou
+                                                                           fausse, elle n’a pas de statut intermédiaire). La démonstration
+     Croquis : comme le dessin, le croquis est une forme de repré-         mathématique est le seul moyen de valider une conjecture
+     sentation d’une figure. Il ne respecte pas les mesures mais           puisqu’il n’y a pas la possibilité de confronter celle-ci au
+     contient des informations (cotes, symboles, explications com-         monde réel. Cependant se focaliser sur les démonstrations
+     plémentaires) qui permettent soit de définir la figure qu’il          canoniques souvent reformulées après coup peut amener les
+     représente de manière univoque, soit de servir de support à           élèves à croire que des argumentations n’ont de valeur en
+     la réflexion.                                                         mathématiques que lorsqu’elles sont présentées sous une
+     Débat scientifique : dans une assemblée comme dans un                 forme définitive, alors que la recherche en mathématiques
+     petit groupe d’élèves, le débat scientifique peut se faire aussi      est foisonnante d’essais, erreurs, tentatives, expériences,
+     bien en début d’activité de recherche afin d’extraire et de           ébauches, éléments de preuves, esquisses de raisonne-
+     confronter les conceptions de chacun, qu’en fin d’activité où         ment,…
+     il s’agira cette fois de confronter les résultats obtenus. L’élève    Dessin : le dessin (construction, plan) est une représentation
+     qui veut participer au débat scientifique organisé par l’ensei-       d’une figure qui respecte les mesures (de longueurs et
+     gnant est invité à prendre la parole en s’adressant directe-          d’angles) et dont la précision dépend des instruments utilisés
+     ment à ses pairs de la façon suivante : « Moi, je pense que           et de l’habileté manuelle du dessinateur. Les dessins peuvent
+     telle idée est valide…, que tel raisonnement prouve ou contre-        causer des interprétations erronées de certaines figures. Par
+     dit l’idée soutenue par moi ou par mon pair…, et voilà mes            exemple, la représentation dessinée d’une droite est une ligne
+     raisons… ». Au cours du débat, chacun doit donc défendre              nécessairement finie alors que l’objet géométrique est une
+     ses idées avec ténacité tant qu’elles lui semblent plus raison-       ligne infinie. De même, la mesure d’un angle est indépen-
+     nables que les explications concurrentes ou contradictoires           dante de la longueur de ses côtés sur le dessin.
+     et (contrairement au débat polémique) les abandonner, en
+     disant pour quelles raisons, quand il a été persuadé du               Division : la division permet de trouver :
+     contraire. Dans ce « débat d’idées et d’explications », chacun        1. la mesure de chaque part lors de partages égaux (« division
+     sait qu’il gagne non pas principalement si le débat lui donne             de partage ») ;
+     raison, mais plutôt si l’explicitation des arguments des uns et       2. le nombre de parts de mesure donnée qui entrent dans
+     des autres l’éclaire et éclaire les autres, fait avancer le groupe        une quantité fixée (« division de contenance ») ;
+     dans la compréhension profonde de la situation. Dans ce               3. le rapport de deux grandeurs (exprimées dans la même
+     débat, l’enseignant se porte garant de la scientificité globale           unité de mesure) ou de deux nombres (comparaison) ;
+     du débat mais non de la vérité ou de la pertinence des argu-          4. une grandeur à partir d’une autre (une longueur à partir
+     ments et résultats proposés au fur et à mesure. C’est à la fin            d’une aire, une aire à partir d’un volume,…) dans des
+     seulement qu’il institutionnalise les résultats vrais et                  situations de produits de mesures ;
+     conformes (définitions et théorèmes), qu’il identifie les résul-      5. la valeur unitaire dans des situations de proportionnalité ;
+     tats faux (les plus récurrents contre lesquels il faudra conti-       6. une nouvelle grandeur correspondant au rapport de deux
+     nuer à se battre), qu’il met en exergue les procédures qui ont            grandeurs de natures différentes (vitesse, densité de popu-
+     été productrices d’idées ou qui ont permis de séparer le vrai             lation,…).
+     du faux (le « métier » de scientifique).                              Division euclidienne : opération qui consiste, à partir de deux
+     Démarche scientifique : il s’agit d’une démarche plus générale        nombres naturels D (dividende) et d (diviseur), à déterminer
+     que la démarche expérimentale. En effet, en Sciences de la            deux nombres naturels q (quotient) et r (reste) tels que
+     nature, il se produit souvent des situations où l’expérimenta-        D = d x q + r avec r < d.
+     tion est impossible pour des raisons pratiques (il est difficile      Ensemble de nombres :
+     d’expérimenter en laboratoire le mouvement des planètes ou            –	Les nombres naturels ou entiers naturels permettent de
+     l’avancée des glaciers) ou éthiques (le respect du vivant limite         compter des quantités finies d’objets. Ce sont les éléments
+     au strict nécessaire toute expérimentation sur des êtres vivants         de l’ensemble N = {0, 1, 2, 3, 4, 5, 6,…}.
+
+40   Mathématiques et physique – MEP                                                      Plan d’études romand – Spécificité VAUD
+–	Les nombres entiers relatifs sont les éléments de l’ensemble       Figure : en géométrie, la figure est un objet immuable et idéal.
+   Z = {…,  -6, -5, -4, -3, -2, -1, 0, +1, +2, +3, +4, +5, +6,…}.     Elle existe indépendamment des représentations (dessin,
+–	Les nombres décimaux sont les nombres dont l’écriture              croquis,…) qui en sont faites. Par exemple, une droite repré-
+   décimale est finie, autrement dit qui peuvent être écrits à        sentée par un croquis ou un dessin est finie et épaisse alors
+   l’aide d’un nombre fini de chiffres.                               que la droite géométrique est une figure infinie et sans épais-
+                                                                      seur (elle n’est que longueur).
+–	Les nombres rationnels sont des nombres qui peuvent être
+   représentés par le quotient de deux nombres entiers                Forme : la forme est liée à la perception d’ordre visuel d’un
+   (exemples : p ; 0,6666… ; -3 ; 7,629). L’ensemble des              objet ; c’est l’ensemble de ses contours résultant de son orga-
+   nombres rationnels est noté Q.                                     nisation (un chapeau de clown en forme de cône). Une figure
+                                                                      n’a de forme que dans la mesure où elle est représentée par
+–	Les nombres irrationnels sont des nombres qui ne peuvent           un dessin, un croquis, un objet,…
+   pas être représentés par le quotient de deux nombres
+   entiers (exemples : π, £).                                         Frise : motif constitué de formes géométriques répétées et
+                                                                      disposées régulièrement.
+–	Les nombres réels sont des nombres rationnels ou irration-
+   nels. L’ensemble des nombres réels est noté R.                     Hypothèse : ce terme a un sens différent en mathématiques
+                                                                      et en sciences ; en mathématique, il correspond à ce qui est
+– Tous les nombres naturels sont des entiers relatifs, tous les      connu, par exemple pour démontrer un théorème ; en
+  entiers relatifs sont des nombres décimaux, tous les nombres        sciences, il correspond à une supposition, une tentative d’ex-
+  décimaux sont des nombres rationnels et tous les nombres            plication résultant d’une problématique, plausible en l’état
+  rationnels sont des nombres réels : N à Z à Q à R.                  des connaissances de la personne qui l’émet qui doit être
+Espace (délimitation) : selon les travaux de G. Galvez et             confrontée à l’épreuve des faits, l’élaboration d’hypothèses
+G. Brousseau (1983) ainsi que de R. Berthelot et M.-  H. Salin        est une étape essentielle à toute démarche d’investigation
+(1992), il existe trois types d’espaces avec lesquels l’individu      scientifique.
+peut être en interaction :
+                                                                      Identifier : ce mot est utilisé dans les composantes et dans
+–	le micro-espace qui, selon Brousseau (1983), est « l’espace        les progressions avec deux sens différents :
+   des interactions liées à la manipulation des petits objets ».
+                                                                      –	identifier dans le sens de repérer un élément sur la base
+   Il désigne l’espace sous contrôle visuel direct du sujet qui
+                                                                         de ses caractéristiques ;
+   peut voir, toucher et déplacer les objets de cet espace. De
+   plus, le sujet étant extérieur à cet espace, les objets y sont     –	identifier dans le sens de créer un lien entre deux concepts
+   perçus exhaustivement. Appréhender cet espace ne néces-               (utilisation caractéristique des sciences). Exemple : identi-
+   site donc pas de conceptualisation. Exemples : la feuille de          fier la masse à la quantité de matière.
+   papier ou la table de l’élève ;                                    Mobiliser : signifie choisir et utiliser une démarche, un outil
+–	le méso-espace qui, selon Brousseau (1983), est « l’espace         ou une connaissance. En fonction de la situation, ce choix et
+   des déplacements du sujet dans le domaine contrôlé par la          cette utilisation sont laissés à l’initiative de l’élève.
+   vue ». En d’autres termes, c’est un espace accessible à une        Modéliser : recouvre l’idée d’associer à une situation com-
+   vision globale. Les objets, fixes ou mobiles, y sont visibles      plexe un modèle qui la rend intelligible en la réduisant à ses
+   selon diverses perspectives puisque l’individu est inclus          éléments essentiels.
+   dans cet espace, peut s’y déplacer et l’observer selon diffé-
+   rents points de vue. Appréhender cet espace nécessite donc         Multiplication : la multiplication permet de trouver :
+   une conceptualisation. Exemples : la salle de classe ou la         1. le résultat d’additions répétées (multiplication par un
+   cour de récréation ;                                                   entier) dans les situations d’itération ;
+                                                                      2. le nombre de combinaisons possibles dans les situations
+–	le macro-espace qui, selon Berthelot et Salin (1992), est par
+                                                                          liées au produit cartésien (par ex: 3 entrées, 3 plats prin-
+   exemple « l’espace des trajets dans la ville ». Il s’agit d’un
+                                                                          cipaux et 2 desserts permettent de constituer 3 x 3 x 2 =
+   espace accessible uniquement à des visions partielles. Les
+                                                                          18 menus) ;
+   objets y sont fixes et une partie seulement est sous le contrôle
+                                                                      3. une grandeur en connaissant la grandeur unitaire dans les
+   de la vue. L’individu y est inclus et doit donc coordonner les
+                                                                          situations de proportionnalité ;
+   informations partielles pour reconstituer le tout. Appréhender
+                                                                      4. de nouvelles grandeurs (aires, volumes,…) dans les situa-
+   cet espace nécessite donc une conceptualisation. La réso-
+                                                                          tions de produits de mesures.
+   lution de problèmes dans le méso- ou le macro-espace
+   nécessite souvent le passage par une représentation de la          Outils de calcul : ce sont les diverses manières qui per-
+   situation dans le micro-espace (schéma, croquis, plan,…).          mettent d’estimer, d’obtenir ou de valider le résultat d’une
+   La réflexion est alors menée sur cette représentation puis les     opération arithmétique. Les outils de calcul utilisés sont
+   résultats sont reportés dans la situation réelle. Exemple : les    notamment les répertoires mémorisés, le calcul réfléchi, les
+   trajets pour aller de la maison à l’école.                         algorithmes et la calculatrice.
+
+© CIIP 2010 – DFJC, VD 2012                                                                                       TROISIÈME CYCLE       41
+     Pavage : composition d’une figure donnée en utilisant cer-            Suite :
+     taines figures imposées, que ce soit dans le plan (surfaces)          –	Une suite (Un) est arithmétique s'il existe un réel r, appelé
+     ou dans l’espace (solides).                                              la raison de la suite, tel que pour tout entier naturel n,
+     Problèmes additifs1 :                                                    Un + 1 = Un + r.
+     –	Type EEE (état, état, état) : deux états se composent pour         –	Une suite (Un) est géométrique s'il existe un réel q, appelé
+        donner un nouvel état. Exemple : Valentin a 12 billes,                la raison de la suite, tel que pour tout entier naturel n,
+        Séraphine en a 9. Ensemble, ils en ont 21.                            Un + 1 = q Un.
+     –	Type ETE (état, transformation, état) : une transformation         Surcomptage : compter au-delà du cardinal d’une première
+        d’un état initial en un état final. Exemple : Valentin a           collection en ajoutant autant d’unités qu’il y a d’éléments
+        12 billes. Il joue une partie contre Séraphine et en perd 7.       dans la deuxième collection.
+        Il lui en reste 5.                                                 Systémique :
+     –	Type ECE (état, comparaison, état) : une comparaison de            –	En physique, caractérise une situation où la modification
+        deux mesures ou deux états. Exemple : Valentin a 12 billes,           d’un élément implique la modification de tous les éléments
+        Séraphine en a 7 de moins que Valentin. Séraphine a donc              du système, y compris la /les cause-s.
+        8 billes.                                                          –	En biologie, caractérise une situation où la modification
+     –	Type TTT (transformation, transformation, transformation) :           d’un élément implique la modification d’autres éléments
+        deux transformations se composent pour donner une trans-              du système, y compris la /les cause-s.
+        formation. Exemple : Séraphine a gagné 6 billes, puis elle         Théorème-élève : ensemble de règles ou de représentations
+        en a perdu 9. En tout, elle en a perdu 3.                          erronées construites par l’élève, la plupart du temps par géné-
+     –	Type RTR (relation, transformation, relation) : une transfor-      ralisation abusive de propriétés.
+        mation opère sur un état relatif (une relation) pour donner        Unités non conventionnelles : il s’agit d’unités de mesure
+        un état relatif. Exemple : Valentin devait 6 billes à Séraphine.   choisies parmi des objets physiques (main, cahier, tasse,…)
+        Il lui en rend 4. Il ne lui en doit plus que 2.                    servant d’étalon pour effectuer la mesure (approximative)
+     –	Type RRR (relation, relation, relation) : deux états relatifs se   d’une grandeur.
+        composent pour donner un état relatif. Exemple : Valentin          Utiliser : s’entend aussi bien pour des connaissances en acte
+        doit 7 billes à Séraphine, mais Séraphine lui en doit 3.           (utilisation intuitive, naturelle dans le cadre d’exemples par-
+        Valentin doit donc 4 billes à Séraphine.                           ticuliers) que pour des connaissances d’ordre déclaratif
+     Recomptage : procédure qui consiste à réunir ou reconstituer          (l’élève sait énoncer la propriété qu’il utilise et la reconnaître
+     sur un support quelconque (les doigts en général) plusieurs           comme une propriété indépendante de l’exemple choisi).
+     collections puis compter le tout.
+     Situation-problème : elle correspond à une situation com-
+     plexe pour l’élève, tirée, si possible, du réel dans le cadre des
+     sciences, et dont la résolution n’a pas de solution évidente a
+     priori, les connaissances de l’élève étant encore insuffisantes.
+     Elle a pour but de permettre la construction d’un nouvel outil
+     ou d’un savoir qui sera plus adapté à la résolution de la situa-
+     tion. Elle place l’élève devant une difficulté, obstacle qui
+     remet en cause ses conceptions et représentations. Il s’agit
+     alors pour l’élève d’explorer ses conceptions, de se poser des
+     questions qui devraient engendrer une rupture dans son
+     savoir puis de dégager et de choisir des pistes de recherche,
+     enfin de rassembler ses résultats en les validant, les structu-
+     rant et les synthétisant en vue d’être communicables.
+     La conclusion à une telle activité se fait de préférence sous
+     forme de débat scientifique ou d’une synthèse gérée par
+     l’enseignant sur la base des productions des élèves.
+
+
+
+
+     1
+        Apprentissages et enseignement des mathématiques. Commentaires
+     didactiques sur les moyens d’enseignement pour les degrés 1 à 4 de
+     l’école primaire / A. Gagnebin, N. Guignard, F. Jaquet / COROME éd.
+     1998 / p. 115-125 ; p. 129-131.
+
+
+42   Mathématiques et physique – MEP                                                       Plan d’études romand – Spécificité VAUD
+

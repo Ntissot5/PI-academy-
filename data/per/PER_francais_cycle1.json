@@ -1,0 +1,1979 @@
+{
+  "discipline": "Français",
+  "cycle": 1,
+  "source": "https://portail.ciip.ch/per/disciplines/1",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/1",
+      "code": "L1 11-12",
+      "axe": "Compréhension de l'écrit, Production de l'écrit",
+      "titre": "Lire et écrire des textes d'usage familier et scolaire et s'approprier le système de la langue écrite",
+      "composantes": [
+        "1. en comprenant les liens entre l’oral et l’écrit (segmentation d’une phrase en mots, correspondance phonème-graphème, code alphabétique,…)",
+        "2. en développant la conscience phonologique (rime, syllabe, phonème,…)",
+        "3. en utilisant des outils de référence",
+        "4. en mobilisant et en développant ses connaissances langagières (lexicales, grammaticales, phonologiques, prosodiques,…) et extralangagières (connaissance du monde, références culturelles,…)",
+        "5. en prenant en compte le contexte d'énonciation",
+        "6. en identifiant les fonctions de la lecture-écriture",
+        "7. en dégageant et en utilisant des éléments du contenu (le sens global, les reprises,…) et de l’organisation du texte",
+        "8. en identifiant des mots par hypothèses et vérifications en s’appuyant sur le code et le sens"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Connaissance des fonctions de l’écrit (lire pour le plaisir, lire pour agir, lire pour s’informer,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Manipulation de supports écrits variés (imagiers, albums, affiches,…) et découverte de leurs usages sociaux"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Identification et utilisation de supports écrits variés (dictionnaires, albums, affiches,…) et prise en compte de leurs usages sociaux"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Identification de quelques mots écrits proches de l’élève (son prénom, papa, maman,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Identification de mots écrits proches de l’élève (prénoms de ses amis, mots outils,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Production d’écrit en écriture émergente et en dictée à l’adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "contenu": [
+            "Production d’écrit en dictée à l’adulte et à l'aide de références élaborées en classe (texte de référence, panneaux,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'oral",
+          "contenu": [
+            "Découverte de la conscience phonologique :",
+            "– segmentation d’un mot oral en syllabes",
+            "– repérage de phonèmes"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'oral",
+          "contenu": [
+            "Développement de la conscience phonologique :",
+            "– segmentation d’un énoncé oral en mots",
+            "– segmentation d’un mot oral en syllabes",
+            "– segmentation des syllabes orales en phonèmes"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Prise de conscience de la permanence de l’écrit"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Découverte des concepts «mot» et «lettre»"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Acquisition des concepts phrase, mot, syllabe écrite, lettre, paragraphe"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Observation et acquisition de l’orientation de l’écriture (de gauche à droite, de haut en bas)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Segmentation d’un énoncé en mots"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Production d’un énoncé écrit segmenté en mots"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Repérage, distinction d’images puis de mots dans divers ouvrages"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Acquisition de la correspondance entre phonème et graphème (combinatoire)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Repérage de lettres de l’alphabet et de quelques mots outils (le, la, un, une,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Repérage et mémorisation :",
+            "– du nom des lettres",
+            "– de mots rencontrés dans des textes",
+            "– de graphies fondamentales"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Écriture de quelques mots utilisés fréquemment (son prénom, papa, maman,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "contenu": [
+            "Écriture de mots familiers et courants"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Formulation d’hypothèses par les élèves et vérification de celles-ci en fonction du contexte et de l’illustration",
+            "Compréhension de textes lus par l’enseignant"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Compréhension de textes par une lecture autonome"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Reformulation (à l’aide de ses propres mots) d’un texte dans la perspective de clarifier sa compréhension"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Comparaison des informations données par l’image et par le texte"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Développement de la fluidité (vitesse de lecture, mais aussi lecture précise, aisée, non saccadée,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Activités réitérées de lecture"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "contenu": [
+            "Lecture à haute voix pour un destinataire en prenant en compte l’expression, le débit, le volume, l’intonation, la gestuelle, les liaisons,…"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "contenu": [
+            "Création en groupe ou individuellement de textes avec l’aide de l’enseignant"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "contenu": [
+            "Rédaction en groupe ou individuellement d’un texte pour un destinataire :",
+            "– projet d’écriture",
+            "– choix de mots adaptés et issus de thèmes familiers à l’élève",
+            "– écriture de phrases syntaxiquement correctes en respectant l’orthographe alphabétique (correspondance phonèmes-graphèmes)",
+            "– respect des contraintes de calligraphies et de mise en page",
+            "– choix d’un support adéquat (lettre, carte, affiche, messagerie Internet,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "contenu": [
+            "Élaboration et utilisation de représentations graphiques pour lire et écrire (symboles, codes, images,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "contenu": [
+            "Construction et appropriation d’outils de référence (lexique, texte de référence, affiche, liste de mots, imagier, panneau,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "contenu": [
+            "Utilisation d’outils de référence mis à disposition par l’enseignant (cf. liste des outils de référence en fin de L1 11-12)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Compréhension d’une histoire ou d’un conte lu par l’adulte",
+            "Construction de l’ordre chronologique d’une histoire (à l’aide d’illustrations, de suites logiques,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Compréhension individuelle d’une histoire ou d’un conte:",
+            "– distinction entre le réel et l’imaginaire",
+            "– dégagement du thème et de l’idée principale",
+            "– repérage de l’ordre chronologique du déroulement de l’histoire",
+            "– identification des personnages principaux et de leurs actions"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, d’un texte qui raconte (kamishibaï, album,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Rédaction en groupe ou individuellement d'un texte narratif pour un destinataire (conte ou récit) :",
+            "– utilisation de verbes au présent ou à l’imparfait à l’aide de références",
+            "– utilisation de quelques organisateurs temporels (un jour, une nuit, il était une fois; alors, ensuite, après; tout à coup, soudain,…)",
+            "– distinction des différentes parties d'un texte (titre, paragraphes,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Compréhension d’un récit lu par l’adulte (carte postale, récit de vie, journal de bord,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Compréhension individuelle d’un récit (carte postale, récit de vie, journal de bord,…) :",
+            "– repérage de la suite des événements du récit",
+            "– perception des sensations et des sentiments des personnages"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, d’un récit (récit de vie, carte postale,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Rédaction en groupe ou individuellement d'un texte qui relate des événements réels (récit de vie, carte postale,…) :",
+            "– distinction des différentes parties d'un texte (formule de politesse, date, titre, signature,…)",
+            "– utilisation de quelques organisateurs temporels (un jour, une nuit; ensuite, après, alors; tout à coup, soudain,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Compréhension d’un texte qui argumente (opinion, demande,…) lu par l’adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Compréhension d’un texte qui argumente par identification de la demande ou de l’opinion formulée"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, d’un texte qui argumente (opinion, demande,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Rédaction en groupe ou individuellement d’un texte qui argumente (opinion, demande,…) :",
+            "– formulation d’une opinion, d’une demande et de sa justification",
+            "– distinction des différentes parties d'un texte (formule de politesse, date, signature,…)",
+            "– utilisation d’organisateurs logiques (pour, parce que, car,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Compréhension d’un texte documentaire lu par l’adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Compréhension individuelle d’un texte documentaire :",
+            "– anticipation en s’appuyant sur les titres et les illustrations",
+            "– repérage des informations",
+            "– mise en relation avec ses propres connaissances"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, de panneaux ou de posters documentaires"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Rédaction en groupe ou individuellement de textes documentaires en utilisant des éléments de mise en page (titres, sous-titres, croquis, illustrations, légende,…) :",
+            "– sélection d’informations",
+            "– rédaction de phrases d'information et d'explication",
+            "– rédaction d'une légende accompagnant une image",
+            "– utilisation de verbes au présent"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Compréhension de consignes lues par l’adulte (règles de vie, mode d’emploi, recette, règles du jeu,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Compréhension de consignes pour agir (règles de vie, mode d’emploi, recette, règles du jeu, consignes,…) :",
+            "– identification du matériel nécessaire",
+            "– identification de la tâche à exécuter",
+            "– respect de l’ordre chronologique des actions à effectuer"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, de consignes pour agir (recette, bricolage, règles de jeu,…)",
+            "Illustration des consignes (images, dessin,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Rédaction en groupe ou individuellement d'un texte injonctif pour un destinataire (recette, bricolage, règles de jeu,…) :",
+            "– distinction des différentes parties d'un texte, (titre, sous-titre, numération, retour à la ligne, tiret,…)",
+            "– choix d’illustrations représentant des actions",
+            "– écriture de consignes",
+            "– utilisation de verbes d'action à l'infinitif ou au présent"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Découverte de la conscience phonologique (jeux avec les rimes, les syllabes, les phonèmes)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Développement de la conscience phonologique (jeux avec les rimes, les syllabes, les phonèmes)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Identification de la sonorité des différentes rimes"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Compréhension d’un texte poétique lu par l’enseignant (comptine, poème, chanson,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Compréhension d’un texte poétique (comptine, poème, chanson,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Perception des sentiments, des émotions, des souvenirs, des images que suscite le texte poétique"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Lecture d’un texte poétique pour un destinataire (comptine, poème, chanson, proverbe, charade, rébus,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Création en groupe ou individuellement, avec l’aide de l’adulte, de comptines, poèmes, chansonnettes, devinettes,…"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Rédaction en groupe ou individuellement de comptines, poèmes, petites chansons, devinettes,… :",
+            "– recherche de rimes",
+            "– repérage de la mise en page d’un texte poétique (titre, paragraphe, colonne, pictogramme, signe typographique,…)",
+            "– utilisation de la majuscule au début de la ligne"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Entrée dans l’écrit",
+          "texte": "choisit le support écrit adapté à son projet"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'oral",
+          "texte": "identifie une syllabe, un phonème dans un mot"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "texte": "repère dans un texte une phrase, un mot, une lettre"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages fondamentaux de la lecture et de l'écriture › Conceptualisation de la langue à l'écrit",
+          "texte": "lit et identifie des mots en prenant en compte ses connaissances du contexte, du code et de la correspondance phonème-graphème"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Compréhension de l’écrit",
+          "texte": "comprend le sens global de textes, courants ou littéraires, pourvus d'un contenu, d'une structure, d'une syntaxe et d'un vocabulaire d'usage familier"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages communs à tous les genres de textes › Production de l'écrit",
+          "texte": "trouve un mot dans un outil de référence créé dans le cadre de la classe (lexique, affiche, liste de mots, texte,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "comprend le sens global (thème et idée principale) d’un texte narratif et nomme les personnages principaux"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "écrit à l’aide d’outils de référence, une ou plusieurs parties d’un texte qui raconte sur des thèmes abordés en classe, en produisant des phrases syntaxiquement correctes et en respectant la segmentation lexicale"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "comprend le sens global d’un texte narratif et situe les événements"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "comprend un texte documentaire et repère la/les information-s"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "texte": "écrit, à l’aide d’outils de référence, une ou plusieurs parties d’un texte documentaire en utilisant des éléments de mise en page"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "comprend et respecte des consignes"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/2",
+      "code": "L1 13-14",
+      "axe": "Compréhension de l'oral, Production de l'oral",
+      "titre": "Comprendre et produire des textes oraux d'usage familier et scolaire",
+      "composantes": [
+        "1. en dégageant le sens global et les idées principales d’un texte",
+        "2. en organisant et en restituant logiquement des propos",
+        "3. en adaptant sa prise de parole à la situation de communication",
+        "4. en prenant en compte le contexte de communication et les caractéristiques des divers genres oraux",
+        "5. en prenant en compte les caractéristiques de l’oralité (prononciation, volume, débit, gestes,…)",
+        "6. en prenant en compte les consignes et les interventions de l’enseignant et celles des autres élèves"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Amélioration de l’élocution (articulation, respiration, volume, débit,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Utilisation de mots de grande fréquence en lien avec la vie de la classe"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Découverte de mots nouveaux et d’expressions nouvelles"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Reconnaissance et utilisation de mots nouveaux et d’expressions nouvelles"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Prise de conscience des effets de son propre discours sur autrui"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "contenu": [
+            "Interprétation du langage verbal et non verbal (expressions gestuelles, mimiques, intonations, volume, débit,…) pour montrer son intérêt, son incompréhension"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Compréhension d’une histoire ou d’un conte :",
+            "– répétition d’un passage de l’histoire entendue (texte à structure répétitive)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– reformulation de l’histoire entendue avec l’aide de l’enseignant"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– reformulation (à l’aide de ses propres mots) de l’histoire entendue"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "Création d’une histoire :"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– prise de parole devant la classe : oser s’exprimer",
+            "– restitution de l’ordre chronologique d’une histoire"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "contenu": [
+            "– prise de risque de formulation : oser s’exprimer",
+            "– organisation d’une histoire dans un ordre chronologique"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Conversation à partir de situations vécues"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Compréhension de récits, de situations vécues :"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– repérage des personnages dans le cadre d’un récit",
+            "– repérage des événements du récit"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– repérage des personnages et de leurs actions dans le cadre d’un récit",
+            "– repérage de la suite des événements du récit"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– questionnement pour enrichir ses informations"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– perception de la véracité des faits relatés (distinction entre réel et imaginaire)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "Production de récits à partir de situations vécues :",
+            "– énonciation des événements vécus par un enfant"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "contenu": [
+            "– organisation du récit dans un ordre chronologique"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "Échange dans le cadre d’une discussion (conseil de classe, débat,…) :",
+            "– respect des règles convenues (prise de parole, divergence des avis,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– écoute de l’avis des autres",
+            "– formulation de la pensée : émettre une opinion et utiliser l’organisateur parce que"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "contenu": [
+            "– écoute et prise en compte de l’avis des autres",
+            "– formulation de la pensée : émettre une opinion, défendre ses idées, clarifier ses propos, demander des compléments d’information, reformuler"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Compréhension d’un thème présenté en classe (objet, animal,…) :"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– restitution de quelques informations"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "– restitution et reformulation des informations reçues"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui transmet des savoirs",
+          "contenu": [
+            "Présentation d’un sujet (objet, animal,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Compréhension de consignes pour agir (recette, bricolage, jeu,…) :"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– identification de la consigne en tant que genre"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– respect des étapes d’exécution à l’aide de l’enseignant"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– respect des étapes d’exécution",
+            "– reformulation de consignes entendues"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "Création de consignes pour agir (recette, bricolage, jeu,…) :"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– indication des étapes d’exécution"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "contenu": [
+            "– reformulation des consignes produites"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Compréhension et/ou mémorisation de textes poétiques ou de jeux de mots (chansons, poèmes, comptines, charades,…) :",
+            "– écoute de comptines et poésies en portant son attention sur les intonations, le volume et le débit",
+            "– perception des sonorités de la langue, repérage de rimes"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Création de textes poétiques ou de jeux de mots à l’aide de l’enseignant (chansons, poèmes, comptines, charades,…) :",
+            "– développement de la prononciation",
+            "– récitation de comptines, poésies, chansons"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "contenu": [
+            "Création de textes poétiques ou de jeux de mots (chansons, poèmes, comptines, charades,…) :",
+            "– amélioration de la prononciation",
+            "– interprétation de comptines, poésies, chansons"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "comprend le sens général d’un énoncé lié à la vie familiale et/ou scolaire"
+        },
+        {
+          "fin": "4e",
+          "notion": "Apprentissages communs à tous les genres de textes",
+          "texte": "utilise un vocabulaire approprié au sujet et au contexte"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui raconte",
+          "texte": "remet dans l'ordre les illustrations d'une histoire ou d'un conte et en restitue le sens général"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "repère les personnages et la suite des événements dans un récit entendu"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui relate",
+          "texte": "raconte une situation vécue en respectant la suite des événements"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui argumente",
+          "texte": "émet une opinion ou une demande en utilisant l’organisateur «parce que»"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui règle des comportements",
+          "texte": "comprend, en situation, l’essentiel d’une consigne"
+        },
+        {
+          "fin": "4e",
+          "notion": "Les regroupements de genres › Le texte qui joue avec la langue – Le texte poétique",
+          "texte": "récite une comptine ou une poésie d’une manière expressive"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/11",
+      "code": "L1 15",
+      "axe": "Accès à la littérature",
+      "titre": "Apprécier des ouvrages littéraires",
+      "composantes": [
+        "1. en se repérant dans une bibliothèque",
+        "2. en participant à des moments de lecture",
+        "3. en identifiant ses propres goûts",
+        "4. en affinant ses critères de choix",
+        "5. en communiquant ses sentiments à propos d’un livre",
+        "6. en fréquentant les lieux de lecture"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte du livre",
+          "contenu": [
+            "Respect du livre en le manipulant avec soin"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte du livre",
+          "contenu": [
+            "Reconnaissance de l’orientation de l’écriture (de gauche à droite, de haut en bas)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte du livre",
+          "contenu": [
+            "Découverte de l'usage et des caractéristiques du livre (taille, matière, orientation, couverture, pages,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte du livre",
+          "contenu": [
+            "Distinction entre texte et image (dans un album, sur une affiche,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte du livre",
+          "contenu": [
+            "Comparaison de divers ouvrages"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Découverte de la diversité des genres de texte (album illustré, documentaire, bande dessinée,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Distinction des ouvrages selon leur genre de texte (album illustré, documentaire, bande dessinée,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Découverte du livre (titre, auteur, illustrateur, édition, résumé,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Repérage des caractéristiques propres au livre (titre, auteur, illustrateur, édition, résumé,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Classement des ouvrages (par thèmes, auteur, édition, collection,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Sensibilisation aux différents supports écrits (journal, livre, affiche,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "contenu": [
+            "Identification de différents supports écrits et de leur utilité (journal, annuaire téléphonique, catalogue, dictionnaire,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Découverte de la bibliothèque › Utilisation d'une bibliothèque publique",
+          "contenu": [
+            "Découverte de l'organisation de la bibliothèque publique avec l'aide de l'adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Utilisation d'une bibliothèque publique",
+          "contenu": [
+            "Recherche autonome d’un ouvrage (par genres de textes,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte de la bibliothèque › Utilisation d'une bibliothèque publique",
+          "contenu": [
+            "Apprentissage de la procédure d'emprunt d'un livre"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Découverte des émotions ressenties à la lecture ou à l'écoute d'un livre (peur, rire, tristesse,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Identification aux personnages"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Établissement de liens avec son vécu"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Interaction entre les élèves et l'enseignant en lien avec la lecture"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Représentation mentale du contenu de l'histoire (faire dessiner, jouer, mimer, une scène de l'histoire entendue,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Appréciation d'un livre › Appréciation d'un livre pendant l'écoute ou la lecture",
+          "contenu": [
+            "Sensibilisation au choix des mots et des sonorités"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Échange autour du livre après l'écoute ou la lecture",
+          "contenu": [
+            "Présentation d'un livre aux autres"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Appréciation d'un livre › Échange autour du livre après l'écoute ou la lecture",
+          "contenu": [
+            "Réécoute d'une histoire pour le plaisir"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Appréciation d'un livre › Échange autour du livre après l'écoute ou la lecture",
+          "contenu": [
+            "Commentaires et critiques au sujet d'un livre"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Appréciation d'un livre › Échange autour du livre après l'écoute ou la lecture",
+          "contenu": [
+            "Échange sur ses lectures (avis, appréciation, transmission de savoirs,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "contenu": [
+            "Sélection de livres d'après l'apparence, le thème, le titre, le résumé,…"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "contenu": [
+            "Découverte de ses préférences pour certains livres"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "contenu": [
+            "Identification de ses livres préférés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "contenu": [
+            "Identification de ses auteurs et illustrateurs préférés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "contenu": [
+            "Identification de ses collections et éditions préférées"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Choix d'un livre › Choix selon les besoins liés aux apprentissages et aux activités de la classe",
+          "contenu": [
+            "Distinction entre récits de fictions et textes pour apprendre"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Choix d'un livre › Choix selon les besoins liés aux apprentissages et aux activités de la classe",
+          "contenu": [
+            "Recherche d'informations à l'aide de l'adulte pour enrichir ses connaissances"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Choix d'un livre › Choix selon les besoins liés aux apprentissages et aux activités de la classe",
+          "contenu": [
+            "Recherche d'informations pour enrichir ses connaissances"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Évolution dans ses lectures › Découverte de nombreux livres adaptés à son âge",
+          "contenu": [
+            "Établissement de liens entre différents livres"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Évolution dans ses lectures › Découverte de nombreux livres adaptés à son âge",
+          "contenu": [
+            "Construction d'une culture littéraire en rapport avec la littérature enfantine et en réinvestissant les acquis"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Évolution dans ses lectures › Découverte de nombreux livres adaptés à son âge",
+          "contenu": [
+            "Écoute d’ouvrages complets adaptés à son âge"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Évolution dans ses lectures › Découverte de nombreux livres adaptés à son âge",
+          "contenu": [
+            "Lecture d’ouvrages complets adaptés à son âge et à ses compétences",
+            "Écoute et lecture d’ouvrages complets en augmentant progressivement la longueur et la complexité"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "texte": "trie de manière autonome des ouvrages selon leur genre de texte (albums, documentaires, BD,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte de la bibliothèque › Organisation et utilisation d’une bibliothèque de classe",
+          "texte": "retrouve aisément des ouvrages dans la bibliothèque de classe"
+        },
+        {
+          "fin": "4e",
+          "notion": "Choix d'un livre › Choix selon ses goûts personnels",
+          "texte": "retrouve un livre d’une même collection, d’un même illustrateur ou d’un même auteur"
+        },
+        {
+          "fin": "4e",
+          "notion": "Choix d'un livre › Choix selon les besoins liés aux apprentissages et aux activités de la classe",
+          "texte": "choisit entre un album et un documentaire le livre adapté à son projet"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/12",
+      "code": "L1 16",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+      "composantes": [
+        "1. en s ’interrogeant sur l’usage de la langue et sur les régularités de son fonctionnement",
+        "2. en apprenant à consulter et à élaborer des outils de référence adaptés à ses besoins",
+        "3. en élaborant des règles utiles à la compréhension et à la production de textes écrits et oraux (orthographe, morphologie, syntaxe,…)",
+        "4. en identifiant les premières catégories d’unités grammaticales et les fonctions de base (texte, phrase, mot, nom, verbe,…)",
+        "5. en exprimant ses observations sur des productions langagières diverses",
+        "6. en élaborant un vocabulaire commun pour parler du langage et de la langue"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-2e",
+          "notion": "Grammaire de la phrase",
+          "contenu": [
+            "Pour la grammaire, la 1re partie du cycle se limite à la sensibilisation de la syntaxe du langage parlé et à la reformulation par l’enseignant d’erreurs orales commises par l’élève (avec répétition occasionnelle de l’élève)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les constituants",
+          "contenu": [
+            "Repérage des constituants obligatoires et des constituants facultatifs"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales",
+          "contenu": [
+            "Identification des constituants du Groupe nominal – GN (Déterminant + Nom – D + N)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les classes grammaticales",
+          "contenu": [
+            "Dans la phrase simple, identification du verbe dans le Groupe verbal – GV"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Reconnaissance des groupes de la phrase simple par manipulation"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Identification du Sujet dans une phrase simple"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Identification du Groupe verbal – GV dans une phrase simple"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les fonctions",
+          "contenu": [
+            "Identification du Complément de phrase – CP (groupe facultatif et permutable)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › La pronominalisation",
+          "contenu": [
+            "Pronominalisation du Groupe nominal sujet – GNS (il – ils – elle – elles)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Les actes de parole liés aux types et formes de phrase"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Observation des phrases de types déclaratif et interrogatif"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Observation de phrases de formes positive et négative"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Grammaire de la phrase › Les types et formes de phrase",
+          "contenu": [
+            "Identification et emploi des divers actes de parole (interroger, inciter à répondre, à agir, s’exclamer,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Sensibilisation au respect de l'orthographie dans la production écrite"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Observation des liens entre l’oral et l’écrit par l’utilisation de la dictée à l’adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Acquisition des premières notions en orthographe"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Écriture de son prénom"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Copie sans faute"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Copie de mots simples d’après un modèle (pour papa, pour maman,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Utilisation et création de documents de référence (liste de mots, imagier,…) pour orthographier correctement des mots"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Repérage d’une lettre ou d’un mot identique à un modèle donné (correspondance terme à terme)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Identification et utilisation des graphies fondamentales retranscrivant un son ([o] o, au, eau ;…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Mémorisation de l’image d’une lettre (1re lettre de son prénom,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Repérage de quelques régularités du système orthographique : valeur de position («m» devant p et b) et valeur zéro (lettre muette)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Mémorisation de l’image d’un mot (son prénom,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Apprentissage de l’orthographe d’un capital mots de grande fréquence en relation avec la vie de la classe"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Reconnaissance et écriture de quelques homophones en lien avec les activités de la classe"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Restitution des 26 lettres de l’alphabet dans l’ordre"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Situation des lettres de l’alphabet les unes par rapport aux autres"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Classification des mots selon l’ordre alphabétique"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe lexicale",
+          "contenu": [
+            "Recherche d’un mot dans un dictionnaire"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Distinction Nom propre et Nom commun (majuscule, minuscule)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Identification du masculin et du féminin"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Identification du singulier et du pluriel"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Observation et application de l’accord en genre et en nombre du Déterminant et du Nom (pluriel en –s)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Orthographe grammaticale",
+          "contenu": [
+            "Observation et application de l’accord du verbe avec le sujet dans la phrase simple (singulier, pluriel des verbes du type «chanter»)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Vocabulaire",
+          "contenu": [
+            "Constitution et exploration d’un champ lexical (vie quotidienne, nature, transports, loisirs,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Vocabulaire",
+          "contenu": [
+            "Exploration d’un champ sémantique (ex. : l’herbe pousse, il pousse la porte,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Vocabulaire",
+          "contenu": [
+            "Exploration d’un champ morpho-sémantique (ex. : maison, maisonnette, jouer, joueur, rejouer, jouet,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Vocabulaire",
+          "contenu": [
+            "Découverte et recherche de mots selon certains critères (terme spécifique, mots de la même famille, mots de sens proche, mots de sens opposé)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Vocabulaire",
+          "contenu": [
+            "Recherche et classement de mots selon certains critères :",
+            "– relation d’hyponymie (termes spécifiques : chat, chien, vache, cochon,… terme générique : les animaux)",
+            "– mots de la même famille (chant, chanter, chanteur,…)",
+            "– mots de sens proche (content, joyeux, gai,…)",
+            "– mots de sens opposé (grand/petit, monter/descendre,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Situation des événements sur la ligne du temps (passé, présent et avenir)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Reformulation par l’enseignant d’erreurs orales commises par l’élève (avec répétition occasionnelle de l’élève)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification des acteurs de la communication représentés par les pronoms de conjugaison (je, tu, il, elle, on, nous, vous, ils, elles)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Identification de référents (il, elle, ils, elles)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Recherche de l’infinitif d’une forme conjuguée faisant partie des verbes travaillés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Observation de quelques régularités du système verbal à l’oral"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Conjugaison orale de verbes à l’imparfait et repérage des régularités des terminaisons"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Conjugaison orale au présent des verbes du type «chanter» + être, avoir et aller et repérage des régularités des terminaisons"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison › Passage de l’oral à l’écrit",
+          "contenu": [
+            "Observation des constantes des terminaisons à l’écrit de l’imparfait et du présent des verbes du type «chanter» + être, avoir et aller"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Conjugaison › Passage de l’oral à l’écrit",
+          "contenu": [
+            "Utilisation des verbes du type «chanter» + être, avoir et aller au présent et à l’imparfait dans des productions écrites à l’aide de références"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Distinction entre texte et image (dans un album, sur une affiche,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Sensibilisation à des notions (chiffre, lettre, mot,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Acquisition des notions de texte, phrase, mot, lettre"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Reconnaissance du sens de l’écriture (de gauche à droite)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Prise en compte des repères typographiques des phrases d’un texte (majuscule et point)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Repérage de certains signes de ponctuation (. ? !)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Utilisation du point dans une phrase"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Utilisation de la majuscule en début de phrase et dans les noms propres"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Segmentation d’une phrase écrite en mots lors de la dictée à l’adulte"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Segmentation d’une phrase écrite en mots"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Segmentation de mots en syllabes à l’oral"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Segmentation de mots en syllabes à l’oral et à l’écrit"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Connaissance de la combinatoire (fusion syllabique et correspondance phonème-graphème)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Reconnaissance de quelques lettres (celles de son prénom,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "contenu": [
+            "Reconnaissance des lettres en les nommant"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Grammaire de la phrase › Les constituants",
+          "texte": "délimite dans des phrases simples (sans complément de phrase) des groupes de sens selon les fonctions de base (sujet et groupe verbal)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Orthographe lexicale",
+          "texte": "orthographie quelques mots de grande fréquence (thèmes travaillés en classe)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Orthographe lexicale",
+          "texte": "recherche des mots dans les documents de référence de la classe pour les orthographier correctement"
+        },
+        {
+          "fin": "4e",
+          "notion": "Orthographe lexicale",
+          "texte": "récite les 26 lettres de l’alphabet dans l’ordre"
+        },
+        {
+          "fin": "4e",
+          "notion": "Orthographe lexicale",
+          "texte": "classe des mots selon l’ordre alphabétique (lettre initiale différente)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Orthographe grammaticale",
+          "texte": "accorde le nom avec le déterminant dans un groupe nominal simple (pluriel en –s)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Vocabulaire",
+          "texte": "utilise un vocabulaire adéquat dans ses propres productions"
+        },
+        {
+          "fin": "4e",
+          "notion": "Vocabulaire",
+          "texte": "utilise ses connaissances du système lexical pour donner du sens à ce qu’il lit"
+        },
+        {
+          "fin": "4e",
+          "notion": "Conjugaison",
+          "texte": "conjugue oralement au présent les verbes du type «chanter» + être, avoir et aller en utilisant les pronoms (je, tu, il, elle, on, nous, vous, ils, elles)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "texte": "identifie les concepts de texte, de phrase, de mot, de lettre"
+        },
+        {
+          "fin": "4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "texte": "segmente une phrase écrite en mots"
+        },
+        {
+          "fin": "4e",
+          "notion": "Du texte à la phrase et de la phrase au mot",
+          "texte": "reconnaît et nomme toutes les lettres"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Grammaire de la phrase › Les constituants",
+          "texte": "Travailler avec une grammaire intuitive pour l’élève durant les 1re et 2e années du cycle"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/14",
+      "code": "L1 18",
+      "axe": "Écriture et instruments de la communication",
+      "titre": "Découvrir et utiliser la technique de l'écriture et les instruments de la communication",
+      "composantes": [
+        "1. en écrivant lisiblement de manière cursive (tracé des lettres)",
+        "2. en adaptant son support d’écriture au but poursuivi",
+        "3. en utilisant la diversité des outils et en identifiant leurs différences",
+        "4. en se familiarisant avec les commandes de base des appareils audiovisuels et informatiques (marche/arrêt, reconnaissance des touches et des principales fonctions)",
+        "5. en développant le décodage des médias et des images",
+        "6. en s’initiant à l’usage critique d’Internet",
+        "7. en produisant des documents (texte, dessin, enregistrement,…)",
+        "8. en utilisant, en tenant, en guidant différents instruments scripteurs (crayon, craie, pinceau,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Développement de la motricité globale",
+          "contenu": [
+            "Connaissance et maîtrise du schéma corporel (coordination, posture,…)",
+            "Occupation et gestion de l’espace (orientation, positions,…)",
+            "Construction de la latéralité"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Développement de la motricité fine",
+          "contenu": [
+            "Contrôle du geste (épaule, coude, poignet, doigts)",
+            "Choix d’un côté préférentiel pour tenir et manier un outil",
+            "Acquisition de la fluidité dans le mouvement (coordination, souplesse, précision,…)",
+            "Coordination oculo-manuelle"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Ajustement de la posture et des points d’appui",
+            "Ajustement de la prise de la main à l’outil scripteur (tenue, pression, force,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Occupation et organisation de l’espace (feuille, tableau,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Respect du positionnement des lettres (corps d’écriture complet, ligne de base,…)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Respect des dimensions des lettres (calibrage)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Mise en page d’un écrit (respect de la marge, des espaces entre mots et lignes,…)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Respect du sens de l’écriture : départ, arrivée"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Reproduction correcte des chiffres, des lettres minuscules et majuscules"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Acquisition des schèmes de l’écriture (vertical, horizontal, mouvement circulaire, demi-circulaire, oblique, boucle, spirale)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Respect du sens de rotation"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Enchaînement des tracés"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Respect de la régularité du tracé dans un espace donné"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Développement de la graphomotricité",
+          "contenu": [
+            "Apprentissage de la liaison des lettres"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Développement de la graphomotricité",
+          "texte": "écrit un mot dans un espace donné (une étiquette,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Développement de la graphomotricité",
+          "texte": "recopie un texte court en respectant la mise en page"
+        },
+        {
+          "fin": "4e",
+          "notion": "Développement de la graphomotricité",
+          "texte": "mémorise le tracé des chiffres, des lettres minuscules et majuscules et leurs liaisons"
+        },
+        {
+          "fin": "4e",
+          "notion": "Développement de la graphomotricité",
+          "texte": "recopie un texte court de manière lisible et soignée en écriture cursive"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/13",
+      "code": "L 17",
+      "axe": "Approches interlinguistiques",
+      "titre": "Identifier l'organisation et le fonctionnement de la langue par l'observation et la manipulation d'autres langues",
+      "composantes": [
+        "1. en envisageant le développement des langues dans l’espace et le temps",
+        "2. en établissant des liens entre différentes pratiques culturelles et linguistiques",
+        "3. en mobilisant ses connaissances dans sa langue d’origine",
+        "4. en identifiant les langues d’origine présentes en classe pour en tirer profit",
+        "5. en liant plurilinguisme et vécu des élèves",
+        "6. en observant des caractéristiques de différentes langues et écritures"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'oral",
+          "contenu": [
+            "Découverte des différentes langues parlées dans la classe"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'oral",
+          "contenu": [
+            "Découverte des langues nationales et des langues parlées dans d’autres pays"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'oral",
+          "contenu": [
+            "Écoute, répétition et utilisation de mots de diverses langues :",
+            "– mots simples (bonjour, merci,…)",
+            "– chants et comptines (joyeux anniversaire, frère Jacques,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'oral",
+          "contenu": [
+            "Compréhension et utilisation de mots empruntés à d’autres langues (hamburger, snowboard, igloo, clown,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'écrit",
+          "contenu": [
+            "Observation de différents systèmes d’écriture :",
+            "– idéogrammes chinois, hiéroglyphes,…",
+            "– alphabet arabe, latin, grec,…"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'écrit",
+          "contenu": [
+            "Sensibilisation aux divers systèmes graphiques par l’observation du sens de l’écrit :",
+            "– de droite à gauche",
+            "– de bas en haut"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Sensibilisation à la diversité des langues à l'écrit",
+          "contenu": [
+            "Perception globale d’un genre textuel (forme, fonction) avant d’en saisir le sens (une affiche)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à d'autres systèmes de communication (non verbale)",
+          "contenu": [
+            "Découverte des possibilités de transmettre un message par des bruits (applaudir, siffler,…)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Sensibilisation à d'autres systèmes de communication (non verbale)",
+          "contenu": [
+            "Découverte de l’usage universel du pictogramme et du langage gestuel (doigt sur la bouche = silence,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

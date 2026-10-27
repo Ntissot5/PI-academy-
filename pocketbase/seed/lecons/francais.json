@@ -1,0 +1,692 @@
+{
+ "lecons": {
+  "f-syllabes": {
+   "titre": "Les syllabes",
+   "regle": "Une syllabe est un morceau de mot que l’on prononce d’un seul coup de voix. Pour compter les syllabes, on dit le mot lentement et on tape dans ses mains à chaque morceau. Pour lire un mot nouveau, on assemble les syllabes dans l’ordre, de gauche à droite.",
+   "exemple": "la – pin (2 syllabes) · cho – co – lat (3 syllabes) · train (1 syllabe)",
+   "image": "Pi marche en sautant : un saut pour chaque syllabe. « Pa-ra-sol » : trois sauts !",
+   "piege": "Une syllabe n’est pas une lettre : « train » a 5 lettres, mais une seule syllabe.",
+   "icone": "note"
+  },
+  "f-rimes": {
+   "titre": "Les rimes",
+   "regle": "Deux mots riment quand ils finissent par le même son : bateau et gâteau finissent par « o ». Pour savoir si deux mots riment, on les dit à voix haute et on écoute seulement la fin. Les comptines et les poèmes jouent souvent avec les rimes.",
+   "exemple": "chapeau – bateau – vélo (son « o ») · lapin – sapin – matin (son « in »)",
+   "image": "Pi écoute la fin des mots comme le dernier coup de tambour d’une chanson : si le coup est le même, ça rime.",
+   "piege": "On écoute le son, pas les lettres : « vélo » et « bateau » riment, même s’ils ne s’écrivent pas pareil.",
+   "icone": "star"
+  },
+  "f-lettres": {
+   "titre": "Lettres, mots et phrases",
+   "regle": "Une lettre est un petit signe (a, b, c…). Les lettres forment des mots, et les mots sont séparés par des espaces. Une phrase commence par une majuscule et se termine par un point. En français, on lit et on écrit de gauche à droite, puis de haut en bas. Les chiffres (1, 2, 3…) servent à écrire les nombres, les lettres à écrire les mots.",
+   "exemple": "« Le chat dort. » : une phrase, trois mots ; « chat » a quatre lettres.",
+   "image": "Les lettres sont les perles, les mots sont les colliers, et la phrase est la boîte où Pi range tous les colliers.",
+   "piege": "Attention aux lettres qui se ressemblent : b et d, p et q, m et n. Compare bien le sens des traits.",
+   "icone": "eye"
+  },
+  "f-sons": {
+   "titre": "Les sons et les lettres",
+   "regle": "Un même son peut s’écrire de plusieurs façons : le son « o » s’écrit o (vélo), au (jaune) ou eau (bateau). Le son « in » s’écrit in, ain, ein ou im. Devant m, b et p, on écrit m à la place de n (lampe, jambe). Certaines lettres ne se prononcent pas : le t de chat, le s de dos. Un mot de la même famille aide à les trouver (chaton).",
+   "exemple": "bateau → eau · jambe → m devant b · chat → t muet (chaton)",
+   "image": "Pi a plusieurs costumes pour le même son : il s’habille en « o », en « au » ou en « eau », mais c’est toujours lui !",
+   "piege": "« Bonbon » s’écrit avec n devant b : c’est une exception à connaître.",
+   "icone": "note"
+  },
+  "f-alphabet": {
+   "titre": "L’ordre alphabétique",
+   "regle": "L’alphabet a 26 lettres, toujours dans le même ordre : a, b, c… jusqu’à z. Pour ranger des mots, on compare leur première lettre ; si elle est la même, on compare la deuxième, puis la troisième. Dans un dictionnaire, les mots sont rangés ainsi, et les mots repères en haut de la page indiquent le premier et le dernier mot de la page.",
+   "exemple": "banane, cadeau, canard (ca-d avant ca-n), lapin",
+   "image": "Pi range sa bibliothèque comme une file d’attente : chaque mot prend sa place selon ses lettres, une à une.",
+   "piege": "Ne t’arrête pas à la première lettre : « canard » et « cadeau » commencent tous deux par c-a, c’est la troisième lettre qui décide.",
+   "icone": "folder"
+  },
+  "f-phrase-c1": {
+   "titre": "Le sujet, le verbe et les groupes",
+   "regle": "Une phrase simple contient un sujet (qui fait l’action ?) et un groupe verbal (le verbe et ce qui le suit). On trouve le verbe en changeant le temps : hier, demain. On trouve le sujet avec « Qui est-ce qui … ? ». Le complément de phrase dit où ou quand : on peut le déplacer ou le supprimer. Le sujet peut être remplacé par il, elle, ils ou elles.",
+   "exemple": "Dans la cour, les enfants jouent au ballon. → sujet : les enfants (ils) · verbe : jouent · complément de phrase : dans la cour",
+   "image": "La phrase est un train : la locomotive (le sujet) et le wagon du verbe sont obligatoires ; le wagon « où, quand » peut changer de place ou rester au dépôt.",
+   "piege": "Le sujet n’est pas toujours le premier mot : dans « Dans la cour, les enfants jouent », le sujet est « les enfants ».",
+   "icone": "pin"
+  },
+  "f-gn-c1": {
+   "titre": "Le nom : masculin, féminin, singulier, pluriel",
+   "regle": "Un nom est masculin si l’on dit « un » ou « le » devant (un vélo), féminin si l’on dit « une » ou « la » (une pomme). Au singulier, il y a un seul élément ; au pluriel, plusieurs. Au pluriel, le nom prend en général un -s (les chats), et le déterminant change aussi (les, des, mes).",
+   "exemple": "un vélo → des vélos · la pomme → les pommes · un bateau → des bateaux",
+   "image": "Le déterminant est le petit drapeau que Pi plante devant le nom : il annonce s’il y en a un ou plusieurs.",
+   "piege": "Le -s du pluriel ne s’entend pas : « le chat » et « les chats » se disent presque pareil. Regarde le déterminant !",
+   "icone": "flower"
+  },
+  "f-types1": {
+   "titre": "Phrases déclaratives et interrogatives",
+   "regle": "La phrase déclarative donne une information et se termine par un point. La phrase interrogative pose une question et se termine par un point d’interrogation. La phrase exprime parfois une émotion forte : elle se termine par un point d’exclamation. Une phrase est négative quand elle contient « ne … pas » (ou ne … jamais, ne … plus) autour du verbe ; sinon, elle est positive. Devant une voyelle, « ne » devient « n’ ».",
+   "exemple": "Léa mange une pomme. (déclarative) · Où habites-tu ? (interrogative) · Je n’aime pas les épinards. (négative)",
+   "image": "Pi met un chapeau différent à la fin de chaque phrase : un point pour dire, un crochet « ? » pour demander, un éclair « ! » pour s’exclamer.",
+   "piege": "À l’écrit, on n’oublie jamais le « ne » : « il aime pas » se dit parfois à l’oral, mais on écrit « il n’aime pas ».",
+   "icone": "mail"
+  },
+  "f-conj-c1": {
+   "titre": "Conjuguer au présent et à l’imparfait",
+   "regle": "Le verbe change selon la personne : je, tu, il, elle, on, nous, vous, ils, elles. « Je » désigne celui qui parle, « tu » celui à qui l’on parle, « il / elle » une autre personne. Au présent, les verbes comme « chanter » finissent par -e, -es, -e, -ons, -ez, -ent. À l’imparfait : -ais, -ais, -ait, -ions, -iez, -aient. On retrouve l’infinitif en disant « il faut … » (il faut chanter).",
+   "exemple": "je chante, tu chantes, ils chantent · je chantais, nous chantions · être : je suis ; avoir : j’ai ; aller : je vais",
+   "image": "Le verbe est un caméléon : Pi le voit changer de couleur selon la personne qui parle.",
+   "piege": "« Ils chantent » : le -ent ne se prononce pas, mais il faut l’écrire.",
+   "icone": "cal31"
+  },
+  "f-chronologie": {
+   "titre": "Passé, présent, futur",
+   "regle": "Une action peut se passer dans le passé (hier, autrefois), maintenant (en ce moment, aujourd’hui) ou dans le futur (demain, bientôt, la semaine prochaine). Les mots qui disent quand et le temps du verbe aident à placer l’action sur la ligne du temps. Dans une histoire, les événements se suivent dans un ordre : d’abord, ensuite, enfin.",
+   "exemple": "Hier, nous sommes allés au cirque. (passé) · Demain, nous irons à la piscine. (futur)",
+   "image": "Pi se promène sur une ligne du temps : derrière lui, hier ; sous ses pieds, maintenant ; devant lui, demain.",
+   "piege": "« Ce matin » peut être passé ou présent : regarde aussi le verbe.",
+   "icone": "cal31"
+  },
+  "f-mots-c1": {
+   "titre": "Ranger les mots",
+   "regle": "Certains mots désignent une catégorie : « animaux » regroupe chat, chien, vache. Les mots de la même famille se ressemblent et ont un sens lié : chant, chanter, chanteur. Deux mots peuvent avoir un sens proche (content, joyeux) ou un sens contraire (grand, petit). Les suffixes changent le sens : -ette veut dire petit (maisonnette), -eur désigne celui qui fait l’action (joueur).",
+   "exemple": "fruits : pomme, poire, cerise · famille : dent, dentiste · contraires : monter / descendre",
+   "image": "Pi range ses mots dans des tiroirs : le tiroir des animaux, celui des couleurs… et celui de la famille « chant ».",
+   "piege": "Deux mots qui se ressemblent ne sont pas toujours de la même famille : « champ » n’a rien à voir avec « chanter ».",
+   "icone": "flower"
+  },
+  "f-lecture-c1": {
+   "titre": "Lire et comprendre un texte",
+   "regle": "Pour comprendre un texte, on cherche : de quoi il parle, qui sont les personnages, ce qui se passe et dans quel ordre. On repère aussi le type de texte : une histoire (souvent « Il était une fois »), une recette (le matériel, puis les étapes), une carte postale ou une lettre (qui écrit, à qui), un texte documentaire (des informations vraies). La réponse est presque toujours écrite dans le texte : relis le passage qui en parle.",
+   "exemple": "« Il te faut : … un couteau. » → le matériel nécessaire est le couteau.",
+   "image": "Pi lit comme un détective : il relit la phrase qui contient l’indice avant de répondre.",
+   "piege": "Réponds avec ce que dit le texte, pas avec ce que tu imagines.",
+   "icone": "report"
+  },
+  "f-majuscules": {
+   "titre": "Les majuscules",
+   "regle": "On met une majuscule au début de chaque phrase et aux noms propres : prénoms (Lucie), villes (Lugano), pays (la Suisse), montagnes, rivières, noms d’animaux précis (Filou), habitants (les Valaisans). Les noms communs, les jours, les mois et les langues s’écrivent sans majuscule. Après un point, un point d’interrogation ou d’exclamation qui terminent la phrase, majuscule ; après une virgule, un point-virgule ou les deux-points, minuscule.",
+   "exemple": "Lundi, Inès part à Lugano. · Un Italien parle italien.",
+   "image": "La majuscule, c’est la couronne que Pi pose sur les noms qui désignent quelqu’un ou un lieu unique.",
+   "piege": "« lundi », « juillet », « le français » : pas de majuscule ! Mais « les Français » (les habitants) en prennent une.",
+   "icone": "pin"
+  },
+  "f-orthographe": {
+   "titre": "Les mots fréquents",
+   "regle": "Certains mots reviennent sans cesse dans les textes : beaucoup, toujours, maintenant, parce que, aujourd’hui, avec, dans, après, déjà, très, chez… Ils ne suivent pas toujours une règle : on les apprend par cœur. Pour les retenir, on les épelle, on les copie, on les écrit sans modèle puis on vérifie.",
+   "exemple": "parce que (en deux mots) · aujourd’hui (avec une apostrophe) · beaucoup (eau)",
+   "image": "Ces mots sont les copains de Pi : il les croise tous les jours, il finit par les reconnaître de loin.",
+   "piege": "« parce que » s’écrit en deux mots, sans trait d’union ; « déjà » prend deux accents.",
+   "icone": "note"
+  },
+  "f-homolex": {
+   "titre": "Les homophones lexicaux",
+   "regle": "Des homophones se prononcent de la même façon mais s’écrivent différemment et n’ont pas le même sens : la mer, la mère, le maire. Pour choisir la bonne orthographe, on se demande ce que le mot veut dire dans la phrase. Un mot de la même famille peut aider : vert → verdure, verre → verrerie.",
+   "exemple": "Il boit un verre d’eau. · Le pré est vert. · Le ver de terre sort.",
+   "image": "Pour Pi, ce sont des jumeaux : même voix, mais pas le même métier. Il faut regarder ce qu’ils font dans la phrase.",
+   "piege": "Ne choisis pas au hasard : relis toute la phrase pour trouver le sens.",
+   "icone": "eye"
+  },
+  "f-polysemie": {
+   "titre": "Les mots à plusieurs sens",
+   "regle": "Un même mot peut avoir plusieurs sens : la souris (l’animal ou l’objet de l’ordinateur), la glace (le dessert, le miroir ou l’eau gelée). C’est le contexte, c’est-à-dire les mots autour, qui indique le bon sens. Dans le dictionnaire, les différents sens sont numérotés.",
+   "exemple": "L’herbe pousse. (grandit) · Il pousse la porte. (appuie pour déplacer)",
+   "image": "Pi porte le même bonnet pour aller au ski et pour dormir : c’est la situation qui dit à quoi il sert.",
+   "piege": "Ne prends pas le premier sens qui te vient : vérifie qu’il convient à la phrase.",
+   "icone": "molecule"
+  },
+  "f-fonctions1": {
+   "titre": "Les fonctions dans la phrase",
+   "regle": "Le sujet commande l’accord du verbe ; on le trouve avec « c’est … qui ». Le complément du verbe fait partie du groupe verbal : on ne peut ni le supprimer ni le déplacer (il lit un livre, il parle à sa voisine). Le complément de phrase peut être déplacé et supprimé (chaque été, dans le parc). L’attribut du sujet suit un verbe comme être, sembler, devenir, rester, paraître et dit comment est le sujet.",
+   "exemple": "Chaque été (CP), mes cousins (sujet) visitent le château (CV). · Ce gâteau est délicieux (attribut).",
+   "image": "Pi fait le test du déménagement : s’il peut déplacer ou enlever un groupe sans casser la phrase, c’est un complément de phrase.",
+   "piege": "« Mes parents habitent à Montreux » : « à Montreux » ne peut pas être supprimé, c’est un complément du verbe.",
+   "icone": "pin"
+  },
+  "f-fonctions2": {
+   "titre": "Fonctions : sujet, compléments, attribut",
+   "regle": "Le sujet peut être un groupe nominal, un pronom, un nom ou un infinitif (Nager fait du bien). Le complément du nom complète un nom dans le groupe nominal : un adjectif (un pull rouge), un groupe introduit par une préposition (la maison de mes grands-parents) ou une subordonnée relative (la fille qui chante). Le modificateur du verbe est un adverbe qui précise le verbe (il mange lentement). Le complément de phrase peut être un groupe nominal, un adverbe (demain) ou une subordonnée (quand il pleut).",
+   "exemple": "Le chat de ma voisine (CN) dort paisiblement (modificateur). · Quand il pleut (CP), je lis.",
+   "image": "Pi imagine la phrase comme une maison : le sujet et le verbe sont les murs, les compléments du nom décorent les pièces, le complément de phrase est le jardin qu’on peut déplacer.",
+   "piege": "Un adjectif qui suit « être » est attribut du sujet (il est rouge) ; placé à côté du nom, il est complément du nom (un pull rouge).",
+   "icone": "pin"
+  },
+  "f-fonctions3": {
+   "titre": "Attribut du complément du verbe et modificateurs",
+   "regle": "L’attribut du complément du verbe dit comment est le complément direct, après des verbes comme trouver, rendre, élire, nommer, croire (Je trouve ce film passionnant → ce film est passionnant). Le modificateur nuance un adjectif (très lourd), un adverbe (trop vite) ou un verbe (il parle fort). Le complément de l’adjectif est introduit par une préposition et complète un adjectif (fier de son travail, facile à préparer).",
+   "exemple": "On l’a élue déléguée (attribut du CV). · Ce sac est très (modificateur) lourd. · Il est content de son vélo (complément de l’adjectif).",
+   "image": "Pi vérifie l’attribut du complément avec le verbe « être » caché : « la neige rend les routes glissantes » → les routes sont glissantes.",
+   "piege": "Ne confonds pas « Il trouve ce livre passionnant » (attribut du CV) et « Il trouve un livre passionnant » (complément du nom).",
+   "icone": "pin"
+  },
+  "f-valeurs1": {
+   "titre": "Temps, lieu et but",
+   "regle": "Un complément peut indiquer quand se passe l’action (le temps : ce matin, après l’école), où elle se passe (le lieu : au bord du lac, à Lausanne) ou dans quel but on agit (le but : pour gagner, afin d’avoir chaud). On trouve la valeur en posant une question : quand ? où ? pourquoi faire ?",
+   "exemple": "Après l’école (temps), je fais mes devoirs à la bibliothèque (lieu) pour réussir mon test (but).",
+   "image": "Pi pose trois questions à la phrase comme un journaliste : Quand ? Où ? Pour quoi faire ?",
+   "piege": "« pour » + infinitif exprime le but ; « parce que » exprime la cause, pas le but.",
+   "icone": "plane"
+  },
+  "f-valeurs2": {
+   "titre": "Les valeurs des compléments",
+   "regle": "Un complément peut exprimer le temps (quand ?), le lieu (où ?), le but (pour quoi faire ? pour, afin de), la manière (comment ? avec prudence, doucement), la cause (pourquoi ? parce que, à cause de, comme) ou la conséquence (le résultat : si bien que, tellement … que).",
+   "exemple": "À cause de la pluie (cause), le match est annulé. · Il a tant couru qu’il est épuisé (conséquence).",
+   "image": "Pi trie les compléments avec des étiquettes : quand, où, comment, pourquoi, pour quoi faire, avec quel résultat.",
+   "piege": "La cause vient avant l’effet ; la conséquence vient après. « Il pleut, donc je reste » : « je reste » est la conséquence.",
+   "icone": "plane"
+  },
+  "f-groupes1": {
+   "titre": "Les groupes de la phrase",
+   "regle": "Le groupe nominal (GN) est construit autour d’un nom : déterminant + nom (une maison), avec parfois un adjectif (un vélo rouge) ou un groupe nominal avec préposition (le chat de Zoé). Le groupe verbal (GV) est construit autour du verbe conjugué. Le groupe nominal avec préposition commence par à, de, dans, sur, avec, pour…",
+   "exemple": "Le chat de Zoé (GN) dort (GV) sur le lit (GN avec préposition).",
+   "image": "Pi construit des groupes comme des bonshommes de neige : le nom est la grosse boule du bas, les autres mots se posent dessus.",
+   "piege": "Dans « la tasse de thé », « de thé » fait partie du GN : c’est un GN avec préposition qui complète « tasse ».",
+   "icone": "folder"
+  },
+  "f-groupes2": {
+   "titre": "Groupes : adjectival, adverbial, relatif",
+   "regle": "En plus du groupe nominal, du groupe verbal et du groupe nominal avec préposition, on trouve le groupe adjectival, construit autour d’un adjectif (très content, fier de toi), le groupe adverbial, construit autour d’un adverbe (très doucement, demain) et la subordonnée relative, qui commence par qui, que, dont, où et complète un nom (le livre que tu m’as prêté).",
+   "exemple": "Le livre que tu m’as prêté (Ph rel) est très passionnant (GAdj). · Elle parle bien trop vite (GAdv).",
+   "image": "Pi reconnaît chaque groupe à son chef : un nom, un verbe, un adjectif, un adverbe… ou un pronom relatif.",
+   "piege": "Un groupe adverbial peut être un seul mot : « demain », « ici ».",
+   "icone": "folder"
+  },
+  "f-classes1": {
+   "titre": "Les classes de mots",
+   "regle": "Chaque mot appartient à une classe (sa nature). Le déterminant se place devant le nom (le, une, mes, ces, trois). Le nom commun désigne une personne, un animal, une chose ou une idée ; le nom propre désigne un être ou un lieu précis et prend une majuscule. Le verbe se conjugue. L’adjectif précise le nom et s’accorde avec lui. Le pronom personnel remplace un nom ou désigne une personne (je, tu, il, nous, te, le…).",
+   "exemple": "Mes (déterminant) cousins (nom commun) habitent (verbe) à Sion (nom propre). Ils (pronom) ont un petit (adjectif) chien.",
+   "image": "Pi range les mots dans des familles de métiers : chaque mot a son métier, même s’il change de place dans la phrase.",
+   "piege": "« le » devant un nom est un déterminant (le chat) ; devant un verbe, c’est un pronom (je le vois).",
+   "icone": "report"
+  },
+  "f-classes3": {
+   "titre": "Les classes de mots selon l’emploi",
+   "regle": "Un même mot peut changer de classe selon son emploi. « Le » est déterminant devant un nom, pronom devant un verbe. « Que » est pronom relatif quand il reprend un nom (le livre que je lis), conjonction de subordination sinon (je sais que tu viens). « Bien » est adverbe (il travaille bien) ou nom (un bien précieux). « Avant » est préposition s’il a un complément, adverbe s’il est seul. L’interjection (aïe, bravo, chut) exprime une émotion. Conjonctions de coordination : mais, ou, et, donc, or, ni, car ; de subordination : que, quand, si, comme, parce que, lorsque…",
+   "exemple": "Je le (pronom) vois. · Le (déterminant) bus arrive. · Aïe (interjection) !",
+   "image": "Pi regarde le travail que fait le mot dans la phrase, pas seulement son costume : un même mot peut changer de rôle.",
+   "piege": "« car » est une conjonction de coordination, « parce que » une conjonction de subordination, même s’ils expriment tous deux la cause.",
+   "icone": "report"
+  },
+  "f-sous-classes": {
+   "titre": "Déterminants, pronoms et degrés de l’adjectif",
+   "regle": "Les déterminants peuvent être définis (le, la, les), indéfinis (un, des, chaque, plusieurs), possessifs (mon, leur), démonstratifs (ce, cet, cette, ces), interrogatifs ou exclamatifs (quel), numéraux (deux, vingt) ou partitifs (du, de la). Les pronoms peuvent être personnels, possessifs (le mien), démonstratifs (celui-ci, cela), relatifs (qui, que, dont, où), interrogatifs (qui ? lequel ?) ou indéfinis (chacun, personne). L’adjectif peut être au comparatif (plus, aussi, moins … que) ou au superlatif (le plus …, très …).",
+   "exemple": "Cette (démonstratif) maison est la mienne (pronom possessif). · Lina est plus grande que Zoé (comparatif de supériorité).",
+   "image": "Pi range ses outils par familles, puis par tiroirs : la famille des déterminants a sept tiroirs.",
+   "piege": "On ne dit pas « plus bon » mais « meilleur », ni « plus pire » mais « pire ».",
+   "icone": "report"
+  },
+  "f-types2": {
+   "titre": "Les types et formes de phrase",
+   "regle": "Il y a quatre types de phrase : déclaratif (on affirme), interrogatif (on pose une question), impératif (on donne un ordre ou un conseil, verbe à l’impératif, sans sujet) et exclamatif (on exprime une émotion : quel, comme, que … !). Chaque phrase a aussi une forme : positive ou négative (ne … pas, plus, jamais, rien, personne) et neutre ou emphatique (un élément est mis en relief : c’est … qui, c’est … que, ou détaché en tête puis repris).",
+   "exemple": "Range ta chambre ! (impératif) · Quel beau lac ! (exclamatif) · C’est Lucie qui a gagné. (emphatique)",
+   "image": "Pi change la phrase comme on règle une lampe : le type dit ce qu’elle fait, la forme règle sa lumière (allumée/éteinte, normale/en projecteur).",
+   "piege": "Un point d’exclamation ne suffit pas à rendre une phrase exclamative : « Viens ici ! » est impérative.",
+   "icone": "mail"
+  },
+  "f-passif": {
+   "titre": "La forme passive",
+   "regle": "À la forme active, le sujet fait l’action (La police arrête le voleur). À la forme passive, le sujet subit l’action (Le voleur est arrêté par la police). Le complément du verbe devient sujet, le sujet devient complément d’agent, introduit par « par ». Le verbe se construit avec « être » au même temps que le verbe actif + participe passé accordé avec le sujet.",
+   "exemple": "Le vent emportera les feuilles. → Les feuilles seront emportées par le vent.",
+   "image": "Pi retourne la phrase comme une crêpe : ce qui était dessous (le complément) passe dessus (sujet).",
+   "piege": "« Elle est partie » n’est pas passif : le sujet fait l’action. Il faut un verbe qui peut avoir un complément direct.",
+   "icone": "mail"
+  },
+  "f-ponctuation": {
+   "titre": "La ponctuation",
+   "regle": "La virgule sépare les éléments d’une énumération ou isole un groupe. Le point-virgule sépare deux parties de phrase liées par le sens. Les deux-points annoncent une énumération, une explication ou des paroles. Les guillemets encadrent les paroles rapportées ; le tiret marque le changement d’interlocuteur dans un dialogue. Les points de suspension marquent une hésitation ou une phrase inachevée. Les parenthèses encadrent une précision. La majuscule, l’apostrophe et le trait d’union sont des signes graphiques, pas des signes de ponctuation.",
+   "exemple": "J’ai acheté : du pain, du fromage et des pommes. · « Où vas-tu ? » demanda Lina.",
+   "image": "Pour Pi, la ponctuation, ce sont les panneaux de la route : pause courte, pause longue, virage, arrêt.",
+   "piege": "Pas de virgule avant le « et » d’une énumération simple : Léa, Noé et Sami.",
+   "icone": "note"
+  },
+  "f-accord-gn": {
+   "titre": "L’accord dans le groupe nominal",
+   "regle": "Dans le groupe nominal, le déterminant et l’adjectif s’accordent en genre et en nombre avec le nom. Au féminin, l’adjectif prend souvent un -e (petite) ; au pluriel, souvent un -s (petits, petites). Certains adjectifs changent davantage : blanc → blanche, neuf → neuve, beau → belle, long → longue. Pour accorder, on cherche d’abord le nom, puis son genre et son nombre.",
+   "exemple": "une robe longue · des vélos neufs · ces montagnes enneigées · mes petites tartes",
+   "image": "Le nom est le chef d’orchestre : Pi vérifie que le déterminant et l’adjectif jouent la même note que lui.",
+   "piege": "Devant un adjectif placé avant un nom pluriel, « des » devient souvent « de » : de petites maisons.",
+   "icone": "flower"
+  },
+  "f-pluriels": {
+   "titre": "Pluriels particuliers, couleurs, numéraux, féminin",
+   "regle": "Les noms en -au, -eau, -eu prennent un x au pluriel (bateaux, jeux), sauf landau, pneu, bleu. Sept noms en -ou prennent un x : bijou, caillou, chou, genou, hibou, joujou, pou. Les noms en -al font -aux (chevaux), sauf bal, carnaval, festival… Quelques noms en -ail font -aux (travaux). Les adjectifs de couleur s’accordent (des robes vertes), sauf s’ils viennent d’un nom (orange, marron) ou sont composés (bleu clair) ; rose et mauve s’accordent. « Vingt » et « cent » prennent un s s’ils sont multipliés et terminent le nombre (quatre-vingts, deux cents) ; « mille » est invariable.",
+   "exemple": "des cailloux · des journaux · des pulls marron · quatre-vingt-deux · trois mille",
+   "image": "Pi garde dans sa poche la liste des sept mots en -ou qui prennent un x : bijou, caillou, chou, genou, hibou, joujou, pou.",
+   "piege": "« quatre-vingts » mais « quatre-vingt-deux » : le s disparaît si un autre nombre suit.",
+   "icone": "flower"
+  },
+  "f-composes": {
+   "titre": "Le pluriel des mots composés",
+   "regle": "Dans un nom composé, seuls les noms et les adjectifs peuvent prendre la marque du pluriel ; les verbes, les adverbes et les prépositions restent invariables. Nom + nom ou nom + adjectif : les deux s’accordent (des choux-fleurs, des coffres-forts). Nom + préposition + nom : seul le premier s’accorde (des arcs-en-ciel). Verbe + nom : seul le nom peut s’accorder (des tire-bouchons). Les adjectifs de couleur composés restent invariables (des yeux bleu-vert).",
+   "exemple": "des grands-mères · des chefs-d’œuvre · des haut-parleurs · des sous-marins",
+   "image": "Pi décompose le mot comme une phrase : « un timbre pour la poste » → seul « timbre » se multiplie.",
+   "piege": "« Haut » dans haut-parleur est un adverbe (parler haut) : il ne s’accorde pas.",
+   "icone": "flower"
+  },
+  "f-accord-sv1": {
+   "titre": "L’accord du verbe avec le sujet",
+   "regle": "Le verbe s’accorde en personne et en nombre avec son sujet. Pour trouver le sujet, on pose la question « Qui est-ce qui … ? » ou on encadre par « c’est … qui ». On peut remplacer le sujet par un pronom (il, elle, ils, elles) pour choisir la terminaison. Attention : le sujet est parfois placé après le verbe (sujet inversé), surtout dans les questions et après un complément de lieu.",
+   "exemple": "Les enfants jouent. · Dans le pré broutent les moutons. · Que veulent tes parents ?",
+   "image": "Pi relie le verbe à son sujet par une ficelle invisible : là où va la ficelle, va l’accord.",
+   "piege": "Dans « Où habitent tes cousins ? », le sujet est « tes cousins », placé après le verbe.",
+   "icone": "molecule"
+  },
+  "f-accord-sv2": {
+   "titre": "Accord : sujets éloignés, multiples, « qui »",
+   "regle": "Le verbe s’accorde avec son sujet même s’il en est éloigné (Les enfants de ma voisine jouent). Plusieurs sujets à la 3e personne donnent un pluriel (Mon père et ma mère vont). Si l’un des sujets est « moi » ou « nous », le verbe est à la 1re personne du pluriel ; s’il y a « toi » ou « vous » (sans moi), à la 2e personne du pluriel. Après « qui », le verbe s’accorde avec le mot que « qui » remplace (C’est moi qui ai). L’attribut s’accorde avec le sujet (Les montagnes sont enneigées).",
+   "exemple": "Toi et moi sommes amis. · Paul et toi êtes en retard. · C’est toi qui as raison.",
+   "image": "Pi fait le calcul : moi + quelqu’un = nous ; toi + quelqu’un = vous.",
+   "piege": "Ne t’arrête pas au mot le plus proche : dans « La couleur de ces fleurs est belle », le sujet est « la couleur ».",
+   "icone": "molecule"
+  },
+  "f-accord-sv3": {
+   "titre": "Accord avec un nom collectif ou une quantité",
+   "regle": "Un nom collectif seul (la foule, le public, le troupeau) est singulier : le verbe est au singulier. Suivi d’un complément au pluriel (une foule de touristes), on peut accorder avec le collectif ou avec le complément, selon ce que l’on veut mettre en valeur. Après beaucoup de, peu de, la plupart de, le verbe s’accorde avec le nom qui suit (pluriel). Après plus d’un, chacun, tout le monde, personne, le verbe est en général au singulier.",
+   "exemple": "La foule applaudit. · Beaucoup de gens pensent… · Plus d’un élève a oublié son sac.",
+   "image": "Pi se demande : est-ce que je regarde le groupe entier, ou chacun de ses membres ?",
+   "piege": "« La plupart des invités sont partis » : pluriel, même si « la plupart » semble singulier.",
+   "icone": "molecule"
+  },
+  "f-accord-pp": {
+   "titre": "L’accord du participe passé",
+   "regle": "Employé sans auxiliaire, le participe passé s’accorde comme un adjectif avec le nom (les feuilles tombées). Avec l’auxiliaire être, il s’accorde avec le sujet (Lina est allée, les garçons sont partis). Avec l’auxiliaire avoir, il ne s’accorde jamais avec le sujet (Elles ont mangé une glace).",
+   "exemple": "Les fraises cueillies · Mes cousines sont arrivées · Les filles ont chanté",
+   "image": "Avec être, Pi accroche le participe au sujet comme un wagon ; avec avoir, le wagon reste au dépôt.",
+   "piege": "Pour trouver la terminaison d’un participe, mets-le au féminin : pris → prise, écrit → écrite, fini → finie.",
+   "icone": "cal31"
+  },
+  "f-pp-avoir": {
+   "titre": "Participe passé avec avoir : le complément placé avant",
+   "regle": "Avec avoir, le participe passé ne s’accorde pas avec le sujet. Il s’accorde avec le complément direct (on pose la question « quoi ? » ou « qui ? ») seulement si ce complément est placé avant le verbe : pronom que, le, la, les, l’, ou groupe interrogatif (quelle robe). Si le complément direct est après le verbe, ou s’il n’y en a pas, le participe reste invariable.",
+   "exemple": "Les pommes que j’ai cueillies · Je les ai vues · J’ai cueilli des pommes",
+   "image": "Pi regarde dans le rétroviseur : s’il voit le complément direct derrière lui (avant le verbe), il accorde.",
+   "piege": "Un complément indirect (à qui ? de quoi ?) ne compte pas : « Cette histoire leur a plu ».",
+   "icone": "cal31"
+  },
+  "f-pp-pronominal": {
+   "titre": "Participe passé des verbes pronominaux",
+   "regle": "Les verbes essentiellement pronominaux (s’évanouir, s’envoler, se moquer, se souvenir) accordent leur participe avec le sujet. Pour les autres, on remplace « être » par « avoir » et on cherche le complément direct : si « se » est complément direct (elles ont lavé qui ? elles-mêmes), on accorde ; si le complément direct est après (se laver les mains) ou si « se » est indirect (se parler = parler à), le participe reste invariable.",
+   "exemple": "Elles se sont lavées. · Elles se sont lavé les mains. · Ils se sont parlé.",
+   "image": "Pi remplace le « être » par « avoir » le temps d’un calcul, puis remet tout en place.",
+   "piege": "« Ils se sont souri » : on sourit À quelqu’un, « se » est indirect, pas d’accord.",
+   "icone": "cal31"
+  },
+  "f-pp-cas": {
+   "titre": "Participe passé : cas particuliers",
+   "regle": "Le participe passé d’un verbe impersonnel reste invariable (les chaleurs qu’il a fait, les efforts qu’il a fallu). Après un complément de mesure ou de durée (les heures que j’ai dormi, les francs que ce livre a coûté), pas d’accord. Suivi d’un infinitif, le participe s’accorde si le complément direct fait l’action de l’infinitif (les chanteuses que j’ai entendues chanter) ; « fait » suivi d’un infinitif est toujours invariable. Avec « en », le participe reste invariable.",
+   "exemple": "Des framboises ? J’en ai mangé. · Elle s’est fait couper les cheveux.",
+   "image": "Pi se demande qui fait l’action de l’infinitif : si c’est le complément, il l’accroche au participe.",
+   "piege": "« Les chansons que j’ai entendu chanter » : ce ne sont pas les chansons qui chantent, donc pas d’accord.",
+   "icone": "cal31"
+  },
+  "f-homophones2": {
+   "titre": "D’autres homophones grammaticaux",
+   "regle": "« leur » devant un verbe est un pronom invariable (je leur parle) ; devant un nom, c’est un déterminant qui s’accorde (leurs cahiers). « quel(le)(s) » s’accorde avec le nom ; « qu’elle(s) » = que + elle (on peut dire qu’il). Après avoir, on écrit le participe en -é ; après une préposition ou un autre verbe, l’infinitif en -er (on remplace par mordu / mordre). « ni » sert à nier deux éléments, « n’y » = ne + y. « On n’ » : dans une phrase négative, n’oublie pas le « n’ ». « c’est » = cela est ; « s’est » vient d’un verbe pronominal. « quand » = lorsque ; « quant à » = en ce qui concerne ; « qu’en » = que + en.",
+   "exemple": "Je leur donne leurs livres. · Je pense qu’elle viendra. · Il a mangé ; il va manger.",
+   "image": "Pi a une boîte à remplacements : il essaie « il » pour qu’elle, « mordre » pour -er, « lorsque » pour quand.",
+   "piege": "« On n’a jamais vu ça » : le n’ ne s’entend pas, mais « jamais » montre la négation.",
+   "icone": "eye"
+  },
+  "f-tout-meme": {
+   "titre": "Tout et même",
+   "regle": "« Tout » s’accorde quand il est déterminant (tous les élèves, toute la journée) ou pronom (je les ai tous vus). Adverbe (= entièrement, très), il est invariable (tout noir, tout émue), sauf devant un adjectif féminin commençant par une consonne ou un h aspiré (toute rouge, toutes contentes). « Même » s’accorde quand il est adjectif (les mêmes chaussures, eux-mêmes) ; adverbe (= aussi, y compris), il est invariable (même les enfants ont ri).",
+   "exemple": "Toutes les filles chantent. · Elle est tout émue. · Elle est toute rouge. · Ils l’ont fait eux-mêmes.",
+   "image": "Pi teste en remplaçant : si « tout » veut dire « entièrement », c’est un adverbe, presque toujours invariable.",
+   "piege": "« Elles sont toutes contentes » : devant une consonne, l’adverbe au féminin s’accorde.",
+   "icone": "eye"
+  },
+  "f-quelque": {
+   "titre": "Quelque, quel que, quoique, quoi que",
+   "regle": "« Quelques » (= plusieurs) est un déterminant qui s’accorde avec le nom (quelques amis). « Quel que », en deux mots, se place devant le verbe être au subjonctif et s’accorde avec le sujet (quelles que soient tes raisons). « Quoique » en un mot = bien que ; « quoi que » en deux mots = quelle que soit la chose que (quoi que tu fasses). « Quelquefois » = parfois ; « quelques fois » = un petit nombre de fois.",
+   "exemple": "Quoique fatigué, il continue. · Quoi qu’il arrive, reste calme. · Quel que soit ton choix…",
+   "image": "Pi remplace pour vérifier : « bien que » → quoique ; « parfois » → quelquefois.",
+   "piege": "« Quel que » s’accorde avec le sujet du verbe être : quelle que soit ta décision.",
+   "icone": "eye"
+  },
+  "f-adj-verbal": {
+   "titre": "Participe présent ou adjectif verbal ?",
+   "regle": "Le participe présent (forme en -ant) exprime une action ; il est invariable et a souvent un complément (les enfants obéissant à leurs parents). L’adjectif verbal exprime une qualité ; il s’accorde avec le nom (des enfants obéissants). Parfois, l’orthographe change : participe en -guant, -quant, -geant, -ant ; adjectif en -gant, -cant, -gent, -ent (fatiguant / fatigant, convainquant / convaincant, négligeant / négligent, précédant / précédent).",
+   "exemple": "En fatiguant ses amis… · Une promenade fatigante. · Le jour précédant la course · le jour précédent",
+   "image": "Pi met « très » devant le mot : si ça marche (très fatigant), c’est un adjectif.",
+   "piege": "Après « en » (en fatiguant), c’est toujours le participe présent, invariable.",
+   "icone": "eye"
+  },
+  "f-relations": {
+   "titre": "Synonymes, contraires, mots génériques",
+   "regle": "Le terme générique désigne une catégorie (fleur) ; les termes spécifiques en sont des éléments (rose, tulipe). Les synonymes ont un sens proche, mais le bon synonyme dépend du contexte (une situation dangereuse = périlleuse, mais pas « un homme périlleux »). Les contraires peuvent s’opposer sur une échelle (chaud/froid : antonymie), s’exclure sans milieu (présent/absent : complémentarité) ou décrire la même action de deux côtés (vendre/acheter : réciprocité).",
+   "exemple": "fleur → rose, tulipe · un vieux château = un château ancien · prêter / emprunter (réciprocité)",
+   "image": "Pi range les mots comme des poupées russes : la grande (générique) contient les petites (spécifiques).",
+   "piege": "Un synonyme ne remplace pas toujours un mot : « grosse pluie » = forte pluie, pas « obèse » !",
+   "icone": "flower"
+  },
+  "f-champ-lexical": {
+   "titre": "Le champ lexical",
+   "regle": "Un champ lexical est l’ensemble des mots qui se rapportent à un même thème : pluie, grêle, averse, brouillard appartiennent au champ lexical de la météo. Repérer le champ lexical dominant d’un texte aide à trouver son thème. Les mots peuvent être de classes différentes (noms, verbes, adjectifs).",
+   "exemple": "La mer : vague, marée, plage, écume, phare, voilier.",
+   "image": "Pi colorie en bleu tous les mots qui parlent de la mer : le texte devient tout bleu, c’est son thème.",
+   "piege": "Ne confonds pas champ lexical (même thème) et famille de mots (même radical).",
+   "icone": "flower"
+  },
+  "f-sens-figure": {
+   "titre": "Sens propre, sens figuré, expressions",
+   "regle": "Le sens propre est le premier sens d’un mot, souvent concret (le loup dévore sa proie). Le sens figuré est un sens imagé (il dévore les romans = il les lit avec passion). Les expressions figées se comprennent en entier, pas mot à mot : « avoir un poil dans la main » veut dire être paresseux.",
+   "exemple": "Nous avons gravi la montagne (propre). · J’ai une montagne de devoirs (figuré).",
+   "image": "Pi voit le sens propre avec ses yeux, et le sens figuré avec son imagination.",
+   "piege": "Une expression figée ne se traduit pas mot à mot dans une autre langue.",
+   "icone": "molecule"
+  },
+  "f-formation": {
+   "titre": "Préfixes, suffixes et mots composés",
+   "regle": "Un mot dérivé est formé d’un radical, auquel on ajoute un préfixe (avant : re-, in-, dé-, pré-, anti-, sous-, sur-) ou un suffixe (après : -able, -ette, -eur, -age, -âtre…). Le préfixe change le sens (impoli = pas poli), le suffixe change souvent la classe du mot (laver → lavable, lavage). Un mot composé est formé de plusieurs mots (porte-monnaie, arc-en-ciel, pomme de terre).",
+   "exemple": "in- + croy + -able = incroyable · re- + faire = refaire · chou + fleur = chou-fleur",
+   "image": "Pi construit les mots en Lego : une brique au début (préfixe), la grosse brique du milieu (radical), une brique à la fin (suffixe).",
+   "piege": "Devant b, m, p, le préfixe in- devient im- (impossible) ; devant l, il- (illisible) ; devant r, ir- (irrégulier).",
+   "icone": "molecule"
+  },
+  "f-familles": {
+   "titre": "Les familles de mots",
+   "regle": "Les mots d’une même famille ont le même radical et un sens lié : terre, terrain, atterrir, souterrain. La famille aide à écrire : la lettre muette d’un mot s’entend souvent dans un mot de la même famille (un camp → camper, gourmand → gourmandise). Le féminin des noms aide aussi : marchand → marchande.",
+   "exemple": "galop → galoper · regard → regarder · boulanger → boulangère",
+   "image": "Pi appelle les cousins du mot : l’un d’eux prononce toujours la lettre que les autres cachent.",
+   "piege": "Deux mots qui se ressemblent ne sont pas forcément de la même famille : « terrible » vient de « terreur », pas de « terre ».",
+   "icone": "molecule"
+  },
+  "f-dictionnaire": {
+   "titre": "Utiliser le dictionnaire",
+   "regle": "Dans le dictionnaire, un verbe se cherche à l’infinitif (nous prenions → prendre), un nom au singulier (chevaux → cheval) et un adjectif au masculin singulier (belles → beau). Chaque article donne la nature du mot avec une abréviation (n. m. = nom masculin, adj. = adjectif, v. = verbe), sa définition et des exemples. Une bonne définition commence par un terme générique, puis donne des précisions : « Une tulipe est une fleur à bulbe… ».",
+   "exemple": "ils commençaient → commencer · journaux → journal · heureuse → heureux",
+   "image": "Pi ramène chaque mot « à la maison » avant de le chercher : à l’infinitif, au singulier, au masculin.",
+   "piege": "« bijoux » se cherche à « bijou », « yeux » à « œil ».",
+   "icone": "folder"
+  },
+  "f-adverbes-ment": {
+   "titre": "Les adverbes en -ment",
+   "regle": "Pour former un adverbe en -ment, on ajoute en général -ment au féminin de l’adjectif (lente → lentement, douce → doucement). Si l’adjectif se termine par une voyelle, on ajoute -ment au masculin (vrai → vraiment, poli → poliment). Les adjectifs en -ant donnent -amment (courant → couramment), ceux en -ent donnent -emment (prudent → prudemment). Quelques cas particuliers : gentiment, précisément, énormément, profondément, gaiement.",
+   "exemple": "heureux → heureusement · évident → évidemment · bruyant → bruyamment",
+   "image": "Pi entend la même chose dans -amment et -emment ; il regarde l’adjectif pour choisir : -ant → a, -ent → e.",
+   "piege": "« Gentil » ne donne pas « gentillement » mais « gentiment ».",
+   "icone": "note"
+  },
+  "f-etymologie": {
+   "titre": "Racines grecques et latines",
+   "regle": "Beaucoup de mots savants sont formés d’éléments grecs ou latins : hydro- (eau), bio- (vie), géo- (terre), chrono- (temps), micro- (petit), télé- (loin), thermo- (chaleur), poly- (plusieurs), -logie (étude), -graphie (écriture), -vore (qui mange), -cide (qui tue), -phobe (qui craint). Connaître ces éléments permet de deviner le sens d’un mot inconnu et d’expliquer son orthographe (ph, th, y).",
+   "exemple": "chronomètre = temps + mesure · herbivore = qui mange de l’herbe · géographie = description de la Terre",
+   "image": "Pi a une boîte de pièces anciennes venues de Grèce et de Rome : en les assemblant, il fabrique des mots savants.",
+   "piege": "Le « ph » de téléphone et de géographie vient du grec : c’est pour cela qu’on ne l’écrit pas avec un f.",
+   "icone": "molecule"
+  },
+  "f-metalangage": {
+   "titre": "Les mots pour parler de la langue",
+   "regle": "Pour parler des mots, on utilise des termes précis : synonymes (sens proche), antonymes (sens contraire), homonymes (même prononciation, sens différents), paronymes (mots presque semblables : éruption / irruption), emprunt (mot pris à une autre langue : pizza), néologisme (mot nouveau : courriel), mot hérité (venu du latin au fil des siècles), étymologie (origine des mots), polysémie (plusieurs sens), dérivation (ajout d’un affixe : préfixe ou suffixe). Le dictionnaire de langue renseigne sur les mots, l’encyclopédie sur les choses et les personnes.",
+   "exemple": "week-end : emprunt · courriel : néologisme · affliger / infliger : paronymes",
+   "image": "Ces mots sont les outils du mécanicien de la langue : Pi les sort de sa caisse quand il démonte une phrase.",
+   "piege": "Homonymes et paronymes ne sont pas la même chose : les homonymes se prononcent exactement pareil, les paronymes presque.",
+   "icone": "laptop"
+  },
+  "f-registres": {
+   "titre": "Les registres de langue",
+   "regle": "On ne parle pas de la même façon à un ami et à un directeur. Le registre familier s’emploie entre proches, surtout à l’oral (une bagnole, bosser). Le registre courant convient à presque toutes les situations (une voiture, travailler). Le registre soutenu est recherché, surtout à l’écrit (une automobile, œuvrer). Les régionalismes sont des mots propres à une région : en Suisse romande, septante, nonante, dîner (le repas de midi).",
+   "exemple": "J’ai pas pigé (familier) · Je n’ai pas compris (courant) · Je n’ai point saisi (soutenu)",
+   "image": "Pi change de tenue selon l’occasion : training (familier), jeans (courant), costume (soutenu).",
+   "piege": "À l’écrit, la négation est complète : « Je n’ai pas » et non « J’ai pas ».",
+   "icone": "mail"
+  },
+  "f-figures1": {
+   "titre": "Comparaison, métaphore, personnification, périphrase",
+   "regle": "La comparaison rapproche deux éléments avec un outil (comme, tel, pareil à, ressembler à) : ses yeux brillent comme des étoiles. La métaphore les rapproche sans outil : le lac est un miroir. La personnification donne des traits humains à une chose ou un animal : le vent hurle. La périphrase désigne une chose par plusieurs mots : la Ville fédérale (Berne), le roi des animaux (le lion).",
+   "exemple": "Il est rusé comme un renard (comparaison) · Ce garçon est un renard (métaphore)",
+   "image": "Pi joue aux ressemblances : avec « comme », il montre le lien du doigt ; sans « comme », il le cache dans la phrase.",
+   "piege": "La périphrase ne rapproche pas deux éléments : elle remplace un nom par un groupe de mots qui le décrit.",
+   "icone": "star"
+  },
+  "f-figures2": {
+   "titre": "Hyperbole, litote, métonymie, euphémisme",
+   "regle": "L’hyperbole exagère (je meurs de faim). La litote dit moins pour faire entendre plus (ce n’est pas mauvais = c’est très bon). La métonymie désigne une chose par une autre qui lui est liée : le contenant pour le contenu (boire un verre), le lieu pour les personnes (toute la salle applaudit), l’auteur pour l’œuvre (lire un Ramuz). L’euphémisme adoucit une réalité pénible (il nous a quittés = il est mort).",
+   "exemple": "Je te l’ai dit mille fois (hyperbole) · Berne a décidé (métonymie)",
+   "image": "Pi règle le volume des mots : l’hyperbole le pousse à fond, la litote et l’euphémisme le baissent.",
+   "piege": "Litote et euphémisme atténuent tous deux, mais la litote fait comprendre plus, l’euphémisme évite de choquer.",
+   "icone": "star"
+  },
+  "f-orthographe3": {
+   "titre": "Les mots difficiles",
+   "regle": "Certains mots fréquents au secondaire ont une orthographe difficile : consonnes doubles (développement, occasion, environnement), lettres d’origine grecque (rythme, bibliothèque, hypothèse), accents (honnête, événement). Pour les mémoriser, on observe le mot, on le découpe, on cherche un mot de la même famille et on vérifie dans le dictionnaire. Les rectifications de 1990 admettent certaines variantes (apparaitre, évènement).",
+   "exemple": "accueil (c + ueil) · développement (un l, deux p) · rythme (y et th)",
+   "image": "Pi photographie le mot dans sa tête, le cache, l’écrit, puis compare avec la photo.",
+   "piege": "« accueil » : après c ou g, on écrit -ueil pour garder le son dur (cueillir, orgueil).",
+   "icone": "note"
+  },
+  "f-conj-analyse": {
+   "titre": "Analyser une forme verbale",
+   "regle": "Une forme verbale se compose d’un radical (qui porte le sens : chant-) et d’une terminaison (qui change selon la personne et le temps : -ons, -ais). Pour l’analyser, on cherche l’infinitif (il faut …), le temps (présent, imparfait, futur, passé composé, conditionnel…) et la personne (je, tu, il, nous, vous, ils).",
+   "exemple": "nous chantions : verbe chanter, imparfait, 1re personne du pluriel (chant- + -ions)",
+   "image": "Pi démonte le verbe comme un réveil : le radical est le moteur, la terminaison l’aiguille qui indique l’heure et la personne.",
+   "piege": "Certaines formes se ressemblent : « je chante » et « il chante » ont la même terminaison ; c’est le pronom qui tranche.",
+   "icone": "laptop"
+  },
+  "f-conditionnel": {
+   "titre": "Le conditionnel présent",
+   "regle": "Le conditionnel présent se forme avec le radical du futur et les terminaisons de l’imparfait : -ais, -ais, -ait, -ions, -iez, -aient. Il exprime une action soumise à une condition (si j’avais le temps, je viendrais), une demande polie (je voudrais) ou un futur vu du passé (il a dit qu’il viendrait).",
+   "exemple": "je chanterais · nous finirions · ils viendraient · tu serais · vous auriez",
+   "image": "Pi mélange deux recettes : la pâte du futur (chanter-) et la garniture de l’imparfait (-ais).",
+   "piege": "Ne confonds pas « je chanterai » (futur) et « je chanterais » (conditionnel) : remplace par « nous » (chanterons / chanterions).",
+   "icone": "plane"
+  },
+  "f-imperatif": {
+   "titre": "L’impératif présent",
+   "regle": "L’impératif sert à donner un ordre, un conseil ou une consigne. Il n’a que trois personnes (tu, nous, vous) et pas de sujet exprimé. Les verbes en -er (et ouvrir, offrir, cueillir) ne prennent pas de s à la 2e personne du singulier : range, ouvre. Quelques impératifs irréguliers : sois, aie, sache, va.",
+   "exemple": "finis · prenons · écoutez · range ta chambre · sois prudent",
+   "image": "Pi donne ses ordres sans dire « tu » : « Range ! », comme un coach au bord du terrain.",
+   "piege": "« Va » sans s, mais « vas-y » avec un s pour faciliter la prononciation.",
+   "icone": "mail"
+  },
+  "f-temps-composes": {
+   "titre": "Plus-que-parfait et futur antérieur",
+   "regle": "Un temps composé se forme avec l’auxiliaire être ou avoir conjugué à un temps simple, suivi du participe passé. Plus-que-parfait : auxiliaire à l’imparfait (j’avais fini, elle était partie) ; il exprime une action passée antérieure à une autre action passée. Futur antérieur : auxiliaire au futur (j’aurai fini) ; il exprime une action future accomplie avant une autre. Avec être, le participe s’accorde avec le sujet.",
+   "exemple": "Quand tu arrivas, il était déjà parti. · Quand tu auras fini, tu pourras sortir.",
+   "image": "Pi empile deux briques : l’auxiliaire, qui donne le temps, et le participe, qui donne l’action.",
+   "piege": "Le choix de l’auxiliaire reste le même qu’au passé composé : « je suis venu » → « j’étais venu ».",
+   "icone": "cal31"
+  },
+  "f-ps-il": {
+   "titre": "Le passé simple (il, ils)",
+   "regle": "Le passé simple est le temps du récit écrit. À la 3e personne, les verbes en -er finissent par -a, -èrent (il chanta, ils chantèrent). Les autres verbes ont des terminaisons en -it, -irent (il finit, ils prirent), en -ut, -urent (il voulut, ils coururent) ou en -int, -inrent (il vint, ils tinrent).",
+   "exemple": "il marcha, ils marchèrent · il fit, ils firent · il fut, ils furent · il vint, ils vinrent",
+   "image": "Pi raconte ses aventures au passé simple : « Pi grimpa, sauta et atterrit ! »",
+   "piege": "Au passé simple, « il finit » ressemble au présent : c’est le contexte du récit qui permet de trancher.",
+   "icone": "cal31"
+  },
+  "f-subjonctif": {
+   "titre": "Le subjonctif présent",
+   "regle": "Le subjonctif s’emploie après des expressions de volonté, de souhait, de doute ou de sentiment (il faut que, je veux que, bien que, avant que). On le forme avec le radical de « ils » au présent et les terminaisons -e, -es, -e, -ions, -iez, -ent (qu’ils finissent → que je finisse). Quelques verbes sont irréguliers : être (que je sois), avoir (que j’aie), aller (que j’aille), faire (que je fasse), pouvoir (que je puisse), savoir (que je sache), vouloir (que je veuille).",
+   "exemple": "Il faut que tu viennes. · Bien qu’il soit fatigué… · Je veux qu’elle prenne le bus.",
+   "image": "Pi met « il faut que » devant le verbe pour l’entendre au subjonctif.",
+   "piege": "Avec « nous » et « vous », le subjonctif ressemble souvent à l’imparfait : que nous chantions.",
+   "icone": "note"
+  },
+  "f-conj9": {
+   "titre": "Conjuguer tous les temps (9e)",
+   "regle": "En 9e, on conjugue les verbes fréquents (être, avoir, faire, dire, pouvoir, aller, voir, savoir, vouloir, falloir, devoir, croire, prendre, mettre, venir, tenir, rendre, connaître, partir, vivre, écrire, suivre, mourir, ouvrir, lire…) à tous les temps de l’indicatif, au conditionnel et au subjonctif, y compris le passé simple à toutes les personnes, le passé antérieur, le subjonctif passé et le conditionnel passé. Chaque temps composé correspond à un temps simple de l’auxiliaire.",
+   "exemple": "nous prîmes · vous vîntes · il eut écrit · que tu aies lu · elles seraient parties",
+   "image": "Pi tient un tableau à double entrée : les verbes en lignes, les temps en colonnes ; chaque case a sa forme.",
+   "piege": "Au passé simple, « nous » et « vous » prennent un accent circonflexe : nous chantâmes, vous finîtes.",
+   "icone": "cal31"
+  },
+  "f-conj10": {
+   "titre": "Conjuguer les verbes de 10e",
+   "regle": "En 10e, on ajoute des verbes aux particularités d’orthographe : jeter et appeler doublent la consonne devant un e muet (je jette, j’appelle) ; peser et lever prennent un accent grave (je pèse) ; céder, répéter, espérer changent é en è (je cède) ; payer et essayer admettent deux formes (je paie / je paye) ; employer et envoyer changent y en i (j’emploie) ; recevoir prend une cédille devant o et u (je reçois). On conjugue aussi servir, rire, courir, valoir, plaire, dormir, cuire, craindre, asseoir.",
+   "exemple": "je jetterai · nous pesons · ils cèdent · j’enverrai · ils reçoivent · nous craignons",
+   "image": "Pi repère les verbes « à costume » : ils gardent le même radical, mais changent un accent ou une lettre selon la terminaison.",
+   "piege": "Au futur, « envoyer » fait « j’enverrai » et « courir » fait « je courrai » (deux r).",
+   "icone": "cal31"
+  },
+  "f-conj11": {
+   "titre": "Conjuguer les verbes de 11e",
+   "regle": "En 11e, on conjugue des verbes plus rares (acquérir, battre, boire, conclure, créer, croître, cueillir, fuir, haïr, mouvoir, naître, vaincre…) et on découvre l’imparfait du subjonctif, formé sur le passé simple (il chanta → qu’il chantât, que je chantasse) et le plus-que-parfait du subjonctif (que j’eusse chanté). Ces deux temps appartiennent surtout à la langue littéraire.",
+   "exemple": "j’acquiers · nous vainquons · je cueillerai · il naquit · qu’il fût · que j’eusse vu",
+   "image": "Pi lit les grands auteurs : il y croise des « qu’il fût » et des « que j’eusse » comme de vieux costumes de théâtre.",
+   "piege": "« Cueillir » se conjugue au présent comme un verbe en -er : je cueille, tu cueilles.",
+   "icone": "cal31"
+  },
+  "f-conj-systeme": {
+   "titre": "Les modes et les temps",
+   "regle": "L’indicatif présente l’action comme réelle (présent, imparfait, futur simple, passé simple et leurs temps composés : passé composé, plus-que-parfait, futur antérieur, passé antérieur). Le conditionnel présente une action soumise à une condition ou incertaine. Le subjonctif exprime le souhait, le doute, l’obligation. Chaque temps simple a son temps composé : l’auxiliaire est conjugué au temps simple correspondant. Le 1er groupe réunit les verbes en -er (sauf aller), le 2e les verbes en -ir qui font -issons, le 3e tous les autres.",
+   "exemple": "j’avais chanté : plus-que-parfait (auxiliaire à l’imparfait) · que tu aies fini : subjonctif passé",
+   "image": "Pi voit les temps comme des étages : chaque temps simple a, juste au-dessus, son temps composé.",
+   "piege": "« Aller » se termine par -er mais appartient au 3e groupe.",
+   "icone": "laptop"
+  },
+  "f-valeurs-temps2": {
+   "titre": "Les valeurs des temps",
+   "regle": "Le présent peut décrire une action en cours (mon chat fait sa toilette) ou une vérité générale (le chat est un mammifère). Le plus-que-parfait exprime une action antérieure à une autre action passée ; l’imparfait, une action en cours au même moment. Le conditionnel exprime une condition, une demande polie ou un futur vu du passé. Dans un récit, l’imparfait décrit l’arrière-plan et le passé simple raconte les actions de premier plan.",
+   "exemple": "Lorsque je me suis réveillé, il avait neigé (avant) / il neigeait (en même temps).",
+   "image": "Pi tourne un film : l’imparfait peint le décor, le passé simple fait bouger les acteurs.",
+   "piege": "« Je voudrais » n’exprime pas une condition, mais une demande polie.",
+   "icone": "cal31"
+  },
+  "f-valeurs-temps3": {
+   "titre": "Temps du récit et concordance des temps",
+   "regle": "Dans un récit au passé, l’imparfait décrit le décor et les actions qui durent ; le passé simple (ou le passé composé) raconte les actions de premier plan. Le présent peut être d’énonciation (maintenant), d’habitude, de vérité générale, de narration (pour rendre un récit vivant) ou avoir une valeur de futur proche. Quand le verbe principal est au passé, l’action antérieure se met au plus-que-parfait, l’action simultanée à l’imparfait, l’action postérieure au conditionnel présent (futur du passé).",
+   "exemple": "Il savait que son ami était parti (antériorité) / partait (simultanéité) / partirait (postériorité).",
+   "image": "Pi aligne les actions sur une frise : avant, pendant ou après le moment de référence.",
+   "piege": "« En 1291, les Waldstätten concluent une alliance » : présent de narration, l’action est pourtant passée.",
+   "icone": "cal31"
+  },
+  "f-reprises": {
+   "titre": "Les reprises dans un texte",
+   "regle": "Pour ne pas répéter le même mot, un texte reprend une information par un pronom (il, elle, celui-ci, leur), un synonyme (vélo → bicyclette), un terme générique (la buse → cet oiseau), une périphrase (le lion → le roi des animaux) ou un groupe nominal (le cambrioleur → l’homme). Pour comprendre le texte, il faut savoir à quoi renvoie chaque reprise.",
+   "exemple": "La buse plane. Ce rapace guette une souris. Elle fond sur sa proie.",
+   "image": "Pi suit le personnage à la trace : même s’il change de nom, c’est toujours lui.",
+   "piege": "« celui-ci / celle-ci » renvoie au dernier nom cité qui convient.",
+   "icone": "report"
+  },
+  "f-connecteurs": {
+   "titre": "Organisateurs et connecteurs",
+   "regle": "Les organisateurs et connecteurs relient les idées et structurent un texte. Ils peuvent exprimer le temps (il était une fois, le lendemain, soudain), l’énumération (d’abord, ensuite, enfin), la cause (parce que, car, puisque), la conséquence (donc, c’est pourquoi), l’opposition (mais, pourtant, en revanche), l’exemple (par exemple) ou la conclusion (finalement, en conclusion).",
+   "exemple": "D’abord, épluche les pommes ; ensuite, coupe-les. · Il pleuvait, donc nous sommes restés.",
+   "image": "Pi pose des panneaux entre les phrases : « attention, cause ! », « virage, opposition ! ».",
+   "piege": "« car » donne la cause, « donc » la conséquence : ils vont dans deux sens opposés.",
+   "icone": "plane"
+  },
+  "f-discours": {
+   "titre": "Les paroles rapportées",
+   "regle": "Au discours direct, on rapporte les paroles telles qu’elles ont été dites, entre guillemets ou après un tiret (Léa demanda : « Tu viens ? »). Au discours indirect, on les intègre dans une subordonnée, sans guillemets : les pronoms, les temps et les indications de temps changent (Léa demanda si je venais ; demain → le lendemain). Au discours indirect libre, les paroles ou pensées sont rapportées sans verbe de parole ni guillemets.",
+   "exemple": "Paul a dit : « Je viendrai demain. » → Paul a dit qu’il viendrait le lendemain.",
+   "image": "Pi joue au facteur : soit il lit la lettre mot pour mot (direct), soit il la résume avec ses mots (indirect).",
+   "piege": "Une question totale devient « si » au discours indirect : « As-tu faim ? » → Elle m’a demandé si j’avais faim.",
+   "icone": "mail"
+  },
+  "f-enonciation": {
+   "titre": "La situation d’énonciation",
+   "regle": "Certains mots ne se comprennent que si l’on sait qui parle, où et quand : je, tu, ici, maintenant, demain, aujourd’hui. Ce sont des déictiques. Un énoncé ancré dans la situation d’énonciation les utilise (Hier, j’ai vu ton frère ici). Un énoncé coupé de la situation (un récit au passé simple, un texte historique) s’en passe (ce jour-là, le lendemain). Les actes de parole peuvent être indirects : « Pourriez-vous fermer la fenêtre ? » est une demande, pas une vraie question.",
+   "exemple": "Je reviens demain. (demain dépend du jour où le billet est écrit) · Le lendemain, il revint.",
+   "image": "Pi trouve un billet « Je suis ici demain » : sans savoir qui l’a écrit ni quand, impossible de le comprendre !",
+   "piege": "Dans un récit, « demain » devient « le lendemain » et « hier » devient « la veille ».",
+   "icone": "mail"
+  },
+  "f-modalisateurs": {
+   "titre": "Les modalisateurs",
+   "regle": "Les modalisateurs montrent la position de celui qui parle. Certains expriment une appréciation (hélas, heureusement, par bonheur), d’autres le degré de certitude (peut-être, sans doute, il semble que, il se peut que, il est certain que). Le conditionnel permet aussi de donner une information non confirmée (il serait malade).",
+   "exemple": "Heureusement, personne n’a été blessé. · Il viendra peut-être demain.",
+   "image": "Pi ajoute un petit émoji à ses phrases : un sourire (heureusement), une grimace (hélas), un point d’interrogation (peut-être).",
+   "piege": "« Sans doute » veut dire « probablement », pas « sans aucun doute ».",
+   "icone": "eye"
+  },
+  "f-pronoms1": {
+   "titre": "Remplacer un groupe par un pronom",
+   "regle": "On remplace un complément direct par le, la, les, l’ (je donne le livre → je le donne), un complément introduit par « à » + personne par lui, leur (je parle à Léa → je lui parle), un complément de lieu introduit par « à » ou une chose après « à » par y (il va à Neuchâtel → il y va), un complément introduit par « de » ou une quantité par en (elle mange des framboises → elle en mange). Le pronom se place avant le verbe.",
+   "exemple": "Tu regardes les étoiles. → Tu les regardes. · Je pense à mes vacances. → J’y pense.",
+   "image": "Pi remplace les longs groupes par de petits mots-valises : le, lui, y, en.",
+   "piege": "« leur » pronom ne prend jamais de s : je leur parle.",
+   "icone": "pin"
+  },
+  "f-pronoms2": {
+   "titre": "Plusieurs pronoms compléments",
+   "regle": "Quand on remplace deux compléments, les pronoms se suivent dans un ordre fixe : me, te, nous, vous avant le, la, les (elle me la montre) ; le, la, les avant lui, leur (je le lui donne, il les leur prête) ; y et en en dernier (il les y conduit, nous lui en offrons).",
+   "exemple": "Je donne le livre à Léa. → Je le lui donne. · Nous offrons des fleurs à notre mère. → Nous lui en offrons.",
+   "image": "Pi aligne les pronoms comme des wagons toujours dans le même ordre : me/te/nous/vous → le/la/les → lui/leur → y → en.",
+   "piege": "On dit « je le lui donne », jamais « je lui le donne ».",
+   "icone": "pin"
+  },
+  "f-relatives": {
+   "titre": "Les pronoms relatifs",
+   "regle": "Un pronom relatif introduit une subordonnée relative qui complète un nom, son antécédent. « qui » est sujet (le garçon qui court), « que » est complément direct (le livre que je lis), « dont » remplace un complément introduit par « de » (le film dont tu parles), « où » indique le lieu ou le temps (la ville où j’habite, le jour où tu es arrivé).",
+   "exemple": "Le chien qui aboie · la lettre que j’ai reçue · l’ami dont je suis fier · le village où nous allons",
+   "image": "Pi relie deux phrases avec un crochet : « J’ai un ami. Il vit à Sion. » → « J’ai un ami qui vit à Sion. »",
+   "piege": "Après « dont », pas de « de » en plus : « le film dont tu parles », et non « dont tu en parles ».",
+   "icone": "pin"
+  },
+  "f-phrase-complexe": {
+   "titre": "Phrase simple et phrase complexe",
+   "regle": "Une phrase simple contient un seul verbe conjugué. Une phrase complexe en contient plusieurs : elle est formée de plusieurs propositions. Elles peuvent être juxtaposées (reliées par une virgule, un point-virgule, deux-points), coordonnées (reliées par mais, ou, et, donc, or, ni, car) ou subordonnées (une proposition dépend d’une autre et commence par que, qui, quand, parce que…).",
+   "exemple": "Il pleut, nous restons. (juxtaposition) · Il pleut, mais nous sortons. (coordination) · Je sais que tu viendras. (subordination)",
+   "image": "Pi compte les verbes conjugués : un verbe, une proposition ; deux verbes, deux propositions à relier.",
+   "piege": "Un infinitif ou un participe ne compte pas comme verbe conjugué : « Il aime nager » est une phrase simple.",
+   "icone": "folder"
+  },
+  "f-subordonnees": {
+   "titre": "Les subordonnées",
+   "regle": "La subordonnée relative complète un nom (le gâteau que tu as fait). La subordonnée conjonctive est introduite par une conjonction (que, quand, parce que, si…) ; elle peut être complément du verbe, complément de phrase, sujet ou complément de l’adjectif. L’interrogative indirecte rapporte une question (je me demande si…). L’infinitive a un verbe à l’infinitif et son propre sujet (j’entends les oiseaux chanter) ; la participiale, un participe et son propre sujet (la nuit tombée, …). Certaines conjonctions demandent le subjonctif : bien que, pour que, avant que.",
+   "exemple": "Bien qu’il pleuve (concession), nous sortons. · Je parle fort pour que tu m’entendes (but).",
+   "image": "Pi reconnaît chaque subordonnée à sa porte d’entrée : qui/que pour la relative, que/quand pour la conjonctive, si/où pour l’interrogative.",
+   "piege": "« Après que » se construit avec l’indicatif, « avant que » avec le subjonctif.",
+   "icone": "folder"
+  },
+  "f-lecture2": {
+   "titre": "Comprendre un texte",
+   "regle": "Pour comprendre un texte, on repère d’abord son genre (fable, fait divers, lettre d’opinion, marche à suivre, documentaire, récit d’aventure) et sa visée (raconter, informer, convaincre, faire agir). Puis on cherche les informations utiles : personnages, lieu, moment, étapes, opinion et arguments. Les organisateurs (d’abord, ensuite, soudain, enfin) et la mise en page (titre, intertitres, liste numérotée) aident à suivre le texte.",
+   "exemple": "Une fable se termine par une morale. Un fait divers indique le lieu et le moment d’un événement réel.",
+   "image": "Pi lit d’abord comme un éclaireur (titre, mise en page), puis comme un détective (les détails).",
+   "piege": "La réponse doit s’appuyer sur le texte : relis la phrase qui contient l’information.",
+   "icone": "report"
+  },
+  "f-genres": {
+   "titre": "Les genres de textes",
+   "regle": "Les textes se regroupent selon ce qu’ils font : raconter (conte, fable, récit d’aventure, légende, science-fiction), relater des faits réels (fait divers, récit de vie, biographie), argumenter (lettre d’opinion, publicité), transmettre des savoirs (documentaire, article encyclopédique), régler des comportements (recette, règle de jeu, règlement) ou jouer avec la langue (poème, chanson). Chaque genre a une visée : distraire, informer, convaincre, faire agir, émouvoir.",
+   "exemple": "« Il était une fois… » (raconter) · « Le 3 mars, un camion… » (relater) · « Préchauffe le four… » (régler)",
+   "image": "Pi trie le courrier : une carte postale, une facture, une publicité… on reconnaît chaque texte à sa forme et à son but.",
+   "piege": "Une légende mêle le réel et l’imaginaire ; un fait divers ne rapporte que des faits réels.",
+   "icone": "report"
+  },
+  "f-recit": {
+   "titre": "Le récit",
+   "regle": "Un récit suit souvent le schéma narratif : situation initiale, complication, actions, résolution, situation finale. Le narrateur est la voix qui raconte : il peut être un personnage (récit à la 1re personne, narrateur interne) ou extérieur à l’histoire (3e personne). Il ne faut pas le confondre avec l’auteur. Le point de vue peut être interne, externe ou omniscient. Le récit peut faire des ellipses (sauter du temps) ou des retours en arrière. Dans le schéma actanciel, l’adjuvant aide le héros et l’opposant le gêne.",
+   "exemple": "« Un soir d’orage, sa plus belle chèvre disparut. » : complication.",
+   "image": "Pi raconte son histoire comme une montagne : on monte (complication, actions), on atteint le sommet (résolution), on redescend (situation finale).",
+   "piege": "Le « je » d’un roman est le narrateur, pas forcément l’auteur.",
+   "icone": "report"
+  },
+  "f-argumenter": {
+   "titre": "Le texte qui argumente",
+   "regle": "Un texte argumentatif défend une opinion (une thèse) à l’aide d’arguments (des raisons) illustrés par des exemples (des cas précis). Il s’organise en introduction (sujet et opinion), arguments, conclusion. Un constat est un fait vérifiable, sans prise de position. L’auteur peut citer une objection pour la réfuter, ou faire une concession (« bien sûr …, mais … »). Les organisateurs (d’abord, ensuite, enfin, en revanche, c’est pourquoi) structurent le texte.",
+   "exemple": "Je pense que … (opinion) · car … (argument) · Par exemple, … (exemple)",
+   "image": "Pi construit un pont : l’opinion est l’autre rive, les arguments sont les piliers, les exemples les briques qui les solidifient.",
+   "piege": "Un exemple n’est pas un argument : il illustre l’argument, il ne le remplace pas.",
+   "icone": "report"
+  },
+  "f-poesie1": {
+   "titre": "Le poème : vers, strophes, rimes",
+   "regle": "Un poème est écrit en vers (lignes) regroupés en strophes (quatrain : 4 vers, tercet : 3 vers). La rime est le retour du même son à la fin des vers : rimes plates (AABB), croisées (ABAB) ou embrassées (ABBA). On compte les syllabes d’un vers : l’alexandrin en a 12, le décasyllabe 10, l’octosyllabe 8. Le sonnet est une forme fixe de 14 vers. Les vers libres n’ont ni rime ni nombre fixe de syllabes. Le refrain revient plusieurs fois.",
+   "exemple": "lune / ciel / brune / miel : rimes croisées (ABAB)",
+   "image": "Pi écoute le poème comme une chanson : il frappe le rythme des syllabes et attend le retour des rimes.",
+   "piege": "Dans un poème, les rimes s’écoutent : « été » et « jeté » riment, même s’ils ne s’écrivent pas pareil au début.",
+   "icone": "star"
+  },
+  "f-poesie2": {
+   "titre": "Les sonorités du poème",
+   "regle": "Les poètes jouent avec les sons : l’allitération répète un son consonne (pour qui sont ces serpents qui sifflent…), l’assonance répète un son voyelle. L’anaphore répète un mot en tête de vers ou de phrase. L’enjambement prolonge une phrase sur le vers suivant. Ces procédés créent un rythme, une musique et renforcent le sens.",
+   "exemple": "« Pour qui sont ces serpents qui sifflent sur vos têtes ? » (Racine) : allitération en [s].",
+   "image": "Pi lit le vers à voix haute : s’il entend siffler les s, c’est une allitération.",
+   "piege": "Allitération = répétition de sons consonnes, assonance = répétition de sons voyelles : on écoute les sons, pas les lettres.",
+   "icone": "star"
+  },
+  "f-theatre": {
+   "titre": "Le texte théâtral",
+   "regle": "Une pièce de théâtre est découpée en actes et en scènes. Les personnages parlent en répliques ; une longue réplique est une tirade, un personnage seul qui parle fait un monologue, une réplique adressée au public seul est un aparté. Les didascalies (souvent en italique) donnent des indications de jeu et de décor. Au théâtre, les personnages se parlent, mais l’auteur s’adresse aussi au public : c’est la double énonciation. La pièce suit souvent une structure : exposition, nœud, dénouement. Le comique peut être de geste, de mots, de caractère ou de situation.",
+   "exemple": "LUCIE (en chuchotant). — Il ne m’a pas vue… (aparté et didascalie)",
+   "image": "Pi monte sur scène : les didascalies sont les instructions du metteur en scène qu’il lit avant de jouer.",
+   "piege": "Une nouvelle scène commence quand un personnage entre ou sort, pas à chaque réplique.",
+   "icone": "star"
+  },
+  "f-documentaire": {
+   "titre": "Le texte qui transmet des savoirs",
+   "regle": "Un documentaire s’organise avec un titre, des intertitres, des illustrations et leurs légendes, parfois des schémas ou des graphiques. Dans un livre, la table des matières donne les chapitres dans l’ordre, l’index liste les mots importants par ordre alphabétique. Il faut distinguer le fait (objectif, vérifiable) du commentaire (subjectif, jugement). Pour paraître objectif, l’auteur efface sa présence : « on », tournure impersonnelle, forme passive. Une information fiable a une source identifiée, que l’on peut comparer avec d’autres.",
+   "exemple": "Le pont a été ouvert le 4 mai (fait). · Ce pont est magnifique (commentaire).",
+   "image": "Pi vérifie une information comme un enquêteur : qui l’a écrite, d’où vient-elle, d’autres sources disent-elles la même chose ?",
+   "piege": "Une information répétée sur beaucoup de réseaux sociaux n’est pas forcément vraie : vérifie sa source.",
+   "icone": "report"
+  }
+ }
+}

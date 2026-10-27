@@ -1,0 +1,66 @@
+{
+  "_note": "Documents officiels repérés le 25.10.2026. 'acces' : public = téléchargeable ; login = derrière l'authentification bdper/PER (ne pas tenter de se connecter). À télécharger et lire par Claude Code (étape 5 du prompt).",
+  "cantons": [
+    {
+      "canton": "GE",
+      "documents": [
+        { "titre": "Prescriptions cantonales concernant l'application du PER (DGEO), une par discipline et par cycle", "type": "planification_par_annee", "acces": "public",
+          "url_modele": "https://edu.ge.ch/enseignement/system/files/2023-01/{discipline}-{cycle}_prescriptions-cantonales.pdf",
+          "discipline": ["mathematiques", "sciences-de-la-nature", "francais", "allemand", "anglais", "geographie", "histoire", "citoyennete"],
+          "cycle": ["c1", "c2", "co"],
+          "fichiers_verifies": ["mathematiques-c1","mathematiques-c2","mathematiques-co","sciences-de-la-nature-c1","sciences-de-la-nature-c2","sciences-de-la-nature-co","francais-c1","francais-c2","francais-co","allemand-c2","allemand-co","anglais-c2","anglais-co","geographie-c1","geographie-c2","geographie-co","histoire-c1","histoire-c2","histoire-co","citoyennete-c2","citoyennete-co"],
+          "contenu_observe_maths_co": "Année scolaire 2026-2027 ; dotation horaire 5 périodes en 9e, 10e, 11e ; correspondance niveaux PER ↔ regroupements : Niv. 1 = R1 et CT, Niv. 2 = R2 et LC, Niv. 3 = R3/TC et LS ; MER Mathématiques 9-10-11 (CIIP, 2024-2026) ; EVACOM et TAF en 11e ; annexe « résumé des apprentissages du PER » par année (9e / 10e / 11e) et par objectif MSN 31-34." }
+      ],
+      "grille_horaire_secondaire_I": "incluse dans chaque prescription (rubrique « Dotation horaire »)"
+    },
+    {
+      "canton": "VD",
+      "documents": [
+        { "titre": "Grille horaire du cycle 3", "type": "grille_horaire", "acces": "public", "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Degresec.pdf", "precision": "9e-11e, voies VP et VG" },
+        { "titre": "Grille horaire du cycle 2", "type": "grille_horaire", "acces": "public", "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Cycle2.pdf" },
+        { "titre": "Grille horaire du cycle 1", "type": "grille_horaire", "acces": "public", "url": "https://www.vd.ch/fileadmin/user_upload/organisation/dfj/dgeo/fichiers_pdf/grilles_horaires/GrilleHoraire_Cycle1.pdf" },
+        { "titre": "PER – Mathématiques et physique (complément cantonal VD)", "type": "complement_cantonal", "acces": "public", "url": "https://www.vd.ch/fileadmin/user_upload/themes/formation/scolarite_obligatoire/fichiers_pdf/PER-Math-Physique_VD.pdf" }
+      ],
+      "planification_par_annee": "INTROUVABLE sur vd.ch (aucun document de précisions par année trouvé ; le canton renvoie au PER)"
+    },
+    {
+      "canton": "FR",
+      "documents": [
+        { "titre": "Grille horaire CO – partie francophone", "type": "grille_horaire", "acces": "public", "url": "https://www.fr.ch/document/347831" },
+        { "titre": "Directives Changement de type de classe et perméabilité au CO", "type": "filieres", "acces": "public", "url": "https://www.fr.ch/document/35296", "precision": "types de classe EB, G, PG" },
+        { "titre": "Parcours scolaire", "type": "filieres", "acces": "public", "url": "https://www.fr.ch/document/481386" }
+      ],
+      "planification_par_annee": "INTROUVABLE sur fr.ch (la page PER du canton ne renvoie qu'au portail CIIP)"
+    },
+    {
+      "canton": "VS",
+      "documents": [
+        { "titre": "Grille horaire CO dès 2014-2015", "type": "grille_horaire", "acces": "public", "url": "https://www.vs.ch/documents/33324396/34772210/Grille%20horaire%20CO%20d%C3%A8s%202014-2015.pdf/e9a2a208-ef3c-2ae7-9e29-5da2fb1c02d5" },
+        { "titre": "DCE grille horaire EP 2024", "type": "grille_horaire", "acces": "public", "url": "https://www.vs.ch/documents/33324396/34772189/DCE%20grille%20horaire%20EP%202024.pdf/fad5ebd3-c0b3-87a3-d33c-5ca7e2a1811d" },
+        { "titre": "Précisions VS rattachées au PER (L2, L1 niv II, MSN 26-28, SHS, répartition annuelle sciences 9CO, différenciation NI-NII)", "type": "planification_par_annee", "acces": "login", "detail": "22 documents listés dans PER_precisions_cantonales.json ; derrière l'authentification bdper" }
+      ]
+    },
+    {
+      "canton": "NE",
+      "documents": [
+        { "titre": "Arrêté fixant les grilles horaires de l'école obligatoire 2025-2026 (FO 08/04/2025)", "type": "grille_horaire", "acces": "public", "url": "https://www.ne.ch/legislation-jurisprudence/pubfo/ArrRegCE/Documents/2025/FO08_04_2025_02_17_DFFD_102_ACE_Grilles_horaires_EO_2025-2026.pdf" },
+        { "titre": "RSN 410.313.1 (règlement du cycle 3, version en vigueur)", "type": "filieres", "acces": "public", "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/410.313.1.pdf" }
+      ],
+      "planification_par_annee": "INTROUVABLE"
+    },
+    {
+      "canton": "JU",
+      "documents": [
+        { "titre": "Arrêté grilles horaires des écoles primaires et secondaires (01.08.2026)", "type": "grille_horaire", "acces": "public", "url": "https://www.jura.ch/Htdocs/Files/v/abbd4b6f6df1fa8c00f5ca88e18c9c5e0f3c87d292a31bbe22848963ab00a2ac.pdf/AR_grilles-horaires-des-EP-et-ES_260801.pdf?download=1" }
+      ],
+      "planification_par_annee": "INTROUVABLE"
+    },
+    {
+      "canton": "BE (partie francophone)",
+      "documents": [
+        { "titre": "Dispositions générales complétant le Plan d'études romand (PER), 31 mai 2019, modifiées le 28 avril 2023 (BKD)", "type": "grille_horaire+filieres", "acces": "public", "url": "https://www.akvb-unterricht.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/fr/comeo/per/20230428-Dispositions-générales-complétant-le-PER-définitif.pdf", "precision": "§3.4 grille du secondaire I par discipline et section (p, m, g) ; cours à niveaux A, B, C ; grilles 1re-8e" },
+        { "titre": "Précisions BE rattachées au PER (Français C3, L1 31-36)", "type": "planification_par_annee", "acces": "login", "detail": "6 documents listés dans PER_precisions_cantonales.json" }
+      ]
+    }
+  ]
+}

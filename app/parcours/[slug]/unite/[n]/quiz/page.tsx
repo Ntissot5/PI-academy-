@@ -11,6 +11,7 @@ import { answerText, grade } from "@/lib/grade";
 import { forgetEtat, isFinal, unlocked, useEtat } from "@/lib/hooks";
 import { img } from "@/lib/icons";
 import { fr } from "@/lib/math";
+import { lectureAuto, lire, segments, setLectureAuto, taire, voixDisponible, type Langue } from "@/lib/voix";
 
 type Mode = "train" | "boss";
 interface Miss { q: string; you: string; a: string; why: string }
@@ -39,10 +40,13 @@ function QuizPage() {
 
   if (error) return <Loading text={error} />;
   if (!etat || !c || !ok) return <Loading />;
-  return <Quiz key={`${run}-${mode}`} slug={slug} units={etat.unites} index={i} mode={mode} canton={etat.canton} onAgain={(m) => { reload(); if (m === mode) setRun((r) => r + 1); else router.replace(`/parcours/${slug}/unite/${c.ordre}/quiz${m === "boss" ? "?mode=boss" : ""}`); }} />;
+  // Voix : langue étudiée pour les mots en gras ; lecture automatique pour les 1re-4e (ne lisent pas encore tous).
+  const langue: Langue = etat.matiere?.slug === "allemand" ? "de" : etat.matiere?.slug === "anglais" ? "en" : "fr";
+  const petits = !!etat.parcours.annee_max && etat.parcours.annee_max <= 4;
+  return <Quiz key={`${run}-${mode}`} slug={slug} units={etat.unites} index={i} mode={mode} canton={etat.canton} langue={langue} petits={petits} onAgain={(m) => { reload(); if (m === mode) setRun((r) => r + 1); else router.replace(`/parcours/${slug}/unite/${c.ordre}/quiz${m === "boss" ? "?mode=boss" : ""}`); }} />;
 }
 
-function Quiz({ slug, units, index, mode, canton, onAgain }: { slug: string; units: Unite[]; index: number; mode: Mode; canton?: string; onAgain: (m: Mode) => void }) {
+function Quiz({ slug, units, index, mode, canton, langue, petits, onAgain }: { slug: string; units: Unite[]; index: number; mode: Mode; canton?: string; langue: Langue; petits: boolean; onAgain: (m: Mode) => void }) {
   const { setStats, toast } = useApp();
   const router = useRouter();
   const c = units[index];
@@ -56,6 +60,19 @@ function Quiz({ slug, units, index, mode, canton, onAgain }: { slug: string; uni
   const [fb, setFb] = useState<Fb>({ kind: "idle" });
   const [done, setDone] = useState<Done | null>(null);
   const [beat, setBeat] = useState(0); // relance l'animation de Pi à chaque réponse
+
+  // Détecté après le premier rendu : le serveur ne connaît pas la synthèse vocale de l'appareil.
+  const [peutParler, setPeutParler] = useState(false);
+  const [auto, setAuto] = useState(false);
+  useEffect(() => { const ok = voixDisponible(); setPeutParler(ok); setAuto(ok && lectureAuto(petits)); }, [petits]);
+  const ecouter = useCallback(() => {
+    const parts = segments(cur.q, langue);
+    if (cur.choices) parts.push({ texte: `Réponses : ${cur.choices.join(" ; ")}`, langue: langue === "fr" ? "fr" : langue });
+    lire(parts, petits ? 0.85 : 0.95);
+  }, [cur, langue, petits]);
+  // Nouvelle question : lecture automatique si activée ; on se tait en quittant.
+  useEffect(() => { if (auto && !done) ecouter(); }, [qn, auto, done, ecouter]);
+  useEffect(() => () => taire(), []);
 
   const serie = useRef(newSerieId());
   const answers = useRef<Reponse[]>([]);
@@ -172,6 +189,12 @@ function Quiz({ slug, units, index, mode, canton, onAgain }: { slug: string; uni
         <div className="qcard">
           <div className="qkick"><img src={img(kick)} alt="" />{mode === "boss" ? "Boss · " : ""}{cur.tag || c.titre}</div>
           <div className={`q ${cur.txt ? "text" : ""}`} dangerouslySetInnerHTML={{ __html: cur.q }} />
+          {peutParler && (
+            <div className="voix">
+              <button type="button" className="voix-btn" onClick={ecouter} aria-label="Écouter la question">🔊 Écouter</button>
+              <label className="small"><input type="checkbox" checked={auto} onChange={(e) => { setAuto(e.target.checked); setLectureAuto(e.target.checked); if (!e.target.checked) taire(); }} /> Lire chaque question</label>
+            </div>
+          )}
           {cur.hint && <div className="hint">{cur.hint}</div>}
           {cur.choices ? (
             <div className="choices" role="group" aria-label="Propositions">
@@ -223,6 +246,8 @@ function Result({ slug, c, units, index, mode, done, miss, onAgain }: { slug: st
   const sub = mode === "boss"
     ? win ? unlock || "Unité déjà validée. Bon entretien." : "Il faut 8/10. Refais un entraînement sur tes erreurs, puis retente."
     : good ? "Tu es prêt à affronter le boss." : "Encore une série et tu y es.";
+  const rev = done.res?.revision;
+  const revMsg = rev ? (rev.reussie ? `Révision réussie : on la revoit dans ${rev.intervalle} jour${rev.intervalle > 1 ? "s" : ""}.` : "Révision à reprendre : on la revoit demain.") : "";
   const m = Math.round(stats?.minutesToday ?? 0);
   useEffect(() => { window.scrollTo(0, 0); }, []);
 
@@ -233,6 +258,7 @@ function Result({ slug, c, units, index, mode, done, miss, onAgain }: { slug: st
           {good && <div className="confetti">{Array.from({ length: 26 }, (_, k) => <i key={k} style={{ left: `${k * 3.9}%`, background: CONFETTI[k % 5], animationDelay: `${(k % 7) * 0.08}s` }} />)}</div>}
           <Pi mood={good ? "happy" : "sad"} className={good ? "jump pi-big" : "pi-big"} />
           <div className="score">{score}/10</div><h2>{title}</h2><p style={{ color: "var(--muted)" }}>{sub}</p>
+          {revMsg && <p className="badge rev" style={{ margin: "6px auto 0" }}>{revMsg}</p>}
           <div className="kpis">
             <div className="kpi"><img src={img("star")} alt="" /><b>+{score * 10 + bonus}</b><span>XP</span></div>
             <div className="kpi"><img src={img("fire")} alt="" /><b>{stats?.streak ?? 0}</b><span>jours de suite</span></div>

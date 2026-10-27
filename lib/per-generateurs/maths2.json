@@ -1,0 +1,812 @@
+{
+ "generateurs": {
+  "m2-figures-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "5e-6e",
+     "cherche": "Reconnaissance, description et dénomination de figures planes (triangle, carré"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "5e-6e",
+     "cherche": "Reconnaissance du parallélisme et de la perpendicularité"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "5e-6e",
+     "cherche": "Repérage des axes de symétrie d'une figure plane"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "5e-6e",
+     "cherche": "Observation des principales propriétés (variants et invariants) des isométries"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes géométriques"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-figures-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "7e-8e",
+     "cherche": "Reconnaissance, description et dénomination de figures planes (triangles, quadrilatères"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "7e-8e",
+     "cherche": "Reconnaissance, description et dénomination des isométries"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "7e-8e",
+     "cherche": "Anticipation de la forme et de la position d'une figure plane"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "7e-8e",
+     "cherche": "Repérage et construction des axes de symétrie"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Transformations géométriques",
+     "plage": "7e-8e",
+     "cherche": "Agrandissement et réduction de figures planes sur papier à réseau"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes géométriques"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-solides": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "5e-6e",
+     "cherche": "Reconnaissance, description et dénomination de solides (cube, pyramide"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "5e-6e",
+     "cherche": "Découverte du lien entre un solide et son développement"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "7e-8e",
+     "cherche": "Reconnaissance, description et dénomination de solides (cube, parallélépipède rectangle, pyramide)"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "7e-8e",
+     "cherche": "Interprétation de la représentation en perspective d'un solide ou d'un assemblage de solides"
+    }
+   ]
+  },
+  "m2-reperage": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 21",
+     "notion": "Repérage dans le plan et dans l'espace",
+     "plage": "5e-6e",
+     "cherche": "Utilisation d'un code personnel pour mémoriser et communiquer des itinéraires"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Repérage dans le plan et dans l'espace",
+     "plage": "7e-8e",
+     "cherche": "Utilisation d'un système de repérage personnel (plan et espace) ou conventionnel"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Repérage dans le plan et dans l'espace",
+     "plage": "7e-8e",
+     "cherche": "Orientation du support (plan, carte,…)"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes géométriques"
+    }
+   ]
+  },
+  "m2-paver": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "5e-6e",
+     "cherche": "Décomposition d'une surface plane en surfaces élémentaires et recomposition"
+    },
+    {
+     "code": "MSN 21",
+     "notion": "Figures géométriques planes et solides",
+     "plage": "7e-8e",
+     "cherche": "Décomposition d'une surface plane en surfaces élémentaires et recomposition"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-6e",
+     "cherche": "Comparaison, classement et mesure de grandeurs (longueur, aire, volume, masse) par manipulation de lignes, angles, surfaces ou solides, en utilisant des unités non conventionnelles"
+    }
+   ]
+  },
+  "m2-nombres-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 22",
+     "notion": "",
+     "plage": "5e-6e",
+     "cherche": "nombres naturels de 0 à 10'000"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "5e-6e",
+     "cherche": "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée et inversement (1)"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "5e-6e",
+     "cherche": "Passage du mot-nombre (oral ou écrit) à sa décomposition en unités, dizaines, centaines, milliers et inversement"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "5e-8e",
+     "cherche": "Exploration de différentes écritures de nombres et de systèmes de numération"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "5e-6e",
+     "cherche": "Comparaison, classement, encadrement et intercalation de nombres (3)"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "5e-6e",
+     "cherche": "Représentation et lecture de nombres sur une bande numérique"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "5e-6e",
+     "cherche": "Production d'un nombre plus petit ou plus grand qu'un nombre donné"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "5e-6e",
+     "cherche": "Extraction du nombre entier de dizaines, centaines ou milliers d'un nombre (5)"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-nombres-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 22",
+     "notion": "",
+     "plage": "7e-8e",
+     "cherche": "nombres naturels et nombres rationnels positifs"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "7e-8e",
+     "cherche": "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée et inversement (nombres ayant au plus 3 décimales)"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "7e-8e",
+     "cherche": "dixièmes, centièmes, millièmes et inversement"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "7e-8e",
+     "cherche": "Reconnaissance d'un nombre sous diverses écritures"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "7e-8e",
+     "cherche": "Expression de la quantité correspondant à la moitié, au tiers"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "7e-8e",
+     "cherche": "Écriture des nombres à l'aide de puissances"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Écriture de nombres",
+     "plage": "5e-8e",
+     "cherche": "Exploration de différentes écritures de nombres et de systèmes de numération"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "Comparaison, classement, encadrement et intercalation de nombres écrits sous forme décimale"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "Représentation et lecture de nombres sur une droite graduée"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "Mise en relation d'un nombre naturel avec d'autres"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "et de dixièmes, centièmes ou millièmes (3)"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "Comparaison, classement de fractions unitaires ou de même dénominateur"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Comparaison et représentation de nombres",
+     "plage": "7e-8e",
+     "cherche": "Exploration, comparaison et représentation sur une droite graduée de nombres entiers relatifs"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-denombrer": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "5e-6e",
+     "cherche": "Dénombrement d'une collection d'objets par comptage organisé"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "5e-6e",
+     "cherche": "Constitution d'une collection ayant un nombre donné d'objets"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "5e-6e",
+     "cherche": "Comptage et décomptage de 1 en 1, de 10 en 10"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "5e-8e",
+     "cherche": "Estimation du nombre d'objets d'une collection"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "5e-6e",
+     "cherche": "Exploration de l’infiniment grand (7)"
+    },
+    {
+     "code": "MSN 22",
+     "notion": "Dénombrement et extension du domaine numérique",
+     "plage": "7e-8e",
+     "cherche": "Exploration de l’infiniment grand et de l’infiniment petit"
+    }
+   ]
+  },
+  "m2-enigmes": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 22",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés et l’écriture"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés, l’écriture de ces nombres et les opérations"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "5e-6e",
+     "cherche": "Recherche des multiples d'un nombre"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "7e-8e",
+     "cherche": "Recherche des multiples et des diviseurs d'un nombre"
+    }
+   ]
+  },
+  "m2-calcul-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "",
+     "plage": "5e-6e",
+     "cherche": "nombres naturels : 0 à 10'000"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-6e",
+     "cherche": "Mémorisation du répertoire soustractif de 0-0 à 19-9"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-6e",
+     "cherche": "Mémorisation du répertoire multiplicatif de 0x0 à 9x9"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-6e",
+     "cherche": "Utilisation des algorithmes pour effectuer des calculs de façon efficace (addition, soustraction, multiplication)"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-6e",
+     "cherche": "Utilisation des propriétés de l'addition et de la multiplication (commutativité, associativité), et décomposition"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-8e",
+     "cherche": "Utilisation d'outils de calculs appropriés : calcul réfléchi"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-calcul-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "",
+     "plage": "7e-8e",
+     "cherche": "nombres naturels et nombres rationnels positifs"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "Mémorisation du répertoire multiplicatif de 0x0 à 12x12"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "– addition et soustraction dont les termes ont au plus 2 décimales"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "– multiplication dont les facteurs et le produit ont au plus 2 décimales"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "– division euclidienne dont le dividende est inférieur à 10'000"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "– division dont le dividende (< 10'000) et le diviseur (< 100) ont au plus une décimale"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "7e-8e",
+     "cherche": "(commutativité, associativité, distributivité)"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculs",
+     "plage": "5e-8e",
+     "cherche": "Utilisation d'outils de calculs appropriés : calcul réfléchi"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-multiples-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "5e-6e",
+     "cherche": "Recherche des multiples d'un nombre"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "5e-6e",
+     "cherche": "Découverte de quelques critères de divisibilité : 2, 5, 10, 100"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "5e-6e",
+     "cherche": "Reconnaissance et établissement de suites arithmétiques"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-multiples-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "7e-8e",
+     "cherche": "Recherche des multiples et des diviseurs d'un nombre"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "7e-8e",
+     "cherche": "Utilisation de quelques critères de divisibilité : 2, 3, 5, 9, 10, 100"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Multiples, diviseurs, suites de nombres",
+     "plage": "7e-8e",
+     "cherche": "Reconnaissance, établissement de suites numériques et expression de leur loi de formation"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-calculatrice": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "Calculatrice",
+     "plage": "5e-8e",
+     "cherche": "Utilisation de la calculatrice dans des situations où l’aspect calculatoire est secondaire"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculatrice",
+     "plage": "5e-8e",
+     "cherche": "Acceptation ou refus de l’affichage d’un résultat par estimation de l’ordre de grandeur"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculatrice",
+     "plage": "5e-6e",
+     "cherche": "Observation de l'ordre dans lequel la calculatrice effectue les opérations (3+4x6,…)"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Calculatrice",
+     "plage": "7e-8e",
+     "cherche": "Observation de l'ordre dans lequel la calculatrice effectue les opérations (30-(3+4x6),…)"
+    }
+   ]
+  },
+  "m2-problemes-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-6e",
+     "cherche": "Résolution de problèmes additifs et soustractifs (EEE, ECE, ETE) (B, C, D)"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-6e",
+     "cherche": "Résolution de problèmes multiplicatifs et divisifs"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-6e",
+     "cherche": "– traduction des données d'un problème en opérations arithmétiques : additions, soustractions et multiplications"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-6e",
+     "cherche": "– lecture de tableaux de valeurs pour en extraire quelques informations"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés, l’écriture de ces nombres et les opérations"
+    },
+    {
+     "code": "MSN 25",
+     "notion": "",
+     "plage": "5e-8e",
+     "cherche": "Cet objectif n'est pas travaillé pour lui-même"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-problemes-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "7e-8e",
+     "cherche": "Résolution de problèmes additifs et soustractifs (EEE, ECE, ETE, TTT)"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "7e-8e",
+     "cherche": "Résolution de problèmes multiplicatifs et divisifs"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "7e-8e",
+     "cherche": "en utilisant au besoin des parenthèses"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "7e-8e",
+     "cherche": "– lecture et utilisation de tableaux de valeurs"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "7e-8e",
+     "cherche": "– élaboration de tableaux de valeurs et lecture de représentations graphiques"
+    },
+    {
+     "code": "MSN 23",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes numériques en lien avec les ensembles de nombres travaillés, l’écriture de ces nombres et les opérations"
+    },
+    {
+     "code": "MSN 25",
+     "notion": "",
+     "plage": "5e-8e",
+     "cherche": "Cet objectif n'est pas travaillé pour lui-même"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-mesures-56": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 24",
+     "notion": "Unités de mesure",
+     "plage": "5e-6e",
+     "cherche": "Utilisation d'unités conventionnelles de longueur : cm et m"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Unités de mesure",
+     "plage": "5e-8e",
+     "cherche": "Exploration d'unités de mesures d’autres pays et époques"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-8e",
+     "cherche": "Organisation d'un mesurage, choix d'une unité"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-8e",
+     "cherche": "Estimation de grandeurs : longueur, aire, volume, masse, temps"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-8e",
+     "cherche": "Mesure d'une longueur à l'aide d'une règle graduée"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-6e",
+     "cherche": "en utilisant des unités non conventionnelles (7)"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes de mesurage"
+    }
+   ],
+   "annees": [
+    5,
+    6
+   ]
+  },
+  "m2-mesures-78": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 24",
+     "notion": "Unités de mesure",
+     "plage": "7e-8e",
+     "cherche": "– de longueur (mm, cm, dm, m et km),"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Unités de mesure",
+     "plage": "7e-8e",
+     "cherche": "Expression d’une même grandeur dans différentes unités"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Unités de mesure",
+     "plage": "5e-8e",
+     "cherche": "Exploration d'unités de mesures d’autres pays et époques"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "Doublement, triplement d'une grandeur"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "Fractionnement d'une grandeur"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "en utilisant des unités conventionnelles et non conventionnelles"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "Mesure d'un angle à l'aide d'un rapporteur"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Mesure de grandeurs",
+     "plage": "5e-8e",
+     "cherche": "Mesure d'une longueur à l'aide d'une règle graduée"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes de mesurage"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  },
+  "m2-aires": {
+   "discipline": "Mathématiques",
+   "liens": [
+    {
+     "code": "MSN 24",
+     "notion": "Calcul de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "Calcul de longueurs, de trajets et de périmètres"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Calcul de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "– du carré et du rectangle"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Calcul de grandeurs",
+     "plage": "7e-8e",
+     "cherche": "Calcul du volume du cube et du parallélépipède rectangle"
+    },
+    {
+     "code": "MSN 24",
+     "notion": "Éléments pour la résolution de problèmes",
+     "plage": "5e-8e",
+     "cherche": "Résolution de problèmes de mesurage"
+    }
+   ],
+   "annees": [
+    7,
+    8
+   ]
+  }
+ },
+ "en_classe": []
+}

@@ -17,10 +17,11 @@ import { TopBar } from "@/components/TopBar";
 export const metadata: Metadata = {
   title: APP_NAME,
   description: "Les maths, 20 minutes par jour, avec Pi.",
-  icons: { icon: "/icons/blob.webp" },
+  icons: { icon: "/icons/blob.webp", apple: "/icons/app-192.png" },
+  appleWebApp: { capable: true, title: APP_NAME, statusBarStyle: "default" },
 };
 
-export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover" };
+export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#2356E8" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -32,6 +33,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <AppProvider>
           <TopBar />
           <main className="pad">{children}</main>
+          <footer className="site-foot">Programmes : Plan d’études romand, © CIIP. Exercices créés par Pi Academy.</footer>
         </AppProvider>
       </body>
     </html>

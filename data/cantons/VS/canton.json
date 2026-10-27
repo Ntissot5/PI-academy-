@@ -1,0 +1,989 @@
+{
+  "canton": "VS",
+  "documents": [
+    {
+      "titre": "Grille horaire du cycle d’orientation Valais romand (2014/2015)",
+      "fichier": "pdf/Grille_horaire_CO_dès_2014-2015.pdf",
+      "url": "https://www.vs.ch/documents/33324396/34772210/Grille%20horaire%20CO%20d%C3%A8s%202014-2015.pdf/e9a2a208-ef3c-2ae7-9e29-5da2fb1c02d5",
+      "annee_scolaire": "2014/2015"
+    },
+    {
+      "titre": "Extrait du procès-verbal des séances du Conseil d’Etat – Grille-horaire 2024 (école primaire francophone)",
+      "fichier": "pdf/DCE_grille_horaire_EP_2024.pdf",
+      "url": "https://www.vs.ch/documents/33324396/34772189/DCE%20grille%20horaire%20EP%202024.pdf/fad5ebd3-c0b3-87a3-d33c-5ca7e2a1811d",
+      "annee_scolaire": "dès l’année scolaire 2024-2025 (mise en vigueur progressive)"
+    },
+    {
+      "titre": "Décision – Grille horaire officielle pour les classes d’observation du Cycle d’orientation du Valais",
+      "fichier": "pdf/Grille_horaire_des_classes_d%27observation_du_CO.pdf",
+      "url": "https://www.vs.ch/documents/33324396/34772269/Grille%20horaire%20des%20classes%20d%2527observation%20du%20CO.pdf/edcf81c5-f00e-5bad-906f-ce21693c5e24",
+      "annee_scolaire": "rentrée scolaire 2011-2012"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "1re",
+      "discipline": "Langues",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "30-35% (temps exprimé en pourcentage ; domaine regroupant : Français, Allemand, Anglais ; Totaux 16)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Mathématiques et Sciences de la nature",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "15-20% (temps exprimé en pourcentage ; domaine regroupant : Mathématiques, Sciences ; Totaux 16)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "SHS",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "15-20% (temps exprimé en pourcentage ; domaine regroupant : Histoire - Citoyenneté - Géographie, Ethique et cultures Religieuses ; Totaux 16)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Arts",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "20-25% (temps exprimé en pourcentage ; domaine regroupant : Activ. créatrices / man., Arts visuels, Musique ; Totaux 16)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Education physique",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "5-10% (temps exprimé en pourcentage ; Totaux 16)"
+    },
+    {
+      "annee": "1re",
+      "discipline": "Capacités transversales",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "5-10% (temps exprimé en pourcentage ; Totaux 16)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Langues",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "30-35% (temps exprimé en pourcentage ; domaine regroupant : Français, Allemand, Anglais ; Totaux 24)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Mathématiques et Sciences de la nature",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "15-20% (temps exprimé en pourcentage ; domaine regroupant : Mathématiques, Sciences ; Totaux 24)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "SHS",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "15-20% (temps exprimé en pourcentage ; domaine regroupant : Histoire - Citoyenneté - Géographie, Ethique et cultures Religieuses ; Totaux 24)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Arts",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "20-25% (temps exprimé en pourcentage ; domaine regroupant : Activ. créatrices / man., Arts visuels, Musique ; Totaux 24)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Education physique",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "5-10% (temps exprimé en pourcentage ; Totaux 24)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "Capacités transversales",
+      "periodes": null,
+      "filiere": "toutes",
+      "note": "5-10% (temps exprimé en pourcentage ; Totaux 24)"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français",
+      "periodes": 8.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Mathématiques",
+      "periodes": 5.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Mathématiques",
+      "periodes": 5.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Mathématiques",
+      "periodes": 5.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Mathématiques",
+      "periodes": 5.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Histoire - Citoyenneté - Géographie",
+      "periodes": 2.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Ethique et cultures Religieuses",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Activ. créatrices / man.",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Arts visuels",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Arts visuels",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Arts visuels",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Musique",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Usages-Médias-Science informatique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Education numérique ; de la 1H à la 6H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Usages-Médias-Science informatique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Education numérique ; de la 1H à la 6H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Capacités transversales",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Formation générale ; en 7H et 8H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Capacités transversales",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Formation générale ; en 7H et 8H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Capacités transversales",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Formation générale ; en 7H et 8H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Capacités transversales",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "domaine Formation générale ; en 7H et 8H : apprentissage à intégrer dans toutes les disciplines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences ; à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "intitulé : Sciences ; à niveaux (cellule grisée)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire – Citoyenneté",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire – Citoyenneté",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire – Citoyenneté",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Économie familiale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Économie familiale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 1.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Projets personnels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Projets personnels",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Discipline accentuée",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Projet personnel – Orientations spécifiques",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "classes d’observation",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire – Citoyenneté",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Projets personnels",
+      "periodes": 3,
+      "filiere": "classes d’observation",
+      "note": "Les projets personnels (3hs) sont assurés par le titulaire de la classe d’observation. Cette discipline comprend l’éducation au choix, les capacités transversales, la formation générale et les projets interdisciplinaires."
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "classes d’observation",
+      "note": "intitulé : Sciences"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire – Citoyenneté",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "classes d’observation"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Projets personnels",
+      "periodes": 3,
+      "filiere": "classes d’observation",
+      "note": "Les projets personnels (3hs) sont assurés par le titulaire de la classe d’observation. Cette discipline comprend l’éducation au choix, les capacités transversales, la formation générale et les projets interdisciplinaires."
+    }
+  ],
+  "niveaux_filieres": [],
+  "repartition_par_annee": [],
+  "evaluations": [],
+  "filieres": [
+    {
+      "code": "classes d’observation",
+      "nom": "classes d’observation du Cycle d’orientation du Valais",
+      "annees": [
+        "9e",
+        "10e"
+      ]
+    }
+  ]
+}

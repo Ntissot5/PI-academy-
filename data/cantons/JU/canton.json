@@ -1,0 +1,883 @@
+{
+  "canton": "JU",
+  "documents": [
+    {
+      "titre": "Arrêté fixant les grilles horaires des écoles primaires et secondaires",
+      "fichier": "pdf/AR_grilles_horaires_EP_ES_260801.pdf",
+      "url": "https://www.jura.ch/Htdocs/Files/v/abbd4b6f6df1fa8c00f5ca88e18c9c5e0f3c87d292a31bbe22848963ab00a2ac.pdf/AR_grilles-horaires-des-EP-et-ES_260801.pdf?download=1",
+      "annee_scolaire": "INTROUVABLE"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "3e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Français",
+      "periodes": 8,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français",
+      "periodes": 8,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P ; intitulé : Mathématique"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P ; intitulé : Mathématique"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; intitulé : Mathématique"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "colonne 5-6P ; intitulé : Mathématique"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "intitulé : Mathématique"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "intitulé : Mathématique"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Environnement",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Environnement",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Environnement",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Environnement",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Environnement",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Environnement",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Education numérique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Education numérique",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "EGS",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "EGS",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "EGS",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "EGS",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "EGS",
+      "periodes": 0.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "EGS",
+      "periodes": 0.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Histoire des religions",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Histoire des religions",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Histoire des religions",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Histoire des religions",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Histoire des religions",
+      "periodes": 0.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Histoire des religions",
+      "periodes": 0.5,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Education musicale",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Education musicale",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Education musicale",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Education musicale",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Education musicale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Education musicale",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Education visuelle",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Education visuelle",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Education visuelle",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Education visuelle",
+      "periodes": 1.5,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Education visuelle",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Education visuelle",
+      "periodes": 1,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Activités manuelles",
+      "periodes": 2,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 3-4P"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "colonne 5-6P"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Education physique",
+      "periodes": 3,
+      "filiere": "toutes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Français (FR)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Mathématiques (MA)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "A",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "B",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "C",
+      "note": "Cours à niveaux ; intitulé : Allemand (AL)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Education générale et sociale (EG)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Education générale et sociale (EG)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Education générale et sociale (EG)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Education physique (EP)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Education physique (EP)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Education physique (EP)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Education visuelle (EV)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Education visuelle (EV)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Education musicale (EM)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Education musicale (EM)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Education visuelle (EV) / Education musicale (EM)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes ; cellule commune (dotation globale)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Education numérique (EN)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Education numérique (EN)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Economie familiale (EF)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles (ACM)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Cours communs – Classes hétérogènes"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Anglais (AN)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Anglais (AN)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Anglais (AN) ; 2) Pour les élèves qui suivent les cours selon leurs compétences fondamentales, une leçon destinée aux techniques d’apprentissage et au projet professionnel remplace la 3ème leçon d’AN."
+    },
+    {
+      "annee": "10e",
+      "discipline": "Economie pratique (EC)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie / Histoire",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; cellule commune Géographie (GE) et Histoire (HI) (dotation globale)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Géographie (GE)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Géographie (GE)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Histoire (HI)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Histoire (HI)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Sciences de la nature (SN)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Sciences de la nature (SN)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; intitulé : Sciences de la nature (SN)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Techniques d’apprentissage + accompagnement projet (TA)",
+      "periodes": 1,
+      "filiere": "compétences fondamentales",
+      "note": "Groupe de cours à option principaux ; 1) Cours dispensés selon 3 groupes de compétences: 1. compétences fondamentales - 1+. Compétences fondamentales renforcées - 2. Compétences élargies ; 2) Pour les élèves qui suivent les cours selon leurs compétences fondamentales, une leçon destinée aux techniques d’apprentissage et au projet professionnel remplace la 3ème leçon d’AN."
+    },
+    {
+      "annee": "10e",
+      "discipline": "Cours à option secondaire",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "+ un cours à option secondaire : Activités techniques (AT), Italien (IT), Latin (LA), Mathématiques et sciences de la nature (MSN)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Cours à option secondaire",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "+ un cours à option secondaire : Activités techniques (AT), Italien (IT), Latin (LA), Mathématiques et sciences de la nature (MSN)"
+    }
+  ],
+  "niveaux_filieres": [],
+  "repartition_par_annee": [],
+  "evaluations": [],
+  "filieres": [
+    {
+      "code": "A",
+      "nom": "A",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "B",
+      "nom": "B",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "C",
+      "nom": "C",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "1",
+      "nom": "compétences fondamentales",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "1+",
+      "nom": "Compétences fondamentales renforcées",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "2",
+      "nom": "Compétences élargies",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    }
+  ]
+}

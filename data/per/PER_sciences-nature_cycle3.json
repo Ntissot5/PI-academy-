@@ -1,0 +1,792 @@
+{
+  "discipline": "Sciences de la nature",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/6",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/151",
+      "code": "MSN 35",
+      "axe": "Modélisation",
+      "titre": "Modéliser des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+      "composantes": [
+        "A. en mobilisant des représentations graphiques (codes, schémas, tableaux, graphiques,…)",
+        "B. en associant aux grandeurs observables des paramètres",
+        "C. en triant, organisant et interprétant des données",
+        "D. en communiquant ses résultats et en présentant des modélisations",
+        "E. en traitant des situations aléatoires à l’aide de notions de probabilités",
+        "F. en dégageant une problématique et/ou en formulant des hypothèses",
+        "G. en recourant à des modèles existants",
+        "H. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques (fonctions, statistiques, algèbre,…)"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/62",
+      "code": "MSN 36",
+      "axe": "Phénomènes naturels et techniques",
+      "titre": "Analyser des phénomènes naturels et des technologies à l'aide de démarches caractéristiques des sciences expérimentales",
+      "composantes": [
+        "1. en formulant des hypothèses",
+        "2. en acquérant les connaissances nécessaires en physique et en chimie",
+        "3. en utilisant un modèle pour expliquer et/ou prévoir un phénomène naturel ou le fonctionnement d'un objet technique",
+        "4. en confrontant les hypothèses émises à des résultats expérimentaux",
+        "5. en définissant des stratégies d’exploration et d’expérimentation en lien avec les hypothèses émises",
+        "6. en choisissant et en utilisant des instruments d’observation et de mesure",
+        "7. en proposant des explications et en les confrontant à celles de ses pairs et aux informations de médias variés",
+        "8. en organisant des prises de mesures et en formalisant les résultats d’une expérience"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Observations, questionnements, identification de facteurs pertinents et leurs éventuelles corrélations, susceptibles de caractériser le phénomène étudié",
+            "Transposition des éléments d'un phénomène (forme propre d’un solide, chute d'un corps, couleur perçue d’un objet, brillance d'une lampe,…) ou d'un objet technique (thermomètre, balance romaine, bouilloire à eau,…) dans le cadre des modèles (logiques, numériques ou analogiques) étudiés préalablement"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Préparation d'un protocole d'observations, de mesures et de calculs",
+            "Élaboration d'un dispositif permettant d'effectuer les observations et les mesures prévues",
+            "Choix, réglage et utilisation d’un instrument de mesure (balance, chronomètre, thermomètre, récipient gradué, double-mètre, dynamomètre, baromètre,…)",
+            "Observation expérimentale d’un phénomène en variant un seul facteur à la fois",
+            "Sensibilisation à l’influence du nombre de mesures sur la précision des résultats",
+            "Structuration et présentation des résultats (arrondis et unités adéquats) sous forme de liste, de tableau ou de graphique"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Analyse (par écrit ou oralement) de la pertinence, de la cohérence et de la complétude d’une expérience (hypothèses, conditions d'expérience, résultats expérimentaux [en tenant compte de leur précision], analyses, utilisation d'un modèle, conclusions)",
+            "Utilisation d’un langage spécifique : vocabulaire, symboles, règles de structuration (rapport, schéma,…)",
+            "Respect des règles du débat scientifique (écoute de l'autre, respect des idées d'autrui, remise en question de ses propres idées,…)",
+            "Utilisation de ressources externes de nature variée (articles, films, tables numériques,…)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Matière",
+          "contenu": [
+            "Appropriation de la modélisation de la matière comme constituée de molécules et d'atomes (éléments, espèces chimiques)",
+            "Représentation des quelques espèces chimiques simples de la vie quotidienne à l'aide d'une écriture symbolique (O_2, H_2O, CO_2,…)",
+            "Comparaison des dimensions des particules élémentaires à l'Univers (proton, neutron, électron, atome, molécule, homme, Terre, système solaire, galaxies, Univers)",
+            "Définition de la masse (quantité de matière) et du volume (espace occupé par les molécules)",
+            "Caractérisation des substances par leur masse volumique",
+            "Caractérisation des états (solide, liquide, gaz) de la matière par leurs propriétés macroscopiques et représentation de ces trois états à l'aide d'un modèle décliné à l'échelle des molécules",
+            "Caractérisation des substances par leurs températures de changement d'état (eau, métaux, roches,…)",
+            "Mémorisation de la composition de l'air",
+            "Utilisation d'un modèle moléculaire pour interpréter, en termes d'agitation moléculaire et de liaison intermoléculaire, le changement de température et le changement d'état physique et pour donner du sens à quelques phénomènes et grandeurs physiques : température, dilatation, variation de pression des gaz, évaporation, et faire le lien avec des phénomènes atmosphériques",
+            "Différenciation des transformations physiques et des transformations chimiques à l'échelle macroscopique et microscopique (changement d'état, distillation, électrolyse de l'eau, pyrolyse du sucre,…)",
+            "Modélisation des transformations chimiques par des réactions chimiques (équation chimique) en se limitant principalement aux éléments carbone, hydrogène et oxygène",
+            "Compréhension du principe de conservation de la matière par celle des atomes en utilisant le modèle de la réaction chimique, pour des cas simples, en se limitant à quelques combustions (carbone, hydrogène, méthane, fer,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Optique",
+          "contenu": [
+            "Interprétation de la couleur perçue d’un objet à l’aide du modèle trichromique en établissant des liens avec l'arc-en-ciel et les mélanges de couleurs en peinture"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Mécanique",
+          "contenu": [
+            "Définition de la vitesse par mesure et calcul, et approche intuitive de l'accélération",
+            "Représentation des forces à l'aide de flèches",
+            "Reconnaissance des forces : de pesanteur, motrices, de frottement, de soutien, d'Archimède. Interprétation de situations de la vie quotidienne (objet posé sur une table, voiture qui accélère, déplacement d'un ascenseur,…) à l'aide de la 1re loi de Newton en se limitant au cas où les actions sur l'objet sont parallèles et/ou perpendiculaires entre elles et au mouvement",
+            "Mesure de la force de pesanteur et distinction entre poids et masse"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Électricité",
+          "contenu": [
+            "Compréhension du principe de réseaux électriques (d’un appareil, d’une maison, ou de grande distribution) par :",
+            "– l’expérimentation du fonctionnement d'un circuit électrique à un ou deux récepteurs en variant l'intensité du courant, la résistance des récepteurs ou la tension pour mettre en évidence la relation qui les unit",
+            "– la distinction entre matériaux isolants et conducteurs",
+            "– l’expérimentation permettant l’identification de la puissance d'un récepteur au produit du courant qui le traverse par la tension à ses bornes et en lien avec l’énergie électrique",
+            "– la prise de connaissance d’éléments électriques d’un circuit d’une habitation (prises électriques, interrupteurs, fusibles, disjoncteur,…) et la compréhension d’un court-circuit et/ou d’une surcharge",
+            "– la reconnaissance des risques d'électrocution et d'incendie liés à un appareil ou à une installation électrique défectueuse, à une haute tension ou à la foudre",
+            "– la modélisation d’un circuit électrique par une chaîne de transferts et de transformations de l’énergie"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Énergie",
+          "contenu": [
+            "Reconnaissances des différentes formes d'énergie : cinétique, potentielle de gravitation, chimique (combustion de matières courantes), thermique, électrique, rayonnement",
+            "Identification de différentes sources d'énergie : rayonnement solaire, géothermie, éolienne, hydraulique, pile, hydrocarbures, charbon, uranium, animale ou végétale,…",
+            "Discussion sur le caractère renouvelable ou non des sources d’énergie (production, utilisation, régénération, recyclage,…)",
+            "Application du principe de conservation à des situations de la vie quotidienne modélisées par des chaînes de transformations et transferts (lampe à incandescence, lampe économique, frigo,…)",
+            "Quantification de l'énergie électrique (à l’aide d’un énergie-mètre) et de l'énergie thermique (mesures de masse et de température)",
+            "Calcul et comparaison de rendements (de chauffage de l'eau par différents appareils,…) en lien avec l'impact sur l'environnement"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "face à une situation, énonce une hypothèse pertinente / des hypothèses pertinentes (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "imagine une expérimentation qui ne fait varier qu'un facteur à la fois"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "prépare et/ou réalise un protocole d'observations, de mesures et de calculs pour un problème à deux facteurs dépendants (mesure de température de l'eau en fonction du temps de chauffage, distance en fonction du temps,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "structure et présente les résultats, en utilisant les arrondis et unités adéquats, dans un tableau / une représentation graphique (diagramme cartésien, en colonne, circulaire) (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "discute, débat, de la validité des hypothèses émises (sur la base de modèles tels que le modèle moléculaire) en regard de résultats expérimentaux et de leur précision"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "rend compte d'une tâche scientifique oralement ou par écrit, confronte son avis à celui de ses pairs ou de spécialistes (documentaires, articles,…), argumente son point de vue"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "représente la matière par des molécules et des atomes"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "classe «atome», «molécule», «Homme», «Terre», «système solaire», «galaxies», «Univers» sur une échelle de dimension et\nen donne un ordre de grandeur (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "identifie une substance à partir de mesures de masse et de volume"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "utilise un modèle moléculaire pour interpréter les caractéristiques des états de la matière"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "utilise un modèle moléculaire pour interpréter ou prévoir l'évolution de phénomènes physiques : dilatation, diffusion dans les liquides et les gaz, changement de température"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "distingue les transformations physiques (changement d'état) des transformations chimiques (combustion)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "rend compte de la conservation de la matière par celle des atomes, sans utiliser le modèle de la réaction chimique, pour le cas de l'électrolyse de l'eau, de combustions simples, en se limitant aux éléments carbone, oxygène, hydrogène et fer"
+        },
+        {
+          "fin": "11e",
+          "notion": "Matière",
+          "texte": "utilise le modèle de la réaction chimique pour rendre compte de la conservation de la matière (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Optique",
+          "texte": "sait que la couleur perçue d’un objet est due à la réflexion de rayons lumineux"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mécanique",
+          "texte": "utilise les notions de vitesse et d’accélération pour décrire un mouvement rectiligne"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mécanique",
+          "texte": "connaît la notion de force (motrice, de frottement, de soutien et de pesanteur)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mécanique",
+          "texte": "différencie les notions de force et de vitesse"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mécanique",
+          "texte": "utilise la notion de force (dans des cas de force motrice, de force de frottement, de force de soutien et de force de pesanteur) et la 1re loi de Newton pour interpréter et/ou prévoir les variations de vitesse d'un objet en mouvement rectiligne dans des cas où les actions agissant sur l'objet sont parallèles et/ou perpendiculaires au mouvement (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Électricité",
+          "texte": "décrit un circuit électrique en termes de transfert et/ou de transformation d’énergie"
+        },
+        {
+          "fin": "11e",
+          "notion": "Électricité",
+          "texte": "repère une situation potentiellement dangereuse et adopte un comportement adéquat"
+        },
+        {
+          "fin": "11e",
+          "notion": "Énergie",
+          "texte": "rend compte de la conservation de l'énergie, des enchaînements de transformations et transferts de l'énergie de phénomènes et objets techniques courants (moteurs, dispositif d'éclairage, de chauffage et d'isolation,…) en considérant les formes d'énergie étudiées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Énergie",
+          "texte": "compare les rendements énergétiques d'objets techniques courants en se limitant à des transferts d'énergie (Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Énergie",
+          "texte": "calcule les rendements énergétiques d'objets techniques courants en se limitant à des transformations d'énergie électrique-thermique (frigo, chauffe-eau électrique) (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Énergie",
+          "texte": "repère les pertes d’énergie (en lien avec le rendement) et en identifie l’impact sur l’environnement"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/63",
+      "code": "MSN 37",
+      "axe": "Corps humain",
+      "titre": "Analyser les mécanismes des fonctions du corps humain et en tirer des conséquences pour sa santé",
+      "composantes": [
+        "1. en expliquant le métabolisme et les équilibres énergétiques du corps",
+        "2. en comparant les fonctions de tissus, d’organes, d’appareils et de systèmes",
+        "3. en comprenant le fonctionnement des organes des sens",
+        "4. en recourant à des connaissances anatomiques et physiologiques",
+        "5. en analysant le fonctionnement des systèmes digestif, cardio-vasculaire, respiratoire et reproducteur",
+        "6. en identifiant des comportements à risque, en les analysant et en évaluant leurs conséquences personnelles et sociales",
+        "7. en étudiant l’évolution du corps durant le cycle de vie, ses transformations et certains dysfonctionnements"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Observations, questionnements, identification de facteurs pertinents et de leurs éventuelles corrélations, susceptibles de caractériser la situation ou le phénomène étudié",
+            "Transposition des éléments d'un phénomène ou d’une situation dans le cadre des modèles étudiés préalablement"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Préparation d'un protocole d'observations, de mesures et de calculs et/ou suivi d’un protocole",
+            "Élaboration d'un dispositif permettant d'effectuer les observations et les mesures prévues (préparation microscopique,…)",
+            "Choix et utilisation d’un instrument de mesure (chronomètre, thermomètre, récipient gradué, double-mètre,…)",
+            "Sensibilisation à l’influence du nombre de mesures sur la précision des résultats",
+            "Structuration et présentation des résultats ou des observations sous forme de textes, de listes, de tableaux ou de représentations graphiques (dessin d’observation, schéma, graphique : diagramme cartésien, en colonne, circulaire,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Analyse (par écrit ou oralement) de la pertinence, de la cohérence et de la complétude d’une expérience (hypothèses, conditions d'expérience, résultats expérimentaux [en tenant compte de leur précision], analyses, utilisation d'un modèle, conclusions)",
+            "Utilisation d’un langage spécifique : vocabulaire, symboles, règles de structuration (rapport, schéma,…)",
+            "Respect des règles du débat scientifique (écoute de l'autre, respect des idées d'autrui, remise en question de ses propres idées,…)",
+            "Utilisation de ressources externes de natures variées (articles, films, tables numériques,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "contenu": [
+            "Appropriation des différents niveaux d'organisation (cellule, tissus, organe, appareil, système)",
+            "Énumération sommaire des différents systèmes (digestif, respiratoire, circulatoire,…), de leur fonction et de leur complémentarité"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "contenu": [
+            "Analyse de différents systèmes (digestif, respiratoire, circulatoire) afin de montrer comment ils concourent à la pérennité de la vie de toutes les cellules du corps (assimilation des nutriments, respiration, défense contre les agents infectieux)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "contenu": [
+            "Étude des principaux agents infectieux (virus, bactéries, mycoses), de leurs modes de propagation et des moyens de prévention et de lutte (vaccin, antibiotique)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "contenu": [
+            "Acquisition d'une représentation sommaire des sens par l’expérimentation",
+            "Acquisition d'une représentation du système nerveux central",
+            "Explication du fonctionnement des sens, de la motricité volontaire et des réflexes (récepteurs sensoriels, nerfs sensitifs, système nerveux central, nerfs moteurs et muscles)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "contenu": [
+            "Acquisition d'une représentation du système locomoteur",
+            "Étude du squelette (crâne, vertèbres cervicales – dorsales - lombaires, cage thoracique, bassin, os des membres)",
+            "Analyse des structures nécessaires aux mouvements (muscles, articulations, tendons, ligaments)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "contenu": [
+            "Acquisition d'une représentation du système digestif (de la cavité buccale à l'anus) et de tous les organes associés",
+            "Explication de la digestion en distinguant les étapes de digestion mécanique et chimique, puis de l'absorption des nutriments",
+            "Distinction entre ce que le système digestif n'absorbe pas et les déchets du métabolisme éliminés par les reins"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "contenu": [
+            "Acquisition d'une représentation du système cardiovasculaire",
+            "Schématisation de la circulation sanguine et explication des relations que le système sanguin entretient avec les systèmes respiratoire, digestif et excréteur"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "contenu": [
+            "Acquisition d'une représentation de l'appareil respiratoire en identifiant les organes impliqués",
+            "Compréhension de l'échange gazeux au niveau alvéolaire et cellulaire (O_2, CO_2, alvéoles, capillaires sanguins, cellules)",
+            "Distinction entre ventilation (mécanique respiratoire) et respiration cellulaire"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "contenu": [
+            "Compréhension des changements liés à la puberté (modifications corporelles ; cycle menstruel)",
+            "Étude d’une représentation des systèmes reproducteurs masculin et féminin",
+            "Étude sommaire des phases successives de la grossesse (fécondation, œuf, embryon, fœtus, nouveau-né)",
+            "Sensibilisation au concept de mise en commun d’une part des bagages génétiques lors de la fécondation et de transmission de caractéristiques héréditaires"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "contenu": [
+            "Sensibilisation à quelques dysfonctionnements du corps (cancers, allergies,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prévention ( 6 )",
+          "contenu": [
+            "Mise en évidence des fragilités des sens (volume sonore,…)",
+            "Sensibilisation aux dangers que représentent quelques addictions (alcool, drogues, tabac, Internet,…)",
+            "Sensibilisation aux dangers que représentent les substances toxiques (drogues, polluants atmosphériques,…)",
+            "Sensibilisation à l'importance d’avoir une hygiène de vie équilibrée (activité physique, alimentation équilibrée,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "face à une situation, énonce une hypothèse pertinente / des hypothèses pertinentes (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "imagine une expérimentation et rédige un protocole d’observations et de mesures qui ne fait varier qu'un facteur à la fois"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "réalise un protocole d’observations et de mesures"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "structure et présente les résultats, en utilisant les arrondis et unités adéquats, dans un tableau / une représentation graphique (Niv 2) (diagramme cartésien, en colonne, circulaire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "produit un dessin, un schéma pour représenter ses observations"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "discute, débat, de la validité des hypothèses émises (sur la base de modèles) en regard de résultats expérimentaux et de leur précision"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "rend compte d'une tâche scientifique oralement ou par écrit, confronte son avis à celui de ses pairs ou de spécialistes (documentaires, articles,…), argumente son point de vue"
+        },
+        {
+          "fin": "11e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "texte": "schématise les différents systèmes étudiés du corps humain en expliquant leur fonction respective et les relations qu'ils ont entre eux"
+        },
+        {
+          "fin": "11e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "texte": "explique en quoi chaque système participe directement ou indirectement à la vie des cellules de l'organisme (nutrition et respiration)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "texte": "schématise les échanges au niveau de la cellule (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "texte": "nomme les organes liés aux 5 sens (peau, nez, œil, oreille, langue, nerfs, moelle épinière, cerveau) et évalue leur fragilité (bruit, drogue,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "texte": "décrit les différentes étapes d’une réponse à un stimulus"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "texte": "décrit les composants du système locomoteur : squelette (crâne, colonne vertébrale, ceintures, membres) et muscles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "texte": "explique les mouvements antagonistes en se limitant à flexion-extension"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "repère sur un schéma les principaux organes liés au système digestif (cavité buccale, œsophage, estomac, intestin grêle, gros intestin, rectum, anus et glandes salivaires, foie, pancréas)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "explique l’absorption des nutriments"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "repère sur un schéma les principaux organes du système cardio-vasculaire (artères, veines, capillaires, oreillette, ventricule)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "explique le rôle de transport de la circulation sanguine (O_2, CO_2, nutriments, déchets, anticorps, hormones) entre toutes les cellules"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "repère sur un schéma les principaux organes du système respiratoire (trachée, bronches, poumons, alvéoles pulmonaires, capillaires, sang «rouge/bleu»)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "texte": "décrit et explique le mécanisme de la respiration (ventilation et échanges gazeux au niveau alvéolaire et cellulaire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "texte": "nomme les principaux organes du système reproducteur de la femme et de l'homme"
+        },
+        {
+          "fin": "11e",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "texte": "ordonne les différentes phases de la grossesse"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prévention ( 6 )",
+          "texte": "identifie des comportements à risque"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prévention ( 6 )",
+          "texte": "argumente les conséquences de comportements à risque"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/64",
+      "code": "MSN 38",
+      "axe": "Diversité du vivant",
+      "titre": "Analyser l'organisation du vivant et en tirer des conséquences pour la pérennité de la vie",
+      "composantes": [
+        "1. en décrivant des aspects de l’organisation de la vie",
+        "2. en décrivant simplement la transmission d’information génétique d’une génération à l’autre",
+        "3. en identifiant les niveaux d’organisation de la vie : des écosystèmes à la cellule",
+        "4. en comparant les fonctions de cellules, de tissus, d’organes, d’appareils et de systèmes",
+        "5. en comparant le mode de reproduction de divers organismes",
+        "6. en identifiant des éléments de réaction d’écosystèmes"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Observations, questionnements, identification de facteurs pertinents et de leurs éventuelles corrélations, susceptibles de caractériser la situation étudiée\nTransposition des éléments d’un phénomène ou d'une situation dans le cadre des modèles étudiés préalablement"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Préparation d'un protocole d'observations, de mesures et de calculs",
+            "Élaboration d'un dispositif permettant d'effectuer les observations et les mesures prévues",
+            "Choix, réglage et utilisation d’un instrument de mesure (balance, chronomètre, thermomètre, récipient gradué, double-mètre, dynamomètre, baromètre,…)",
+            "Observation expérimentale d’un phénomène en variant un seul facteur à la fois",
+            "Sensibilisation à l’influence du nombre de mesures sur la précision des résultats",
+            "Structuration et présentation des résultats (arrondi et unités adéquats) sous forme de liste, de tableau ou de graphique"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "contenu": [
+            "Analyse (par écrit ou oralement) de la pertinence, de la cohérence et de la complétude d’une expérience (hypothèses, conditions d'expérience, résultats expérimentaux [en tenant compte de leur précision], analyses, utilisation d'un modèle, conclusions)",
+            "Utilisation d’un langage spécifique : vocabulaire, symboles, règles de structuration (rapport, schéma,…)",
+            "Respect des règles du débat scientifique (écoute de l'autre, respect des idées d'autrui, remise en question de ses propres idées,…)",
+            "Utilisation de ressources externes de nature variée (articles, films, tables numériques,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Détermination des caractéristiques du vivant (naître-mourir, se développer, se maintenir, respirer, se nourrir, excréter, se reproduire, se protéger)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Appropriation des différents niveaux d'organisation de la vie au niveau macroscopique (écosystème – populations – individus – pluricellulaires – unicellulaires)"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Identification (mise en ordre d'une collecte de matériel vivant, identification des caractères partagés par deux ou trois espèces différentes, attribution d’un nom à un être vivant donné,…) de différents organismes d’un écosystème à l’aide de documents de référence (clefs de détermination,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Étude et comparaison des réseaux alimentaires de deux milieux naturels (terrestre ou aquatique) et mise en évidence du rôle des organismes autotrophes"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Mise en évidence par expérimentation des tenants et aboutissants de la photosynthèse (influence du CO_2 et de la lumière sur une plante aquatique, rejet d'oxygène; mise en évidence de l'amidon produit par une feuille verte,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Mise en évidence de l'importance énergétique de la photosynthèse (dépendance des hétérotrophes envers les autotrophes)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "contenu": [
+            "Étude de l’impact de modifications d’un écosystème (destruction de la niche écologique ou morcellement du domaine vital, sélection d'une espèce – monoculture –, introduction d'une espèce exotique, modification des facteurs abiotiques, réaction d'un écosystème à des modifications climatiques, déstructuration d'un réseau alimentaire par élimination d'une ou plusieurs espèces,…)",
+            "Mise en évidence de l'aspect systémique des situations traitées"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "contenu": [
+            "Observation et description de caractéristiques d’une cellule (paroi, membrane, cytoplasme, noyau) comme unité de base du vivant",
+            "Reconnaissance de la diversité des cellules des organismes (cellules spécialisées et cellules souches)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "contenu": [
+            "Comparaison de différents mécanismes d’échanges, de transport et d’absorption (respiration, nutrition, circulation sanguine)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "contenu": [
+            "Reconnaissance de la finalité de chaque système: permettre le fonctionnement de chaque cellule de l’organisme"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "contenu": [
+            "Comparaison entre le mode de reproduction de divers organismes uni- et pluricellulaires : différenciation entre reproduction sexuée et asexuée (bactérie, algue, fraisier, hydre, arthropode, vertébré,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "contenu": [
+            "Sensibilisation à la notion d’espèce",
+            "Identification des chromosomes, segmentés en gènes, comme le support de l’information héréditaire",
+            "Identification des chromosomes comme support de l’information héréditaire et de la molécule d'ADN, portant les gènes (Niv 2)",
+            "Schématisation d'une division mitotique à quatre chromosomes au plus",
+            "Étude sommaire des étapes menant à la fécondation : ségrégation chromosomique lors de la formation des gamètes et sélection aléatoire des gamètes",
+            "Mise en évidence de l’origine de la biodiversité (évolution)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "face à une situation, énonce une hypothèse pertinente / des hypothèses pertinentes (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "imagine une expérimentation et rédige un protocole d’observations et de mesures qui ne fait varier qu'un facteur à la fois"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "réalise un protocole d’observations et de mesures"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "structure et présente les résultats, en utilisant les arrondis et unités adéquats, dans un tableau / une représentation graphique (Niv 2) (diagramme cartésien, en colonne, circulaire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "produit un dessin, un schéma pour représenter ses observations"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "discute, débat, de la validité des hypothèses émises (sur la base de modèles) en regard de résultats expérimentaux et de leur précision"
+        },
+        {
+          "fin": "11e",
+          "notion": "Utilisation de la démarche scientifique",
+          "texte": "rend compte d'une tâche scientifique oralement ou par écrit, confronte son avis à celui de ses pairs ou de spécialistes (documentaires, articles,…), argumente son point de vue"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "détermine des critères pour distinguer le vivant du non vivant aux différents niveaux d’organisation de la vie"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "repère les différences entre un organisme unicellulaire et un organisme pluricellulaire"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "identifie et classe des êtres vivants à l’aide de documents de référence"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "suit un protocole d'expérimentation visant à mettre en évidence une manifestation de la photosynthèse"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "distingue les végétaux des animaux (producteur et consommateur)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "décrit le rôle fondamental de la photosynthèse pour la survie des hétérotrophes et argumente cette notion à l'aide de la formule de la photosynthèse (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "argumente sur ce qui fait que la préservation d'une espèce passe par la préservation de son biotope"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "utilise les notions de facteurs biotiques et abiotiques (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "texte": "à partir d’un thème d’actualité écologique, identifie les effets favorables ou défavorables selon les espèces d’un écosystème"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "texte": "repère les principales structures de la cellule : membrane, cytoplasme, noyau"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "texte": "sait qu’un organisme pluricellulaire est formé de cellules spécialisées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "texte": "compare différents schémas d'organismes au niveau de la respiration et de la circulation des nutriments"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "texte": "schématise les échanges au niveau de la cellule (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "texte": "sait que chaque système doit assurer la même fonction finale: permettre le fonctionnement de chaque cellule de l’organisme"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "texte": "compare la reproduction animale et végétale en identifiant les similitudes"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "texte": "sait que la reproduction n’est possible qu’au sein d’une même espèce"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "texte": "identifie le chromosome à un support de l’hérédité"
+        },
+        {
+          "fin": "11e",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "texte": "sait que la diversité du vivant est issue des processus de la reproduction sexuée"
+        }
+      ]
+    }
+  ]
+}

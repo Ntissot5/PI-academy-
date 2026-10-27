@@ -1,0 +1,1557 @@
+{
+  "canton": "BE",
+  "documents": [
+    {
+      "titre": "Dispositions générales complétant le Plan d’études romand (PER) – 31 mai 2019, avec modification du 28 avril 2023",
+      "fichier": "pdf/dispositions_generales_PER_2023.pdf",
+      "url": "https://www.akvb-unterricht.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/fr/comeo/per/20230428-Dispositions-générales-complétant-le-PER-définitif.pdf",
+      "annee_scolaire": "INTROUVABLE"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "1re",
+      "discipline": "activités langagières (31%)",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "7-8 ; École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "activités mathématiques (13%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "activités d’exploration de l’environnement (7%)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "activités artistiques (15%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "3-4 ; École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "activités corporelles (12%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "activités de socialisation (7%)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "1re",
+      "discipline": "15% de temps supplémentaire à disposition pour les activités ci-dessus",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "2-3 (39 semaines) ; 3-4 (38 semaines) ; Total 22-25 (39 semaines) / 23-26 (38 semaines)"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités langagières (31%)",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "7-8 ; École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités mathématiques (13%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités d’exploration de l’environnement (7%)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités artistiques (15%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "3-4 ; École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités corporelles (12%)",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "activités de socialisation (7%)",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "École enfantine : temps d’enseignement global, indications en leçons données à titre indicatif ; valeur identique pour 39 et 38 semaines"
+    },
+    {
+      "annee": "2e",
+      "discipline": "15% de temps supplémentaire à disposition pour les activités ci-dessus",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "2-3 (39 semaines) ; 3-4 (38 semaines) ; Total 22-25 (39 semaines) / 23-26 (38 semaines)"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Français",
+      "periodes": 9,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Français",
+      "periodes": 7,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Allemand",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Allemand",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; * dont 1 leçon différenciée selon description chapitre 2.2.8"
+    },
+    {
+      "annee": "3e",
+      "discipline": "connaissance de l’environnement (Mathématiques et sciences de la nature)",
+      "periodes": 0,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 38 semaines : 1"
+    },
+    {
+      "annee": "4e",
+      "discipline": "connaissance de l’environnement (Mathématiques et sciences de la nature)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 38 semaines : 2"
+    },
+    {
+      "annee": "5e",
+      "discipline": "connaissance de l’environnement (Mathématiques et sciences de la nature)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 38 semaines : 2"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; intitulé : sciences naturelles ; 38 semaines : 1° ; ° En 6e année, quatre leçons au lieu de trois pour l’ensemble des disciplines sciences naturelles, histoire et géographie."
+    },
+    {
+      "annee": "7e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; intitulé : sciences naturelles ; 38 semaines : 3"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; intitulé : sciences naturelles ; 38 semaines : 3"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 38 semaines : 1° ; ° En 6e année, quatre leçons au lieu de trois pour l’ensemble des disciplines sciences naturelles, histoire et géographie."
+    },
+    {
+      "annee": "7e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 38 semaines : 1° ; ° En 6e année, quatre leçons au lieu de trois pour l’ensemble des disciplines sciences naturelles, histoire et géographie."
+    },
+    {
+      "annee": "7e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "connaissance de l’environnement (Sciences humaines et sociales)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "connaissance de l’environnement (Sciences humaines et sociales)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "connaissance de l’environnement (Sciences humaines et sociales)",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "activités créatrices manuelles",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "activités créatrices manuelles",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "éducation artistique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "éducation artistique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "éducation artistique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "éducation artistique",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "4e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "5e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "6e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "7e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "8e",
+      "discipline": "éducation générale et gestion de la classe",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "3e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "4e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "5e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "6e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "7e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "histoire des religions / éthique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "8e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines"
+    },
+    {
+      "annee": "3e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "4e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 2,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "5e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "6e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "7e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "8e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "toutes",
+      "note": "Tableau de leçons au degré primaire pour 39 semaines ; 1 selon description chapitre 2.2.3.2"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : français (par niveau)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : allemand (par niveau)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : anglais"
+    },
+    {
+      "annee": "10e",
+      "discipline": "latin",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; L option obligatoire attribuée aux élèves ayant choisi le latin"
+    },
+    {
+      "annee": "11e",
+      "discipline": "latin",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; L option obligatoire attribuée aux élèves ayant choisi le latin"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : mathématiques (par niveau)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "mathématiques chapitres choisis",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; M/S option obligatoire attribuée aux élèves qui n’ont pas choisi le latin"
+    },
+    {
+      "annee": "11e",
+      "discipline": "mathématiques chapitres choisis",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; M/S option obligatoire attribuée aux élèves qui n’ont pas choisi le latin"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : sciences naturelles"
+    },
+    {
+      "annee": "10e",
+      "discipline": "biologie – chimie/physique TP",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; M/S option obligatoire attribuée aux élèves qui n’ont pas choisi le latin"
+    },
+    {
+      "annee": "11e",
+      "discipline": "biologie – chimie/physique TP",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; M/S option obligatoire attribuée aux élèves qui n’ont pas choisi le latin"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; intitulé : histoire"
+    },
+    {
+      "annee": "9e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "géographie / économie",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "éducation artistique",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation artistique",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation musicale",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "activités créatrices sur textiles et TM",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation physique et sportive",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation générale et gestion de la classe, PCP",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; + 10 leçons ponctuelles par année/classe FG : oui"
+    },
+    {
+      "annee": "11e",
+      "discipline": "projet individuel",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "projet individuel",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "projet individuel",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "économe familiale",
+      "periodes": 3,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "10e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "11e",
+      "discipline": "éducation numérique",
+      "periodes": 1,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines"
+    },
+    {
+      "annee": "9e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 1,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "10e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "10e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "10e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "11e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 1,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "11e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 2,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "11e",
+      "discipline": "API (français, allemand ou mathématiques)",
+      "periodes": 2,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; 1 selon chapitre 2.2.9, les élèves sont attribués à un groupe en fonction de leurs besoins et priorités"
+    },
+    {
+      "annee": "9e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "p, m, g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "10e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "10e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "10e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "11e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "p",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "11e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "m",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    },
+    {
+      "annee": "11e",
+      "discipline": "ENSEIGNEMENT FACULTATIF",
+      "periodes": 3,
+      "filiere": "g",
+      "note": "Tableau de leçons au degré secondaire I pour 39 semaines ; projets et activités créatrices, préparations à l’apprentissage/au secondaire II ; langues ; choix de l’école ; 2 selon description chapitre 2.2.3.3 ; Dotation horaire maximale 38"
+    }
+  ],
+  "niveaux_filieres": [
+    {
+      "niveau_per": "Niv 1",
+      "filieres": [
+        "Niveau C",
+        "Niveau B",
+        "Niveau A",
+        "Section g",
+        "Section m",
+        "Section p"
+      ],
+      "texte": "Quand des niveaux sont précisés, ils correspondent à une gradation des apprentissages partant du niveau 1 (apprentissages et attentes communs à tous les élèves), qui correspond aux exigences élémentaires du niveau C ci-dessus. — Niveau A, Niveau B, Niveau C : Attentes fondamentales (= niveau 1) ; Section p, Section m, Section g : Attentes fondamentales (= niveau 1)"
+    },
+    {
+      "niveau_per": "Niv 2",
+      "filieres": [
+        "Niveau B",
+        "Niveau A"
+      ],
+      "texte": "Des contenus et/ou de la complexité supplémentaire s’ajoutent pour caractériser les niveaux 2 et 3 du PER, respectivement les niveaux B et A du degré secondaire I bernois. — Disciplines enseignées par niveau (A, B, C) : Français, Allemand*, Mathématiques : Niveau A et Niveau B : + Attentes de niveau 2"
+    },
+    {
+      "niveau_per": "Niv 2",
+      "filieres": [
+        "Section p"
+      ],
+      "texte": "Disciplines enseignées par section (p, m, g) : Anglais*, Sciences, Histoire, Géographie : Section p : Attentes fondamentales (= niveau 1) + Attentes de niveau 2 ; Section m et Section g : Attentes fondamentales (= niveau 1)"
+    },
+    {
+      "niveau_per": "Niv 3",
+      "filieres": [
+        "Niveau A"
+      ],
+      "texte": "Des contenus et/ou de la complexité supplémentaire s’ajoutent pour caractériser les niveaux 2 et 3 du PER, respectivement les niveaux B et A du degré secondaire I bernois. — Français, Allemand*, Mathématiques : Niveau A : + Attentes de niveau 3"
+    }
+  ],
+  "repartition_par_annee": [],
+  "evaluations": [
+    {
+      "annee": "9e-11e",
+      "discipline": "Français, Allemand, Mathématiques",
+      "type": "changement de niveau",
+      "texte": "Au degré secondaire I, le passage d’un niveau à un autre (de C vers B et de B vers A) peut avoir lieu lorsqu’il est fondé de penser que l’élève est apte à satisfaire aux exigences plus élevées de ce niveau. Ce changement peut se faire à n’importe quel moment de l’année par une décision d’orientation. En fin d’année, lorsqu’il est fondé de penser qu’il ou elle ne satisfait plus aux exigences de l’enseignement dispensé dans un niveau, il ou elle passe dans le niveau inférieur."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "changement de section",
+      "texte": "Le changement de section intervient uniquement en fin d’année scolaire. En fin d’année, si un des profils (A, B ou C) est modifié, l’élève peut changer de section, passant de g à m ou de m à p si la variation a lieu vers des exigences plus élevées ; il doit changer de section en passant de p à m ou de m à g si la variation a lieu vers des exigences moins élevées."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "Français, Allemand, Mathématiques",
+      "type": "conditions d’appartenance – section p",
+      "texte": "Conditions d’appartenance à la section/classe : 2 niveaux «A» au moins pas de «C» + 2e condition réalisée. Condition 1 (Français, Allemand, Mathématiques) : Notes égales ou supérieures à 4 dans 2 disciplines à niveau «A» au moins. Note inférieure à 4 : changement de niveau. Condition 2 (Autres disciplines obligatoires) : Pas plus d’une note inférieure à 4."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "Français, Allemand, Mathématiques",
+      "type": "conditions d’appartenance – section m",
+      "texte": "Conditions d’appartenance à la section/classe : 2 niveaux «B» au moins + 2e condition réalisée. Condition 1 : Notes égales ou supérieures à 4 dans 2 disciplines à niveau «B» au moins. Note inférieure à 4 : changement de niveau. Condition 2 (Autres disciplines obligatoires) : Pas plus de deux notes inférieures à 4."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "Français, Allemand, Mathématiques",
+      "type": "conditions d’appartenance – section g",
+      "texte": "Conditions d’appartenance à la section/classe : 2 niveaux «C» au moins + 2e condition réalisée. Condition 1 : Notes égales ou supérieures à 4 dans 2 disciplines à niveau «C» au moins. Note inférieure à 4 : poursuite en niveau «C». Condition 2 (Autres disciplines obligatoires) : Pas plus de quatre notes inférieures à 4."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "conséquences",
+      "texte": "Conditions 1 et 2 remplies + recommandation du corps enseignant : Maintien en section p / m / g. Conditions 1 et 2 remplies incluant un changement de niveau + recommandation du corps enseignant : Passage à la section à exigences plus élevées (p) / (m). Conditions 1 ou 2 non remplies : Répétition de l’année ou transfert dans une section à exigences moins élevées (m) / (g) ; section g : Répétition dans la même section."
+    },
+    {
+      "annee": "1re-8e",
+      "discipline": "toutes",
+      "type": "attentes fondamentales",
+      "texte": "À l’école enfantine et au degré primaire, l’ensemble des domaines et disciplines comprennent, en regard de la progression des apprentissages, des attentes fondamentales décrivant les connaissances et compétences que chaque élève devrait atteindre au cours d’un cycle, mais au plus tard à la fin du cycle."
+    }
+  ],
+  "filieres": [
+    {
+      "code": "g",
+      "nom": "Section générale",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "m",
+      "nom": "Section moderne",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "p",
+      "nom": "Section préparant aux écoles de maturité",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "A",
+      "nom": "Niveau A : exigences élevées",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "B",
+      "nom": "Niveau B : exigences moyennes",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "C",
+      "nom": "Niveau C : exigences élémentaires",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    }
+  ]
+}

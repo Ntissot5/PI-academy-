@@ -1,0 +1,541 @@
+{
+ "MSN 11": {
+  "axe": "Espace",
+  "titre": "Explorer l'espace",
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/36"
+ },
+ "MSN 12": {
+  "axe": "Nombres",
+  "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres naturels",
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/37"
+ },
+ "MSN 13": {
+  "axe": "Opérations",
+  "titre": "Résoudre des problèmes additifs",
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/38"
+ },
+ "MSN 14": {
+  "axe": "Grandeurs et mesures",
+  "titre": "Comparer et sérier des grandeurs",
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/39"
+ },
+ "MSN 15": {
+  "axe": "Modélisation",
+  "titre": "Représenter des phénomènes naturels, techniques ou des situations mathématiques",
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/167"
+ },
+ "MSN 16": {
+  "axe": "Phénomènes naturels et techniques",
+  "titre": "Explorer des phénomènes naturels et des technologies",
+  "discipline": "Sciences de la nature",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/56"
+ },
+ "MSN 17": {
+  "axe": "Corps humain",
+  "titre": "Construire son schéma corporel pour tenir compte de ses besoins",
+  "discipline": "Sciences de la nature",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/57"
+ },
+ "MSN 18": {
+  "axe": "Diversité du vivant",
+  "titre": "Explorer l'unité et la diversité du vivant",
+  "discipline": "Sciences de la nature",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/58"
+ },
+ "L1 11-12": {
+  "axe": "Compréhension de l'écrit, Production de l'écrit",
+  "titre": "Lire et écrire des textes d'usage familier et scolaire et s'approprier le système de la langue écrite",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/1"
+ },
+ "L1 13-14": {
+  "axe": "Compréhension de l'oral, Production de l'oral",
+  "titre": "Comprendre et produire des textes oraux d'usage familier et scolaire",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/2"
+ },
+ "L1 15": {
+  "axe": "Accès à la littérature",
+  "titre": "Apprécier des ouvrages littéraires",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/11"
+ },
+ "L1 16": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/12"
+ },
+ "L1 18": {
+  "axe": "Écriture et instruments de la communication",
+  "titre": "Découvrir et utiliser la technique de l'écriture et les instruments de la communication",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/14"
+ },
+ "L 17": {
+  "axe": "Approches interlinguistiques",
+  "titre": "Identifier l'organisation et le fonctionnement de la langue par l'observation et la manipulation d'autres langues",
+  "discipline": "Français",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/13"
+ },
+ "SHS 11": {
+  "axe": "Relation Homme-espace",
+  "titre": "Se situer dans son contexte spatial et social",
+  "discipline": "Géographie",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/65"
+ },
+ "SHS 13": {
+  "axe": "Outils et méthodes de recherche",
+  "titre": "S’approprier, en situation, des outils pertinents pour découvrir et se questionner sur des problématiques de sciences humaines et sociales",
+  "discipline": "Géographie",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/165"
+ },
+ "SHS 12": {
+  "axe": "Relation Homme-temps",
+  "titre": "Se situer dans son contexte temporel et social",
+  "discipline": "Histoire",
+  "cycle": 1,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/66"
+ },
+ "MSN 21": {
+  "axe": "Espace",
+  "titre": "Poser et résoudre des problèmes pour structurer le plan et l'espace",
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/40"
+ },
+ "MSN 22": {
+  "axe": "Nombres",
+  "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres rationnels",
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/41"
+ },
+ "MSN 23": {
+  "axe": "Opérations",
+  "titre": "Résoudre des problèmes additifs et multiplicatifs",
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/42"
+ },
+ "MSN 24": {
+  "axe": "Grandeurs et mesures",
+  "titre": "Utiliser la mesure pour comparer des grandeurs",
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/43"
+ },
+ "MSN 25": {
+  "axe": "Modélisation",
+  "titre": "Représenter des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+  "discipline": "Mathématiques",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/154"
+ },
+ "MSN 26": {
+  "axe": "Phénomènes naturels et techniques",
+  "titre": "Explorer des phénomènes naturels et des technologies à l'aide de démarches caractéristiques des sciences expérimentales",
+  "discipline": "Sciences de la nature",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/59"
+ },
+ "MSN 27": {
+  "axe": "Corps humain",
+  "titre": "Identifier les différentes parties de son corps, en décrire le fonctionnement et en tirer des conséquences pour sa santé",
+  "discipline": "Sciences de la nature",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/60"
+ },
+ "MSN 28": {
+  "axe": "Diversité du vivant",
+  "titre": "Déterminer des caractéristiques du monde vivant et de divers milieux et en tirer des conséquences pour la pérennité de la vie",
+  "discipline": "Sciences de la nature",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/61"
+ },
+ "L1 21": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire de manière autonome des textes variés et développer son efficacité en lecture",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/3"
+ },
+ "L1 22": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes variés à l'aide de diverses références",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/4"
+ },
+ "L1 23": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/5"
+ },
+ "L1 24": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/6"
+ },
+ "L1 25": {
+  "axe": "Accès à la littérature",
+  "titre": "Conduire et apprécier la lecture d'ouvrages littéraires",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/15"
+ },
+ "L1 26": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Construire une représentation de la langue pour comprendre et produire des textes",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/16"
+ },
+ "L1 28": {
+  "axe": "Écriture et instruments de la communication",
+  "titre": "Utiliser l'écriture et les instruments de la communication pour planifier et réaliser des documents",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/18"
+ },
+ "L 27": {
+  "axe": "Approches interlinguistiques",
+  "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+  "discipline": "Français",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/17"
+ },
+ "L2 21": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire des textes propres à des situations familières de communication",
+  "discipline": "Allemand",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/21"
+ },
+ "L2 22": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes simples propres à des situations familières de communication",
+  "discipline": "Allemand",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/22"
+ },
+ "L2 23": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre des textes oraux brefs propres à des situations familières de communication",
+  "discipline": "Allemand",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/23"
+ },
+ "L2 24": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des énoncés simples propres à des situations familières de communication",
+  "discipline": "Allemand",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/24"
+ },
+ "L2 26": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+  "discipline": "Allemand",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/33"
+ },
+ "L3 22": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes simples propres à des situations familières de communication",
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/175"
+ },
+ "L3 24": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des énoncés simples propres à des situations familières de communication",
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/174"
+ },
+ "SHS 21": {
+  "axe": "Relation Homme-espace",
+  "titre": "Identifier les relations existant entre les activités humaines et l'organisation de l'espace",
+  "discipline": "Géographie",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/67"
+ },
+ "SHS 23": {
+  "axe": "Outils et méthodes de recherche",
+  "titre": "S'approprier, en situation, des outils pertinents pour traiter des problématiques de sciences humaines et sociales",
+  "discipline": "Géographie",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/161"
+ },
+ "SHS 22": {
+  "axe": "Relation Homme-temps",
+  "titre": "Identifier la manière dont les Hommes ont organisé leur vie collective à travers le temps, ici et ailleurs",
+  "discipline": "Histoire",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/68"
+ },
+ "SHS 24": {
+  "axe": "Relation Homme-société",
+  "titre": "Identifier les formes locales d’organisation politique et sociale",
+  "discipline": "Citoyenneté",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/69"
+ },
+ "L3 21": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire des textes propres à des situations familières de communication",
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/173"
+ },
+ "L3 23": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre des textes oraux brefs propres à des situations familières de communication",
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/172"
+ },
+ "L3 26": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+  "discipline": "Anglais",
+  "cycle": 2,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/176"
+ },
+ "MSN 31": {
+  "axe": "Espace",
+  "titre": "Poser et résoudre des problèmes pour modéliser le plan et l'espace",
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/45"
+ },
+ "MSN 32": {
+  "axe": "Nombres",
+  "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres réels",
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/48"
+ },
+ "MSN 33": {
+  "axe": "Opérations",
+  "titre": "Résoudre des problèmes numériques et algébriques",
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/51"
+ },
+ "MSN 34": {
+  "axe": "Grandeurs et mesures",
+  "titre": "Mobiliser la mesure pour comparer des grandeurs",
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/54"
+ },
+ "MSN 35": {
+  "axe": "Modélisation",
+  "titre": "Modéliser des phénomènes naturels, techniques, sociaux ou des situations mathématiques",
+  "discipline": "Mathématiques",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/151"
+ },
+ "MSN 36": {
+  "axe": "Phénomènes naturels et techniques",
+  "titre": "Analyser des phénomènes naturels et des technologies à l'aide de démarches caractéristiques des sciences expérimentales",
+  "discipline": "Sciences de la nature",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/62"
+ },
+ "MSN 37": {
+  "axe": "Corps humain",
+  "titre": "Analyser les mécanismes des fonctions du corps humain et en tirer des conséquences pour sa santé",
+  "discipline": "Sciences de la nature",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/63"
+ },
+ "MSN 38": {
+  "axe": "Diversité du vivant",
+  "titre": "Analyser l'organisation du vivant et en tirer des conséquences pour la pérennité de la vie",
+  "discipline": "Sciences de la nature",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/64"
+ },
+ "L1 31": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire et analyser des textes de genres différents et en dégager les multiples sens",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/7"
+ },
+ "L1 32": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes de genres différents adaptés aux situations d’énonciation",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/8"
+ },
+ "L1 33": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre et analyser des textes oraux de genres différents et en dégager les multiples sens",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/9"
+ },
+ "L1 34": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des textes oraux de genres différents adaptés aux situations d'énonciation",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/10"
+ },
+ "L1 35": {
+  "axe": "Accès à la littérature",
+  "titre": "Apprécier et analyser des productions littéraires diverses",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/19"
+ },
+ "L1 36": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Analyser le fonctionnement de la langue et élaborer des critères d'appréciation pour comprendre et produire des textes",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/20"
+ },
+ "L1 38": {
+  "axe": "Écriture et instruments de la communication",
+  "titre": "Exploiter l'écriture et les instruments de la communication pour collecter l'information, pour échanger et pour produire les documents",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/153"
+ },
+ "L 37": {
+  "axe": "Approches interlinguistiques",
+  "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+  "discipline": "Français",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/158"
+ },
+ "L2 31": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire de manière autonome des textes rédigés en langage courant",
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/25"
+ },
+ "L2 32": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes variés sur des sujets familiers ou d'intérêt personnel",
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/27"
+ },
+ "L2 33": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/29"
+ },
+ "L2 34": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/31"
+ },
+ "L2 36": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/34"
+ },
+ "L3 31": {
+  "axe": "Compréhension de l'écrit",
+  "titre": "Lire de manière autonome des textes rédigés en langage courant",
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/178"
+ },
+ "L3 32": {
+  "axe": "Production de l'écrit",
+  "titre": "Écrire des textes variés sur des sujets familiers ou d'intérêt personnel",
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/180"
+ },
+ "L3 33": {
+  "axe": "Compréhension de l'oral",
+  "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/177"
+ },
+ "L3 34": {
+  "axe": "Production de l'oral",
+  "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/179"
+ },
+ "L3 36": {
+  "axe": "Fonctionnement de la langue",
+  "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+  "discipline": "Anglais",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/181"
+ },
+ "SHS 31": {
+  "axe": "Relation Homme-espace",
+  "titre": "Analyser des espaces géographiques et les relations établies entre les hommes et entre les sociétés à travers ceux-ci",
+  "discipline": "Géographie",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/70"
+ },
+ "SHS 33": {
+  "axe": "Outils et méthodes de recherche",
+  "titre": "S'approprier, en situation, des outils et des pratiques de recherche appropriés aux problématiques des sciences humaines et sociales",
+  "discipline": "Géographie",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/157"
+ },
+ "SHS 32": {
+  "axe": "Relation Homme-temps",
+  "titre": "Analyser l’organisation collective des sociétés humaines d'ici et d'ailleurs à travers le temps",
+  "discipline": "Histoire",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/71"
+ },
+ "SHS 34": {
+  "axe": "Relation Homme-société",
+  "titre": "Saisir les principales caractéristiques d'un système démocratique",
+  "discipline": "Citoyenneté",
+  "cycle": 3,
+  "source_url": "https://portail.ciip.ch/per/learning-objectives/72"
+ }
+}

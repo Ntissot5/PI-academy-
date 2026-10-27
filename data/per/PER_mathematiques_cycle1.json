@@ -1,0 +1,709 @@
+{
+  "discipline": "Mathématiques",
+  "cycle": 1,
+  "source": "https://portail.ciip.ch/per/disciplines/5",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/36",
+      "code": "MSN 11",
+      "axe": "Espace",
+      "titre": "Explorer l'espace",
+      "composantes": [
+        "1. en classant des formes géométriques selon des critères divers (forme, taille, couleur,…)",
+        "2. en se situant ou situant des objets à l’aide de systèmes de repérage personnels",
+        "3. en représentant librement des objets ainsi que des formes géométriques",
+        "4. en effectuant et décrivant ses propres déplacements et des déplacements d’objets",
+        "5. en identifiant des formes géométriques"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes géométriques, notamment : (B, D, E, F, G)",
+            "– tri et organisation des informations (liste, schéma,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d'essais successifs",
+            "– déduction d’une information nouvelle à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche (oralement) et d'un résultat en utilisant un vocabulaire adéquat"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Manipulation, observation et reconnaissance de formes géométriques simples : solides et formes planes (5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Manipulation, observation, reconnaissance, description et dénomination des formes géométriques simples : solides et formes planes (5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Composition d'une surface élémentaire à partir d'autres surfaces élémentaires (4)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Classement d'objets selon un critère (forme, taille, orientation,…) (1)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Classement d'objets selon deux critères (forme, taille, orientation,…) (1)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Construction d'une forme plane ou d'un solide avec du matériel divers (3)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Construction d'une forme plane ou d'un solide avec du matériel de construction (plots, mosaïque,…) (3)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Observation de «ce qui change» et «ce qui ne change pas» lors de transformations géométriques (4)"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Figures et transformations géométriques",
+          "contenu": [
+            "Reproduction et réalisation de formes planes (frises, pavages,…) (3, 4)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Découverte, exploration de l'espace et orientation en variant les points de référence (son propre corps, d'autres personnes, d'autres objets,…) (2)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Description d'un trajet dans son espace familier en indiquant le point de départ, le point d'arrivée, les directions à prendre, les repères pertinents (2, 4)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Détermination de sa position ou de celle d'un objet (devant, derrière, à côté, sur, sous, entre, à l'intérieur, à l'extérieur,…) selon différents points de repères (2)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Détermination de sa position ou de celle d'un objet (devant, derrière, à côté, sur, sous, entre, à l'intérieur, à l'extérieur, à gauche, à droite,…) selon différents points de repères (2)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "contenu": [
+            "Utilisation d'un code personnel pour mémoriser et communiquer des itinéraires de son espace familier (2, 4)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes géométriques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– observation de formes géométriques, de transformations géométriques et de positions relatives d'objets"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche (oralement) et du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Figures et transformations géométriques",
+          "texte": "reconnaît et nomme le rond, le carré, le rectangle, le triangle"
+        },
+        {
+          "fin": "4e",
+          "notion": "Figures et transformations géométriques",
+          "texte": "poursuit la construction, avec du matériel ou sur papier, d'une frise formée de 2 ou 3 formes géométriques"
+        },
+        {
+          "fin": "4e",
+          "notion": "Figures et transformations géométriques",
+          "texte": "oriente une forme pour qu'elle s'insère dans un ensemble"
+        },
+        {
+          "fin": "4e",
+          "notion": "Repérage dans le plan et dans l'espace",
+          "texte": "situe des objets par rapport à lui et par rapport à d'autres objets (devant, derrière, sur, sous, à côté de, entre, à l'intérieur de, à l'extérieur de)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/37",
+      "code": "MSN 12",
+      "axe": "Nombres",
+      "titre": "Poser et résoudre des problèmes pour construire et structurer des représentations des nombres naturels",
+      "composantes": [
+        "1. en associant un nombre à une quantité d’objets et inversement",
+        "2. en utilisant les nombres et les chiffres pour organiser des situations de vie",
+        "3. en passant de l’énonciation orale du nombre à son écriture chiffrée et inversement",
+        "4. en organisant les nombres naturels à travers l’addition",
+        "5. en ordonnant des nombres naturels"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-2e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:",
+            "selon les cas :",
+            "– nombres familiers: jusqu'à 12 (16 à 19 selon les enfants)",
+            "– nombres fréquentés: jusqu'à environ 30"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:",
+            "nombres naturels de 0 à 200"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes numériques, notamment : (A, B, D, E, F, G)",
+            "– tri et organisation des informations (liste, schéma,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– déduction d’une information nouvelle à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche (oralement) et d'un résultat en utilisant un vocabulaire ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Expérimentation des premiers nombres, signification des nombres par des exemples proches de l'enfant (nombre d'élèves de la classe, jours du mois,…) (nombres fréquentés) (2)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Dénombrement d'une petite collection d'objets, et expression orale de sa quantité (nombres familiers) (1, 2)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Dénombrement d'une collection d'objets, par comptage organisé, par groupements de 10 (1, 2)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Estimation du nombre d'objets d'une collection par perception globale (nombres familiers) (2)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Estimation du nombre d'objets d'une collection par perception globale (2)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Comparaison de deux collections ou constitution d'une collection ayant un nombre donné d'objets par correspondance terme à terme (nombres familiers) (1)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Comparaison de collections ou constitution d'une collection ayant un nombre donné d'objets, par correspondance terme à terme, par dénombrement, par estimation (1)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Augmentation et diminution du nombre d'objets d'une collection (nombres familiers) (4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Production d'un nombre plus grand ou plus petit d'une unité qu'un nombre donné (4)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Mémorisation de la suite numérique (nombres fréquentés) (3)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Comptage et décomptage de 1 en 1, de 10 en 10, à partir d'un nombre donné (3, 4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Comptage de 2 en 2, de 5 en 5 à partir de 0"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Reconnaissance de quelques suites numériques (pair, impair,…) (5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à son écriture chiffrée, et inversement (3)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Passage du mot-nombre (oral ou écrit) à sa décomposition en unités et dizaines, et inversement (3)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Utilisation des nombres (nombres familiers) comme outil pour dénombrer, comparer des collections organisées (dés, dominos,…) ou non organisées (objets disposés aléatoirement,…) (1, 2, 5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "contenu": [
+            "Comparaison, classement, encadrement, intercalation de nombres (5)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes numériques en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– utilisation des règles du système de numération"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche (oralement) et du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "dénombre une collection d'objets dont le nombre est inférieur à 100 par comptage organisé"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "constitue une collection ayant un nombre donné d’objets inférieur à 50"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "écrit en chiffres et récite (de manière fluide pour les nombres à deux chiffres) des séquences de la suite numérique"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "compte de 10 en 10 jusqu’à 100, à partir d’un nombre donné"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "passe du mot-nombre (oral) à son écriture chiffrée et inversement"
+        },
+        {
+          "fin": "4e",
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "Compare, ordonne, encadre, intercale des nombres inférieurs à 100"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "Dans la 1re partie du cycle, les nombres ne sont pas des objets d’étude en soi mais des outils pour nommer, lire et écrire des quantités dans des activités fonctionnelles ou dans des situations d’apprentissage"
+        },
+        {
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "Dans la 1re partie du cycle, si certains élèves mémorisent la suite numérique jusqu'à 20 et même au-delà, pour d'autres élèves, l'enseignement à la mémorisation portera essentiellement sur les nombres jusqu'à 12"
+        },
+        {
+          "notion": "Découverte, construction et utilisation du nombre",
+          "texte": "Dans la 2e partie du cycle, les élèves rencontrent deux obstacles épistémologiques importants :"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/38",
+      "code": "MSN 13",
+      "axe": "Opérations",
+      "titre": "Résoudre des problèmes additifs",
+      "composantes": [
+        "1. en traduisant les situations en écritures additive ou soustractive",
+        "2. en utilisant la commutativité et l’associativité de l’addition",
+        "3. en choisissant l’outil de calcul le mieux adapté à la situation proposée",
+        "4. en construisant, en exerçant et en utilisant des procédures de calcul avec des nombres naturels (calcul réfléchi, calculatrice, répertoires mémorisés)",
+        "5. en jouant (magasin, jeu de cartes, jeu de dés,…)",
+        "6. en anticipant un résultat"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-2e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:",
+            "nombres naturels de 0 à 10"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "",
+          "contenu": [
+            "Domaine numérique de travail:",
+            "nombres naturels de 0 à 20 en 3e et de 0 à 200 en 4e"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes numériques en lien avec les opérations étudiées, notamment : (A, B, D, E, F, G)",
+            "– tri et organisation des informations (liste, schéma,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– déduction d’une information nouvelle à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche (oralement) et d'un résultat en utilisant un vocabulaire ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "– traduction des données d’un problème en opérations arithmétiques : additions et soustractions (1)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes additifs et soustractifs (EEE, ETE), sans formalisation, en jouant la situation, en dessinant, ou en utilisant du matériel (1, 5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes additifs et soustractifs (EEE, ETE, ECE) (1, 5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Approche de la multiplication à l’aide de situations-problèmes adaptées : situations d’itération (5+5+5) ou liées au produit cartésien (3x5)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation du recomptage (3)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation du surcomptage (3)",
+            "Utilisation d'outils de calcul appropriés : calcul réfléchi avec possibilité d'utiliser un support (bande numérique, tableau des nombres,…), répertoire mémorisé, calculatrice (3, 4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Calculs",
+          "contenu": [
+            "Utilisation des propriétés du système de numération et de l'addition (commutativité, associativité, élément neutre) pour organiser et effectuer des calculs de manière efficace (2, 4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Calculs",
+          "contenu": [
+            "Mémorisation du répertoire additif de 0+0 à 9+9 (4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Calculs",
+          "contenu": [
+            "Mémorisation du répertoire soustractif de 0-0 à 10-10 (4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Calculs",
+          "contenu": [
+            "Anticipation du résultat d'un calcul (6)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes additifs et soustractifs (de type EEE ou recherche de l’état final d’une transformation d’états ETE) avec des nombres inférieurs à 20 et faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix de l’opération : addition ou soustraction"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche (oralement) et du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "traduit un problème additif ou soustractif (de type EEE ou recherche de l’état final d’une transformation d’états ETE) en une écriture mathématique appropriée"
+        },
+        {
+          "fin": "4e",
+          "notion": "Calculs",
+          "texte": "utilise des procédures de calcul réfléchi pour effectuer de manière efficace une addition de deux termes dont la somme est inférieure à 100 sans échanges unités-dizaine et une soustraction dont chaque terme est inférieur à 100 sans échanges dizaine-unités (12+65; 24+13; 30+20; 48–6; 53–20,…)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Calculs",
+          "texte": "maîtrise le répertoire mémorisé de 0+0 à 9+9"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/39",
+      "code": "MSN 14",
+      "axe": "Grandeurs et mesures",
+      "titre": "Comparer et sérier des grandeurs",
+      "composantes": [
+        "1. en passant de la comparaison de grandeurs à la quantification d’une grandeur",
+        "2. en expérimentant avec différents matériaux (eau, sable, bâtons, carrelages, planches)",
+        "3. en construisant et exprimant une mesure avec des unités non-conventionnelles et/ou conventionnelles",
+        "4. en mettant en relation des grandeurs perçues et des grandeurs mesurées",
+        "5. en effectuant des comparaisons directes et indirectes"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "contenu": [
+            "Résolution de problèmes de mesurage, notamment : (B, D, E, F, G)",
+            "– tri et organisation des informations (liste, schéma,…)",
+            "– mise en œuvre d’une démarche de résolution",
+            "– ajustement d’essais successifs",
+            "– déduction d’une information nouvelle à partir de celles qui sont connues",
+            "– vérification, puis communication d'une démarche (oralement) et d'un résultat en utilisant un vocabulaire ainsi que des symboles adéquats"
+          ]
+        },
+        {
+          "annee": "1re-4e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Expérimentation avec différents matériaux (eau, sable, bâtons, carrelages, planches,…) (2)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Approche perceptive de quelques grandeurs par manipulation (longueur, aire, volume, masse, temps) (4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Organisation d'un mesurage, choix d'une unité (conventionnelle ou non) et d'une procédure (longueur, aire, volume, masse, temps) (1, 3, 4)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Estimation de longueurs et d'aires, soit en reportant une unité de mesure donnée, soit en recouvrant l'objet à mesurer avec plusieurs exemplaires de l'unité de mesure donnée (5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Mise en relation de grandeurs perçues et de grandeurs mesurées (4)"
+          ]
+        },
+        {
+          "annee": "1re-2e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Comparaison directe de deux ou plusieurs objets selon une grandeur : longueur, aire, volume, masse (5)"
+          ]
+        },
+        {
+          "annee": "3e-4e",
+          "notion": "Mesure de grandeurs",
+          "contenu": [
+            "Comparaison directe ou indirecte et classement de plusieurs objets selon une grandeur : longueur, aire, volume, masse (5)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "résout des problèmes de mesures de longueurs en faisant appel à une ou plusieurs des composantes suivantes :"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– choix et mise en relation des données nécessaires à la résolution"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– organisation d'un mesurage (choix d'une procédure)"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– vérification de la pertinence du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Éléments pour la résolution de problèmes",
+          "texte": "– communication de la démarche (oralement) et du résultat"
+        },
+        {
+          "fin": "4e",
+          "notion": "Mesure de grandeurs",
+          "texte": "utilise un étalon pour mesurer la longueur d’un objet"
+        },
+        {
+          "fin": "4e",
+          "notion": "Mesure de grandeurs",
+          "texte": "compare des longueurs d’objets rectilignes et de segments"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/167",
+      "code": "MSN 15",
+      "axe": "Modélisation",
+      "titre": "Représenter des phénomènes naturels, techniques ou des situations mathématiques",
+      "composantes": [
+        "A. en imaginant et en utilisant divers outils de représentation",
+        "B. en menant des observations répétées",
+        "C. en se référant à diverses sources",
+        "D. en triant et organisant des données",
+        "E. en confrontant et en communiquant ses observations, ses résultats, ses constats, ses interprétations",
+        "F. en mobilisant, selon la situation, la mesure et/ou des outils mathématiques",
+        "G. en se posant des questions et en exprimant ses conceptions"
+      ],
+      "progressions": [
+        {
+          "annee": "1re-4e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

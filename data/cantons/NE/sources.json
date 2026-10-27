@@ -1,0 +1,20 @@
+{
+ "canton": "NE",
+ "telecharge_le": "2026-10-25",
+ "documents": [
+  {
+   "titre": "Arrêté grilles horaires de l'école obligatoire 2025-2026",
+   "fichier": "pdf/grilles_horaires_EO_2025-2026.pdf",
+   "url": "https://www.ne.ch/legislation-jurisprudence/pubfo/ArrRegCE/Documents/2025/FO08_04_2025_02_17_DFFD_102_ACE_Grilles_horaires_EO_2025-2026.pdf",
+   "octets": 431591,
+   "sha256": "caa387a0492ef106a276899c218304f25d0422293f0a065884c8bf594c72b55d"
+  },
+  {
+   "titre": "RSN 410.313.1",
+   "fichier": "pdf/RSN_410.313.1.pdf",
+   "url": "https://rsn.ne.ch/DATA/program/books/rsne/pdf/410.313.1.pdf",
+   "octets": 301391,
+   "sha256": "dd20b545bffc5786e861d3b3c480a9ff23f5a4cd48bcfa2bb591ef9ac6dd9a41"
+  }
+ ]
+}

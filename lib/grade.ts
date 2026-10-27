@@ -26,7 +26,10 @@ export function answerText(q: Pick<Question, "a">): string {
 }
 
 /** Correction d'une réponse. Nombres : |v − a| ≤ tol (1e-9 par défaut), comme le prototype. */
-export function grade(input: string, q: Pick<Question, "a" | "tol" | "accept">): Grade {
+export function grade(input: string, q: Pick<Question, "a" | "tol" | "accept" | "choices">): Grade {
+  // QCM : l'élève clique une proposition, on la compare telle quelle (deux propositions peuvent ne
+  // différer que par une majuscule ou une ponctuation, que normText ignorerait).
+  if (q.choices?.includes(input)) return input === String(q.a) ? "ok" : "ko";
   if (typeof q.a === "string") {
     const v = normText(input);
     if (!v) return "unreadable";

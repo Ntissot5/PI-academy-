@@ -16,7 +16,8 @@ export function hiddenForCanton(p: Parcours, canton?: string): boolean {
 
 export function anneesLabel(p: Parcours): string {
   if (!p.annee_min) return "";
-  return p.annee_max && p.annee_max !== p.annee_min ? `${p.annee_min}e–${p.annee_max}e` : `${p.annee_min}e`;
+  const lab = (n: number) => (n === 1 ? "1re" : `${n}e`);
+  return p.annee_max && p.annee_max !== p.annee_min ? `${lab(p.annee_min)}–${lab(p.annee_max)}` : lab(p.annee_min);
 }
 
 export function planLabel(p: Parcours): string {

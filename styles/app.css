@@ -142,3 +142,50 @@ a.unit{text-decoration:none;color:inherit}
 /* touches d'accents : plus nombreuses que − / , → elles passent à la ligne */
 .keys.many{flex-wrap:wrap;flex-basis:100%}
 .keys.many button{width:44px;height:44px}
+
+/* Pi sans ombre portée : le rendu haute définition (design/pi-source.jpg) a déjà son volume,
+   l'ombre du prototype faisait un halo gris autour de lui. */
+.pi img{filter:none}
+
+/* ---------- grille des matières (carrés) ---------- */
+.mat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.mat-tile{aspect-ratio:1;max-width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:var(--shadow);transition:transform .15s,border-color .15s}
+.mat-tile:hover{transform:translateY(-2px);border-color:var(--brand)}
+.mat-tile .ic{width:72px;height:72px;display:grid;place-items:center;background:var(--ice-2);border-radius:18px}
+.mat-tile .ic img{width:58px;height:58px;filter:drop-shadow(0 6px 10px rgba(35,86,232,.18))}
+.mat-tile b{font-family:var(--f-display);font-size:1.05rem;font-weight:600;line-height:1.2}
+.mat-tile .small{font-size:.8rem}
+@media (max-width:620px){.mat-grid{grid-template-columns:repeat(2,1fr);gap:10px}.mat-tile .ic{width:60px;height:60px}.mat-tile .ic img{width:48px;height:48px}}
+
+/* objectifs du Plan d'études romand sur la page d'unité */
+.per-line{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:-10px 0 18px}
+.per-line .pill-s{cursor:help}
+
+/* Leçons « Bientôt » (notion PER sans exercice) et texte officiel pour les profs */
+.unit.soon{opacity:.62}
+.side .soon{margin-left:auto;font-size:.68rem}
+.per-off{margin:24px 0 0;padding:14px 18px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.per-off summary{cursor:pointer;font-weight:700}
+.per-off h4{margin:14px 0 6px}
+.per-off ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:10px}
+.per-off .per-txt{white-space:pre-line;font-size:.86rem;color:var(--muted);margin-top:2px}
+.prof-filtres{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.prof-filtres select,.prof-filtres input{font:inherit;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.board th .per-code{display:block;font-size:.62rem;font-weight:600;color:var(--muted);white-space:nowrap}
+.site-foot{max-width:1120px;margin:8px auto 28px;padding:0 16px;font-size:.75rem;color:var(--muted);text-align:center}
+.per-off .per-canton{display:block;margin-top:10px}.per-off .per-canton select{font:inherit;padding:2px 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+
+/* Révisions du jour (répétition espacée) et gels de série */
+.revisions{margin:0 0 18px}
+.rev-list{display:flex;flex-direction:column;gap:8px}
+.rev-row{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;cursor:pointer}
+.rev-row img{width:32px;height:32px}
+.rev-row .go{margin-left:auto;color:var(--brand);font-weight:700;font-size:.85rem;white-space:nowrap}
+.days i.g{background:repeating-linear-gradient(45deg,var(--ice),var(--ice) 3px,var(--m1) 3px,var(--m1) 6px)}
+.badge.rev{background:var(--ice);color:var(--brand)}
+.gels{font-weight:700;color:var(--brand)}
+
+/* Lecture à voix haute */
+.voix{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0 4px}
+.voix-btn{font:inherit;font-weight:700;font-size:.9rem;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--ice);color:var(--brand);cursor:pointer}
+.voix label{display:flex;align-items:center;gap:6px;cursor:pointer}

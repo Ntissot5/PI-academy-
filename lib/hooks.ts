@@ -1,6 +1,6 @@
 "use client";
 import { useCallback, useEffect, useState } from "react";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useApp } from "@/components/AppProvider";
 import { getEtat, type Etat } from "./api";
 
@@ -8,9 +8,10 @@ import { getEtat, type Etat } from "./api";
 export function useRequireAuth() {
   const { ready, user } = useApp();
   const router = useRouter();
+  const path = usePathname();
   useEffect(() => {
-    if (ready && !user) router.replace(`/connexion?suite=${encodeURIComponent(window.location.pathname)}`);
-  }, [ready, user, router]);
+    if (ready && !user) router.replace(`/connexion?suite=${encodeURIComponent(path)}`);
+  }, [ready, user, router, path]);
   return ready && !!user;
 }
 
@@ -46,4 +47,11 @@ export function useEtat(slug: string) {
 export const forgetEtat = (slug: string) => cache.delete(slug);
 
 export const isFinal = (u: { id_generateur: string }) => u.id_generateur === "final";
-export const unlocked = (etat: Etat, i: number) => i === 0 || !!etat.unites[i - 1]?.progression?.valide;
+export const isBientot = (u: { statut?: string }) => u.statut === "bientot";
+/** Une unité s'ouvre quand le boss de l'unité précédente (avec exercices) est battu ; « Bientôt » reste fermée. */
+export const unlocked = (etat: Etat, i: number) => {
+  const u = etat.unites[i];
+  if (!u || isBientot(u)) return false;
+  for (let j = i - 1; j >= 0; j--) if (!isBientot(etat.unites[j])) return !!etat.unites[j].progression?.valide;
+  return true;
+};

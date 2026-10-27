@@ -20,7 +20,17 @@
           "exemple": "−3 − (−4) = −3 + 4 = 1",
           "image": "Comme le score au golf : −3 puis on t’enlève une pénalité de −2, tu reviens à −1, pas à −5.",
           "piege": "12 + (−18) = −6, pas 6. Cherche d’abord qui « gagne » (le plus grand en valeur absolue), le signe suit.",
-          "icone": "flower"
+          "icone": "flower",
+          "per_codes": [
+            "MSN 32"
+          ],
+          "per_notions": [
+            "1304f122deb3",
+            "7e4a746539b4",
+            "07f76faf1644"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -31,7 +41,18 @@
           "exemple": "1/4 + 1/3 = 3/12 + 4/12 = 7/12",
           "image": "Ton budget voyage : 30 % de 2 000 CHF pour l’hôtel = 600 CHF. Le reste (70 %) = 1 400 CHF.",
           "piege": "« 71 % c’est de l’eau, quelle aire pour la terre ? » → on prend 29 % (100 − 71), on ne divise pas par 71.",
-          "icone": "report"
+          "icone": "report",
+          "per_codes": [
+            "MSN 32",
+            "MSN 33"
+          ],
+          "per_notions": [
+            "647eebde6d4b",
+            "9fdc03503794",
+            "fe3e1d1079b4"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -42,7 +63,16 @@
           "exemple": "0,000 504 3 = 5,043 · 10⁻⁴",
           "image": "Comme compter les décimales sur un ticket : 0,007 306 → on déplace la virgule de 3 rangs → 7,306 · 10⁻³.",
           "piege": "10⁻³ ÷ 10⁻⁴ = 10⁻³⁻⁽⁻⁴⁾ = 10¹. La soustraction d’un négatif, encore elle.",
-          "icone": "molecule"
+          "icone": "molecule",
+          "per_codes": [
+            "MSN 32"
+          ],
+          "per_notions": [
+            "58ae91bb30a7",
+            "40d3ccd41053"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 4,
@@ -53,7 +83,16 @@
           "exemple": "3x = −6 + x → 2x = −6 → x = −3",
           "image": "Une balance de practice : enlève 3 balles à gauche, enlève-en 3 à droite, elle reste à l’équilibre.",
           "piege": "Simplifier −6/12 donne −1/2 = −0,5. Divise haut ET bas par le même nombre.",
-          "icone": "pin"
+          "icone": "pin",
+          "per_codes": [
+            "MSN 33"
+          ],
+          "per_notions": [
+            "5901ae5ba923",
+            "ba7566ab6ced"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 5,
@@ -64,7 +103,16 @@
           "exemple": "Cône r = 4, h = 20 : π·4²·20 ÷ 3 ≈ 335,1 cm³ ≈ 3,35 dl",
           "image": "Le périmètre, c’est la clôture du green. L’aire, c’est le gazon à tondre. Le volume, c’est le sable du bunker.",
           "piege": "Base d’une pyramide de côté 210 m : 210² = 44 100 m², pas 4 × 210. Et 1 dl = 100 cm³, 1 L = 1 000 cm³.",
-          "icone": "folder"
+          "icone": "folder",
+          "per_codes": [
+            "MSN 34"
+          ],
+          "per_notions": [
+            "f5d58ea3ed1d",
+            "fc954257a954"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 6,
@@ -75,7 +123,17 @@
           "exemple": "Cylindre V = 785,4 cm³, r = 5 cm → h = 785,4 ÷ (π·25) ≈ 10 cm",
           "image": "Comme retrouver la vitesse de club à partir de la distance : tu pars du résultat et tu remontes la formule.",
           "piege": "Ne remplace pas l’inconnue par une valeur au hasard (le rayon n’est pas « la moitié de la base »). Écris la formule, isole, calcule.",
-          "icone": "mail"
+          "icone": "mail",
+          "per_codes": [
+            "MSN 33",
+            "MSN 34"
+          ],
+          "per_notions": [
+            "121734bc77a6",
+            "60fce191375f"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 7,
@@ -86,7 +144,18 @@
           "exemple": "Points (1 ; 3) et (4 ; 9) → m = (9 − 3) ÷ (4 − 1) = 2",
           "image": "La pente, c’est le dénivelé du green : de combien la balle descend pour chaque mètre parcouru.",
           "piege": "Pente : on fait y sur x (vertical ÷ horizontal), et dans le même ordre en haut et en bas.",
-          "icone": "plane"
+          "icone": "plane",
+          "per_codes": [
+            "MSN 33"
+          ],
+          "per_notions": [
+            "7a81b3e46bc4",
+            "48196133f765",
+            "0507ff90601e",
+            "956b1a2613cf"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 8,
@@ -97,7 +166,15 @@
           "exemple": "x² − 5x + 6 = 0 → Δ = 25 − 24 = 1 → x = 2 ou x = 3",
           "image": "La trajectoire d’une balle est une parabole : le sommet, c’est le point le plus haut du vol.",
           "piege": "Dans Δ = b² − 4ac, b² est toujours positif : (−5)² = 25, pas −25.",
-          "icone": "note"
+          "icone": "note",
+          "per_codes": [
+            "MSN 33"
+          ],
+          "per_notions": [
+            "bf71d14a8bff"
+          ],
+          "annee": "11e",
+          "tag": "secondaire_II"
         },
         {
           "ordre": 9,
@@ -108,7 +185,11 @@
           "exemple": "Hypoténuse 10, angle 30° → opposé = 10 · sin 30° = 5",
           "image": "Le loft d’un club : l’angle décide combien la balle monte (opposé) pour combien elle avance (adjacent).",
           "piege": "Vérifie que ta calculatrice est en DEG et pas en RAD. sin(30) en radians donne −0,99 au lieu de 0,5.",
-          "icone": "eye"
+          "icone": "eye",
+          "per_codes": [],
+          "per_notions": [],
+          "annee": "secondaire II",
+          "tag": "secondaire_II"
         },
         {
           "ordre": 10,
@@ -119,7 +200,11 @@
           "exemple": "1 000 CHF à 5 % pendant 2 ans → 1 000 · 1,05² = 1 102,50",
           "image": "Ton handicap qui baisse de 10 % par an : c’est une exponentielle, pas une soustraction fixe.",
           "piege": "Un taux de 3 % s’écrit 0,03 dans (1 + r)ⁿ, pas 3.",
-          "icone": "cal31"
+          "icone": "cal31",
+          "per_codes": [],
+          "per_notions": [],
+          "annee": "secondaire II",
+          "tag": "secondaire_II"
         },
         {
           "ordre": 11,
@@ -130,7 +215,11 @@
           "exemple": "f(x) = 2x³ → f′(x) = 6x² → f′(2) = 24",
           "image": "La vitesse de la tête de club à l’impact : c’est la dérivée de sa position à cet instant précis.",
           "piege": "(x³)′ = 3x², pas 3x³ : on baisse l’exposant de 1.",
-          "icone": "laptop"
+          "icone": "laptop",
+          "per_codes": [],
+          "per_notions": [],
+          "annee": "secondaire II",
+          "tag": "secondaire_II"
         },
         {
           "ordre": 12,
@@ -141,7 +230,35 @@
           "exemple": "Mélange : signes, %, puissances, équations, volumes, droites, Δ, trigo, logs, dérivées",
           "image": "Le dernier tour d’un tournoi : rien de nouveau, juste tout ce que tu as entraîné, sous pression.",
           "piege": "Ralentis sur les signes et les unités. C’est là que tu perdais tes points en 11e.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "MSN 32",
+            "MSN 33",
+            "MSN 34"
+          ],
+          "per_notions": [
+            "1304f122deb3",
+            "7e4a746539b4",
+            "07f76faf1644",
+            "647eebde6d4b",
+            "9fdc03503794",
+            "fe3e1d1079b4",
+            "58ae91bb30a7",
+            "40d3ccd41053",
+            "5901ae5ba923",
+            "ba7566ab6ced",
+            "f5d58ea3ed1d",
+            "fc954257a954",
+            "121734bc77a6",
+            "60fce191375f",
+            "7a81b3e46bc4",
+            "48196133f765",
+            "0507ff90601e",
+            "956b1a2613cf",
+            "bf71d14a8bff"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         }
       ],
       "matiere": "mathematiques",
@@ -169,7 +286,17 @@
           "exemple": "−3 − (−4) = −3 + 4 = 1",
           "image": "Pense au thermomètre. Il fait −3 °C et ça se réchauffe de 5 degrés : il fait 2 °C.",
           "piege": "12 + (−18) = −6, pas 6. Regarde quel nombre est le plus grand sans son signe : c’est lui qui donne le signe.",
-          "icone": "flower"
+          "icone": "flower",
+          "per_codes": [
+            "MSN 32"
+          ],
+          "per_notions": [
+            "1304f122deb3",
+            "7e4a746539b4",
+            "07f76faf1644"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -180,7 +307,18 @@
           "exemple": "1/4 + 1/3 = 3/12 + 4/12 = 7/12",
           "image": "Un jeu à 60 CHF est soldé à 25 %. 25 % de 60 = 15 CHF de rabais. Tu paies 45 CHF.",
           "piege": "1/4 + 1/3 ne fait pas 2/7. On n’additionne pas les dénominateurs : on les rend pareils d’abord.",
-          "icone": "report"
+          "icone": "report",
+          "per_codes": [
+            "MSN 32",
+            "MSN 33"
+          ],
+          "per_notions": [
+            "647eebde6d4b",
+            "9fdc03503794",
+            "fe3e1d1079b4"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -191,7 +329,16 @@
           "exemple": "10² · 10³ = 10⁵ et 0,000 5 = 5 · 10⁻⁴",
           "image": "Un million, c’est un 1 suivi de 6 zéros. Donc un million = 10⁶.",
           "piege": "10⁻³ ÷ 10⁻⁴ = 10¹. Enlever un nombre négatif, ça fait plus.",
-          "icone": "molecule"
+          "icone": "molecule",
+          "per_codes": [
+            "MSN 32"
+          ],
+          "per_notions": [
+            "58ae91bb30a7",
+            "40d3ccd41053"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 4,
@@ -202,7 +349,16 @@
           "exemple": "3x = −6 + x → 2x = −6 → x = −3",
           "image": "Une balance à deux plateaux : tu enlèves 3 billes à gauche, tu en enlèves 3 à droite. Elle reste droite.",
           "piege": "−6 ÷ 12 = −0,5, pas −2. Le nombre du haut se divise par celui du bas.",
-          "icone": "pin"
+          "icone": "pin",
+          "per_codes": [
+            "MSN 33"
+          ],
+          "per_notions": [
+            "5901ae5ba923",
+            "ba7566ab6ced"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 5,
@@ -213,7 +369,25 @@
           "exemple": "Mélange : signes, %, fractions, puissances, équations",
           "image": "Comme un match après les entraînements : rien de nouveau, juste tout ce que tu as appris.",
           "piege": "Prends ton temps sur les signes moins. C’est là qu’on perd le plus de points.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "MSN 32",
+            "MSN 33"
+          ],
+          "per_notions": [
+            "1304f122deb3",
+            "7e4a746539b4",
+            "07f76faf1644",
+            "647eebde6d4b",
+            "9fdc03503794",
+            "fe3e1d1079b4",
+            "58ae91bb30a7",
+            "40d3ccd41053",
+            "5901ae5ba923",
+            "ba7566ab6ced"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         }
       ],
       "matiere": "mathematiques",
@@ -249,7 +423,18 @@
           "exemple": "nous mangeons · ils finissent · vous faites",
           "image": "Le présent, c’est la photo de l’instant : « Je lis, tu écoutes, il pleut. »",
           "piege": "Vous « faites », pas « faisez ». Et « nous mangeons » garde le e pour que le g reste doux.",
-          "icone": "note"
+          "icone": "note",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "d614381a664c",
+            "8880c85c993e",
+            "df288ffa0390"
+          ],
+          "annee": "5e-10e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -260,7 +445,18 @@
           "exemple": "nous faisons → je faisais · nous voyons → vous voyiez",
           "image": "L’imparfait, c’est le décor d’une histoire : « Il faisait nuit, la neige tombait… »",
           "piege": "Nous mangions, mais je mangeais : le e reste devant a, il part devant i.",
-          "icone": "mail"
+          "icone": "mail",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "d614381a664c",
+            "8880c85c993e",
+            "df288ffa0390"
+          ],
+          "annee": "5e-10e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -271,7 +467,18 @@
           "exemple": "je parlerai · nous finirons · ils iront",
           "image": "Le futur, c’est ton agenda : « Demain, je verrai mes amis. »",
           "piege": "Je verrai (avec deux r), pas « je voirai ».",
-          "icone": "plane"
+          "icone": "plane",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "8c855d7ad2d4",
+            "8880c85c993e",
+            "df288ffa0390"
+          ],
+          "annee": "6e-10e",
+          "tag": ""
         },
         {
           "ordre": 4,
@@ -282,7 +489,18 @@
           "exemple": "j’ai mangé · elle est partie · ils sont venus",
           "image": "Le passé composé, c’est un objectif coché : « J’ai fini mes devoirs. »",
           "piege": "Elle est allée (avec e), mais elle a mangé (sans accord avec avoir).",
-          "icone": "cal31"
+          "icone": "cal31",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "8c855d7ad2d4",
+            "e644b9d90875",
+            "16dc85260f39"
+          ],
+          "annee": "6e-11e",
+          "tag": ""
         },
         {
           "ordre": 5,
@@ -293,7 +511,21 @@
           "exemple": "Mélange : présent, imparfait, futur, passé composé",
           "image": "Comme un concours d’orthographe : tous les temps, dans le désordre.",
           "piege": "Lis bien le temps demandé avant de répondre.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "d614381a664c",
+            "8880c85c993e",
+            "df288ffa0390",
+            "8c855d7ad2d4",
+            "e644b9d90875",
+            "16dc85260f39"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         }
       ]
     },
@@ -323,7 +555,18 @@
           "exemple": "Il a (avait) faim. Il va à Berne.",
           "image": "C’est comme deux jumeaux : même voix, mais pas le même rôle dans la phrase.",
           "piege": "« Où » avec accent parle d’un lieu. « Ou » sans accent veut dire « ou bien ».",
-          "icone": "eye"
+          "icone": "eye",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "ae0bb9e2e237",
+            "8b5e68d7f33a",
+            "80ec0540134d"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -334,7 +577,17 @@
           "exemple": "Le (déterminant) petit (adjectif) chat (nom) dort (verbe).",
           "image": "Chaque mot a un métier dans la phrase, comme les joueurs d’une équipe.",
           "piege": "« Le » devant un nom est un déterminant. « Le » devant un verbe (je le vois) est un pronom.",
-          "icone": "report"
+          "icone": "report",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "3a0412b3fd65",
+            "b621e6b50d78"
+          ],
+          "annee": "7e-9e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -345,7 +598,20 @@
           "exemple": "Mélange : homophones et nature des mots",
           "image": "Un mélange de pièges : prends le temps de remplacer pour vérifier.",
           "piege": "Ne réponds pas « à l’oreille » : fais le test du remplacement.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "L1 26",
+            "L1 36"
+          ],
+          "per_notions": [
+            "ae0bb9e2e237",
+            "8b5e68d7f33a",
+            "80ec0540134d",
+            "3a0412b3fd65",
+            "b621e6b50d78"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         }
       ]
     },
@@ -375,7 +641,17 @@
           "exemple": "der Hund · die Katze · das Haus",
           "image": "C’est comme le prénom de famille du mot : il ne le quitte jamais.",
           "piege": "das Mädchen (la fille) est neutre : tous les mots en -chen sont neutres.",
-          "icone": "pin"
+          "icone": "pin",
+          "per_codes": [
+            "L2 26",
+            "L2 36"
+          ],
+          "per_notions": [
+            "fa645b8accca",
+            "d797036f964e"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -386,7 +662,17 @@
           "exemple": "ich spiele · du fährst · er liest",
           "image": "Comme en français, le verbe s’accorde avec la personne. Il suffit de connaître les 6 terminaisons.",
           "piege": "sein est irrégulier : ich bin, du bist, er ist, wir sind, ihr seid, sie sind.",
-          "icone": "note"
+          "icone": "note",
+          "per_codes": [
+            "L2 26",
+            "L2 36"
+          ],
+          "per_notions": [
+            "2bb8eec1751c",
+            "0886573500e1"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -397,7 +683,16 @@
           "exemple": "35 = fünfunddreissig · 120 = hundertzwanzig",
           "image": "Comme lire l’heure à l’envers : d’abord les unités, puis les dizaines.",
           "piege": "En Suisse, on écrit dreissig avec ss (pas de ß). 16 = sechzehn, 17 = siebzehn.",
-          "icone": "cal31"
+          "icone": "cal31",
+          "per_codes": [
+            "L2 24"
+          ],
+          "per_notions": [
+            "a2272814d132",
+            "b2fc9fdb4277"
+          ],
+          "annee": "5e-8e",
+          "tag": ""
         },
         {
           "ordre": 4,
@@ -408,7 +703,15 @@
           "exemple": "ich habe gespielt · ich bin gegangen",
           "image": "C’est comme le passé composé en français : un auxiliaire et un participe.",
           "piege": "Les verbes en -ieren n’ont pas de ge- : studiert, telefoniert.",
-          "icone": "mail"
+          "icone": "mail",
+          "per_codes": [
+            "L2 36"
+          ],
+          "per_notions": [
+            "0886573500e1"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 5,
@@ -419,7 +722,22 @@
           "exemple": "Mélange : articles, présent, nombres, Perfekt",
           "image": "Une petite interro surprise : tout ce que tu as vu, mélangé.",
           "piege": "Pense aux umlauts : fährt, schläft, Mädchen.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "L2 24",
+            "L2 26",
+            "L2 36"
+          ],
+          "per_notions": [
+            "fa645b8accca",
+            "d797036f964e",
+            "2bb8eec1751c",
+            "0886573500e1",
+            "a2272814d132",
+            "b2fc9fdb4277"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         }
       ]
     },
@@ -449,7 +767,17 @@
           "exemple": "he plays · she watches · it flies",
           "image": "Le -s, c’est le petit badge de he, she et it.",
           "piege": "have devient has : she has a brother.",
-          "icone": "note"
+          "icone": "note",
+          "per_codes": [
+            "L3 26",
+            "L3 36"
+          ],
+          "per_notions": [
+            "843457fcfcb1",
+            "df9aa64d5811"
+          ],
+          "annee": "7e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -460,7 +788,15 @@
           "exemple": "go – went – gone · eat – ate – eaten",
           "image": "C’est comme une comptine : répète les trois formes à voix haute.",
           "piege": "be a deux prétérits : was (I, he, she, it) et were (you, we, they).",
-          "icone": "plane"
+          "icone": "plane",
+          "per_codes": [
+            "L3 36"
+          ],
+          "per_notions": [
+            "df9aa64d5811"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -471,7 +807,17 @@
           "exemple": "Mélange : present simple et verbes irréguliers",
           "image": "Comme une discussion avec un ami anglais : les formes doivent venir toutes seules.",
           "piege": "N’oublie pas le -s de he, she, it.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "L3 26",
+            "L3 36"
+          ],
+          "per_notions": [
+            "843457fcfcb1",
+            "df9aa64d5811"
+          ],
+          "annee": "7e-11e",
+          "tag": ""
         }
       ]
     },
@@ -501,7 +847,15 @@
           "exemple": "72 km/h = 72 ÷ 3,6 = 20 m/s",
           "image": "Comme changer des francs en centimes : même valeur, autre unité.",
           "piege": "Vers une unité plus petite, le nombre grandit : 2 kg = 2 000 g.",
-          "icone": "folder"
+          "icone": "folder",
+          "per_codes": [
+            "MSN 36"
+          ],
+          "per_notions": [
+            "224a6e05ae6b"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -512,7 +866,15 @@
           "exemple": "m = 540 g, V = 200 cm³ → ρ = 2,7 g/cm³ (aluminium)",
           "image": "Un sac de plumes et un sac de cailloux de même taille n’ont pas le même poids : c’est la masse volumique.",
           "piege": "Ce qui a une masse volumique plus petite que l’eau flotte : la glace (0,92) flotte.",
-          "icone": "molecule"
+          "icone": "molecule",
+          "per_codes": [
+            "MSN 36"
+          ],
+          "per_notions": [
+            "87385b7641cf"
+          ],
+          "annee": "9e-10e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -523,7 +885,15 @@
           "exemple": "R = 10 Ω, I = 0,5 A → U = 5 V",
           "image": "Le courant, c’est l’eau dans un tuyau ; la tension, la pression ; la résistance, un tuyau étroit.",
           "piege": "Pour trouver I, on divise : I = U ÷ R, pas U × R.",
-          "icone": "laptop"
+          "icone": "laptop",
+          "per_codes": [
+            "MSN 36"
+          ],
+          "per_notions": [
+            "7a55ab2ebbdb"
+          ],
+          "annee": "10e-11e",
+          "tag": ""
         },
         {
           "ordre": 4,
@@ -534,7 +904,15 @@
           "exemple": "Na = sodium (natrium) · Fe = fer (ferrum) · Au = or (aurum)",
           "image": "C’est comme les plaques de voitures des cantons : VD, GE… mais pour les atomes.",
           "piege": "K, c’est le potassium (kalium), pas le calcium (Ca).",
-          "icone": "molecule"
+          "icone": "molecule",
+          "per_codes": [
+            "MSN 36"
+          ],
+          "per_notions": [
+            "87385b7641cf"
+          ],
+          "annee": "9e-10e",
+          "tag": ""
         },
         {
           "ordre": 5,
@@ -545,7 +923,17 @@
           "exemple": "Mélange : unités, masse volumique, électricité, symboles",
           "image": "Comme une expérience au labo : il faut tout mesurer juste.",
           "piege": "Vérifie l’unité demandée avant de répondre.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "MSN 36"
+          ],
+          "per_notions": [
+            "224a6e05ae6b",
+            "87385b7641cf",
+            "7a55ab2ebbdb"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         }
       ]
     },
@@ -575,7 +963,18 @@
           "exemple": "VD = Vaud, chef-lieu Lausanne, français",
           "image": "Les plaques de voitures donnent les abréviations : VD, GE, ZH, TI…",
           "piege": "Le chef-lieu des Grisons est Coire (Chur). Bâle-Campagne, c’est Liestal.",
-          "icone": "pin"
+          "icone": "pin",
+          "per_codes": [
+            "SHS 21",
+            "SHS 31"
+          ],
+          "per_notions": [
+            "cc1040ff3f6f",
+            "da4923bba6d5",
+            "ec852d9ff344"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -586,7 +985,17 @@
           "exemple": "Pointe Dufour : 4 634 m, le plus haut sommet",
           "image": "Imagine la Suisse comme un gâteau en trois couches : Jura, Plateau, Alpes.",
           "piege": "Le Léman est le plus grand lac, mais il est partagé avec la France. Le plus grand lac entièrement suisse est le lac de Neuchâtel.",
-          "icone": "eye"
+          "icone": "eye",
+          "per_codes": [
+            "SHS 21",
+            "SHS 31"
+          ],
+          "per_notions": [
+            "0dad79d78638",
+            "ec852d9ff344"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -597,7 +1006,19 @@
           "exemple": "Mélange : cantons et repères",
           "image": "Un tour de Suisse en 10 questions.",
           "piege": "Lis bien : chef-lieu, abréviation ou langue ?",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "SHS 21",
+            "SHS 31"
+          ],
+          "per_notions": [
+            "cc1040ff3f6f",
+            "da4923bba6d5",
+            "ec852d9ff344",
+            "0dad79d78638"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         }
       ]
     },
@@ -627,7 +1048,17 @@
           "exemple": "1848 : première Constitution fédérale",
           "image": "Une frise chronologique, c’est comme l’album photo de la Suisse.",
           "piege": "1291 n’est pas la création de la Suisse moderne : c’est 1848.",
-          "icone": "cal31"
+          "icone": "cal31",
+          "per_codes": [
+            "SHS 22",
+            "SHS 32"
+          ],
+          "per_notions": [
+            "5683c5e4f0ad",
+            "86a9bb3bbfa9"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -638,7 +1069,16 @@
           "exemple": "1969 : premiers pas sur la Lune",
           "image": "Relie chaque date à une image : la caravelle, la Bastille, la fusée…",
           "piege": "La Première Guerre mondiale commence en 1914, la Seconde en 1939.",
-          "icone": "plane"
+          "icone": "plane",
+          "per_codes": [
+            "SHS 32"
+          ],
+          "per_notions": [
+            "86a9bb3bbfa9",
+            "4029c3076249"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -649,7 +1089,18 @@
           "exemple": "Mélange : Suisse et monde",
           "image": "Un voyage dans le temps, dans le désordre.",
           "piege": "Élimine d’abord les dates impossibles.",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "SHS 22",
+            "SHS 32"
+          ],
+          "per_notions": [
+            "5683c5e4f0ad",
+            "86a9bb3bbfa9",
+            "4029c3076249"
+          ],
+          "annee": "5e-11e",
+          "tag": ""
         }
       ]
     },
@@ -679,7 +1130,15 @@
           "exemple": "Conseil national 200 + Conseil des États 46 = Assemblée fédérale 246",
           "image": "Comme dans une classe : un comité (le gouvernement), une assemblée (le parlement) et le vote de tous.",
           "piege": "Le Conseil fédéral est élu par l’Assemblée fédérale, pas par le peuple.",
-          "icone": "report"
+          "icone": "report",
+          "per_codes": [
+            "SHS 34"
+          ],
+          "per_notions": [
+            "b0a8e15cb460"
+          ],
+          "annee": "9e-11e",
+          "tag": ""
         },
         {
           "ordre": 2,
@@ -690,7 +1149,17 @@
           "exemple": "Vaud : Grand Conseil de 150 membres, Conseil d’État de 7 membres",
           "image": "La Suisse est comme une équipe de 26 joueurs : chacun a ses règles, avec des règles communes.",
           "piege": "Le Jura appelle son parlement « Parlement » et son gouvernement « Gouvernement ».",
-          "icone": "folder"
+          "icone": "folder",
+          "per_codes": [
+            "SHS 24",
+            "SHS 34"
+          ],
+          "per_notions": [
+            "a9d8e02383bd",
+            "b0a8e15cb460"
+          ],
+          "annee": "7e-11e",
+          "tag": ""
         },
         {
           "ordre": 3,
@@ -701,7 +1170,17 @@
           "exemple": "Mélange : Confédération et canton",
           "image": "Comme une votation : il faut connaître les règles du jeu.",
           "piege": "Ne confonds pas Conseil fédéral (gouvernement) et Conseil national (parlement).",
-          "icone": "star"
+          "icone": "star",
+          "per_codes": [
+            "SHS 24",
+            "SHS 34"
+          ],
+          "per_notions": [
+            "b0a8e15cb460",
+            "a9d8e02383bd"
+          ],
+          "annee": "7e-11e",
+          "tag": ""
         }
       ]
     }

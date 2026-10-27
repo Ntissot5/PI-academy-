@@ -1,0 +1,16 @@
+# Une seule adresse pour tout : le site (Next.js) et PocketBase (/api, /_ pour l'administration).
+# SITE_ADDRESS vide → port 80 sans HTTPS (Dokploy/Traefik s'occupe du HTTPS devant).
+# SITE_ADDRESS = un nom de domaine (ex. 141-147-1-2.sslip.io) → Caddy obtient lui-même le certificat HTTPS.
+{$SITE_ADDRESS::80} {
+	encode gzip
+	@pocketbase path /api/* /_/*
+	handle @pocketbase {
+		# flush_interval -1 : le temps réel du tableau prof (SSE) passe sans attendre.
+		reverse_proxy pocketbase:8090 {
+			flush_interval -1
+		}
+	}
+	handle {
+		reverse_proxy web:3000
+	}
+}

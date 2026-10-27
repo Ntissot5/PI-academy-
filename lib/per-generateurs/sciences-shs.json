@@ -1,0 +1,1651 @@
+{
+  "generateurs": {
+    "sn-c1-matiere": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 16",
+          "notion": "Matière",
+          "plage": "1re-2e",
+          "cherche": "Catégorisation spontanée de différents objets"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Matière",
+          "plage": "3e-4e",
+          "cherche": "Classement (aspect, forme, matière, masse, odeur"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Matière",
+          "plage": "1re-4e",
+          "cherche": "comment les recycle-t-on"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Matière",
+          "plage": "1re-2e",
+          "cherche": "Observation des phénomènes naturels liés à l’eau"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Matière",
+          "plage": "3e-4e",
+          "cherche": "transformations de l’eau liquide-solide-liquide"
+        }
+      ]
+    },
+    "sn-c1-forces-saisons": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 16",
+          "notion": "Forces et énergie",
+          "plage": "1re-2e",
+          "cherche": "Observation de la force de l’air"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Forces et énergie",
+          "plage": "3e-4e",
+          "cherche": "Expérimentation de la force de l’air"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Forces et énergie",
+          "plage": "1re-4e",
+          "cherche": "utilisation de ces forces par l’homme"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Forces et énergie",
+          "plage": "3e-4e",
+          "cherche": "rechercher l’équilibre entre divers objets"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Planète Terre",
+          "plage": "1re-2e",
+          "cherche": "Distinction des différentes saisons"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Planète Terre",
+          "plage": "3e-4e",
+          "cherche": "fonctionne de manière cyclique"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Planète Terre",
+          "plage": "1re-2e",
+          "cherche": "Exploration de phénomènes naturels liés à l’actualité"
+        }
+      ]
+    },
+    "sn-c1-corps": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 17",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "plage": "1re-2e",
+          "cherche": "Identification des différentes parties du corps"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "plage": "3e-4e",
+          "cherche": "des principales articulations"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Schéma corporel ( 3 , 4 , 5 )",
+          "plage": "1re-2e",
+          "cherche": "rôle des différentes parties du corps"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "plage": "1re-4e",
+          "cherche": "Identification de ce qui est vital"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "plage": "3e-4e",
+          "cherche": "Sensibilisation à une hygiène de vie"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Le corps humain dans sa globalité ( 1 , 5 , 6 )",
+          "plage": "3e-4e",
+          "cherche": "mise en évidence des besoins vitaux du corps"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Risques et prévention ( 5 )",
+          "plage": "1re-4e",
+          "cherche": "Identification de ce qui peut être dangereux pour le corps"
+        }
+      ]
+    },
+    "sn-c1-sens": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 17",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "plage": "1re-2e",
+          "cherche": "Découverte des 5 sens"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Organe des sens ( 2 , 5 , 6 )",
+          "plage": "3e-4e",
+          "cherche": "en choisissant et utilisant ses sens"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Diversité des milieux (enquête) ( 3 , 5 , 6 )",
+          "plage": "1re-2e",
+          "cherche": "Comparaison de ce qui est perçu à l'aide des sens"
+        }
+      ]
+    },
+    "sn-c1-vivant": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 18",
+          "notion": "Diversité des milieux (enquête) ( 3 , 5 , 6 )",
+          "plage": "3e-4e",
+          "cherche": "Distinction entre animaux et végétaux"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "plage": "1re-2e",
+          "cherche": "organisation spontanée de la collection par comparaison"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Le vivant : unité et diversité ( 1 , 2 , 3 , 5 )",
+          "plage": "3e-4e",
+          "cherche": "critère vivant/non-vivant"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "plage": "1re-2e",
+          "cherche": "identifier les besoins du vivant"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "plage": "3e-4e",
+          "cherche": "cycle de vie d'une plante"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Cycle de vie ( 3 , 4 , 5 )",
+          "plage": "3e-4e",
+          "cherche": "critères de différenciation entre les plantes et les animaux"
+        }
+      ]
+    },
+    "sn-c1-demarche": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 16",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-4e",
+          "cherche": "explication à partir des résultats"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-4e",
+          "cherche": "explication à partir des résultats"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-4e",
+          "cherche": "explication à partir des résultats"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "3e-4e",
+          "cherche": "outils de mesure adéquats"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "3e-4e",
+          "cherche": "outils de mesure adéquats"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "3e-4e",
+          "cherche": "outils de mesure adéquats"
+        },
+        {
+          "code": "MSN 16",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-2e",
+          "cherche": "non standardisées"
+        },
+        {
+          "code": "MSN 17",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-2e",
+          "cherche": "non standardisées"
+        },
+        {
+          "code": "MSN 18",
+          "notion": "Initiation à la démarche scientifique",
+          "plage": "1re-2e",
+          "cherche": "non standardisées"
+        }
+      ]
+    },
+    "sn-c2-matiere": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "5e-6e",
+          "cherche": "cycle naturel de l’eau"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "7e-8e",
+          "cherche": "Étude de l’eau comme élément essentiel à la vie"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "5e-8e",
+          "cherche": "pour créer des mélanges"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "7e-8e",
+          "cherche": "différents types de pollutions"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "5e-6e",
+          "cherche": "Identification de l’air comme étant une matière gazeuse"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Matière (propriétés générales – eau-air…)",
+          "plage": "7e-8e",
+          "cherche": "phénomènes météorologiques"
+        }
+      ]
+    },
+    "sn-c2-mecanique": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (mécanique)",
+          "plage": "5e-6e",
+          "cherche": "Équilibre et leviers"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (mécanique)",
+          "plage": "7e-8e",
+          "cherche": "Transmission de mouvements"
+        }
+      ]
+    },
+    "sn-c2-energie": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "plage": "5e-6e",
+          "cherche": "Expérimentation de circuits simples"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "plage": "5e-6e",
+          "cherche": "matériaux isolants ou conducteurs) dans une perspective de prévention"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "plage": "7e-8e",
+          "cherche": "Identification et comparaison des sources d’énergie"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Forces et énergie (électricité – formes d’énergie)",
+          "plage": "7e-8e",
+          "cherche": "Expérimentation de la conductivité thermique"
+        }
+      ]
+    },
+    "sn-c2-ciel": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 26",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "plage": "5e-6e",
+          "cherche": "propriétés de la lumière"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "plage": "5e-6e",
+          "cherche": "course apparente du Soleil"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "plage": "7e-8e",
+          "cherche": "deux mouvements simultanés de la Terre"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "plage": "7e-8e",
+          "cherche": "étoile – planète – satellite"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Planète Terre (ombre et lumière – système solaire)",
+          "plage": "5e-8e",
+          "cherche": "catastrophe naturelle"
+        }
+      ]
+    },
+    "sn-c2-demarche": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 26",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-8e",
+          "cherche": "Distinction entre ce qui relève des résultats"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-8e",
+          "cherche": "Distinction entre ce qui relève des résultats"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-8e",
+          "cherche": "Distinction entre ce qui relève des résultats"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-6e",
+          "cherche": "Utilisation d'outils ou d'instruments adéquats"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-6e",
+          "cherche": "Utilisation d'outils ou d'instruments adéquats"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "5e-6e",
+          "cherche": "Utilisation d'outils ou d'instruments adéquats"
+        },
+        {
+          "code": "MSN 26",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "7e-8e",
+          "cherche": "Choix d'outils ou d'instruments adéquats"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "7e-8e",
+          "cherche": "Choix d'outils ou d'instruments adéquats"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Développement de la démarche scientifique",
+          "plage": "7e-8e",
+          "cherche": "Choix d'outils ou d'instruments adéquats"
+        }
+      ]
+    },
+    "sn-c2-corps": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 27",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "plage": "5e-6e",
+          "cherche": "organes et fonctions du corps touchés"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "plage": "7e-8e",
+          "cherche": "tabagisme, alcoolisme, dopage"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Le corps humain dans sa globalité ( 1 , 8 , 9 )",
+          "plage": "5e-8e",
+          "cherche": "pour y localiser les organes étudiés"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Organes des sens ( 2 , 7 )",
+          "plage": "5e-8e",
+          "cherche": "Catégorisation des informations captées par le corps selon les 5 sens"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "plage": "5e-6e",
+          "cherche": "principes d'une alimentation équilibrée"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "plage": "5e-8e",
+          "cherche": "faculté du corps à se régénérer"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Transformation du corps ( 6 , 7 , 9 )",
+          "plage": "7e-8e",
+          "cherche": "évolution du corps humain tout au long de la vie"
+        }
+      ]
+    },
+    "sn-c2-appareils": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 27",
+          "notion": "Sources d’énergie et transformation ( 3 , 9 )",
+          "plage": "7e-8e",
+          "cherche": "différents organes de l'appareil digestif"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Respiration externe ( 4 , 7 , 9 )",
+          "plage": "5e-6e",
+          "cherche": "cheminement de l'air dans le corps"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "plage": "5e-6e",
+          "cherche": "la schématisation de l'intérieur du corps humain (squelette)"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "plage": "7e-8e",
+          "cherche": "Comparaison du squelette d’un Homme"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "plage": "5e-6e",
+          "cherche": "catégorisation des mouvements (flexion, extension)"
+        },
+        {
+          "code": "MSN 27",
+          "notion": "Locomotion et mouvement ( 5 , 7 , 9 )",
+          "plage": "7e-8e",
+          "cherche": "principaux muscles du bras"
+        }
+      ]
+    },
+    "sn-c2-classification": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 28",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "plage": "5e-8e",
+          "cherche": "Recherche de critères pour trier, classer ou ranger les êtres vivants"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "plage": "5e-8e",
+          "cherche": "leur régime alimentaire (carnivore"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "plage": "5e-8e",
+          "cherche": "clé de détermination simple"
+        }
+      ]
+    },
+    "sn-c2-chaines": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 28",
+          "notion": "Le vivant : unité et diversité ( 2 , 3 )",
+          "plage": "5e-8e",
+          "cherche": "Étude des relations alimentaires entre les êtres vivants"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Interdépendance (les êtres vivants entre eux et avec leur milieu) ( 3 )",
+          "plage": "5e-8e",
+          "cherche": "(symbiose, prédation, parasitisme"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "plage": "5e-8e",
+          "cherche": "variation de biodiversité"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Écosystèmes (équilibre et fragilité) ( 5 , 6 )",
+          "plage": "5e-8e",
+          "cherche": "ce qui changerait si l'on modifiait ce milieu"
+        }
+      ]
+    },
+    "sn-c2-cycles": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "5e-6e",
+          "cherche": "phases du cycle de vie d’un animal"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "7e-8e",
+          "cherche": "Comparer différentes phases du cycle de vie de plusieurs animaux"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "5e-6e",
+          "cherche": "Expérimentation des conditions de germination"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "7e-8e",
+          "cherche": "pollinisation"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "5e-6e",
+          "cherche": "pour survivre à l’hiver"
+        },
+        {
+          "code": "MSN 28",
+          "notion": "Cycles de vie des animaux, des végétaux et leur comparaison ( 4 )",
+          "plage": "7e-8e",
+          "cherche": "Comparaison entre la graine (végétal) et l’œuf"
+        }
+      ]
+    },
+    "sn-c3-matiere": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 36",
+          "notion": "Matière",
+          "plage": "9e-10e",
+          "cherche": "Mémorisation de la composition de l'air"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Matière",
+          "plage": "9e-10e",
+          "cherche": "Différenciation des transformations physiques et des transformations chimiques"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Matière",
+          "plage": "9e-10e",
+          "cherche": "principe de conservation de la matière"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Matière",
+          "plage": "9e-10e",
+          "cherche": "Caractérisation des états (solide, liquide, gaz)"
+        }
+      ]
+    },
+    "sn-c3-optique": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 36",
+          "notion": "Optique",
+          "plage": "10e-11e",
+          "cherche": "modèle trichromique"
+        }
+      ]
+    },
+    "sn-c3-mecanique": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 36",
+          "notion": "Mécanique",
+          "plage": "10e-11e",
+          "cherche": "Définition de la vitesse"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Mécanique",
+          "plage": "10e-11e",
+          "cherche": "distinction entre poids et masse"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Mécanique",
+          "plage": "10e-11e",
+          "cherche": "Représentation des forces à l'aide de flèches"
+        }
+      ]
+    },
+    "sn-c3-energie": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 36",
+          "notion": "Énergie",
+          "plage": "11e",
+          "cherche": "formes d'énergie"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Énergie",
+          "plage": "11e",
+          "cherche": "Identification de différentes sources d'énergie"
+        },
+        {
+          "code": "MSN 36",
+          "notion": "Énergie",
+          "plage": "11e",
+          "cherche": "Calcul et comparaison de rendements"
+        }
+      ]
+    },
+    "sn-c3-demarche": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 36",
+          "notion": "Utilisation de la démarche scientifique",
+          "plage": "9e-11e",
+          "cherche": "en variant un seul facteur à la fois"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Utilisation de la démarche scientifique",
+          "plage": "9e-11e",
+          "cherche": "Choix et utilisation d’un instrument de mesure"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Utilisation de la démarche scientifique",
+          "plage": "9e-11e",
+          "cherche": "en variant un seul facteur à la fois"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Utilisation de la démarche scientifique",
+          "plage": "9e-11e",
+          "cherche": "influence du nombre de mesures"
+        }
+      ]
+    },
+    "sn-c3-organisme": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 37",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "plage": "9e",
+          "cherche": "niveaux d'organisation (cellule"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "plage": "9e",
+          "cherche": "Énumération sommaire des différents systèmes"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Métabolisme et équilibres ( 1 , 2 )",
+          "plage": "10e-11e",
+          "cherche": "principaux agents infectieux"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Prévention ( 6 )",
+          "plage": "9e-11e",
+          "cherche": "dangers que représentent quelques addictions"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Prévention ( 6 )",
+          "plage": "9e-11e",
+          "cherche": "fragilités des sens"
+        }
+      ]
+    },
+    "sn-c3-nerfs-squelette": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 37",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "plage": "9e",
+          "cherche": "système nerveux central"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Organes des sens et système locomoteur ( 3 , 5 )",
+          "plage": "9e",
+          "cherche": "Étude du squelette"
+        }
+      ]
+    },
+    "sn-c3-digestion-circulation": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 37",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "plage": "10e-11e",
+          "cherche": "représentation du système digestif"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "plage": "10e-11e",
+          "cherche": "système cardiovasculaire"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Systèmes digestif, cardio-vasculaire et respiratoire ( 4 , 5 )",
+          "plage": "10e-11e",
+          "cherche": "échange gazeux au niveau alvéolaire"
+        }
+      ]
+    },
+    "sn-c3-reproduction": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 37",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "plage": "9e-10e",
+          "cherche": "changements liés à la puberté"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "plage": "9e-10e",
+          "cherche": "systèmes reproducteurs masculin et féminin"
+        },
+        {
+          "code": "MSN 37",
+          "notion": "Transformation du corps et système reproducteur ( 5 , 7 )",
+          "plage": "9e-10e",
+          "cherche": "dysfonctionnements du corps"
+        }
+      ]
+    },
+    "sn-c3-ecosystemes": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "9e-11e",
+          "cherche": "Détermination des caractéristiques du vivant"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "9e-10e",
+          "cherche": "niveaux d'organisation de la vie"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "9e",
+          "cherche": "rôle des organismes autotrophes"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "10e",
+          "cherche": "photosynthèse"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "11e",
+          "cherche": "importance énergétique de la photosynthèse"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Le vivant et les écosystèmes ( 1 , 3 , 6 )",
+          "plage": "9e-11e",
+          "cherche": "impact de modifications d’un écosystème"
+        }
+      ]
+    },
+    "sn-c3-cellule-genetique": {
+      "discipline": "Sciences de la nature",
+      "liens": [
+        {
+          "code": "MSN 38",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "plage": "9e-11e",
+          "cherche": "caractéristiques d’une cellule"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Fonctions des cellules, des tissus, des organes, des appareils et des systèmes ( 4 )",
+          "plage": "9e-11e",
+          "cherche": "finalité de chaque système"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "plage": "9e",
+          "cherche": "reproduction sexuée et asexuée"
+        },
+        {
+          "code": "MSN 38",
+          "notion": "Mode de reproduction et transmission d'informations ( 2 , 5 )",
+          "plage": "10e-11e",
+          "cherche": "Identification des chromosomes, segmentés en gènes"
+        }
+      ]
+    },
+    "shs-c1-espace": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "Utilisation d'un vocabulaire spécifique précis"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "Utilisation de verbes d'action liés aux déplacements"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "1re-2e",
+          "cherche": "Repérage des signes et symboles"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "3e-4e",
+          "cherche": "Décodage de signes et de symboles"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "permanence (ou non) de certains éléments"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "Définition de la position d'une personne"
+        }
+      ]
+    },
+    "shs-c1-amenagement": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 11",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "1re-4e",
+          "cherche": "Distinction entre les éléments naturels et ceux construits"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "1re-4e",
+          "cherche": "Énoncé des différences constatées (distance, pente, durée"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) questionner et analyser",
+          "plage": "1re-4e",
+          "cherche": "Identification des fonctions possibles d’un espace"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "(Se) questionner et analyser",
+          "plage": "3e-4e",
+          "cherche": "selon divers critères (utilité, sécurité"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "Percevoir",
+          "plage": "1re-4e",
+          "cherche": "Découverte sensorielle de l’espace proche"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "Espaces concernés",
+          "plage": "1re-2e",
+          "cherche": "ainsi que l'espace vécu"
+        },
+        {
+          "code": "SHS 11",
+          "notion": "Espaces concernés",
+          "plage": "3e-4e",
+          "cherche": "espaces fréquentés occasionnellement"
+        }
+      ]
+    },
+    "shs-c2-cartes": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 21",
+          "notion": "(Se) repérer",
+          "plage": "5e-8e",
+          "cherche": "principales conventions de représentation"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(S') informer",
+          "plage": "5e-8e",
+          "cherche": "Appropriation puis utilisation d'un vocabulaire"
+        }
+      ]
+    },
+    "shs-c2-territoire": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser",
+          "plage": "5e-8e",
+          "cherche": "Identification et catégorisation des besoins vitaux"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Localisation / où ? pourquoi là ?",
+          "plage": "5e-8e",
+          "cherche": "raisons naturelles"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "plage": "5e-8e",
+          "cherche": "pour approvisionner (eau, énergies"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Organisation de l'espace / comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "plage": "5e-8e",
+          "cherche": "Identification de quelques impacts environnementaux"
+        }
+      ]
+    },
+    "shs-c2-acteurs": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "plage": "5e-8e",
+          "cherche": "Classement des personnes en catégories d'acteurs"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Acteur-s / qui ? pour faire quoi ?",
+          "plage": "7e-8e",
+          "cherche": "différenciation entre un producteur, un distributeur"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Échelle / quels espaces, quels acteurs sont-ils concernés ?",
+          "plage": "5e-6e",
+          "cherche": "Identification de deux échelles différentes"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "(Se) questionner et analyser › Échelle / quels espaces, quels acteurs sont-ils concernés ?",
+          "plage": "7e-8e",
+          "cherche": "Identification des échelles concernées"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "Espaces concernés",
+          "plage": "5e-6e",
+          "cherche": "liens avec des espaces plus lointains"
+        },
+        {
+          "code": "SHS 21",
+          "notion": "Espaces concernés",
+          "plage": "7e-8e",
+          "cherche": "relations entre l'échelon régional et l'échelon national"
+        }
+      ]
+    },
+    "shs-c3-monde": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 31",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "plage": "9e",
+          "cherche": "(l’Europe"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "plage": "10e",
+          "cherche": "(l’Afrique, l’Amérique et l’Asie"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "plage": "11e",
+          "cherche": "(le monde)"
+        }
+      ]
+    },
+    "shs-c3-territoires": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 31",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "plage": "9e",
+          "cherche": "caractéristiques de l’implantation urbaine"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "plage": "10e",
+          "cherche": "causes et conséquences des migrations"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "plage": "11e",
+          "cherche": "inégalités par rapport à l’or bleu"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "plage": "9e",
+          "cherche": "zones volcaniques et sismiques"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "plage": "10e",
+          "cherche": "– conséquences des changements climatiques"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "plage": "11e",
+          "cherche": "problèmes liés à l’accès à l’eau"
+        }
+      ]
+    },
+    "shs-c3-acteurs-echelles": {
+      "discipline": "Géographie",
+      "liens": [
+        {
+          "code": "SHS 31",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "plage": "9e",
+          "cherche": "Sensibilisation à la notion d’intentionnalités"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "plage": "10e",
+          "cherche": "mécanismes de l’offre et de la demande"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "plage": "11e",
+          "cherche": "analyse de leurs intentionnalités"
+        },
+        {
+          "code": "SHS 31",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "plage": "9e-11e",
+          "cherche": "pertinence d’une problématique aux différentes échelles"
+        }
+      ]
+    },
+    "shs-c1-calendrier": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 12",
+          "notion": "(Se) repérer",
+          "plage": "1re-2e",
+          "cherche": "les jours de la semaine, les saisons"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) repérer",
+          "plage": "3e-4e",
+          "cherche": "les mois de l'année"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "avant, pendant, après"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "1re-2e",
+          "cherche": "Distinction des étapes de la vie"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "3e-4e",
+          "cherche": "Classement des étapes de la vie"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "1re-4e",
+          "cherche": "événements cycliques"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "3e-4e",
+          "cherche": "arbre généalogique simplifié"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Percevoir",
+          "plage": "1re-4e",
+          "cherche": "éléments sensoriels qui rythment la vie"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Percevoir",
+          "plage": "1re-4e",
+          "cherche": "Perception des durées"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) repérer",
+          "plage": "1re-4e",
+          "cherche": "Mise en relation d'événements ou d’activités spécifiques avec ces périodes"
+        }
+      ]
+    },
+    "shs-c1-autrefois": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 12",
+          "notion": "Temps concernés",
+          "plage": "1re-2e",
+          "cherche": "possibilité de comparaison avec le passé"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Temps concernés",
+          "plage": "3e-4e",
+          "cherche": "Temps historique"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) questionner et analyser",
+          "plage": "1re-4e",
+          "cherche": "Comparaison d'objets de la vie quotidienne d'un enfant"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) questionner et analyser",
+          "plage": "3e-4e",
+          "cherche": "Distinction entre personnages historiques et héros de fiction"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "(Se) questionner et analyser",
+          "plage": "1re-4e",
+          "cherche": "éléments réels et des éléments imaginaires"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Percevoir",
+          "plage": "1re-4e",
+          "cherche": "Découverte du temps passé au travers de témoignages"
+        },
+        {
+          "code": "SHS 12",
+          "notion": "Décrire et classer/catégoriser",
+          "plage": "1re-4e",
+          "cherche": "Observation et description de ce qui change"
+        }
+      ]
+    },
+    "shs-c2-siecles": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 22",
+          "notion": "(S') informer",
+          "plage": "5e-8e",
+          "cherche": "Année, siècle, millénaire"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "Se repérer",
+          "plage": "5e-8e",
+          "cherche": "Mise en évidence de la durée des périodes"
+        }
+      ]
+    },
+    "shs-c2-periodes": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 22",
+          "notion": "Répartition des périodes étudiées",
+          "plage": "5e-6e",
+          "cherche": "De la Préhistoire à la fin de l'Antiquité"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "Répartition des périodes étudiées",
+          "plage": "7e-8e",
+          "cherche": "Du Moyen Âge à l'Époque contemporaine"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "plage": "5e-6e",
+          "cherche": "selon l'ordre chronologique"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(Se) questionner et analyser › Changements et permanence",
+          "plage": "7e-8e",
+          "cherche": "moments de rupture"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(S') informer",
+          "plage": "5e-8e",
+          "cherche": "Préhistoire, Antiquité, Moyen Âge, Temps modernes"
+        }
+      ]
+    },
+    "shs-c2-sources": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 22",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "plage": "5e-8e",
+          "cherche": "Distinction entre fiction"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(Se) questionner et analyser › Mythes et réalité",
+          "plage": "5e-8e",
+          "cherche": "représentations erronées"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(Se) questionner et analyser › Traces et mémoire",
+          "plage": "5e-8e",
+          "cherche": "Identification des héritages du passé"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(S') informer",
+          "plage": "7e-8e",
+          "cherche": "Distinction entre sources historiques et reconstitutions"
+        },
+        {
+          "code": "SHS 22",
+          "notion": "(S') informer",
+          "plage": "5e-6e",
+          "cherche": "l’apport de diverses sources"
+        }
+      ]
+    },
+    "shs-c3-sources": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "plage": "9e-11e",
+          "cherche": "Réflexion sur l’objectivité et l’authenticité d’une source"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Les sources ( 1 , 2 )",
+          "plage": "9e",
+          "cherche": "nature et de la diversité de sources historiques"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Les représentations de l'Histoire ( 1 , 3 )",
+          "plage": "9e-11e",
+          "cherche": "anachronismes"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "plage": "9e-10e",
+          "cherche": "Distinction entre histoire et mémoire"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "plage": "11e",
+          "cherche": "strates de la mémoire"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Démarches historiennes › Histoire et mémoire ( 1 , 4 )",
+          "plage": "9e-11e",
+          "cherche": "commémoration"
+        }
+      ]
+    },
+    "shs-c3-societes": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés",
+          "plage": "9e-11e",
+          "cherche": "Comparaison des sociétés humaines"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "plage": "9e-11e",
+          "cherche": "Analyse de l’évolution des modes de vie"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "plage": "9e",
+          "cherche": "les trois ordres"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension sociale et culturelle ( 1 , 6 )",
+          "plage": "11e",
+          "cherche": "statut de la femme"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "plage": "9e",
+          "cherche": "(troc, monnaie"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "plage": "10e",
+          "cherche": "révolution néolithique/révolution industrielle"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension économique ( 1 , 6 )",
+          "plage": "11e",
+          "cherche": "commerce triangulaire"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "plage": "9e",
+          "cherche": "(démocratie, monarchie"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "plage": "10e",
+          "cherche": "séparation des pouvoirs"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Dimension politique ( 1 , 6 )",
+          "plage": "11e",
+          "cherche": "Guerre froide"
+        }
+      ]
+    },
+    "shs-c3-religions": {
+      "discipline": "Histoire",
+      "liens": [
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "plage": "9e-11e",
+          "cherche": "monothéismes, polythéismes"
+        },
+        {
+          "code": "SHS 32",
+          "notion": "Étude des permanences et changements dans l’organisation des sociétés › Influence du fait religieux ( 1 , 7 )",
+          "plage": "9e-11e",
+          "cherche": "lois de Calvin à Genève"
+        }
+      ]
+    },
+    "shs-c2-droits-enfant": {
+      "discipline": "Citoyenneté",
+      "liens": [
+        {
+          "code": "SHS 24",
+          "notion": "Droits et devoirs de l'enfant",
+          "plage": "5e-6e",
+          "cherche": "Convention relative aux droits de l’enfant"
+        },
+        {
+          "code": "SHS 24",
+          "notion": "Droits et devoirs de l'enfant",
+          "plage": "7e-8e",
+          "cherche": "Comparaison entre les droits et devoirs"
+        }
+      ]
+    },
+    "shs-c2-commune": {
+      "discipline": "Citoyenneté",
+      "liens": [
+        {
+          "code": "SHS 24",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "plage": "5e-6e",
+          "cherche": "rôle et du fonctionnement de sociétés locales"
+        },
+        {
+          "code": "SHS 24",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "plage": "7e-8e",
+          "cherche": "différences entre votations et élections"
+        },
+        {
+          "code": "SHS 24",
+          "notion": "Découvrir une société locale, habiter une commune",
+          "plage": "7e-8e",
+          "cherche": "distinction exécutif/législatif"
+        }
+      ]
+    },
+    "shs-c3-etat": {
+      "discipline": "Citoyenneté",
+      "liens": [
+        {
+          "code": "SHS 34",
+          "notion": "Qu'est-ce qu'un État ?",
+          "plage": "9e-11e",
+          "cherche": "Définition de la notion d’État"
+        },
+        {
+          "code": "SHS 34",
+          "notion": "Qu'est-ce qu'un État ?",
+          "plage": "9e-11e",
+          "cherche": "Étude de la démocratie"
+        },
+        {
+          "code": "SHS 34",
+          "notion": "Qu'est-ce qu'un État ?",
+          "plage": "9e-11e",
+          "cherche": "république, monarchie"
+        },
+        {
+          "code": "SHS 34",
+          "notion": "Pratique citoyenne et droits fondamentaux",
+          "plage": "9e-11e",
+          "cherche": "Étude des droits humains dans les textes"
+        }
+      ]
+    },
+    "shs-c3-suisse-monde": {
+      "discipline": "Citoyenneté",
+      "liens": [
+        {
+          "code": "SHS 34",
+          "notion": "La Suisse et le monde",
+          "plage": "9e-11e",
+          "cherche": "liens entre la Suisse et l’Union européenne"
+        },
+        {
+          "code": "SHS 34",
+          "notion": "La Suisse et le monde",
+          "plage": "9e-11e",
+          "cherche": "organisations non-gouvernementales"
+        },
+        {
+          "code": "SHS 34",
+          "notion": "La Suisse et le monde",
+          "plage": "9e-11e",
+          "cherche": "organisations internationales (ONU"
+        }
+      ]
+    }
+  },
+  "en_classe": [
+    {
+      "discipline": "Sciences de la nature",
+      "code": "MSN 15",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Sciences de la nature",
+      "code": "MSN 25",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Sciences de la nature",
+      "code": "MSN 35",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Géographie",
+      "code": "SHS 13",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Géographie",
+      "code": "SHS 23",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Géographie",
+      "code": "SHS 33",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Histoire",
+      "code": "SHS 13",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Histoire",
+      "code": "SHS 23",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Histoire",
+      "code": "SHS 33",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Citoyenneté",
+      "code": "SHS 23",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    },
+    {
+      "discipline": "Citoyenneté",
+      "code": "SHS 33",
+      "notion": "",
+      "raison": "Objectif d’outils et de pratiques de recherche qui n’est pas travaillé pour lui-même : il s’active dans les autres axes."
+    }
+  ]
+}

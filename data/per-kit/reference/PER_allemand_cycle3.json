@@ -1,0 +1,978 @@
+{
+  "discipline": "Allemand",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/3",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/25",
+      "code": "L2 31",
+      "axe": "Compréhension de l'écrit",
+      "titre": "Lire de manière autonome des textes rédigés en langage courant",
+      "composantes": [
+        "1. en repérant des informations dans le texte",
+        "2. en se familiarisant avec les règles de l’expression écrite",
+        "3. en dégageant le thème et l’organisation générale d’un texte",
+        "4. en abordant divers genres textuels ainsi que la situation de communication dans laquelle ils ont été produits ainsi que les raisons pour le choix du genre",
+        "5. en anticipant le contenu d’un texte en fonction du support et du genre textuel",
+        "6. en enrichissant son capital lexical et structurel",
+        "7. en distinguant le réel de l’imaginaire",
+        "8. en participant à des moments de lecture d’ouvrages littéraires",
+        "9. en émettant et en vérifiant des hypothèses sur le sens et l’interprétation du texte"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension de textes variés, courts et simples\n(affiches, publicités, règlements, consignes, annonces, lettres personnelles, courriels, courrier des lecteurs, reportages, annonces,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension de textes personnels, descriptifs et informatifs (lettres personnelles, interviews, reportages, articles de presse, journaux de voyage,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Lecture et compréhension de textes personnels, informatifs, et argumentatifs (lettres personnelles, interviews, reportages avec une argumentation sur des sujets controversés,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, intention, illustrations, hypothèses, position de l'auteur (Niv 3))"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de divers genres textuels (affiches, publicités, consignes, annonces, lettres personnelles, courriels, courrier des lecteurs, reportage, actualités, recettes, annonces bandes dessinées,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification du thème"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Observation et description de l'organisation du texte (titre, sous-titre, paragraphes, illustrations, chiffres,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Repérage d'informations explicites globales, simples (illustrations, mots internationaux, mots connus,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Repérage et mise en relation d'informations explicites"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Repérage et reformulation orale (ou écrite) avec synthèse des idées principales"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Repérage et formulation du contenu en s'appuyant sur des indices (situation de communication, organisation, thèmes,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Découverte et compréhension de nouveaux mots à l'aide du contexte ou de documents de références"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Observation et découverte de règles (place des éléments, constructions avec auxiliaires de mode, particules séparables, subordonnées et infinitives,…)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "repère et comprend les informations essentielles dans des textes simples de tous les jours, par exemple une brochure informative ou publicitaire"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "saisit les informations essentielles dans des articles simples où les chiffres, les noms, les illustrations et les titres jouent un grand rôle"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence A2.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Lire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend sans grande difficulté un journal de voyage qui relate essentiellement le déroulement des journées"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend dans une lettre personnelle assez en détail les événements relatés, les sentiments ou les vœux exprimés"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence B1.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Lire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "reconnaît l'opinion de l'auteur d'un texte peu compliqué qui expose des arguments pour ou contre quelque chose"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend, en parcourant des textes explicatifs peu compliqués de différents genres, de quoi ils parlent et s'ils peuvent lui être utiles concrètement (par exemple pour décider d'un achat)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence B1.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Lire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/27",
+      "code": "L2 32",
+      "axe": "Production de l'écrit",
+      "titre": "Écrire des textes variés sur des sujets familiers ou d'intérêt personnel",
+      "composantes": [
+        "1. en adaptant sa production à la situation de communication",
+        "2. en mobilisant et en enrichissant ses connaissances discursives, lexicales et structurelles",
+        "3. en recourant aux moyens de référence appropriés",
+        "4. en utilisant sa propre créativité"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Production de textes courts, descriptifs ou narratifs, au présent ou au passé, concernant la vie quotidienne, en ayant recours à des phrases simples (lettre personnelle, invitation, mot d’excuses, court récit, lettre de remerciements, recette de cuisine, description d’événement, d’objets, d’animaux, de lieux,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Production de textes descriptifs, narratifs ou informatifs sur des thèmes variés (lettre personnelle, invitation, mot d’excuses, réponse à des messages et à des annonces, lettre de remerciements, description d’événements, «Tagebuch»,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Production de textes suivis, compréhensibles, dont les éléments sont connectés exprimant une opinion personnelle (lettre, courrier des lecteurs, blog, chat, forum,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Production de textes relativement longs, riches et complexes (expérience personnelle, avantage et désavantage d’une situation, expression d’émotions, résumés de textes,…) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification du contexte de communication (discours adapté au destinataire, niveau de langage, aspects formels,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Choix et utilisation appropriée d’un vocabulaire limité pour s’exprimer dans des situations de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Choix et utilisation appropriée d’un vocabulaire suffisant pour s’exprimer dans des situations de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Choix et utilisation appropriée d’un vocabulaire suffisant pour s’exprimer à l’aide de périphrases sur des sujets relatifs à la vie quotidienne et aux intérêts personnels"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Transfert de l’organisation d’un texte modèle à un nouveau texte"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Organisation du texte : titre, sous-titre, paragraphe, ponctuation, marqueurs temporels (Niv 3), connecteurs (Niv 3),…"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Production de textes à l’aide de mots, d’expressions, ou de phrases simples, stéréotypées, reliés par des connecteurs"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Production de textes sur des sujets quotidiens au moyen de phrases coordonnées ou subordonnées (weil, dass)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Production de textes constitués d’une série d’éléments simples, distincts et cohérents"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Utilisation de structures de plus en plus complexes :",
+            "– expansions nominales (adjectifs ; relatives (Niv 3), génitif saxon (Niv 3))",
+            "– subordonnées",
+            "– compléments de phrases"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "écrit quelques phrases très courtes sur ce qu'il préfère ou qu'il aimerait avoir (par exemple sur la nourriture, les habits ou les animaux)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "rédige une invitation destinée à des jeunes de son âge (par exemple une invitation à une soirée)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence A2.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écrire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "décrit un événement, en relatant avec des phrases simples ce qui s'est passé, quand et où"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "répond par un bref message à une annonce (par exemple dans une revue pour les jeunes)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence A2.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écrire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "raconte par écrit les événements et les choses de tous les jours avec des phrases complètes et enchaînées"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "décrit simplement, dans un journal d'apprentissage, de quelle façon et dans quelle mesure il a appris quelque chose"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence B1.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écrire)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/29",
+      "code": "L2 33",
+      "axe": "Compréhension de l'oral",
+      "titre": "Comprendre des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en dégageant le sujet, l’idée principale et l’organisation du texte",
+        "2. en s’appuyant sur les indices verbaux et non-verbaux et sur les éléments de la textualisation",
+        "3. en identifiant le sens d’un mot, d’une phrase à l’aide du contexte",
+        "4. en recourant à des stratégies d’écoute adaptées à la situation de communication",
+        "5. en enrichissant ses connaissances lexicales et structurelles",
+        "6. en découvrant des productions littéraires variées (pièce de théâtre, pièce radiophonique, opéra,…)",
+        "7. en identifiant les genres oraux et leurs canaux d’émission"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension de textes oraux (message téléphonique, annonce, dialogue,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension de textes oraux : dialogues, conversations, commentaires (récit, chanson, annonce, bulletin d'information, émission de télévision, dialogue,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Écoute et compréhension de textes oraux : discussions, débats, commentaires (interview, émission de radio, TV, reportage sportif, chansons, clips, karaoké,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification de la situation de communication (émetteur, destinataire, contexte, bruitage ; position de l’auteur (Niv 3)…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Identification du type de message (narratif, informatif, descriptif ; argumentatif (Niv 3),…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "",
+          "contenu": [
+            "Identification du thème du message (sujets liés à l'école, la famille, les animaux, les loisirs, invitations,…)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "",
+          "contenu": [
+            "Identification du thème du message (orientation dans l’espace, sport, mode, habitudes alimentaires, argent de poche, émotions, souhaits, médias, fêtes,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "",
+          "contenu": [
+            "Identification du thème du message (météo, voyages, environnement, consommation, professions, informatique,…) (Niv 3)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "",
+          "contenu": [
+            "Repérage des différents arguments (Niv 3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Développement de stratégies d'écoute :",
+            "– conditions requises : silence, concentration, mise en confiance,…",
+            "– connaissance des objectifs de l’écoute et du contexte",
+            "– formulation d’hypothèses",
+            "– prise en compte des éléments sonores",
+            "– repérage des mots et expressions connus",
+            "– prise de notes",
+            "– compréhension élargie au fil des écoutes"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend, à l'écoute d'un enregistrement ou d'un dialogue d'une certaine longueur, en gros de quoi il s'agit, l'essentiel d'histoires et de rapports courts et simples, à condition que l'on parle de façon lente et distincte et qu'il y soit question de choses qu'il connaît, si c'est en langue standard et si le thème lui est familier"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend comment se rendre quelque part à pied, en bus ou en train, si l'on lui parle lentement et clairement"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence A2.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écouter)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend les points principaux et les détails essentiels d'une histoire ou d'un message d'une certaine longueur, à condition qu'on lui parle lentement et clairement"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend l'essentiel de nombreuses émissions de télévision sur des sujets qui l'intéressent, si on parle relativement lentement et distinctement"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence B1.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écouter)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "saisit les points principaux d'une conversation d'une certaine longueur par exemple dans le train, au restaurant ou à la piscine"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "comprend en général le contenu de la plupart des émissions de radio à condition qu'on parle distinctement et en langage standard"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "– niveau de référence B1.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Écouter)"
+        },
+        {
+          "fin": "11e",
+          "notion": "",
+          "texte": "(Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/31",
+      "code": "L2 34",
+      "axe": "Production de l'oral",
+      "titre": "Produire des textes oraux variés propres à des situations de la vie courante",
+      "composantes": [
+        "1. en mobilisant ses connaissances lexicales et structurelles",
+        "2. en utilisant des moyens de référence pour préparer certaines interventions",
+        "3. en fonctionnant dans différents rôles en interaction avec les autres",
+        "4. en s’adaptant aux réactions de ses interlocuteurs",
+        "5. en se représentant la situation de communication et en s’y adaptant (genres oraux, lieux, interlocuteurs, registre de langues,…)",
+        "6. en sélectionnant et en organisant un contenu"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux courts, descriptifs ou narratifs, au présent ou au passé, concernant la vie quotidienne, en ayant recours à des phrases simples (courts récits, description d’objets, d’animaux, de lieux, d’activités quotidiennes,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux descriptifs, narratifs ou informatifs, au présent ou au passé, sur des thèmes variés (description d’objets, d’événements, expression de goûts, d’affinités,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux suivis, compréhensibles, dont les éléments sont connectés, exprimant une opinion personnelle (description d’un événement réel ou imaginaire, expression d’émotions et d’opinions personnelles, résumés de textes et de films, exposés,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Utilisation appropriée du vocabulaire et de la grammaire"
+          ]
+        },
+        {
+          "annee": "9e-10e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Mobilisation d’un vocabulaire limité pour s’exprimer dans des situations de la vie quotidienne"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Mobilisation d’un vocabulaire suffisant pour s’exprimer à l’aide de périphrases sur des sujets relatifs à la vie quotidienne et aux intérêts personnels"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Utilisation de modèles (types de texte, structures,…) et de champs lexicaux définis"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux à l’aide de mots, d’expressions, ou de phrases simples, stéréotypées, reliés par des connecteurs"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux sur des sujets quotidiens avec des phrases reliées entre elles par des connecteurs et des subordonnants simples"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "contenu": [
+            "Production de textes oraux constitués d’une série d’éléments simples et distincts, qui s’enchaînent (Niv 2-3)",
+            "Utilisation de structures de plus en plus complexes :",
+            "– expansions nominales (adjectifs ; relatives, génitif saxon (Niv 3))",
+            "– subordonnées",
+            "– compléments de phrases"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Définition du contexte de communication (discours adapté au destinataire, niveau de langage, aspects formels,…)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Échanges d’informations simples et directes sur des sujets familiers (école, loisirs, achats,…)"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Échanges d’informations simples dans des situations structurées avec une certaine aisance (conversation téléphonique, demander un service ou son chemin,…)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Utilisation souple de la langue permettant d’échanger des informations et des opinions (intérêts, plaintes, résolution de problèmes pratiques,…) (Niv 2-3)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Utilisation de modèles et de scénarios"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Dialogue dirigé et pouvant être limité en fonction de la compréhension de l’interlocuteur"
+          ]
+        },
+        {
+          "annee": "10e-11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Dialogue dirigé simple et rendu possible grâce à l'aide réciproque des interlocuteurs facilitant la compréhension"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Prendre part à une conversation",
+          "contenu": [
+            "Interaction possible sans préparation particulière des interlocuteurs, facilitée par une bonne compréhension réciproque (Niv 3)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "raconte une histoire courte en énumérant simplement les faits dans l'ordre"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "exprime avec des mots simples ce qui lui plaît et ce qu'il aime moins dans un certain environnement"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "– niveau de référence A2.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – S'exprimer oralement en continu)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "raconte la trame d'un film ou d'un livre, et dire ce qu'il en pense"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "exprime son opinion sur des sujets de la vie courante (par exemple argent de poche), à l'aide de mots simples"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "– niveau de référence B1.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – S'exprimer oralement en continu)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "exprime son opinion sur différents sujets courants et la motive"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "explique de façon détaillée comment faire quelque chose qu'il sait lui-même bien faire (par exemple cuisiner ou s'occuper d'un animal domestique)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "– niveau de référence B1.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – S'exprimer oralement en continu)"
+        },
+        {
+          "fin": "11e",
+          "notion": "S'exprimer oralement en continu",
+          "texte": "(Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "demande un service à quelqu'un qu'il connaît et répond si quelqu'un lui demande un service"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "demande, dans les conversations de tous les jours, à son interlocuteur de répéter ou d'expliquer, s'il ne comprend pas quelque chose"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "– niveau de référence A2.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – Prendre part à une conversation)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "exprime son opinion sur des sujets familiers (par exemple l'école, la musique, le sport) et demande aux autres leur opinion"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "a des conversations téléphoniques assez simples avec des gens qu'il connaît personnellement"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "– niveau de référence B1.1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – Prendre part à une conversation)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "a des conversations assez longues sur des sujets d'intérêt commun avec des gens de son âge, à condition qu'ils fassent un effort pour qu'ils se comprennent"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "fait une réclamation, par exemple si un article qu'il a acheté est endommagé ou défectueux"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "– niveau de référence B1.2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Parler – Prendre part à une conversation)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Prendre part à une conversation",
+          "texte": "(Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/34",
+      "code": "L2 36",
+      "axe": "Fonctionnement de la langue",
+      "titre": "Observer le fonctionnement de la langue et s'approprier des outils de base pour comprendre et produire des textes",
+      "composantes": [
+        "1. en développant l’usage de divers moyens de référence (dictionnaires, grammaires scolaires,…)",
+        "2. en découvrant et en s’appropriant les principales régularités de construction et de fonctionnement du mot, de la phrase et du texte",
+        "3. en identifiant les principales catégories grammaticales et les principales fonctions",
+        "4. en prenant conscience de l’existence de normes et de variations à partir de productions langagières diverses",
+        "5. en développant et en structurant un vocabulaire commun pour parler du langage et de la langue",
+        "6. en vérifiant ses productions écrites à l’aide des connaissances lexicales et structurelles acquises"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "Vocabulaire et orthographe",
+          "contenu": [
+            "Connaissance du vocabulaire (phonologie, orthographe, minuscule/majuscule, utilisation en contexte)",
+            "Distinction grammaticale entre les mots (genres, nombres)",
+            "Distinction lexicale entre les mots (simples, composés, dérivés)",
+            "Enrichissement du vocabulaire (synonymes, antonymes, familles de mots, champs lexicaux)",
+            "Identification des différents registres de langue (familier, courant, soutenu)",
+            "Utilisation et consultation de dictionnaires, de listes de vocabulaire, de tableaux grammaticaux",
+            "Acquisition d'un métalangage pour désigner les principales catégories grammaticales utilisées"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Phonologie",
+          "contenu": [
+            "Maîtrise de l'alphabet",
+            "Association entre phonèmes et graphèmes",
+            "Distinction entre voyelles longues et brèves",
+            "Respect de l'accent tonique à l'intérieur du mot",
+            "Respect de la mélodie de la phrase (prosodie)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Conjugaison",
+          "contenu": [
+            "Temps de l’indicatif (présent, passé, futur) et impératif",
+            "– conditionnel pour exprimer le souhait ou l’irréalité (Niv 3)",
+            "– quelques formes simples du passif (Niv 3)",
+            "Verbes faibles, forts, mixtes",
+            "Verbes à particule séparable",
+            "Auxiliaires de temps et de mode"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Grammaire de la phrase",
+          "contenu": [
+            "Utilisation des formes de phrases (simple/complexe, affirmative/négative)",
+            "Utilisation des types de phrases (déclarative, interrogative, impérative)",
+            "Utilisation de la phrase coordonnée, subordonnée",
+            "Organisation des éléments dans la phrase (place du verbe, inversion, adjectif épithète, place des compléments, des pronoms, des adverbes)",
+            "Distinction entre catégories de mots (noms, déterminants, adjectifs, pronoms, verbes, adverbes, prépositions, conjonctions, interjections)",
+            "Distinction entre les fonctions (sujet, CV direct et indirect, attribut du sujet, complément de phrase et les nuances sémantiques qu’ils expriment)",
+            "Reconnaissance des fonctions et application des cas (déterminants, adjectifs, noms, pronoms)",
+            "Utilisation des prépositions",
+            "Ponctuation (place des virgules)"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "se fait comprendre au moyen d’un répertoire limité d’expressions et de mots mémorisés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "orthographie correctement de courtes expressions et des mots familiers"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "– niveau de référence A1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "possède un répertoire de langue élémentaire et un vocabulaire suffisant pour des situations courantes"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "produit des expressions courantes à l'aide de phrases élémentaires et d'un vocabulaire suffisant pour des situations courantes"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "– niveau de référence A2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "possède une gamme assez étendue de langue et un vocabulaire suffisant pour des situations imprévisibles et des sujets abstraits (musique, cinéma,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "s'exprime avec une correction suffisante dans des contextes familiers avec un bon contrôle grammatical"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "– niveau de référence B1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Vocabulaire et orthographe",
+          "texte": "(Niv 3)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "a un contrôle limité de structures syntaxiques et de formes grammaticales simples mémorisées"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "– niveau de référence A1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "(Niv 1)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "utilise des structures simples correctement avec un sens général clair"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "– niveau de référence A2 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "(Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "communique avec une correction suffisante dans des contextes familiers et avec un bon contrôle grammatical"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "– niveau de référence B1 (cf. chap. Niveaux d'attentes selon CECR – PEL – Compétences structurelles)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Grammaire de la phrase",
+          "texte": "(Niv 3)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/158",
+      "code": "L 37",
+      "axe": "Approches interlinguistiques",
+      "titre": "Enrichir sa compréhension et sa pratique langagière par l'établissement de liens avec des langues différentes",
+      "composantes": [
+        "1. en observant les emprunts des langues entre elles",
+        "2. en étudiant l’évolution linguistique entre les langues de l’Antiquité et le français",
+        "3. en comparant les aspects lexicaux et syntaxiques",
+        "4. en identifiant et en différenciant l’origine de références culturelles issues de différentes cultures dans l’espace et le temps",
+        "5. en acquérant des outils d’analyse lexicale issus de l’étymologie",
+        "6. en analysant des similitudes à l’intérieur de familles de langues"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

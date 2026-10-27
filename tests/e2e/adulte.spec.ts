@@ -17,6 +17,9 @@ test("adulte : inscription, entraînement, boss, progression sur un autre appare
   await page.getByRole("button", { name: "Créer mon compte" }).click();
   await page.waitForURL("**/parcours");
 
+  // d'abord le canton, puis la matière, puis le programme
+  await page.selectOption("#canton", "VD");
+  await page.locator(".mat-tile", { hasText: "Mathématiques" }).click();
   await page.getByRole("button", { name: /Prépa EPFL/ }).click();
   await expect(page.locator(".hero h1")).toHaveText("De la 11e au niveau d’entrée EPFL");
   await page.click("#cont");

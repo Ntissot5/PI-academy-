@@ -1,0 +1,278 @@
+{
+  "discipline": "Géographie",
+  "cycle": 3,
+  "source": "https://portail.ciip.ch/per/disciplines/7",
+  "objectifs": [
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/70",
+      "code": "SHS 31",
+      "axe": "Relation Homme-espace",
+      "titre": "Analyser des espaces géographiques et les relations établies entre les hommes et entre les sociétés à travers ceux-ci",
+      "composantes": [
+        "1. en développant le raisonnement géographique en tant qu’appareil critique",
+        "2. en utilisant les données permettant de déterminer les caractéristiques climatiques, hydrologiques et le relief d’un espace",
+        "3. en étudiant les interactions entre les éléments qui composent les différentes formes d’organisation de l’espace",
+        "4. en étudiant une même problématique à différentes échelles (locale, régionale, planétaire) pour percevoir les effets d’échelle",
+        "5. en reconnaissant les effets de « localisation », de « polarisation » ou de « diffusion » dans la structuration de l’espace",
+        "6. en analysant des espaces (localité, région, canton, continent,…) à l’aide de données statistiques et de l’outil cartographique"
+      ],
+      "progressions": [
+        {
+          "annee": "9e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "contenu": [
+            "Lecture de cartes et de schémas (l’Europe et les espaces mis en lien en fonction du thème)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "contenu": [
+            "Lecture et comparaison de différentes cartes et de schémas (l’Afrique, l’Amérique et l’Asie avec mobilisation des repères européens)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "contenu": [
+            "Lecture, comparaison, analyse et élaboration de différentes cartes et schémas (le monde)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "contenu": [
+            "Appropriation d'un vocabulaire et d'un lexique en lien avec les thèmes étudiés (cf. tableaux des apprentissages par année)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "contenu": [
+            "Identification des différents acteurs et de leur localisation",
+            "Sensibilisation à la notion d’intentionnalités"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "contenu": [
+            "Identification des différents acteurs et de leur implication sur le terrain",
+            "Sensibilisation aux mécanismes de l’offre et de la demande"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "contenu": [
+            "Identification des différents acteurs et analyse de leurs intentionnalités"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "contenu": [
+            "Identification des :",
+            "– caractéristiques du site (a) et (c)",
+            "– caractéristiques du relief, de l'hydrographie et du climat des sites de production (b)",
+            "– caractéristiques de l’implantation urbaine (c)",
+            "– différentes fonctions urbaines (c)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "contenu": [
+            "Identification des :",
+            "– éléments à l’origine du risque (a)",
+            "– choix de localisation des différents sites (b)",
+            "Identification des causes et conséquences des migrations (c) (économiques, politiques, sociales, culturelles, environnementales)",
+            "Comparaison à l’aide d’exemples situés dans des espaces différents (a) et (c)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "contenu": [
+            "Explication des caractéristiques géophysiques :",
+            "– des régions étudiées (a)",
+            "– des sites de production (b)",
+            "Identification et analyse :",
+            "– des inégalités par rapport à l’or bleu (a)",
+            "– d’un flux d’information (b)",
+            "– des inégalités par rapport aux flux d’information (c)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Identification des :",
+            "– zones volcaniques et sismiques (a)",
+            "– zones de production et de consommation (b)",
+            "– effets des stratégies urbaines sur l’espace (c)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Explicitation des :",
+            "– conséquences des changements climatiques",
+            "– liens entre régions de production et régions de consommation",
+            "– impacts des migrations sur l’espace"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "contenu": [
+            "Analyse:",
+            "– des problèmes liés à l’accès à l’eau, des enjeux politiques, économiques et sociaux",
+            "– des différents flux sur l’espace (région attractive ou non, région de distribution,…)"
+          ]
+        },
+        {
+          "annee": "9e-11e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "contenu": [
+            "Étude de la pertinence d’une problématique aux différentes échelles (locale, régionale, nationale, mondiale)"
+          ]
+        },
+        {
+          "annee": "9e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "contenu": [
+            "Identification des :",
+            "– risques (a)",
+            "– réseaux (b)",
+            "– espaces urbains (c)"
+          ]
+        },
+        {
+          "annee": "10e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "contenu": [
+            "Explicitation :",
+            "– des enjeux et des conséquences des changements climatiques (a)",
+            "– de l’organisation des réseaux (b)",
+            "– des migrations (c)"
+          ]
+        },
+        {
+          "annee": "11e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "contenu": [
+            "Analyse des enjeux liés :",
+            "– à l’eau",
+            "– à l’exploitation des énergies",
+            "– à l’accès à l’information"
+          ]
+        }
+      ],
+      "attentes_fondamentales": [
+        {
+          "fin": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "a une représentation correcte de la répartition des continents et des principaux espaces marins"
+        },
+        {
+          "fin": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "dégage les principales caractéristiques d’un espace à partir de l’étude de différents documents (cartes, photos, textes, diagrammes,…)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "dégage des éléments pertinents de documents statistiques et cartographiques"
+        },
+        {
+          "fin": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "explique des documents statistiques et cartographiques (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "utilise un vocabulaire varié et spécifique dans son contexte"
+        },
+        {
+          "fin": "11e",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "texte": "retrouve et classe les informations concernant les acteurs et leur localisation"
+        },
+        {
+          "fin": "11e",
+          "notion": "Acteur-s : qui ? pour faire quoi ?",
+          "texte": "sélectionne et compare des informations concernant les acteurs et leur localisation (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "texte": "se situe dans l’espace en utilisant une carte, des outils variés"
+        },
+        {
+          "fin": "11e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "texte": "explique pourquoi l’Homme est présent à certains endroits plutôt qu’à d’autres"
+        },
+        {
+          "fin": "11e",
+          "notion": "Localisation : où ? pourquoi là ? quels effets si c’est là ?",
+          "texte": "explique les incidences des actions humaines sur l’espace à différentes échelles (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "identifie les incidences des actions humaines sur l’espace"
+        },
+        {
+          "fin": "11e",
+          "notion": "Organisation de l'espace : comment les sociétés organisent-elles l'espace en fonction des buts recherchés ?",
+          "texte": "explique certains des enjeux et interactions de l’implantation humaine (Niv 2)"
+        },
+        {
+          "fin": "11e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "texte": "localise un phénomène et le repère à différentes échelles"
+        },
+        {
+          "fin": "11e",
+          "notion": "Échelle : à quelle échelle raisonne-t-on ? quelles sont les conséquences d’un changement d’échelle ?",
+          "texte": "établit les relations entre les différentes échelles par rapport au phénomène étudié (Niv 2)"
+        }
+      ],
+      "indications_annee": [
+        {
+          "notion": "Appropriation d'outils et de repères spatiaux",
+          "texte": "(Cf. description de ces apprentissages dans les pages de chaque année du cycle : 9e année, 10e année, 11e année)"
+        }
+      ]
+    },
+    {
+      "source": "https://portail.ciip.ch/per/learning-objectives/157",
+      "code": "SHS 33",
+      "axe": "Outils et méthodes de recherche",
+      "titre": "S'approprier, en situation, des outils et des pratiques de recherche appropriés aux problématiques des sciences humaines et sociales",
+      "composantes": [
+        "A. en produisant des documents (notes de synthèse, synopsis, schéma, tableau…) à partir de ressources documentaires (textes historiques de toute sorte, collections d’objets, données statistiques,…)",
+        "B. en classant et en synthétisant de manière critique les ressources documentaires",
+        "C. en formulant des hypothèses et en recherchant des solutions pratiques",
+        "D. en replaçant les faits dans leur contexte historique et géographique",
+        "E. en représentant des organisations avec des cartes topographiques et thématiques de différentes échelles, ainsi qu’avec des représentations graphiques de données statistiques",
+        "F. en formalisant et en communiquant, dans des situations significatives, le résultat de ses recherches",
+        "G. en mobilisant un langage spécifique au champ des sciences humaines"
+      ],
+      "progressions": [
+        {
+          "annee": "9e-11e",
+          "notion": "",
+          "contenu": [
+            "Cet objectif n'est pas travaillé pour lui-même. Il s'active dans les autres axes seulement."
+          ]
+        }
+      ],
+      "attentes_fondamentales": []
+    }
+  ]
+}

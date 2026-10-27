@@ -1,0 +1,1123 @@
+{
+  "canton": "FR",
+  "documents": [
+    {
+      "titre": "Grille horaire du CO dès 2014-2015",
+      "fichier": "pdf/grille_horaire_CO_francophone.pdf",
+      "url": "https://www.fr.ch/document/347831",
+      "annee_scolaire": "2014-2015 (dès)"
+    },
+    {
+      "titre": "Directives de la Direction de l’instruction publique, de la culture et du sport du 13 octobre 2016 relatives aux changements de type de classe et à la perméabilité à l’école du cycle d’orientation",
+      "fichier": "pdf/directives_changement_type_classe.pdf",
+      "url": "https://www.fr.ch/document/35296",
+      "annee_scolaire": "2017/18 (entrée en vigueur à la rentrée scolaire)"
+    },
+    {
+      "titre": "Scolarité obligatoire – Parcours scolaire 1H – 11H (1er août 2022)",
+      "fichier": "pdf/parcours_scolaire.pdf",
+      "url": "https://www.fr.ch/document/481386",
+      "annee_scolaire": "INTROUVABLE"
+    },
+    {
+      "titre": "L’Ecole du Cycle d’orientation – Informations à l’intention des parents (Edition 2025)",
+      "fichier": "pdf/CO_informations_parents.pdf",
+      "url": "https://www.fr.ch/document/466176",
+      "annee_scolaire": "INTROUVABLE"
+    }
+  ],
+  "grille_horaire": [
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 6,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Français",
+      "periodes": 5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Allemand",
+      "periodes": 4,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Allemand",
+      "periodes": 3,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Anglais",
+      "periodes": 3,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Latin",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Latin",
+      "periodes": 4,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Latin",
+      "periodes": 4,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Grec",
+      "periodes": 2,
+      "filiere": "PGL",
+      "note": "a Deux unités de grec ou une unité d’éthique et cultures religieuses et une unité d’arts visuels"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Mathématiques",
+      "periodes": 4,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 6,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Mathématiques",
+      "periodes": 5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Sciences de la nature",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Sciences de la nature",
+      "periodes": 2,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Géographie",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Géographie",
+      "periodes": 2,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Histoire",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie / Histoire",
+      "periodes": 3,
+      "filiere": "EB",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie / Histoire",
+      "periodes": 3,
+      "filiere": "G",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie / Histoire",
+      "periodes": 3,
+      "filiere": "PG",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Géographie / Histoire",
+      "periodes": 3,
+      "filiere": "PGL",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Citoyenneté",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Citoyenneté",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Citoyenneté",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Citoyenneté",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éthique et cultures religieuses",
+      "periodes": 1,
+      "filiere": "PGL",
+      "note": "a Deux unités de grec ou une unité d’éthique et cultures religieuses et une unité d’arts visuels"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Enseignement religieux",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Enseignement religieux",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Enseignement religieux",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Enseignement religieux",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "EB",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "G",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "PG",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "EB",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "G",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "PG",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éthique et cultures religieuses / Enseignement religieux",
+      "periodes": 1,
+      "filiere": "PGL",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles / Arts visuels",
+      "periodes": 2,
+      "filiere": "EB",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Activités créatrices et manuelles / Arts visuels",
+      "periodes": 2,
+      "filiere": "EB",
+      "note": "cellule commune aux disciplines nommées (dotation globale)"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Activités créatrices et manuelles",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Arts visuels",
+      "periodes": 1,
+      "filiere": "PGL",
+      "note": "a Deux unités de grec ou une unité d’éthique et cultures religieuses et une unité d’arts visuels"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Musique",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Éducation physique",
+      "periodes": 3,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "EB"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "G"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 2,
+      "filiere": "PG"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Économie familiale",
+      "periodes": 1,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Formation générale",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Formation générale",
+      "periodes": 0.5,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Formation générale",
+      "periodes": 0.5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Formation générale",
+      "periodes": null,
+      "filiere": "EB",
+      "note": "*c En principe, une heure d’étude/informations aux titulaires afin de donner du temps hors enseignement pour la gestion de la classe"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Formation générale",
+      "periodes": null,
+      "filiere": "G",
+      "note": "*c En principe, une heure d’étude/informations aux titulaires afin de donner du temps hors enseignement pour la gestion de la classe"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Formation générale",
+      "periodes": null,
+      "filiere": "PG",
+      "note": "*c En principe, une heure d’étude/informations aux titulaires afin de donner du temps hors enseignement pour la gestion de la classe"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Formation générale",
+      "periodes": null,
+      "filiere": "PGL",
+      "note": "*c En principe, une heure d’étude/informations aux titulaires afin de donner du temps hors enseignement pour la gestion de la classe"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "9e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "EB"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Informatique",
+      "periodes": 1,
+      "filiere": "G"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Informatique",
+      "periodes": 0.5,
+      "filiere": "PG"
+    },
+    {
+      "annee": "10e",
+      "discipline": "Informatique",
+      "periodes": 0.5,
+      "filiere": "PGL"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Choix propre à l’école",
+      "periodes": 2,
+      "filiere": "EB",
+      "note": "Option – b Économie (offre obligatoire), dessin technique, italien, MITIC, travaux pratiques de sciences"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Choix propre à l’école",
+      "periodes": 2,
+      "filiere": "G",
+      "note": "Option – b Économie (offre obligatoire), dessin technique, italien, MITIC, travaux pratiques de sciences"
+    },
+    {
+      "annee": "11e",
+      "discipline": "Choix propre à l’école",
+      "periodes": 1,
+      "filiere": "PG",
+      "note": "Option – b Économie (offre obligatoire), dessin technique, italien, MITIC, travaux pratiques de sciences"
+    }
+  ],
+  "niveaux_filieres": [],
+  "repartition_par_annee": [],
+  "evaluations": [
+    {
+      "annee": "1re-2e",
+      "discipline": "toutes",
+      "type": "bulletin scolaire (texte général)",
+      "texte": "En 1H et 2H, le bulletin scolaire indique par un texte général les domaines et thématiques travaillés ainsi que la date de l’entretien entre les parents et les enseignant-e-s titulaires durant lequel ceux-ci/celles-ci présentent la progression des apprentissages de l’élève en se basant sur leurs observations et les traces des élèves."
+    },
+    {
+      "annee": "3e-4e",
+      "discipline": "toutes",
+      "type": "appréciations",
+      "texte": "En 3H et 4H, le niveau d’atteinte des objectifs d’apprentissage est évalué par des appréciations selon l’échelle suivante : Les objectifs d’apprentissage sont maîtrisés avec aisance. Les objectifs d’apprentissage sont maîtrisés. Les objectifs d’apprentissage sont atteints. Les objectifs d’apprentissage sont non atteints."
+    },
+    {
+      "annee": "5e-8e",
+      "discipline": "toutes",
+      "type": "notes de 6 à 3",
+      "texte": "De la 5H à la 8H, le niveau d’atteinte des objectifs d’apprentissage est évalué par des notes (de 6 à 3) selon l’échelle suivante : 6 = Les connaissances et les compétences de l’élève sont maîtrisées et peuvent être mobilisées dans de nouvelles situations complexes. 5 = Les connaissances et compétences sont présentes et peuvent être mobilisées dans des situations nouvelles. 4 = Les connaissances et les compétences de base sont présentes et peuvent être mobilisées dans des situations exercées et/ou familières. Elles permettent à l’élève de poursuivre ses apprentissages. 3 = Les connaissances et les compétences de base ne sont pas présentes et ne sont pas suffisamment mobilisables dans des situations familières. Ces manques peuvent entraver la poursuite des apprentissages. Les notes figurent au demi ou à l’entier sur les évaluations comme dans le bulletin scolaire."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "notes de 6 à 1",
+      "texte": "Au cycle 3, le niveau d’atteinte des objectifs d’apprentissage est évalué par des notes (de 6 à 1), selon l’échelle suivante : 6 = Les connaissances et les compétences de l’élève sont maîtrisées et peuvent être mobilisées dans de nouvelles situations complexes. 5 = Les connaissances et compétences sont présentes et peuvent être mobilisées dans des situations nouvelles. 4 = Les connaissances et les compétences de base sont présentes et peuvent être mobilisées dans des situations exercées et/ou familières. Elles permettent à l’élève de poursuivre ses apprentissages. 3 = Les connaissances et les compétences de base ne sont pas toujours présentes et ne sont pas suffisamment mobilisables dans des situations familières. Ces manques peuvent entraver la poursuite des apprentissages. <3 = Les connaissances et les compétences de base ne sont pas présentes et ne peuvent pas être mobilisées dans des situations familières. Ces manques entravent clairement la poursuite des apprentissages. Les notes figurent au demi ou à l’entier sur les évaluations comme dans le bulletin scolaire."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "évaluation des apprentissages",
+      "texte": "Les résultats, exprimés en nombre de points sur un total donné, sont traduits ensuite sur une échelle de notes allant de 1 à 6 qui sont données au demi-point; la note 4 indique le seuil de suffisance."
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français, Allemand, Mathématiques, SN-SHS",
+      "type": "préorientation – Indicateur B",
+      "texte": "Indicateur B Les notes du premier semestre de 8H. Les résultats en français, allemand, mathématiques et SN-SHS sont pris en compte."
+    },
+    {
+      "annee": "8e",
+      "discipline": "Français, Mathématiques",
+      "type": "évaluation de préorientation – Indicateur D",
+      "texte": "Les élèves dont les indicateurs A, B et C ne concordent pas effectuent une évaluation de préorientation dans deux disciplines (français et mathématiques)."
+    },
+    {
+      "annee": "11e",
+      "discipline": "toutes",
+      "type": "évaluations cantonales",
+      "texte": "Des évaluations cantonales de fin de scolarité obligatoire ont lieu en fin de 11H dans certaines disciplines. D’autres tests de portée intercantonale peuvent avoir lieu au cours du cycle 3."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "Français, Mathématiques, Allemand, Anglais, Sciences de la nature, Latin, Géographie, Histoire",
+      "type": "changement de type de classe – disciplines prises en considération",
+      "texte": "La décision s’appuie sur la somme des moyennes des notes figurant au bulletin scolaire en français (1x), mathématiques (1x), allemand et anglais (moyenne 1x), sciences de la nature (ou latin pour les élèves en PGL), géographie et histoire (moyenne 1x)."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "changement vers un type de classe plus exigeant",
+      "texte": "Avec l’accord des parents et de l’élève, ce dernier ou cette dernière peut passer dans un type de classe plus exigeant lorsque l’évaluation globale va dans ce sens, que la somme des moyennes des disciplines mentionnées à l’article 3 atteint 21 points et que les notes du bulletin en français et en mathématiques sont suffisantes."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "changement vers un type de classe moins exigeant",
+      "texte": "L’élève passe dans un type de classe moins exigeant lorsque l’évaluation globale va dans ce sens, que la somme des moyennes des disciplines mentionnées à l’article 3 atteint moins de 16 points ou que les notes du bulletin en français et en mathématiques sont insuffisantes."
+    },
+    {
+      "annee": "9e-11e",
+      "discipline": "toutes",
+      "type": "changement de type de classe – moment",
+      "texte": "Le changement a lieu en principe au terme de chaque semestre. En 9H, un changement en cours d’année est toutefois possible, en particulier durant le premier semestre, s’il s’avère que la décision de préorientation n’est pas judicieuse."
+    }
+  ],
+  "filieres": [
+    {
+      "code": "EB",
+      "nom": "classes à exigences de base",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "G",
+      "nom": "classes générales",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "PG",
+      "nom": "classes prégymnasiales",
+      "annees": [
+        "9e",
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "PGL",
+      "nom": "PGL «latin»",
+      "annees": [
+        "10e",
+        "11e"
+      ]
+    },
+    {
+      "code": "PGS",
+      "nom": "PGS «sciences de la nature»",
+      "annees": [
+        "10e",
+        "11e"
+      ]
+    }
+  ]
+}

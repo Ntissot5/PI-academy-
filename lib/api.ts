@@ -2,10 +2,13 @@
 import { pb } from "./pb";
 import type { Progression } from "./mastery";
 
-export interface DayStat { date: string; minutes: number }
+/** gel : jour manqué couvert par un gel de série. */
+export interface DayStat { date: string; minutes: number; gel?: boolean }
 export interface Stats {
   xp: number;
   streak: number;
+  /** Gels de série en réserve (1 tous les 7 jours d'affilée, 2 au plus). */
+  gels?: number;
   today: string;
   minutesToday: number;
   goal: number;
@@ -30,6 +33,8 @@ export interface Parcours {
   annee_max: number;
   cantons: string[] | null;
   statut: "publie" | "a_valider" | "";
+  /** Parcours créé depuis le PER : un par année et par discipline. */
+  auto?: boolean;
 }
 
 export interface Matiere { id: string; slug: string; nom: string; domaine: string; icone: string; ordre: number }
@@ -46,6 +51,13 @@ export interface Unite {
   image: string;
   piege: string;
   icone: string;
+  /** bientot : notion PER sans exercice encore, visible mais verrouillée. */
+  statut?: "actif" | "bientot" | "";
+  per_codes?: string[];
+  /** Clés des progressions officielles (collection per_notion). */
+  per_notions?: string[];
+  annee?: string;
+  tag?: string;
   progression: Progression | null;
 }
 
@@ -60,7 +72,18 @@ export interface SeriePayload {
   reponses: Reponse[];
   terminee: boolean;
 }
-export interface SerieResult { xp: number; bonus: number; valide: boolean; nouveau: boolean; stats: Stats }
+export interface SerieResult {
+  xp: number; bonus: number; valide: boolean; nouveau: boolean; stats: Stats;
+  /** Présent quand la série était une révision prévue. */
+  revision?: { reussie: boolean; prochaine: string; intervalle: number };
+}
+
+/** Unités à réviser aujourd'hui (répétition espacée), dans tous les parcours ouverts à l'utilisateur. */
+export interface Revision {
+  parcours: string; parcours_titre: string; ordre: number; titre: string; icone: string; id_generateur: string;
+  revision_le: string; intervalle: number;
+}
+export const getRevisions = () => pb().send<{ today: string; revisions: Revision[] }>("/api/pi/revisions", {});
 
 export const getEtat = (slug: string) =>
   pb().send<Etat>("/api/pi/etat", { query: { parcours: slug } });
@@ -126,8 +149,11 @@ export const eleveConnexion = (b: EleveAuth) => eleveAuth("/api/pi/eleve/connexi
 /* ---------- prof ---------- */
 
 export interface Classe { id: string; nom: string; code: string; parcours_assignes: string[]; prof: string; canton: string }
-export interface BoardUnite { id: string; ordre: number; titre: string; id_generateur: string; icone: string }
-export interface BoardParcours { id: string; slug: string; titre: string; ordre: number; unites: BoardUnite[] }
+export interface BoardUnite {
+  id: string; ordre: number; titre: string; id_generateur: string; icone: string;
+  statut?: string; per_codes?: string[]; annee?: string;
+}
+export interface BoardParcours { id: string; slug: string; titre: string; ordre: number; matiere?: string; annee_min?: number; annee_max?: number; unites: BoardUnite[] }
 export interface BoardEleve {
   id: string;
   pseudo: string;
@@ -154,3 +180,16 @@ export const lastErrors = (eleve: string) =>
 export const resetPin = (eleve: string, pin: string) =>
   pb().send(`/api/pi/prof/eleve/${eleve}/pin`, { method: "POST", body: { pin } });
 export const removeEleve = (eleve: string) => pb().collection("users").delete(eleve);
+
+/* ---------- Plan d'études romand : texte officiel (prof, admin) ---------- */
+
+export interface PerNotion {
+  id: string; cle: string; code: string; discipline: string; cycle: number;
+  annee_debut: number; annee_fin: number; notion: string; contenu: string[]; niveau: string; source_url: string; ordre: number;
+}
+/** Progressions officielles d'une unité, dans l'ordre du PER. */
+export function getPerNotions(cles: string[]) {
+  const ok = cles.filter((c) => /^[0-9a-f]{12}$/.test(c)).slice(0, 60);
+  if (!ok.length) return Promise.resolve([] as PerNotion[]);
+  return pb().collection("per_notion").getFullList<PerNotion>({ filter: ok.map((c) => `cle = "${c}"`).join(" || "), sort: "ordre" });
+}
