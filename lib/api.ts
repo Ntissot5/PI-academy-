@@ -2,10 +2,13 @@
 import { pb } from "./pb";
 import type { Progression } from "./mastery";
 
-export interface DayStat { date: string; minutes: number }
+/** gel : jour manqué couvert par un gel de série. */
+export interface DayStat { date: string; minutes: number; gel?: boolean }
 export interface Stats {
   xp: number;
   streak: number;
+  /** Gels de série en réserve (1 tous les 7 jours d'affilée, 2 au plus). */
+  gels?: number;
   today: string;
   minutesToday: number;
   goal: number;
@@ -69,7 +72,18 @@ export interface SeriePayload {
   reponses: Reponse[];
   terminee: boolean;
 }
-export interface SerieResult { xp: number; bonus: number; valide: boolean; nouveau: boolean; stats: Stats }
+export interface SerieResult {
+  xp: number; bonus: number; valide: boolean; nouveau: boolean; stats: Stats;
+  /** Présent quand la série était une révision prévue. */
+  revision?: { reussie: boolean; prochaine: string; intervalle: number };
+}
+
+/** Unités à réviser aujourd'hui (répétition espacée), dans tous les parcours ouverts à l'utilisateur. */
+export interface Revision {
+  parcours: string; parcours_titre: string; ordre: number; titre: string; icone: string; id_generateur: string;
+  revision_le: string; intervalle: number;
+}
+export const getRevisions = () => pb().send<{ today: string; revisions: Revision[] }>("/api/pi/revisions", {});
 
 export const getEtat = (slug: string) =>
   pb().send<Etat>("/api/pi/etat", { query: { parcours: slug } });

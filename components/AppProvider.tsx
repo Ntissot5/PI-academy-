@@ -35,6 +35,13 @@ export function AppProvider({ children }: { children: ReactNode }) {
     try { setStats(await getStats()); } catch { /* hors ligne : on garde l'affichage */ }
   }, []);
 
+  // App installable et utilisable hors ligne (public/sw.js), seulement sur le vrai site.
+  useEffect(() => {
+    if (process.env.NODE_ENV !== "production" || process.env.NEXT_PUBLIC_E2E === "1") return;
+    if (!("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;
+    navigator.serviceWorker.register("/sw.js").catch(() => { /* navigateur sans service worker : sans importance */ });
+  }, []);
+
   useEffect(() => {
     const store = pb().authStore;
     const sync = () => {

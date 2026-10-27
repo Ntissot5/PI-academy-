@@ -5,6 +5,7 @@ import { useApp } from "@/components/AppProvider";
 import { CantonPicker } from "@/components/CantonPicker";
 import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
+import { RevisionsDuJour } from "@/components/Revisions";
 import { cantonByCode } from "@/lib/cantons";
 import { fitsCanton } from "@/lib/catalogue";
 import { img } from "@/lib/icons";
@@ -44,6 +45,7 @@ export default function Catalogue() {
 
       {canton && (
         <>
+          <RevisionsDuJour />
           <div className="mat-grid" role="list">
             {tiles.map(({ m, n, fit }) => (
               <button key={m.id} type="button" role="listitem" className="mat-tile" onClick={() => router.push(`/matiere/${m.slug}`)}>

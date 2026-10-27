@@ -7,6 +7,7 @@
 import seed from "../../pocketbase/seed/parcours.json";
 import seedPer from "../../pocketbase/seed/parcours-per.json";
 import perNotions from "../../data/per/per_notions.json";
+import { prochainIntervalle, serieAvecGels } from "./memoire";
 
 type Rec = Record<string, any> & { id: string; collectionName: string; created: string; updated: string };
 interface Store { db: Record<string, Rec[]>; pw: Record<string, string> }
@@ -113,7 +114,7 @@ function seedStore(): Store {
   const units = T("unites").filter((u) => u.parcours === bySlug["9e-bases"].id).sort((a, b) => a.ordre - b.ordre);
   const today = zurichDate();
   const DEMO: [string, number, Record<string, any>[], number[], boolean][] = [
-    ["Démo-Alex", 380, [{ u: 0, lecon_lue: true, nb_entrainements: 2, meilleur_entrainement: 9, nb_boss: 1, meilleur_boss: 9, valide: true }, { u: 1, lecon_lue: true, nb_entrainements: 1, meilleur_entrainement: 8 }, { u: 2, lecon_lue: true }], [0, 1, 2], false],
+    ["Démo-Alex", 380, [{ u: 0, lecon_lue: true, nb_entrainements: 2, meilleur_entrainement: 9, nb_boss: 1, meilleur_boss: 9, valide: true, revision_le: today, intervalle: 1 }, { u: 1, lecon_lue: true, nb_entrainements: 1, meilleur_entrainement: 8 }, { u: 2, lecon_lue: true }], [0, 1, 2], false],
     ["Démo-Sam", 210, [{ u: 0, lecon_lue: true, nb_entrainements: 3, meilleur_entrainement: 8, nb_boss: 2, meilleur_boss: 6, boss_rates: 2 }], [0, 3], true],
     ["Démo-Lou", 40, [{ u: 0, lecon_lue: true, nb_entrainements: 1, meilleur_entrainement: 4 }], [10], false],
   ];
@@ -321,13 +322,11 @@ function userStats(uid: string) {
     days[s.date] = (days[s.date] || 0) + (s.minutes || 0);
     answered += s.total || 0;
   }
-  let d = today, streak = 0;
-  if (!(days[d] > 0)) d = addDays(d, -1);
-  while (days[d] > 0) { streak++; d = addDays(d, -1); }
+  const serie = serieAvecGels(days, today);
   const cal = [];
-  for (let i = 27; i >= 0; i--) { const k = addDays(today, -i); cal.push({ date: k, minutes: Math.round((days[k] || 0) * 10) / 10 }); }
+  for (let i = 27; i >= 0; i--) { const k = addDays(today, -i); cal.push({ date: k, minutes: Math.round((days[k] || 0) * 10) / 10, gel: serie.geles.includes(k) }); }
   const u = T("users").find((x) => x.id === uid);
-  return { xp: u?.xp ?? 0, streak, today, minutesToday: Math.round(days[today] || 0), goal: GOAL, days: cal, answered };
+  return { xp: u?.xp ?? 0, streak: serie.streak, gels: serie.gels, today, minutesToday: Math.round(days[today] || 0), goal: GOAL, days: cal, answered };
 }
 
 function canOpen(u: Rec, p: Rec) {
@@ -358,7 +357,7 @@ function etat(slug?: string) {
     stats, canton, matiere: m ? { slug: m.slug, nom: m.nom } : null, parcours: pub(p!),
     unites: sorted(T("unites").filter((x) => x.parcours === p!.id), "ordre").map((x) => {
       const pr = progOf(u.id, x.id);
-      return { ...pub(x), progression: pr ? { meilleur_entrainement: pr.meilleur_entrainement, meilleur_boss: pr.meilleur_boss, nb_entrainements: pr.nb_entrainements, nb_boss: pr.nb_boss, valide: pr.valide, lecon_lue: pr.lecon_lue } : null };
+      return { ...pub(x), progression: pr ? { meilleur_entrainement: pr.meilleur_entrainement, meilleur_boss: pr.meilleur_boss, nb_entrainements: pr.nb_entrainements, nb_boss: pr.nb_boss, valide: pr.valide, lecon_lue: pr.lecon_lue, revision_le: pr.revision_le ?? "", intervalle: pr.intervalle ?? 0 } : null };
     }),
   };
 }
@@ -394,12 +393,20 @@ function serie(body: any) {
   if (finished && !s.terminee) {
     s.terminee = true;
     const pr = ensureProg(u.id, unite!.id);
+    const today = zurichDate();
+    if (pr.valide && pr.revision_le && pr.revision_le <= today) {
+      const iv = prochainIntervalle(pr.intervalle || 0, s.bonnes >= PASS);
+      pr.intervalle = iv;
+      pr.revision_le = addDays(today, iv);
+      pr.nb_revisions = (pr.nb_revisions || 0) + 1;
+      out.revision = { reussie: s.bonnes >= PASS, prochaine: pr.revision_le, intervalle: iv };
+    }
     if (mode === "boss") {
       pr.nb_boss++;
       pr.meilleur_boss = Math.max(pr.meilleur_boss, s.bonnes);
       if (s.bonnes >= PASS) {
         out.valide = true;
-        if (!pr.valide) { pr.valide = true; xp += XP_BOSS; out.bonus = XP_BOSS; out.nouveau = true; }
+        if (!pr.valide) { pr.valide = true; pr.intervalle = 1; pr.revision_le = addDays(today, 1); xp += XP_BOSS; out.bonus = XP_BOSS; out.nouveau = true; }
       } else pr.boss_rates++;
     } else {
       pr.nb_entrainements++;
@@ -414,6 +421,20 @@ function serie(body: any) {
   emit("sessions", "update", s);
   out.stats = userStats(u.id);
   return out;
+}
+
+/** Révisions du jour : comme la route /api/pi/revisions du serveur. */
+function revisions() {
+  const u = requireAuth();
+  const today = zurichDate();
+  const out = [];
+  for (const pr of sorted(T("progressions").filter((p) => p.utilisateur === u.id && p.valide && p.revision_le && p.revision_le <= today), "revision_le").slice(0, 50)) {
+    const un = T("unites").find((x) => x.id === pr.unite);
+    const pc = un && T("parcours").find((x) => x.id === un.parcours);
+    if (!un || !pc || !canOpen(u, pc)) continue;
+    out.push({ parcours: pc.slug, parcours_titre: pc.titre, ordre: un.ordre, titre: un.titre, icone: un.icone, id_generateur: un.id_generateur, revision_le: pr.revision_le, intervalle: pr.intervalle });
+  }
+  return { today, revisions: out };
 }
 
 function lecon(body: any) {
@@ -524,6 +545,7 @@ export default class PocketBase {
     const body = opts.body ?? {};
     const m = path.match(/^\/api\/pi\/prof\/(classe|eleve)\/([^/]+)(\/pin)?$/);
     if (path === "/api/pi/etat") return etat(opts.query?.parcours) as R;
+    if (path === "/api/pi/revisions") return revisions() as R;
     if (path === "/api/pi/serie") return serie(body) as R;
     if (path === "/api/pi/lecon") return lecon(body) as R;
     if (path === "/api/pi/eleve/rejoindre") return rejoindre(body) as R;

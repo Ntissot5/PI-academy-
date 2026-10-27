@@ -4,10 +4,11 @@ import { useParams, useRouter } from "next/navigation";
 import { useApp } from "@/components/AppProvider";
 import { Loading } from "@/components/Loading";
 import { Pi } from "@/components/Pi";
+import { RevisionsDuJour } from "@/components/Revisions";
 import { DEFAULT_ICON } from "@/lib/generators";
 import { isBientot, isFinal, unlocked, useEtat } from "@/lib/hooks";
 import { img } from "@/lib/icons";
-import { LVL, courseMastery, mastery } from "@/lib/mastery";
+import { LVL, aReviser, courseMastery, mastery } from "@/lib/mastery";
 import { DAILY_GOAL } from "@/lib/config";
 import type { Unite } from "@/lib/api";
 
@@ -83,17 +84,18 @@ export default function Dashboard() {
                 </svg>
                 <b>{m}′</b>
               </div>
-              <div><h3>Objectif du jour : {DAILY_GOAL} min</h3><p className="small">{stats.streak} jour{stats.streak > 1 ? "s" : ""} de suite · {stats.answered} questions faites</p></div>
+              <div><h3>Objectif du jour : {DAILY_GOAL} min</h3><p className="small">{stats.streak} jour{stats.streak > 1 ? "s" : ""} de suite · {stats.answered} questions faites{stats.gels ? <> · <span className="gels" title="Un gel protège ta série si tu manques un jour. Tu en gagnes un tous les 7 jours d’affilée (2 au plus).">{stats.gels} gel{stats.gels > 1 ? "s" : ""} de série</span></> : null}</p></div>
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: 6, minWidth: 0 }}>
               <div className="days">
                 {stats.days.map((d, i) => (
-                  <i key={d.date} className={`${d.minutes >= DAILY_GOAL ? "f" : d.minutes > 0 ? "p" : ""} ${i === stats.days.length - 1 ? "t" : ""}`} title={`${d.date} : ${Math.round(d.minutes)} min`} />
+                  <i key={d.date} className={`${d.minutes >= DAILY_GOAL ? "f" : d.minutes > 0 ? "p" : d.gel ? "g" : ""} ${i === stats.days.length - 1 ? "t" : ""}`} title={d.gel ? `${d.date} : jour sauvé par un gel de série` : `${d.date} : ${Math.round(d.minutes)} min`} />
                 ))}
               </div>
               <div className="small" style={{ display: "flex", justifyContent: "space-between" }}><span>il y a 4 semaines</span><span>aujourd’hui</span></div>
             </div>
           </div>
+          <RevisionsDuJour parcours={slug} />
           <div className="sec-h"><h2>Unités{nBientot || nClasse ? <span className="small"> · {actives.length} avec exercices{nClasse ? `, ${nClasse} en classe` : ""}{nBientot ? `, ${nBientot} bientôt` : ""}</span> : null}</h2>
             <div className="legend">{[0, 1, 2, 3].map((k) => <span key={k}><i className={k ? `lv${k}` : ""} />{LVL[k]}</span>)}</div>
           </div>
@@ -112,7 +114,7 @@ export default function Dashboard() {
               return (
                 <button key={u.id} className={`unit ${lk ? "lk" : ""} ${f ? "final" : ""}`} onClick={() => open(i)} aria-disabled={lk || undefined}>
                   <span className="ic"><img src={img(icon(u))} alt="" />{lk && <img className="lock" src={img("lock")} alt="Verrouillé" />}</span>
-                  <span className="meta"><span className="num">{f ? "Examen final" : `Unité ${i + 1}`}</span><h3>{u.titre}</h3><p>{u.sous_titre}</p>
+                  <span className="meta"><span className="num">{f ? "Examen final" : `Unité ${i + 1}`}{aReviser(p(u), stats.today) && <span className="badge rev">À réviser</span>}</span><h3>{u.titre}</h3><p>{u.sous_titre}</p>
                     <span className="skills">
                       <span><i className={lv >= 1 ? "lv1" : ""} />Leçon</span>
                       <span><i className={lv >= 2 ? "lv2" : ""} />Entraînement {p(u)?.nb_entrainements ? `${p(u)!.meilleur_entrainement}/10` : ""}</span>

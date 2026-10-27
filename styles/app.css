@@ -174,3 +174,18 @@ a.unit{text-decoration:none;color:inherit}
 .board th .per-code{display:block;font-size:.62rem;font-weight:600;color:var(--muted);white-space:nowrap}
 .site-foot{max-width:1120px;margin:8px auto 28px;padding:0 16px;font-size:.75rem;color:var(--muted);text-align:center}
 .per-off .per-canton{display:block;margin-top:10px}.per-off .per-canton select{font:inherit;padding:2px 6px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink)}
+
+/* Révisions du jour (répétition espacée) et gels de série */
+.revisions{margin:0 0 18px}
+.rev-list{display:flex;flex-direction:column;gap:8px}
+.rev-row{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;cursor:pointer}
+.rev-row img{width:32px;height:32px}
+.rev-row .go{margin-left:auto;color:var(--brand);font-weight:700;font-size:.85rem;white-space:nowrap}
+.days i.g{background:repeating-linear-gradient(45deg,var(--ice),var(--ice) 3px,var(--m1) 3px,var(--m1) 6px)}
+.badge.rev{background:var(--ice);color:var(--brand)}
+.gels{font-weight:700;color:var(--brand)}
+
+/* Lecture à voix haute */
+.voix{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:8px 0 4px}
+.voix-btn{font:inherit;font-weight:700;font-size:.9rem;padding:6px 12px;border-radius:99px;border:1px solid var(--line);background:var(--ice);color:var(--brand);cursor:pointer}
+.voix label{display:flex;align-items:center;gap:6px;cursor:pointer}
